@@ -1,12 +1,1769 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Neuropsychology Portal</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+  <title>Neuropsychologia — Baza Wiedzy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:          #0f0e0c;
+      --bg-card:     #181610;
+      --bg-hover:    #201e17;
+      --line:        #2e2b22;
+      --gold:        #c9a84c;
+      --gold-light:  #e8c97a;
+      --gold-dim:    #7a5f25;
+      --text:        #e8e0d0;
+      --text-muted:  #8a8070;
+      --text-dim:    #5a5448;
+      --accent-blue: #5b9bd5;
+      --accent-teal: #4db6a3;
+      --accent-rose: #c97070;
+      --font-serif:  'Source Serif 4', Georgia, serif;
+      --font-display:'Playfair Display', Georgia, serif;
+      --font-mono:   'JetBrains Mono', monospace;
+      --nav-w:       280px;
+      --r:           8px;
+      --transition:  0.22s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 17px; }
+    body { background: var(--bg); color: var(--text); font-family: var(--font-serif); font-weight: 300; line-height: 1.75; min-height: 100vh; }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--gold-dim); border-radius: 3px; }
+    .layout { display: flex; min-height: 100vh; }
+
+    /* SIDEBAR */
+    .sidebar { width: var(--nav-w); min-width: var(--nav-w); background: var(--bg-card); border-right: 1px solid var(--line); position: sticky; top: 0; height: 100vh; overflow-y: auto; display: flex; flex-direction: column; z-index: 100; }
+    .sidebar-logo { padding: 28px 24px 20px; border-bottom: 1px solid var(--line); }
+    .sidebar-logo .logo-greek { font-family: var(--font-display); font-size: 1.75rem; color: var(--gold); letter-spacing: -0.02em; display: block; line-height: 1.1; }
+    .sidebar-logo .logo-sub { font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-muted); margin-top: 6px; }
+    .search-box { padding: 14px 16px 12px; border-bottom: 1px solid var(--line); }
+    .search-box input { width: 100%; background: var(--bg); border: 1px solid var(--line); border-radius: var(--r); padding: 8px 12px; font-family: var(--font-serif); font-size: 0.82rem; color: var(--text); outline: none; transition: border-color var(--transition); }
+    .search-box input::placeholder { color: var(--text-dim); }
+    .search-box input:focus { border-color: var(--gold-dim); }
+    .nav-section { padding: 14px 0 6px; }
+    .nav-section-label { padding: 0 16px 6px; font-size: 0.63rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--text-dim); }
+    .nav-item { display: flex; align-items: center; gap: 10px; padding: 9px 16px; cursor: pointer; font-size: 0.875rem; color: var(--text-muted); transition: background var(--transition), color var(--transition); border-left: 2px solid transparent; text-decoration: none; }
+    .nav-item:hover { background: var(--bg-hover); color: var(--text); }
+    .nav-item.active { background: var(--bg-hover); color: var(--gold-light); border-left-color: var(--gold); }
+    .nav-item .nav-icon { font-size: 1rem; flex-shrink: 0; width: 20px; text-align: center; }
+
+    /* MOBILE */
+    .nav-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.72); z-index: 90; }
+    .nav-toggle { display: none; position: fixed; top: 14px; left: 14px; z-index: 200; background: var(--bg-card); border: 1px solid var(--line); border-radius: 6px; padding: 8px 11px; cursor: pointer; color: var(--gold); font-size: 1.1rem; line-height: 1; }
+
+    /* MAIN */
+    .main { flex: 1; min-width: 0; }
+    .topbar { position: sticky; top: 0; background: rgba(15,14,12,0.93); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); padding: 13px 48px; z-index: 50; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    .topbar-title { font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .topbar-breadcrumb { font-size: 0.78rem; color: var(--gold); white-space: nowrap; }
+    .content-wrapper { max-width: 820px; margin: 0 auto; padding: 52px 48px 100px; }
+
+    /* HERO */
+    .page-hero { margin-bottom: 52px; padding-bottom: 36px; border-bottom: 1px solid var(--line); }
+    .page-hero .chapter-number { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.2em; color: var(--gold-dim); text-transform: uppercase; margin-bottom: 12px; }
+    .page-hero h1 { font-family: var(--font-display); font-size: clamp(2rem, 4.5vw, 3rem); font-weight: 800; color: var(--gold-light); line-height: 1.15; letter-spacing: -0.02em; margin-bottom: 18px; }
+    .page-hero .lead { font-size: 1.08rem; color: var(--text-muted); line-height: 1.82; font-weight: 300; max-width: 640px; }
+
+    /* TYPOGRAPHY */
+    .section { margin-bottom: 52px; }
+    .section:last-child { margin-bottom: 0; }
+    h2 { font-family: var(--font-display); font-size: clamp(1.35rem, 2.8vw, 1.8rem); font-weight: 600; color: var(--text); letter-spacing: -0.01em; line-height: 1.25; margin-bottom: 18px; padding-top: 6px; }
+    h2::before { content: ''; display: block; width: 28px; height: 2px; background: var(--gold); margin-bottom: 12px; }
+    h3 { font-family: var(--font-display); font-size: 1.12rem; font-weight: 600; font-style: italic; color: var(--gold-light); margin: 30px 0 11px; letter-spacing: 0.01em; }
+    h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--text-muted); margin: 26px 0 9px; }
+    p { margin-bottom: 1.1em; font-size: 1rem; line-height: 1.85; }
+    p:last-child { margin-bottom: 0; }
+    strong { font-weight: 600; color: var(--text); }
+    em { font-style: italic; color: var(--text-muted); }
+    .term { color: var(--gold-light); font-style: italic; }
+    .divider { border: none; border-top: 1px solid var(--line); margin: 38px 0; }
+
+    /* DEFINITION BLOCK */
+    .definition-block { background: var(--bg-card); border: 1px solid var(--line); border-left: 3px solid var(--gold); border-radius: var(--r); padding: 18px 22px; margin: 26px 0; }
+    .definition-block .def-term { font-family: var(--font-display); font-size: 1.02rem; font-weight: 600; color: var(--gold-light); margin-bottom: 7px; }
+    .definition-block p { font-size: 0.94rem; margin: 0; color: var(--text-muted); }
+
+    /* CALLOUTS */
+    .callout { border-radius: var(--r); padding: 16px 20px; margin: 26px 0; font-size: 0.94rem; display: flex; gap: 13px; align-items: flex-start; border: 1px solid; }
+    .callout .callout-icon { font-size: 1.05rem; flex-shrink: 0; margin-top: 2px; }
+    .callout-info  { background: rgba(91,155,213,0.07); border-color: rgba(91,155,213,0.3); color: #9dc3e0; }
+    .callout-tip   { background: rgba(77,182,163,0.07); border-color: rgba(77,182,163,0.3); color: #85cec0; }
+    .callout-warn  { background: rgba(201,120,80,0.07); border-color: rgba(201,120,80,0.3); color: #d4a080; }
+    .callout p { margin: 0; line-height: 1.7; }
+    .callout strong { color: inherit; }
+
+    /* CARDS */
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 13px; margin: 22px 0; }
+    .card { background: var(--bg-card); border: 1px solid var(--line); border-radius: var(--r); padding: 16px 18px; transition: border-color var(--transition), background var(--transition); }
+    .card:hover { border-color: var(--gold-dim); background: var(--bg-hover); }
+    .card .card-label { font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 5px; }
+    .card .card-title { font-family: var(--font-display); font-size: 0.98rem; font-weight: 600; color: var(--text); margin-bottom: 7px; line-height: 1.3; }
+    .card p { font-size: 0.84rem; color: var(--text-muted); line-height: 1.65; margin: 0; }
+
+    /* TABLE */
+    .table-wrap { overflow-x: auto; margin: 26px 0; border-radius: var(--r); border: 1px solid var(--line); }
+    table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+    thead tr { background: var(--bg-card); border-bottom: 2px solid var(--gold-dim); }
+    th { padding: 11px 15px; text-align: left; font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); font-weight: 500; white-space: nowrap; }
+    tbody tr { border-bottom: 1px solid var(--line); transition: background var(--transition); }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: var(--bg-hover); }
+    td { padding: 11px 15px; color: var(--text-muted); vertical-align: top; line-height: 1.6; }
+    td:first-child { color: var(--text); font-weight: 400; }
+
+    /* STEPS */
+    .steps { margin: 26px 0; }
+    .step { display: flex; gap: 18px; margin-bottom: 18px; align-items: flex-start; }
+    .step-num { width: 30px; height: 30px; min-width: 30px; border-radius: 50%; background: var(--bg-card); border: 1px solid var(--gold-dim); color: var(--gold); font-family: var(--font-mono); font-size: 0.78rem; display: flex; align-items: center; justify-content: center; margin-top: 2px; }
+    .step-body h4 { margin: 0 0 5px; }
+    .step-body p { margin: 0; font-size: 0.91rem; color: var(--text-muted); line-height: 1.7; }
+
+    /* BLOCKQUOTE */
+    blockquote { border-left: 2px solid var(--gold-dim); padding: 4px 0 4px 22px; margin: 26px 0; font-style: italic; color: var(--text-muted); font-size: 1.03rem; line-height: 1.8; }
+    blockquote cite { display: block; font-size: 0.78rem; letter-spacing: 0.08em; margin-top: 7px; font-style: normal; color: var(--text-dim); }
+
+    /* TAGS */
+    .tag-row { display: flex; flex-wrap: wrap; gap: 7px; margin: 14px 0; }
+    .tag { font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 4px 10px; border-radius: 20px; border: 1px solid; }
+    .tag-gold { color: var(--gold); border-color: var(--gold-dim); background: rgba(201,168,76,0.06); }
+    .tag-blue { color: var(--accent-blue); border-color: rgba(91,155,213,0.3); background: rgba(91,155,213,0.05); }
+    .tag-teal { color: var(--accent-teal); border-color: rgba(77,182,163,0.3); background: rgba(77,182,163,0.05); }
+    .tag-rose { color: var(--accent-rose); border-color: rgba(201,112,112,0.3); background: rgba(201,112,112,0.05); }
+
+    /* SECTION SEPARATOR */
+    .section-sep { display: flex; align-items: center; gap: 14px; margin: 44px 0 32px; }
+    .section-sep::before, .section-sep::after { content:''; flex:1; height:1px; background: var(--line); }
+    .section-sep span { font-size: 0.65rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--text-dim); white-space: nowrap; }
+
+    /* CLINICAL CASE CARD */
+    .case-card { background: var(--bg-card); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; margin: 28px 0; }
+    .case-header { padding: 18px 22px 14px; border-bottom: 1px solid var(--line); display: flex; align-items: flex-start; gap: 16px; }
+    .case-year { font-family: var(--font-mono); font-size: 0.72rem; color: var(--gold-dim); margin-bottom: 4px; letter-spacing: 0.1em; }
+    .case-name { font-family: var(--font-display); font-size: 1.18rem; font-weight: 600; color: var(--gold-light); line-height: 1.2; }
+    .case-body { padding: 20px 22px; }
+    .case-body p { font-size: 0.93rem; color: var(--text-muted); line-height: 1.8; margin-bottom: 0.9em; }
+    .case-body p:last-child { margin-bottom: 0; }
+    .case-meta { display: flex; flex-wrap: wrap; gap: 8px; padding: 12px 22px; border-top: 1px solid var(--line); background: rgba(0,0,0,0.15); }
+
+    /* WIKI GLOSSARY */
+    .wiki-filter { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 28px; }
+    .wiki-letter { font-family: var(--font-mono); font-size: 0.78rem; padding: 5px 10px; border-radius: 4px; border: 1px solid var(--line); color: var(--text-muted); cursor: pointer; transition: all var(--transition); background: transparent; }
+    .wiki-letter:hover, .wiki-letter.active { background: var(--gold-dim); color: var(--bg); border-color: var(--gold-dim); }
+    .wiki-group { margin-bottom: 36px; }
+    .wiki-group-letter { font-family: var(--font-display); font-size: 2rem; font-weight: 800; color: var(--gold); margin-bottom: 14px; border-bottom: 1px solid var(--line); padding-bottom: 8px; line-height: 1; }
+    .wiki-entry { padding: 14px 0; border-bottom: 1px solid rgba(46,43,34,0.5); }
+    .wiki-entry:last-child { border-bottom: none; }
+    .wiki-entry-term { font-family: var(--font-display); font-size: 1rem; font-weight: 600; color: var(--text); margin-bottom: 5px; }
+    .wiki-entry-def { font-size: 0.9rem; color: var(--text-muted); line-height: 1.72; }
+    .wiki-entry-def strong { color: var(--text); }
+    .wiki-hidden { display: none; }
+
+    /* TEST SCORE BAR */
+    .score-visual { margin: 8px 0 4px; }
+    .score-bar-wrap { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
+    .score-bar { height: 100%; border-radius: 3px; background: linear-gradient(90deg, var(--gold-dim), var(--gold)); }
+    .score-labels { display: flex; justify-content: space-between; font-size: 0.68rem; color: var(--text-dim); margin-top: 4px; font-family: var(--font-mono); }
+
+    /* PAGE SYSTEM */
+    .page { display: none; animation: fadePage 0.28s ease; }
+    .page.active { display: block; }
+    @keyframes fadePage { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* READING BAR */
+    .reading-bar { position: fixed; top:0; left:0; height: 2px; background: linear-gradient(90deg, var(--gold-dim), var(--gold)); z-index: 999; transition: width 0.1s linear; width: 0%; }
+
+    /* FOOTER */
+    .page-footer { margin-top: 60px; padding-top: 26px; border-top: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+    .page-footer .footer-note { font-size: 0.76rem; color: var(--text-dim); }
+    .btn-next { background: var(--bg-card); border: 1px solid var(--gold-dim); border-radius: 6px; color: var(--gold); font-size: 0.82rem; padding: 8px 18px; cursor: pointer; transition: background var(--transition), color var(--transition); font-family: var(--font-serif); }
+    .btn-next:hover { background: var(--gold-dim); color: var(--bg); }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      :root { --nav-w: 260px; }
+      .sidebar { position: fixed; top: 0; left: 0; bottom: 0; transform: translateX(-100%); box-shadow: 4px 0 32px rgba(0,0,0,0.5); transition: transform 0.25s cubic-bezier(0.4,0,0.2,1); }
+      .sidebar.open { transform: translateX(0); }
+      .nav-overlay.open { display: block; }
+      .nav-toggle { display: flex; align-items: center; justify-content: center; }
+      .topbar { padding: 12px 20px 12px 56px; }
+      .content-wrapper { padding: 36px 24px 72px; }
+    }
+    @media (max-width: 600px) {
+      html { font-size: 16px; }
+      .content-wrapper { padding: 28px 16px 64px; }
+      .card-grid { grid-template-columns: 1fr; }
+      .page-hero h1 { font-size: 1.85rem; }
+      .topbar { display: none; }
+      th, td { padding: 9px 11px; }
+      table { font-size: 0.82rem; }
+      .step { gap: 13px; }
+      .callout { padding: 13px 15px; font-size: 0.9rem; }
+      .wiki-filter { gap: 4px; }
+      .wiki-letter { padding: 4px 7px; font-size: 0.72rem; }
+    }
+    @media (max-width: 380px) {
+      html { font-size: 15px; }
+      .content-wrapper { padding: 20px 12px 56px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="reading-bar" id="readingBar"></div>
+<button class="nav-toggle" id="navToggle" aria-label="Otwórz menu">☰</button>
+<div class="nav-overlay" id="navOverlay"></div>
+
+<div class="layout">
+  <!-- ===== SIDEBAR ===== -->
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-logo">
+      <span class="logo-greek">Νευρο­ψυχολογία</span>
+      <div class="logo-sub">Baza Wiedzy · Wydanie III</div>
+    </div>
+    <div class="search-box">
+      <input type="search" id="searchInput" placeholder="Szukaj tematu…" autocomplete="off" />
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-label">Wprowadzenie</div>
+      <a class="nav-item active" data-page="intro" href="#"><span class="nav-icon">🧠</span> Czym jest neuropsychologia?</a>
+      <a class="nav-item" data-page="history" href="#"><span class="nav-icon">📜</span> Historia i tradycje</a>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-label">Anatomia Mózgu</div>
+      <a class="nav-item" data-page="anatomy" href="#"><span class="nav-icon">🔬</span> Budowa i płaty</a>
+      <a class="nav-item" data-page="neuron" href="#"><span class="nav-icon">⚡</span> Neuron i synapsa</a>
+      <a class="nav-item" data-page="systems" href="#"><span class="nav-icon">🕸️</span> Układy i drogi nerwowe</a>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-label">Psychologia Poznawcza</div>
+      <a class="nav-item" data-page="cogpsych" href="#"><span class="nav-icon">💭</span> Modele poznania</a>
+      <a class="nav-item" data-page="memory" href="#"><span class="nav-icon">💾</span> Pamięć</a>
+      <a class="nav-item" data-page="attention" href="#"><span class="nav-icon">🎯</span> Uwaga i czujność</a>
+      <a class="nav-item" data-page="language" href="#"><span class="nav-icon">💬</span> Język i mowa</a>
+      <a class="nav-item" data-page="executive" href="#"><span class="nav-icon">🧩</span> Funkcje wykonawcze</a>
+      <a class="nav-item" data-page="perception" href="#"><span class="nav-icon">👁️</span> Percepcja i gnozja</a>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-label">Zaburzenia</div>
+      <a class="nav-item" data-page="aphasia" href="#"><span class="nav-icon">🗣️</span> Afazje</a>
+      <a class="nav-item" data-page="amnesia" href="#"><span class="nav-icon">🫧</span> Amnezje</a>
+      <a class="nav-item" data-page="dementia" href="#"><span class="nav-icon">🌫️</span> Otępienia</a>
+      <a class="nav-item" data-page="tbi" href="#"><span class="nav-icon">⚠️</span> Urazy głowy (TBI)</a>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-label">Przypadki Kliniczne</div>
+      <a class="nav-item" data-page="cases" href="#"><span class="nav-icon">🗂️</span> Przegląd przypadków</a>
+      <a class="nav-item" data-page="case-hm" href="#"><span class="nav-icon">🫀</span> H.M. — amnezja</a>
+      <a class="nav-item" data-page="case-gage" href="#"><span class="nav-icon">🔩</span> Phineas Gage</a>
+      <a class="nav-item" data-page="case-tan" href="#"><span class="nav-icon">🗨️</span> „Tan" — Broca</a>
+      <a class="nav-item" data-page="case-split" href="#"><span class="nav-icon">🔀</span> Rozdzielony mózg</a>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-label">Testy</div>
+      <a class="nav-item" data-page="tests-overview" href="#"><span class="nav-icon">📋</span> Przegląd testów</a>
+      <a class="nav-item" data-page="tests-executive" href="#"><span class="nav-icon">♟️</span> Testy funkcji wyk.</a>
+      <a class="nav-item" data-page="tests-memory" href="#"><span class="nav-icon">📂</span> Testy pamięci</a>
+      <a class="nav-item" data-page="tests-screen" href="#"><span class="nav-icon">🔎</span> Testy przesiewowe</a>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-label">Diagnostyka</div>
+      <a class="nav-item" data-page="assessment" href="#"><span class="nav-icon">📊</span> Metody oceny</a>
+      <a class="nav-item" data-page="neuroimaging" href="#"><span class="nav-icon">🖼️</span> Neuroobrazowanie</a>
+    </div>
+
+    <div class="nav-section">
+      <div class="nav-section-label">Odniesienie</div>
+      <a class="nav-item" data-page="wiki" href="#"><span class="nav-icon">📖</span> WIKI — Słownik</a>
+    </div>
+  </nav>
+
+  <!-- ===== MAIN ===== -->
+  <main class="main" id="mainContent">
+    <div class="topbar">
+      <span class="topbar-title">Neuropsychologia — Baza Wiedzy</span>
+      <span class="topbar-breadcrumb" id="breadcrumb">Wprowadzenie</span>
+    </div>
+
+    <!-- ============================================================
+         PAGE: INTRO
+    ============================================================ -->
+    <div class="page active" id="page-intro">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Rozdział 01 · Wprowadzenie</div>
+          <h1>Czym jest neuropsychologia?</h1>
+          <p class="lead">Nauka na styku neurologii i psychologii, badająca związki między strukturą i funkcją mózgu a ludzkim zachowaniem, poznaniem i emocjami.</p>
+        </div>
+        <div class="section">
+          <h2>Definicja i zakres</h2>
+          <p><span class="term">Neuropsychologia</span> to gałąź nauki łącząca wiedzę z neurologii, psychologii eksperymentalnej i nauk poznawczych. Jej centralnym pytaniem jest: <strong>w jaki sposób konkretne obszary i układy mózgu odpowiadają za nasze myśli, emocje i działania?</strong></p>
+          <p>Współczesna neuropsychologia działa na dwóch poziomach. Na poziomie <em>klinicznym</em> zajmuje się diagnozowaniem i rehabilitacją osób po urazach mózgu, udarach czy chorobach neurodegeneracyjnych. Na poziomie <em>badawczym</em> — rozszyfrowuje mechanizmy leżące u podstaw normalnego funkcjonowania poznawczego, co dostarcza modeli teoretycznych dla całej psychologii.</p>
+          <div class="definition-block">
+            <div class="def-term">Neuropsychologia kliniczna</div>
+            <p>Specjalność stosowana, skupiająca się na ocenie, diagnozie i leczeniu zaburzeń funkcji poznawczych wynikających z uszkodzeń lub dysfunkcji ośrodkowego układu nerwowego. Neuropsycholog kliniczny opracowuje plan rehabilitacji i śledzi postępy pacjenta w czasie.</p>
+          </div>
+          <div class="definition-block">
+            <div class="def-term">Neuropsychologia eksperymentalna</div>
+            <p>Gałąź badawcza, która za pomocą starannie zaprojektowanych eksperymentów analizuje, jak mózg przetwarza informacje. Często stosuje paradygmaty zadaniowe z jednoczesnym neuroobrazowaniem (fMRI, EEG).</p>
+          </div>
+        </div>
+        <div class="section-sep"><span>kluczowe założenia</span></div>
+        <div class="section">
+          <h2>Główne założenia dyscypliny</h2>
+          <h3>Lokalizacjonizm a holizm</h3>
+          <p>Przez długi czas ścierały się dwa poglądy na temat organizacji mózgu. <span class="term">Lokalizacjonizm</span> — reprezentowany przez Broca i Wernickego — głosił, że każda funkcja umysłowa ma swoje ściśle określone miejsce w korze. Z kolei <span class="term">holizm</span> (Lashley, Flourens) zakładał, że mózg działa jako niepodzielna całość, a jego fragmenty są równoważne — teoria <em>ekwipotencjalności</em>.</p>
+          <p>Dzisiejsze rozumienie jest znacznie bardziej wyrafinowane: mówimy o <strong>sieciach funkcjonalnych</strong> — rozproszonych obwodach obejmujących wiele obszarów, które współpracują przy realizacji konkretnego zadania. Poszczególne węzły sieci mają wprawdzie specjalizacje, ale żaden węzeł nie działa samotnie.</p>
+          <div class="callout callout-info">
+            <span class="callout-icon">ℹ️</span>
+            <p><strong>Plastyczność mózgu</strong> — jedno z fundamentalnych odkryć XX w. — oznacza, że połączenia neuronalne nie są trwale ustalone. Mózg reorganizuje swoje sieci w odpowiedzi na doświadczenie, naukę, a nawet po uszkodzeniu. To odkrycie zrewolucjonizowało rehabilitację neuropsychologiczną.</p>
+          </div>
+          <h3>Podwójne dysocjacje</h3>
+          <p>Klasyczną metodą dowodzenia odrębności funkcji jest <span class="term">podwójna dysocjacja</span>. Jeśli uszkodzenie obszaru A zaburza funkcję X, ale nie Y, a uszkodzenie obszaru B zaburza Y, ale nie X — mamy silny dowód, że X i Y są przetwarzane niezależnie. Przykładem jest klasyczna dysocjacja między pamięcią deklaratywną (hipokamp) a pamięcią proceduralną (zwoje podstawy, móżdżek).</p>
+          <h3>Metoda lesji i neuroobrazowanie</h3>
+          <p>Historycznie wiedza o lokalizacji funkcji płynęła z obserwacji pacjentów z uszkodzeniami mózgu — <em>metoda lesji</em>. Dziś uzupełniamy ją technikami neuroobrazowania strukturalnego (MRI) i funkcjonalnego (fMRI, PET), które pozwalają obserwować pracujący mózg w czasie rzeczywistym.</p>
+        </div>
+        <div class="section">
+          <h2>Związki z innymi naukami</h2>
+          <div class="card-grid">
+            <div class="card"><div class="card-label">Pokrewna dziedzina</div><div class="card-title">Neurologia</div><p>Medyczna perspektywa chorób i uszkodzeń układu nerwowego. Neuropsychologia dostarcza narzędzi do oceny ich skutków funkcjonalnych.</p></div>
+            <div class="card"><div class="card-label">Pokrewna dziedzina</div><div class="card-title">Psychologia poznawcza</div><p>Modele przetwarzania informacji, uwagi, pamięci i języka. Neuropsychologia weryfikuje je empirycznie na poziomie neuronalnym.</p></div>
+            <div class="card"><div class="card-label">Pokrewna dziedzina</div><div class="card-title">Neuronauka kognitywna</div><p>Interdyscyplinarne pole łączące wszystkie powyższe z obliczeniowymi modelami mózgu i sztuczną inteligencją.</p></div>
+            <div class="card"><div class="card-label">Pokrewna dziedzina</div><div class="card-title">Psychiatria biologiczna</div><p>Bada neurobiologiczne podłoże zaburzeń psychicznych. Neuropsychologia wycenia deficyty poznawcze w schizofrenii, depresji czy ADHD.</p></div>
+          </div>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Rozdział 1</span>
+          <button class="btn-next" data-next="history">Następny: Historia →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: HISTORY -->
+    <div class="page" id="page-history">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Rozdział 02 · Wprowadzenie</div>
+          <h1>Historia i tradycje</h1>
+          <p class="lead">Od frenologii do neuroobrazowania funkcjonalnego — jak rozwijało się rozumienie związku mózgu z umysłem przez 200 lat badań.</p>
+        </div>
+        <div class="section">
+          <h2>Prehistoria: frenologia i lokalizacjonizm</h2>
+          <p>Pierwsze systematyczne próby mapowania funkcji mózgu podjął na początku XIX w. <strong>Franz Joseph Gall</strong>, twórca <span class="term">frenologii</span>. Zakładał, że wybrzuszenia czaszki odzwierciedlają rozrost odpowiednich obszarów odpowiedzialnych za cechy charakteru. Choć teoria była metodologicznie błędna, Gall wprowadził fundamentalną ideę, że różne regiony mózgu pełnią różne role — i to ona przetrwała w zmodyfikowanej formie do dziś.</p>
+          <blockquote>„Mózg jest organem umysłu, tak jak oko jest organem wzroku."<cite>— Franz Joseph Gall, ok. 1810</cite></blockquote>
+          <h3>Paul Broca i przypadek „Tan" (1861)</h3>
+          <p>Przełomem okazał się rok 1861, gdy chirurg <span class="term">Paul Broca</span> przedstawił przypadek Louisa Leborgne — zwanego „Tan" od jedynego słowa, jakie był w stanie wymówić. Po śmierci pacjenta Broca zbadał jego mózg i odkrył uszkodzenie lewej dolnej kory czołowej. Był to pierwszy empiryczny dowód na ścisłą lokalizację funkcji językowej. Więcej o tym przypadku znajdziesz w dziale <a href="#" class="term" data-page-link="case-tan">Przypadki Kliniczne → Tan</a>.</p>
+          <h3>Carl Wernicke i rozumienie mowy (1874)</h3>
+          <p>Kilkanaście lat później <span class="term">Carl Wernicke</span> opisał inny typ zaburzenia mowy — pacjenci mówili płynnie, lecz bezsensownie i nie rozumieli słów. Wernicke wysnuł pierwszy sieciowy model języka, łącząc obszar Broki (produkcja) z własnym obszarem (recepcja) przez pęczek łukowaty. Ten model wyprzedził współczesne koncepcje neuronauki kognitywnej o kilkadziesiąt lat.</p>
+        </div>
+        <div class="section-sep"><span>XX wiek</span></div>
+        <div class="section">
+          <h2>Wiek XX: od wojennych traum do neuronauki</h2>
+          <h3>Aleksander Łuria i neuropsychologia jako system</h3>
+          <p>Rosyjski psycholog <strong>Aleksander Łuria</strong> jest uznawany za jednego z ojców współczesnej neuropsychologii klinicznej. Pracując ze zranionymi żołnierzami II wojny światowej, opracował spójny system diagnostyczny oparty na teorii <span class="term">funkcjonalnych układów</span>: każda wyższa funkcja psychiczna angażuje sieć współpracujących struktur, a uszkodzenie dowolnego węzła daje charakterystyczny, ale odmienny profil objawów. Jego bateria testów — znana jako Bateria Łurii — do dziś inspiruje narzędzia diagnostyczne.</p>
+          <h3>Roger Sperry i asymetria półkul (lata 60.)</h3>
+          <p><span class="term">Roger Sperry</span> (Nobel 1981) przeprowadził słynne eksperymenty na pacjentach z przeciętym ciałem modzelowatym, odkrywając odrębność kompetencji obu półkul. Więcej w dziale <a href="#" class="term" data-page-link="case-split">Przypadki Kliniczne → Rozdzielony mózg</a>.</p>
+          <h3>Era neuroobrazowania (od lat 70.)</h3>
+          <p>Wynalezienie CT (1972), MRI i fMRI (lata 80.–90.) zmieniło neuropsychologię nie do poznania. Po raz pierwszy możliwe stało się obserwowanie struktury i aktywności mózgu u żywych, zdrowych osób. Zrodziła się <em>neuronauka kognitywna</em> jako odrębne interdyscyplinarne pole.</p>
+        </div>
+        <div class="section">
+          <h2>Kamienie milowe</h2>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Rok</th><th>Wydarzenie</th><th>Znaczenie</th></tr></thead>
+              <tbody>
+                <tr><td>1861</td><td>Przypadek „Tan" — Broca</td><td>Pierwszy dowód lokalizacji mowy</td></tr>
+                <tr><td>1874</td><td>Wernicke opisuje afazję recepcyjną</td><td>Sieciowy model języka</td></tr>
+                <tr><td>1906</td><td>Alois Alzheimer opisuje demencję</td><td>Podstawy neuropatologii otępień</td></tr>
+                <tr><td>1932</td><td>Sherrington — Nobel za synapsy</td><td>Mechanizm przekaźnictwa nerwowego</td></tr>
+                <tr><td>1949</td><td>Hebb — reguła uczenia synaptycznego</td><td>Synapsa Hebba, podstawa LTP</td></tr>
+                <tr><td>1953</td><td>Operacja H.M. — wycięcie hipokampów</td><td>Odkrycie roli hipokampa w pamięci</td></tr>
+                <tr><td>1972</td><td>Pierwsza kliniczna CT (Hounsfield)</td><td>Rewolucja w neurodiagnostyce</td></tr>
+                <tr><td>1981</td><td>Nobel Sperry'ego za badania split-brain</td><td>Asymetria półkulowa potwierdzona</td></tr>
+                <tr><td>1990</td><td>Pierwsze fMRI (Ogawa)</td><td>Obrazowanie funkcji mózgu in vivo</td></tr>
+                <tr><td>2013</td><td>Human Connectome Project, BRAIN Initiative</td><td>Era wielkoskalowego mapowania</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Rozdział 2</span>
+          <button class="btn-next" data-next="anatomy">Następny: Budowa mózgu →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: ANATOMY -->
+    <div class="page" id="page-anatomy">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Rozdział 03 · Anatomia</div>
+          <h1>Budowa i płaty mózgu</h1>
+          <p class="lead">Przegląd makroskopowej architektury mózgowia — od pnia mózgu po korę nową, z opisem funkcji każdego głównego regionu.</p>
+        </div>
+        <div class="section">
+          <h2>Hierarchia struktur mózgowia</h2>
+          <p>Mózgowie można opisywać na wielu poziomach szczegółowości. Makroskopowo dzielimy je na <strong>pień mózgu</strong>, <strong>móżdżek</strong>, <strong>układ limbiczny</strong> i <strong>korę nową</strong> (neocortex). Każdy z tych poziomów odzwierciedla etap ewolucji kręgowców i wiąże się z inną kategorią funkcji.</p>
+          <h3>Pień mózgu</h3>
+          <p>Najstarsza ewolucyjnie część, obejmująca <span class="term">rdzeń przedłużony</span>, <span class="term">most (pons)</span> i <span class="term">śródmózgowie</span>. Kontroluje funkcje życiowe: oddychanie, akcję serca, ciśnienie krwi, podstawowe odruchy. Przez pień przebiegają niemal wszystkie drogi czuciowe i ruchowe łączące korę z rdzeniem kręgowym.</p>
+          <h3>Móżdżek</h3>
+          <p>Mimo że stanowi zaledwie 10% masy mózgu, zawiera ponad 50% wszystkich neuronów. Tradycyjnie kojarzony z koordynacją ruchową i równowagą — dziś wiemy, że uczestniczy też w przetwarzaniu poznawczym, języku i emocjach. Uszkodzenie powoduje <span class="term">ataksję</span> — zaburzenia koordynacji ruchowej.</p>
+          <h3>Układ limbiczny</h3>
+          <p>Zestaw struktur obejmujący <strong>hipokamp</strong>, <strong>ciało migdałowate</strong>, <strong>zakręt obręczy</strong> i <strong>hipotalamus</strong>. Odpowiada za przetwarzanie emocji, pamięć epizodyczną i motywację. Tu powstaje strach (ciało migdałowate) i kodowane są nowe wspomnienia (hipokamp).</p>
+        </div>
+        <div class="section-sep"><span>kora mózgowa</span></div>
+        <div class="section">
+          <h2>Cztery płaty kory mózgowej</h2>
+          <div class="card-grid">
+            <div class="card"><div class="card-label">Płat przedni</div><div class="card-title">Płat czołowy</div><p>Siedziba funkcji wykonawczych, planowania, hamowania impulsów i osobowości. Zawiera korę ruchową i obszar Broki. Stanowi ok. 30% kory mózgowej człowieka.</p></div>
+            <div class="card"><div class="card-label">Płat tylny górny</div><div class="card-title">Płat ciemieniowy</div><p>Integracja somatosensoryczna, praxis, orientacja przestrzenna, obliczenia. Zawiera korę czuciową. Uszkodzenia → zaniedbywanie połowicze, apraksja.</p></div>
+            <div class="card"><div class="card-label">Płat tylny</div><div class="card-title">Płat potyliczny</div><p>Niemal wyłącznie wzrokowy. V1 przetwarza podstawowe cechy. Wyższe pola wzrokowe obsługują kolor i ruch. Uszkodzenie → ślepota korowa lub agnozje wzrokowe.</p></div>
+            <div class="card"><div class="card-label">Płat boczny</div><div class="card-title">Płat skroniowy</div><p>Pamięć, rozpoznawanie twarzy i obiektów, rozumienie mowy (obszar Wernickego). Lewy — semantyka; prawy — prozodja i muzyka.</p></div>
+          </div>
+        </div>
+        <div class="section">
+          <h2>Kluczowe struktury podkorowe</h2>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Struktura</th><th>Lokalizacja</th><th>Główne funkcje</th><th>Skutek uszkodzenia</th></tr></thead>
+              <tbody>
+                <tr><td>Hipokamp</td><td>Przyśrodkowy płat skroniowy</td><td>Kodowanie pamięci epizodycznej, nawigacja</td><td>Amnezja wsteczna i następcza</td></tr>
+                <tr><td>Ciało migdałowate</td><td>Przedni płat skroniowy</td><td>Strach, emocje, ocena zagrożeń</td><td>Zespół Klüvera-Bucy'ego</td></tr>
+                <tr><td>Jądro ogoniaste</td><td>Zwoje podstawy</td><td>Planowanie ruchów, uczenie proceduralne</td><td>Choroba Huntingtona</td></tr>
+                <tr><td>Wzgórze</td><td>Międzymózgowie</td><td>Brama czuciowa kory; modulacja świadomości</td><td>Syndrom wzgórzowy</td></tr>
+                <tr><td>Istota czarna</td><td>Śródmózgowie</td><td>Wydzielanie dopaminy, modulacja ruchów</td><td>Choroba Parkinsona</td></tr>
+                <tr><td>Ciało modzelowate</td><td>Linia środkowa</td><td>Komunikacja między półkulami</td><td>Syndrom rozdzielonego mózgu</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Rozdział 3</span>
+          <button class="btn-next" data-next="neuron">Następny: Neuron i synapsa →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: NEURON -->
+    <div class="page" id="page-neuron">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Rozdział 04 · Anatomia</div>
+          <h1>Neuron i synapsa</h1>
+          <p class="lead">Podstawowa jednostka obliczeniowa układu nerwowego — budowa neuronu, potencjał czynnościowy i mechanizmy transmisji synaptycznej.</p>
+        </div>
+        <div class="section">
+          <h2>Budowa neuronu</h2>
+          <p>Neuron to wyspecjalizowana komórka nerwowa, zdolna do odbierania, integrowania i przekazywania sygnałów elektrycznych i chemicznych. Ludzki mózg zawiera ok. <strong>86 miliardów neuronów</strong>, połączonych blisko <strong>100 bilionami synaps</strong>.</p>
+          <div class="steps">
+            <div class="step"><div class="step-num">1</div><div class="step-body"><h4>Ciało komórkowe (soma)</h4><p>Centrum metaboliczne neuronu z jądrem komórkowym. Tu integrowane są sygnały ze wszystkich dendrytów — suma ważona pobudzeń i zahamowań decyduje o tym, czy neuron „wystrzeli".</p></div></div>
+            <div class="step"><div class="step-num">2</div><div class="step-body"><h4>Dendryty</h4><p>Rozgałęzione wypustki odbierające sygnały od innych neuronów. Im bardziej rozgałęzione drzewo dendrytyczne, tym więcej połączeń może tworzyć neuron. Kolce dendrytyczne to miejsca synaps pobudzających.</p></div></div>
+            <div class="step"><div class="step-num">3</div><div class="step-body"><h4>Akson</h4><p>Długa wypustka przewodząca potencjał czynnościowy od somy do zakończeń presynaptycznych. Otoczony osłonką mielinową, która przyspiesza przewodzenie do ok. 120 m/s. Włókna bezmielinowe przewodzą jedynie 0,5–2 m/s.</p></div></div>
+            <div class="step"><div class="step-num">4</div><div class="step-body"><h4>Guziki synaptyczne</h4><p>Zakończenia aksonu zawierające pęcherzyki synaptyczne z neuroprzekaźnikiem. Przy depolaryzacji błony dochodzi do egzocytozy pęcherzyków do szczeliny synaptycznej.</p></div></div>
+          </div>
+        </div>
+        <div class="section">
+          <h2>Potencjał czynnościowy i LTP</h2>
+          <p>W spoczynku <span class="term">potencjał spoczynkowy</span> wynosi ok. <strong>−70 mV</strong>, utrzymywany przez pompę Na⁺/K⁺-ATPazę. Gdy depolaryzacja przekroczy próg (ok. −55 mV), otwierają się napięciozależne kanały sodowe — sód wpływa do komórki i potencjał skacze do +40 mV. Następnie następuje repolaryzacja. Całość trwa ok. 1 ms i jest sygnałem <em>wszystko albo nic</em>.</p>
+          <div class="callout callout-tip">
+            <span class="callout-icon">💡</span>
+            <p><strong>Reguła Hebba (1949):</strong> „Neurony, które razem strzelają, razem się łączą." Wzmocnienie połączenia następuje, gdy aktywność obu neuronów jest skorelowana w czasie. Jest to komórkowy mechanizm uczenia się i pamięci — <em>długotrwałe wzmocnienie (LTP)</em>.</p>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Neuroprzekaźnik</th><th>Typ</th><th>Główne funkcje</th><th>Związek z chorobami</th></tr></thead>
+              <tbody>
+                <tr><td>Glutaminian</td><td>Pobudzający</td><td>Uczenie, pamięć, główna transmisja pobudzająca</td><td>Ekscytotoksyczność w udarze</td></tr>
+                <tr><td>GABA</td><td>Hamujący</td><td>Hamowanie neuronalne, regulacja lęku</td><td>Padaczka, lęk</td></tr>
+                <tr><td>Dopamina</td><td>Modulatorowy</td><td>Nagroda, motywacja, kontrola ruchowa</td><td>Parkinson, schizofrenia, uzależnienia</td></tr>
+                <tr><td>Serotonina</td><td>Modulatorowy</td><td>Nastrój, sen, apetyt, impulsywność</td><td>Depresja, OCD</td></tr>
+                <tr><td>Acetylocholina</td><td>Modulatorowy</td><td>Pamięć, uwaga, pobudzenie kory</td><td>Alzheimer, miastenia</td></tr>
+                <tr><td>Noradrenalina</td><td>Modulatorowy</td><td>Uwaga, pobudzenie, reakcja stresowa</td><td>ADHD, depresja, PTSD</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Rozdział 4</span>
+          <button class="btn-next" data-next="systems">Następny: Układy nerwowe →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: SYSTEMS -->
+    <div class="page" id="page-systems">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Rozdział 05 · Anatomia</div>
+          <h1>Układy i drogi nerwowe</h1>
+          <p class="lead">Wielkie sieci funkcjonalne mózgu — układ limbiczny, dopaminergiczny, cholinergiczny, siatkowaty wzbudzający i sieć trybu domyślnego.</p>
+        </div>
+        <div class="section">
+          <h2>Sieć trybu domyślnego (DMN)</h2>
+          <p>Sieć trybu domyślnego (<span class="term">Default Mode Network</span>) to rozległa sieć aktywna podczas spoczynku i nieaktywna podczas zadań skupionych zewnętrznie. Obejmuje przyśrodkową korę przedczołową, tylną korę obręczy, precuneus i boczną korę ciemieniową. Angażuje się w myślenie o sobie, planowanie przyszłości, rozumowanie społeczne i wewnętrzny dialog.</p>
+          <p>Dysfunkcja DMN jest powiązana z depresją (nadmierna ruminacja), schizofrenią (zaburzona samonarracja) i chorobą Alzheimera (wczesne odkładanie amyloidu w węzłach DMN).</p>
+        </div>
+        <div class="section">
+          <h2>Układ dopaminergiczny</h2>
+          <p>Dopamina wytwarzana jest głównie w <strong>istocie czarnej</strong> i <strong>polu brzusznym nakrywki (VTA)</strong>. Droga <span class="term">nigrostriatalna</span> reguluje kontrolę ruchową — jej degeneracja to choroba Parkinsona. Droga <span class="term">mezolimbiczna</span> mediuje nagrodę i uzależnienia. Droga <span class="term">mezokortykalna</span> reguluje funkcje wykonawcze — jej dysfunkcja wiązana jest ze schizofrenią i ADHD.</p>
+        </div>
+        <div class="section">
+          <h2>Układ cholinergiczny i czujność</h2>
+          <p>Acetylocholina z jądra podstawnego Meynerta unerwia rozlegle korę i hipokamp. Jej degeneracja jest wczesną cechą choroby Alzheimera. <span class="term">Układ siatkowaty wstępujący (ARAS)</span> biegnie od pnia mózgu przez wzgórze do kory i reguluje ogólny poziom pobudzenia. Uszkodzenie ARAS prowadzi do śpiączki lub stanu wegetatywnego.</p>
+        </div>
+        <div class="section">
+          <h2>Drogi czuciowe i ruchowe</h2>
+          <p>Informacja czuciowa z ciała jest przewodzona do kory przez wzgórze. Impulsy bólowe i temperaturowe biegną drogą boczną, dotyk i propriocepcja — sznurami tylnymi. Drogi ruchowe zaczynają się w korze ruchowej i schodzą przez pień mózgu jako <span class="term">droga piramidowa (korowo-rdzeniowa)</span>. Krzyżowanie na poziomie rdzenia przedłużonego tłumaczy, dlaczego uszkodzenie lewej półkuli daje niedowład prawostronny i odwrotnie.</p>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Rozdział 5</span>
+          <button class="btn-next" data-next="cogpsych">Następny: Psychologia poznawcza →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         PAGE: COGNITIVE PSYCHOLOGY (nowy, rozbudowany)
+    ============================================================ -->
+    <div class="page" id="page-cogpsych">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Rozdział 06 · Psychologia Poznawcza</div>
+          <h1>Modele poznania</h1>
+          <p class="lead">Teorie i modele wyjaśniające, jak ludzie myślą, rozumują, uczą się i podejmują decyzje — od Gestalt przez rewolucję kognitywną po teorię dwóch systemów.</p>
+        </div>
+
+        <div class="section">
+          <h2>Rewolucja kognitywna</h2>
+          <p>W połowie XX wieku psychologia była zdominowana przez <span class="term">behawioryzm</span> — paradygmat, który odrzucał wszelkie odwołania do wewnętrznych stanów umysłu i skupiał się wyłącznie na mierzalnych relacjach bodziec–odpowiedź. Przełom nastąpił w latach 50. i 60., gdy seria wydarzeń zreformowała dyscyplinę. Noam Chomsky skrytykował behawiorystyczną teorię języka, George Miller opisał ograniczenia pamięci roboczej, a Ulric Neisser opublikował w 1967 r. <em>Cognitive Psychology</em> — manifest nowego pola.</p>
+          <p>Rewolucja kognitywna przywróciła umysł jako prawowitego przedmiotu badań naukowych. Pojawiła się metafora komputerowa: umysł jako program uruchomiony na sprzęcie mózgu. Choć dziś wiemy, że ta analogia jest dalece niewystarczająca, ukierunkowała ona badania na modele przetwarzania informacji, które okazały się niezwykle płodne.</p>
+          <blockquote>„Psychologia kognitywna zajmuje się tym, jak ludzie zdobywają, przechowują, przekształcają, odzyskują i stosują informacje."<cite>— Ulric Neisser, <em>Cognitive Psychology</em>, 1967</cite></blockquote>
+        </div>
+
+        <div class="section">
+          <h2>Psychologia Gestalt i organizacja percepcji</h2>
+          <p>Wcześniej, bo na przełomie XIX i XX w., szkoła <span class="term">Gestalt</span> (Max Wertheimer, Kurt Koffka, Wolfgang Köhler) sformułowała zasadę, która przetrwała próbę czasu: <strong>„całość jest czymś więcej niż sumą części"</strong>. Percepcja nie polega na biernym dodawaniu wrażeń zmysłowych — umysł aktywnie organizuje bodźce w znaczące struktury.</p>
+          <p>Prawa Gestalt opisują reguły tej organizacji: <em>bliskość</em> (elementy przestrzennie bliskie postrzegane jako grupa), <em>podobieństwo</em> (podobne elementy grupują się razem), <em>ciągłość</em> (preferujemy linie ciągłe nad przerywane), <em>domknięcie</em> (uzupełniamy brakujące fragmenty figury), <em>figura-tło</em> (wyodrębniamy obiekt z otoczenia). Prawa te mają bezpośrednie przełożenie na rozumienie agnozji wzrokowych i zaburzeń percepcji w neuropsychologii klinicznej.</p>
+        </div>
+
+        <div class="section-sep"><span>teoria dwóch systemów</span></div>
+
+        <div class="section">
+          <h2>Teoria dwóch systemów (Kahneman)</h2>
+          <p>Jeden z najbardziej wpływowych modeli współczesnej psychologii poznawczej pochodzi od Daniela Kahnemana (<em>Thinking, Fast and Slow</em>, 2011). Wyróżnia on dwa tryby myślenia, które Kahneman określa jako <span class="term">System 1</span> i <span class="term">System 2</span>.</p>
+
+          <div class="card-grid">
+            <div class="card">
+              <div class="card-label">Myślenie szybkie</div>
+              <div class="card-title">System 1</div>
+              <p>Automatyczny, szybki, intuicyjny. Działa bez wysiłku i bez poczucia kontroli. Obsługuje codzienną percepcję, nawyki, reakcje emocjonalne, heurystyki. Jest wynikiem wieloletniej ewolucji i indywidualnego doświadczenia. Podatny na błędy systematyczne — tzw. <em>błędy poznawcze (cognitive biases)</em>.</p>
+            </div>
+            <div class="card">
+              <div class="card-label">Myślenie wolne</div>
+              <div class="card-title">System 2</div>
+              <p>Celowy, analityczny, wymagający wysiłku poznawczego. Zaangażowany w rozwiązywanie trudnych problemów, planowanie, rozumowanie logiczne. Charakteryzuje się poczuciem sprawczości i odpowiedzialności za decyzje. Angażuje silnie funkcje wykonawcze i korę przedczołową.</p>
+            </div>
+          </div>
+
+          <div class="callout callout-info">
+            <span class="callout-icon">ℹ️</span>
+            <p>Z punktu widzenia neuropsychologii, System 1 odpowiada procesom podkorowym i automatycznym sieciom korowym (np. sieć trybu domyślnego), podczas gdy System 2 angażuje przede wszystkim boczną korę przedczołową i sieć kontroli wykonawczej. Uszkodzenia płata czołowego najsilniej zaburzają System 2, pozostawiając System 1 względnie nietkniętym — stąd pacjenci z syndromem dysegzekutywnym często zachowują dobrą intuicję, lecz tracą zdolność do refleksyjnej analizy.</p>
+          </div>
+
+          <h3>Błędy poznawcze jako okno na architekturę umysłu</h3>
+          <p>Systematyczne błędy, które System 1 popełnia, nie są przypadkowe — ujawniają strukturę heurystyk, na których opiera się myślenie intuicyjne. <span class="term">Heurystyka dostępności</span> sprawia, że oceniamy prawdopodobieństwo zdarzeń na podstawie łatwości ich przywoływania z pamięci (dlatego przestępstwa nagłaśniane przez media wydają się częstsze). <span class="term">Efekt zakotwiczenia</span> polega na nieświadomym przyciąganiu ocen ilościowych w kierunku arbitralnie podanej liczby. <span class="term">Błąd potwierdzenia</span> to skłonność do poszukiwania informacji zgodnych z już posiadanymi przekonaniami.</p>
+        </div>
+
+        <div class="section">
+          <h2>Schematy i skrypty (Bartlett, Schank)</h2>
+          <p>Frederic Bartlett w przełomowej pracy <em>Remembering</em> (1932) wykazał eksperymentalnie, że ludzie nie zapamiętują opowiadań dosłownie — odtwarzają je przez pryzmat wcześniej wyuczonych struktur wiedzy, które Bartlett nazwał <span class="term">schematami</span>. Gdy badani czytali indiańską legendę kulturowo obcą ich doświadczeniu, w kolejnych odtworzeniach „normalizowali" ją, wypełniając luki własnymi oczekiwaniami.</p>
+          <p>Roger Schank i Robert Abelson rozwinęli tę ideę, proponując pojęcie <span class="term">skryptu</span> — wysoce ustrukturyzowanego schematu dla rutynowych sytuacji społecznych (np. wizyta w restauracji: wejść, zająć miejsce, zamówić, zjeść, zapłacić, wyjść). Skrypty pozwalają nam rozumieć sytuacje przy minimalnym wysiłku poznawczym, bo większość kroków jest „z góry wypełniona". Ich awaria — np. w schizofrenii lub uszkodzeniach czołowych — prowadzi do dezorientacji w rutynowych sytuacjach społecznych.</p>
+        </div>
+
+        <div class="section">
+          <h2>Ucieleśnione poznanie (Embodied Cognition)</h2>
+          <p>Tradycyjna psychologia poznawcza traktowała ciało jako peryferyjny interfejs wejścia-wyjścia dla „centralnego procesora" — mózgu. Ruch <span class="term">ucieleśnionego poznania</span> (Lakoff, Johnson, Varela, Thompson, Maturana) zakwestionował tę metaforę. Argumentuje on, że poznanie jest zakorzenione w doświadczeniu cielesnym, a abstrakcyjne pojęcia — w tym tak „czysto mentalne" kategorie jak czas, liczba czy moralność — są ustrukturyzowane przez metafory wywiedzione z cielesnego doświadczenia przestrzeni, ruchu i siły.</p>
+          <p>Przykłady z badań: aktywność motoryczna podczas nauki poprawia retencję materiału; trzymanie ciepłej kawy w dłoni sprawia, że rozmówcę oceniamy jako „cieplejszego"; fizyczne gesty ułatwiają rozumowanie matematyczne. Dla neuropsychologii klinicznej ucieleśnione poznanie implikuje, że rehabilitacja poznawcza powinna angażować ciało, ruch i wielozmysłowe doświadczenie, a nie ograniczać się do ćwiczeń „przy biurku".</p>
+        </div>
+
+        <div class="section">
+          <h2>Metacognition — myślenie o myśleniu</h2>
+          <p><span class="term">Metapoznanie</span> (John Flavell, 1979) to zdolność do monitorowania i regulowania własnych procesów poznawczych — wiedza o tym, co wiemy i czego nie wiemy, ocena własnej pewności, dobór strategii uczenia się. Metapoznanie zależy silnie od kory przedczołowej; jego zaburzenie jest jedną z przyczyn <em>anosognozji</em> — braku świadomości własnych deficytów u pacjentów z uszkodzeniami czołowymi lub ciemieniowymi.</p>
+          <p>W praktyce klinicznej metapoznanie ma kluczowe znaczenie dla rehabilitacji: pacjent, który nie zdaje sobie sprawy z własnych trudności (anosognozja), nie będzie aktywnie uczestniczył w terapii. Ocena metapoznania stała się standardowym elementem wielu baterii neuropsychologicznych.</p>
+        </div>
+
+        <div class="page-footer">
+          <span class="footer-note">Rozdział 6</span>
+          <button class="btn-next" data-next="memory">Następny: Pamięć →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: MEMORY -->
+    <div class="page" id="page-memory">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Rozdział 07 · Psychologia Poznawcza</div>
+          <h1>Pamięć</h1>
+          <p class="lead">Wielopoziomowy system kodowania, przechowywania i odtwarzania informacji — od ułamków sekund do całego życia, od faktów do nawyków ruchowych.</p>
+        </div>
+        <div class="section">
+          <h2>Przypadek H.M. — punkt zwrotny</h2>
+          <p>W 1953 r. 27-letni Henry Molaison przeszedł operację usunięcia obu hipokampów. Stracił zdolność tworzenia nowych wspomnień deklaratywnych, lecz zachował pamięć proceduralną i pamięć sprzed operacji. Więcej szczegółów w dziale <a href="#" class="term" data-page-link="case-hm">Przypadki Kliniczne → H.M.</a></p>
+        </div>
+        <div class="section">
+          <h2>Model Atkinsona-Shiffrina (1968)</h2>
+          <p>Klasyczny model <span class="term">modalny</span> Atkinsona i Shiffrina postuluje trzy odrębne magazyny pamięci: <strong>rejestr sensoryczny</strong> (pojemny, lecz trwający milisekundy–sekundy), <strong>pamięć krótkotrwała</strong> (ograniczona pojemność, kilkanaście sekund bez powtarzania) i <strong>pamięć długotrwała</strong> (praktycznie nieograniczona pojemność i czas trwania). Transfer z KTM do DTM wymaga aktywnego powtarzania (rehearsal). Model ten był przełomowy, lecz zbyt uproszczony — badania wykazały, że powtarzanie nie jest wystarczającym warunkiem konsolidacji.</p>
+        </div>
+        <div class="section">
+          <h2>Pamięć robocza — model Baddeleya</h2>
+          <p>Alan Baddeley zastąpił pojęcie pamięci krótkotrwałej bardziej złożonym konstruktem <span class="term">pamięci roboczej</span>. Model obejmuje cztery komponenty:</p>
+          <div class="steps">
+            <div class="step"><div class="step-num">1</div><div class="step-body"><h4>Pętla fonologiczna</h4><p>Przechowywanie i powtarzanie informacji słownych (wewnętrzny głos). Angażuje lewą korę czołową i skroniową. Ograniczona do materiału, który można powtórzyć w ok. 2 sekundy mowy wewnętrznej.</p></div></div>
+            <div class="step"><div class="step-num">2</div><div class="step-body"><h4>Notes wizualno-przestrzenny</h4><p>Przechowywanie obrazów i informacji przestrzennych. Angażuje prawą korę ciemieniową i potyliczną. Odpowiada m.in. za wyobrażanie sobie drogi i rotację mentalna obiektów.</p></div></div>
+            <div class="step"><div class="step-num">3</div><div class="step-body"><h4>Bufor epizodyczny</h4><p>Integracja informacji z pętli fonologicznej, notesu i pamięci długotrwałej w spójne epizody. Angażuje przyśrodkowy płat skroniowy. Dodany do modelu w 2000 r. jako odpowiedź na krytykę wcześniejszej wersji.</p></div></div>
+            <div class="step"><div class="step-num">4</div><div class="step-body"><h4>Centralny system wykonawczy</h4><p>Nadzorca — koordynuje trzy pozostałe podsystemy, zarządza uwagą, przełącza między zadaniami, hamuje dystrakcje. Mocno zależny od kory przedczołowej. Zaburza się wyraźnie w ADHD i uszkodzeniach czołowych.</p></div></div>
+          </div>
+          <div class="callout callout-info">
+            <span class="callout-icon">ℹ️</span>
+            <p>Pojemność pamięci roboczej to jeden z najlepszych predyktorów ogólnej inteligencji fluidalnej i sukcesu akademickiego. Badania wykazują, że osoby o wyższej pojemności PR lepiej radzą sobie z rozumowaniem analogicznym, rozumieniem złożonych zdań i rozwiązywaniem problemów matematycznych.</p>
+          </div>
+        </div>
+        <div class="section">
+          <h2>Klasyfikacja pamięci długotrwałej</h2>
+          <div class="card-grid">
+            <div class="card"><div class="card-label">Deklaratywna</div><div class="card-title">Epizodyczna</div><p>Wspomnienia autobiograficzne osadzone w czasie i miejscu. Wrażliwa na uszkodzenia hipokampa. Ulega rekonsolidacji przy każdym przywołaniu.</p></div>
+            <div class="card"><div class="card-label">Deklaratywna</div><div class="card-title">Semantyczna</div><p>Ogólna wiedza o świecie, znaczenia słów. Mniej zależna od hipokampa — zakodowana szerzej w korze skroniowej i czołowej.</p></div>
+            <div class="card"><div class="card-label">Niedeklaratywna</div><div class="card-title">Proceduralna</div><p>Nawyki i umiejętności ruchowe. Angażuje zwoje podstawy i móżdżek. Zachowana w amnezji hipokampalnej (jak u H.M.).</p></div>
+            <div class="card"><div class="card-label">Niedeklaratywna</div><div class="card-title">Priming (torowanie)</div><p>Ekspozycja na bodziec ułatwia przetworzenie powiązanego bodźca bez świadomego przypomnienia. Angażuje korę sensoryczną.</p></div>
+          </div>
+        </div>
+        <div class="section">
+          <h2>Konsolidacja, sen i rekonsolidacja</h2>
+          <p><span class="term">Konsolidacja</span> to stopniowe stabilizowanie śladu pamięciowego. Konsolidacja synaptyczna (minuty–godziny) polega na zmianach w sile połączeń (LTP). Konsolidacja systemowa (tygodnie–lata) to transfer wspomnień z hipokampa do kory nowej — hipokamp „odtwarza" zdarzenia dnia podczas fazy NREM snu.</p>
+          <p>Każde <span class="term">przywołanie</span> wspomnienia czyni je tymczasowo labilnym — wymaga ponownej konsolidacji (<em>rekonsolidacji</em>). To odkrycie ma implikacje kliniczne: po przywołaniu traumatycznego wspomnienia okno rekonsolidacji może być terapeutycznie wykorzystane do jego modyfikacji — co stanowi neurobiologiczne uzasadnienie dla terapii ekspozycyjnej i EMDR.</p>
+          <blockquote>„Pamięć nie jest nagraniem rzeczywistości — jest jej aktywną rekonstrukcją, podatną na zniekształcenia za każdym razem, gdy sięgamy do przeszłości."<cite>— Frederic Bartlett, <em>Remembering</em>, 1932</cite></blockquote>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Rozdział 7</span>
+          <button class="btn-next" data-next="attention">Następny: Uwaga →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: ATTENTION -->
+    <div class="page" id="page-attention">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Rozdział 08 · Psychologia Poznawcza</div>
+          <h1>Uwaga i czujność</h1>
+          <p class="lead">Mechanizm selekcji — jak mózg decyduje, które z milionów dostępnych sygnałów wejdą do świadomości i zostaną poddane dalszemu przetwarzaniu.</p>
+        </div>
+        <div class="section">
+          <h2>Modele selekcji uwagowej</h2>
+          <p>Centralnym problemem teorii uwagi jest pytanie, <em>na jakim etapie przetwarzania informacji</em> następuje selekcja. Modele wczesnose­lekcji (Broadbent, 1958) zakładają, że filtr działa na poziomie właściwości fizycznych bodźca, zanim zostanie przetworzone jego znaczenie. Modele późnoselekcji (Deutsch i Deutsch, 1963) twierdzą, że wszystkie bodźce są wstępnie przetwarzane semantycznie, a selekcja następuje dopiero przy wyborze odpowiedzi. Model atenuacyjny Treisman stanowi kompromis — bodźce nieuważone nie są całkowicie blokowane, lecz jedynie osłabiane.</p>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Typ uwagi</th><th>Opis</th><th>Podłoże neuronalne</th></tr></thead>
+              <tbody>
+                <tr><td>Selektywna</td><td>Skupienie na jednym bodźcu przy ignorowaniu innych (efekt koktajlu)</td><td>Kora czołowa, ciemieniowa, wzgórze</td></tr>
+                <tr><td>Podzielna</td><td>Równoczesne przetwarzanie wielu zadań</td><td>Boczna kora przedczołowa</td></tr>
+                <tr><td>Czujność (vigilance)</td><td>Podtrzymanie uwagi przez długi czas przy rzadkich sygnałach</td><td>Układ siatkowaty, locus coeruleus</td></tr>
+                <tr><td>Przestrzenna</td><td>Skierowanie zasobów do lokalizacji w przestrzeni</td><td>Przyśrodkowa kora ciemieniowa, wzgórki górne</td></tr>
+                <tr><td>Wykonawcza</td><td>Kontrola nad konfliktami i zadaniami złożonymi</td><td>Zakręt obręczy (ACC), kora przedczołowa</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <h3>Trzy sieci uwagi — model Posnera</h3>
+          <p>Michael Posner wyróżnił trzy semiautonomiczne sieci: <strong>sieć czujności</strong> (prawopółkulowa, noradrenergiczna — utrzymanie ogólnego pobudzenia), <strong>sieć orientacji</strong> (ciemieniowo-czołowa — przemieszczanie uwagi do nowych bodźców) i <strong>sieć kontroli wykonawczej</strong> (czołowo-obręczowa — rozwiązywanie konfliktów). Każda może być selektywnie zaburzona przez uszkodzenia mózgu.</p>
+        </div>
+        <div class="section">
+          <h2>Zaniedbywanie połowicze (neglect)</h2>
+          <p><span class="term">Neglect</span> to jeden z najbardziej dramatycznych zespołów neuropsychologicznych: po uszkodzeniu prawego płata ciemieniowego pacjent zachowuje się, jakby lewa strona jego świata przestała istnieć — je tylko prawą stronę talerza, goli tylko prawą stronę twarzy, pomija lewą stronę tekstu. Zjawisko to ujawnia, że prawa półkula obsługuje całe pole widzenia, a lewa jedynie prawą jego połowę.</p>
+          <div class="callout callout-warn">
+            <span class="callout-icon">⚠️</span>
+            <p>Neglect często <strong>współwystępuje z anosognozją</strong> — brakiem świadomości własnego deficytu. Pacjent nie tylko nie zauważa lewej strony przestrzeni, lecz zaprzecza, jakoby miał z tym jakikolwiek problem. To sprzężenie wskazuje na rolę prawej półkuli w monitorowaniu stanu własnego ciała.</p>
+          </div>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Rozdział 8</span>
+          <button class="btn-next" data-next="language">Następny: Język →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: LANGUAGE -->
+    <div class="page" id="page-language">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Rozdział 09 · Psychologia Poznawcza</div>
+          <h1>Język i mowa</h1>
+          <p class="lead">Najbardziej złożona ludzka funkcja poznawcza — od fonologii po semantykę, od rozumienia po produkcję, od lewej półkuli po sieci czołowo-skroniowe.</p>
+        </div>
+        <div class="section">
+          <h2>Neurobiologia języka</h2>
+          <p>Język u większości ludzi (~97% praworęcznych) lateralizowany jest do lewej półkuli. Dwa kluczowe węzły klasycznego modelu:</p>
+          <div class="definition-block"><div class="def-term">Obszar Broki (BA 44/45)</div><p>Lewy dolny zakręt czołowy — planowanie motoryczne mowy i przetwarzanie składni. Uszkodzenie → afazja Broki: mowa powolna, agramatyczna, lecz treściwa; rozumienie w dużej mierze zachowane.</p></div>
+          <div class="definition-block"><div class="def-term">Obszar Wernickego (BA 21/22)</div><p>Lewy tylny zakręt skroniowy górny — rozumienie mowy i dobór leksykalny. Uszkodzenie → afazja Wernickego: mowa płynna lecz nonsensowna (parafazje, neologizmy), głęboko zaburzone rozumienie.</p></div>
+          <h3>Dwudrożny model Hickoka i Poeppela</h3>
+          <p><span class="term">Droga brzuszna</span> (temporal–czołowa) przetwarza znaczenie słów — mapowanie dźwięku na semantykę. <span class="term">Droga grzbietowa</span> (temporal–ciemieniowa–czołowa, przez pęczek łukowaty) odpowiada za mapowanie dźwięku na artykulację i jest kluczowa dla powtarzania, uczenia się nowych słów i złożonej składni.</p>
+        </div>
+        <div class="section">
+          <h2>Typy afazji</h2>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Typ afazji</th><th>Płynność</th><th>Rozumienie</th><th>Powtarzanie</th><th>Lokalizacja</th></tr></thead>
+              <tbody>
+                <tr><td>Broki</td><td>Niepłynna</td><td>Zachowane</td><td>Zaburzone</td><td>Lewy płat czołowy</td></tr>
+                <tr><td>Wernickego</td><td>Płynna</td><td>Zaburzone</td><td>Zaburzone</td><td>Lewy tylny skroniowy</td></tr>
+                <tr><td>Przewodzenia</td><td>Płynna</td><td>Zachowane</td><td>Ciężko zaburzone</td><td>Pęczek łukowaty</td></tr>
+                <tr><td>Globalna</td><td>Niepłynna</td><td>Zaburzone</td><td>Zaburzone</td><td>Rozległa lewa półkula</td></tr>
+                <tr><td>Anomiczna</td><td>Płynna</td><td>Zachowane</td><td>Zachowane</td><td>Zmienna, zakręt kątowy</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <h2>Rola prawej półkuli w języku</h2>
+          <p>Prawa półkula jest niezbędna dla <strong>pragmatyki</strong> (interpretacja żartów, ironii, metafor), <strong>prozodii</strong> (melodia i rytm mowy) oraz <strong>rozumienia narracji</strong>. Pacjenci z uszkodzeniami prawej półkuli rozumieją literalne znaczenie słów, lecz tracą kontekst społeczny i emocjonalny komunikacji — co istotnie zaburza ich funkcjonowanie społeczne.</p>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Rozdział 9</span>
+          <button class="btn-next" data-next="executive">Następny: Funkcje wykonawcze →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: EXECUTIVE -->
+    <div class="page" id="page-executive">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Rozdział 10 · Psychologia Poznawcza</div>
+          <h1>Funkcje wykonawcze</h1>
+          <p class="lead">Wyższe funkcje kontrolne umysłu — planowanie, hamowanie, elastyczność poznawcza, monitorowanie działania i praca z celami złożonymi.</p>
+        </div>
+        <div class="section">
+          <h2>Czym są funkcje wykonawcze?</h2>
+          <p><span class="term">Funkcje wykonawcze</span> (FW) to zestaw wyższych procesów kontrolnych regulujących inne procesy poznawcze w służbie celowych działań — dyrektor generalny firmy mózgowej. Szczególnie zależne od kory przedczołowej, która jako ostatnia dojrzewa (ok. 25. roku życia). FW ulegają zaburzeniu w niemal wszystkich stanach neuropsychiatrycznych: ADHD, schizofrenii, depresji, AD, urazach czołowych.</p>
+          <h3>Trójczynnikowy model Miyake (2000)</h3>
+          <div class="steps">
+            <div class="step"><div class="step-num">1</div><div class="step-body"><h4>Hamowanie (Inhibition)</h4><p>Tłumienie dominujących, automatycznych odpowiedzi lub rozpraszaczy. Mierzone testem Stroopa i zadaniem stop-signal.</p></div></div>
+            <div class="step"><div class="step-num">2</div><div class="step-body"><h4>Aktualizacja (Updating)</h4><p>Monitorowanie i odświeżanie treści pamięci roboczej — usuwanie nieaktualnych informacji i zastępowanie je nowymi. Odpowiada za elastyczną adaptację do zmiennych wymagań zadania.</p></div></div>
+            <div class="step"><div class="step-num">3</div><div class="step-body"><h4>Przełączanie (Shifting)</h4><p>Elastyczne przełączanie między zadaniami, nastawieniami lub strategiami. Koszt przełączenia — zwolnienie czasu reakcji po zmianie zadania — jest miarą trudności tej operacji.</p></div></div>
+          </div>
+        </div>
+        <div class="section">
+          <h2>Syndrom czołowy i Phineas Gage</h2>
+          <p>Uszkodzenia kory przedczołowej prowadzą do <span class="term">syndromu czołowego</span>. Wariant dysegzekutywny (grzbietowo-boczny) objawia się trudnościami z planowaniem i elastycznością. Wariant orbitofrontalny — zaburzeniami podejmowania decyzji, impulsywnością i zmianami osobowości. Szczegóły w dziale <a href="#" class="term" data-page-link="case-gage">Przypadki Kliniczne → Gage</a>.</p>
+          <div class="callout callout-info">
+            <span class="callout-icon">ℹ️</span>
+            <p>Hipoteza somatycznych znaczników Antonia Damasio: decyzje nie są wynikiem czystego rozumowania — zależą od emocjonalnych sygnałów somatycznych generowanych przez korę orbitofrontalną i ciało migdałowate. Pacjenci z uszkodzeniami OFC podejmują katastrofalne decyzje pomimo sprawnego rozumowania logicznego.</p>
+          </div>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Rozdział 10</span>
+          <button class="btn-next" data-next="perception">Następny: Percepcja →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: PERCEPTION -->
+    <div class="page" id="page-perception">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Rozdział 11 · Psychologia Poznawcza</div>
+          <h1>Percepcja i gnozja</h1>
+          <p class="lead">Jak mózg buduje spójny obraz świata z surowych sygnałów sensorycznych — i co się dzieje, gdy ten proces ulega zaburzeniu.</p>
+        </div>
+        <div class="section">
+          <h2>Dwie drogi wzrokowe</h2>
+          <p><span class="term">Droga brzuszna</span> ("co") biegnie ku dolnemu płatowi skroniowemu — rozpoznawanie obiektów i twarzy. <span class="term">Droga grzbietowa</span> ("gdzie/jak") biegnie ku płatowi ciemieniowemu — orientacja przestrzenna i kontrola ruchów. <span class="term">Agnozja</span> to niemożność rozpoznania obiektu mimo zachowanej percepcji. <span class="term">Prozopagnozja</span> to selektywna niemożność rozpoznawania twarzy — skutek uszkodzenia prawego zakrętu wrzecionowatego (FFA). <span class="term">Apraksja</span> to zaburzenie wykonywania celowych ruchów przy braku niedowładu.</p>
+          <div class="callout callout-tip">
+            <span class="callout-icon">💡</span>
+            <p>Paradoks apraksji: pacjent, który nie może wykonać gestu na polecenie, często wykonuje ten sam ruch automatycznie w naturalnym kontekście. Droga automatyczna i droga wolicjonalna są anatomicznie odrębne.</p>
+          </div>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Rozdział 11</span>
+          <button class="btn-next" data-next="aphasia">Następny: Afazje →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: APHASIA -->
+    <div class="page" id="page-aphasia">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Rozdział 12 · Zaburzenia</div>
+          <h1>Afazje</h1>
+          <p class="lead">Nabyte zaburzenia języka wskutek uszkodzenia mózgu — klasyfikacja, mechanizmy, diagnostyka i rehabilitacja.</p>
+        </div>
+        <div class="section">
+          <h2>Definicja i epidemiologia</h2>
+          <p><span class="term">Afazja</span> to nabyte zaburzenie zdolności językowych spowodowane uszkodzeniem mózgu (najczęściej udar, uraz głowy, guz). <strong>Co trzecia osoba po udarze lewej półkuli</strong> doświadcza afazji. Afazja nie jest zaburzeniem inteligencji — osoby z afazją często mają w pełni zachowane myślenie pojęciowe.</p>
+          <h3>Aleksja i agrafia</h3>
+          <p><span class="term">Aleksja</span> to nabyta niemożność czytania. <span class="term">Aleksja bez agrafii</span> — pacjent może pisać, lecz nie potrafi odczytać własnego tekstu — wynik rozłączenia między korą wzrokową a obszarami językowymi.</p>
+          <h3>Rehabilitacja</h3>
+          <p>Terapia CIAT (Constraint-Induced Aphasia Therapy) i neuromodulacja (rTMS, tDCS) wspierają plastyczną reorganizację sieci językowych. Kluczowe są dwa mechanizmy: odbudowa lewopółkulowych obszarów i kompensacyjne przejęcie przez prawą półkulę.</p>
+          <div class="tag-row">
+            <span class="tag tag-blue">Udar</span><span class="tag tag-rose">Neurorehabilitacja</span><span class="tag tag-teal">Plastyczność</span><span class="tag tag-gold">Mowa i język</span>
+          </div>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Rozdział 12</span>
+          <button class="btn-next" data-next="amnesia">Następny: Amnezje →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: AMNESIA -->
+    <div class="page" id="page-amnesia">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Rozdział 13 · Zaburzenia</div>
+          <h1>Amnezje</h1>
+          <p class="lead">Zaburzenia pamięci spowodowane uszkodzeniami organicznymi — typy, mechanizmy i słynne przypadki kliniczne.</p>
+        </div>
+        <div class="section">
+          <h2>Typy amnezji</h2>
+          <p><span class="term">Amnezja wsteczna</span> (retrograde) to utrata wspomnień sprzed momentu uszkodzenia. <span class="term">Amnezja następcza</span> (anterograde) — niemożność tworzenia nowych wspomnień po uszkodzeniu. Często współwystępują, lecz można je dysocjować.</p>
+          <h3>Amnezja Korsakoffa</h3>
+          <p>Wynika z niedoboru tiaminy (B₁), najczęściej w przebiegu alkoholizmu. Uszkodzone są ciała suteczkowate, wzgórze i kora przedczołowa. Charakterystyczna jest głęboka amnezja następcza połączona z <strong>konfabulacją</strong> — pacjent wypełnia luki pamięciowe zmyślonymi historiami bez świadomości kłamania.</p>
+          <h3>Amnezja dysocjacyjna</h3>
+          <p>Bez uchwytnego podłoża neurologicznego — wynika z mechanizmów psychologicznych (trauma, ekstremalny stres). Może obejmować utratę tożsamości osobistej (fuga dysocjacyjna) przy zachowanej pamięci ogólnej i proceduralnej.</p>
+          <blockquote>„Nie ma nic bardziej tajemniczego niż amnezja — to stan, w którym człowiek traci siebie, zachowując przy tym zdolność do myślenia."<cite>— Oliver Sacks, <em>Mężczyzna, który pomylił swoją żonę z kapeluszem</em></cite></blockquote>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Rozdział 13</span>
+          <button class="btn-next" data-next="dementia">Następny: Otępienia →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: DEMENTIA -->
+    <div class="page" id="page-dementia">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Rozdział 14 · Zaburzenia</div>
+          <h1>Otępienia</h1>
+          <p class="lead">Postępujące zaburzenia funkcji poznawczych — choroba Alzheimera, otępienie czołowo-skroniowe i z ciałami Lewy'ego.</p>
+        </div>
+        <div class="section">
+          <h2>Choroba Alzheimera</h2>
+          <p>Najczęstsza przyczyna otępienia (~60–70% przypadków). Degeneracja rozpoczyna się w hipokampie — stąd wczesne zaburzenia pamięci epizodycznej — stopniowo obejmując kory skroniową, ciemieniową i czołową. Biomarkery: Aβ42 i tau w PMR, PET amyloidowy i tau, atrofia hipokampa w MRI.</p>
+          <h3>Otępienie czołowo-skroniowe (FTD)</h3>
+          <p>Wariant behawioralny (bvFTD): rozhamowanie, brak empatii, stereotypie, kompulsje. Wariant semantyczny: utrata pamięci semantycznej przy zachowanej epizodycznej. FTD dotyka często osób w wieku 50–65 lat, wcześniej niż AD.</p>
+          <h3>Otępienie z ciałami Lewy'ego (DLB)</h3>
+          <p>Wahania sprawności poznawczej, omamy wzrokowe, parkinsonizm, silna wrażliwość na neuroleptyki. Patologicznie — odkładanie alfa-synukleiny w ciałach Lewy'ego w korze i pniu mózgu.</p>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Rozdział 14</span>
+          <button class="btn-next" data-next="tbi">Następny: Urazy głowy →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: TBI -->
+    <div class="page" id="page-tbi">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Rozdział 15 · Zaburzenia</div>
+          <h1>Urazy głowy (TBI)</h1>
+          <p class="lead">Traumatyczne uszkodzenia mózgu — klasyfikacja, mechanizmy uszkodzenia aksonalnego i podejście neuropsychologiczne.</p>
+        </div>
+        <div class="section">
+          <h2>Klasyfikacja i mechanizmy</h2>
+          <p>TBI dzielimy na uszkodzenia <strong>pierwotne</strong> (bezpośrednie: stłuczenia, laceracje, krwawienia) i <strong>wtórne</strong> (kaskada: obrzęk, ekscytotoksyczność, niedokrwienie). Nasilenie ocenia skala Glasgow (GCS): łagodne (13–15 pkt), umiarkowane (9–12), ciężkie (≤8). <span class="term">Rozlane uszkodzenie aksonalne (DAI)</span> — rozerwanie długich włókien wskutek sił przyspieszenia-opóźnienia — jest niewidoczne w standardowym MRI, lecz powoduje trwałe deficyty poznawcze.</p>
+          <h3>CTE</h3>
+          <p><span class="term">Przewlekła encefalopatia traumatyczna (CTE)</span> dotyczy sportowców narażonych na powtarzające się wstrząśnienia. Patologicznie — akumulacja tau wokół naczyń krwionośnych. Objawy (nastrój, otępienie) pojawiają się dekady po ekspozycji. Diagnoza tylko post mortem.</p>
+          <div class="callout callout-warn">
+            <span class="callout-icon">⚠️</span>
+            <p>Nawet <strong>łagodne TBI</strong> może przy powtarzaniu prowadzić do kumulatywnych deficytów poznawczych. Protokoły powrotu do gry po wstrząśnieniu i szybka ocena neuropsychologiczna mają kluczowe znaczenie prewencyjne — szczególnie u dzieci i nastolatków.</p>
+          </div>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Rozdział 15</span>
+          <button class="btn-next" data-next="cases">Następny: Przypadki kliniczne →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         PAGE: CASES OVERVIEW
+    ============================================================ -->
+    <div class="page" id="page-cases">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Przypadki Kliniczne · Przegląd</div>
+          <h1>Przypadki kliniczne w neuropsychologii</h1>
+          <p class="lead">Pojedyncze, dobrze udokumentowane przypadki, które zrewolucjonizowały nasze rozumienie mózgu — od Phineasa Gage'a po H.M., od rozdzielonego mózgu Sperry'ego po pacjentów Damasio.</p>
+        </div>
+        <div class="section">
+          <h2>Dlaczego przypadki kliniczne mają tak wielką wartość?</h2>
+          <p>W neuropsychologii metoda studium przypadku odgrywa rolę, której żaden eksperyment grupowy nie może zastąpić. Kiedy natura — przez uraz, udar lub chorobę — wytworzy „naturalny eksperyment" z precyzyjnie zlokalizowanym uszkodzeniem, badacz uzyskuje dostęp do informacji, której nie mógłby celowo wywołać ze względów etycznych. Bogactwo jednostkowej historii klinicznej pozwala zobaczyć, jak dany obszar mózgu faktycznie <em>współdziała</em> ze wszystkimi innymi funkcjami w kontekście prawdziwego życia — czego nie może pokazać żaden uśredniony wynik grupowy.</p>
+          <p>Jednocześnie wnioski płynące z przypadków muszą być interpretowane ostrożnie. Uszkodzenia rzadko są czyste i ograniczone; kompensacja plastyczna zniekształca obraz deficytów; a czynniki premorbidowe (osobowość, wykształcenie, historia medyczna) silnie modyfikują wyniki. Dlatego wielkie przypadki są punktem wyjścia do hipotez, które następnie weryfikują badania grupowe i neuroobrazowanie.</p>
+        </div>
+        <div class="section">
+          <h2>Przegląd wybranych przypadków</h2>
+          <div class="card-grid">
+            <div class="card" style="cursor:pointer" onclick="showPage('case-hm')"><div class="card-label">Pamięć · 1953</div><div class="card-title">Henry Molaison (H.M.)</div><p>Usunięcie hipokampów → odkrycie wielosystemowej natury pamięci i kluczowej roli hipokampa w konsolidacji.</p></div>
+            <div class="card" style="cursor:pointer" onclick="showPage('case-gage')"><div class="card-label">Płat czołowy · 1848</div><div class="card-title">Phineas Gage</div><p>Pręt żelazny przez płat czołowy → pierwszy dowód na rolę płata czołowego w osobowości i podejmowaniu decyzji.</p></div>
+            <div class="card" style="cursor:pointer" onclick="showPage('case-tan')"><div class="card-label">Język · 1861</div><div class="card-title">Louis Leborgne „Tan"</div><p>Uszkodzenie lewej kory czołowej → lokalizacja ośrodka mowy i narodziny afazjologii.</p></div>
+            <div class="card" style="cursor:pointer" onclick="showPage('case-split')"><div class="card-label">Asymetria półkul · lata 60.</div><div class="card-title">Pacjenci split-brain</div><p>Przecięcie ciała modzelowatego → odkrycie odrębnych kompetencji obu półkul mózgowych.</p></div>
+          </div>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Przypadki kliniczne</span>
+          <button class="btn-next" data-next="case-hm">Pierwszy przypadek: H.M. →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         PAGE: CASE H.M.
+    ============================================================ -->
+    <div class="page" id="page-case-hm">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Przypadek Kliniczny · Pamięć</div>
+          <h1>Henry Molaison — H.M.</h1>
+          <p class="lead">Człowiek, który każdego dnia budził się bez pamięci dnia poprzedniego. Przypadek, który zrewolucjonizował rozumienie pamięci, amnezji i roli hipokampa.</p>
+        </div>
+
+        <div class="section">
+          <h2>Historia i kontekst</h2>
+          <div class="case-card">
+            <div class="case-header">
+              <div>
+                <div class="case-year">1953 · Hartford, Connecticut</div>
+                <div class="case-name">Henry Gustav Molaison (1926–2008)</div>
+              </div>
+            </div>
+            <div class="case-body">
+              <p>Henry Molaison od dzieciństwa cierpiał na lekooporną padaczkę. Napady były tak częste i tak poważne, że w wieku 27 lat zdecydował się na eksperymentalną operację neurochirurgiczną. Neurochirurg William Beecher Scoville usunął obustronnie hipokampy, większość ciała migdałowatego i zakrętu przyhipokampowego — struktury, które podejrzewano o rolę w wywoływaniu napadów.</p>
+              <p>Operacja przyniosła ulgę w padaczce. Jednak jej uboczny skutek był dramatyczny: Henry obudził się niezdolny do tworzenia jakichkolwiek nowych trwałych wspomnień deklaratywnych. Każda nowa informacja, każde nowe spotkanie, każde nowe doświadczenie znikały po kilkudziesięciu minutach, jakby nigdy nie zaistniały.</p>
+            </div>
+            <div class="case-meta">
+              <span class="tag tag-blue">Amnezja następcza</span><span class="tag tag-teal">Hipokamp</span><span class="tag tag-gold">Pamięć deklaratywna</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Profil deficytów i zachowań</h2>
+          <h3>Co zostało utracone</h3>
+          <p>Henry'ego cechowała głęboka <span class="term">amnezja następcza</span> — po operacji nie był w stanie zakodować żadnego nowego faktu ani zdarzenia. Gdy psycholog Brenda Milner zjawiała się u niego po przerwie, Henry witał ją jak nieznajomą — niezależnie od tego, ile razy się wcześniej spotykali. Nie wiedział, który jest rok, jaki ma wiek, ani co jadł na śniadanie. Gdy czytał gazetę, mógł wrócić do tej samej strony kilkanaście razy, za każdym razem czując to samo „pierwsze wrażenie".</p>
+          <p>Miał też pewien stopień <span class="term">amnezji wstecznej</span> — wspomnienia z okresu bezpośrednio poprzedzającego operację były zaburzone, choć te z dzieciństwa pozostały stosunkowo nienaruszone. To wskazuje, że starsze wspomnienia były już „przepisane" do kory i nie zależały od hipokampa.</p>
+
+          <h3>Co zostało zachowane</h3>
+          <p>Kluczowym odkryciem był jednak nie tyle deficyt, co to, <em>co Henry potrafił</em>. Brenda Milner poprosiła go, by codziennie ćwiczył trudne zadanie motoryczne — rysowanie gwiazdy w lustrze (co wymaga odwrócenia ruchów w stosunku do intuicji). Z dnia na dzień Henry'emu szło lepiej — jego ręka wyraźnie się uczyła. A jednak za każdym razem, gdy siadał do zadania, twierdził, że nigdy czegoś takiego nie robił.</p>
+          <p>To odkrycie dowodnie wykazało, że pamięć proceduralna (ruchowa) jest odrębna od pamięci deklaratywnej i zależy od innych struktur — zwojów podstawy i móżdżku, nie hipokampa. Pamięć nie jest jednolitym systemem.</p>
+        </div>
+
+        <div class="section">
+          <h2>Wpływ na neuropsychologię</h2>
+          <div class="steps">
+            <div class="step"><div class="step-num">1</div><div class="step-body"><h4>Hipokamp a konsolidacja</h4><p>H.M. udowodnił, że hipokamp jest kluczowy dla <em>kodowania</em> nowych wspomnień deklaratywnych, lecz nie jest ich trwałym „magazynem". Starsze wspomnienia były zachowane, co sugeruje, że z czasem zostały przetransferowane do kory nowej.</p></div></div>
+            <div class="step"><div class="step-num">2</div><div class="step-body"><h4>Wielosystemowość pamięci</h4><p>Dysocjacja między pamięcią proceduralną (zachowaną) a deklaratywną (utraconą) dowiodła, że różne rodzaje pamięci angażują różne mózgowe systemy — co stało się fundamentem całej współczesnej klasyfikacji pamięci.</p></div></div>
+            <div class="step"><div class="step-num">3</div><div class="step-body"><h4>Etyczne implikacje badań</h4><p>Przez pół wieku H.M. był intensywnie badany — opublikowano setki artykułów. Dopiero po jego śmierci w 2008 r. ujawniono jego pełną tożsamość. Jego mózg został poddany szczegółowemu skanowaniu i jest do dziś analizowany przez Digital Brain Bank w San Diego.</p></div></div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Paradoks HM: wiedza bez doświadczenia</h2>
+          <p>Szczególnie fascynującym aspektem przypadku H.M. było jego zachowanie wobec własnej amnezji. Czasem zdawał się mieć przeczucie, że coś jest nie w porządku z jego pamięcią. Powiedział kiedyś: <em>„Co godzina jest nowa. Muszę zastanawiać się nad tym, co robiłem przez całe życie."</em> To zdanie — powiedziane przez kogoś, kto nie pamiętał poprzedniej godziny — ujawnia dramatyczny paradoks: Henry miał pewną metawiedzę o swoim stanie, lecz nie potrafił jej zaktualizować konkretnym doświadczeniem.</p>
+          <blockquote>„Każdy dzień jest sam w sobie, cokolwiek się radości przynosi."<cite>— Henry Molaison, cytowany przez Brendę Milner</cite></blockquote>
+        </div>
+
+        <div class="page-footer">
+          <span class="footer-note">Przypadek kliniczny 1 z 4</span>
+          <button class="btn-next" data-next="case-gage">Następny: Phineas Gage →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: CASE GAGE -->
+    <div class="page" id="page-case-gage">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Przypadek Kliniczny · Płat Czołowy</div>
+          <h1>Phineas Gage</h1>
+          <p class="lead">Człowiek, który przeżył przebicie mózgu prętem żelaznym — i którego przypadek po raz pierwszy pokazał, że kora czołowa jest siedlisą osobowości i charakteru społecznego.</p>
+        </div>
+
+        <div class="section">
+          <h2>Historia wypadku</h2>
+          <div class="case-card">
+            <div class="case-header">
+              <div>
+                <div class="case-year">13 września 1848 · Cavendish, Vermont</div>
+                <div class="case-name">Phineas Gage (1823–1860)</div>
+              </div>
+            </div>
+            <div class="case-body">
+              <p>Phineas Gage był 25-letnim majstrem budowlanym, powszechnie lubianym i szanowanym przez współpracowników. Pracował przy budowie linii kolejowej, gdzie jego zadaniem było ubijanie materiału wybuchowego w skalnych szczelinach. Tego popołudnia, przez chwilę roztargnienia, metalowy pręt ubijający (110 cm długości, 3 cm średnicy, 6 kg) wpadł do szczeliny przed podpaleniem lontu i wystrzelił siłą eksplozji.</p>
+              <p>Pręt przeszedł przez lewą część twarzy, wbił się pod lewe oko, przeszedł przez oczodół i przednią część płata czołowego, wychodząc przez czubek czaszki. Gage upadł, lecz po kilku minutach był przytomny i mówił. Przeżył. Jednak jego lekarz, John Harlow, który obserwował go przez kolejne lata, odnotował coś jeszcze bardziej zdumiewającego niż samo przeżycie.</p>
+            </div>
+            <div class="case-meta">
+              <span class="tag tag-rose">Płat czołowy</span><span class="tag tag-blue">Osobowość</span><span class="tag tag-gold">Podejmowanie decyzji</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Zmiana osobowości: „już nie jest Gage'em"</h2>
+          <p>Fizycznie Gage wyzdrowiał zaskakująco dobrze. Wzrok lewego oka był utracony, lecz poza tym funkcje ruchowe i mowa pozostały nienaruszone. Inteligencja — w jej klasycznym rozumieniu — była zachowana. A jednak John Harlow napisał: <em>„Równowaga między jego zdolnościami intelektualnymi a popędami zwierzęcymi wydaje się zniszczona."</em></p>
+          <p>Dawny Gage — zrównoważony, sumienny, zdolny organizator — stał się kimś zupełnie innym. Był kapryśny, niecierpliwy, wulgarny, niezdolny do wytrwania przy żadnym planie. Tracił pracę, błądził po kraju, był eksponowany w cyrku jako osobliwość. Zmarł 12 lat po wypadku, w wieku zaledwie 37 lat.</p>
+
+          <h3>Rekonstrukcja trajektorii pręta (Damasio, 1994)</h3>
+          <p>António Damasio i Hannah Damasio przeprowadzili w 1994 r. rekonstrukcję trajektorii pręta przy użyciu czaszki Gage'a i komputerowego modelowania. Wykazali, że uszkodzeniu uległy głównie <strong>przyśrodkowa i orbitofrontalna kora przedczołowa</strong> — regiony, które wiemy dziś, że są kluczowe dla integracji emocji z procesami decyzyjnymi, regulacji zachowań społecznych i hamowania impulsów.</p>
+          <p>Dla Damasio przypadek Gage'a był inspiracją do sformułowania <span class="term">hipotezy somatycznych znaczników</span>: decyzje podejmujemy nie przez czyste rozumowanie, lecz przez powiązanie opcji z sygnałami somatyczno-emocjonalnymi. Uszkodzenie OFC niszczy te sygnały, zostawiając logikę sprawną — lecz bezużyteczną bez emocjonalnego „kompasu".</p>
+        </div>
+
+        <div class="section">
+          <h2>Znaczenie naukowe i kontrowersje</h2>
+          <div class="callout callout-warn">
+            <span class="callout-icon">⚠️</span>
+            <p>Historyk Maciej Malecki i inni badacze zwracają uwagę, że <strong>wiedza o zachowaniu Gage'a po wypadku pochodzi głównie z jednego źródła</strong> — wspomnień Harlowa opublikowanych 20 lat później. Istnieje ryzyko retrospektywnej idealizacji premorbidnej osobowości Gage'a i wyolbrzymienia powypadkowych zmian. Niemniej przypadek ten stanowi ważny punkt wyjścia, a rekonstrukcja Damasio opiera się na solidnych dowodach neuroanatomicznych.</p>
+          </div>
+          <p>Czaszka i pręt Gage'a są do dziś eksponowane w Warren Anatomical Museum przy Harvard Medical School. Przypadek ten pozostaje jednym z najczęściej cytowanych w całej historii neuropsychologii i jest standardowym punktem wejścia do omawiania roli płata czołowego.</p>
+        </div>
+
+        <div class="page-footer">
+          <span class="footer-note">Przypadek kliniczny 2 z 4</span>
+          <button class="btn-next" data-next="case-tan">Następny: Przypadek Tan →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: CASE TAN -->
+    <div class="page" id="page-case-tan">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Przypadek Kliniczny · Język</div>
+          <h1>Louis Victor Leborgne — „Tan"</h1>
+          <p class="lead">Człowiek, który przez 21 lat mówił tylko jedno słowo, a jego śmierć dała neuropsychologii jej fundamenty: lokalizację mowy i narodziny afazjologii.</p>
+        </div>
+
+        <div class="section">
+          <h2>Historia pacjenta</h2>
+          <div class="case-card">
+            <div class="case-header">
+              <div>
+                <div class="case-year">1840–1861 · Szpital Bicêtre, Paryż</div>
+                <div class="case-name">Louis Victor Leborgne (1809–1861)</div>
+              </div>
+            </div>
+            <div class="case-body">
+              <p>Louis Leborgne trafił do szpitala Bicêtre w 1840 roku jako 31-latek. Miał już wtedy całkowitą niezdolność do mówienia — poza jednym słowem: „tan", które wypowiadał w kółko. Gdy coś chciał wyrazić, mówił „tan, tan" albo „tan tan tan" — zmieniając intonację, gestykulując, modyfikując melodię głosu, by przekazać różne znaczenia. Rozumiał wypowiadane do niego słowa. Czytał, wskazywał na liczby, rozpoznawał twarze. Jego umysł był sprawny — tylko jedno wyjście było zablokowane.</p>
+              <p>Przez 21 lat był pacjentem szpitala psychiatrycznego, bo w połowie XIX w. nie wiedziano, jak inaczej zaopiekować się człowiekiem, który nie mówi. W 1861 r. rozwinął gangren kończyny dolnej. Wówczas trafił pod opiekę Paula Broki, chirurga z tego samego szpitala.</p>
+            </div>
+            <div class="case-meta">
+              <span class="tag tag-blue">Afazja Broki</span><span class="tag tag-teal">Lokalizacja mowy</span><span class="tag tag-gold">Lewa półkula</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Odkrycie Broki</h2>
+          <p>Broca zbadał Leborgne'a kilka dni przed jego śmiercią. Stwierdził, że pacjent rozumie mowę dobrze, lecz jest niemal całkowicie niezdolny do jej produkcji. Gdy Leborgne zmarł 17 kwietnia 1861 r., Broca natychmiast przeprowadził sekcję mózgu. Odkrył rozległe uszkodzenie w okolicach lewego dolnego zakrętu czołowego — obszaru, który dziś nosi jego imię.</p>
+          <p>Kilka tygodni później, 18 kwietnia 1861 r., Broca przedstawił swoje odkrycie na posiedzeniu Société d'Anthropologie de Paris. Ten dzień bywa uznawany za narodziny neuropsychologii języka. Twierdził, że <em>on nie mówi, bo uszkodzony jest konkretny obszar kory mózgowej</em> — co było rewolucją w epoce, gdy wielu naukowców wciąż wątpiło, czy różne obszary mózgu mają różne funkcje.</p>
+
+          <h3>Kolejne przypadki i generalizacja</h3>
+          <p>Broca zbadał wkrótce drugi podobny przypadek — Lelong, który używał jedynie 5 słów. Ponownie uszkodzenie leżało w lewej kory czołowej. W 1865 r. Broca sformułował zasadę, która do dziś nosi jego imię: <strong>„Mówimy lewą półkulą"</strong> — co było pierwszym dowodem na lateralizację funkcji językowych.</p>
+        </div>
+
+        <div class="section">
+          <h2>Rewizje i współczesne spojrzenie</h2>
+          <p>Mózg Leborgne'a jest przechowywany w Musée Dupuytren w Paryżu i był wielokrotnie badany nowoczesnymi metodami. Analizy MRI przeprowadzone w 2007 r. przez Dronkersa i współpracowników wykazały, że uszkodzenie było znacznie rozleglejsze niż to, co Broca mógł ocenić gołym okiem — obejmowało nie tylko zakręt czołowy, lecz głębszą istotę białą i sąsiednie regiony. To jednak nie podważa odkrycia Broki — potwierdza jedynie, że obszar Broki jest jednym węzłem sieci, a nie izolowanym centrum mowy.</p>
+          <p>Współcześnie wiemy, że obszar Broki (BA 44/45) angażuje się nie tylko w produkcję mowy, ale również w przetwarzanie składni, muzykę, imitację i wiele innych zadań wymagających sekwencjonowania złożonych działań. To czyni z jego odkrycia przez Brokę punkt wyjścia, a nie punkt dojścia.</p>
+        </div>
+
+        <div class="page-footer">
+          <span class="footer-note">Przypadek kliniczny 3 z 4</span>
+          <button class="btn-next" data-next="case-split">Następny: Rozdzielony mózg →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: CASE SPLIT BRAIN -->
+    <div class="page" id="page-case-split">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Przypadek Kliniczny · Asymetria Półkul</div>
+          <h1>Pacjenci z rozdzielonym mózgiem</h1>
+          <p class="lead">Roger Sperry, Michael Gazzaniga i pacjenci po callosotomii — eksperymenty, które ujawniły, że w jednej czaszce mogą mieszkać dwie odrębne świadomości.</p>
+        </div>
+
+        <div class="section">
+          <h2>Tło medyczne: callosotomia jako leczenie padaczki</h2>
+          <p>Ciało modzelowate (corpus callosum) to masywna wiązka ok. 200–250 milionów włókien nerwowych łącząca obie półkule mózgowe. W przypadkach lekoopornej padaczki z napadami uogólnionymi neurochirurdzy stosowali w latach 60. procedurę jego przecięcia — <span class="term">callosotomię</span>. Operacja skutecznie ograniczała napady, bo przerywała elektryczny „most", przez który wyładowania rozchodziły się z jednej półkuli na drugą.</p>
+          <p>Pacjenci po callosotomii wyglądali w codziennym życiu zaskakująco normalnie. Rozmawiali, chodzili, czytali. Jednak Roger Sperry i jego doktorant Michael Gazzaniga zaprojektowali serię sprytnych eksperymentów, które ujawniły coś zdumiewającego: każda półkula rządziła się własnymi prawami.</p>
+        </div>
+
+        <div class="section">
+          <h2>Kluczowe eksperymenty</h2>
+          <h3>Zasada anatomiczna: skrzyżowanie dróg</h3>
+          <p>Aby zrozumieć eksperymenty, trzeba pamiętać o pewnej zasadzie anatomicznej: informacje wzrokowe z lewej połowy pola widzenia trafiają do <em>prawej</em> półkuli, a z prawej połowy — do <em>lewej</em>. Podobnie lewa ręka jest sterowana przez prawą półkulę. U zdrowego człowieka półkule błyskawicznie wymieniają informacje przez ciało modzelowate. Po callosotomii ten kanał jest przecięty.</p>
+
+          <h3>Eksperyment z latarką i słowami</h3>
+          <p>Pacjent siedział przed ekranem z fiksacją wzroku na centralnym punkcie. Na ułamek sekundy wyświetlano słowo — po lewej lub prawej stronie centrum, tak by trafiło tylko do jednej półkuli. Gdy słowo „łyżka" pojawiło się po lewej stronie (trafiając do prawej, niemej półkuli), pacjent <em>słownie</em> twierdził, że nic nie widział. Ale gdy poproszono go, by lewą ręką (sterowaną przez prawą półkulę) wybrał spośród zasłoniętych przedmiotów ten właściwy — sięgał pewnie po łyżkę. Wiedział — ale nie mógł o tym powiedzieć.</p>
+
+          <h3>Konflikt między półkulami</h3>
+          <p>Gazzaniga opisał też zjawisko <span class="term">konfliktu między półkulami</span>: niekiedy lewa ręka dosłownie walczyła z prawą — prawa chciała zapiąć guziki, a lewa je rozpiąć. Ten „obcy ręki" efekt ujawnił, że po callosotomii dwie półkule mogą mieć odrębne plany i intencje, które są normalnie koordynowane przez ciało modzelowate.</p>
+        </div>
+
+        <div class="section">
+          <h2>Co odkryły te eksperymenty?</h2>
+          <div class="card-grid">
+            <div class="card"><div class="card-label">Lewa półkula</div><div class="card-title">Dominacja językowa</div><p>Odpowiada za mowę, logikę, analizę sekwencyjną i rozumowanie werbalne. Tworzy spójne narracje — nawet post hoc, interpretując działania podjęte przez prawą półkulę.</p></div>
+            <div class="card"><div class="card-label">Prawa półkula</div><div class="card-title">Przetwarzanie holistyczne</div><p>Odpowiada za przetwarzanie wzrokowo-przestrzenne, emocje, prozodię, muzykę i rozumienie kontekstu społecznego. Może rozumieć proste słowa, lecz nie mówi.</p></div>
+          </div>
+          <p>Sperry otrzymał w 1981 r. Nagrodę Nobla. Jego odkrycia skłoniły do rewizji pojęcia świadomości: czy po callosotomii mamy do czynienia z jedną świadomością czy dwiema? Gazzaniga argumentuje, że lewa półkula pełni rolę <span class="term">interpretatora</span> — buduje spójną narrację o działaniach podejmowanych przez cały mózg, nawet gdy ta narracja jest po prostu wymyśloną racjonalizacją.</p>
+          <div class="callout callout-info">
+            <span class="callout-icon">ℹ️</span>
+            <p>Zjawisko „interpretatora lewej półkuli" ma dalekosiężne implikacje dla rozumienia wolnej woli. Badania Libeta wykazały, że elektryczna aktywność mózgu poprzedza świadome postanowienie ruchu o ok. 500 ms — co sugeruje, że świadomość może być <em>narratorem</em> decyzji, a nie ich <em>autorem</em>.</p>
+          </div>
+        </div>
+
+        <div class="page-footer">
+          <span class="footer-note">Przypadek kliniczny 4 z 4</span>
+          <button class="btn-next" data-next="tests-overview">Następny: Testy →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         PAGE: TESTS OVERVIEW
+    ============================================================ -->
+    <div class="page" id="page-tests-overview">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Testy · Przegląd</div>
+          <h1>Testy neuropsychologiczne</h1>
+          <p class="lead">Standaryzowane narzędzia pomiaru funkcji poznawczych — od testów przesiewowych po kompleksowe baterie diagnostyczne stosowane w klinice i badaniach naukowych.</p>
+        </div>
+        <div class="section">
+          <h2>Czym jest test neuropsychologiczny?</h2>
+          <p>Test neuropsychologiczny to standaryzowane zadanie behawioralne, zaprojektowane tak, by mierzyć konkretny aspekt funkcjonowania poznawczego w sposób rzetelny (dający podobne wyniki przy powtórzeniu) i trafny (mierzący to, co deklaruje mierzyć). Wyniki porównuje się z <span class="term">normami populacyjnymi</span> — danymi zebranymi na dużych, reprezentatywnych grupach osób w różnym wieku, z różnym wykształceniem i różnej płci.</p>
+          <p>Kluczowe jest pojęcie <span class="term">premorbidnego poziomu funkcjonowania</span> — szacunkowej oceny możliwości danej osoby sprzed zachorowania lub urazu. Deficyt definiuje się jako istotne odchylenie od tego indywidualnego punktu odniesienia, a nie tylko od normy populacyjnej. Osoba o bardzo wysokich zdolnościach premorbidnych może po urazie uzyskiwać wyniki „w normie", a mimo to być głęboko poszkodowana względem swojego przedchorobowego poziomu.</p>
+          <div class="callout callout-warn">
+            <span class="callout-icon">⚠️</span>
+            <p><strong>Testy ważności wyników (PVT — Performance Validity Tests)</strong> są dziś standardowym elementem każdej baterii klinicznej. Ich celem jest wykrycie nieoptymalne wysiłkowania (poor effort) lub symulacji (malingering) — co jest szczególnie ważne w kontekście spraw odszkodowawczych i rentowych. Przykłady: TOMM, Test 15 słów Reya w wersji symptom validity, b Test.</p>
+          </div>
+        </div>
+        <div class="section">
+          <h2>Mapa obszarów i testów</h2>
+          <div class="card-grid">
+            <div class="card" style="cursor:pointer" onclick="showPage('tests-executive')"><div class="card-label">Dział testów</div><div class="card-title">Funkcje wykonawcze</div><p>Test Stroopa, TMT (Trail Making), WCST, Fluencja słowna, Test wieży Londynu, Zadanie stop-signal.</p></div>
+            <div class="card" style="cursor:pointer" onclick="showPage('tests-memory')"><div class="card-label">Dział testów</div><div class="card-title">Pamięć</div><p>CVLT, WMS-IV, Test figury Reya, Digit Span (Cyfry), California Verbal Learning Test, Test rozpoznawania twarzy.</p></div>
+            <div class="card" style="cursor:pointer" onclick="showPage('tests-screen')"><div class="card-label">Dział testów</div><div class="card-title">Testy przesiewowe</div><p>MMSE, MoCA, CDT (rysowanie zegara), Boston Naming Test, FAB (Frontal Assessment Battery).</p></div>
+            <div class="card" style="cursor:pointer" onclick="showPage('assessment')"><div class="card-label">Dział testów</div><div class="card-title">Baterie inteligencji</div><p>WAIS-IV, WISC-V, Raven's Progressive Matrices, Test Matryc Ravena, Bateria Łurii.</p></div>
+          </div>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Testy</span>
+          <button class="btn-next" data-next="tests-executive">Testy funkcji wykonawczych →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: TESTS EXECUTIVE -->
+    <div class="page" id="page-tests-executive">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Testy · Funkcje Wykonawcze</div>
+          <h1>Testy funkcji wykonawczych</h1>
+          <p class="lead">Narzędzia do pomiaru hamowania, elastyczności poznawczej, planowania, fluencji i przełączania — kluczowych komponentów regulacji wyższych procesów poznawczych.</p>
+        </div>
+
+        <div class="section">
+          <h2>Test Stroopa</h2>
+          <div class="definition-block">
+            <div class="def-term">Stroop Color-Word Interference Test (1935)</div>
+            <p>Jeden z najpopularniejszych i najlepiej zbadanych testów neuropsychologicznych. Mierzy zdolność do <strong>hamowania</strong> dominującej, automatycznej odpowiedzi.</p>
+          </div>
+          <h3>Procedura</h3>
+          <p>Badany widzi słowa oznaczające kolory (np. słowo „NIEBIESKI") wydrukowane tuszem innego koloru (np. czerwonym). Zadaniem jest nazwanie koloru tuszu, nie czytanie słowa. Automatyczny, wyuczony odruch czytania musi zostać zahamowany, by podać prawidłową odpowiedź.</p>
+          <h3>Interpretacja</h3>
+          <p><span class="term">Efekt interferencji Stroopa</span> to zwolnienie czasu reakcji i wzrost liczby błędów w warunku niezgodności (słowo i kolor różne) względem warunku zgodności lub samego nazewnictwa kolorów bez słów. Wynik interferencyyny oblicza się jako różnicę czasów między warunkami. <strong>Silna interferencja Stroopa</strong> (duże zwolnienie i wiele błędów) wskazuje na osłabione hamowanie — co obserwuje się w uszkodzeniach czołowych, ADHD, schizofrenii, depresji i wczesnym otępieniu.</p>
+          <p>Wartości norm różnią się między wersjami testu (klasyczna wersja słowna, D-KEFS, Golden). Wyniki podaje się jako czasy wykonania (sekundy) lub wyniki przeliczone (T-scores, percentyle).</p>
+        </div>
+
+        <div class="section">
+          <h2>Trail Making Test (TMT)</h2>
+          <div class="definition-block">
+            <div class="def-term">Trail Making Test — część A i B</div>
+            <p>Szybki, rzetelny test mierzący szybkość przetwarzania wzrokowo-ruchowego (część A) i elastyczność poznawczą z przełączaniem (część B).</p>
+          </div>
+          <h3>Procedura</h3>
+          <p><strong>Część A:</strong> Badany łączy liniami cyfry od 1 do 25, rozmieszczone losowo na kartce, w kolejności rosnącej. Mierzy szybkość przetwarzania i motorykę. <strong>Część B:</strong> Badany naprzemiennie łączy cyfry i litery w porządku rosnącym (1–A–2–B–3–C…). Wymaga jednoczesnego utrzymania dwóch reguł i przełączania między nimi — angażuje funkcje wykonawcze i pamięć roboczą.</p>
+          <h3>Interpretacja</h3>
+          <p>Kluczowy wskaźnik to <strong>B minus A</strong> — czas różnicowy, który eliminuje wpływ szybkości przetwarzania i motoryki, izolując wkład przełączania (shifting). Wydłużony czas B–A wskazuje na deficyt elastyczności poznawczej, typowy dla uszkodzeń czołowych, choroby Parkinsona i otępień.</p>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Wiek</th><th>TMT-A (sek.) norma</th><th>TMT-B (sek.) norma</th><th>Implikacja kliniczna</th></tr></thead>
+              <tbody>
+                <tr><td>20–29 lat</td><td>~23 s</td><td>~50 s</td><td>Wyniki referencyjne</td></tr>
+                <tr><td>40–49 lat</td><td>~30 s</td><td>~66 s</td><td>Normalne spowolnienie związane z wiekiem</td></tr>
+                <tr><td>60–69 lat</td><td>~43 s</td><td>~106 s</td><td>Wyższe wartości wymagają kalibracji norm</td></tr>
+                <tr><td>&gt;2 SD poniżej normy</td><td colspan="2">Wynik istotnie obniżony</td><td>Wskazanie do pełnej oceny FW</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Wisconsin Card Sorting Test (WCST)</h2>
+          <div class="definition-block">
+            <div class="def-term">WCST — Test Sortowania Kart Wisconsin</div>
+            <p>Klasyczny test elastyczności poznawczej, mierzący zdolność do odkrycia reguły klasyfikacji i zmiany jej, gdy reguła przestaje obowiązywać.</p>
+          </div>
+          <h3>Procedura</h3>
+          <p>Badany otrzymuje karty z symbolami różniącymi się kształtem, kolorem i liczbą. Musi przyporządkowywać każdą kartę do jednego z czterech wzorców, korzystając wyłącznie z informacji „dobrze" lub „źle" udzielanej przez egzaminatora. Reguła klasyfikacji zmienia się bez uprzedzenia, gdy badany poprawnie zastosuje ją 10 razy z rzędu.</p>
+          <h3>Kluczowe wskaźniki</h3>
+          <p><span class="term">Błędy perseveracyjne</span> — kontynuowanie poprzedniej reguły mimo informacji zwrotnej, że jest błędna — są kluczowym wynikiem WCST. Wysokie perseveracje są charakterystyczne dla uszkodzeń kory grzbietowo-bocznej płata czołowego i obserwuje się je w schizofrenii, wczesnej AD, OCD i po TBI. Liczba ukończonych kategorii odzwierciedla ogólną elastyczność.</p>
+        </div>
+
+        <div class="section">
+          <h2>Fluencja słowna</h2>
+          <p>Testy fluencji słownej mierzą zdolność do szybkiego generowania słów według określonej reguły w ograniczonym czasie (zwykle 60 sekund). Rozróżniamy dwa typy. <span class="term">Fluencja fonemiczna (literowa)</span>: badany wymienia słowa zaczynające się na daną literę (F, A, S — stąd test FAS). Angażuje głównie lewą korę czołową i zasoby leksykalne. <span class="term">Fluencja semantyczna (kategorialna)</span>: badany wymienia słowa z danej kategorii (zwierzęta, owoce). Angażuje pamięć semantyczną i korę skroniową. Dysocjacja między nimi pomaga różnicować uszkodzenia czołowe (obniżona fonemiczna &gt; semantyczna) od skroniowo-semantycznych (obniżona semantyczna &gt; fonemiczna) i jest pomocna w diagnozie wczesnego otępienia semantycznego (FTD).</p>
+        </div>
+
+        <div class="section">
+          <h2>Test Wieży Londynu (TOL)</h2>
+          <p>Test planowania, w którym badany musi przenieść kolorowe kulki z pozycji startowej do docelowej, przestrzegając zasad (np. kulka może stać tylko na określonym miejscu) w jak najmniejszej liczbie ruchów. Mierzy zdolność do przewidywania konsekwencji działań, planowania kroków i hamowania impulsywnych ruchów. Test ten jest szczególnie wrażliwy na uszkodzenia przedczołowe i jest standardowym elementem baterii D-KEFS.</p>
+        </div>
+
+        <div class="page-footer">
+          <span class="footer-note">Testy — Funkcje wykonawcze</span>
+          <button class="btn-next" data-next="tests-memory">Następny: Testy pamięci →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: TESTS MEMORY -->
+    <div class="page" id="page-tests-memory">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Testy · Pamięć</div>
+          <h1>Testy pamięci</h1>
+          <p class="lead">Narzędzia do pomiaru kodowania, przechowywania i odtwarzania informacji — od prostych list słów po złożone figury geometryczne i odtwarzanie historii.</p>
+        </div>
+
+        <div class="section">
+          <h2>California Verbal Learning Test (CVLT)</h2>
+          <div class="definition-block">
+            <div class="def-term">CVLT-3 — trzecia edycja</div>
+            <p>Jeden z najbardziej kompleksowych testów pamięci werbalnej, analizujący nie tylko ile badany zapamiętał, ale <em>jak</em> się uczył i jakie popełniał błędy.</p>
+          </div>
+          <h3>Procedura</h3>
+          <p>Badanemu odczytuje się listę 16 słów należących do 4 kategorii semantycznych (np. owoce, narzędzia) — czterokrotnie, za każdym razem prosząc o swobodne odtworzenie. Następnie prezentuje się drugą listę interferencyjną (lista B). Po krótkiej i długiej przerwie (30 min) mierzy się odtworzenie swobodne, odtworzenie wskazówkowe (podanie kategorii) i rozpoznanie.</p>
+          <h3>Co mierzy każdy wskaźnik</h3>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Wskaźnik</th><th>Co mierzy</th><th>Profil kliniczny</th></tr></thead>
+              <tbody>
+                <tr><td>Krzywa uczenia (próby 1–5)</td><td>Tempo i efektywność kodowania</td><td>Płaskie uczenie → hipokamp, AD</td></tr>
+                <tr><td>Interferencja proaktywna</td><td>Wpływ wcześniejszej listy na aktualną</td><td>Wysoka → czołowe, starzenie</td></tr>
+                <tr><td>Efekt pozycji (pierwsze/ostatnie)</td><td>Primacy/recency — procesy kodowania</td><td>Brak efektu primacy → AD, hipokamp</td></tr>
+                <tr><td>Recall vs Recognition</td><td>Odtwarzanie vs rozpoznawanie</td><td>Recognition &gt;&gt; Recall → deficit retrieval, czołowe</td></tr>
+                <tr><td>Intruzje semantyczne</td><td>Błędy z tej samej kategorii</td><td>Liczne intruzje → czołowe, AD</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Test Figury Złożonej Reya (ROCF)</h2>
+          <div class="definition-block">
+            <div class="def-term">Rey–Osterrieth Complex Figure Test</div>
+            <p>Test mierzący percepcję wzrokową, organizację przestrzenną, planowanie i pamięć wzrokowo-przestrzenną — jeden z niewielu testów, który pozwala obserwować <em>proces</em> wykonania, nie tylko wynik.</p>
+          </div>
+          <h3>Procedura</h3>
+          <p>Badany kopiuje złożoną figurę geometryczną (rysunek Reya) z wzorem przed sobą. Po 3 minutach (krótka przerwa) i po 30 minutach (długa przerwa) rysuje figurę z pamięci, bez wzoru. Analiza kolejności rysowania elementów (rejestrowanej przez kolorowe długopisy lub nagranie) ujawnia strategię organizacyjną badanego.</p>
+          <h3>Interpretacja</h3>
+          <p>Wyniki ocenia się według standardowego systemu punktowego (0–36 pkt za każdą z trzech faz). <strong>Niska punktacja kopiowania</strong> przy dobrym przypomnieniu sugeruje deficyt percepcyjno-organizacyjny (ciemieniowy). <strong>Dobra kopia, słabe przypomnienie</strong> wskazuje na deficyt pamięci wzrokowo-przestrzennej (hipokamp/płat skroniowy prawy). <strong>Fragmentaryczna, chaotyczna kopia</strong> wskazuje na brak planowania i niezdolność do globalnej organizacji figury — typowy profil czołowy.</p>
+        </div>
+
+        <div class="section">
+          <h2>Digit Span — Cyfry (podtest WAIS/WMS)</h2>
+          <p>Jeden z najstarszych i najprostszych testów pamięci roboczej. Badanemu odczytywane są sekwencje cyfr o rosnącej długości — musi powtórzyć je w tej samej (Cyfry wprost) lub odwrotnej kolejności (Cyfry wspak), a w wersji WAIS-IV również ułożyć w porządku rosnącym (Cyfry: porządkowanie). Wynik Cyfr Wprost mierzy pojemność pętli fonologicznej, Cyfry Wspak — funkcje wykonawcze i manipulację w pamięci roboczej, Porządkowanie — bardziej złożone procesy manipulacji informacją. Drastyczna dysocjacja (dobre Wprost, złe Wspak) wskazuje na uszkodzenie czołowe.</p>
+        </div>
+
+        <div class="section">
+          <h2>Skala Pamięci Wechslera (WMS-IV)</h2>
+          <p>Kompleksowa bateria pamięci, obejmująca kilka indeksów: <strong>Pamięć bezpośrednia</strong> (odtwarzanie bezpośrednio po prezentacji), <strong>Pamięć odroczona</strong> (po 20–30 min), <strong>Pamięć wzrokowo-przestrzenna</strong>, <strong>Pamięć wzrokowo-asocjacyjna</strong> i <strong>Procent utrzymania</strong> (stosunek odroczonego do bezpośredniego). Ten ostatni wskaźnik jest szczególnie ważny: jeśli badany zapamiętuje mało, lecz proporcjonalnie zatrzymuje to, co zapamiętał — deficyt leży w kodowaniu (hipokamp, AD). Jeśli przechowuje słabo, choć początkowo zapamiętał wiele — zaburzony jest proces konsolidacji lub przechowywania.</p>
+        </div>
+
+        <div class="page-footer">
+          <span class="footer-note">Testy — Pamięć</span>
+          <button class="btn-next" data-next="tests-screen">Następny: Testy przesiewowe →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: TESTS SCREENING -->
+    <div class="page" id="page-tests-screen">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Testy · Przesiewowe</div>
+          <h1>Testy przesiewowe i krótkie baterie</h1>
+          <p class="lead">Narzędzia zaprojektowane tak, by w ciągu kilku–kilkunastu minut uchwycić szeroki profil funkcji poznawczych i zasygnalizować potrzebę pogłębionej diagnostyki.</p>
+        </div>
+
+        <div class="section">
+          <h2>Mini-Mental State Examination (MMSE)</h2>
+          <div class="definition-block">
+            <div class="def-term">MMSE (Folstein, 1975) — 30 punktów</div>
+            <p>Przez dekady najszerzej stosowane narzędzie przesiewowe otępienia na świecie. Szybkie (10–15 min), proste w zastosowaniu, lecz z istotnymi ograniczeniami czułości.</p>
+          </div>
+          <h3>Składowe MMSE</h3>
+          <p>Test bada <strong>orientację</strong> (co do czasu i miejsca, 10 pkt), <strong>rejestrację</strong> (powtórzenie 3 słów, 3 pkt), <strong>koncentrację i obliczenia</strong> (odejmowanie 7 lub literowanie wstecz, 5 pkt), <strong>przypomnienie</strong> (3 wcześniej podane słowa, 3 pkt), <strong>język</strong> (nazywanie, powtarzanie, rozumienie, czytanie, pisanie, 8 pkt) i <strong>praxis wzrokowo-przestrzenna</strong> (kopiowanie pentagonu, 1 pkt).</p>
+          <h3>Wyniki i interpretacja</h3>
+          <div class="score-visual">
+            <div class="score-bar-wrap"><div class="score-bar" style="width:100%"></div></div>
+            <div class="score-labels"><span>0</span><span>Ciężkie otępienie ≤10</span><span>Umiarkowane 11–20</span><span>Łagodne 21–24</span><span>Norma 25–30</span></div>
+          </div>
+          <p>Wynik ≤23 pkt (lub ≤24 pkt przy wykształceniu wyższym) jest tradycyjnie uznawany za sugestywny dla otępienia. Kluczowe ograniczenie: MMSE jest <strong>mało czuła dla łagodnych zaburzeń poznawczych (MCI)</strong> i wyraźnie zależy od poziomu wykształcenia — osoby lepiej wykształcone mogą uzyskać wyniki w normie pomimo realnych deficytów.</p>
+        </div>
+
+        <div class="section">
+          <h2>Montreal Cognitive Assessment (MoCA)</h2>
+          <div class="definition-block">
+            <div class="def-term">MoCA (Nasreddine, 2005) — 30 punktów</div>
+            <p>Zaprojektowana jako odpowiedź na zbyt niską czułość MMSE dla MCI. Szerszy zakres badanych funkcji, silniejszy nacisk na funkcje wykonawcze i uwagę.</p>
+          </div>
+          <h3>Co MoCA sprawdza lepiej niż MMSE</h3>
+          <p>MoCA zawiera wersję skróconą TMT (połącz 1–A–2–B–3–C), Test Rysowania Zegara w pełnej wersji, kopiowanie sześcianu, fluencję słowną, test podobieństw abstraktnych (jabłko–banan → „owoce") i rozszerzoną baterię pamięci (5 słów z opóźnionym przypomnieniem). Czułość MoCA dla MCI wynosi ok. 90%, wobec 18% dla MMSE — co czyni ją znacznie bardziej użytecznym narzędziem klinicznym w wczesnej diagnostyce.</p>
+          <div class="callout callout-info">
+            <span class="callout-icon">ℹ️</span>
+            <p>Wynik poniżej 26/30 pkt sugeruje zaburzenia poznawcze. Do wyniku dodaje się 1 punkt, jeśli badany ma ≤12 lat edukacji (korekta wykształcenia). Normy MoCA są dostępne w ponad 40 językach i są systematycznie aktualizowane.</p>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Clock Drawing Test (CDT) — Test Rysowania Zegara</h2>
+          <p>Badany proszony jest o narysowanie tarczy zegara z cyframi i ustawienie wskazówek na godzinę 11:10 (lub inną). Zadanie angażuje jednocześnie: <strong>rozumienie polecenia</strong> (język), <strong>pamięć semantyczną</strong> (co to jest zegar), <strong>funkcje wzrokowo-przestrzenne</strong> (rozmieszczenie cyfr), <strong>planowanie</strong> (sekwencja rysowania), <strong>funkcje wykonawcze</strong> (korekta błędów, hamowanie). Jest to jeden z nielicznych testów, który przy zaledwie jednym zadaniu testuje tak szerokie spektrum funkcji. Stosowany w kilku systemach oceny punktowej (Shulman, Manos, Wolf-Klein) — istotne jest, by stosować ten sam system przy porównaniach podłużnych.</p>
+        </div>
+
+        <div class="section">
+          <h2>Boston Naming Test (BNT) i Frontal Assessment Battery (FAB)</h2>
+          <p><span class="term">BNT</span> bada nazywanie na konfrontację — badany patrzy na rysunki obiektów o rosnącym stopniu trudności (od oczywistych jak „drzewo" po rzadkie jak „igloo" czy „harmonia") i stara się je nazwać. Test jest wysoce wrażliwy na uszkodzenia lewego płata skroniowego i degenerację semantyczną. Normy są silnie zależne od wykształcenia i ekspozycji kulturowej. <span class="term">FAB</span> to krótka 6-punktowa bateria do szybkiej oceny uszkodzeń czołowych: abstrakcje, fluencja słowna, sekwencje motoryczne (ręka–pięść–krawędź Łurii), podatność na interferencję, hamowanie impulsu chwytania, niezależność od środowiska.</p>
+        </div>
+
+        <div class="page-footer">
+          <span class="footer-note">Testy przesiewowe</span>
+          <button class="btn-next" data-next="assessment">Następny: Metody oceny →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: ASSESSMENT -->
+    <div class="page" id="page-assessment">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Diagnostyka</div>
+          <h1>Metody oceny neuropsychologicznej</h1>
+          <p class="lead">Narzędzia, baterie testów i procedury badania, które służą do pomiaru funkcji poznawczych i wykrywania deficytów neurologicznych.</p>
+        </div>
+        <div class="section">
+          <h2>Cele oceny neuropsychologicznej</h2>
+          <p>Badanie neuropsychologiczne służy kilku celom: <strong>diagnozowaniu</strong> (czy istnieje zaburzenie organiczne?), <strong>różnicowaniu</strong> (np. depresja vs. wczesne otępienie), <strong>profilowaniu</strong> mocnych i słabych stron, <strong>planowaniu rehabilitacji</strong> i <strong>monitorowaniu</strong> przebiegu lub efektów interwencji.</p>
+          <div class="card-grid">
+            <div class="card"><div class="card-label">Bateria ogólna</div><div class="card-title">WAIS-IV / WISC-V</div><p>Skale inteligencji Wechslera — ocena zdolności ogólnych z rozkładem na wskaźniki: rozumowanie, pamięć robocza, prędkość przetwarzania, rozumienie werbalne.</p></div>
+            <div class="card"><div class="card-label">Pamięć</div><div class="card-title">WMS-IV / CVLT</div><p>Skala pamięci Wechslera i California Verbal Learning Test — pomiar kodowania, przechowywania, rozpoznawania i profilu błędów.</p></div>
+            <div class="card"><div class="card-label">Funkcje wykonawcze</div><div class="card-title">WCST / D-KEFS</div><p>Wisconsin Card Sorting Test mierzy elastyczność. D-KEFS to kompleksowa bateria obejmująca Stroopa, fluencję, TOL i inne testy FW.</p></div>
+            <div class="card"><div class="card-label">Przesiew</div><div class="card-title">MMSE / MoCA</div><p>Szybkie testy przesiewowe otępienia. MoCA jest czulsza dla MCI. Oba dostępne w wersji polskiej ze standaryzacją na populacji polskiej.</p></div>
+          </div>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Diagnostyka</span>
+          <button class="btn-next" data-next="neuroimaging">Następny: Neuroobrazowanie →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- PAGE: NEUROIMAGING -->
+    <div class="page" id="page-neuroimaging">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">Diagnostyka</div>
+          <h1>Neuroobrazowanie</h1>
+          <p class="lead">Przegląd technik obrazowania struktury i funkcji mózgu — od rentgena po wieloskalowe mapowanie łączności.</p>
+        </div>
+        <div class="section">
+          <h2>Techniki strukturalne</h2>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Technika</th><th>Zasada</th><th>Zastosowanie</th><th>Ograniczenia</th></tr></thead>
+              <tbody>
+                <tr><td>CT (KT)</td><td>Różnicowe pochłanianie promieniowania X</td><td>Szybka diagnostyka ostrych stanów (krwawienie, udary)</td><td>Słaba rozdzielczość tkanek miękkich, promieniowanie</td></tr>
+                <tr><td>MRI strukturalny</td><td>Precesja protonów wodoru w polu magnetycznym</td><td>Morfologia mózgu, atrofia, zmiany ogniskowe</td><td>Drogie, czas badania, przeciwwskazania metalowe</td></tr>
+                <tr><td>DTI</td><td>Dyfuzja anizotropowa wody wzdłuż aksonów</td><td>Traktografia białej istoty, DAI, stwardnienie rozsiane</td><td>Podatny na artefakty ruchowe</td></tr>
+                <tr><td>VBM</td><td>Wokselowa morfometria na bazie MRI</td><td>Grupowe porównania objętości istoty szarej</td><td>Wymaga dużych grup</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="section">
+          <h2>Techniki funkcjonalne</h2>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Technika</th><th>Zasada</th><th>Rozdzielczość czasowa</th><th>Zastosowanie</th></tr></thead>
+              <tbody>
+                <tr><td>fMRI (BOLD)</td><td>Zmiany oksygenacji hemoglobiny</td><td>~2 s</td><td>Mapowanie aktywacji, sieci spoczynkowe (rs-fMRI)</td></tr>
+                <tr><td>PET</td><td>Anihilacja pozytonów z radioizotopem</td><td>~1 min</td><td>Metabolizm, receptory, amyloid (PIB), tau</td></tr>
+                <tr><td>EEG</td><td>Elektryczna aktywność mózgu</td><td>~1 ms</td><td>Padaczka, rytmy mózgowe, potencjały wywołane (ERP)</td></tr>
+                <tr><td>MEG</td><td>Pola magnetyczne prądów neuronalnych</td><td>~1 ms</td><td>Mapowanie języka przed operacją</td></tr>
+                <tr><td>fNIRS</td><td>Absorpcja bliskiej podczerwieni</td><td>~0.1 s</td><td>Niemowlęta, badania przy ruchu, urządzenia przenośne</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="callout callout-info">
+            <span class="callout-icon">ℹ️</span>
+            <p>Metoda <strong>łączności funkcjonalnej w spoczynku (rs-fMRI)</strong> pozwala identyfikować sieci mózgowe bez żadnego zadania. To kluczowe dla populacji klinicznych (dzieci, pacjenci po udarze), u których wykonanie aktywnych zadań byłoby trudne lub niemożliwe.</p>
+          </div>
+        </div>
+        <div class="page-footer">
+          <span class="footer-note">Diagnostyka</span>
+          <button class="btn-next" data-next="wiki">Następny: WIKI — Słownik →</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         PAGE: WIKI
+    ============================================================ -->
+    <div class="page" id="page-wiki">
+      <div class="content-wrapper">
+        <div class="page-hero">
+          <div class="chapter-number">WIKI · Słownik</div>
+          <h1>Słownik pojęć neuropsychologicznych</h1>
+          <p class="lead">Alfabetyczny przegląd kluczowych terminów, koncepcji i nazw — szybkie odniesienie do najważniejszych pojęć z całej bazy wiedzy.</p>
+        </div>
+
+        <div class="section">
+          <div class="wiki-filter" id="wikiFilter">
+            <button class="wiki-letter active" data-letter="all">Wszystkie</button>
+            <button class="wiki-letter" data-letter="A">A</button>
+            <button class="wiki-letter" data-letter="B">B</button>
+            <button class="wiki-letter" data-letter="C">C</button>
+            <button class="wiki-letter" data-letter="D">D</button>
+            <button class="wiki-letter" data-letter="E">E</button>
+            <button class="wiki-letter" data-letter="F">F</button>
+            <button class="wiki-letter" data-letter="G">G</button>
+            <button class="wiki-letter" data-letter="H">H</button>
+            <button class="wiki-letter" data-letter="I">I</button>
+            <button class="wiki-letter" data-letter="K">K</button>
+            <button class="wiki-letter" data-letter="L">L</button>
+            <button class="wiki-letter" data-letter="M">M</button>
+            <button class="wiki-letter" data-letter="N">N</button>
+            <button class="wiki-letter" data-letter="O">O</button>
+            <button class="wiki-letter" data-letter="P">P</button>
+            <button class="wiki-letter" data-letter="R">R</button>
+            <button class="wiki-letter" data-letter="S">S</button>
+            <button class="wiki-letter" data-letter="T">T</button>
+            <button class="wiki-letter" data-letter="U">U</button>
+            <button class="wiki-letter" data-letter="W">W</button>
+            <button class="wiki-letter" data-letter="Z">Z</button>
+          </div>
+
+          <div id="wikiContent">
+
+            <div class="wiki-group" data-group="A">
+              <div class="wiki-group-letter">A</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Afazja</div><div class="wiki-entry-def">Nabyte zaburzenie zdolności językowych spowodowane uszkodzeniem mózgu (udar, uraz, guz). Może dotyczyć mówienia, rozumienia, czytania lub pisania w różnych kombinacjach. Nie jest zaburzeniem inteligencji. → <strong>Strona: Afazje</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Agnozja</div><div class="wiki-entry-def">Niemożność rozpoznania obiektu, twarzy lub dźwięku mimo zachowanej percepcji zmysłowej i sprawności intelektualnej. Klasyfikuje się ją na aperceptywną (zaburzenie percepcji) i asocjacyjną (zaburzenie powiązania z wiedzą semantyczną). → <strong>Strona: Percepcja i gnozja</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Agrafia</div><div class="wiki-entry-def">Nabyte zaburzenie pisania spowodowane uszkodzeniem mózgu, przy braku problemów ruchowych wykluczających pisanie. Często towarzyszy afazji lub aleksji.</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Aleksja</div><div class="wiki-entry-def">Nabyta niemożność czytania pomimo zachowanej znajomości liter i wcześniejszej umiejętności czytania. Aleksja bez agrafii (czysta aleksja) — pacjent może pisać, lecz nie potrafi przeczytać własnego tekstu.</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Amnezja</div><div class="wiki-entry-def">Zaburzenie pamięci. Wsteczna (retrograde) — utrata wspomnień sprzed urazu. Następcza (anterograde) — niemożność tworzenia nowych wspomnień po urazie. → <strong>Strona: Amnezje</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Anosognozja</div><div class="wiki-entry-def">Brak świadomości własnego deficytu neurologicznego lub neuropsychologicznego. Pacjent zaprzecza, że ma problem z ruchową lub poznawczą funkcją, mimo że deficyt jest wyraźnie widoczny dla obserwatora. Szczególnie częsta w neglect i uszkodzeniach prawej półkuli.</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Apraksja</div><div class="wiki-entry-def">Zaburzenie wykonywania celowych, wyuczonych ruchów przy braku niedowładu, zaburzeń czucia ani niezrozumienia polecenia. Ideomotoryczna (zaburzenie gestów) i ideacyjna (zaburzenie złożonych sekwencji). → <strong>Strona: Percepcja i gnozja</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Ataksja</div><div class="wiki-entry-def">Zaburzenie koordynacji ruchowej spowodowane najczęściej uszkodzeniem móżdżku lub dróg doprowadzających do niego. Objawia się niestabilnością chodu, drżeniem zamiarowym i trudnościami z precyzyjnymi ruchami.</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">ARAS</div><div class="wiki-entry-def">Ascending Reticular Activating System — wstępujący układ siatkowaty aktywujący. Biegnie od pnia mózgu przez wzgórze do kory i reguluje ogólny poziom pobudzenia i czujności. Jego uszkodzenie prowadzi do śpiączki lub stanu wegetatywnego.</div></div>
+            </div>
+
+            <div class="wiki-group" data-group="B">
+              <div class="wiki-group-letter">B</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Brodmann, pola</div><div class="wiki-entry-def">System 52 obszarów kory mózgowej wyznaczonych przez Korbiniana Brodmanna w 1909 r. na podstawie cytoarchitektoniki (struktury warstw komórkowych). Nadal powszechnie stosowany w opisie lokalizacji uszkodzeń i aktywacji. BA 44/45 = obszar Broki, BA 17 = kora wzrokowa, BA 4 = kora ruchowa.</div></div>
+            </div>
+
+            <div class="wiki-group" data-group="C">
+              <div class="wiki-group-letter">C</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Ciało modzelowate</div><div class="wiki-entry-def">Największa komisura mózgowia — masywna wiązka ok. 200–250 mln włókien nerwowych łącząca symetrycznie ulokowane obszary obu półkul. Jego przecięcie (callosotomia) stosowane w leczeniu padaczki ujawnia fenomen „rozdzielonego mózgu". → <strong>Strona: Przypadki — split-brain</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Ciało migdałowate (amygdala)</div><div class="wiki-entry-def">Migdałopodobna struktura podkorowa w przednio-dolnym płacie skroniowym, wchodząca w skład układu limbicznego. Kluczowa dla przetwarzania emocji (szczególnie strachu), oceny zagrożeń i modulowania pamięci epizodycznej przez emocje. Obustronne uszkodzenie → Zespół Klüvera-Bucy'ego.</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">CTE — Przewlekła Encefalopatia Traumatyczna</div><div class="wiki-entry-def">Postępująca choroba neurodegeneracyjna związana z powtarzającymi się urazami głowy. Patologicznie — akumulacja tau wokół naczyń krwionośnych. Diagnozowana wyłącznie post mortem. → <strong>Strona: Urazy głowy (TBI)</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">CVLT</div><div class="wiki-entry-def">California Verbal Learning Test — kompleksowy test pamięci werbalnej badający nie tylko ilość zapamiętanego materiału, ale też profil błędów, strategie uczenia i podatność na interferencję. → <strong>Strona: Testy pamięci</strong></div></div>
+            </div>
+
+            <div class="wiki-group" data-group="D">
+              <div class="wiki-group-letter">D</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">DAI — Rozlane uszkodzenie aksonalne</div><div class="wiki-entry-def">Diffuse Axonal Injury — rozerwanie długich włókien aksonalnych wskutek sił przyspieszenia-opóźnienia w urazie głowy. Niewidoczne w standardowym MRI (wymaga DTI). Powoduje trwałe deficyty: spowolnienie przetwarzania, deficyty pamięci roboczej, zmęczenie. → <strong>Strona: Urazy głowy</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Demencja / otępienie</div><div class="wiki-entry-def">Syndrom kliniczny charakteryzujący się postępującym pogorszeniem funkcji poznawczych wystarczającym do zaburzenia codziennego funkcjonowania. Najczęstsza przyczyna — choroba Alzheimera (60–70%). → <strong>Strona: Otępienia</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">DMN — Sieć trybu domyślnego</div><div class="wiki-entry-def">Default Mode Network — sieć mózgowa aktywna podczas spoczynku i nieaktywna podczas zadań zewnętrznie ukierunkowanych. Obejmuje mPFC, tylną korę obręczy, precuneus i boczną korę ciemieniową. Zaangażowana w myślenie o sobie, przeszłości i przyszłości.</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Dysocjacja (podwójna)</div><div class="wiki-entry-def">Metoda dowodzenia odrębności funkcji w neuropsychologii. Jeśli uszkodzenie A zaburza funkcję X, ale nie Y, a uszkodzenie B zaburza Y, ale nie X — mamy silny dowód, że X i Y angażują różne systemy nerwowe.</div></div>
+            </div>
+
+            <div class="wiki-group" data-group="E">
+              <div class="wiki-group-letter">E</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Efekt Stroopa</div><div class="wiki-entry-def">Zwolnienie czasu reakcji i wzrost błędów przy nazywaniu koloru tuszu słów oznaczających inne kolory. Mierzy zdolność do hamowania automatycznej odpowiedzi (czytania). → <strong>Strona: Testy funkcji wykonawczych</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Ekwipotencjalność</div><div class="wiki-entry-def">Teoria Karla Lasheya głosząca, że wszystkie obszary kory mózgowej są równoważne funkcjonalnie i mogą przejąć funkcje uszkodzonych regionów. Kontrastuje z lokalizacjonizmem. Współcześnie uznana za zbyt skrajną, choć plastyczność mózgu podtrzymuje część jej założeń.</div></div>
+            </div>
+
+            <div class="wiki-group" data-group="F">
+              <div class="wiki-group-letter">F</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">FAB — Frontal Assessment Battery</div><div class="wiki-entry-def">Krótka 6-podtestowa bateria do szybkiej oceny uszkodzeń czołowych: abstrakcje, fluencja słowna, sekwencje motoryczne Łurii, podatność na interferencję, hamowanie chwytania, niezależność od środowiska. Max. 18 punktów. → <strong>Strona: Testy przesiewowe</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Fluencja słowna</div><div class="wiki-entry-def">Testy mierzące zdolność generowania słów w ciągu 60 sekund: fonemiczna (słowa na literę — lewa kora czołowa) i semantyczna (słowa z kategorii — kora skroniowa i semantyczna sieć). Dysocjacja między nimi diagnostycznie wartościowa. → <strong>Strona: Testy funkcji wykonawczych</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">fMRI — Funkcjonalny rezonans magnetyczny</div><div class="wiki-entry-def">Technika neuroobrazowania mierząca zmiany oksygenacji hemoglobiny (sygnał BOLD) jako pośredni wskaźnik aktywności neuronalnej. Rozdzielczość przestrzenna ~1–3 mm, czasowa ~2 s. Złoty standard mapowania funkcji mózgu. → <strong>Strona: Neuroobrazowanie</strong></div></div>
+            </div>
+
+            <div class="wiki-group" data-group="G">
+              <div class="wiki-group-letter">G</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">GABA — kwas γ-aminomasłowy</div><div class="wiki-entry-def">Główny neuroprzekaźnik hamujący w OUN. Otwiera kanały Cl⁻ (GABA-A) lub K⁺ (GABA-B), hiperpolaryzując błonę. Substancje wzmacniające GABA (benzodiazepiny, barbiturany, alkohol) działają anksjolitycznie, nasennie i przeciwpadaczkowo.</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Gestalt, psychologia</div><div class="wiki-entry-def">Kierunek psychologiczny (Wertheimer, Köhler, Koffka) głoszący, że „całość jest czymś więcej niż sumą części". Sformułował prawa organizacji percepcji (bliskość, podobieństwo, domknięcie, figura-tło). → <strong>Strona: Modele poznania</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">GCS — Glasgow Coma Scale</div><div class="wiki-entry-def">Skala oceny stanu świadomości po urazie głowy, obejmująca otwieranie oczu (1–4), odpowiedź słowną (1–5) i ruchową (1–6). Łagodne TBI: 13–15 pkt; umiarkowane: 9–12; ciężkie: ≤8.</div></div>
+            </div>
+
+            <div class="wiki-group" data-group="H">
+              <div class="wiki-group-letter">H</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">H.M. — Henry Molaison</div><div class="wiki-entry-def">Pacjent (1926–2008), u którego usunięcie obu hipokampów w 1953 r. spowodowało głęboką amnezję następczą przy zachowanej pamięci proceduralnej. Fundament współczesnej klasyfikacji systemów pamięci. → <strong>Strona: Przypadki kliniczne — H.M.</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Hebb, reguła</div><div class="wiki-entry-def">„Neurons that fire together, wire together." Synaptyczne wzmocnienie połączenia między dwoma neuronami następuje, gdy ich aktywność jest skorelowana w czasie. Komórkowy mechanizm uczenia się. Leży u podstaw długotrwałego wzmocnienia (LTP).</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Hipokamp</div><div class="wiki-entry-def">Struktura w przyśrodkowym płacie skroniowym, niezbędna do kodowania nowych wspomnień epizodycznych i semantycznych oraz do nawigacji przestrzennej. Jeden z nielicznych obszarów mózgu wykazujących neurogenezę w życiu dorosłym. Szczególnie wrażliwy na niedokrwienie i wczesną chorobę Alzheimera.</div></div>
+            </div>
+
+            <div class="wiki-group" data-group="I">
+              <div class="wiki-group-letter">I</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Interferencja proaktywna / retroaktywna</div><div class="wiki-entry-def">Interferencja proaktywna: wcześniej wyuczone informacje utrudniają zapamiętanie nowych. Retroaktywna: nowe informacje zaburzają pamięć starych. Obie są zwiększone przy uszkodzeniach czołowych i hipokampalnych.</div></div>
+            </div>
+
+            <div class="wiki-group" data-group="K">
+              <div class="wiki-group-letter">K</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Kahneman, Daniel</div><div class="wiki-entry-def">Psycholog (Nobel z ekonomii 2002) znany z teorii dwóch systemów myślenia (System 1: szybkie, intuicyjne; System 2: wolne, analityczne) i badań nad heurystykami i błędami poznawczymi. → <strong>Strona: Modele poznania</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Konfabulacja</div><div class="wiki-entry-def">Nieświadome wypełnianie luk pamięciowych zmyślonymi, lecz wiarygodnie brzmiącymi historiami. Nie jest kłamstwem — pacjent wierzy w to, co mówi. Charakterystyczna dla Zespołu Korsakoffa i uszkodzeń kory przedczołowej.</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Korsakoff, zespół</div><div class="wiki-entry-def">Zaburzenie neurologiczne wynikające z przewlekłego niedoboru tiaminy (B₁). Objawy: głęboka amnezja następcza, konfabulacja, ataksja. Typowy kontekst: przewlekły alkoholizm. Uszkodzenia: ciała suteczkowate, wzgórze, kora przedczołowa.</div></div>
+            </div>
+
+            <div class="wiki-group" data-group="L">
+              <div class="wiki-group-letter">L</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Lateralizacja</div><div class="wiki-entry-def">Zjawisko, w którym funkcja poznawcza jest obsługiwana w przeważającej mierze przez jedną półkulę. Mowa jest zlateralizowana do lewej półkuli u ~97% praworęcznych. Asymetria półkulowa jest statystyczna, a nie absolutna — obie półkule współpracują.</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">LTP — Long-term potentiation</div><div class="wiki-entry-def">Długotrwałe wzmocnienie synaptyczne — trwałe zwiększenie siły synapsy po skoordynowanej aktywacji pre- i postsynaptycznej. Główny komórkowy mechanizm uczenia się i pamięci. Zależne od receptorów NMDA i kinaz białkowych. Zaangażowane przede wszystkim w hipokampie.</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Łuria, Aleksander</div><div class="wiki-entry-def">Rosyjski neuropsycholog (1902–1977) — twórca teorii funkcjonalnych układów mózgu i neuropsychologii klinicznej jako systemu. Jego bateria diagnostyczna (Bateria Łurii) i monografie kliniczne (np. <em>Człowiek z roztrzaskanym światem</em>) pozostają klasykami.</div></div>
+            </div>
+
+            <div class="wiki-group" data-group="M">
+              <div class="wiki-group-letter">M</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Metapoznanie</div><div class="wiki-entry-def">Zdolność do monitorowania i regulowania własnych procesów poznawczych — wiedza o tym, co wiemy i czego nie wiemy. Zależy od kory przedczołowej. Zaburzone metapoznanie leży u podstaw anosognozji. → <strong>Strona: Modele poznania</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">MMSE</div><div class="wiki-entry-def">Mini-Mental State Examination — 30-punktowy test przesiewowy otępienia (Folstein, 1975). Bada orientację, rejestrację, koncentrację, przypomnienie, język i praxis. Mało czuły dla MCI. → <strong>Strona: Testy przesiewowe</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">MoCA</div><div class="wiki-entry-def">Montreal Cognitive Assessment — 30-punktowy test przesiewowy (Nasreddine, 2005). Czulszy niż MMSE dla MCI — wykrywa ok. 90% przypadków łagodnych zaburzeń. Obejmuje TMT skrócony, CDT, fluencję słowną i pamięć z opóźnionym odtworzeniem. → <strong>Strona: Testy przesiewowe</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">MRI — Rezonans magnetyczny</div><div class="wiki-entry-def">Technika neuroobrazowania oparta na precesji protonów wodoru w silnym polu magnetycznym. Zapewnia doskonałą rozdzielczość tkanek miękkich. Warianty: strukturalny, DTI (traktografia), fMRI (funkcjonalny).</div></div>
+            </div>
+
+            <div class="wiki-group" data-group="N">
+              <div class="wiki-group-letter">N</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Neglect — zaniedbywanie połowicze</div><div class="wiki-entry-def">Hemispatial neglect — zaburzenie uwagi przestrzennej po uszkodzeniu (najczęściej prawego) płata ciemieniowego, objawiające się ignorowaniem lewej strony przestrzeni i ciała. Nie jest skutkiem ślepoty — wzrok może być sprawny. → <strong>Strona: Uwaga</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Neocortex (kora nowa)</div><div class="wiki-entry-def">Sześciowarstwowa, ewolucyjnie najnowsza część kory mózgowej, dominująca u ssaków. Pofałdowana w zakręty (gyri) i bruzdy (sulci), co zwielokrotnia jej powierzchnię. Angażuje się we wszystkie wyższe funkcje poznawcze.</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Neuroprzekaźnik</div><div class="wiki-entry-def">Cząsteczka chemiczna uwalniana przez neuron presynaptyczny do szczeliny synaptycznej i wiążąca się z receptorami neuronu postsynaptycznego, wywołując zmianę jego aktywności. Najważniejsze: glutaminian, GABA, dopamina, serotonina, acetylocholina, noradrenalina. → <strong>Strona: Neuron i synapsa</strong></div></div>
+            </div>
+
+            <div class="wiki-group" data-group="O">
+              <div class="wiki-group-letter">O</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Obszar Broki</div><div class="wiki-entry-def">Lewy dolny zakręt czołowy (BA 44/45) — odpowiada za planowanie motoryczne mowy i przetwarzanie składni. Uszkodzenie → afazja Broki: mowa powolna, agramatyczna, lecz z zachowanym rozumieniem. → <strong>Strona: Język</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Obszar Wernickego</div><div class="wiki-entry-def">Lewy tylny zakręt skroniowy górny (BA 21/22) — kluczowy dla rozumienia mowy i doboru leksykalnego. Uszkodzenie → afazja Wernickego: mowa płynna lecz nonsensowna, głęboko zaburzone rozumienie. → <strong>Strona: Język</strong></div></div>
+            </div>
+
+            <div class="wiki-group" data-group="P">
+              <div class="wiki-group-letter">P</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Pamięć proceduralna</div><div class="wiki-entry-def">Pamięć nawyków i umiejętności ruchowych (jazda na rowerze, pisanie na klawiaturze). Angażuje zwoje podstawy i móżdżek. Niedeklaratywna — nie wymaga świadomego dostępu. Zachowana w amnezji hipokampalnej (przypadek H.M.).</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Pamięć robocza</div><div class="wiki-entry-def">System aktywnego utrzymywania i manipulowania informacjami w czasie rzeczywistym. Model Baddeleya obejmuje pętlę fonologiczną, notes wizualno-przestrzenny, bufor epizodyczny i centralny system wykonawczy. → <strong>Strona: Pamięć</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Pęczek łukowaty</div><div class="wiki-entry-def">Fasciculus arcuatus — droga istoty białej łącząca obszar Wernickego z obszarem Broki. Kluczowa dla powtarzania i uczenia się nowych słów. Uszkodzenie → afazja przewodzenia (zaburzone powtarzanie przy płynnej mowie i zachowanym rozumieniu).</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Plastyczność mózgu (neuroplastyczność)</div><div class="wiki-entry-def">Zdolność układu nerwowego do reorganizacji strukturalnej i funkcjonalnej w odpowiedzi na doświadczenie, naukę lub uszkodzenie. Zachodzi przez wzmacnianie i osłabianie synaps (LTP/LTD), tworzenie nowych połączeń i (w ograniczonym zakresie) neurogenezę. Podstawa rehabilitacji neuropsychologicznej.</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">PVT — Performance Validity Tests</div><div class="wiki-entry-def">Testy ważności wyników — narzędzia do wykrywania nieoptymalne wysiłkowania lub symulacji w badaniu neuropsychologicznym. Przykłady: TOMM (Test of Memory Malingering), Test 15 słów Reya (wersja symptom validity), b Test. Standard we współczesnej diagnostyce klinicznej.</div></div>
+            </div>
+
+            <div class="wiki-group" data-group="R">
+              <div class="wiki-group-letter">R</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Rekonsolidacja pamięci</div><div class="wiki-entry-def">Proces, w którym przywołane wspomnienie staje się tymczasowo labilne i wymaga ponownej konsolidacji. Okno rekonsolidacji może być terapeutycznie wykorzystane do modyfikacji traumatycznych wspomnień (uzasadnienie dla EMDR i terapii ekspozycyjnej).</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">ROCF — Test Figury Złożonej Reya</div><div class="wiki-entry-def">Rey–Osterrieth Complex Figure Test — pacjent kopiuje złożoną figurę geometryczną, a następnie odtwarza ją z pamięci po 3 i 30 minutach. Mierzy percepcję wzrokową, organizację przestrzenną, planowanie i pamięć wzrokowo-przestrzenną. → <strong>Strona: Testy pamięci</strong></div></div>
+            </div>
+
+            <div class="wiki-group" data-group="S">
+              <div class="wiki-group-letter">S</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Schemat (kognitywny)</div><div class="wiki-entry-def">Wyuczona struktura wiedzy organizująca przetwarzanie informacji i wypełniająca luki w pamięci i percepcji. Koncepcja Fredericka Bartletta. Schematyczna rekonstrukcja tłumaczy systematyczne błędy pamięciowe. → <strong>Strona: Modele poznania</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Sieć kontroli wykonawczej</div><div class="wiki-entry-def">Sieć mózgowa obejmująca grzbietowo-boczną korę przedczołową, boczną korę ciemieniową i zakręt obręczy (ACC). Zaangażowana w rozwiązywanie konfliktów, hamowanie, przełączanie uwagi i kontrolę nad błędami.</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Syndrom czołowy</div><div class="wiki-entry-def">Zespół objawów po uszkodzeniu kory przedczołowej. Wariant dysegzekutywny (grzbietowo-boczny): deficyty planowania, elastyczności, persewracje. Wariant orbitofrontalny: impulsywność, rozhamowanie, zaburzenia podejmowania decyzji, zmiany osobowości.</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Somatyczne znaczniki (hipoteza)</div><div class="wiki-entry-def">Teoria Antonia Damasio głosząca, że podejmowanie decyzji jest uzależnione od emocjonalnych sygnałów somatycznych (reakcji cielesnych) generowanych przez korę orbitofrontalną i ciało migdałowate. Uszkodzenie OFC niszczy te sygnały, prowadząc do katastrofalnych decyzji pomimo sprawnego rozumowania.</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">System 1 / System 2</div><div class="wiki-entry-def">Teoria Kahnemana. System 1: szybki, automatyczny, intuicyjny, podatny na błędy poznawcze. System 2: wolny, analityczny, wymagający wysiłku. Z perspektywy neuropsychologii System 2 silnie zależy od kory przedczołowej i funkcji wykonawczych. → <strong>Strona: Modele poznania</strong></div></div>
+            </div>
+
+            <div class="wiki-group" data-group="T">
+              <div class="wiki-group-letter">T</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">TBI — Traumatic Brain Injury</div><div class="wiki-entry-def">Traumatyczne uszkodzenie mózgu — uraz spowodowany zewnętrzną siłą mechaniczną. Klasyfikacja wg GCS: łagodne (13–15 pkt), umiarkowane (9–12), ciężkie (≤8). → <strong>Strona: Urazy głowy (TBI)</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">TMT — Trail Making Test</div><div class="wiki-entry-def">Test łączenia punktów. Część A mierzy szybkość przetwarzania wzrokowo-ruchowego; Część B — elastyczność poznawczą i przełączanie. Wskaźnik B–A izoluje wkład funkcji wykonawczych. → <strong>Strona: Testy funkcji wykonawczych</strong></div></div>
+            </div>
+
+            <div class="wiki-group" data-group="U">
+              <div class="wiki-group-letter">U</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Ucieleśnione poznanie</div><div class="wiki-entry-def">Theoretical framework głoszący, że poznanie jest zakorzenione w doświadczeniu cielesnym, a abstrakcyjne pojęcia wywodzą się z metafor sensoryczno-motorycznych. Implikuje konieczność angażowania ciała w rehabilitację poznawczą. → <strong>Strona: Modele poznania</strong></div></div>
+            </div>
+
+            <div class="wiki-group" data-group="W">
+              <div class="wiki-group-letter">W</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">WAIS-IV</div><div class="wiki-entry-def">Wechsler Adult Intelligence Scale (4. edycja) — złoty standard oceny zdolności intelektualnych dorosłych. Oblicza IQ globalne i cztery wskaźniki indeksowe: rozumowanie werbalne, percepcyjno-organizacyjne, pamięć robocza, szybkość przetwarzania.</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">WCST — Wisconsin Card Sorting Test</div><div class="wiki-entry-def">Test sortowania kart mierzący elastyczność poznawczą i zdolność do zmiany reguły klasyfikacji na podstawie informacji zwrotnej. Kluczowy wskaźnik: błędy perseveracyjne — kontynuowanie poprzedniej reguły mimo informacji o błędzie. → <strong>Strona: Testy funkcji wykonawczych</strong></div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">WMS-IV — Skala Pamięci Wechslera</div><div class="wiki-entry-def">Kompleksowa bateria pamięci obejmująca pamięć bezpośrednią, odroczoną, wzrokową i asocjacyjną. Kluczowy wskaźnik: Procent utrzymania (odroczone/bezpośrednie) — różnicuje deficyt kodowania od deficytu konsolidacji. → <strong>Strona: Testy pamięci</strong></div></div>
+            </div>
+
+            <div class="wiki-group" data-group="Z">
+              <div class="wiki-group-letter">Z</div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Zakręt wrzecionowaty / FFA</div><div class="wiki-entry-def">Fusiform Face Area — obszar w dolnym prawym płacie skroniowym specjalizujący się w rozpoznawaniu twarzy. Uszkodzenie → prozopagnozja. Aktywny nie tylko dla twarzy, ale dla wszelkich obiektów, w rozpoznawaniu których dana osoba jest ekspertem.</div></div>
+              <div class="wiki-entry"><div class="wiki-entry-term">Zwoje podstawy</div><div class="wiki-entry-def">Grupa jąder podkorowych (jądro ogoniaste, skorupa, gałka blada, jądro półleżące) angażująca się w kontrolę motoryczną, uczenie proceduralne i zachowania nawykowe. Degeneracja jądra ogoniastego → choroba Huntingtona; degeneracja istoty czarnej → choroba Parkinsona.</div></div>
+            </div>
+
+          </div><!-- /wikiContent -->
+        </div>
+
+        <div class="page-footer">
+          <span class="footer-note">WIKI — koniec słownika</span>
+          <button class="btn-next" data-next="intro">Powrót do początku ↩</button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<script>
+  /* -------- Navigation -------- */
+  const navItems   = document.querySelectorAll('.nav-item[data-page]');
+  const pages      = document.querySelectorAll('.page');
+  const breadcrumb = document.getElementById('breadcrumb');
+
+  function showPage(pageId) {
+    pages.forEach(p => p.classList.remove('active'));
+    navItems.forEach(n => n.classList.remove('active'));
+
+    const target = document.getElementById('page-' + pageId);
+    if (target) target.classList.add('active');
+
+    const navLink = document.querySelector(`.nav-item[data-page="${pageId}"]`);
+    if (navLink) {
+      navLink.classList.add('active');
+      breadcrumb.textContent = navLink.textContent.trim();
+      navLink.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    }
+    window.scrollTo(0, 0);
+    document.getElementById('sidebar').classList.remove('open');
+    document.getElementById('navOverlay').classList.remove('open');
+  }
+
+  navItems.forEach(item => {
+    item.addEventListener('click', e => { e.preventDefault(); showPage(item.dataset.page); });
+  });
+
+  document.querySelectorAll('.btn-next[data-next]').forEach(btn => {
+    btn.addEventListener('click', () => showPage(btn.dataset.next));
+  });
+
+  /* Inline page links (in body text) */
+  document.querySelectorAll('[data-page-link]').forEach(el => {
+    el.addEventListener('click', e => { e.preventDefault(); showPage(el.dataset.pageLink); });
+  });
+
+  /* -------- Mobile sidebar -------- */
+  const sidebar   = document.getElementById('sidebar');
+  const overlay   = document.getElementById('navOverlay');
+  const navToggle = document.getElementById('navToggle');
+
+  navToggle.addEventListener('click', () => {
+    sidebar.classList.toggle('open');
+    overlay.classList.toggle('open');
+  });
+  overlay.addEventListener('click', () => {
+    sidebar.classList.remove('open');
+    overlay.classList.remove('open');
+  });
+
+  /* -------- Reading bar -------- */
+  const bar = document.getElementById('readingBar');
+  window.addEventListener('scroll', () => {
+    const scrolled = document.documentElement.scrollTop || document.body.scrollTop;
+    const total    = document.documentElement.scrollHeight - window.innerHeight;
+    bar.style.width = total > 0 ? (scrolled / total * 100) + '%' : '0%';
+  });
+
+  /* -------- WIKI filter -------- */
+  const filterBtns = document.querySelectorAll('.wiki-letter');
+  const wikiGroups = document.querySelectorAll('.wiki-group');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const letter = btn.dataset.letter;
+      wikiGroups.forEach(group => {
+        if (letter === 'all' || group.dataset.group === letter) {
+          group.style.display = 'block';
+        } else {
+          group.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  /* -------- Live search -------- */
+  const searchInput = document.getElementById('searchInput');
+  const keywordMap = {
+    intro:           ['neuropsychologia','definicja','zakres','wprowadzenie','lokalizacjonizm','holizm','lesji'],
+    history:         ['historia','broca','wernicke','frenologia','sperry','hm','mri','ct','łuria'],
+    anatomy:         ['anatomia','płat','mózg','hipokamp','amygdala','kora','brodmann','móżdżek','pień'],
+    neuron:          ['neuron','synapsa','akson','dendryt','neuroprzekaźnik','potencjał','dopamina','serotonina','gaba','glutaminian','hebb','ltp'],
+    systems:         ['układ','sieć','dopamina','dmn','limbiczny','siatkowaty','cholinergiczny','droga'],
+    cogpsych:        ['poznanie','gestalt','kahneman','system 1','system 2','schemat','bartlett','metapoznanie','ucieleśnione','rewolucja kognitywna'],
+    memory:          ['pamięć','hipokamp','amnezja','konsolidacja','epizodyczna','semantyczna','proceduralna','robocza','baddeley'],
+    attention:       ['uwaga','neglect','czujność','selektywna','podzielna','posner'],
+    language:        ['język','mowa','afazja','broca','wernicke','pęczek','semantyka','prozodja'],
+    executive:       ['wykonawcze','planowanie','hamowanie','miyake','czołowe','gage','damasio'],
+    perception:      ['percepcja','gnozja','wzrok','agnozja','prozopagnozja','droga brzuszna','apraksja'],
+    aphasia:         ['afazja','mowa','lewa','rehabilitacja','udar','aleksja','agrafia'],
+    amnesia:         ['amnezja','korsakoff','konfabulacja','wsteczna','następcza','dysocjacyjna'],
+    dementia:        ['otępienie','alzheimer','ftd','tau','amyloid','lewy','demencja'],
+    tbi:             ['uraz','tbi','wstrząśnienie','dai','cte','głowa','trauma'],
+    cases:           ['przypadek','kliniczny','przegląd'],
+    'case-hm':       ['hm','molaison','amnezja','hipokamp','pamięć','milner'],
+    'case-gage':     ['gage','phineas','czołowy','osobowość','orbitofrontalny','damasio'],
+    'case-tan':      ['tan','broca','leborgne','mowa','lokalizacja','język'],
+    'case-split':    ['split brain','callosotomia','sperry','gazzaniga','półkula','asymetria'],
+    'tests-overview':['testy','diagnostyka','przegląd','normy','premorbidny'],
+    'tests-executive':['stroop','tmt','trail making','wcst','fluencja','wieża londynu','funkcje wykonawcze'],
+    'tests-memory':  ['cvlt','wms','rej','rocf','digit span','cyfry','pamięć test'],
+    'tests-screen':  ['mmse','moca','cdt','zegar','boston naming','fab','przesiewowy'],
+    assessment:      ['ocena','bateria','wais','diagnostyka','symulacja','pvt','malingering'],
+    neuroimaging:    ['obrazowanie','fmri','pet','eeg','mri','dtsi','nirs','meg','neuroobrazowanie'],
+    wiki:            ['wiki','słownik','pojęcia','terminy','glossary'],
+  };
+
+  searchInput.addEventListener('input', () => {
+    const q = searchInput.value.toLowerCase().trim();
+    navItems.forEach(item => {
+      if (!q) { item.style.opacity = '1'; return; }
+      const pid = item.dataset.page;
+      const kw = keywordMap[pid] || [];
+      const match = kw.some(k => k.includes(q)) || (pid && pid.includes(q));
+      item.style.opacity = match ? '1' : '0.28';
+    });
+  });
+</script>
+</body>
 </html>
