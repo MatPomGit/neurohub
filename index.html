@@ -101,12 +101,12 @@
     }
 
     .nav-section {
-      padding: 1rem 0;
+      padding: 0.5rem 0;
     }
 
     .nav-section-title {
-      padding: 0.5rem 1.5rem;
-      font-size: 0.7rem;
+      padding: 0.35rem 1.5rem;
+      font-size: 0.62rem;
       text-transform: uppercase;
       letter-spacing: 0.15em;
       color: var(--text-muted);
@@ -115,10 +115,11 @@
 
     .nav-item {
       display: block;
-      padding: 0.6rem 1.5rem;
+      padding: 0.28rem 1.5rem;
       color: var(--text-secondary);
       text-decoration: none;
-      font-size: 0.9rem;
+      font-size: 0.78rem;
+      line-height: 1.3;
       border-left: 3px solid transparent;
       transition: all 0.2s ease;
       cursor: pointer;
@@ -798,6 +799,23 @@
       color: var(--accent-gold-light);
     }
 
+    .sidebar-version {
+      padding: 0.75rem 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.65rem;
+      color: var(--text-muted);
+      text-align: center;
+      letter-spacing: 0.08em;
+    }
+    .sidebar-version span {
+      background: rgba(201,162,39,0.12);
+      color: var(--accent-gold);
+      border: 1px solid rgba(201,162,39,0.25);
+      border-radius: 20px;
+      padding: 0.2rem 0.65rem;
+      font-weight: 600;
+    }
+
     /* Links */
     a {
       color: var(--accent-blue);
@@ -880,7 +898,16 @@
       <div class="nav-section">
         <div class="nav-section-title">Referencje</div>
         <a class="nav-item" data-page="wiki" onclick="showPage('wiki')">WIKI — Słownik</a>
+        <a class="nav-item" data-page="zakres" onclick="showPage('zakres')">Zakres wiedzy</a>
+        <a class="nav-item" data-page="literatura" onclick="showPage('literatura')">Literatura</a>
       </div>
+
+      <div class="nav-section">
+        <div class="nav-section-title">psychofarmakologia</div>
+        <a class="nav-item" data-page="neurofarmakologia" onclick="showPage('neurofarmakologia')">Neurofarmakologia</a>
+      </div>
+
+      <div class="sidebar-version">wersja <span>v1,3</span></div>
     </nav>
 
     <div class="nav-overlay" id="navOverlay" onclick="toggleSidebar()"></div>
@@ -3106,6 +3133,377 @@
           <button class="btn-next" onclick="showPage('intro')">Powrót do strony głównej →</button>
         </div>
       </div>
+      <!-- ═══════════════════════════════════════════════ ZAKRES WIEDZY -->
+      <div class="page" id="page-zakres">
+        <div class="page-hero">
+          <div class="chapter-number">Specjalność</div>
+          <h1>Zakres wiedzy — Neuropsychologia kliniczna</h1>
+          <p class="lead">Program studiów na specjalności Neuropsychologia kliniczna: wykłady, ćwiczenia, laboratoria i konwersatoria tworzące całościowe przygotowanie do pracy klinicznej.</p>
+        </div>
+
+        <div class="section">
+          <h2>Wykłady</h2>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>#</th><th>Przedmiot</th></tr></thead>
+              <tbody>
+                <tr><td>1</td><td>Diagnostyka i psychoterapia zaburzeń psychicznych i seksualnych</td></tr>
+                <tr><td>2</td><td>EEG biofeedback</td></tr>
+                <tr><td>3</td><td>Neuroanatomia</td></tr>
+                <tr><td>4</td><td>Neuropsychologia kliniczna</td></tr>
+                <tr><td>5</td><td>Psychofizjologia seksualności człowieka</td></tr>
+                <tr><td>6</td><td>Psychologia osób w podeszłym wieku</td></tr>
+                <tr><td>7</td><td>Psychologia osób z niepełnosprawnością</td></tr>
+                <tr><td>8</td><td>Rehabilitacja neuropsychologiczna</td></tr>
+                <tr><td>9</td><td>Rola biegłego psychologa w opiniowaniu sądowym</td></tr>
+                <tr><td>10</td><td>Substancje psychoaktywne i psychofarmakologia</td></tr>
+                <tr><td>11</td><td>Całościowe zaburzenia rozwoju i metody terapii całościowych zaburzeń rozwoju</td></tr>
+                <tr><td>12</td><td>Psychologia zdrowia</td></tr>
+                <tr><td>13</td><td>Psychosomatyka</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Ćwiczenia</h2>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>#</th><th>Przedmiot</th></tr></thead>
+              <tbody>
+                <tr><td>1</td><td>Diagnostyka i psychoterapia zaburzeń psychicznych i seksualnych</td></tr>
+                <tr><td>2</td><td>Diagnoza neuropsychologiczna osób dorosłych</td></tr>
+                <tr><td>3</td><td>Metody diagnozy psychologicznej</td></tr>
+                <tr><td>4</td><td>Metody diagnozy psychologicznej 2</td></tr>
+                <tr><td>5</td><td>Psychologia osób z niepełnosprawnością</td></tr>
+                <tr><td>6</td><td>Rehabilitacja neuropsychologiczna</td></tr>
+                <tr><td>7</td><td>Specyficzne problemy pacjentów w oddziale neurochirurgii</td></tr>
+                <tr><td>8</td><td>Całościowe zaburzenia rozwoju i metody terapii całościowych zaburzeń rozwoju</td></tr>
+                <tr><td>9</td><td>Diagnoza neuropsychologiczna dorosłych II</td></tr>
+                <tr><td>10</td><td>Diagnoza neuropsychologiczna dzieci i młodzieży</td></tr>
+                <tr><td>11</td><td>E-terapia. Wykorzystanie narzędzi informatycznych w terapii neuropsychologicznej</td></tr>
+                <tr><td>12</td><td>Psychologia uzależnień</td></tr>
+                <tr><td>13</td><td>Psychologia zdrowia</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Laboratoria</h2>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>#</th><th>Przedmiot</th></tr></thead>
+              <tbody>
+                <tr><td>1</td><td>Neurofizjologia i pomiar EKG</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Konwersatoria</h2>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>#</th><th>Przedmiot</th></tr></thead>
+              <tbody>
+                <tr><td>1</td><td>Seminarium magisterskie</td></tr>
+                <tr><td>2</td><td>Seminarium magisterskie II</td></tr>
+                <tr><td>3</td><td>Seminarium magisterskie III</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="page-footer">
+          <span class="footer-note">Zakres wiedzy</span>
+          <button class="btn-next" onclick="showPage('literatura')">Następny: Literatura →</button>
+        </div>
+      </div>
+
+      <!-- ═══════════════════════════════════════════════ LITERATURA -->
+      <div class="page" id="page-literatura">
+        <div class="page-hero">
+          <div class="chapter-number">Referencje</div>
+          <h1>Literatura — alfabetycznie</h1>
+          <p class="lead">Wykaz bibliograficzny literatury obowiązkowej i uzupełniającej przypisanej do poszczególnych przedmiotów specjalności Neuropsychologia kliniczna.</p>
+        </div>
+
+        <div class="section">
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr><th>#</th><th>Pozycja</th><th>Przedmiot</th><th>Typ</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>1</td><td><strong>American Psychiatric Association 2014. DSM 5</strong></td><td>Psychologia uzależnień</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>2</td><td><strong>Antoszewska, B., Bartnikowska, U. 2016. Kategorie zdrowia i choroby w kontekście niepełnosprawności</strong></td><td>Psychologia osób z niepełnosprawnością</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>3</td><td><strong>Armstrong, C., Morrow, L. 2014. Neuropsychologia medyczna</strong></td><td>Diagnoza neuropsychologiczna dorosłych I</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>4</td><td><strong>Beck, J. S. 2020. Cognitive Behavior Therapy. Basics and Beyond</strong></td><td>Diagnostyka i psychoterapia zaburzeń psychicznych i seksualnych</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>5</td><td><strong>Biasiucci, A., Franceschiello, B., Murray, M. M. 2019. Electroencephalography</strong></td><td>Neurofizjologia i pomiar EEG</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>6</td><td><strong>Brzeziński, J. M. 2023. Metodologia badań psychologicznych</strong></td><td>Seminarium magisterskie I</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>7</td><td><strong>Butts, A. M. i in. 2015. Neuropsychological profiles in primary progressive aphasia</strong></td><td>Diagnoza neuropsychologiczna dorosłych I</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>8</td><td><strong>Casaletto, K. B., Heaton, R. K. 2017. Neuropsychological assessment. Past and future</strong></td><td>Diagnoza neuropsychologiczna dorosłych I</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>9</td><td><strong>Chaddad, A. i in. 2023. Electroencephalography signal processing</strong></td><td>Neurofizjologia i pomiar EEG</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>10</td><td><strong>Chantsoulis, M. i in. 2015. Neuropsychological rehabilitation for traumatic brain injury patients</strong></td><td>Rehabilitacja neuropsychologiczna</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>11</td><td><strong>Chodkiewicz, J., Cierpiałkowska, L. 2020. Uzależnienie od alkoholu. Oblicza problemu</strong></td><td>Psychologia uzależnień</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>12</td><td><strong>Dirth, T. P., Branscombe, N. R. 2018. The social identity approach to disability</strong></td><td>Psychologia osób z niepełnosprawnością</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>13</td><td><strong>Dunn, D. 2014. The social psychology of disability</strong></td><td>Psychologia osób z niepełnosprawnością</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>14</td><td><strong>Dyderska, M. 2020. Analiza neuronalnych korelatów wyobrażeń ruchowych przy pomocy EEG</strong></td><td>Neurofizjologia i pomiar EEG</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>15</td><td><strong>Erdodi, L. A. i in. 2018. The Stroop test as a measure of performance validity</strong></td><td>Diagnoza neuropsychologiczna dorosłych I</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>16</td><td><strong>Ferreira Brito, F. i in. 2019. Game based interventions for neuropsychological assessment and rehabilitation</strong></td><td>Rehabilitacja neuropsychologiczna</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>17</td><td><strong>Field, A. 2016. An Adventure in Statistics</strong></td><td>Seminarium magisterskie I</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>18</td><td><strong>Gasiul, H. 2020. Psychologia osobowości. Nurty, teorie, koncepcje</strong></td><td>Metody diagnozy psychologicznej II</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>19</td><td><strong>Goban-Klas, T. 2014. Komunikowanie w ochronie zdrowia</strong></td><td>Psychologia zdrowia</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>20</td><td><strong>Gonçalves, P. D. i in. 2014. Neuropsychological rehabilitation of executive functions</strong></td><td>Rehabilitacja neuropsychologiczna</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>21</td><td><strong>Hayes, S. C., Hofmann, S. G. 2020. Terapia poznawczo-behawioralna oparta na procesach</strong></td><td>Diagnostyka i psychoterapia zaburzeń psychicznych i seksualnych</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>22</td><td><strong>Heszen-Celińska, I., Sęk, H. 2024. Psychologia zdrowia</strong></td><td>Psychologia zdrowia</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>23</td><td><strong>Hogan, T. P. 2019. Psychological Testing. A Practical Introduction</strong></td><td>Metody diagnozy psychologicznej II</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>24</td><td><strong>Howieson, D. 2019. Current limitations of neuropsychological tests and assessment procedures</strong></td><td>Diagnoza neuropsychologiczna dorosłych I</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>25</td><td><strong>Johnson, B. T., Acabchuk, R. L. 2018. What are the keys to a longer, happier life?</strong></td><td>Psychologia zdrowia</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>26</td><td><strong>Kaczmarek, B., Kroptov, J. D., Pąchalska, M. 2014. Neuropsychologia kliniczna. Od teorii do praktyki</strong></td><td>Neuropsychologia kliniczna; Diagnoza neuropsychologiczna dorosłych I</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>27</td><td><strong>Kalat, J. W. 2019. Biological Psychology</strong></td><td>Neuropsychologia kliniczna; Neurofizjologia i pomiar EEG; Neuroanatomia</td><td><span class="tag tag-gold">obowiązkowa / uzupełniająca</span></td></tr>
+                <tr><td>28</td><td><strong>Karski, J. B. 2023. Praktyka i teoria promocji zdrowia</strong></td><td>Psychologia zdrowia</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>29</td><td><strong>Kazanowski, Z. 2015. Społeczny wymiar współczesnej koncepcji niepełnosprawności intelektualnej</strong></td><td>Psychologia osób z niepełnosprawnością</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>30</td><td><strong>Kelly, J. F., Saitz, R., Wakeman, S. 2016. Language, substance use disorders and policy</strong></td><td>Psychologia uzależnień</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>31</td><td><strong>King, B. M., Minium, E. W. 2024. Statystyka dla psychologów i pedagogów</strong></td><td>Seminarium magisterskie I</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>32</td><td><strong>Kusztal, J. i in. 2023. Ewaluacja programów profilaktyki uzależnień behawioralnych</strong></td><td>Psychologia uzależnień</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>33</td><td><strong>Larsen, R., Buss, D. 2017. Personality Psychology. Domains of Knowledge about Human Nature</strong></td><td>Metody diagnozy psychologicznej II</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>34</td><td><strong>Liu, Y. i in. 2016. Longitudinal analysis in occupational health psychology</strong></td><td>Psychologia zdrowia</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>35</td><td><strong>Łojek, E. 2024. Czy i jak wdrażać nowoczesne technologie?</strong></td><td>Neuropsychologia kliniczna</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>36</td><td><strong>Miller, J. B., Barr, W. B. 2017. The technology crisis in neuropsychology</strong></td><td>Neuropsychologia kliniczna</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>37</td><td><strong>Netter, F. H. 2023. Atlas anatomii człowieka</strong></td><td>Neuroanatomia</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>38</td><td><strong>Nichols, A. L. 2023. The Cambridge Handbook of Research Methods and Statistics for the Social and Behavioral Sciences</strong></td><td>Seminarium magisterskie I</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>39</td><td><strong>Obrębska-Woźniczka, A. 2022. Niezbędnik seminarzysty</strong></td><td>Seminarium magisterskie I</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>40</td><td><strong>Orłowska, E. I., Biechowska, D. H. 2016. Współczesne trendy w diagnozie funkcji wykonawczych</strong></td><td>Diagnoza neuropsychologiczna dorosłych I</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>41</td><td><strong>Parsons, M. W., Braun, M. M. 2024. Clinical Neuropsychology. A Pocket Handbook for Assessment</strong></td><td>Diagnoza neuropsychologiczna dorosłych I</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>42</td><td><strong>Pogorzała, A. M. 2014. Ćwiczenia propriocepcji w rehabilitacji</strong></td><td>Rehabilitacja neuropsychologiczna</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>43</td><td><strong>Popiel, A., Pragłowska, E. 2022. Psychoterapia poznawczo-behawioralna. Teoria i praktyka</strong></td><td>Diagnostyka i psychoterapia zaburzeń psychicznych i seksualnych</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>44</td><td><strong>Rawińska, M. 2019. Zaburzenia seksualne a psychoterapia poznawczo-behawioralna</strong></td><td>Diagnostyka i psychoterapia zaburzeń psychicznych i seksualnych</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>45</td><td><strong>Roebuck-Spencer, T. M. i in. 2017. Cognitive screening tests versus comprehensive neuropsychological test batteries</strong></td><td>Neuropsychologia kliniczna</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>46</td><td><strong>Sabiniewicz, M. i in. 2015. Wybrane zaburzenia funkcji poznawczych po udarze mózgu</strong></td><td>Neuropsychologia kliniczna</td><td><span class="tag tag-blue">uzupełniająca</span></td></tr>
+                <tr><td>47</td><td><strong>Sarnecka, B. 2024. The Writing Workshop. Write More, Write Better, Be Happier</strong></td><td>Seminarium magisterskie I</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+                <tr><td>48</td><td><strong>Sommers-Flanagan, J., Sommers-Flanagan, R. 2018. Counseling and Psychotherapy Theories in Context and Practice</strong></td><td>Diagnostyka i psychoterapia zaburzeń psychicznych i seksualnych</td><td><span class="tag tag-gold">obowiązkowa</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="page-footer">
+          <span class="footer-note">Literatura</span>
+          <button class="btn-next" onclick="showPage('neurofarmakologia')">Następny: Neurofarmakologia →</button>
+        </div>
+      </div>
+
+      <!-- ═══════════════════════════════════════════════ NEUROFARMAKOLOGIA -->
+      <div class="page" id="page-neurofarmakologia">
+        <div class="page-hero">
+          <div class="chapter-number">Farmakologia</div>
+          <h1>Neurofarmakologia</h1>
+          <p class="lead">Nauka o tym, jak substancje chemiczne — leki, neuroprzekaźniki i substancje psychoaktywne — wpływają na układ nerwowy, jego funkcje i zachowanie człowieka.</p>
+        </div>
+
+        <div class="section">
+          <h2>Definicja i zakres</h2>
+          <p><span class="term">Neurofarmakologia</span> to dział farmakologii i neuronauki badający działanie substancji chemicznych na układ nerwowy. Wyróżnia się dwa główne nurty: <strong>behawioralną neurofarmakologię</strong>, skupiającą się na wpływie leków na zachowanie i procesy poznawcze, oraz <strong>molekularną neurofarmakologię</strong>, analizującą mechanizmy działania substancji na poziomie komórkowym i synaptycznym.</p>
+
+          <div class="callout callout-info">
+            <span class="callout-icon">💊</span>
+            <p>Neurofarmakologia dostarcza podstaw teoretycznych dla <strong>psychofarmakologii</strong> — stosowania leków psychotropowych w leczeniu zaburzeń psychicznych — oraz stanowi fundament wiedzy o mechanizmach uzależnień i działaniu substancji psychoaktywnych.</p>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Mechanizmy działania leków na synapsy</h2>
+          <p>Leki psychotropowe oddziałują na przekaźnictwo synaptyczne na różnych etapach. Wyróżnia się kilka głównych mechanizmów:</p>
+
+          <div class="definition-block">
+            <div class="def-term">Agoniści receptorów</div>
+            <p>Substancje <strong>naśladujące działanie neuroprzekaźnika</strong> — wiążą się z receptorem i go aktywują. Np. morfina jako agonista receptorów opioidowych, benzodiazepiny wzmacniające działanie GABA.</p>
+          </div>
+
+          <div class="definition-block">
+            <div class="def-term">Antagoniści receptorów</div>
+            <p>Substancje <strong>blokujące receptor</strong> bez aktywacji — zajmują miejsce wiązania, uniemożliwiając działanie neuroprzekaźnika. Np. haloperidol blokujący receptory D2 dopaminergiczne.</p>
+          </div>
+
+          <div class="definition-block">
+            <div class="def-term">Inhibitory wychwytu zwrotnego</div>
+            <p>Blokują transportery usuwające neuroprzekaźnik ze szczeliny synaptycznej, <strong>wydłużając i wzmacniając jego działanie</strong>. Np. SSRI (selektywne inhibitory wychwytu serotoniny) — fluoksetyna, sertralina.</p>
+          </div>
+
+          <div class="definition-block">
+            <div class="def-term">Inhibitory enzymów rozkładających</div>
+            <p>Blokują enzymy (MAO, acetylocholinesteraza) odpowiedzialne za rozkład neuroprzekaźników, zwiększając ich stężenie w synapsie. Np. inhibitory MAO w depresji, inhibitory AChE w chorobie Alzheimera.</p>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Główne układy neuroprzekaźnikowe i ich farmakologia</h2>
+
+          <h3>Układ dopaminergiczny</h3>
+          <p><span class="term">Dopamina</span> jest kluczowym neuroprzekaźnikiem szlaków nagrody, motywacji i kontroli motorycznej. Wyróżnia się 5 typów receptorów dopaminergicznych (D1–D5). Najważniejsze szlaki to:</p>
+          <ul>
+            <li><strong>Szlak mezolimbiczny</strong> (brzuszny obszar nakrywki → jądro półleżące) — układ nagrody; kluczowy w uzależnieniach i psychozach</li>
+            <li><strong>Szlak mezokortykalny</strong> (brzuszny obszar nakrywki → kora przedczołowa) — funkcje wykonawcze i poznawcze</li>
+            <li><strong>Szlak nigrostriatalny</strong> (istota czarna → prążkowie) — kontrola motoryczna; degeneracja → choroba Parkinsona</li>
+            <li><strong>Szlak guzowo-lejkowy</strong> (podwzgórze) — regulacja wydzielania prolaktyny</li>
+          </ul>
+          <div class="callout callout-warn">
+            <span class="callout-icon">⚠️</span>
+            <p><strong>Hipoteza dopaminowa schizofrenii:</strong> nadmierna aktywność układu dopaminergicznego (szczególnie szlaku mezolimbicznego) leży u podłoża objawów wytwórczych. Leki przeciwpsychotyczne blokują receptory D2. Niedobór dopaminy w korze przedczołowej odpowiada za objawy negatywne.</p>
+          </div>
+
+          <h3>Układ serotoninergiczny</h3>
+          <p><span class="term">Serotonina (5-HT)</span> reguluje nastrój, sen, apetyt i funkcje poznawcze. Neurony serotoninergiczne mają ciała w <strong>jądrach szwu</strong> (raphe nuclei) w pniu mózgu i wysyłają projekcje niemal do całego mózgu. Receptory 5-HT1 do 5-HT7.</p>
+          <ul>
+            <li><strong>SSRI</strong> (np. fluoksetyna, paroksetyna) — leczenie depresji, zaburzeń lękowych, OCD</li>
+            <li><strong>SNRI</strong> (np. wenlafaksyna) — inhibitory wychwytu serotoniny i noradrenaliny</li>
+            <li><strong>Tryptany</strong> — agoniści 5-HT1B/1D; leczenie migreny</li>
+            <li><strong>LSD, psylocybina</strong> — agoniści receptorów 5-HT2A; halucynogeny</li>
+          </ul>
+
+          <h3>Układ noradrenergiczny</h3>
+          <p><span class="term">Noradrenalina (norepinefryna)</span> odgrywa rolę w regulacji uwagi, czujności i odpowiedzi na stres. Głównym skupiskiem neuronów noradrenergicznych jest <strong>miejsce sinawe (locus coeruleus)</strong>. Receptory α1, α2, β1, β2.</p>
+          <ul>
+            <li><strong>Beta-blokery</strong> (propranolol) — łagodzenie objawów lękowych somatycznych</li>
+            <li><strong>Atomoksetyna</strong> — selektywny inhibitor wychwytu noradrenaliny; leczenie ADHD</li>
+            <li><strong>Leki trójpierścieniowe (TLPD)</strong> — blokada wychwytu NA i 5-HT; depresja (starsza generacja)</li>
+          </ul>
+
+          <h3>Układ GABA-ergiczny</h3>
+          <p><span class="term">GABA (kwas γ-aminomasłowy)</span> to główny neuroprzekaźnik hamujący w OUN. Receptory GABA<sub>A</sub> (jonotropowe, ligand-bramkowane kanały Cl⁻) i GABA<sub>B</sub> (metabotropowe).</p>
+          <ul>
+            <li><strong>Benzodiazepiny</strong> (diazepam, lorazepam) — pozytywni modulatory allosteryczne GABA<sub>A</sub>; leki anksjolityczne, nasenne, przeciwdrgawkowe. Ryzyko uzależnienia przy długotrwałym stosowaniu</li>
+            <li><strong>Barbiturany</strong> — silniejsze od benzodiazepin; wąski indeks terapeutyczny; używane w anestezji i epilepsji</li>
+            <li><strong>Alkohol etylowy</strong> — m.in. potencjuje działanie GABA i blokuje receptory NMDA (glutaminianergiczne)</li>
+          </ul>
+
+          <h3>Układ glutaminianergiczny</h3>
+          <p><span class="term">Glutaminian</span> to główny neuroprzekaźnik pobudzający w OUN. Receptory jonotropowe: <strong>NMDA, AMPA, kainianowe</strong>; receptory metabotropowe (mGluR).</p>
+          <ul>
+            <li><strong>Ketamina</strong> — antagonista receptorów NMDA; środek anestezjologiczny, substancja dysocjacyjna, a w małych dawkach szybkodziałający lek przeciwdepresyjny</li>
+            <li><strong>Memantyna</strong> — umiarkowany antagonista NMDA; leczenie otępienia w chorobie Alzheimera</li>
+            <li><strong>Fencyklidyna (PCP)</strong> — antagonista NMDA; substancja psychoaktywna wywołująca objawy psychozopodobne</li>
+          </ul>
+
+          <h3>Układ acetylocholinergiczny</h3>
+          <p><span class="term">Acetylocholina (ACh)</span> reguluje uwagę, pamięć i uczenie się. Receptory muskarynowe (M1–M5) i nikotynowe (nAChR). Niedobór ACh jest kluczowy w patofizjologii choroby Alzheimera.</p>
+          <ul>
+            <li><strong>Inhibitory acetylocholinesterazy</strong> (donepezil, rywastygmina, galantamina) — zwiększają stężenie ACh; leczenie objawowe choroby Alzheimera</li>
+            <li><strong>Leki antycholinergiczne</strong> (skopolamina) — blokada receptorów M; stosowane m.in. w chorobie Parkinsona i jako środki uspokajające</li>
+            <li><strong>Nikotyna</strong> — agonista receptorów nikotynowych nAChR; substancja uzależniająca</li>
+          </ul>
+
+          <h3>Układ opioidowy</h3>
+          <p>Endogenne opioidy (endorfiny, enkefaliny, dynorfiny) wiążą się z receptorami μ, δ, κ. Układ ten moduluje <strong>ból, nagrody, nastrój i stres</strong>.</p>
+          <ul>
+            <li><strong>Morfina, oksykodon</strong> — agoniści receptora μ; silne analgetyki, wysoki potencjał uzależniający</li>
+            <li><strong>Nalokson, naltreksone</strong> — antagoniści receptorów opioidowych; leczenie przedawkowania i uzależnień</li>
+            <li><strong>Buprenorfina</strong> — częściowy agonista μ; leczenie uzależnienia od opioidów (substytucja)</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h2>Psychofarmakologia kliniczna</h2>
+
+          <h3>Leki przeciwpsychotyczne (neuroleptyki)</h3>
+          <p>Stosowane w schizofrenii i innych psychozach. Podział na generacje:</p>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Generacja</th><th>Mechanizm</th><th>Przykłady</th><th>Uwagi</th></tr></thead>
+              <tbody>
+                <tr><td>I (typowe)</td><td>Blokada D2</td><td>Haloperidol, chlorpromazyna</td><td>Skuteczne na objawy wytwórcze; silne EPS (objawy pozapiramidowe)</td></tr>
+                <tr><td>II (atypowe)</td><td>Blokada D2 + 5-HT2A</td><td>Klozapina, risperidon, olanzapina</td><td>Lepszy profil dla objawów negatywnych; ryzyko zespołu metabolicznego</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Leki przeciwdepresyjne</h3>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Klasa</th><th>Mechanizm</th><th>Przykłady</th></tr></thead>
+              <tbody>
+                <tr><td>SSRI</td><td>Inhibitor wychwytu serotoniny</td><td>Fluoksetyna, sertralina, escitalopram</td></tr>
+                <tr><td>SNRI</td><td>Inhibitor wychwytu 5-HT + NA</td><td>Wenlafaksyna, duloksetyna</td></tr>
+                <tr><td>TLPD</td><td>Blokada wychwytu NA + 5-HT + liczne receptory</td><td>Amitryptylina, imipramina</td></tr>
+                <tr><td>MAOI</td><td>Inhibitor monoaminooksydazy</td><td>Fenelzyna, moklobemid</td></tr>
+                <tr><td>Inne</td><td>Różne</td><td>Mirtazapina (NaSSA), bupropion (NDRI), ketamina</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Stabilizatory nastroju</h3>
+          <p>Stosowane w zaburzeniu afektywnym dwubiegunowym (ChAD):</p>
+          <ul>
+            <li><strong>Lit</strong> — mechanizm nie w pełni poznany; modulacja szlaków sygnałowych (GSK-3β); wąski indeks terapeutyczny, konieczne monitorowanie stężenia we krwi</li>
+            <li><strong>Walproinian</strong> — zwiększa stężenie GABA; działanie przeciwdrgawkowe i normotymiczne</li>
+            <li><strong>Lamotrygina</strong> — blokada kanałów Na⁺; szczególnie skuteczna w epizodach depresyjnych ChAD</li>
+          </ul>
+
+          <h3>Leki anksjolityczne i nasenne</h3>
+          <ul>
+            <li><strong>Benzodiazepiny</strong> — szybkie działanie anksjolityczne; ryzyko tolerancji i uzależnienia</li>
+            <li><strong>Buspiron</strong> — częściowy agonista 5-HT1A; brak ryzyka uzależnienia, działa po kilku tygodniach</li>
+            <li><strong>Z-leki</strong> (zolpidem, zopiklon) — agoniści GABA<sub>A</sub>; leki nasenne krótkoterminowe</li>
+            <li><strong>Pregabalina</strong> — ligand podjednostki α2δ kanałów Ca²⁺; leczenie lęku uogólnionego</li>
+          </ul>
+
+          <h3>Leki stosowane w chorobie Alzheimera</h3>
+          <div class="callout callout-success">
+            <span class="callout-icon">🔬</span>
+            <p>Dostępne leczenie farmakologiczne choroby Alzheimera ma charakter <strong>objawowy</strong>. Inhibitory acetylocholinesterazy (donepezil, galantamina, rywastygmina) poprawiają funkcje poznawcze we wczesnych stadiach. Memantyna (antagonista NMDA) stosowana w stadiach umiarkowanych i ciężkich. Nowe terapie anty-amyloidowe (lecanemab, donanemab) dopuszczone od lat 2020-tych.</p>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Neurofarmakologia uzależnień</h2>
+          <p>Uzależnienie jest zaburzeniem układu nagrody, związanym przede wszystkim z <span class="term">szlakiem mezolimbicznym</span> (VTA → nucleus accumbens). Każda substancja psychoaktywna — bezpośrednio lub pośrednio — powoduje <strong>uwalnianie dopaminy</strong> w tym szlaku.</p>
+
+          <div class="card-grid">
+            <div class="card">
+              <div class="card-label">Substancja</div>
+              <div class="card-title">Opioidy</div>
+              <p>Działają przez receptory μ; hamują neurony GABAergiczne → disinhibicja neuronów dopaminowych → masywne wyrzuty DA. Leczenie: metadon, buprenorfina, naltreksone.</p>
+            </div>
+            <div class="card">
+              <div class="card-label">Substancja</div>
+              <div class="card-title">Stymulanty (kokaina, amfetamina)</div>
+              <p>Kokaina blokuje wychwyt zwrotny DA/5-HT/NA. Amfetamina wymusza odwrócone działanie transporterów — masywne uwalnianie DA. Silny potencjał uzależniający.</p>
+            </div>
+            <div class="card">
+              <div class="card-label">Substancja</div>
+              <div class="card-title">Kannabinoidy</div>
+              <p>THC jest agonistą receptorów CB1 (układ endokannabinoidowy). Moduluje synapsy w jądrze półleżącym. Chroniczne stosowanie powoduje zmiany neuroadaptacyjne.</p>
+            </div>
+            <div class="card">
+              <div class="card-label">Substancja</div>
+              <div class="card-title">Alkohol</div>
+              <p>Wielomechanizmowy: potencjacja GABA<sub>A</sub>, hamowanie NMDA, wzrost uwalniania opioidów i DA. Odstawienie po uzależnieniu grozi napadami drgawkowymi.</p>
+            </div>
+          </div>
+
+          <h3>Neuroadaptacja i tolerancja</h3>
+          <p>Chroniczne stosowanie substancji prowadzi do <span class="term">neuroadaptacji</span> — mózg kompensuje ich działanie przez zmianę liczby receptorów (<em>down-regulation</em>), ich czułości lub syntezy neuroprzekaźników. Rezultatem jest <strong>tolerancja</strong> (konieczność zwiększania dawki), a przy odstawieniu — <strong>objawy abstynencyjne</strong> (stan odwrotny do działania substancji).</p>
+        </div>
+
+        <div class="section">
+          <h2>Bariera krew-mózg (BBB) a farmakoterapia</h2>
+          <p><span class="term">Bariera krew-mózg</span> (blood-brain barrier) to specjalizowana struktura śródbłonka naczyń mózgowych, chroniona połączeniami ścisłymi (tight junctions) i astrocytami. Przepuszcza selektywnie:</p>
+          <ul>
+            <li>Substancje <strong>lipofilne</strong> (rozpuszczalne w tłuszczach) — np. większość leków psychotropowych, etanol, THC</li>
+            <li>Substancje transportowane aktywnie (glukoza, aminokwasy)</li>
+            <li>Blokuje duże, naładowane cząsteczki i większość leków hydrofilnych</li>
+          </ul>
+          <p>Projektowanie leków CNS wymaga odpowiednich właściwości fizykochemicznych (lipofilność, mała masa cząsteczkowa) lub stosowania szczególnych strategii (np. pro-leki, nanonosniki) dla pokonania BBB.</p>
+        </div>
+
+        <div class="page-footer">
+          <span class="footer-note">Neurofarmakologia</span>
+          <button class="btn-next" onclick="showPage('wiki')">Następny: WIKI — Słownik →</button>
+        </div>
+      </div>
+
     </main>
   </div>
 
@@ -3172,7 +3570,10 @@
         'tests-executive': 'Funkcje wykonawcze',
         'assessment': 'Metody oceny',
         'neuroimaging': 'Neuroobrazowanie',
-        'wiki': 'WIKI — Słownik'
+        'wiki': 'WIKI — Słownik',
+        'zakres': 'Zakres wiedzy',
+        'literatura': 'Literatura',
+        'neurofarmakologia': 'Neurofarmakologia'
       };
       document.getElementById('breadcrumb').textContent = pageTitles[pageId] || pageId;
       
@@ -3206,7 +3607,7 @@
                      'attention', 'language', 'executive', 'perception', 'aphasia', 'amnesia', 
                      'dementia', 'tbi', 'cases', 'case-hm', 'case-gage', 'case-tan', 'case-split',
                      'tests-overview', 'tests-screen', 'tests-memory', 'tests-executive', 
-                     'assessment', 'neuroimaging', 'wiki'];
+                     'assessment', 'neuroimaging', 'wiki', 'zakres', 'literatura', 'neurofarmakologia'];
       
       for (const page of pages) {
         const content = document.getElementById('page-' + page).textContent.toLowerCase();
