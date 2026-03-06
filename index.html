@@ -834,8 +834,8 @@
 
     /* ─── Ulepszony modal mózgu 3D ──────────────────────────────── */
     .modal-brain {
-      max-width: 1200px;
-      height: 88vh;
+      max-width: 1400px;
+      height: 92vh;
     }
 
     .modal-title-wrap {
@@ -877,7 +877,7 @@
     .modal-brain-body {
       flex: 1;
       display: grid;
-      grid-template-columns: 1fr 280px;
+      grid-template-columns: 1fr 380px;
       overflow: hidden;
     }
 
@@ -888,11 +888,9 @@
       cursor: grab;
     }
 
-    #brain3d-canvas:active {
-      cursor: grabbing;
-    }
+    #brain3d-canvas:active { cursor: grabbing; }
 
-    /* Boczny panel opisów */
+    /* ── Boczny panel opisów ─────────────────────────────────── */
     .brain-sidebar {
       background: var(--bg-tertiary);
       border-left: 1px solid var(--border);
@@ -901,70 +899,118 @@
       overflow: hidden;
     }
 
+    /* Panel opisu — zajmuje 45% wysokości bocznego paska */
     .brain-info-panel {
-      padding: 1rem;
+      padding: 1.1rem 1.2rem 1rem;
       border-bottom: 1px solid var(--border);
-      min-height: 130px;
-      flex-shrink: 0;
+      flex: 0 0 auto;
+      max-height: 52%;
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
     }
 
     .brain-info-title {
       font-family: var(--font-serif);
-      font-size: 1rem;
-      font-weight: 600;
+      font-size: 1.05rem;
+      font-weight: 700;
       color: var(--accent-gold);
-      margin-bottom: 0.6rem;
-      line-height: 1.3;
+      margin-bottom: 0.55rem;
+      line-height: 1.35;
+    }
+
+    .brain-info-stats {
+      display: flex;
+      gap: 0.8rem;
+      margin-bottom: 0.65rem;
+    }
+
+    .brain-stat {
+      font-size: 0.74rem;
+      color: var(--text-muted);
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.2rem 0.55rem;
     }
 
     .brain-info-desc {
-      font-size: 0.78rem;
+      font-size: 0.82rem;
       color: var(--text-secondary);
-      line-height: 1.6;
+      line-height: 1.72;
     }
 
+    .brain-info-desc em {
+      color: var(--text-primary);
+      font-style: italic;
+    }
+
+    /* Lista regionów */
     .brain-region-list {
       flex: 1;
       overflow-y: auto;
-      padding: 0.75rem 0.75rem 1rem;
+      padding: 0.6rem 0.8rem 1rem;
       display: flex;
       flex-direction: column;
-      gap: 0.3rem;
+      gap: 0.25rem;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
     }
 
     .brain-region-section-title {
-      font-size: 0.62rem;
+      font-size: 0.60rem;
       text-transform: uppercase;
       letter-spacing: 0.14em;
       color: var(--text-muted);
-      padding: 0.6rem 0 0.2rem;
-      font-weight: 600;
+      padding: 0.55rem 0 0.15rem;
+      font-weight: 700;
     }
 
     .brain-region-btn {
-      background: rgba(0,0,0,0.3);
+      background: rgba(255,255,255,0.03);
       border: 1px solid var(--border);
       border-radius: 8px;
-      padding: 0.45rem 0.75rem;
+      padding: 0.48rem 0.8rem;
       color: var(--text-secondary);
-      font-size: 0.78rem;
+      font-size: 0.80rem;
       cursor: pointer;
-      transition: all 0.2s;
+      transition: background 0.18s, border-color 0.18s, color 0.18s;
       text-align: left;
       width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .brain-region-btn::before {
+      content: '';
+      display: inline-block;
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: currentColor;
+      opacity: 0.55;
+      flex-shrink: 0;
     }
 
     .brain-region-btn:hover {
-      background: rgba(201,162,39,0.08);
-      border-color: var(--accent-gold);
+      background: rgba(201,162,39,0.09);
+      border-color: rgba(201,162,39,0.45);
       color: var(--text-primary);
     }
 
     .brain-region-btn.active {
-      background: rgba(201,162,39,0.15);
+      background: rgba(201,162,39,0.14);
       border-color: var(--accent-gold);
       color: var(--accent-gold);
       font-weight: 600;
+    }
+
+    .brain-region-btn.active::before { opacity: 1; }
+
+    @media (max-width: 900px) {
+      .modal-brain-body {
+        grid-template-columns: 1fr 300px;
+      }
     }
 
     @media (max-width: 768px) {
@@ -975,11 +1021,12 @@
       .brain-sidebar {
         border-left: none;
         border-top: 1px solid var(--border);
-        max-height: 220px;
+        max-height: 240px;
+        flex-direction: row;
       }
-      .modal-brain {
-        height: 96vh;
-      }
+      .brain-info-panel { max-height: 100%; flex: 1; }
+      .brain-region-list { flex: 0 0 160px; border-left: 1px solid var(--border); }
+      .modal-brain { height: 96vh; }
     }
     /* ─────────────────────────────────────────────────────────────── */
   </style>
@@ -1059,7 +1106,7 @@
         <a class="nav-item" data-page="neurofarmakologia" onclick="showPage('neurofarmakologia')">Neurofarmakologia</a>
       </div>
 
-      <div class="sidebar-version">wersja <span>v1.2</span></div>
+      <div class="sidebar-version">wersja <span>v1.5</span></div>
     </nav>
 
     <div class="nav-overlay" id="navOverlay" onclick="toggleSidebar()"></div>
