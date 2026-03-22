@@ -4583,12 +4583,12 @@
       const query = e.target.value.toLowerCase();
       if (query.length < 2) return;
       
-      const pages = ['intro', 'history', 'anatomy', 'neuron', 'systems', 'cogpsych', 'memory', 
-                     'attention', 'language', 'executive', 'perception', 'cognitive-fatigue', 'aphasia', 'amnesia', 
+      const pages = ['intro', 'history', 'anatomy', 'neuron', 'systems', 'cogpsych', 'memory',
+                     'attention', 'language', 'executive', 'perception', 'cognitive-fatigue', 'aphasia', 'amnesia',
                      'dementia', 'tbi', 'cases', 'case-hm', 'case-gage', 'case-tan', 'case-split',
-                     'tests-overview', 'tests-screen', 'tests-memory', 'tests-executive', 
-                     'assessment', 'neuroimaging', 'wiki', 'wiki-cognitive', 'wiki-relationships', 'sex-psychology', 'zakres', 'literatura', 'neurofarmakologia'];
-                     'assessment', 'neuroimaging', 'wiki', 'wiki-cognitive', 'wiki-relationships', 'zakres', 'literatura', 'neurofarmakologia'];
+                     'tests-overview', 'tests-screen', 'tests-memory', 'tests-executive',
+                     'assessment', 'neuroimaging', 'wiki', 'wiki-cognitive', 'wiki-relationships', 'sex-psychology',
+                     'zakres', 'literatura', 'neurofarmakologia'];
       
       for (const page of pages) {
         const content = document.getElementById('page-' + page).textContent.toLowerCase();
