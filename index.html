@@ -490,6 +490,7 @@ function navigate(id) {
   closeSidebar();
   if (item.file)       loadMd(id, item);
   else if (item.wiki)  renderWiki(id, item.wiki);
+  else                 renderHome();
 }
 
 /* ── Load markdown ─────────────────────────── */

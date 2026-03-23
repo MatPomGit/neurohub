@@ -819,5 +819,5 @@ window.SITE_CONFIG = {
     },
   },
 
-  defaultPage: 'intro/definicja',
+  defaultPage: '__home__',
 };
