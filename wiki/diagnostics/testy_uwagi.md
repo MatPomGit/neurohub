@@ -5,6 +5,7 @@ Uwaga to nie jeden proces — to rodzina zdolności obejmująca czujność, konc
 ## Model uwagi Sohlberga i Mateera
 
 **Sohlberg i Mateer (1987)** opisali hierarchiczny model uwagi:
+
 1. **Uwaga ogniskowa (focused)** — reagowanie na specyficzny bodziec;
 2. **Uwaga podtrzymana (sustained)** — utrzymanie czujności przez dłuższy czas;
 3. **Uwaga selektywna (selective)** — skupienie na zadaniu przy obecności dystraktorów;
@@ -18,6 +19,7 @@ Każdy poziom angażuje inne obszary mózgu i może być selektywnie uszkodzony.
 ### Test Ciągłego Wykonywania (CPT)
 
 **CPT (Continuous Performance Test)** — badany obserwuje serię bodźców i reaguje (naciśnięciem klawisza) na bodźce docelowe, a hamuje reakcję na nicel. Mierzy:
+
 - **Omissions** (pominięcia) — niereagowanie na cel = deficyt uwagi podtrzymanej;
 - **Commissions** (fałszywe alarmy) — reagowanie na non-cel = impulsywność;
 - **Czas reakcji** i jego zmienność.
@@ -27,6 +29,7 @@ CPT jest szczególnie użyteczny w diagnozie ADHD. Wersje: Conners' CPT-3, TOVA 
 ### Test Stroke/TMT (Trail Making Test)
 
 **TMT** składa się z dwóch części:
+
 - **TMT-A:** Połącz liczby 1–25 w kolejności rosnącej (uwaga selektywna, przetwarzanie wzrokowe);
 - **TMT-B:** Naprzemiennie łącz liczby i litery (1-A-2-B-3-C...) — uwaga przemienna, elastyczność poznawcza.
 
@@ -35,6 +38,7 @@ Czas wykonania i liczba błędów. Stosunek B/A (TMT-B/TMT-A) izoluje komponente
 ### Stroop Color-Word Test
 
 **Test Stroopa** mierzy kontrolę inhibicyjną i selektywną uwagę. Trzy części:
+
 - *Czytanie* nazw kolorów (SŁOWO);
 - *Nazewnictwo* kolorowych prostokątów (KOLOR);
 - *Interferencja* — nazewnictwo koloru atramentu, którym jest napisana niespójna nazwa koloru (np. "NIEBIESKI" napisane zielonym atramentem → powiedz "zielony").
