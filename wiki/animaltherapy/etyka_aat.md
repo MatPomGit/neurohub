@@ -20,7 +20,7 @@ Rozpoznawanie sygnałów stresu u psa terapeutycznego jest kluczową kompetencj�
 - Ziewanie poza kontekstem zmęczenia
 - Lizanie nosa lub warg
 - Odwracanie wzroku lub głowy
-- Wąchacie ziemi bez wyraźnego powodu
+- Wąchanie ziemi bez wyraźnego powodu
 - Powolne ruchy, "zamrażanie"
 
 **Wyraźniejsze:**

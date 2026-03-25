@@ -53,7 +53,7 @@ DIF jest bardziej powszechny w badaniach adaptacji testów, inwariancja pomiarow
 
 - **PHQ-9 (skala depresji):** Badania wykazały inwariancję metryczną między płciami, ale brak pełnej inwariancji skalarnej — kobiety mają wyższe intercepty dla pozycji o smutku, co wynika ze zróżnicowania w wyrażaniu emocji, nie tylko w depresji.
 
-- **Testy inteligencji:** Badania fl ynn effect (wzrost IQ w czasie) sugerują, że część wzrostu może odzwierciedlać zmiany w sposobie podejścia do testów, nie prawdziwy wzrost inteligencji — problem inwariancji w czasie.
+- **Testy inteligencji:** Badania Flynn effect (wzrost IQ w czasie) sugerują, że część wzrostu może odzwierciedlać zmiany w sposobie podejścia do testów, nie prawdziwy wzrost inteligencji — problem inwariancji w czasie.
 
 ## Implikacje praktyczne
 

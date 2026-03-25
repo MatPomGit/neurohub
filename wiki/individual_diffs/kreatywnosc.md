@@ -39,7 +39,7 @@ Klasyczny podział wyróżnia cztery aspekty:
 
 ## Korelaty indywidualne
 
-**Otwartość na doświadczenia (Big 5):** Najsilniejszy korelatorcechowy kreatywności. Obejmuje: otwartość na nowe idee, estetyczna wrażliwość, ciekawość intelektualna, bogata wyobraźnia.
+**Otwartość na doświadczenia (Big 5):** Najsilniejszy korelatywny czynnik cechowy kreatywności. Obejmuje: otwartość na nowe idee, estetyczna wrażliwość, ciekawość intelektualna, bogata wyobraźnia.
 
 **Inteligencja:** Korelacja z kreatywnością jest umiarkowana i nieliniowa. Hipoteza progu (Guilford, Torrance): IQ > 120 jest konieczne, ale niewystarczające — powyżej tego progu inteligencja przestaje silnie przewidywać kreatywność.
 
