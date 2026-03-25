@@ -258,6 +258,9 @@ window.SITE_CONFIG = {
         { id: 'wiki-index/uzaleznienia',     label: 'WIKI — Uzależnienia',          wiki: 'uzaleznienia'     },
         { id: 'wiki-index/relacje',          label: 'WIKI — Relacje i związki',     wiki: 'relacje'          },
         { id: 'wiki-index/diagnoza',         label: 'WIKI — Diagnoza psychologiczna', wiki: 'diagnoza'       },
+        { id: 'wiki-index/biologia',         label: 'WIKI — Biologia zachowania',   wiki: 'biologia'         },
+        { id: 'wiki-index/roznice_ind',      label: 'WIKI — Różnice indywidualne',  wiki: 'roznice_ind'      },
+        { id: 'wiki-index/terapie_artystyczne', label: 'WIKI — Terapie artystyczne', wiki: 'terapie_artystyczne' },
         { id: 'wiki-index/etyka',            label: 'WIKI — Etyka zawodowa',        wiki: 'etyka'            },
         { id: 'wiki-index/slownik',          label: 'WIKI — Słownik terminów',      wiki: 'slownik'          },
       ]
@@ -471,8 +474,15 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Płaty kory mózgowej', id: 'neuro/anatomia', status: 'live' },
             { label: 'Układ limbiczny', id: 'neuro/uklad_limbiczny', status: 'live', desc: 'Hipokamp, ciało migdałowate, zakręt obręczy.' },
+            { label: 'Neuron i synapsa', id: 'neuro/neuron', status: 'live', desc: 'Budowa neuronu, potencjał czynnościowy, LTP/LTD.' },
+            { label: 'Układy i sieci mózgowe', id: 'neuro/systemy', status: 'live' },
+            { label: 'Mielinizacja i istota biała', id: 'neuro/myelinizacja', status: 'live', desc: 'Pęczek łukowaty, ciało modzelowate, szlaki piramidowe.' },
+            { label: 'Neuroplastyczność', id: 'neuro/plastycznosc', status: 'live' },
+            { label: 'Neuroobrazowanie (fMRI, DTI)', id: 'neuro/neuroobrazowanie', status: 'live' },
+            { label: 'Lateralizacja funkcji', id: 'neuro/lateralizacja', status: 'live' },
+            { label: 'Kora przedczołowa', id: 'neuro/kora_prefrontalna', status: 'live' },
+            { label: 'Neurobiologia przesilenia wiosennego', id: 'neuro/przesilenie_wiosenne', status: 'live' },
             { label: 'Pień mózgu i móżdżek', id: null, status: 'planned', desc: 'Struktury podkorowe i ich funkcje kliniczne.' },
-            { label: 'Istota biała — szlaki projekcyjne i asocjacyjne', id: null, status: 'planned', desc: 'Pęczek łukowaty, ciało modzelowate, szlaki piramidowe.' },
           ]
         },
         {
@@ -483,6 +493,10 @@ window.SITE_CONFIG = {
             { label: 'Agnozja wzrokowa i prozopagnozja', id: 'disorders/agnozja', status: 'live' },
             { label: 'Neglect przestrzenny', id: 'disorders/neglect', status: 'live' },
             { label: 'Apraksja', id: 'disorders/apraksja', status: 'live' },
+            { label: 'Urazy głowy (TBI)', id: 'disorders/tbi', status: 'live' },
+            { label: 'Otępienia', id: 'disorders/otepienia', status: 'live' },
+            { label: 'ADHD', id: 'disorders/adhd', status: 'live' },
+            { label: 'Spektrum autyzmu (ASD)', id: 'disorders/asd', status: 'live' },
           ]
         },
         {
@@ -490,7 +504,27 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Testy przesiewowe (MMSE, MoCA)', id: 'diagnostics/mmse_moca', status: 'live' },
             { label: 'Testy funkcji wykonawczych', id: 'diagnostics/testy_wykonawcze', status: 'live' },
-            { label: 'Baterie kompleksowe', id: null, status: 'planned', desc: 'LNNB, HRNB, D-KEFS.' },
+            { label: 'Testy pamięci', id: 'diagnostics/testy_pamieci', status: 'live' },
+            { label: 'Testy uwagi', id: 'diagnostics/testy_uwagi', status: 'live' },
+            { label: 'Testy językowe', id: 'diagnostics/testy_jezyka', status: 'live' },
+            { label: 'Skale Wechslera (WAIS/WISC)', id: 'diagnostics/wais', status: 'live' },
+            { label: 'Baterie neuropsychologiczne', id: 'diagnostics/neuropsych_battery', status: 'live', desc: 'LNNB, HRNB, D-KEFS.' },
+          ]
+        },
+        {
+          title: 'Przypadki kliniczne',
+          articles: [
+            { label: 'H.M. — amnezja', id: 'cases/hm', status: 'live' },
+            { label: 'Phineas Gage', id: 'cases/gage', status: 'live' },
+            { label: '„Tan" — afazja Broki', id: 'cases/tan', status: 'live' },
+            { label: 'Rozdzielony mózg', id: 'cases/split_brain', status: 'live' },
+          ]
+        },
+        {
+          title: 'Wprowadzenie do dyscypliny',
+          articles: [
+            { label: 'Definicja i zakres', id: 'intro/definicja', status: 'live' },
+            { label: 'Historia dyscypliny', id: 'intro/historia', status: 'live' },
           ]
         },
       ]
@@ -504,7 +538,7 @@ window.SITE_CONFIG = {
           title: 'Podstawy diagnostyki',
           articles: [
             { label: 'Psychopatologia ogólna', id: 'psychopathology/psychopatologia_wprowadzenie', status: 'live' },
-            { label: 'Badanie stanu psychicznego (MSE)', id: null, status: 'planned' },
+            { label: 'Badanie stanu psychicznego (MSE)', id: 'psychopathology/objawy_ogolne', status: 'live' },
             { label: 'Klasyfikacje ICD-11 i DSM-5-TR', id: null, status: 'planned' },
             { label: 'Formułowanie przypadku', id: null, status: 'planned' },
           ]
@@ -517,14 +551,39 @@ window.SITE_CONFIG = {
             { label: 'Psychozy', id: 'psychopathology/psychozy', status: 'live' },
             { label: 'Zaburzenia osobowości', id: 'psychopathology/zaburzenia_osobowosci', status: 'live' },
             { label: 'Trauma i PTSD', id: 'psychopathology/trauma_ptsd', status: 'live' },
+            { label: 'OCD i zaburzenia pokrewne', id: 'psychopathology/ocd', status: 'live' },
+            { label: 'Zaburzenia odżywiania', id: 'psychopathology/zaburzenia_odzywiania', status: 'live' },
+            { label: 'Zaburzenia neurorozwojowe', id: 'psychopathology/neurorozwojowe', status: 'live' },
+            { label: 'Uzależnienia — aspekt psychologiczny', id: 'psychopathology/uzaleznienia_psych', status: 'live' },
           ]
         },
         {
-          title: 'Interwencje',
+          title: 'Interwencje i psychoterapia',
           articles: [
+            { label: 'Psychoterapia — wprowadzenie', id: 'psychotherapy/psychoterapia_wprowadzenie', status: 'live' },
             { label: 'CBT — podstawy', id: 'psychotherapy/cbt', status: 'live' },
             { label: 'DBT — terapia dialektyczna', id: 'psychotherapy/dbt', status: 'live' },
+            { label: 'Terapia psychodynamiczna', id: 'psychotherapy/psychodyn', status: 'live' },
+            { label: 'Podejście humanistyczne', id: 'psychotherapy/humanist', status: 'live' },
+            { label: 'Terapia systemowa', id: 'psychotherapy/systemowa', status: 'live' },
+            { label: 'Terapia akceptacji (ACT)', id: 'psychotherapy/act', status: 'live' },
+            { label: 'EMDR', id: 'psychotherapy/emdr', status: 'live' },
+            { label: 'Skuteczność psychoterapii', id: 'psychotherapy/skutecznosc', status: 'live' },
+            { label: 'Sojusz terapeutyczny', id: 'psychotherapy/sojusz', status: 'live' },
             { label: 'Interwencja kryzysowa', id: 'suicidology/interwencja', status: 'live' },
+          ]
+        },
+        {
+          title: 'Suicydologia',
+          articles: [
+            { label: 'Suicydologia — wprowadzenie', id: 'suicidology/suicydologia_wprowadzenie', status: 'live' },
+            { label: 'Epidemiologia', id: 'suicidology/epidemiologia', status: 'live' },
+            { label: 'Teorie (Joiner, IMV)', id: 'suicidology/teorie', status: 'live' },
+            { label: 'Ocena ryzyka (C-SSRS)', id: 'suicidology/ocena_ryzyka', status: 'live' },
+            { label: 'Profilaktyka', id: 'suicidology/profilaktyka', status: 'live' },
+            { label: 'Samookaleczenia (NSSI)', id: 'suicidology/nssi', status: 'live' },
+            { label: 'Postvention', id: 'suicidology/postvention', status: 'live' },
+            { label: 'Efekt Wertera i Papageno', id: 'suicidology/media', status: 'live' },
           ]
         },
         {
@@ -557,6 +616,9 @@ window.SITE_CONFIG = {
             { label: 'Myślenie i rozumowanie', id: 'cognitive/myslenie', status: 'live' },
             { label: 'Podejmowanie decyzji', id: 'cognitive/podejmowanie_decyzji', status: 'live' },
             { label: 'Świadomość i metapoznanie', id: 'cognitive/swiadomosc', status: 'live' },
+            { label: 'Uczenie się', id: 'cognitive/uczenie', status: 'live' },
+            { label: 'Wyobraźnia i reprezentacje', id: 'cognitive/wyobraznia', status: 'live' },
+            { label: 'Zmęczenie poznawcze', id: 'cognitive/zmeczenie_poznawcze', status: 'live' },
           ]
         },
         {
@@ -623,6 +685,18 @@ window.SITE_CONFIG = {
             { label: 'Kultura a zdrowie psychiczne', id: null, status: 'planned' },
           ]
         },
+        {
+          title: 'Emocje i motywacja',
+          articles: [
+            { label: 'Emocje — wprowadzenie', id: 'emotions/emocje_wprowadzenie', status: 'live' },
+            { label: 'Teorie emocji', id: 'emotions/teorie', status: 'live' },
+            { label: 'Regulacja emocjonalna', id: 'emotions/regulacja', status: 'live' },
+            { label: 'Motywacja', id: 'emotions/motywacja', status: 'live' },
+            { label: 'Neurobiologia emocji', id: 'emotions/neurobiologia', status: 'live' },
+            { label: 'Empatia i współczucie', id: 'emotions/wspolczucie', status: 'live' },
+            { label: 'Aleksytymia', id: 'emotions/aleksytymia', status: 'live' },
+          ]
+        },
       ]
     },
 
@@ -664,8 +738,21 @@ window.SITE_CONFIG = {
           title: 'Mechanizmy i diagnoza',
           articles: [
             { label: 'Neurobiologia uzależnień', id: 'pharmacology/neurofarmakologia', status: 'xlink' },
+            { label: 'Uzależnienia — aspekt psychologiczny', id: 'psychopathology/uzaleznienia_psych', status: 'live' },
             { label: 'Kryteria diagnostyczne', id: null, status: 'planned' },
-            { label: 'Uzależnienia behawioralne', id: null, status: 'planned' },
+          ]
+        },
+        {
+          title: 'Farmakoterapia',
+          articles: [
+            { label: 'Neurofarmakologia', id: 'pharmacology/neurofarmakologia', status: 'live' },
+            { label: 'Leki przeciwdepresyjne', id: 'pharmacology/przeciwdepresyjne', status: 'live' },
+            { label: 'Leki przeciwpsychotyczne', id: 'pharmacology/przeciwpsychotyczne', status: 'live' },
+            { label: 'Anksjolityki i nasenne', id: 'pharmacology/anxiolityki', status: 'live' },
+            { label: 'Stabilizatory nastroju', id: 'pharmacology/stabilizatory', status: 'live' },
+            { label: 'Farmakoterapia uzależnień', id: 'pharmacology/uzaleznienia_farm', status: 'live' },
+            { label: 'Psychodeliki w terapii', id: 'pharmacology/psychodeliki', status: 'live' },
+            { label: 'Nootropiki i kognitywne', id: 'pharmacology/nootropiki', status: 'live' },
           ]
         },
         {
@@ -715,6 +802,19 @@ window.SITE_CONFIG = {
             { label: 'Psychologia seksu', id: 'sexology/seksuologia_wprowadzenie', status: 'xlink' },
           ]
         },
+        {
+          title: 'Seksuologia',
+          articles: [
+            { label: 'Seksuologia — wprowadzenie', id: 'sexology/seksuologia_wprowadzenie', status: 'live' },
+            { label: 'Orientacja seksualna', id: 'sexology/orientacja', status: 'live' },
+            { label: 'Tożsamość płciowa', id: 'sexology/tozsamosc_plciowa', status: 'live' },
+            { label: 'Dysfunkcje seksualne', id: 'sexology/dysfunkcje', status: 'live' },
+            { label: 'Terapia seksualna', id: 'sexology/terapia_seksualna', status: 'live' },
+            { label: 'Trauma seksualna', id: 'sexology/trauma_seksualna', status: 'live' },
+            { label: 'Rozwój seksualny', id: 'sexology/rozw_seksualny', status: 'live' },
+            { label: 'Modele odpowiedzi seksualnej', id: 'sexology/modele_odpowiedzi', status: 'live' },
+          ]
+        },
       ]
     },
 
@@ -732,11 +832,24 @@ window.SITE_CONFIG = {
           ]
         },
         {
-          title: 'Narzędzia',
+          title: 'Narzędzia diagnostyczne',
           articles: [
             { label: 'Psychometria — podstawy', id: 'psychometrics/psychometria_wprowadzenie', status: 'xlink' },
-            { label: 'Techniki projekcyjne', id: null, status: 'planned' },
             { label: 'Testy neuropsychologiczne', id: 'diagnostics/testy_przeglad', status: 'xlink' },
+            { label: 'Techniki projekcyjne', id: null, status: 'planned' },
+          ]
+        },
+        {
+          title: 'Psychometria',
+          articles: [
+            { label: 'Psychometria — wprowadzenie', id: 'psychometrics/psychometria_wprowadzenie', status: 'live' },
+            { label: 'Rzetelność pomiaru', id: 'psychometrics/rzetelnosc', status: 'live' },
+            { label: 'Trafność pomiaru', id: 'psychometrics/trafnosc', status: 'live' },
+            { label: 'Normalizacja i normy', id: 'psychometrics/normalizacja', status: 'live' },
+            { label: 'Klasyczna teoria testu', id: 'psychometrics/teoria_ct', status: 'live' },
+            { label: 'IRT i model Rascha', id: 'psychometrics/irt', status: 'live' },
+            { label: 'Analiza czynnikowa', id: 'psychometrics/cfa_efa', status: 'live' },
+            { label: 'Inwariancja pomiarowa', id: 'psychometrics/invariancja', status: 'live' },
           ]
         },
         {
@@ -745,6 +858,98 @@ window.SITE_CONFIG = {
             { label: 'Opinia psychologiczna', id: null, status: 'planned' },
             { label: 'Tajemnica zawodowa', id: null, status: 'planned' },
             { label: 'Diagnoza a stygmatyzacja', id: null, status: 'planned' },
+          ]
+        },
+        {
+          title: 'Źródła i zasoby',
+          articles: [
+            { label: 'Zakres wiedzy', id: 'reference/zakres', status: 'live' },
+            { label: 'Literatura', id: 'reference/literatura', status: 'live' },
+          ]
+        },
+      ]
+    },
+
+    biologia: {
+      title: 'WIKI — Biologiczne podstawy zachowania',
+      intro: 'Biologiczne podłoże zachowań i procesów psychicznych — od genetyki przez hormony po chronobiologię i mikrobiom.',
+      sections: [
+        {
+          title: 'Podstawy',
+          articles: [
+            { label: 'Biologiczne podstawy zachowania', id: 'biology/biologiczne_podstawy', status: 'live' },
+            { label: 'Genetyka zachowania', id: 'biology/genetyka_beh', status: 'live' },
+            { label: 'Psychofizjologia', id: 'biology/psychofizjologia', status: 'live' },
+          ]
+        },
+        {
+          title: 'Regulacja biologiczna',
+          articles: [
+            { label: 'Hormony a zachowanie', id: 'biology/hormony', status: 'live' },
+            { label: 'Chronobiologia', id: 'biology/chronobiologia', status: 'live' },
+            { label: 'Mikrobiom a mózg', id: 'biology/mikrobiom', status: 'live' },
+            { label: 'Ewolucja zachowania', id: 'biology/ewolucja', status: 'live' },
+          ]
+        },
+      ]
+    },
+
+    roznice_ind: {
+      title: 'WIKI — Różnice indywidualne i temperament',
+      intro: 'Czynniki wyjaśniające różnorodność psychologiczną — inteligencja, osobowość, temperament i ich biologiczne podłoże.',
+      sections: [
+        {
+          title: 'Różnice indywidualne',
+          articles: [
+            { label: 'Wprowadzenie — różnice indywidualne', id: 'individual_diffs/roznice_wprowadzenie', status: 'live' },
+            { label: 'Inteligencja', id: 'individual_diffs/inteligencja', status: 'live' },
+            { label: 'Osobowość — modele', id: 'individual_diffs/osobowosc', status: 'live' },
+            { label: 'Kreatywność', id: 'individual_diffs/kreatywnosc', status: 'live' },
+            { label: 'Genetyka osobowości', id: 'individual_diffs/genetyka', status: 'live' },
+            { label: 'Style poznawcze', id: 'individual_diffs/style_poznawcze', status: 'live' },
+            { label: 'Psychologia płci', id: 'individual_diffs/plec_psychologia', status: 'live' },
+          ]
+        },
+        {
+          title: 'Temperament',
+          articles: [
+            { label: 'Temperament — wprowadzenie', id: 'temperament/temperament_wprowadzenie', status: 'live' },
+            { label: 'Modele temperamentu', id: 'temperament/modele', status: 'live' },
+            { label: 'Pomiar temperamentu', id: 'temperament/pomiar', status: 'live' },
+            { label: 'Temperament a klinika', id: 'temperament/kliniczne', status: 'live' },
+            { label: 'Rozwój temperamentu', id: 'temperament/razvoj', status: 'live' },
+          ]
+        },
+      ]
+    },
+
+    terapie_artystyczne: {
+      title: 'WIKI — Terapie artystyczne i animaloterapia',
+      intro: 'Kreatywne i zwierzęce metody terapeutyczne — arteterapia, muzykoterapia, dogoterapia i inne interwencje wspomagające.',
+      sections: [
+        {
+          title: 'Arteterapia',
+          articles: [
+            { label: 'Arteterapia — wprowadzenie', id: 'artetherapy/arteterapia_wprowadzenie', status: 'live' },
+            { label: 'Art therapy (plastyczna)', id: 'artetherapy/art_therapy', status: 'live' },
+            { label: 'Muzykoterapia', id: 'artetherapy/muzykoterapia', status: 'live' },
+            { label: 'Drameterapia', id: 'artetherapy/drameterapia', status: 'live' },
+            { label: 'Taniec i ruch (DMT)', id: 'artetherapy/dmt', status: 'live' },
+            { label: 'Biblioterapia', id: 'artetherapy/biblioterapia', status: 'live' },
+            { label: 'Mechanizmy terapeutyczne', id: 'artetherapy/mechanizmy', status: 'live' },
+            { label: 'Zastosowania kliniczne', id: 'artetherapy/zastosowania', status: 'live' },
+          ]
+        },
+        {
+          title: 'Animaloterapia',
+          articles: [
+            { label: 'Animaloterapia — wprowadzenie', id: 'animaltherapy/animaloterapia_wprowadzenie', status: 'live' },
+            { label: 'Dogoterapia', id: 'animaltherapy/dogoterapia', status: 'live' },
+            { label: 'Hipoterapia', id: 'animaltherapy/hipoterapia', status: 'live' },
+            { label: 'Felinoterapia', id: 'animaltherapy/felinoterapia', status: 'live' },
+            { label: 'Zastosowania AAT', id: 'animaltherapy/aat_zastosowania', status: 'live' },
+            { label: 'Etyka i dobrostan', id: 'animaltherapy/etyka_aat', status: 'live' },
+            { label: 'Mechanizmy AAT', id: 'animaltherapy/mechanizmy_aat', status: 'live' },
           ]
         },
       ]
