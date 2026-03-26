@@ -7,6 +7,7 @@ Zrozumienie mechanizmów, przez które kontakt ze zwierzętami wywiera terapeuty
 ### Oksytocyna i oś HPA
 
 Najlepiej zbadanym biologicznym mechanizmem AAT jest wpływ na układ oksytocyny. Nagata i in. (2009) wykazali, że wzajemne spojrzenia człowieka i psa w oczy podnoszą poziom oksytocyny u obu stron — jest to jedyny znany przypadek takiej reakcji między gatunkami. Oksytocyna:
+
 - Redukuje reaktywność ciała migdałowatego (obniża lęk i czujność zagrożenia)
 - Wzmacnia poczucie więzi i bezpieczeństwa
 - Moduluje oś HPA (hamuje wydzielanie kortyzolu)
@@ -16,6 +17,7 @@ Badania wykazują, że już 15–20 minut kontaktu z przyjaznym psem obniża poz
 ### Regulacja autonomiczna
 
 Kontakt z psem lub koniem aktywuje przywspółczulny układ nerwowy (gałąź "odpoczynek i trawienie"), co przejawia się w:
+
 - Obniżeniu tętna i ciśnienia krwi
 - Wzroście zmienności rytmu serca (HRV)
 - Spowolnieniu oddechu
@@ -26,6 +28,7 @@ Te efekty są szczególnie wyraźne u osób o chronicznej nadaktywności współ
 ### Monoaminy i system nagrody
 
 Kontakt ze zwierzętami stymuluje wydzielanie:
+
 - **Serotoniny** — poprawa nastroju, zmniejszenie drażliwości
 - **Dopaminy** — motywacja, przyjemność z interakcji
 - **Beta-endorfin** — analgezja, euforia wysiłkowa
