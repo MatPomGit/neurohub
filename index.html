@@ -786,8 +786,16 @@ function setBreadcrumb(item) {
   if (!item) { bc.innerHTML = `<a onclick="navigate(SITE_CONFIG.defaultPage)">PsyHub</a>`; return; }
   const s  = item?.section||'';
   const l  = item?.label||'';
+  let sHtml = '';
+  if (s) {
+    const sec = SITE_CONFIG.nav.find(n => n.section === s);
+    const firstId = sec?.items?.[0]?.id;
+    sHtml = firstId
+      ? `<span class="bsep">/</span><a onclick="navigate('${firstId}')">${s}</a>`
+      : `<span class="bsep">/</span><span>${s}</span>`;
+  }
   bc.innerHTML = `<a onclick="navigate(SITE_CONFIG.defaultPage)">PsyHub</a>`
-    +(s?`<span class="bsep">/</span><span>${s}</span>`:'')
+    + sHtml
     +(l?`<span class="bsep">/</span><span class="bcur">${l}</span>`:'');
 }
 
