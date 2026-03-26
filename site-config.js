@@ -53,6 +53,9 @@ window.SITE_CONFIG = {
         { id: 'cognitive/wyobraznia',           label: 'Wyobraźnia i reprezentacje',file: 'wiki/cognitive/wyobraznia.md'           },
         { id: 'cognitive/swiadomosc',           label: 'Świadomość i metapoznanie', file: 'wiki/cognitive/swiadomosc.md'           },
         { id: 'cognitive/podejmowanie_decyzji', label: 'Podejmowanie decyzji',      file: 'wiki/cognitive/podejmowanie_decyzji.md' },
+        { id: 'cognitive/teoria_perspektywy',  label: 'Teoria perspektywy',         file: 'wiki/cognitive/teoria_perspektywy.md'  },
+        { id: 'cognitive/efekt_ramowania',     label: 'Efekt ramowania',             file: 'wiki/cognitive/efekt_ramowania.md'     },
+        { id: 'cognitive/nasa_tlx',            label: 'NASA Task Load Index (TLX)', file: 'wiki/cognitive/nasa_tlx.md'            },
       ]
     },
     {
@@ -356,6 +359,9 @@ window.SITE_CONFIG = {
       { file: 'wiki/cognitive/wyobraznia.md',          label: 'Wyobraźnia i reprezentacje', status: 'live' },
       { file: 'wiki/cognitive/swiadomosc.md',          label: 'Świadomość i metapoznanie', status: 'live' },
       { file: 'wiki/cognitive/podejmowanie_decyzji.md',label: 'Podejmowanie decyzji', status: 'live' },
+      { file: 'wiki/cognitive/teoria_perspektywy.md', label: 'Teoria perspektywy',    status: 'live' },
+      { file: 'wiki/cognitive/efekt_ramowania.md',    label: 'Efekt ramowania',       status: 'live' },
+      { file: 'wiki/cognitive/nasa_tlx.md',           label: 'NASA Task Load Index (TLX)', status: 'live' },
     ],
     disorders: [
       { file: 'wiki/disorders/afazje.md',    label: 'Afazje',                 status: 'live' },
@@ -712,6 +718,9 @@ window.SITE_CONFIG = {
             { label: 'Funkcje wykonawcze', id: 'cognitive/funkcje_wykonawcze', status: 'live' },
             { label: 'Myślenie i rozumowanie', id: 'cognitive/myslenie', status: 'live' },
             { label: 'Podejmowanie decyzji', id: 'cognitive/podejmowanie_decyzji', status: 'live' },
+            { label: 'Teoria perspektywy', id: 'cognitive/teoria_perspektywy', status: 'live' },
+            { label: 'Efekt ramowania', id: 'cognitive/efekt_ramowania', status: 'live' },
+            { label: 'NASA Task Load Index (TLX)', id: 'cognitive/nasa_tlx', status: 'live' },
             { label: 'Świadomość i metapoznanie', id: 'cognitive/swiadomosc', status: 'live' },
             { label: 'Uczenie się', id: 'cognitive/uczenie', status: 'live' },
             { label: 'Wyobraźnia i reprezentacje', id: 'cognitive/wyobraznia', status: 'live' },
