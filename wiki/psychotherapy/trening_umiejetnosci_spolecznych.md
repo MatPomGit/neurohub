@@ -48,7 +48,7 @@ Nowe umiejętności muszą być ćwiczone poza gabinetem. Pacjent otrzymuje **za
 
 **Format grupowy** (4–12 uczestników, 8–20 sesji po 60–90 min) jest najczęściej stosowany — dostarcza naturalnego środowiska do ćwiczenia, modelowania wzajemnego i normalizowania trudności społecznych. **Format indywidualny** pozwala na głębszą indywidualizację i jest wskazany przy nasilonym lęku społecznym lub trudnościach kognitywnych ograniczających uczestnictwo w grupie.
 
-**Programy intensywne** (np. programy dwutygodniowe w ramach rehabilitacji psychiatrycznej) stosują wielogodzinne sesje dzienne z udziałem personelu w różnych sytuacjach szpitalnych. **Programy szkolne i profilaktyczne** (SEL — *Social and Emotional Learning*) adresują całe klasy, integrując SST z programem nauczania.
+**Programy intensywne** (np. programy dwutygodniowe w ramach rehabilitacji psychiatrycznej) stosują wielogodzinne sesje dzienne z udziałem personelu w różnych sytuacjach szpitalnych. **Programy szkolne i profilaktyczne** (SEL — *Social and Emotional Learning*) adresują całe klasy, integrując SST z programem nauczania. Programy intensywne oraz szkolne (SEL) rozszerzają SST poza kontekst kliniczny, integrując go z edukacją i rehabilitacją.
 
 ## Zastosowania kliniczne
 
@@ -100,8 +100,93 @@ Współczesne programy SST dla psychozy integrują **remedację neurokognitywną
 
 ## Adaptacje cyfrowe i telehealth
 
-Rosnąca literatura dotyczy **komputerowych programów SST** (np. *Virtual Reality Social Cognition Training*) i interwencji przez telekonferencje. Systemy VR pozwalają na bezpieczne ćwiczenie trudnych scenariuszy (np. rozmowa kwalifikacyjna, konfrontacja z agresywną osobą) z kontrolowanym poziomem trudności i natychmiastową informacją zwrotną. Metaanaliza Freeman i wsp. (2022) wykazuje obiecujące efekty VR-SST w lęku społecznym i psychozie przy akceptowalnej tolerancji.
+Rosnąca literatura dotyczy **komputerowych programów SST** (np. *Virtual Reality Social Cognition Training*) i interwencji przez telekonferencje. **Systemy VR** pozwalają na bezpieczne ćwiczenie trudnych scenariuszy (np. rozmowa kwalifikacyjna, konfrontacja z agresywną osobą) z kontrolowanym poziomem trudności i natychmiastową informacją zwrotną. Metaanaliza Freeman i wsp. (2022) wykazuje obiecujące efekty **VR-SST** w lęku społecznym i psychozie przy akceptowalnej tolerancji.
 
 ## Ograniczenia i wyzwania
 
 Głównym wyzwaniem pozostaje **generalizacja** — nabyte w gabinecie umiejętności nie zawsze przenoszone są na realne interakcje, szczególnie gdy środowisko nie wzmacnia nowych zachowań. **Efekty długoterminowe** (> 6 miesięcy) są słabiej zbadane niż krótkoterminowe. SST nie jest interwencją samodzielną dla złożonych zaburzeń osobowości — wymaga osadzenia w szerszym planie terapeutycznym. Wreszcie, **dostępność** wykwalifikowanych terapeutów prowadzących grupowe SST pozostaje ograniczona w wielu systemach opieki psychiatrycznej.
+
+## Narzędzia pomiarowe i operacjonalizacja
+
+Precyzyjna ewaluacja SST wymaga wieloźródłowego pomiaru (self-report, oceny obserwatorów, wskaźniki behawioralne). Najczęściej stosowane narzędzia:
+
+- **SSIS (Social Skills Improvement System; Gresham & Elliott)** – skale dla dzieci i dorosłych; podskale (komunikacja, współpraca, asertywność, odpowiedzialność). Wysoka rzetelność (α > 0.80), dostępne normy.
+- **SRS-2 (Social Responsiveness Scale; Constantino & Gruber)** – ciągła miara nasilenia trudności społecznych (szczególnie w ASD); wrażliwa na zmiany w interwencji.
+- **TASIT (The Awareness of Social Inference Test)** – zadania wideo oceniające rozumienie ironii, kłamstwa i intencji; trafność ekologiczna.
+- **Role-play Testy Standaryzowane (np. UPSA, SSPA)** – ocena wykonania w symulowanych sytuacjach; punktacja behawioralna (kontakt wzrokowy, płynność, adekwatność treści).
+- **Ecological Momentary Assessment (EMA)** – krótkie próbkowanie zachowań w czasie rzeczywistym (aplikacje mobilne); zwiększa trafność zewnętrzną.
+
+Operacjonalizacja postępu powinna obejmować: (1) zmianę poziomu umiejętności (wynik skali), (2) transfer do środowiska naturalnego (EMA/raporty osób trzecich), (3) utrzymanie efektu (follow-up ≥ 3–6 mies.). Zaleca się raportowanie wielkości efektu (Cohen d, Hedges g) oraz wskaźników klinicznej istotności (np. Reliable Change Index).
+
+## Projektowanie i prowadzenie sesji (protokół rozszerzony)
+
+Typowa sesja (60–90 min) ma stałą architekturę:
+
+1. **Check-in (5–10 min)** – przegląd zadań domowych, identyfikacja barier.
+2. **Instrukcja i dekompozycja umiejętności (10–15 min)** – lista mikrozachowań, kryteria sukcesu (checklisty obserwacyjne).
+3. **Modelowanie (5–10 min)** – demonstracja poprawna i kontrprzykład (errorful learning dla kontrastu).
+4. **Role-play blokowy (20–30 min)** – 2–4 próby na osobę; stopniowanie trudności (graded exposure).
+5. **Feedback (10–15 min)** – format: wzmocnienie → korekta → plan kolejnej próby; preferowane wskaźniki behawioralne zamiast globalnych ocen.
+6. **Generalizacja (5–10 min)** – kontrakt zadania domowego (sytuacja, wskaźniki wykonania, kryteria sukcesu, plan radzenia sobie z przeszkodami).
+
+Zalecane jest użycie nagrań wideo (video-feedback) oraz kart pracy (checklisty), co zwiększa trafność i powtarzalność treningu.
+
+## Techniki zaawansowane
+
+- **Shaping i chaining** – kształtowanie złożonych sekwencji poprzez wzmacnianie kolejnych przybliżeń.
+- **Behavioral rehearsal z odwracaniem ról** – uczestnik przyjmuje perspektywę rozmówcy (wzmacnia teorię umysłu).
+- **In vivo exposure** – ćwiczenia w naturalnym środowisku (np. zadania w przestrzeni publicznej) z natychmiastowym coachingiem.
+- **Cognitive restructuring (w integracji z CBT)** – identyfikacja i modyfikacja przekonań blokujących użycie umiejętności.
+- **Motivational interviewing (MI)** – zwiększanie gotowości do zmiany i adherencji do zadań domowych.
+
+## Adaptacje dla populacji
+
+- **ASD** – większa strukturyzacja, jawne reguły społeczne, wsparcie wizualne, praca nad generalizacją kontekstu.
+- **Schizofrenia** – tempo dostosowane do deficytów poznawczych, łączenie z CRT, nacisk na inicjowanie interakcji.
+- **SAD** – integracja z ekspozycją i modyfikacją uwagi (redukcja self-focused attention).
+- **ADHD (dzieci)** – krótsze bloki, częstsze wzmocnienia, udział rodziców (parent training).
+
+## Implementacja i jakość interwencji
+
+- **Fidelity** – monitorowanie zgodności z protokołem (listy kontrolne, superwizja).
+- **Adherencja** – frekwencja, wykonanie zadań domowych (procent realizacji).
+- **Indywidualizacja** – scenariusze oparte na realnych sytuacjach pacjenta zwiększają transfer.
+- **Kompetencje terapeuty** – trening w dostarczaniu precyzyjnego feedbacku i modelowania.
+
+## Ekonomia i organizacja
+
+Koszt-efektywność SST jest wyższa w formacie grupowym. Integracja z systemem edukacyjnym (SEL) i rehabilitacją psychiatryczną obniża koszty jednostkowe. Ograniczeniem pozostaje dostęp do przeszkolonych terapeutów oraz czasochłonność interwencji.
+
+## Adaptacje cyfrowe i metryki
+
+W VR i telehealth możliwe jest automatyczne logowanie metryk: czas reakcji, częstość inicjacji rozmowy, parametry głosu (tempo, głośność), wskaźniki kontaktu wzrokowego (eye-tracking). Standaryzacja tych metryk może poprawić porównywalność badań, jednak wymaga walidacji klinicznej.
+
+## Ograniczenia metodologiczne
+
+- Heterogeniczność protokołów i populacji.
+- Różne definicje „umiejętności społecznych”.
+- Niewystarczające follow-up > 12 mies.
+- Ryzyko biasu publikacyjnego.
+
+## Kierunki badań
+
+- Integracja SST z modelami obliczeniowymi (prediction error, active inference) w celu personalizacji treningu.
+- Adaptacyjne systemy VR oparte na uczeniu ze wzmocnieniem.
+- Biomarkery (np. EEG/HRV) jako predyktory uczenia się i generalizacji.
+
+## Bibliografia (rozszerzona)
+
+- Argyle, M. (1972). *Social Interaction*.
+- Bandura, A. (1977). *Social Learning Theory*.
+- Bellack, A. S., et al. (2004). Social skills training for schizophrenia: a step-by-step guide.
+- Clark, D. M., & Wells, A. (1995). A cognitive model of social phobia.
+- Gresham, F. M., & Elliott, S. N. (2008). *SSIS Rating Scales*.
+- Constantino, J. N., & Gruber, C. P. (2012). *SRS-2 Manual*.
+- Kurtz, M. M., & Mueser, K. T. (2008). A meta-analysis of SST for schizophrenia.
+- Laugeson, E. A., et al. (2012). The PEERS treatment.
+- McFall, R. M. (1982). A review and reformulation of social skills.
+- Pilling, S., et al. (2002). Psychological treatments in schizophrenia.
+- Reichow, B., et al. (2012). Social skills groups for ASD (Cochrane).
+- Segrin, C. (2009). Social skills deficits and depression.
+- Van Dam, N. T., et al. (2019). SST outcomes and mechanisms.
+- Wolpe, J. (1958). *Psychotherapy by Reciprocal Inhibition*.
