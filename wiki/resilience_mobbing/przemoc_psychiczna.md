@@ -97,7 +97,7 @@ Przemoc psychiczna może występować zarówno w bliskich relacjach intymnych, j
 
 ## Przykład kliniczny
 
-Anna, 34-letnia prawniczka, zgłosiła się do gabinetu psychologicznego z powodu „problemów z pamięcią i koncentracją". W toku wywiadu okazało się, że od 5 lat żyje z partnerem stosującym systematyczny gaslighting i kontrolę przymusu. Partner przekonał ją, że jej wyostrzona pamięć zdarzeń to objaw choroby psychicznej, co skłoniło ją do zasięgnięcia porady psychiatrycznej. Anna była przekonana, że „to z nią jest coś nie tak". Dopiero w pracy z psychologiem, po skonstruowaniu chronologii wydarzeń i ich obiektywizacji, Annabelle rozpoznała wzorzec przemocy. Praca terapeutyczna koncentrowała się na odbudowie zaufania do własnej percepcji, zanim możliwe było omówienie opcji wyjścia z relacji.
+Anna, 34-letnia prawniczka, zgłosiła się do gabinetu psychologicznego z powodu „problemów z pamięcią i koncentracją". W toku wywiadu okazało się, że od 5 lat żyje z partnerem stosującym systematyczny gaslighting i kontrolę przymusu. Partner przekonał ją, że jej wyostrzona pamięć zdarzeń to objaw choroby psychicznej, co skłoniło ją do zasięgnięcia porady psychiatrycznej. Anna była przekonana, że „to z nią jest coś nie tak". Dopiero w pracy z psychologiem, po skonstruowaniu chronologii wydarzeń i ich obiektywizacji, Anna rozpoznała wzorzec przemocy. Praca terapeutyczna koncentrowała się na odbudowie zaufania do własnej percepcji, zanim możliwe było omówienie opcji wyjścia z relacji.
 
 ## Podsumowanie
 

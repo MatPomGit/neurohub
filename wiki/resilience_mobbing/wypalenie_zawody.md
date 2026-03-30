@@ -27,7 +27,7 @@ Pandemia COVID-19 dramatycznie pogłębiła problem. Badania z lat 2020–2022 (
 
 ## Nauczyciele i pedagodzy
 
-Zawód nauczyciela łączy w sobie wymagania emocjonalne, poznawcze i relacyjne w proporcjach wyjątkowo sprzyjających wypaleniu. Polscy nauczyciele zmagan się z dodatkowym kontekstem: systematycznym niedofinansowaniem edukacji, niskim prestiżem społecznym zawodu i narastającymi trudnościami wychowawczymi.
+Zawód nauczyciela łączy w sobie wymagania emocjonalne, poznawcze i relacyjne w proporcjach wyjątkowo sprzyjających wypaleniu. Polscy nauczyciele zmagają się z dodatkowym kontekstem: systematycznym niedofinansowaniem edukacji, niskim prestiżem społecznym zawodu i narastającymi trudnościami wychowawczymi.
 
 **Czynniki ryzyka w zawodzie nauczyciela:**
 

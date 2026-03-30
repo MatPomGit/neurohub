@@ -10,7 +10,7 @@ Model JD-R (Bakker i Demerouti) dostarcza mapę interwencji: redukcja nadmiernyc
 
 ## Strategie indywidualne
 
-### Samoopiekę (self-care) jako priorytet
+### Samoopieka (self-care) jako priorytet
 
 Samoopieka to nie luksus — to zawodowy obowiązek każdego pracownika, a szczególnie osoby pracującej z ludźmi. Obejmuje:
 

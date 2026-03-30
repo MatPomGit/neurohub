@@ -67,7 +67,7 @@ Wypalenie zawodowe bywa mylone z innymi stanami psychicznymi i fizycznymi.
 
 **Wypalenie a depresja:** Oba stany cechują wyczerpanie, obniżony nastrój i zmniejszona efektywność. Jednak wypalenie jest pierwotnie związane z kontekstem pracy — osoby wypalone często odczuwają ulgę i poprawę w dni wolne oraz podczas urlopu (przynajmniej na początku). Depresja przenika wszystkie obszary życia, jest głębsza i bardziej wszechogarniająca. Warto zaznaczyć, że wypalenie może ewoluować w kliniczny epizod depresyjny.
 
-**Wypalenie a stres:** Stres to stan nadmiaru — zbyt wiele zobowiązań, zbyt mało zasobów. Wypalenie to stan niedoboru — wyczerpanie zasobów emocjonalnych i woli. Osoba stres z obciążona wyobraża sobie, że poczuje się lepiej, gdy skończy zadania. Osoba wypalona nie widzi możliwości poprawy.
+**Wypalenie a stres:** Stres to stan nadmiaru — zbyt wiele zobowiązań, zbyt mało zasobów. Wypalenie to stan niedoboru — wyczerpanie zasobów emocjonalnych i woli. Osoba stresem obciążona wyobraża sobie, że poczuje się lepiej, gdy skończy zadania. Osoba wypalona nie widzi możliwości poprawy.
 
 **Wypalenie a chroniczne zmęczenie:** Zespół przewlekłego zmęczenia (ME/CFS) ma podłoże biologiczne i nie jest proporcjonalny do obciążeń zawodowych. Wypalenie jest z zasady skojarzone z konkretnym kontekstem pracy, choć z czasem może się uogólniać.
 

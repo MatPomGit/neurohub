@@ -65,7 +65,7 @@ Ofiara zaczyna szukać pomocy u przełożonych, w dziale HR lub w związkach zaw
 
 ### Faza IV — Usunięcie z miejsca pracy
 
-Końcowy etap: ofiara jest zmuszona — przez pogorszenie zdrowia, zwolnienie dyscyplinarne lub własną rezygnację — do opuszczenia miejsca pracy. Leym ann podkreślał, że na tym etapie szkody zdrowotne (często o charakterze PTSD) są już poważne i wymagają długotrwałej pomocy.
+Końcowy etap: ofiara jest zmuszona — przez pogorszenie zdrowia, zwolnienie dyscyplinarne lub własną rezygnację — do opuszczenia miejsca pracy. Leymann podkreślał, że na tym etapie szkody zdrowotne (często o charakterze PTSD) są już poważne i wymagają długotrwałej pomocy.
 
 ## Zachowania mobbingowe — klasyfikacja Leymanna
 
