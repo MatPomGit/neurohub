@@ -359,6 +359,23 @@ window.SITE_CONFIG = {
       ]
     },
     {
+      section: 'Ekrany, Książki i Natura',
+      items: [
+        { id: 'media_nature/wprowadzenie',              label: 'Ekrany, książki i natura — wprow.',   file: 'wiki/media_nature/wprowadzenie.md'              },
+        { id: 'media_nature/ekrany_funkcje_poznawcze',  label: 'Ekrany a funkcje poznawcze',          file: 'wiki/media_nature/ekrany_funkcje_poznawcze.md'  },
+        { id: 'media_nature/smartfony_psychologia',     label: 'Smartfony a psychologia',             file: 'wiki/media_nature/smartfony_psychologia.md'     },
+        { id: 'media_nature/tablety_dzieci',            label: 'Tablety a rozwój poznawczy dzieci',   file: 'wiki/media_nature/tablety_dzieci.md'            },
+        { id: 'media_nature/telewizja_psychologia',     label: 'Telewizja a funkcje psychiczne',      file: 'wiki/media_nature/telewizja_psychologia.md'     },
+        { id: 'media_nature/czas_ekranowy',             label: 'Czas ekranowy a zdrowie psychiczne',  file: 'wiki/media_nature/czas_ekranowy.md'             },
+        { id: 'media_nature/czytanie_ksiazek',          label: 'Czytanie książek a funkcje psych.',   file: 'wiki/media_nature/czytanie_ksiazek.md'          },
+        { id: 'media_nature/gleboke_czytanie',          label: 'Głębokie czytanie',                   file: 'wiki/media_nature/gleboke_czytanie.md'          },
+        { id: 'media_nature/czytanie_fikcja_empatia',   label: 'Czytanie fikcji a empatia',           file: 'wiki/media_nature/czytanie_fikcja_empatia.md'   },
+        { id: 'media_nature/natura_psychologia',        label: 'Natura a psychologia',                file: 'wiki/media_nature/natura_psychologia.md'        },
+        { id: 'media_nature/las_shinrin_yoku',          label: 'Kąpiel leśna (shinrin-yoku)',         file: 'wiki/media_nature/las_shinrin_yoku.md'          },
+        { id: 'media_nature/gory_psychologia',          label: 'Góry i wędrówki górskie',             file: 'wiki/media_nature/gory_psychologia.md'          },
+      ]
+    },
+    {
       section: 'Encyklopedie',
       items: [
         { id: 'wiki-index/neuropsychologia', label: 'WIKI — Neuropsychologia',      wiki: 'neuropsychologia' },
@@ -381,6 +398,7 @@ window.SITE_CONFIG = {
         { id: 'wiki-index/geropsychology',   label: 'WIKI — Psych. osób starszych',       wiki: 'geropsychology'   },
         { id: 'wiki-index/gry_wideo',        label: 'WIKI — Psych. gier wideo',           wiki: 'gry_wideo'        },
         { id: 'wiki-index/odpornosc_mobbing',label: 'WIKI — Odporność, mobbing, wypalenie', wiki: 'odpornosc_mobbing' },
+        { id: 'wiki-index/media_natura',     label: 'WIKI — Ekrany, książki i natura',      wiki: 'media_natura'      },
       ]
     },
     {
@@ -689,6 +707,21 @@ window.SITE_CONFIG = {
       { file: 'wiki/resilience_mobbing/wypalenie_zawody.md',        label: 'Wypalenie w wybranych zawodach',           status: 'live' },
       { file: 'wiki/resilience_mobbing/profilaktyka_wypalenia.md',  label: 'Profilaktyka wypalenia zawodowego',        status: 'live' },
       { file: 'wiki/resilience_mobbing/wsparcie_psychologiczne.md', label: 'Wsparcie psychologiczne ofiar',            status: 'live' },
+    ],
+
+    media_nature: [
+      { file: 'wiki/media_nature/wprowadzenie.md',             label: 'Ekrany, książki i natura — wprowadzenie',    status: 'live' },
+      { file: 'wiki/media_nature/ekrany_funkcje_poznawcze.md', label: 'Ekrany a funkcje poznawcze',                 status: 'live' },
+      { file: 'wiki/media_nature/smartfony_psychologia.md',    label: 'Smartfony a psychologia',                    status: 'live' },
+      { file: 'wiki/media_nature/tablety_dzieci.md',           label: 'Tablety a rozwój poznawczy dzieci',          status: 'live' },
+      { file: 'wiki/media_nature/telewizja_psychologia.md',    label: 'Telewizja a funkcje psychiczne',             status: 'live' },
+      { file: 'wiki/media_nature/czas_ekranowy.md',            label: 'Czas ekranowy a zdrowie psychiczne',         status: 'live' },
+      { file: 'wiki/media_nature/czytanie_ksiazek.md',         label: 'Czytanie książek a funkcje psychiczne',      status: 'live' },
+      { file: 'wiki/media_nature/gleboke_czytanie.md',         label: 'Głębokie czytanie',                          status: 'live' },
+      { file: 'wiki/media_nature/czytanie_fikcja_empatia.md',  label: 'Czytanie fikcji a empatia i ToM',            status: 'live' },
+      { file: 'wiki/media_nature/natura_psychologia.md',       label: 'Natura a psychologia',                       status: 'live' },
+      { file: 'wiki/media_nature/las_shinrin_yoku.md',         label: 'Kąpiel leśna — shinrin-yoku',                status: 'live' },
+      { file: 'wiki/media_nature/gory_psychologia.md',         label: 'Góry i wędrówki górskie a psychologia',      status: 'live' },
     ],
   },
 
@@ -1535,7 +1568,39 @@ window.SITE_CONFIG = {
         },
       ]
     },
-  },
 
-  defaultPage: '__home__',
+    media_natura: {
+      title: 'WIKI — Ekrany, książki i natura',
+      intro: 'Encyklopedia obejmuje trzy powiązane obszary: wpływ ekranów (telefony, tablety, telewizja) na funkcje poznawcze i zdrowie psychiczne, psychologiczne efekty czytania książek oraz dobroczynne działanie kontaktu z naturą — od kąpieli leśnych po wędrówki górskie.',
+      sections: [
+        {
+          title: 'Ekrany i technologia',
+          articles: [
+            { label: 'Ekrany, książki i natura — wprowadzenie',  id: 'media_nature/wprowadzenie',             status: 'live' },
+            { label: 'Ekrany a funkcje poznawcze',               id: 'media_nature/ekrany_funkcje_poznawcze', status: 'live' },
+            { label: 'Smartfony a psychologia',                  id: 'media_nature/smartfony_psychologia',    status: 'live' },
+            { label: 'Tablety a rozwój poznawczy dzieci',        id: 'media_nature/tablety_dzieci',           status: 'live' },
+            { label: 'Telewizja a funkcje psychiczne',           id: 'media_nature/telewizja_psychologia',    status: 'live' },
+            { label: 'Czas ekranowy a zdrowie psychiczne',       id: 'media_nature/czas_ekranowy',            status: 'live' },
+          ]
+        },
+        {
+          title: 'Czytanie książek',
+          articles: [
+            { label: 'Czytanie książek a funkcje psychiczne',    id: 'media_nature/czytanie_ksiazek',         status: 'live' },
+            { label: 'Głębokie czytanie',                        id: 'media_nature/gleboke_czytanie',         status: 'live' },
+            { label: 'Czytanie fikcji a empatia i ToM',          id: 'media_nature/czytanie_fikcja_empatia',  status: 'live' },
+          ]
+        },
+        {
+          title: 'Natura i środowisko',
+          articles: [
+            { label: 'Natura a psychologia',                     id: 'media_nature/natura_psychologia',       status: 'live' },
+            { label: 'Kąpiel leśna — shinrin-yoku',              id: 'media_nature/las_shinrin_yoku',         status: 'live' },
+            { label: 'Góry i wędrówki górskie a psychologia',    id: 'media_nature/gory_psychologia',         status: 'live' },
+          ]
+        },
+      ]
+    },
+  },
 };
