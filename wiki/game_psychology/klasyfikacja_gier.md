@@ -16,7 +16,7 @@ PEGI wyróżnia pięć kategorii wiekowych:
 
 - **PEGI 3**: treści odpowiednie dla wszystkich grup wiekowych, w tym małych dzieci. Brak przemocy, nieodpowiedniego języka ani treści budzących strach.
 - **PEGI 7**: treści mogące wywoływać pewien lęk lub zawierające łagodną przemoc, która nie jest szczegółowo przedstawiana. Dopuszczalne straszące sceny i nierealistyczna przemoc.
-- **PEGI 12**: bardziej szczegółowa przemoc wobec fantastycznych postaci, łagodna przemoc wobec postaci ludzkich. Milder language (lekki wulgaryzm). Elementy seksualne sugestywne, ale nie jawne.
+- **PEGI 12**: bardziej szczegółowa przemoc wobec fantastycznych postaci, łagodna przemoc wobec postaci ludzkich. Łagodny wulgaryzm (ang. *mild language*). Elementy seksualne sugestywne, ale nie jawne.
 - **PEGI 16**: realistyczna przemoc podobna do tej w rzeczywistości. Wyraźniejszy język wulgarny, treści seksualne, hazard, narkotyki.
 - **PEGI 18**: przeznaczone wyłącznie dla dorosłych. Szczegółowa brutalna przemoc, treści seksualne, gloryfikacja narkotyków lub działań przestępczych.
 

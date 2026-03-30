@@ -103,7 +103,7 @@ Leymann opracował **Leymann Inventory of Psychological Terror (LIPT)** — narz
 
 ## Przykład kliniczny
 
-Krzysztof, 42-letni inżynier w firmie produkcyjnej, przez 8 miesięcy doświadczał systematycznego mobbingu ze strony nowego przełożonego. Proces rozpoczął się od pominięcia go przy awansie (faza I), następnie przeszedł w ignorowanie na zebraniach, odbieranie kluczowych projektów i publiczne kwestionowanie jego kompetencji (faza II). Gdy Krzysztof zgłosił sytuację do HR, został uznany za „trudnego pracownika" (faza III). Ostatecznie złożył wypowiedzenie z powodów zdrowotnych — rozwinął objawy lękowe i bezsenność (faza IV). W późniejszej terapii zidentyfikowano klasyczny przebieg mobbingu pionowego wstępującego z elementami gaslightingu.
+Krzysztof, 42-letni inżynier w firmie produkcyjnej, przez 8 miesięcy doświadczał systematycznego mobbingu ze strony nowego przełożonego. Proces rozpoczął się od pominięcia go przy awansie (faza I), następnie przeszedł w ignorowanie na zebraniach, odbieranie kluczowych projektów i publiczne kwestionowanie jego kompetencji (faza II). Gdy Krzysztof zgłosił sytuację do HR, został uznany za „trudnego pracownika" (faza III). Ostatecznie złożył wypowiedzenie z powodów zdrowotnych — rozwinął objawy lękowe i bezsenność (faza IV). W późniejszej terapii zidentyfikowano klasyczny przebieg mobbingu pionowego zstępującego z elementami gaslightingu.
 
 ## Podsumowanie
 
