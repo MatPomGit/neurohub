@@ -34,7 +34,7 @@ Krótka wersja SCS-SF (12 itemów) jest stosowana w badaniach wymagających ekon
 
 ## Self-compassion a samokrytyka
 
-Samokrytyka jest w wielu kulturach — szczególnie zachodnich — postrzegana jako narzędzie motywacji i standardów. Badania empiryczne przecząjednoznacznie tej intuicji: chroniczna samokrytyka jest związana z wyższym poziomem lęku, depresji i perfekcjonizmu maladaptacyjnego, a *nie* z lepszymi wynikami.
+Samokrytyka jest w wielu kulturach — szczególnie zachodnich — postrzegana jako narzędzie motywacji i standardów. Badania empiryczne przeczą jednoznacznie tej intuicji: chroniczna samokrytyka jest związana z wyższym poziomem lęku, depresji i perfekcjonizmu maladaptacyjnego, a *nie* z lepszymi wynikami.
 
 *Self-compassion* — paradoksalnie — lepiej motywuje do poprawy niż samokrytyka, ponieważ tworzy psychologiczne bezpieczeństwo potrzebne do uczenia się z błędów. Osoby o wysokim *self-compassion* częściej przyznają się do błędów, biorą za nie odpowiedzialność i podejmują kroki naprawcze — bez defensywności wynikającej ze strachu przed utratą wartości.
 

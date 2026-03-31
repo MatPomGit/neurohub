@@ -31,7 +31,7 @@ Kluczowym odkryciem Gottmana jest **proporcja pozytywnych do negatywnych interak
 
 ## Miłość jako mikromomenty — koncepcja Fredrickson
 
-**Barbara Fredrickson** w kontrowersyjnej, lecz twórczej koncepcji zawartej w książce *Love 2.0* (2013) zaproponuje, że miłość nie jest przede wszystkim trwałym uczuciem wobec konkretnych osób, lecz **mikromomentami pozytywnej rezonansu** — chwilami, w których dwie osoby dzielą pozytywny stan emocjonalny i poczucie wzajemności.
+**Barbara Fredrickson** w kontrowersyjnej, lecz twórczej koncepcji zawartej w książce *Love 2.0* (2013) zaproponowała, że miłość nie jest przede wszystkim trwałym uczuciem wobec konkretnych osób, lecz **mikromomentami pozytywnej rezonansu** — chwilami, w których dwie osoby dzielą pozytywny stan emocjonalny i poczucie wzajemności.
 
 Zgodnie z tą perspektywą miłość nie jest zastrzeżona dla związków romantycznych — może być doświadczana z obcą osobą podczas krótkiej rozmowy, z kolegą przy wspólnym śmiechu, z nieznajomym, który uśmiechnął się w tramwaju. Mikromoment miłości wymaga kontaktu wzrokowego i fizycznej bliskości — dlatego, zdaniem Fredrickson, wirtualna komunikacja nie jest w stanie go w pełni zastąpić.
 
