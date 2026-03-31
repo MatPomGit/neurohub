@@ -363,6 +363,23 @@ window.SITE_CONFIG = {
       ]
     },
     {
+      section: 'Psychologia Pozytywna',
+      items: [
+        { id: 'positive_psychology/wprowadzenie',          label: 'Psychologia pozytywna — wprow.',   file: 'wiki/positive_psychology/wprowadzenie.md'          },
+        { id: 'positive_psychology/model_perma',           label: 'Model PERMA',                      file: 'wiki/positive_psychology/model_perma.md'           },
+        { id: 'positive_psychology/szczescie_dobrostan',   label: 'Szczęście i dobrostan',            file: 'wiki/positive_psychology/szczescie_dobrostan.md'   },
+        { id: 'positive_psychology/optymizm_nadzieja',     label: 'Optymizm i nadzieja',              file: 'wiki/positive_psychology/optymizm_nadzieja.md'     },
+        { id: 'positive_psychology/przeplyw_flow',         label: 'Przepływ (flow)',                  file: 'wiki/positive_psychology/przeplyw_flow.md'         },
+        { id: 'positive_psychology/sily_charakteru',       label: 'Siły charakteru (VIA)',            file: 'wiki/positive_psychology/sily_charakteru.md'       },
+        { id: 'positive_psychology/wdziecznosc',           label: 'Wdzięczność',                      file: 'wiki/positive_psychology/wdziecznosc.md'           },
+        { id: 'positive_psychology/mindfulness',           label: 'Mindfulness i uważność',           file: 'wiki/positive_psychology/mindfulness.md'           },
+        { id: 'positive_psychology/wspolczucie_dla_siebie',label: 'Współczucie dla siebie',           file: 'wiki/positive_psychology/wspolczucie_dla_siebie.md'},
+        { id: 'positive_psychology/sens_i_cel',            label: 'Sens życia i poczucie celu',       file: 'wiki/positive_psychology/sens_i_cel.md'            },
+        { id: 'positive_psychology/relacje_pozytywne',     label: 'Pozytywne relacje i miłość',       file: 'wiki/positive_psychology/relacje_pozytywne.md'     },
+        { id: 'positive_psychology/interwencje_pozytywne', label: 'Interwencje pozytywne',            file: 'wiki/positive_psychology/interwencje_pozytywne.md' },
+      ]
+    },
+    {
       section: 'Ekrany, Książki i Natura',
       items: [
         { id: 'media_nature/wprowadzenie',              label: 'Ekrany, książki i natura — wprow.',   file: 'wiki/media_nature/wprowadzenie.md'              },
@@ -403,6 +420,7 @@ window.SITE_CONFIG = {
         { id: 'wiki-index/gry_wideo',        label: 'WIKI — Psych. gier wideo',           wiki: 'gry_wideo'        },
         { id: 'wiki-index/odpornosc_mobbing',label: 'WIKI — Odporność, mobbing, wypalenie', wiki: 'odpornosc_mobbing' },
         { id: 'wiki-index/media_natura',     label: 'WIKI — Ekrany, książki i natura',      wiki: 'media_natura'      },
+        { id: 'wiki-index/psych_pozytywna',  label: 'WIKI — Psychologia pozytywna',         wiki: 'psych_pozytywna'   },
       ]
     },
     {
@@ -728,6 +746,21 @@ window.SITE_CONFIG = {
       { file: 'wiki/media_nature/natura_psychologia.md',       label: 'Natura a psychologia',                       status: 'live' },
       { file: 'wiki/media_nature/las_shinrin_yoku.md',         label: 'Kąpiel leśna — shinrin-yoku',                status: 'live' },
       { file: 'wiki/media_nature/gory_psychologia.md',         label: 'Góry i wędrówki górskie a psychologia',      status: 'live' },
+    ],
+
+    positive_psychology: [
+      { file: 'wiki/positive_psychology/wprowadzenie.md',           label: 'Psychologia pozytywna — wprowadzenie',    status: 'live' },
+      { file: 'wiki/positive_psychology/model_perma.md',            label: 'Model PERMA',                            status: 'live' },
+      { file: 'wiki/positive_psychology/szczescie_dobrostan.md',    label: 'Szczęście i dobrostan psychiczny',       status: 'live' },
+      { file: 'wiki/positive_psychology/optymizm_nadzieja.md',      label: 'Optymizm i nadzieja',                    status: 'live' },
+      { file: 'wiki/positive_psychology/przeplyw_flow.md',          label: 'Przepływ (flow)',                        status: 'live' },
+      { file: 'wiki/positive_psychology/sily_charakteru.md',        label: 'Siły charakteru (VIA)',                  status: 'live' },
+      { file: 'wiki/positive_psychology/wdziecznosc.md',            label: 'Wdzięczność',                            status: 'live' },
+      { file: 'wiki/positive_psychology/mindfulness.md',            label: 'Mindfulness i uważność',                 status: 'live' },
+      { file: 'wiki/positive_psychology/wspolczucie_dla_siebie.md', label: 'Współczucie dla siebie',                 status: 'live' },
+      { file: 'wiki/positive_psychology/sens_i_cel.md',             label: 'Sens życia i poczucie celu',             status: 'live' },
+      { file: 'wiki/positive_psychology/relacje_pozytywne.md',      label: 'Pozytywne relacje i miłość',             status: 'live' },
+      { file: 'wiki/positive_psychology/interwencje_pozytywne.md',  label: 'Interwencje psychologii pozytywnej',     status: 'live' },
     ],
   },
 
@@ -1606,6 +1639,45 @@ window.SITE_CONFIG = {
             { label: 'Natura a psychologia',                     id: 'media_nature/natura_psychologia',       status: 'live' },
             { label: 'Kąpiel leśna — shinrin-yoku',              id: 'media_nature/las_shinrin_yoku',         status: 'live' },
             { label: 'Góry i wędrówki górskie a psychologia',    id: 'media_nature/gory_psychologia',         status: 'live' },
+          ]
+        },
+      ]
+    },
+
+    psych_pozytywna: {
+      title: 'WIKI — Psychologia pozytywna',
+      intro: 'Psychologia pozytywna bada naukowe podstawy dobrostanu, szczęścia i rozkwitu człowieka. Encyklopedia obejmuje kluczowe koncepcje — od modelu PERMA i teorii flow, przez siły charakteru i wdzięczność, po interwencje oparte na dowodach.',
+      sections: [
+        {
+          title: 'Podstawy i teorie',
+          articles: [
+            { label: 'Psychologia pozytywna — wprowadzenie', id: 'positive_psychology/wprowadzenie',        status: 'live' },
+            { label: 'Model PERMA',                          id: 'positive_psychology/model_perma',         status: 'live' },
+            { label: 'Szczęście i dobrostan psychiczny',     id: 'positive_psychology/szczescie_dobrostan', status: 'live' },
+          ]
+        },
+        {
+          title: 'Zasoby i siły psychologiczne',
+          articles: [
+            { label: 'Optymizm i nadzieja',           id: 'positive_psychology/optymizm_nadzieja',      status: 'live' },
+            { label: 'Przepływ (flow)',                id: 'positive_psychology/przeplyw_flow',          status: 'live' },
+            { label: 'Siły charakteru (VIA)',          id: 'positive_psychology/sily_charakteru',        status: 'live' },
+            { label: 'Wdzięczność',                    id: 'positive_psychology/wdziecznosc',            status: 'live' },
+          ]
+        },
+        {
+          title: 'Uważność i relacje',
+          articles: [
+            { label: 'Mindfulness i uważność',        id: 'positive_psychology/mindfulness',             status: 'live' },
+            { label: 'Współczucie dla siebie',         id: 'positive_psychology/wspolczucie_dla_siebie', status: 'live' },
+            { label: 'Sens życia i poczucie celu',     id: 'positive_psychology/sens_i_cel',             status: 'live' },
+            { label: 'Pozytywne relacje i miłość',     id: 'positive_psychology/relacje_pozytywne',      status: 'live' },
+          ]
+        },
+        {
+          title: 'Interwencje',
+          articles: [
+            { label: 'Interwencje psychologii pozytywnej', id: 'positive_psychology/interwencje_pozytywne', status: 'live' },
           ]
         },
       ]
