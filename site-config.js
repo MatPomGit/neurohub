@@ -11,6 +11,8 @@
 
 window.SITE_CONFIG = {
 
+  defaultPage: '__home__',
+
   // ─────────────────────────────────────────────────────────────
   //  NAWIGACJA BOCZNA
   //  Każda sekcja to zwijany blok w sidebarze.

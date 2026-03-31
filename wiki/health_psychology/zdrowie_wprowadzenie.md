@@ -1,1 +1,1 @@
-# Psychologia zdrowia â€” wprowadzenie
+# Psychologia zdrowia — wprowadzenie

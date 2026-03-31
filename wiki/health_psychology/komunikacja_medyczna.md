@@ -1,1 +1,1 @@
-# Komunikacja lekarzâ€“pacjent
+# Komunikacja lekarz–pacjent
