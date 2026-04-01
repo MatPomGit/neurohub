@@ -84,7 +84,7 @@ Zaufanie do AI diagnostycznej wymaga przekonania zarówno pacjenta, jak i lekarz
 
 ### Wymiar sprawiedliwości
 
-Algorytmy oceny ryzyka recydywy (jak COMPAS) wywołały poważne debaty etyczne i psychologiczne: jak ludzie — sędziowie i oskarżeni — reagują na wiedmę, że o ich przyszłości decyduje algorytm?
+Algorytmy oceny ryzyka recydywy (jak COMPAS) wywołały poważne debaty etyczne i psychologiczne: jak ludzie — sędziowie i oskarżeni — reagują na wiedzę, że o ich przyszłości decyduje algorytm?
 
 ### Samochody autonomiczne
 

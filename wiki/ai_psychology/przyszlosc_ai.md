@@ -68,7 +68,7 @@ Już teraz istnieją ludzie deklarujący miłość do wirtualnych postaci AI. Ja
 
 ## Wpływ AI na zdrowie psychiczne społeczeństwa
 
-Psycholodzy identyfikują zarówno potencjalne korzyści, jak i zagrożenia dla zbiorowego zdrowia psychicznego:
+Psychologowie identyfikują zarówno potencjalne korzyści, jak i zagrożenia dla zbiorowego zdrowia psychicznego:
 
 ### Potencjalne korzyści
 

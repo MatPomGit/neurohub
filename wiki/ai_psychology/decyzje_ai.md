@@ -60,7 +60,7 @@ Badania pilotów samolotowych, operatorów systemów nadzoru, lekarzy i inspekto
 
 Charles Perrow opisał paradoks automatyzacji: systemy automatyczne zmniejszają liczbę rutynowych błędów, ale gdy zawiodą, zawodzą dramatycznie — bo człowiek nie jest już w stanie przejąć kontroli. Dzieje się tak dlatego, że automatyzacja stopniowo pozbawia człowieka praktyki i bieżącej uwagi potrzebnej do sprawnego działania.
 
-### Aludy i dezertowanie poznawcze
+### Iluzje i dezertowanie poznawcze
 
 Część użytkowników, szczególnie przy wielokrotnym korzystaniu z tego samego systemu AI, wykazuje „poznawcze dezertowanie" — przestają samodzielnie analizować sytuację i mechanicznie zatwierdzają rekomendacje AI. Ten efekt jest silniejszy, gdy presja czasowa jest wysoka i gdy decyzja ma małe natychmiastowe konsekwencje.
 

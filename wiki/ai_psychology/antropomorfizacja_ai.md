@@ -113,4 +113,4 @@ Wiedza o antropomorfizacji ma bezpośrednie implikacje dla projektowania AI:
 
 ## Podsumowanie
 
-Antropomorfizacja AI jest nieuchronna — jest wyrazem głęboko zakorzenionego, ewolucyjnie ukształtowanego mechanizmu poznawczego. Zadaniem psychologów, projektantów i etyków nie jest jej eliminacja, lecz świadome zarządzanie nią. Rozumienie kiedy, dlaczego i jak ludzie anthropomorfizują AI jest kluczowe dla projektowania systemów, które służą ludzkim potrzebom, a nie je eksploatują — i dla edukacji społeczeństwa w zakresie krytycznego korzystania z technologii, która coraz sprawniej naśladuje człowieka.
+Antropomorfizacja AI jest nieuchronna — jest wyrazem głęboko zakorzenionego, ewolucyjnie ukształtowanego mechanizmu poznawczego. Zadaniem psychologów, projektantów i etyków nie jest jej eliminacja, lecz świadome zarządzanie nią. Rozumienie kiedy, dlaczego i jak ludzie antropomorfizują AI jest kluczowe dla projektowania systemów, które służą ludzkim potrzebom, a nie je eksploatują — i dla edukacji społeczeństwa w zakresie krytycznego korzystania z technologii, która coraz sprawniej naśladuje człowieka.

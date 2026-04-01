@@ -54,7 +54,7 @@ To pytanie rozgrzewa filozofów, kognitywistów i inżynierów. Z perspektywy ps
 
 Jeśli emocje są przede wszystkim funkcjonalnymi stanami (jak sugerują teorie funkcjonalistyczne), to zaawansowane systemy AI, które przetwarzają informacje i modyfikują swoje zachowanie w odpowiedzi na kontekst, mogą mieć emocje w pewnym sensie. Jednak dotychczasowe systemy AI nie mają ciała, historii biologicznej ani świadomości subiektywnej — co jest dla wielu badaczy warunkiem koniecznym emocji.
 
-### Slabe AI — systemy symulują emocje bez ich przeżywania
+### Słabe AI — systemy symulują emocje bez ich przeżywania
 
 Bardziej powszechne stanowisko: AI może generować behawioralne ekwiwalenty emocji — tekst wyrażający radość, intonację wyrażającą troskę — bez żadnego subiektywnego przeżycia. Pytanie o „prawdziwość" tych emocji jest jednak psychologicznie drugorzędne: jeśli wywołują one w ludziach emocjonalne reakcje, skutki są podobne jak w przypadku autentycznych emocji.
 

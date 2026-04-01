@@ -83,7 +83,7 @@ Badania nad chatbotami wykazują zaskakujące wyniki: część użytkowników zg
 
 Jednak istnieją fundamentalne ograniczenia:
 
-- AI nie jest w stanie reagować na subtelne sygnały niewerbalme tak jak doświadczony terapeuta
+- AI nie jest w stanie reagować na subtelne sygnały niewerbalne tak jak doświadczony terapeuta
 - AI nie może przerwać sesji i wezwać pomocy w sytuacji kryzysu suicydalnego z taką samą skutecznością co człowiek
 - AI nie ponosi odpowiedzialności prawnej i moralnej za błędy w terapii
 - Głęboka psychopatologia (psychoza, ciężka trauma, zaburzenia osobowości) wymaga złożonej relacji terapeutycznej niemożliwej do zastąpienia przez AI
