@@ -203,11 +203,11 @@ em{color:var(--goldl)}
 .test-wrap{max-width:920px}
 .test-intro{color:var(--t2);margin-bottom:1.2rem}
 .test-meta{font-size:.8rem;color:var(--t3);margin-bottom:1rem}
-.test-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);padding:1.1rem 1.2rem;margin-bottom:1rem}
-.test-q{font-family:var(--serif);font-size:1.2rem;line-height:1.35;margin-bottom:.9rem}
+.test-card{background:linear-gradient(165deg,rgba(18,26,40,.96),rgba(13,18,30,.94));border:1px solid rgba(130,165,199,.28);box-shadow:0 10px 26px rgba(0,0,0,.26);border-radius:var(--r);padding:1.1rem 1.2rem;margin-bottom:1rem}
+.test-q{font-family:var(--serif);font-size:1.2rem;line-height:1.35;margin-bottom:.9rem;color:#ecf4ff;text-shadow:0 1px 0 rgba(0,0,0,.24)}
 .test-opts{display:grid;gap:.55rem}
-.test-opt{background:var(--bg3);border:1px solid var(--border);border-radius:8px;color:var(--t2);text-align:left;padding:.72rem .85rem;cursor:pointer;transition:all var(--ease)}
-.test-opt:hover{border-color:var(--gold);color:var(--t1)}
+.test-opt{background:rgba(24,34,51,.94);border:1px solid rgba(128,157,188,.34);border-radius:8px;color:#dbe8f8;text-align:left;padding:.72rem .85rem;cursor:pointer;transition:all var(--ease)}
+.test-opt:hover{border-color:var(--gold);color:#fff;background:rgba(33,45,67,.98)}
 .test-opt.sel{border-color:var(--gold);background:var(--goldt);color:var(--goldl)}
 .test-actions{display:flex;gap:.6rem;flex-wrap:wrap;margin:.9rem 0 1.3rem}
 .test-btn{background:var(--bg3);border:1px solid var(--border);color:var(--t2);border-radius:8px;padding:.56rem .85rem;cursor:pointer}
@@ -487,6 +487,7 @@ const pageMap = new Map();
 const mdCache = new Map();
 const emptyArticles = new Set();   /* IDs of articles whose files are empty or missing */
 const testAnswers = [];
+let testCurrentIndex = 0;
 let   current = null;
 const MOBILE_BREAKPOINT = 900; /* matches CSS @media(max-width:900px) */
 
@@ -678,17 +679,18 @@ function renderSpecializationTest(id, item) {
 
   const total = test.QUESTIONS.length;
   const answered = testAnswers.filter(v => typeof v === 'number').length;
-  const currentQ = test.QUESTIONS.map((question, idx) => {
-    const options = question.options.map((opt, oIdx) => {
-      const selected = testAnswers[idx] === oIdx ? 'sel' : '';
-      return `<button class="test-opt ${selected}" onclick="selectTestAnswer(${idx},${oIdx})">${opt.text}</button>`;
-    }).join('');
-    return `<div class="test-card">
-      <div class="test-meta">Pytanie ${idx + 1} / ${total}</div>
-      <div class="test-q">${question.text}</div>
-      <div class="test-opts">${options}</div>
-    </div>`;
+  const clampedIndex = Math.min(Math.max(testCurrentIndex, 0), total - 1);
+  testCurrentIndex = Number.isFinite(clampedIndex) ? clampedIndex : 0;
+  const question = test.QUESTIONS[testCurrentIndex];
+  const options = question.options.map((opt, oIdx) => {
+    const selected = testAnswers[testCurrentIndex] === oIdx ? 'sel' : '';
+    return `<button class="test-opt ${selected}" onclick="selectTestAnswer(${testCurrentIndex},${oIdx})">${opt.text}</button>`;
   }).join('');
+  const currentQ = `<div class="test-card">
+    <div class="test-meta">Pytanie ${testCurrentIndex + 1} / ${total}</div>
+    <div class="test-q">${question.text}</div>
+    <div class="test-opts">${options}</div>
+  </div>`;
 
   const resultsBlock = answered === total ? renderTestResults(test.evaluate(testAnswers)) : '';
 
@@ -702,7 +704,9 @@ function renderSpecializationTest(id, item) {
     <div class="test-meta">Udzielone odpowiedzi: <strong>${answered}/${total}</strong></div>
     <div class="test-actions">
       <button class="test-btn" onclick="resetSpecializationTest()">Wyczyść odpowiedzi</button>
-      <button class="test-btn primary" onclick="jumpToFirstUnanswered()" ${answered===total?'disabled':''}>Przejdź do pierwszego nieuzupełnionego</button>
+      <button class="test-btn" onclick="goToPrevQuestion()" ${testCurrentIndex===0?'disabled':''}>Poprzednie pytanie</button>
+      <button class="test-btn primary" onclick="goToNextQuestion()" ${testCurrentIndex===total-1?'disabled':''}>Następne pytanie</button>
+      <button class="test-btn" onclick="jumpToFirstUnanswered()" ${answered===total?'disabled':''}>Pierwsze nieuzupełnione</button>
     </div>
     ${currentQ}
     ${resultsBlock}
@@ -740,6 +744,10 @@ function renderTestResults(result) {
 
 window.selectTestAnswer = function(questionIndex, optionIndex) {
   testAnswers[questionIndex] = optionIndex;
+  const test = window.SPECIALIZATION_TEST;
+  if (test && questionIndex < test.QUESTIONS.length - 1) {
+    testCurrentIndex = questionIndex + 1;
+  }
   if (current === 'students/test_specjalnosci') {
     renderSpecializationTest(current, pageMap.get(current));
   }
@@ -747,6 +755,23 @@ window.selectTestAnswer = function(questionIndex, optionIndex) {
 
 window.resetSpecializationTest = function() {
   testAnswers.length = 0;
+  testCurrentIndex = 0;
+  if (current === 'students/test_specjalnosci') {
+    renderSpecializationTest(current, pageMap.get(current));
+  }
+};
+
+window.goToPrevQuestion = function() {
+  testCurrentIndex = Math.max(0, testCurrentIndex - 1);
+  if (current === 'students/test_specjalnosci') {
+    renderSpecializationTest(current, pageMap.get(current));
+  }
+};
+
+window.goToNextQuestion = function() {
+  const test = window.SPECIALIZATION_TEST;
+  if (!test) return;
+  testCurrentIndex = Math.min(test.QUESTIONS.length - 1, testCurrentIndex + 1);
   if (current === 'students/test_specjalnosci') {
     renderSpecializationTest(current, pageMap.get(current));
   }
@@ -756,8 +781,10 @@ window.jumpToFirstUnanswered = function() {
   const test = window.SPECIALIZATION_TEST;
   const missingIdx = test.QUESTIONS.findIndex((_, idx) => typeof testAnswers[idx] !== 'number');
   if (missingIdx < 0) return;
-  const cards = document.querySelectorAll('.test-card');
-  cards[missingIdx]?.scrollIntoView({ behavior:'smooth', block:'center' });
+  testCurrentIndex = missingIdx;
+  if (current === 'students/test_specjalnosci') {
+    renderSpecializationTest(current, pageMap.get(current));
+  }
 };
 
 /* plan list for a domain */
@@ -1058,6 +1085,11 @@ window.addEventListener('DOMContentLoaded', ()=>{
 window.addEventListener('popstate', e => {
   const id = e.state?.id || window.location.hash.slice(1) || SITE_CONFIG.defaultPage;
   navigate(pageMap.has(id) ? id : SITE_CONFIG.defaultPage, true);
+});
+
+window.addEventListener('hashchange', () => {
+  const id = window.location.hash.slice(1) || SITE_CONFIG.defaultPage;
+  if (id !== current && pageMap.has(id)) navigate(id, true);
 });
 </script>
 </body>
