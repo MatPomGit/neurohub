@@ -299,6 +299,23 @@ window.SITE_CONFIG = {
       ]
     },
     {
+      section: 'Psychologia Sądowa i Opiniowanie',
+      items: [
+        { id: 'forensic_psychology/wprowadzenie',            label: 'Biegły psycholog — wprowadzenie',       file: 'wiki/forensic_psychology/wprowadzenie.md'            },
+        { id: 'forensic_psychology/rola_bieglego',           label: 'Rola i status biegłego',                file: 'wiki/forensic_psychology/rola_bieglego.md'           },
+        { id: 'forensic_psychology/podstawy_prawne',         label: 'Podstawy prawne opiniowania',           file: 'wiki/forensic_psychology/podstawy_prawne.md'         },
+        { id: 'forensic_psychology/metodologia_opinii',      label: 'Metodologia sporządzania opinii',       file: 'wiki/forensic_psychology/metodologia_opinii.md'      },
+        { id: 'forensic_psychology/ocena_wiarygodnosci',     label: 'Ocena wiarygodności zeznań',            file: 'wiki/forensic_psychology/ocena_wiarygodnosci.md'     },
+        { id: 'forensic_psychology/opinia_karna',            label: 'Opiniowanie w sprawach karnych',        file: 'wiki/forensic_psychology/opinia_karna.md'            },
+        { id: 'forensic_psychology/opinia_cywilna',          label: 'Opiniowanie w sprawach cywilnych',      file: 'wiki/forensic_psychology/opinia_cywilna.md'          },
+        { id: 'forensic_psychology/opinia_rodzinna',         label: 'Opiniowanie w sprawach rodzinnych',     file: 'wiki/forensic_psychology/opinia_rodzinna.md'         },
+        { id: 'forensic_psychology/narzedzia_diagnostyczne', label: 'Narzędzia diagnostyczne (sądowe)',      file: 'wiki/forensic_psychology/narzedzia_diagnostyczne.md' },
+        { id: 'forensic_psychology/etyka_opiniowania',       label: 'Etyka opiniowania sądowego',            file: 'wiki/forensic_psychology/etyka_opiniowania.md'       },
+        { id: 'forensic_psychology/opiniowanie_nieletnich',  label: 'Opiniowanie nieletnich i dzieci',       file: 'wiki/forensic_psychology/opiniowanie_nieletnich.md'  },
+        { id: 'forensic_psychology/biegly_a_sad',            label: 'Biegły a sąd — komunikacja',            file: 'wiki/forensic_psychology/biegly_a_sad.md'            },
+      ]
+    },
+    {
       section: 'Psychologia Osób z Niepełnosprawnością',
       items: [
         { id: 'disability_psychology/wprowadzenie',                  label: 'Psychologia niepełnosprawności — wprow.', file: 'wiki/disability_psychology/wprowadzenie.md'                  },
@@ -426,6 +443,23 @@ window.SITE_CONFIG = {
       ]
     },
     {
+      section: 'E-terapia',
+      items: [
+        { id: 'e_therapy/wprowadzenie',                  label: 'E-terapia — wprowadzenie',              file: 'wiki/e_therapy/wprowadzenie.md'                  },
+        { id: 'e_therapy/historia_e_terapii',            label: 'Historia e-terapii',                    file: 'wiki/e_therapy/historia_e_terapii.md'            },
+        { id: 'e_therapy/terapia_online',                label: 'Terapia online (wideo, telefon, czat)',  file: 'wiki/e_therapy/terapia_online.md'                },
+        { id: 'e_therapy/platformy_e_terapii',           label: 'Platformy i narzędzia e-terapii',       file: 'wiki/e_therapy/platformy_e_terapii.md'           },
+        { id: 'e_therapy/skutecznosc_e_terapii',         label: 'Skuteczność e-terapii',                 file: 'wiki/e_therapy/skutecznosc_e_terapii.md'         },
+        { id: 'e_therapy/etyka_e_terapii',               label: 'Etyka e-terapii',                       file: 'wiki/e_therapy/etyka_e_terapii.md'               },
+        { id: 'e_therapy/chatboty_terapeutyczne',        label: 'Chatboty terapeutyczne i AI',           file: 'wiki/e_therapy/chatboty_terapeutyczne.md'        },
+        { id: 'e_therapy/aplikacje_zdrowia_psychicznego',label: 'Aplikacje zdrowia psychicznego (mHealth)', file: 'wiki/e_therapy/aplikacje_zdrowia_psychicznego.md' },
+        { id: 'e_therapy/vr_terapia',                    label: 'Wirtualna rzeczywistość (VR) w terapii',file: 'wiki/e_therapy/vr_terapia.md'                    },
+        { id: 'e_therapy/e_terapia_dzieci',              label: 'E-terapia dzieci i młodzieży',          file: 'wiki/e_therapy/e_terapia_dzieci.md'              },
+        { id: 'e_therapy/dostepnosc_cyfrowa',            label: 'Dostępność i wykluczenie cyfrowe',      file: 'wiki/e_therapy/dostepnosc_cyfrowa.md'            },
+        { id: 'e_therapy/przyszlosc_e_terapii',          label: 'Przyszłość e-terapii',                  file: 'wiki/e_therapy/przyszlosc_e_terapii.md'          },
+      ]
+    },
+    {
       section: 'Psychologia Sztucznej Inteligencji',
       items: [
         { id: 'ai_psychology/wprowadzenie',         label: 'Psychologia AI — wprowadzenie',             file: 'wiki/ai_psychology/wprowadzenie.md'           },
@@ -485,7 +519,9 @@ window.SITE_CONFIG = {
         { id: 'wiki-index/media_natura',       label: 'WIKI — Ekrany, książki i natura',           wiki: 'media_natura'        },
         { id: 'wiki-index/psych_pozytywna',    label: 'WIKI — Psychologia pozytywna',              wiki: 'psych_pozytywna'     },
         { id: 'wiki-index/psych_ai',           label: 'WIKI — Psychologia AI',                    wiki: 'psych_ai'            },
-        { id: 'wiki-index/robotyka_afektywna', label: 'WIKI — Robotyka afektywna',                wiki: 'robotyka_afektywna'  },
+        { id: 'wiki-index/robotyka_afektywna',   label: 'WIKI — Robotyka afektywna',                wiki: 'robotyka_afektywna'   },
+        { id: 'wiki-index/psych_sadowa',           label: 'WIKI — Psychologia sądowa',                wiki: 'psych_sadowa'          },
+        { id: 'wiki-index/e_terapia',              label: 'WIKI — E-terapia',                         wiki: 'e_terapia'             },
       ]
     },
     {
@@ -865,6 +901,36 @@ window.SITE_CONFIG = {
       { file: 'wiki/affective_robotics/interfejsy_mozg_maszyna.md',         label: 'Interfejsy mózg–maszyna (BCI)',              status: 'live' },
       { file: 'wiki/affective_robotics/przyszlosc_robotyki_afektywnej.md',  label: 'Przyszłość robotyki afektywnej',            status: 'live' },
     ],
+    forensic_psychology: [
+      { file: 'wiki/forensic_psychology/wprowadzenie.md',            label: 'Biegły psycholog — wprowadzenie',       status: 'live' },
+      { file: 'wiki/forensic_psychology/rola_bieglego.md',           label: 'Rola i status biegłego',                status: 'live' },
+      { file: 'wiki/forensic_psychology/podstawy_prawne.md',         label: 'Podstawy prawne opiniowania',           status: 'live' },
+      { file: 'wiki/forensic_psychology/metodologia_opinii.md',      label: 'Metodologia sporządzania opinii',       status: 'live' },
+      { file: 'wiki/forensic_psychology/ocena_wiarygodnosci.md',     label: 'Ocena wiarygodności zeznań',            status: 'live' },
+      { file: 'wiki/forensic_psychology/opinia_karna.md',            label: 'Opiniowanie w sprawach karnych',        status: 'live' },
+      { file: 'wiki/forensic_psychology/opinia_cywilna.md',          label: 'Opiniowanie w sprawach cywilnych',      status: 'live' },
+      { file: 'wiki/forensic_psychology/opinia_rodzinna.md',         label: 'Opiniowanie w sprawach rodzinnych',     status: 'live' },
+      { file: 'wiki/forensic_psychology/narzedzia_diagnostyczne.md', label: 'Narzędzia diagnostyczne (sądowe)',      status: 'live' },
+      { file: 'wiki/forensic_psychology/etyka_opiniowania.md',       label: 'Etyka opiniowania sądowego',            status: 'live' },
+      { file: 'wiki/forensic_psychology/opiniowanie_nieletnich.md',  label: 'Opiniowanie nieletnich i dzieci',       status: 'live' },
+      { file: 'wiki/forensic_psychology/biegly_a_sad.md',            label: 'Biegły a sąd — komunikacja',            status: 'live' },
+    ],
+
+    e_therapy: [
+      { file: 'wiki/e_therapy/wprowadzenie.md',                   label: 'E-terapia — wprowadzenie',               status: 'live' },
+      { file: 'wiki/e_therapy/historia_e_terapii.md',             label: 'Historia e-terapii',                     status: 'live' },
+      { file: 'wiki/e_therapy/terapia_online.md',                 label: 'Terapia online (wideo, telefon, czat)',   status: 'live' },
+      { file: 'wiki/e_therapy/platformy_e_terapii.md',            label: 'Platformy i narzędzia e-terapii',        status: 'live' },
+      { file: 'wiki/e_therapy/skutecznosc_e_terapii.md',          label: 'Skuteczność e-terapii',                  status: 'live' },
+      { file: 'wiki/e_therapy/etyka_e_terapii.md',                label: 'Etyka e-terapii',                        status: 'live' },
+      { file: 'wiki/e_therapy/chatboty_terapeutyczne.md',         label: 'Chatboty terapeutyczne i AI',            status: 'live' },
+      { file: 'wiki/e_therapy/aplikacje_zdrowia_psychicznego.md', label: 'Aplikacje zdrowia psychicznego (mHealth)',status: 'live' },
+      { file: 'wiki/e_therapy/vr_terapia.md',                     label: 'Wirtualna rzeczywistość w terapii',      status: 'live' },
+      { file: 'wiki/e_therapy/e_terapia_dzieci.md',               label: 'E-terapia dzieci i młodzieży',           status: 'live' },
+      { file: 'wiki/e_therapy/dostepnosc_cyfrowa.md',             label: 'Dostępność i wykluczenie cyfrowe',       status: 'live' },
+      { file: 'wiki/e_therapy/przyszlosc_e_terapii.md',           label: 'Przyszłość e-terapii',                   status: 'live' },
+    ],
+
   },
 
   // ─────────────────────────────────────────────────────────────
