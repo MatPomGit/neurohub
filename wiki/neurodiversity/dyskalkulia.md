@@ -12,7 +12,7 @@ Szacuje się, że dyskalkulia dotyczy ok. 3–7% populacji, przy czym dane dotyc
 
 Podstawą zdolności matematycznych jest tzw. **zmysł liczby** (*number sense*) — wrodzona, intuicyjna zdolność do szacowania i porównywania ilości. Badania wskazują, że niemowlęta już w wieku kilku miesięcy odróżniają małe ilości, co świadczy o biologicznym podłożu reprezentacji numerycznych.
 
-Badaczka **Stanislas Dehaene** opisał model **Potrójnego Kodu** (*Triple Code Model*): liczby mogą być reprezentowane jako:
+Badacz **Stanislas Dehaene** opisał model **Potrójnego Kodu** (*Triple Code Model*): liczby mogą być reprezentowane jako:
 - analogowy obraz na osi liczb (*number line*)
 - kod werbalny (słowa liczebnikowe)
 - kod wzrokowo-arabski (cyfry)

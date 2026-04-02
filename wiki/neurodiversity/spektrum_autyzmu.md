@@ -14,7 +14,7 @@ Wcześniejsze oddzielne kategorie — autyzm wczesnodziecięcy, zespół Asperge
 
 ## Monotropizm — teoria uwagi autystycznej
 
-Jedną z najbardziej wpływowych współczesnych teorii autyzmu jest **monotropizm**, opracowany przez Dymę Murray, Mike'a Lezsaka i Wenldy Lawson. Według tej teorii autystyczny umysł ma tendencję do skupiania zasobów uwagi na wąskiej liczbie zainteresowań naraz (*tunnel of interest*), podczas gdy mózg neurotypowy operuje polirotropicznie — dystrybuuje uwagę szerzej, ale płycej.
+Jedną z najbardziej wpływowych współczesnych teorii autyzmu jest **monotropizm**, opracowany przez Dymę Murray, Mike'a Lezsaka i Wendy Lawson. Według tej teorii autystyczny umysł ma tendencję do skupiania zasobów uwagi na wąskiej liczbie zainteresowań naraz (*tunnel of interest*), podczas gdy mózg neurotypowy operuje polirotropicznie — dystrybuuje uwagę szerzej, ale płycej.
 
 Monotropizm wyjaśnia wiele cech autyzmu:
 - **Intensywne, wąskie zainteresowania** — efekt skupienia zasobów uwagi.
