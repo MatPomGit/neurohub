@@ -419,15 +419,15 @@
 
   /* ── Search ────────────────────────────────── */
   document.getElementById('searchInput').addEventListener('input', function() {
-    const term = this.value.trim().toLowerCase();
+    const query = this.value.trim().toLowerCase();
     document.querySelectorAll('.nav-item').forEach(el=>{
-      el.style.display = (!term || el.textContent.toLowerCase().includes(term)) ? '' : 'none';
+      el.style.display = (!query || el.textContent.toLowerCase().includes(query)) ? '' : 'none';
     });
     document.querySelectorAll('.nav-group').forEach(g=>{
       const any = [...g.querySelectorAll('.nav-item')].some(i=>i.style.display!=='none');
       g.style.display = any ? '' : 'none';
-      if (term && any) g.classList.add('open');
-      if (!term && !g.querySelector('.nav-item.active')) g.classList.remove('open');
+      if (query && any) g.classList.add('open');
+      if (!query && !g.querySelector('.nav-item.active')) g.classList.remove('open');
     });
   });
 
