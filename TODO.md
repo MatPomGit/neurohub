@@ -12,24 +12,24 @@
 Poniższe pliki istnieją w repozytorium, ale zawierają tylko tytuł (1 wiersz). Aplikacja pokazuje je jako `⚠ pusty`:
 
 **Psychologia Zdrowia (`wiki/health_psychology/`):**
-- [ ] `wypalenie_zawodowe.md`
-- [ ] `radzenie_sobie.md`
-- [ ] `styl_zycia.md`
-- [ ] `rehabilitacja.md`
+- [x] `wypalenie_zawodowe.md` ✓
+- [x] `radzenie_sobie.md` ✓
+- [x] `styl_zycia.md` ✓
+- [x] `rehabilitacja.md` ✓
 
 **Psychologia Osób z Niepełnosprawnością (`wiki/disability_psychology/`):**
-- [ ] `wprowadzenie.md`
-- [ ] `modele_niepelnosprawnosci.md`
-- [ ] `niepelnosprawnosc_intelektualna.md`
-- [ ] `niepelnosprawnosc_ruchowa.md`
-- [ ] `niepelnosprawnosc_wzrokowa.md`
-- [ ] `niepelnosprawnosc_sluchowa.md`
-- [ ] `autyzm_niepelnosprawnosc.md`
-- [ ] `jakosc_zycia.md`
-- [ ] `stres_i_adaptacja.md`
-- [ ] `rodzina_i_opiekunowie.md`
-- [ ] `rehabilitacja_psychologiczna.md`
-- [ ] `inkluzja_spoleczna.md`
+- [x] `wprowadzenie.md` ✓
+- [x] `modele_niepelnosprawnosci.md` ✓
+- [x] `niepelnosprawnosc_intelektualna.md` ✓
+- [x] `niepelnosprawnosc_ruchowa.md` ✓
+- [x] `niepelnosprawnosc_wzrokowa.md` ✓
+- [x] `niepelnosprawnosc_sluchowa.md` ✓
+- [x] `autyzm_niepelnosprawnosc.md` ✓
+- [x] `jakosc_zycia.md` ✓
+- [x] `stres_i_adaptacja.md` ✓
+- [x] `rodzina_i_opiekunowie.md` ✓
+- [x] `rehabilitacja_psychologiczna.md` ✓
+- [x] `inkluzja_spoleczna.md` ✓
 
 ---
 
