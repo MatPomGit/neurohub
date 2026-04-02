@@ -29,7 +29,7 @@ Rehabilitacja neuropsychologiczna jest wskazana w szerokim spektrum schorzeń:
 ### Choroby neurodegeneracyjne
 
 - **Choroba Alzheimera i inne otępienia** — rehabilitacja nakierowana na kompensację i utrzymanie funkcji jak najdłużej, wsparcie opiekunów;
-- **Choroba Parkinsona** — zaburzenia funkcji wykonawczych, uwagi i памięci operacyjnej towarzyszące objawom motorycznym;
+- **Choroba Parkinsona** — zaburzenia funkcji wykonawczych, uwagi i pamięci operacyjnej towarzyszące objawom motorycznym;
 - **Stwardnienie rozsiane (SM)** — zmęczenie poznawcze, spowolnienie przetwarzania, zaburzenia pamięci.
 
 ### Inne stany
