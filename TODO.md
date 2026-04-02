@@ -37,8 +37,8 @@ Poniższe pliki istnieją w repozytorium, ale zawierają tylko tytuł (1 wiersz)
 
 Następujące klucze są odwoływane przez nawigację (`wiki-index/...`), ale brak ich definicji w obiekcie `wikis {}`:
 
-- [ ] `e_terapia` — brakuje wpisu `wikis.e_terapia` (nawigacja wskazuje `wiki-index/e_terapia`, pliki MD istnieją)
-- [ ] `psych_sadowa` — brakuje wpisu `wikis.psych_sadowa` (nawigacja wskazuje `wiki-index/psych_sadowa`, pliki MD istnieją)
+- [x] `e_terapia` — dodano wpis `wikis.e_terapia` ✓
+- [x] `psych_sadowa` — dodano wpis `wikis.psych_sadowa` ✓
 
 ---
 
@@ -165,7 +165,7 @@ Istniejące foldery wiki nie mają jeszcze pełnego pokrycia w nawigacji lub pla
 - [ ] Dodać obsługę obrazów w Markdown (`![alt](url)`)
 
 ### `site-config.js`
-- [ ] Ujednolicić klucze planów: `disability_psychology` nie ma wpisu w `plans {}` (tylko w `wikis`)
+- [ ] Ujednolicić klucze planów: `disability_psychology` nie ma wpisu w `plans {}` (tylko w `wikis`) — *do weryfikacji, wpis plans.disability_psychology istnieje*
 - [ ] Dodać `plans.spoleczna`, `plans.kulturowa`, `plans.rozwojowa`, `plans.uzaleznienia`, `plans.relacje`, `plans.etyka` — tak by ich artykuły pojawiały się na stronach domenowych
 
 ### SEO / metadane

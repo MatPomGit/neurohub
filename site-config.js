@@ -35,48 +35,7 @@ window.SITE_CONFIG = {
       ]
     },
     {
-      section: 'Neurobiologia',
-      items: [
-        { id: 'neuro/anatomia', label: 'Anatomia mózgu',   file: 'wiki/neuro/anatomia.md'  },
-        { id: 'neuro/neuron',   label: 'Neuron i synapsa', file: 'wiki/neuro/neuron.md'    },
-        { id: 'neuro/systemy',  label: 'Układy i sieci',   file: 'wiki/neuro/systemy.md'   },
-        { id: 'neuro/przesilenie_wiosenne', label: 'Neurobiologia przesilenia wiosennego', file: 'wiki/neuro/przesilenie_wiosenne.md' },
-        { id: 'neuro/myelinizacja',         label: 'Mielinizacja i istota biała',          file: 'wiki/neuro/myelinizacja.md'         },
-        { id: 'neuro/plastycznosc',         label: 'Neuroplastyczność',                    file: 'wiki/neuro/plastycznosc.md'         },
-        { id: 'neuro/neuroobrazowanie',     label: 'Neuroobrazowanie (fMRI, DTI)',          file: 'wiki/neuro/neuroobrazowanie.md'     },
-        { id: 'neuro/lateralizacja',        label: 'Lateralizacja funkcji',                file: 'wiki/neuro/lateralizacja.md'        },
-        { id: 'neuro/kora_prefrontalna',    label: 'Kora przedczołowa',                    file: 'wiki/neuro/kora_prefrontalna.md'    },
-        { id: 'neuro/uklad_limbiczny',      label: 'Układ limbiczny',                      file: 'wiki/neuro/uklad_limbiczny.md'      },
-        { id: 'neuro/cykl_miesiaczkowy',                  label: 'Neuropsychologia cyklu miesiączkowego',  file: 'wiki/neuro/cykl_miesiaczkowy.md'                  },
-        { id: 'neuro/rehabilitacja_neuropsychologiczna',  label: 'Rehabilitacja neuropsychologiczna',      file: 'wiki/neuro/rehabilitacja_neuropsychologiczna.md'  },
-        { id: 'neuro/neuronauka_poznawcza',               label: 'Neuronauka poznawcza',                   file: 'wiki/neuro/neuronauka_poznawcza.md'               },
-        { id: 'neuro/podstawy_neurologii',  label: 'Podstawy neurologii',                  file: 'wiki/neuro/podstawy_neurologii.md'  },
-      ]
-    },
-    {
-      section: 'Funkcje Poznawcze',
-      items: [
-        { id: 'cognitive/pamiec',              label: 'Pamięć',               file: 'wiki/cognitive/pamiec.md'              },
-        { id: 'cognitive/pamiec_dlugotrwala',  label: 'Pamięć długotrwała',   file: 'wiki/cognitive/pamiec_dlugotrwala.md'  },
-        { id: 'cognitive/uwaga',               label: 'Uwaga',                file: 'wiki/cognitive/uwaga.md'               },
-        { id: 'cognitive/jezyk',               label: 'Język',                file: 'wiki/cognitive/jezyk.md'               },
-        { id: 'cognitive/funkcje_wykonawcze',  label: 'Funkcje wykonawcze',   file: 'wiki/cognitive/funkcje_wykonawcze.md'  },
-        { id: 'cognitive/percepcja',           label: 'Percepcja i gnozja',   file: 'wiki/cognitive/percepcja.md'           },
-        { id: 'cognitive/zmeczenie_poznawcze', label: 'Zmęczenie poznawcze',       file: 'wiki/cognitive/zmeczenie_poznawcze.md' },
-        { id: 'cognitive/myslenie',             label: 'Myślenie i rozumowanie',    file: 'wiki/cognitive/myslenie.md'             },
-        { id: 'cognitive/uczenie',              label: 'Uczenie się',               file: 'wiki/cognitive/uczenie.md'              },
-        { id: 'cognitive/wyobraznia',           label: 'Wyobraźnia i reprezentacje',file: 'wiki/cognitive/wyobraznia.md'           },
-        { id: 'cognitive/swiadomosc',           label: 'Świadomość i metapoznanie', file: 'wiki/cognitive/swiadomosc.md'           },
-        { id: 'cognitive/podejmowanie_decyzji', label: 'Podejmowanie decyzji',      file: 'wiki/cognitive/podejmowanie_decyzji.md' },
-        { id: 'cognitive/teoria_perspektywy',  label: 'Teoria perspektywy',         file: 'wiki/cognitive/teoria_perspektywy.md'  },
-        { id: 'cognitive/efekt_ramowania',     label: 'Efekt ramowania',             file: 'wiki/cognitive/efekt_ramowania.md'     },
-        { id: 'cognitive/nasa_tlx',            label: 'NASA Task Load Index (TLX)', file: 'wiki/cognitive/nasa_tlx.md'            },
-        { id: 'cognitive/iluzje',              label: 'Iluzje i błędy poznawcze',   file: 'wiki/cognitive/iluzje.md'              },
-        { id: 'cognitive/eksperyment_posnera', label: 'Eksperyment Posnera',         file: 'wiki/cognitive/eksperyment_posnera.md' },
-      ]
-    },
-    {
-      section: 'Zaburzenia Kliniczne',
+      section: 'Biologiczne Podstawy',
       items: [
         { id: 'biology/biologiczne_podstawy', label: 'Biologiczne podstawy — wprow.', file: 'wiki/biology/biologiczne_podstawy.md' },
         { id: 'biology/genetyka_beh',         label: 'Genetyka behawioralna',          file: 'wiki/biology/genetyka_beh.md'          },
@@ -101,9 +60,12 @@ window.SITE_CONFIG = {
         { id: 'neuro/kora_prefrontalna',     label: 'Kora przedczołowa',                       file: 'wiki/neuro/kora_prefrontalna.md'     },
         { id: 'neuro/uklad_limbiczny',       label: 'Układ limbiczny',                         file: 'wiki/neuro/uklad_limbiczny.md'       },
         { id: 'neuro/przesilenie_wiosenne',  label: 'Neurobiologia przesilenia wiosennego',    file: 'wiki/neuro/przesilenie_wiosenne.md'  },
-        { id: 'neuro/cykl_miesiaczkowy',     label: 'Neuropsychologia cyklu miesiączkowego',  file: 'wiki/neuro/cykl_miesiaczkowy.md'     },
-        { id: 'neuro/eye_tracking',          label: 'Eye tracking — śledzenie wzroku',         file: 'wiki/neuro/eye_tracking.md'          },
-        { id: 'neuro/Muse',                  label: 'Muse S — neurofeedback i EEG',            file: 'wiki/neuro/Muse.md'                  },
+        { id: 'neuro/cykl_miesiaczkowy',                 label: 'Neuropsychologia cyklu miesiączkowego', file: 'wiki/neuro/cykl_miesiaczkowy.md'                 },
+        { id: 'neuro/rehabilitacja_neuropsychologiczna', label: 'Rehabilitacja neuropsychologiczna',      file: 'wiki/neuro/rehabilitacja_neuropsychologiczna.md' },
+        { id: 'neuro/neuronauka_poznawcza',              label: 'Neuronauka poznawcza',                   file: 'wiki/neuro/neuronauka_poznawcza.md'              },
+        { id: 'neuro/podstawy_neurologii',               label: 'Podstawy neurologii',                    file: 'wiki/neuro/podstawy_neurologii.md'               },
+        { id: 'neuro/eye_tracking',                      label: 'Eye tracking — śledzenie wzroku',        file: 'wiki/neuro/eye_tracking.md'                      },
+        { id: 'neuro/Muse',                              label: 'Muse S — neurofeedback i EEG',           file: 'wiki/neuro/Muse.md'                              },
       ]
     },
     {
@@ -2127,6 +2089,79 @@ window.SITE_CONFIG = {
             { label: 'Wsparcie i interwencje',             id: 'neurodiversity/wsparcie_interwencje',       status: 'live' },
             { label: 'Neuroróżnorodność w miejscu pracy', id: 'neurodiversity/neurozroznorodnosc_w_pracy', status: 'live' },
             { label: 'Identyfikacja i diagnoza',           id: 'neurodiversity/identyfikacja_i_diagnoza',   status: 'live' },
+          ]
+        },
+      ]
+    },
+
+    psych_sadowa: {
+      title: 'WIKI — Psychologia sądowa i opiniowanie',
+      intro: 'Psychologia sądowa zajmuje się stosowaniem wiedzy i metod psychologicznych w postępowaniach prawnych — karnych, cywilnych i rodzinnych. Encyklopedia obejmuje rolę biegłego psychologa, podstawy prawne opiniowania, metodologię sporządzania opinii, ocenę wiarygodności zeznań, specjalistyczne narzędzia diagnostyczne oraz etykę zawodową w pracy sądowej.',
+      sections: [
+        {
+          title: 'Podstawy i rola biegłego',
+          articles: [
+            { label: 'Biegły psycholog — wprowadzenie',  id: 'forensic_psychology/wprowadzenie',   status: 'live' },
+            { label: 'Rola i status biegłego',           id: 'forensic_psychology/rola_bieglego',  status: 'live' },
+            { label: 'Podstawy prawne opiniowania',      id: 'forensic_psychology/podstawy_prawne', status: 'live' },
+            { label: 'Metodologia sporządzania opinii',  id: 'forensic_psychology/metodologia_opinii', status: 'live' },
+          ]
+        },
+        {
+          title: 'Ocena i opiniowanie',
+          articles: [
+            { label: 'Ocena wiarygodności zeznań',         id: 'forensic_psychology/ocena_wiarygodnosci',    status: 'live' },
+            { label: 'Opiniowanie w sprawach karnych',     id: 'forensic_psychology/opinia_karna',           status: 'live' },
+            { label: 'Opiniowanie w sprawach cywilnych',   id: 'forensic_psychology/opinia_cywilna',         status: 'live' },
+            { label: 'Opiniowanie w sprawach rodzinnych',  id: 'forensic_psychology/opinia_rodzinna',        status: 'live' },
+            { label: 'Opiniowanie nieletnich i dzieci',    id: 'forensic_psychology/opiniowanie_nieletnich', status: 'live' },
+          ]
+        },
+        {
+          title: 'Narzędzia i etyka',
+          articles: [
+            { label: 'Narzędzia diagnostyczne (sądowe)', id: 'forensic_psychology/narzedzia_diagnostyczne', status: 'live' },
+            { label: 'Etyka opiniowania sądowego',       id: 'forensic_psychology/etyka_opiniowania',       status: 'live' },
+            { label: 'Biegły a sąd — komunikacja',       id: 'forensic_psychology/biegly_a_sad',            status: 'live' },
+          ]
+        },
+      ]
+    },
+
+    e_terapia: {
+      title: 'WIKI — E-terapia',
+      intro: 'E-terapia (terapia online, telemedycyna psychologiczna) obejmuje świadczenie pomocy psychologicznej i terapeutycznej za pośrednictwem technologii cyfrowych — wideo, czatu, aplikacji mobilnych oraz rzeczywistości wirtualnej. Encyklopedia opisuje historię, formy, skuteczność, etykę oraz przyszłość zdalnej opieki psychologicznej.',
+      sections: [
+        {
+          title: 'Podstawy i historia',
+          articles: [
+            { label: 'E-terapia — wprowadzenie',  id: 'e_therapy/wprowadzenie',      status: 'live' },
+            { label: 'Historia e-terapii',        id: 'e_therapy/historia_e_terapii', status: 'live' },
+          ]
+        },
+        {
+          title: 'Formy i narzędzia',
+          articles: [
+            { label: 'Terapia online (wideo, telefon, czat)',      id: 'e_therapy/terapia_online',                 status: 'live' },
+            { label: 'Platformy i narzędzia e-terapii',           id: 'e_therapy/platformy_e_terapii',            status: 'live' },
+            { label: 'Chatboty terapeutyczne i AI',               id: 'e_therapy/chatboty_terapeutyczne',         status: 'live' },
+            { label: 'Aplikacje zdrowia psychicznego (mHealth)',  id: 'e_therapy/aplikacje_zdrowia_psychicznego', status: 'live' },
+            { label: 'Wirtualna rzeczywistość (VR) w terapii',   id: 'e_therapy/vr_terapia',                     status: 'live' },
+          ]
+        },
+        {
+          title: 'Skuteczność i etyka',
+          articles: [
+            { label: 'Skuteczność e-terapii',              id: 'e_therapy/skutecznosc_e_terapii', status: 'live' },
+            { label: 'Etyka e-terapii',                    id: 'e_therapy/etyka_e_terapii',       status: 'live' },
+            { label: 'Dostępność i wykluczenie cyfrowe',   id: 'e_therapy/dostepnosc_cyfrowa',    status: 'live' },
+          ]
+        },
+        {
+          title: 'Grupy szczególne i przyszłość',
+          articles: [
+            { label: 'E-terapia dzieci i młodzieży', id: 'e_therapy/e_terapia_dzieci',     status: 'live' },
+            { label: 'Przyszłość e-terapii',         id: 'e_therapy/przyszlosc_e_terapii', status: 'live' },
           ]
         },
       ]
