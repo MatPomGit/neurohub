@@ -62,7 +62,7 @@ Argument Benatara był przedmiotem rozległej krytyki filozoficznej.
 
 Argument Benatara wpisuje się w szerszą tradycję **filozoficznego pesymizmu**. **Arthur Schopenhauer** w *Świecie jako woli i wyobrażeniu* (1818) twierdził, że u podstaw rzeczywistości leży ślepa, nienasycona **wola** (*Wille*) — dążenie bez celu, z natury niosące cierpienie. Cierpienie jest pozytywne i pierwotne; przyjemność jest jedynie chwilowym uśmierzeniem bólu.
 
-**E.M. Cioran**, rumuński filozof i eseista, w *The Trouble with Being Born* (1973) uczynił z własnych narodzin temat filozoficznej rozpaczy: istnienie jest czymś narzuconym, niechcianym skandalem. „Urodziliśmy się bez swojego przyzwolenia i umrzemy bez swojej zgody" — brzmi jego lapidarne rozpoznanie kondycji ludzkiej.
+**E.M. Cioran**, rumuński filozof i eseista, w *O niedogodności narodzin* (1973) uczynił z własnych narodzin temat filozoficznej rozpaczy: istnienie jest czymś narzuconym, niechcianym skandalem. „Urodziliśmy się bez swojego przyzwolenia i umrzemy bez swojej zgody" — brzmi jego lapidarne rozpoznanie kondycji ludzkiej.
 
 W tradycji buddyjskiej pierwsza szlachetna prawda (*dukkha*) głosi, że życie jest z natury naznaczone cierpieniem — nie jako pesymizm, lecz jako trzeźwy opis stanu rzeczy poprzedzający możliwość wyzwolenia. Benatar, inaczej niż buddyzm, nie oferuje drogi do wyzwolenia — ale diagnoza jest zbieżna.
 

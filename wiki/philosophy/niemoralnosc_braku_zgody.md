@@ -32,7 +32,7 @@ Kluczowa różnica: we wszystkich tych analogiach podmiot *już istnieje* i nies
 
 ## Cioran i egzystencjalna przemoc
 
-**Emil Mioran Cioran** (1911–1995), rumuński pisarz i filozof tworzący po francusku, uczynił z niemożności cofnięcia narodzin centralny temat swojej filozofii. Dla Ciorana narodziny nie są darem — są katastrofą, czymś, co zostało nam zrobione bez pytania i bez możliwości zwrotu.
+**Emil Michel Cioran** (1911–1995), rumuński pisarz i filozof tworzący po francusku, uczynił z niemożności cofnięcia narodzin centralny temat swojej filozofii. Dla Ciorana narodziny nie są darem — są katastrofą, czymś, co zostało nam zrobione bez pytania i bez możliwości zwrotu.
 
 Jego filozofia nie jest argumentem akademickim, lecz wyrazem radykalnej, egzystencjalnej wrażliwości: świadomość jest ciężarem narzuconym przez biologię, a każda próba nadania życiu sensu jest post-faktyczną racjonalizacją faktu, którego nikt by nie wybrał, gdyby mógł dokonać świadomego wyboru w stanie nieistnienia.
 
