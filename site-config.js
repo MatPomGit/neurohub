@@ -1,5 +1,5 @@
 /**
- * site-config.js — PsyHub v3.0 "ATLAS"
+ * site-config.js — PsyHub v3.1 "Knedlozarł"
  * Jedyne źródło prawdy: nawigacja, mapowanie plików MD, definicje WIKI.
  *
  * Konwencja statusów artykułu:
@@ -31,11 +31,88 @@ window.SITE_CONFIG = {
       items: [
         { id: 'students/wybor_specjalnosci', label: 'Wybór specjalności', file: 'wiki/students/wybor_specjalnosci.md' },
         { id: 'students/test_specjalnosci',  label: 'Test wyboru specjalności', custom: 'specialization_test' },
-        { id: 'students/monopoly_psychologiczne', href: 'https://matpomgit.github.io/Psychopoly/', label: 'Monopoly Psychologiczne' },
+        /**{ id: 'students/monopoly_psychologiczne', href: 'https://matpomgit.github.io/Psychopoly/', label: 'Monopoly Psychologiczne' },*/
+      ]
+    },
+    {
+      section: 'Filozofia',
+      items: [
+        { id: 'philosophy/wprowadzenie',        label: 'Filozofia — wprowadzenie',       file: 'wiki/philosophy/wprowadzenie.md'        },
+        { id: 'philosophy/ontologia',           label: 'Ontologia i metafizyka',          file: 'wiki/philosophy/ontologia.md'           },
+        { id: 'philosophy/epistemologia',       label: 'Epistemologia i teoria poznania', file: 'wiki/philosophy/epistemologia.md'       },
+        { id: 'philosophy/etyka',               label: 'Etyka i filozofia moralna',       file: 'wiki/philosophy/etyka.md'               },
+        { id: 'philosophy/filozofia_umyslu',    label: 'Filozofia umysłu',                file: 'wiki/philosophy/filozofia_umyslu.md'    },
+        { id: 'philosophy/filozofia_nauki',     label: 'Filozofia nauki',                 file: 'wiki/philosophy/filozofia_nauki.md'     },
+        { id: 'philosophy/egzystencjalizm',     label: 'Egzystencjalizm',                 file: 'wiki/philosophy/egzystencjalizm.md'     },
+        { id: 'philosophy/fenomenologia',       label: 'Fenomenologia',                   file: 'wiki/philosophy/fenomenologia.md'       },
+        { id: 'philosophy/hermeneutyka',        label: 'Hermeneutyka i interpretacja',    file: 'wiki/philosophy/hermeneutyka.md'        },
+        { id: 'philosophy/logika',              label: 'Logika i argumentacja',           file: 'wiki/philosophy/logika.md'              },
+        { id: 'philosophy/filozofia_jezyka',    label: 'Filozofia języka',                file: 'wiki/philosophy/filozofia_jezyka.md'    },
+        { id: 'philosophy/filozofia_czlowieka',         label: 'Filozofia człowieka',                        file: 'wiki/philosophy/filozofia_czlowieka.md'         },
+        { id: 'philosophy/cien_antropiczny',             label: 'Cień antropiczny',                           file: 'wiki/philosophy/cien_antropiczny.md'            },
+        { id: 'philosophy/mozg_boltzmanna',              label: 'Mózg Boltzmanna',                            file: 'wiki/philosophy/mozg_boltzmanna.md'             },
+        { id: 'philosophy/horror_panpsychizmu',          label: 'Horror panpsychizmu',                        file: 'wiki/philosophy/horror_panpsychizmu.md'         },
+        { id: 'philosophy/filozoficzne_zombie',          label: 'Filozoficzne zombie',                        file: 'wiki/philosophy/filozoficzne_zombie.md'         },
+        { id: 'philosophy/pusty_indywidualizm',          label: 'Pusty indywidualizm',                        file: 'wiki/philosophy/pusty_indywidualizm.md'         },
+        { id: 'philosophy/asymetria_dobra_i_bolu',       label: 'Asymetria dobra i bólu',                     file: 'wiki/philosophy/asymetria_dobra_i_bolu.md'      },
+        { id: 'philosophy/niemoralnosc_braku_zgody',     label: 'Niemoralność braku zgody na narodziny',      file: 'wiki/philosophy/niemoralnosc_braku_zgody.md'    },
+        { id: 'philosophy/redukcjonizm_tozsamosci',      label: 'Redukcjonizm tożsamości osobowej',           file: 'wiki/philosophy/redukcjonizm_tozsamosci.md'     },
+        { id: 'philosophy/eliminatywizm_materialny',     label: 'Eliminatywizm materialny',                   file: 'wiki/philosophy/eliminatywizm_materialny.md'    },
+        { id: 'philosophy/efilizm',                      label: 'Efilizm',                                    file: 'wiki/philosophy/efilizm.md'                     },
+        { id: 'philosophy/pesymizm_biologiczny',         label: 'Pesymizm biologiczny',                       file: 'wiki/philosophy/pesymizm_biologiczny.md'        },
+        { id: 'philosophy/podswiadomy_nihilizm',         label: 'Podświadomy nihilizm',                       file: 'wiki/philosophy/podswiadomy_nihilizm.md'        },
+        { id: 'philosophy/paradoksalny_determinizm',     label: 'Paradoksalny determinizm',                   file: 'wiki/philosophy/paradoksalny_determinizm.md'    },
+        { id: 'philosophy/realizm_modalny',              label: 'Realizm modalny',                            file: 'wiki/philosophy/realizm_modalny.md'             },
       ]
     },
     {
       section: 'Biologiczne Podstawy',
+      section: 'Neurobiologia',
+      items: [
+        { id: 'neuro/anatomia', label: 'Anatomia mózgu',   file: 'wiki/neuro/anatomia.md'  },
+        { id: 'neuro/neuron',   label: 'Neuron i synapsa', file: 'wiki/neuro/neuron.md'    },
+        { id: 'neuro/systemy',  label: 'Układy i sieci',   file: 'wiki/neuro/systemy.md'   },
+        { id: 'neuro/przesilenie_wiosenne', label: 'Neurobiologia przesilenia wiosennego', file: 'wiki/neuro/przesilenie_wiosenne.md' },
+        { id: 'neuro/myelinizacja',         label: 'Mielinizacja i istota biała',          file: 'wiki/neuro/myelinizacja.md'         },
+        { id: 'neuro/plastycznosc',         label: 'Neuroplastyczność',                    file: 'wiki/neuro/plastycznosc.md'         },
+        { id: 'neuro/neuroobrazowanie',     label: 'Neuroobrazowanie (fMRI, DTI)',          file: 'wiki/neuro/neuroobrazowanie.md'     },
+        { id: 'neuro/lateralizacja',        label: 'Lateralizacja funkcji',                file: 'wiki/neuro/lateralizacja.md'        },
+        { id: 'neuro/kora_prefrontalna',    label: 'Kora przedczołowa',                    file: 'wiki/neuro/kora_prefrontalna.md'    },
+        { id: 'neuro/uklad_limbiczny',      label: 'Układ limbiczny',                      file: 'wiki/neuro/uklad_limbiczny.md'      },
+        { id: 'neuro/cykl_miesiaczkowy',                  label: 'Neuropsychologia cyklu miesiączkowego',  file: 'wiki/neuro/cykl_miesiaczkowy.md'                  },
+        { id: 'neuro/rehabilitacja_neuropsychologiczna',  label: 'Rehabilitacja neuropsychologiczna',      file: 'wiki/neuro/rehabilitacja_neuropsychologiczna.md'  },
+        { id: 'neuro/neuronauka_poznawcza',               label: 'Neuronauka poznawcza',                   file: 'wiki/neuro/neuronauka_poznawcza.md'               },
+        { id: 'neuro/podstawy_neurologii',  label: 'Podstawy neurologii',                  file: 'wiki/neuro/podstawy_neurologii.md'  },
+        { id: 'neuro/pien_mozgu',           label: 'Pień mózgu i móżdżek',                file: 'wiki/neuro/pien_mozgu.md'           },
+      ]
+    },
+    {
+      section: 'Funkcje Poznawcze',
+      items: [
+        { id: 'cognitive/pamiec',              label: 'Pamięć',               file: 'wiki/cognitive/pamiec.md'              },
+        { id: 'cognitive/pamiec_dlugotrwala',  label: 'Pamięć długotrwała',   file: 'wiki/cognitive/pamiec_dlugotrwala.md'  },
+        { id: 'cognitive/uwaga',               label: 'Uwaga',                file: 'wiki/cognitive/uwaga.md'               },
+        { id: 'cognitive/jezyk',               label: 'Język',                file: 'wiki/cognitive/jezyk.md'               },
+        { id: 'cognitive/funkcje_wykonawcze',  label: 'Funkcje wykonawcze',   file: 'wiki/cognitive/funkcje_wykonawcze.md'  },
+        { id: 'cognitive/percepcja',           label: 'Percepcja i gnozja',   file: 'wiki/cognitive/percepcja.md'           },
+        { id: 'cognitive/zmeczenie_poznawcze', label: 'Zmęczenie poznawcze',       file: 'wiki/cognitive/zmeczenie_poznawcze.md' },
+        { id: 'cognitive/myslenie',             label: 'Myślenie i rozumowanie',    file: 'wiki/cognitive/myslenie.md'             },
+        { id: 'cognitive/uczenie',              label: 'Uczenie się',               file: 'wiki/cognitive/uczenie.md'              },
+        { id: 'cognitive/wyobraznia',           label: 'Wyobraźnia i reprezentacje',file: 'wiki/cognitive/wyobraznia.md'           },
+        { id: 'cognitive/swiadomosc',           label: 'Świadomość i metapoznanie', file: 'wiki/cognitive/swiadomosc.md'           },
+        { id: 'cognitive/podejmowanie_decyzji', label: 'Podejmowanie decyzji',      file: 'wiki/cognitive/podejmowanie_decyzji.md' },
+        { id: 'cognitive/teoria_perspektywy',  label: 'Teoria perspektywy',         file: 'wiki/cognitive/teoria_perspektywy.md'  },
+        { id: 'cognitive/efekt_ramowania',     label: 'Efekt ramowania',             file: 'wiki/cognitive/efekt_ramowania.md'     },
+        { id: 'cognitive/nasa_tlx',            label: 'NASA Task Load Index (TLX)', file: 'wiki/cognitive/nasa_tlx.md'            },
+        { id: 'cognitive/iluzje',              label: 'Iluzje i błędy poznawcze',   file: 'wiki/cognitive/iluzje.md'              },
+        { id: 'cognitive/eksperyment_posnera',        label: 'Eksperyment Posnera',            file: 'wiki/cognitive/eksperyment_posnera.md'        },
+        { id: 'cognitive/maly_albert',               label: 'Eksperyment Małego Alberta',     file: 'wiki/cognitive/maly_albert.md'               },
+        { id: 'cognitive/system1_system2',            label: 'System 1 i System 2 (Kahneman)', file: 'wiki/cognitive/system1_system2.md'            },
+        { id: 'cognitive/przetwarzanie_predyktywne', label: 'Predictive processing',           file: 'wiki/cognitive/przetwarzanie_predyktywne.md' },
+      ]
+    },
+    {
+      section: 'Zaburzenia Kliniczne',
       items: [
         { id: 'biology/biologiczne_podstawy', label: 'Biologiczne podstawy — wprow.', file: 'wiki/biology/biologiczne_podstawy.md' },
         { id: 'biology/genetyka_beh',         label: 'Genetyka behawioralna',          file: 'wiki/biology/genetyka_beh.md'          },
@@ -89,9 +166,12 @@ window.SITE_CONFIG = {
         { id: 'cognitive/nasa_tlx',               label: 'NASA Task Load Index (TLX)',      file: 'wiki/cognitive/nasa_tlx.md'               },
         { id: 'cognitive/iluzje',                 label: 'Iluzje i błędy poznawcze',        file: 'wiki/cognitive/iluzje.md'                 },
         { id: 'cognitive/eksperyment_posnera',    label: 'Eksperyment Posnera',             file: 'wiki/cognitive/eksperyment_posnera.md'    },
+        { id: 'cognitive/maly_albert',            label: 'Eksperyment Małego Alberta',      file: 'wiki/cognitive/maly_albert.md'            },
         { id: 'cognitive/nauki_kognitywne',       label: 'Nauki kognitywne',                file: 'wiki/cognitive/nauki_kognitywne.md'       },
         { id: 'cognitive/architektury_kognitywne',label: 'Architektury kognitywne',         file: 'wiki/cognitive/architektury_kognitywne.md'},
         { id: 'cognitive/hda',                    label: 'Human Decision Accuracy (HDA)',   file: 'wiki/cognitive/hda.md'                    },
+        { id: 'cognitive/system1_system2',        label: 'System 1 i System 2 (Kahneman)',  file: 'wiki/cognitive/system1_system2.md'        },
+        { id: 'cognitive/przetwarzanie_predyktywne', label: 'Predictive processing',        file: 'wiki/cognitive/przetwarzanie_predyktywne.md' },
       ]
     },
     {
@@ -201,6 +281,7 @@ window.SITE_CONFIG = {
         { id: 'psychopathology/wyuczona_bezradnosc',          label: 'Wyuczona bezradność',             file: 'wiki/psychopathology/wyuczona_bezradnosc.md'           },
         { id: 'psychopathology/intelektualizacja',            label: 'Intelektualizacja emocji',        file: 'wiki/psychopathology/intelektualizacja.md'             },
         { id: 'psychopathology/dezintegracja_pozytywna',      label: 'Dezintegracja pozytywna',         file: 'wiki/psychopathology/dezintegracja_pozytywna.md'       },
+        { id: 'psychopathology/klasyfikacje',                 label: 'Klasyfikacje ICD-11 i DSM-5-TR',  file: 'wiki/psychopathology/klasyfikacje.md'                  },
       ]
     },
     {
@@ -217,6 +298,10 @@ window.SITE_CONFIG = {
         { id: 'psychotherapy/emdr',       label: 'EMDR',                         file: 'wiki/psychotherapy/emdr.md'      },
         { id: 'psychotherapy/act',        label: 'Terapia akceptacji (ACT)',      file: 'wiki/psychotherapy/act.md'       },
         { id: 'psychotherapy/trening_umiejetnosci_spolecznych', label: 'Trening Umiejętności Społecznych (SST)', file: 'wiki/psychotherapy/trening_umiejetnosci_spolecznych.md' },
+        { id: 'psychotherapy/gestalt',    label: 'Płodna pustka (Gestalt)',       file: 'wiki/psychotherapy/gestalt.md'    },
+        { id: 'psychotherapy/logoterapia_frankl',      label: 'Logoterapia (Frankl)',          file: 'wiki/psychotherapy/logoterapia_frankl.md'      },
+        { id: 'psychotherapy/psychoanaliza_fromma',    label: 'Psychoanaliza humanistyczna (Fromm)', file: 'wiki/psychotherapy/psychoanaliza_fromma.md' },
+        { id: 'psychotherapy/psychologia_zimbardo',    label: 'Psychologia społeczna (Zimbardo)',    file: 'wiki/psychotherapy/psychologia_zimbardo.md' },
       ]
     },
     {
@@ -404,6 +489,40 @@ window.SITE_CONFIG = {
       ]
     },
     {
+      section: 'Psychologia Szkolna i Edukacyjna',
+      items: [
+        { id: 'school_psychology/wprowadzenie',                  label: 'Psych. szkolna — wprowadzenie',            file: 'wiki/school_psychology/wprowadzenie.md'                  },
+        { id: 'school_psychology/teorie_uczenia_sie',            label: 'Teorie uczenia się',                       file: 'wiki/school_psychology/teorie_uczenia_sie.md'            },
+        { id: 'school_psychology/strefa_najblizszego_rozwoju',   label: 'Strefa najbliższego rozwoju (ZPD)',        file: 'wiki/school_psychology/strefa_najblizszego_rozwoju.md'   },
+        { id: 'school_psychology/motywacja_szkolna',             label: 'Motywacja szkolna',                        file: 'wiki/school_psychology/motywacja_szkolna.md'             },
+        { id: 'school_psychology/inteligencja_wieloraka',        label: 'Inteligencje wielorakie (Gardner)',        file: 'wiki/school_psychology/inteligencja_wieloraka.md'        },
+        { id: 'school_psychology/trudnosci_w_uczeniu_sie',       label: 'Trudności w uczeniu się',                 file: 'wiki/school_psychology/trudnosci_w_uczeniu_sie.md'       },
+        { id: 'school_psychology/adhd_w_szkole',                 label: 'ADHD w szkole',                            file: 'wiki/school_psychology/adhd_w_szkole.md'                 },
+        { id: 'school_psychology/relacje_nauczyciel_uczen',      label: 'Relacje nauczyciel–uczeń',                file: 'wiki/school_psychology/relacje_nauczyciel_uczen.md'      },
+        { id: 'school_psychology/klimat_szkolny',                label: 'Klimat szkolny',                           file: 'wiki/school_psychology/klimat_szkolny.md'                },
+        { id: 'school_psychology/ocenianie_i_feedback',          label: 'Ocenianie i informacja zwrotna',           file: 'wiki/school_psychology/ocenianie_i_feedback.md'          },
+        { id: 'school_psychology/stres_szkolny',                 label: 'Stres szkolny i lęk egzaminacyjny',       file: 'wiki/school_psychology/stres_szkolny.md'                 },
+        { id: 'school_psychology/interwencje_szkolne',           label: 'Interwencje psychologiczne w szkole',      file: 'wiki/school_psychology/interwencje_szkolne.md'           },
+      ]
+    },
+    {
+      section: 'Neuroróżnorodność',
+      items: [
+        { id: 'neurodiversity/wprowadzenie',               label: 'Neuroróżnorodność — wprowadzenie',    file: 'wiki/neurodiversity/wprowadzenie.md'               },
+        { id: 'neurodiversity/adhd',                       label: 'ADHD jako wariant neuroróżnorodności', file: 'wiki/neurodiversity/adhd.md'                       },
+        { id: 'neurodiversity/spektrum_autyzmu',           label: 'Spektrum autyzmu (ASD)',               file: 'wiki/neurodiversity/spektrum_autyzmu.md'           },
+        { id: 'neurodiversity/dysleksja',                  label: 'Dysleksja',                            file: 'wiki/neurodiversity/dysleksja.md'                  },
+        { id: 'neurodiversity/dyskalkulia',                label: 'Dyskalkulia',                          file: 'wiki/neurodiversity/dyskalkulia.md'                },
+        { id: 'neurodiversity/dyspraksja',                 label: 'Dyspraksja i DCD',                     file: 'wiki/neurodiversity/dyspraksja.md'                 },
+        { id: 'neurodiversity/tourette',                   label: 'Zespół Tourette\'a i tiki',            file: 'wiki/neurodiversity/tourette.md'                   },
+        { id: 'neurodiversity/hiperleksja',                label: 'Hiperleksja i wyjątkowe zdolności',    file: 'wiki/neurodiversity/hiperleksja.md'                },
+        { id: 'neurodiversity/model_mocnych_stron',        label: 'Model mocnych stron',                  file: 'wiki/neurodiversity/model_mocnych_stron.md'        },
+        { id: 'neurodiversity/wsparcie_interwencje',       label: 'Wsparcie i interwencje',               file: 'wiki/neurodiversity/wsparcie_interwencje.md'       },
+        { id: 'neurodiversity/neurozroznorodnosc_w_pracy', label: 'Neuroróżnorodność w miejscu pracy',   file: 'wiki/neurodiversity/neurozroznorodnosc_w_pracy.md' },
+        { id: 'neurodiversity/identyfikacja_i_diagnoza',   label: 'Identyfikacja i diagnoza',             file: 'wiki/neurodiversity/identyfikacja_i_diagnoza.md'   },
+      ]
+    },
+    {
       section: 'Psychologia Pozytywna',
       items: [
         { id: 'positive_psychology/wprowadzenie',          label: 'Psychologia pozytywna — wprow.',   file: 'wiki/positive_psychology/wprowadzenie.md'          },
@@ -506,39 +625,12 @@ window.SITE_CONFIG = {
       ]
     },
     {
-      section: 'Psychologia Szkolna i Edukacyjna',
+      section: 'Psychologia Społeczna',
       items: [
-        { id: 'school_psychology/wprowadzenie',                  label: 'Psych. szkolna — wprowadzenie',            file: 'wiki/school_psychology/wprowadzenie.md'                  },
-        { id: 'school_psychology/teorie_uczenia_sie',            label: 'Teorie uczenia się',                       file: 'wiki/school_psychology/teorie_uczenia_sie.md'            },
-        { id: 'school_psychology/strefa_najblizszego_rozwoju',   label: 'Strefa najbliższego rozwoju (ZPD)',        file: 'wiki/school_psychology/strefa_najblizszego_rozwoju.md'   },
-        { id: 'school_psychology/motywacja_szkolna',             label: 'Motywacja szkolna',                        file: 'wiki/school_psychology/motywacja_szkolna.md'             },
-        { id: 'school_psychology/inteligencja_wieloraka',        label: 'Inteligencje wielorakie (Gardner)',        file: 'wiki/school_psychology/inteligencja_wieloraka.md'        },
-        { id: 'school_psychology/trudnosci_w_uczeniu_sie',       label: 'Trudności w uczeniu się',                 file: 'wiki/school_psychology/trudnosci_w_uczeniu_sie.md'       },
-        { id: 'school_psychology/adhd_w_szkole',                 label: 'ADHD w szkole',                            file: 'wiki/school_psychology/adhd_w_szkole.md'                 },
-        { id: 'school_psychology/relacje_nauczyciel_uczen',      label: 'Relacje nauczyciel–uczeń',                file: 'wiki/school_psychology/relacje_nauczyciel_uczen.md'      },
-        { id: 'school_psychology/klimat_szkolny',                label: 'Klimat szkolny',                           file: 'wiki/school_psychology/klimat_szkolny.md'                },
-        { id: 'school_psychology/ocenianie_i_feedback',          label: 'Ocenianie i informacja zwrotna',           file: 'wiki/school_psychology/ocenianie_i_feedback.md'          },
-        { id: 'school_psychology/stres_szkolny',                 label: 'Stres szkolny i lęk egzaminacyjny',       file: 'wiki/school_psychology/stres_szkolny.md'                 },
-        { id: 'school_psychology/interwencje_szkolne',           label: 'Interwencje psychologiczne w szkole',      file: 'wiki/school_psychology/interwencje_szkolne.md'           },
+        { id: 'spoleczna/percepcja_spoleczna', label: 'Percepcja społeczna i atrybucje', file: 'wiki/spoleczna/percepcja_spoleczna.md' },
       ]
     },
-    {
-      section: 'Neuroróżnorodność',
-      items: [
-        { id: 'neurodiversity/wprowadzenie',               label: 'Neuroróżnorodność — wprowadzenie',    file: 'wiki/neurodiversity/wprowadzenie.md'               },
-        { id: 'neurodiversity/adhd',                       label: 'ADHD jako wariant neuroróżnorodności', file: 'wiki/neurodiversity/adhd.md'                       },
-        { id: 'neurodiversity/spektrum_autyzmu',           label: 'Spektrum autyzmu (ASD)',               file: 'wiki/neurodiversity/spektrum_autyzmu.md'           },
-        { id: 'neurodiversity/dysleksja',                  label: 'Dysleksja',                            file: 'wiki/neurodiversity/dysleksja.md'                  },
-        { id: 'neurodiversity/dyskalkulia',                label: 'Dyskalkulia',                          file: 'wiki/neurodiversity/dyskalkulia.md'                },
-        { id: 'neurodiversity/dyspraksja',                 label: 'Dyspraksja i DCD',                     file: 'wiki/neurodiversity/dyspraksja.md'                 },
-        { id: 'neurodiversity/tourette',                   label: 'Zespół Tourette\'a i tiki',            file: 'wiki/neurodiversity/tourette.md'                   },
-        { id: 'neurodiversity/hiperleksja',                label: 'Hiperleksja i wyjątkowe zdolności',    file: 'wiki/neurodiversity/hiperleksja.md'                },
-        { id: 'neurodiversity/model_mocnych_stron',        label: 'Model mocnych stron',                  file: 'wiki/neurodiversity/model_mocnych_stron.md'        },
-        { id: 'neurodiversity/wsparcie_interwencje',       label: 'Wsparcie i interwencje',               file: 'wiki/neurodiversity/wsparcie_interwencje.md'       },
-        { id: 'neurodiversity/neurozroznorodnosc_w_pracy', label: 'Neuroróżnorodność w miejscu pracy',   file: 'wiki/neurodiversity/neurozroznorodnosc_w_pracy.md' },
-        { id: 'neurodiversity/identyfikacja_i_diagnoza',   label: 'Identyfikacja i diagnoza',             file: 'wiki/neurodiversity/identyfikacja_i_diagnoza.md'   },
-      ]
-    },
+    
     {
       section: 'Encyklopedie',
       items: [
@@ -570,6 +662,7 @@ window.SITE_CONFIG = {
         { id: 'wiki-index/neurozroznorodnosc',   label: 'WIKI — Neuroróżnorodność',                 wiki: 'neurozroznorodnosc'   },
         { id: 'wiki-index/psych_sadowa',         label: 'WIKI — Psychologia sądowa',                wiki: 'psych_sadowa'         },
         { id: 'wiki-index/e_terapia',            label: 'WIKI — E-terapia',                         wiki: 'e_terapia'            },
+        { id: 'wiki-index/filozofia',            label: 'WIKI — Filozofia',                         wiki: 'filozofia'            },
       ]
     },
     {
@@ -605,6 +698,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/neuro/rehabilitacja_neuropsychologiczna.md', label: 'Rehabilitacja neuropsychologiczna', status: 'live' },
       { file: 'wiki/neuro/neuronauka_poznawcza.md', label: 'Neuronauka poznawcza', status: 'live' },
       { file: 'wiki/neuro/podstawy_neurologii.md', label: 'Podstawy neurologii',                 status: 'live' },
+      { file: 'wiki/neuro/pien_mozgu.md',          label: 'Pień mózgu i móżdżek',               status: 'live' },
     ],
     cognitive: [
       { file: 'wiki/cognitive/pamiec.md',              label: 'Pamięć',               status: 'live' },
@@ -624,10 +718,16 @@ window.SITE_CONFIG = {
       { file: 'wiki/cognitive/nasa_tlx.md',           label: 'NASA Task Load Index (TLX)', status: 'live' },
       { file: 'wiki/cognitive/iluzje.md',             label: 'Iluzje i błędy poznawcze',   status: 'live' },
       { file: 'wiki/cognitive/eksperyment_posnera.md',    label: 'Eksperyment Posnera',          status: 'live' },
+      { file: 'wiki/cognitive/maly_albert.md',            label: 'Eksperyment Małego Alberta',   status: 'live' },
       { file: 'wiki/cognitive/uwaga_mimowolna.md',         label: 'Uwaga mimowolna',              status: 'live' },
       { file: 'wiki/cognitive/nauki_kognitywne.md',        label: 'Nauki kognitywne',             status: 'live' },
       { file: 'wiki/cognitive/architektury_kognitywne.md', label: 'Architektury kognitywne',      status: 'live' },
       { file: 'wiki/cognitive/hda.md',                     label: 'Human Decision Accuracy (HDA)',status: 'live' },
+      { file: 'wiki/cognitive/system1_system2.md',        label: 'System 1 i System 2 (Kahneman)', status: 'live' },
+      { file: 'wiki/cognitive/przetwarzanie_predyktywne.md', label: 'Predictive processing',        status: 'live' },
+    ],
+    spoleczna: [
+      { file: 'wiki/spoleczna/percepcja_spoleczna.md', label: 'Percepcja społeczna i atrybucje', status: 'live' },
     ],
     disorders: [
       { file: 'wiki/disorders/afazje.md',    label: 'Afazje',                 status: 'live' },
@@ -721,6 +821,10 @@ window.SITE_CONFIG = {
       { file: 'wiki/psychotherapy/emdr.md',        label: 'EMDR',                         status: 'live' },
       { file: 'wiki/psychotherapy/act.md',         label: 'Terapia akceptacji (ACT)',      status: 'live' },
       { file: 'wiki/psychotherapy/trening_umiejetnosci_spolecznych.md', label: 'Trening Umiejętności Społecznych (SST)', status: 'live' },
+      { file: 'wiki/psychotherapy/gestalt.md',     label: 'Płodna pustka (fertile void) — Gestalt', status: 'live' },
+      { file: 'wiki/psychotherapy/logoterapia_frankl.md',   label: 'Logoterapia (Frankl)',                  status: 'live' },
+      { file: 'wiki/psychotherapy/psychoanaliza_fromma.md', label: 'Psychoanaliza humanistyczna (Fromm)',   status: 'live' },
+      { file: 'wiki/psychotherapy/psychologia_zimbardo.md', label: 'Psychologia społeczna (Zimbardo)',      status: 'live' },
     ],
     psychopathology: [
       { file: 'wiki/psychopathology/psychopatologia_wprowadzenie.md', label: 'Psychopatologia — wprowadzenie', status: 'live' },
@@ -740,6 +844,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/psychopathology/wyuczona_bezradnosc.md',        label: 'Wyuczona bezradność',         status: 'live' },
       { file: 'wiki/psychopathology/intelektualizacja.md',          label: 'Intelektualizacja emocji',    status: 'live' },
       { file: 'wiki/psychopathology/dezintegracja_pozytywna.md',    label: 'Dezintegracja pozytywna',     status: 'live' },
+      { file: 'wiki/psychopathology/klasyfikacje.md',               label: 'Klasyfikacje ICD-11 i DSM-5-TR', status: 'live' },
     ],
     suicidology: [
       { file: 'wiki/suicidology/suicydologia_wprowadzenie.md', label: 'Suicydologia — wprowadzenie', status: 'live' },
@@ -1009,6 +1114,34 @@ window.SITE_CONFIG = {
       { file: 'wiki/e_therapy/dostepnosc_cyfrowa.md',             label: 'Dostępność i wykluczenie cyfrowe',       status: 'live' },
       { file: 'wiki/e_therapy/przyszlosc_e_terapii.md',           label: 'Przyszłość e-terapii',                   status: 'live' },
     ],
+    philosophy: [
+      { file: 'wiki/philosophy/wprowadzenie.md',        label: 'Filozofia — wprowadzenie',       status: 'live' },
+      { file: 'wiki/philosophy/ontologia.md',           label: 'Ontologia i metafizyka',          status: 'live' },
+      { file: 'wiki/philosophy/epistemologia.md',       label: 'Epistemologia i teoria poznania', status: 'live' },
+      { file: 'wiki/philosophy/etyka.md',               label: 'Etyka i filozofia moralna',       status: 'live' },
+      { file: 'wiki/philosophy/filozofia_umyslu.md',    label: 'Filozofia umysłu',                status: 'live' },
+      { file: 'wiki/philosophy/filozofia_nauki.md',     label: 'Filozofia nauki',                 status: 'live' },
+      { file: 'wiki/philosophy/egzystencjalizm.md',     label: 'Egzystencjalizm',                 status: 'live' },
+      { file: 'wiki/philosophy/fenomenologia.md',       label: 'Fenomenologia',                   status: 'live' },
+      { file: 'wiki/philosophy/hermeneutyka.md',        label: 'Hermeneutyka i interpretacja',    status: 'live' },
+      { file: 'wiki/philosophy/logika.md',              label: 'Logika i argumentacja',           status: 'live' },
+      { file: 'wiki/philosophy/filozofia_jezyka.md',    label: 'Filozofia języka',                status: 'live' },
+      { file: 'wiki/philosophy/filozofia_czlowieka.md',        label: 'Filozofia człowieka',                        status: 'live' },
+      { file: 'wiki/philosophy/cien_antropiczny.md',          label: 'Cień antropiczny',                           status: 'live' },
+      { file: 'wiki/philosophy/mozg_boltzmanna.md',           label: 'Mózg Boltzmanna',                            status: 'live' },
+      { file: 'wiki/philosophy/horror_panpsychizmu.md',       label: 'Horror panpsychizmu',                        status: 'live' },
+      { file: 'wiki/philosophy/filozoficzne_zombie.md',       label: 'Filozoficzne zombie',                        status: 'live' },
+      { file: 'wiki/philosophy/pusty_indywidualizm.md',       label: 'Pusty indywidualizm',                        status: 'live' },
+      { file: 'wiki/philosophy/asymetria_dobra_i_bolu.md',    label: 'Asymetria dobra i bólu',                     status: 'live' },
+      { file: 'wiki/philosophy/niemoralnosc_braku_zgody.md',  label: 'Niemoralność braku zgody na narodziny',      status: 'live' },
+      { file: 'wiki/philosophy/redukcjonizm_tozsamosci.md',   label: 'Redukcjonizm tożsamości osobowej',           status: 'live' },
+      { file: 'wiki/philosophy/eliminatywizm_materialny.md',  label: 'Eliminatywizm materialny',                   status: 'live' },
+      { file: 'wiki/philosophy/efilizm.md',                   label: 'Efilizm',                                    status: 'live' },
+      { file: 'wiki/philosophy/pesymizm_biologiczny.md',      label: 'Pesymizm biologiczny',                       status: 'live' },
+      { file: 'wiki/philosophy/podswiadomy_nihilizm.md',      label: 'Podświadomy nihilizm',                       status: 'live' },
+      { file: 'wiki/philosophy/paradoksalny_determinizm.md',  label: 'Paradoksalny determinizm',                   status: 'live' },
+      { file: 'wiki/philosophy/realizm_modalny.md',           label: 'Realizm modalny',                            status: 'live' },
+    ],
   },
 
   // ─────────────────────────────────────────────────────────────
@@ -1035,7 +1168,7 @@ window.SITE_CONFIG = {
             { label: 'Neuropsychologia cyklu miesiączkowego', id: 'neuro/cykl_miesiaczkowy', status: 'live', desc: 'Wpływ estradiolu i progesteronu na poznanie, nastrój i mózg.' },
             { label: 'Neuronauka poznawcza', id: 'neuro/neuronauka_poznawcza', status: 'live', desc: 'Biologiczne mechanizmy procesów poznawczych — percepcja, pamięć, uwaga, świadomość.' },
             { label: 'Podstawy neurologii', id: 'neuro/podstawy_neurologii', status: 'live', desc: 'Organizacja OUN/PNS, neurony, glej, drogi nerwowe, badanie neurologiczne.' },
-            { label: 'Pień mózgu i móżdżek', id: null, status: 'planned', desc: 'Struktury podkorowe i ich funkcje kliniczne.' },
+            { label: 'Pień mózgu i móżdżek', id: 'neuro/pien_mozgu', status: 'live', desc: 'Struktury podkorowe i ich funkcje kliniczne.' },
           ]
         },
         {
@@ -1098,7 +1231,7 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Psychopatologia ogólna', id: 'psychopathology/psychopatologia_wprowadzenie', status: 'live' },
             { label: 'Badanie stanu psychicznego (MSE)', id: 'psychopathology/objawy_ogolne', status: 'live' },
-            { label: 'Klasyfikacje ICD-11 i DSM-5-TR', id: null, status: 'planned' },
+            { label: 'Klasyfikacje ICD-11 i DSM-5-TR', id: 'psychopathology/klasyfikacje', status: 'live' },
             { label: 'Formułowanie przypadku', id: null, status: 'planned' },
           ]
         },
@@ -1136,6 +1269,10 @@ window.SITE_CONFIG = {
             { label: 'Skuteczność psychoterapii', id: 'psychotherapy/skutecznosc', status: 'live' },
             { label: 'Sojusz terapeutyczny', id: 'psychotherapy/sojusz', status: 'live' },
             { label: 'Trening Umiejętności Społecznych (SST)', id: 'psychotherapy/trening_umiejetnosci_spolecznych', status: 'live' },
+            { label: 'Płodna pustka (fertile void) — Gestalt', id: 'psychotherapy/gestalt', status: 'live' },
+            { label: 'Logoterapia (Frankl)', id: 'psychotherapy/logoterapia_frankl', status: 'live' },
+            { label: 'Psychoanaliza humanistyczna (Fromm)', id: 'psychotherapy/psychoanaliza_fromma', status: 'live' },
+            { label: 'Psychologia społeczna (Zimbardo)', id: 'psychotherapy/psychologia_zimbardo', status: 'live' },
             { label: 'Interwencja kryzysowa', id: 'suicidology/interwencja', status: 'live' },
           ]
         },
@@ -1191,13 +1328,14 @@ window.SITE_CONFIG = {
             { label: 'Zmęczenie poznawcze', id: 'cognitive/zmeczenie_poznawcze', status: 'live' },
             { label: 'Iluzje i błędy poznawcze', id: 'cognitive/iluzje', status: 'live' },
             { label: 'Eksperyment Posnera', id: 'cognitive/eksperyment_posnera', status: 'live' },
+            { label: 'Eksperyment Małego Alberta', id: 'cognitive/maly_albert', status: 'live' },
           ]
         },
         {
           title: 'Modele i teorie',
           articles: [
-            { label: 'System 1 i System 2 (Kahneman)', id: null, status: 'planned' },
-            { label: 'Predictive processing', id: null, status: 'planned' },
+            { label: 'System 1 i System 2 (Kahneman)', id: 'cognitive/system1_system2', status: 'live' },
+            { label: 'Predictive processing', id: 'cognitive/przetwarzanie_predyktywne', status: 'live' },
             { label: 'Ucieleśnione poznanie', id: null, status: 'planned' },
           ]
         },
@@ -1211,7 +1349,7 @@ window.SITE_CONFIG = {
         {
           title: 'Poznanie społeczne',
           articles: [
-            { label: 'Percepcja społeczna i atrybucje', id: null, status: 'planned' },
+            { label: 'Percepcja społeczna i atrybucje', id: 'spoleczna/percepcja_spoleczna', status: 'live' },
             { label: 'Stereotypy i uprzedzenia', id: null, status: 'planned' },
             { label: 'Ja i samoocena', id: null, status: 'planned' },
             { label: 'Postawy i zmiana postaw', id: null, status: 'planned' },
@@ -2162,6 +2300,54 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'E-terapia dzieci i młodzieży', id: 'e_therapy/e_terapia_dzieci',     status: 'live' },
             { label: 'Przyszłość e-terapii',         id: 'e_therapy/przyszlosc_e_terapii', status: 'live' },
+    filozofia: {
+      title: 'WIKI — Filozofia',
+      intro: 'Filozofia jest matką wszystkich nauk — bada fundamentalne pytania o rzeczywistość, poznanie, wartości i naturę człowieka. Encyklopedia obejmuje główne działy filozofii (ontologię, epistemologię, etykę, filozofię umysłu) oraz kierunki szczególnie bliskie psychologii: egzystencjalizm, fenomenologię, hermeneutykę i filozofię języka.',
+      sections: [
+        {
+          title: 'Podstawy filozofii',
+          articles: [
+            { label: 'Filozofia — wprowadzenie',       id: 'philosophy/wprowadzenie',  status: 'live' },
+            { label: 'Ontologia i metafizyka',          id: 'philosophy/ontologia',     status: 'live' },
+            { label: 'Epistemologia i teoria poznania', id: 'philosophy/epistemologia', status: 'live' },
+            { label: 'Etyka i filozofia moralna',       id: 'philosophy/etyka',         status: 'live' },
+          ]
+        },
+        {
+          title: 'Filozofia umysłu i nauki',
+          articles: [
+            { label: 'Filozofia umysłu',  id: 'philosophy/filozofia_umyslu', status: 'live' },
+            { label: 'Filozofia nauki',   id: 'philosophy/filozofia_nauki',  status: 'live' },
+            { label: 'Logika i argumentacja', id: 'philosophy/logika',       status: 'live' },
+          ]
+        },
+        {
+          title: 'Kierunki bliskie psychologii',
+          articles: [
+            { label: 'Egzystencjalizm',                id: 'philosophy/egzystencjalizm',     status: 'live' },
+            { label: 'Fenomenologia',                   id: 'philosophy/fenomenologia',       status: 'live' },
+            { label: 'Hermeneutyka i interpretacja',    id: 'philosophy/hermeneutyka',        status: 'live' },
+            { label: 'Filozofia języka',                id: 'philosophy/filozofia_jezyka',    status: 'live' },
+            { label: 'Filozofia człowieka',             id: 'philosophy/filozofia_czlowieka',        status: 'live' },
+          ]
+        },
+        {
+          title: 'Filozofia ciemna i spekulatywna',
+          articles: [
+            { label: 'Cień antropiczny',                       id: 'philosophy/cien_antropiczny',          status: 'live' },
+            { label: 'Mózg Boltzmanna',                        id: 'philosophy/mozg_boltzmanna',           status: 'live' },
+            { label: 'Horror panpsychizmu',                    id: 'philosophy/horror_panpsychizmu',       status: 'live' },
+            { label: 'Filozoficzne zombie',                    id: 'philosophy/filozoficzne_zombie',       status: 'live' },
+            { label: 'Pusty indywidualizm',                    id: 'philosophy/pusty_indywidualizm',       status: 'live' },
+            { label: 'Asymetria dobra i bólu',                 id: 'philosophy/asymetria_dobra_i_bolu',    status: 'live' },
+            { label: 'Niemoralność braku zgody na narodziny',  id: 'philosophy/niemoralnosc_braku_zgody',  status: 'live' },
+            { label: 'Redukcjonizm tożsamości osobowej',       id: 'philosophy/redukcjonizm_tozsamosci',   status: 'live' },
+            { label: 'Eliminatywizm materialny',               id: 'philosophy/eliminatywizm_materialny',  status: 'live' },
+            { label: 'Efilizm',                                id: 'philosophy/efilizm',                   status: 'live' },
+            { label: 'Pesymizm biologiczny',                   id: 'philosophy/pesymizm_biologiczny',      status: 'live' },
+            { label: 'Podświadomy nihilizm',                   id: 'philosophy/podswiadomy_nihilizm',      status: 'live' },
+            { label: 'Paradoksalny determinizm',               id: 'philosophy/paradoksalny_determinizm',  status: 'live' },
+            { label: 'Realizm modalny',                        id: 'philosophy/realizm_modalny',           status: 'live' },
           ]
         },
       ]

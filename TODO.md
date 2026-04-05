@@ -1,7 +1,7 @@
 # PsyHub — Lista zadań (TODO)
 
-> Ostatnia aktualizacja: 2026-04-02  
-> Stan bazy: **355 plików MD**, **658 artykułów live**, **71 zaplanowanych**, **26 encyklopedii wiki**
+> Ostatnia aktualizacja: 2026-04-03  
+> Stan bazy: **357 plików MD**, **664 artykułów live**, **69 zaplanowanych**, **26 encyklopedii wiki**
 
 ---
 
@@ -42,23 +42,23 @@ Następujące klucze są odwoływane przez nawigację (`wiki-index/...`), ale br
 
 ---
 
-## 🟡 Artykuły zaplanowane do napisania (71 łącznie)
+## 🟡 Artykuły zaplanowane do napisania (69 łącznie)
 
 ### WIKI — Neuropsychologia kliniczna (`neuropsychologia`)
-- [ ] Pień mózgu i móżdżek *(Podstawy neuroanatomiczne)*
+- [x] Pień mózgu i móżdżek *(Podstawy neuroanatomiczne)* ✓ `wiki/neuro/pien_mozgu.md`
 
 ### WIKI — Psychologia kliniczna (`kliniczna`)
-- [ ] Klasyfikacje ICD-11 i DSM-5-TR *(Podstawy diagnostyki)*
+- [x] Klasyfikacje ICD-11 i DSM-5-TR *(Podstawy diagnostyki)* ✓ `wiki/psychopathology/klasyfikacje.md`
 - [ ] Formułowanie przypadku *(Podstawy diagnostyki)*
 - [ ] Narzędzia kliniczne — PHQ-9, GAD-7, PCL-5 *(Psychometria)*
 
 ### WIKI — Psychologia poznawcza (`poznawcza`)
-- [ ] System 1 i System 2 — Kahneman *(Modele i teorie)*
-- [ ] Predictive processing *(Modele i teorie)*
+- [x] System 1 i System 2 — Kahneman *(Modele i teorie)* ✓ `wiki/cognitive/system1_system2.md`
+- [x] Predictive processing *(Modele i teorie)* ✓ `wiki/cognitive/przetwarzanie_predyktywne.md`
 - [ ] Ucieleśnione poznanie *(Modele i teorie)*
 
 ### WIKI — Psychologia społeczna (`spoleczna`)
-- [ ] Percepcja społeczna i atrybucje
+- [x] Percepcja społeczna i atrybucje ✓ `wiki/spoleczna/percepcja_spoleczna.md`
 - [ ] Stereotypy i uprzedzenia
 - [ ] Ja i samoocena
 - [ ] Postawy i zmiana postaw
@@ -141,9 +141,7 @@ Następujące klucze są odwoływane przez nawigację (`wiki-index/...`), ale br
 
 ## 🟢 Nowe sekcje / domeny do rozważenia
 
-Istniejące foldery wiki nie mają jeszcze pełnego pokrycia w nawigacji lub planach:
-
-- [ ] **Psychologia społeczna** — brak sekcji nav dla `spoleczna` (artykuły tylko w wiki-index)
+- [x] **Psychologia społeczna** — dodano sekcję nav `Psychologia Społeczna` i `plans.spoleczna` ✓
 - [ ] **Psychologia kulturowa** — brak sekcji nav dla `kulturowa`
 - [ ] **Psychologia rozwojowa** — brak sekcji nav dla `rozwojowa`
 - [ ] **Psychologia uzależnień** — brak sekcji nav dla `uzaleznienia`
@@ -199,6 +197,7 @@ Działy z małą liczbą artykułów — kandydaci do rozbudowy:
 | `diagnostics` | 8 | Diagnoza różnicowa, protokoły diagnostyczne |
 | `suicidology` | 9 | Prewencja, interwencja kryzysowa, postvencja |
 | `pharmacology` | 10 | Interakcje lekowe, farmakogenetyka, nowe leki |
+| `spoleczna` | 1 | Stereotypy, konformizm, wpływ społeczny, atrakcyjność |
 
 ---
 
@@ -221,3 +220,4 @@ Przypomnienie workflow (patrz też `README.md`):
    - `plans.<domena>` → status `'live'`
    - `wikis.<klucz>` → odpowiednia sekcja encyklopedii
 3. Zmień status z `'planned'` → `'live'` we wszystkich miejscach
+
