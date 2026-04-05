@@ -45,7 +45,7 @@ Podstawowe warunki przeżycia i zdrowia:
 - Miłość, czułość, troskliwość
 - Przynależność do grupy, wspólnota
 - Bliskość emocjonalna
-- Przyjaźń, towarzystwoidobro
+- Przyjaźń, towarzystwo i dobro
 - Akceptacja i bycie akceptowanym
 
 ### 4. Szacunek i uznanie
