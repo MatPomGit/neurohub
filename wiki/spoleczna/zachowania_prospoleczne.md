@@ -102,7 +102,7 @@ Osoby na wyższych stadiach wykazują więcej zachowań prospołecznych, są bar
 
 Gilligan (1982) krytykowała Kohlberga za androcentryzm: jej badania wskazywały, że kobiety częściej rozumują w kategoriach troski i relacji (*ethics of care*), nie abstrakcyjnych zasad — co Kohlberg błędnie klasyfikował jako niższy poziom moralny.
 
-## Empatia jako fundament zachowań prospołeczne
+## Empatia jako fundament zachowań prospołecznych
 
 Martin Hoffman (2000) opisał rozwój empatii od prymitywnego zarażenia emocjonalnego (noworodki płaczą na płacz innych dzieci) przez egzocentryczną empatię do dojrzałej, decentrowanej troski uwzględniającej perspektywę i dobrostan innych.
 
