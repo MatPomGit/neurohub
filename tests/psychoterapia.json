@@ -358,5 +358,367 @@
     ],
     "correct": 1,
     "difficulty": 3
+  },
+  {
+    "id": 31,
+    "question": "Technika \"hierarchii lęku\" w terapii behawioralnej służy do:",
+    "options": [
+      "Oceny struktury osobowości pacjenta",
+      "Stopniowego planowania ekspozycji od najmniej do najbardziej lękotwórczych bodźców",
+      "Analizy relacji rodzinnych",
+      "Identyfikacji mechanizmów obronnych"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 32,
+    "question": "Warunkowanie klasyczne w terapii oznacza:",
+    "options": [
+      "Uczenie się przez konsekwencje zachowania",
+      "Łączenie bodźca neutralnego z bodźcem bezwarunkowym",
+      "Modelowanie zachowania przez obserwację",
+      "Analizę nieświadomych konfliktów"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 33,
+    "question": "Technika \"modelowania\" polega na:",
+    "options": [
+      "Wzmacnianiu zachowań poprzez nagrody",
+      "Uczeniu się poprzez obserwację innych",
+      "Analizie schematów poznawczych",
+      "Interpretacji snów"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 34,
+    "question": "Reinforcement (wzmocnienie) w terapii behawioralnej oznacza:",
+    "options": [
+      "Karę za niepożądane zachowanie",
+      "Zwiększenie prawdopodobieństwa zachowania poprzez konsekwencje",
+      "Ignorowanie zachowań",
+      "Zmianę przekonań"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 35,
+    "question": "Desensytyzacja systematyczna Wolpego opiera się na:",
+    "options": [
+      "Ekspozycji i relaksacji",
+      "Analizie snów",
+      "Eksternalizacji problemu",
+      "Interpretacji przeniesienia"
+    ],
+    "correct": 0,
+    "difficulty": 1
+  },
+  {
+    "id": 36,
+    "question": "W CBT \"restrukturyzacja poznawcza\" polega na:",
+    "options": [
+      "Zmianie zachowania poprzez warunkowanie",
+      "Identyfikacji i modyfikacji dysfunkcjonalnych myśli",
+      "Interpretacji nieświadomości",
+      "Ekspozycji na bodźce"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 37,
+    "question": "Pojęcie \"schematu\" w psychoterapii oznacza:",
+    "options": [
+      "Chwilową emocję",
+      "Trwały wzorzec poznawczo-emocjonalny",
+      "Refleks fizjologiczny",
+      "Zachowanie automatyczne"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 38,
+    "question": "W terapii humanistycznej kluczowe jest:",
+    "options": [
+      "Diagnozowanie patologii",
+      "Subiektywne doświadczenie jednostki",
+      "Warunkowanie zachowań",
+      "Analiza konfliktów"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 39,
+    "question": "Empatia terapeutyczna oznacza:",
+    "options": [
+      "Ocenę pacjenta",
+      "Zrozumienie jego perspektywy wewnętrznej",
+      "Kontrolę zachowania",
+      "Interpretację objawów"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 40,
+    "question": "Psychoedukacja w terapii polega na:",
+    "options": [
+      "Uczeniu pacjenta o mechanizmach zaburzeń",
+      "Ekspozycji na lęk",
+      "Interpretacji snów",
+      "Analizie relacji rodzinnych"
+    ],
+    "correct": 0,
+    "difficulty": 1
+  },
+
+  {
+    "id": 41,
+    "question": "W DBT komponent \"regulacji emocji\" obejmuje:",
+    "options": [
+      "Ignorowanie emocji",
+      "Uczenie identyfikacji i modulacji emocji",
+      "Analizę snów",
+      "Konfrontację poznawczą"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 42,
+    "question": "Defuzja poznawcza w ACT polega na:",
+    "options": [
+      "Eliminacji myśli",
+      "Zmianie relacji do myśli",
+      "Wzmacnianiu przekonań",
+      "Interpretacji emocji"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 43,
+    "question": "W terapii schematu \"tryby\" oznaczają:",
+    "options": [
+      "Etapy terapii",
+      "Chwilowe stany organizacji psychicznej",
+      "Typy relacji",
+      "Style przywiązania"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 44,
+    "question": "Technika \"pustego krzesła\" pochodzi z:",
+    "options": [
+      "CBT",
+      "Gestalt",
+      "Psychoanalizy",
+      "Systemowej"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 45,
+    "question": "Mentalizacja oznacza:",
+    "options": [
+      "Kontrolę zachowań",
+      "Rozumienie stanów umysłowych",
+      "Zmianę schematów",
+      "Warunkowanie reakcji"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 46,
+    "question": "Reatrybucja w CBT polega na:",
+    "options": [
+      "Zmianie przypisywania przyczyn zdarzeń",
+      "Ekspozycji",
+      "Relaksacji",
+      "Interpretacji snów"
+    ],
+    "correct": 0,
+    "difficulty": 2
+  },
+  {
+    "id": 47,
+    "question": "Homeostaza w systemie rodzinnym oznacza:",
+    "options": [
+      "Stałość funkcjonowania systemu",
+      "Zmianę relacji",
+      "Rozpad systemu",
+      "Hierarchię władzy"
+    ],
+    "correct": 0,
+    "difficulty": 2
+  },
+  {
+    "id": 48,
+    "question": "Eksternalizacja problemu oznacza:",
+    "options": [
+      "Utożsamienie się z problemem",
+      "Oddzielenie problemu od osoby",
+      "Analizę przyczyn",
+      "Ekspozycję"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 49,
+    "question": "Wzmocnienie negatywne oznacza:",
+    "options": [
+      "Karę",
+      "Usunięcie bodźca awersyjnego",
+      "Dodanie bodźca",
+      "Ignorowanie"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 50,
+    "question": "Relacja terapeutyczna w ujęciu Rogersa opiera się na:",
+    "options": [
+      "Dyrektywności",
+      "Autentyczności, empatii i akceptacji",
+      "Interpretacji",
+      "Konfrontacji"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+
+  {
+    "id": 51,
+    "question": "Model heksafleksu w ACT obejmuje procesy:",
+    "options": [
+      "Percepcji i pamięci",
+      "Elastyczności psychologicznej",
+      "Warunkowania",
+      "Regulacji biologicznej"
+    ],
+    "correct": 1,
+    "difficulty": 3
+  },
+  {
+    "id": 52,
+    "question": "Koncepcja struktury osobowości w OPD obejmuje:",
+    "options": [
+      "IQ i temperament",
+      "Zdolności regulacyjne i relacyjne",
+      "Wyłącznie objawy",
+      "Zachowania"
+    ],
+    "correct": 1,
+    "difficulty": 3
+  },
+  {
+    "id": 53,
+    "question": "Mechanizmy obronne ego służą do:",
+    "options": [
+      "Zwiększania lęku",
+      "Redukcji napięcia psychicznego",
+      "Zmiany zachowania",
+      "Uczenia się"
+    ],
+    "correct": 1,
+    "difficulty": 3
+  },
+  {
+    "id": 54,
+    "question": "Internalizacja w psychoterapii oznacza:",
+    "options": [
+      "Zewnętrzne wyrażanie emocji",
+      "Włączanie doświadczeń do struktury psychicznej",
+      "Ekspozycję",
+      "Modelowanie"
+    ],
+    "correct": 1,
+    "difficulty": 3
+  },
+  {
+    "id": 55,
+    "question": "Triada Becka obejmuje:",
+    "options": [
+      "Myśli o przeszłości",
+      "Negatywne przekonania o sobie, świecie i przyszłości",
+      "Emocje i zachowania",
+      "Relacje społeczne"
+    ],
+    "correct": 1,
+    "difficulty": 3
+  },
+  {
+    "id": 56,
+    "question": "Koncepcja przywiązania Bowlby'ego wpływa na terapię poprzez:",
+    "options": [
+      "Warunkowanie",
+      "Relacyjne wzorce emocjonalne",
+      "Ekspozycję",
+      "Analizę snów"
+    ],
+    "correct": 1,
+    "difficulty": 3
+  },
+  {
+    "id": 57,
+    "question": "W TFP celem jest:",
+    "options": [
+      "Redukcja objawów",
+      "Integracja reprezentacji self i obiektu",
+      "Relaksacja",
+      "Zmiana zachowania"
+    ],
+    "correct": 1,
+    "difficulty": 3
+  },
+  {
+    "id": 58,
+    "question": "W podejściu relacyjnym terapeuta:",
+    "options": [
+      "Jest neutralny",
+      "Jest współuczestnikiem procesu",
+      "Jest dyrektywny",
+      "Unika emocji"
+    ],
+    "correct": 1,
+    "difficulty": 3
+  },
+  {
+    "id": 59,
+    "question": "Dysocjacja w traumie oznacza:",
+    "options": [
+      "Integrację doświadczeń",
+      "Rozszczepienie świadomości",
+      "Wzmocnienie emocji",
+      "Uczenie się"
+    ],
+    "correct": 1,
+    "difficulty": 3
+  },
+  {
+    "id": 60,
+    "question": "Czynnik terapeutyczny \"korektywne doświadczenie emocjonalne\" oznacza:",
+    "options": [
+      "Powtarzanie traum",
+      "Nowe doświadczenie relacyjne zmieniające stare wzorce",
+      "Ekspozycję",
+      "Relaksację"
+    ],
+    "correct": 1,
+    "difficulty": 3
   }
 ]
