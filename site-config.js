@@ -29,8 +29,9 @@ window.SITE_CONFIG = {
     {
       section: 'Dla Studentów',
       items: [
-        { id: 'students/wybor_specjalnosci', label: 'Wybór specjalności', file: 'wiki/students/wybor_specjalnosci.md' },
-        { id: 'students/test_specjalnosci',  label: 'Test wyboru specjalności', custom: 'specialization_test' },
+        { id: 'students/wybor_specjalnosci',    label: 'Wybór specjalności',           file: 'wiki/students/wybor_specjalnosci.md' },
+        { id: 'students/test_specjalnosci',     label: 'Test wyboru specjalności',     custom: 'specialization_test' },
+        { id: 'students/psychologia_codziennej', label: 'Psychologia Codziennej 🗓️',   custom: 'daily_psychology' },
         /**{ id: 'students/monopoly_psychologiczne', href: 'https://matpomgit.github.io/Psychopoly/', label: 'Monopoly Psychologiczne' },*/
       ]
     },
@@ -2303,6 +2304,10 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'E-terapia dzieci i młodzieży', id: 'e_therapy/e_terapia_dzieci',     status: 'live' },
             { label: 'Przyszłość e-terapii',         id: 'e_therapy/przyszlosc_e_terapii', status: 'live' },
+          ]
+        },
+      ]
+    },
     filozofia: {
       title: 'WIKI — Filozofia',
       intro: 'Filozofia jest matką wszystkich nauk — bada fundamentalne pytania o rzeczywistość, poznanie, wartości i naturę człowieka. Encyklopedia obejmuje główne działy filozofii (ontologię, epistemologię, etykę, filozofię umysłu) oraz kierunki szczególnie bliskie psychologii: egzystencjalizm, fenomenologię, hermeneutykę i filozofię języka.',
