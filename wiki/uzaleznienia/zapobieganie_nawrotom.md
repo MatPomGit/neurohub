@@ -107,7 +107,7 @@ Interwencja terapeutyczna polega na **reframing nawrotu jako lapsu** — pojedyn
 Bowen i in. (2014) — randomizowane badanie kontrolowane (n = 286) wykazało, że MBRP w porównaniu z tradycyjnym zapobieganiem nawrotom i programem 12-kroków:
 - istotnie redukowało liczbę dni używania substancji po 12 miesiącach
 - zmniejszało ciężkość używania narkotyków wśród osób, które nawróciły
-- poprawiało regulację emocji i redukuje reaktywność na stres
+- poprawiało regulację emocji i redukowało reaktywność na stres
 
 ---
 
