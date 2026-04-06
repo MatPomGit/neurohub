@@ -9,7 +9,8 @@
       "Zaburzonego neuroprzekaźnictwa serotoninergicznego"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "CBT Becka i Ellisa zakłada, że emocje i zachowania są w dużej mierze skutkiem interpretacji sytuacji. Dlatego zmiana dysfunkcjonalnych przekonań prowadzi do zmiany objawów."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Terapii systemowej"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Wolne skojarzenia są klasyczną techniką psychoanalizy Freuda. Mają odsłaniać nieświadome treści przez swobodne wypowiadanie kolejnych myśli."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Terapii racjonalno-emotywnej Ellisa"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Bezwarunkowa akceptacja pozytywna to jeden z trzech warunków leczniczych Rogersa obok empatii i kongruencji. Ma tworzyć klimat sprzyjający rozwojowi i samopoznaniu klienta."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Schizofrenii"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "ERP jest złotym standardem leczenia OCD, bo ekspozycja na bodziec lękowy bez rytuału wygasza lęk i rozbija negatywne wzmocnienie kompulsji. To jeden z najlepiej potwierdzonych protokołów CBT."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Osób ze schizofrenią"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "DBT Marshy Linehan powstała dla pacjentów z BPD i chroniczną samouszkadzalnością. Łączy akceptację z uczeniem regulacji emocji i tolerancji dystresu."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Przejściu pacjenta od jednego terapeuty do drugiego"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Transfer oznacza, że klient odtwarza wobec terapeuty wzorce emocjonalne z ważnych wcześniejszych relacji. W psychodynamicznym ujęciu daje to dostęp do nieświadomych schematów przywiązaniowych i obronnych."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Transferem klienta do innego specjalisty"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Bordin opisywał sojusz terapeutyczny jako zgodę co do celów, zadań i więź emocjonalną. Metaanalizy pokazują, że jest jednym z najsilniejszych predyktorów skuteczności terapii."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Zaburzeń osobowości narcystycznej"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "EMDR Francine Shapiro ma najlepsze potwierdzenie w leczeniu PTSD i traumy. Przetwarzanie wspomnienia z bilateralną stymulacją ma zmniejszać jego emocjonalne obciążenie."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Głęboko zakorzenionych schematach poznawczych z dzieciństwa"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Terapia systemowa traktuje problem jako element wzorca relacji, a nie tylko cechę jednostki. Analizuje komunikację, granice i role w rodzinie lub innym systemie społecznym."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Treści pojawiające się w snach pacjenta"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Automatyczne myśli Becka są szybkie, spontaniczne i często niekwestionowane, ale silnie wpływają na emocje. W CBT stanowią bezpośredni cel monitorowania i restrukturyzacji."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Stosowaniu technik relaksacyjnych i biofeedbacku"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Dialog sokratejski nie polega na przekonywaniu pacjenta, lecz na pytaniach prowadzących go do samodzielnej weryfikacji przekonań. Dzięki temu zmiana poznawcza jest głębsza i trwalsza."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Dysfunkcyjnych schematów poznawczych ukształtowanych w adolescencji"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "MBT Batemana i Fonagy’ego zakłada, że u BPD pod wpływem silnego pobudzenia załamuje się zdolność rozumienia stanów psychicznych własnych i cudzych. Terapia odbudowuje mentalizację w relacji."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Terapii ACT i analizy behawioralnej"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Schema Therapy Younga rozszerza CBT o teorię przywiązania, relacje z obiektem i techniki doświadczeniowe. Celem są wczesne nieadaptacyjne schematy oraz tryby schematów."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Psychoedukację w zakresie neurobiologii zaburzeń"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Terapie trzeciej fali mniej walczą z treścią myśli, a bardziej zmieniają relację do doświadczeń wewnętrznych. ACT i DBT akcentują akceptację, uważność i działanie zgodne z wartościami."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Techniki uziemienia stosowanej w pracy z traumą"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Containment Biona opisuje zdolność terapeuty do przyjęcia surowych, trudnych stanów pacjenta i oddania ich w bardziej przetworzonej formie. To ważny element pracy z lękiem i projekcją."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Z zaburzeniami osobowości antysocjalnej"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "MBCT Segala, Williamsa i Teasdale’a ma szczególnie dobre dane w profilaktyce nawrotów nawracającej depresji. Uczy zauważać myśli depresyjne bez automatycznego wchodzenia w ruminację."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "Przeniesienie przez terapeutę własnych potrzeb na klienta"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Współcześnie kontrprzeniesienie rozumie się szeroko jako całą reakcję terapeuty na pacjenta, a nie tylko zakłócenie. Odpowiednio analizowane staje się cennym źródłem informacji diagnostycznej."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Zastosowaniu technik mindfulness do obserwacji strumienia myśli"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Terapia narracyjna White’a i Epstona externalizuje problem i pomaga klientowi stworzyć alternatywną historię życia. Zmienia to relację osoby do problemu, zamiast definiować ją przez objaw."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "Kompleksowa diagnoza osobowości przed podjęciem działań"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Interwencja kryzysowa koncentruje się na bezpieczeństwie, stabilizacji i szybkim uruchomieniu zasobów. Nie służy głębokiej przebudowie osobowości, lecz przywróceniu równowagi."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Restrukturyzację schematu tożsamości przez pracę z częściami osobowości"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Prolonged Exposure Edny Foa łączy ekspozycję wyobrażeniową na wspomnienie traumy z ekspozycją in vivo na unikaną rzeczywistość. Dzięki temu maleje lęk i unikanie podtrzymujące PTSD."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Farmakoterapia zawsze przewyższa psychoterapię"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Efekt Dodo oznacza, że różne szkoły terapii często dają zbliżone wyniki. Wampold i inni wiążą to z wagą czynników wspólnych, takich jak relacja i oczekiwania."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Hierarchii potrzeb Maslowa"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "ACT opiera się na heksafleksie, czyli sześciu procesach budujących elastyczność psychologiczną. Najważniejsze są akceptacja, defuzja, kontakt z chwilą obecną i działanie zgodne z wartościami."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Długość terapii jako jedyny istotny predyktor skuteczności"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Model Lamberta pokazuje, że techniki specyficzne wyjaśniają tylko część efektu terapii. Dużą rolę odgrywają czynniki klienta, nadzieja i relacja terapeutyczna."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Diagnozy neuropsychologicznej po urazach czaszkowo-mózgowych"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "OPD to wieloosiowy system diagnozy psychodynamicznej obejmujący relacje, konflikty, strukturę i obraz choroby. Pomaga planować terapię bardziej precyzyjnie niż sama diagnoza kategorialna."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Zbyt niska aktywacja jest ważniejszym problemem niż nadmierna aktywacja"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Okno tolerancji Siegela i Ogden oznacza zakres pobudzenia, w którym możliwe jest integracyjne przetwarzanie doświadczenia. Poza nim pacjent wpada w hiper- lub hipoaktywację."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Pacjentów po epizodzie psychotycznym"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "TFP Kernberga została opracowana dla osobowości borderline i pracuje na relacji terapeutycznej oraz transferze. Celem jest integracja rozszczepionych reprezentacji self i obiektu."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "CBT jest jedynym podejściem z udowodnioną skutecznością empiryczną"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Metaanaliza Wampolda wykazała, że terapeuta i jakość relacji wyjaśniają więcej niż sama etykieta nurtu. To wspiera znaczenie czynników wspólnych ponad techniki specyficzne."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Interwencji grupowych opartych na wymianie doświadczeń"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Podejście relacyjne zakłada, że terapia jest współtworzona przez dwie podmiotowości. Intersubiektywność oznacza wzajemny wpływ klienta i terapeuty na proces leczenia."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Terapii opartej na schemacie Younga"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Przepisywanie objawu to klasyczna technika terapii strategicznej, używana m.in. w MRI Palo Alto i u Haley’a. Paradoksalnie wykorzystuje opór systemu, by uruchomić zmianę."
   },
   {
     "id": 30,
@@ -357,7 +386,8 @@
       "Skuteczność terapii rodzinnej zależy wyłącznie od technik stosowanych przez terapeutę"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Ekwifinalność z teorii systemów mówi, że do podobnego rezultatu można dojść różnymi drogami. W terapii systemowej chroni to przed prostym, liniowym wyjaśnianiem problemu."
   },
   {
     "id": 31,
@@ -369,7 +399,8 @@
       "Identyfikacji mechanizmów obronnych"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Hierarchia lęku porządkuje bodźce od najmniej do najbardziej lękotwórczych, aby planować stopniową ekspozycję. Zwiększa to tolerancję i poczucie skuteczności pacjenta."
   },
   {
     "id": 32,
@@ -381,7 +412,8 @@
       "Analizę nieświadomych konfliktów"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Warunkowanie klasyczne opisane przez Pawłowa polega na skojarzeniu bodźca neutralnego z bezwarunkowym. W terapii wyjaśnia np. nabywanie reakcji lękowych."
   },
   {
     "id": 33,
@@ -393,7 +425,8 @@
       "Interpretacji snów"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Modelowanie, zgodnie z Bandurą, to uczenie przez obserwację zachowania innych i jego konsekwencji. Jest szeroko stosowane w terapii behawioralnej i treningu umiejętności."
   },
   {
     "id": 34,
@@ -405,7 +438,8 @@
       "Zmianę przekonań"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Wzmocnienie zwiększa częstość zachowania, gdy po nim pojawia się korzystna konsekwencja lub usuwa się awersję. To podstawowy mechanizm warunkowania sprawczego Skinnera."
   },
   {
     "id": 35,
@@ -417,7 +451,8 @@
       "Interpretacji przeniesienia"
     ],
     "correct": 0,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Desensytyzacja systematyczna Wolpego łączy relaksację z stopniową ekspozycją na bodźce lękowe. Opiera się na zasadzie przeciwstawnego hamowania."
   },
   {
     "id": 36,
@@ -429,7 +464,8 @@
       "Ekspozycji na bodźce"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Restrukturyzacja poznawcza polega na wykrywaniu i korygowaniu zniekształceń poznawczych. W CBT ma prowadzić do bardziej realistycznych interpretacji sytuacji."
   },
   {
     "id": 37,
@@ -441,7 +477,8 @@
       "Zachowanie automatyczne"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Schemat to trwały wzorzec poznawczo-emocjonalny, który organizuje sposób widzenia siebie i świata. W terapii schematu mówi się o wczesnych nieadaptacyjnych schematach powstałych w dzieciństwie."
   },
   {
     "id": 38,
@@ -453,7 +490,8 @@
       "Analiza konfliktów"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Podejście humanistyczne stawia w centrum subiektywne doświadczenie i potencjał rozwoju osoby. Rogers i Maslow sprzeciwiali się redukowaniu człowieka wyłącznie do objawów."
   },
   {
     "id": 39,
@@ -465,7 +503,8 @@
       "Interpretację objawów"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Empatia terapeutyczna oznacza rozumienie wewnętrznej perspektywy klienta jakby od środka. Rogers uważał ją za jeden z podstawowych warunków leczącej relacji."
   },
   {
     "id": 40,
@@ -477,9 +516,9 @@
       "Analizie relacji rodzinnych"
     ],
     "correct": 0,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Psychoedukacja wyjaśnia pacjentowi mechanizmy zaburzenia, objawów i leczenia. Zwiększa poczucie kontroli oraz współpracę terapeutyczną."
   },
-
   {
     "id": 41,
     "question": "W DBT komponent \"regulacji emocji\" obejmuje:",
@@ -490,7 +529,8 @@
       "Konfrontację poznawczą"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "W DBT moduł regulacji emocji uczy rozpoznawania, nazywania i modulowania emocji zamiast impulsywnego działania. To rdzeń pracy z dysregulacją opisywaną przez Linehan."
   },
   {
     "id": 42,
@@ -502,7 +542,8 @@
       "Interpretacji emocji"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Defuzja poznawcza w ACT polega na zauważaniu myśli jako zdarzeń umysłowych, a nie faktów. Zmniejsza to ich dosłowny wpływ na zachowanie."
   },
   {
     "id": 43,
@@ -514,7 +555,8 @@
       "Style przywiązania"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Tryby w terapii schematu to chwilowe stany organizacji psychicznej, np. Wrażliwe Dziecko czy Krytyczny Rodzic. Ułatwiają pracę z szybko zmieniającymi się reakcjami pacjenta."
   },
   {
     "id": 44,
@@ -526,7 +568,8 @@
       "Systemowej"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Technika pustego krzesła wywodzi się z Gestalt Fritza Perlsa. Pozwala prowadzić dialog między częściami self lub z wyobrażoną osobą."
   },
   {
     "id": 45,
@@ -538,7 +581,8 @@
       "Warunkowanie reakcji"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Mentalizacja to zdolność rozumienia zachowania w kategoriach stanów psychicznych, takich jak pragnienia, uczucia i przekonania. Fonagy uznaje ją za podstawę regulacji relacyjnej."
   },
   {
     "id": 46,
@@ -550,7 +594,8 @@
       "Interpretacji snów"
     ],
     "correct": 0,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Reatrybucja pomaga nadać zdarzeniom mniej automatyczne i bardziej zrównoważone wyjaśnienia. W CBT zmniejsza np. nadmierną samoobwinę czy katastrofizację."
   },
   {
     "id": 47,
@@ -562,7 +607,8 @@
       "Hierarchię władzy"
     ],
     "correct": 0,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Homeostaza systemu rodzinnego oznacza tendencję do utrzymywania dotychczasowej równowagi, nawet jeśli jest dysfunkcyjna. Dlatego zmiana jednej osoby często uruchamia opór całego systemu."
   },
   {
     "id": 48,
@@ -574,7 +620,8 @@
       "Ekspozycję"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Eksternalizacja problemu, znana z terapii narracyjnej, oddziela problem od tożsamości klienta. Dzięki temu osoba nie jest problemem, lecz ma problem, z którym może działać."
   },
   {
     "id": 49,
@@ -586,7 +633,8 @@
       "Ignorowanie"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Wzmocnienie negatywne nie oznacza kary, lecz wzrost zachowania po usunięciu bodźca awersyjnego. Klasyczny przykład to ulga po rytuale w OCD."
   },
   {
     "id": 50,
@@ -598,9 +646,9 @@
       "Konfrontacji"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "U Rogersa lecząca relacja opiera się na kongruencji, empatii i bezwarunkowej akceptacji. Te trzy warunki mają sprzyjać zmianie i wzrostowi."
   },
-
   {
     "id": 51,
     "question": "Model heksafleksu w ACT obejmuje procesy:",
@@ -611,7 +659,8 @@
       "Regulacji biologicznej"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Heksafleks ACT opisuje sześć procesów elastyczności psychologicznej, a nie tylko zestaw technik. Celem jest bardziej elastyczne życie zgodne z wartościami."
   },
   {
     "id": 52,
@@ -623,7 +672,8 @@
       "Zachowania"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Struktura osobowości w OPD odnosi się do zdolności regulowania siebie, emocji i relacji. To wymiar funkcjonowania ważny przy planowaniu psychoterapii psychodynamicznej."
   },
   {
     "id": 53,
@@ -635,7 +685,8 @@
       "Uczenia się"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Mechanizmy obronne ego chronią przed nadmiernym lękiem i napięciem psychicznym, choć czasem zniekształcają rzeczywistość. To centralne pojęcie tradycji psychodynamicznej."
   },
   {
     "id": 54,
@@ -647,7 +698,8 @@
       "Modelowanie"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Internalizacja oznacza włączanie doświadczeń relacyjnych do wewnętrznej struktury psychicznej. Dzięki temu wspierająca relacja może stać się trwałym zasobem wewnętrznym."
   },
   {
     "id": 55,
@@ -659,7 +711,8 @@
       "Relacje społeczne"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Triada Becka obejmuje negatywne przekonania o sobie, świecie i przyszłości. Według modelu poznawczego podtrzymuje ona depresję."
   },
   {
     "id": 56,
@@ -671,7 +724,8 @@
       "Analizę snów"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Teoria przywiązania Bowlby’ego wpłynęła na psychoterapię, bo pokazuje, że wczesne relacje tworzą wzorce regulacji emocji i bliskości. Wiele nurtów leczy dziś właśnie te relacyjne schematy."
   },
   {
     "id": 57,
@@ -683,7 +737,8 @@
       "Zmiana zachowania"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "W TFP celem jest integracja rozszczepionych obrazów siebie i innych, typowych dla organizacji borderline. Osiąga się to przez analizę transferu i obron."
   },
   {
     "id": 58,
@@ -695,7 +750,8 @@
       "Unika emocji"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Podejście relacyjne widzi terapeutę nie jako neutralnego obserwatora, lecz współuczestnika współtworzącego pole terapeutyczne. To odróżnia je od klasycznej neutralności analitycznej."
   },
   {
     "id": 59,
@@ -707,7 +763,8 @@
       "Uczenie się"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Dysocjacja w traumie oznacza rozszczepienie świadomości, pamięci lub poczucia siebie w obliczu przeciążenia. Jest traktowana jako mechanizm obronny wobec skrajnego stresu."
   },
   {
     "id": 60,
@@ -719,6 +776,7 @@
       "Relaksację"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Korektywne doświadczenie emocjonalne to nowe doświadczenie relacyjne, które modyfikuje stare bolesne oczekiwania. Alexander i French widzieli w nim ważny mechanizm zmiany terapeutycznej."
   }
 ]

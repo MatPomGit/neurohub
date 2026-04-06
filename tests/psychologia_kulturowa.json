@@ -9,7 +9,8 @@
       "Różnice w stylu wychowania między kulturami zachodnimi a wschodnimi"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Hofstede opisywał indywidualizm–kolektywizm jako wymiar mówiący, czy ważniejsza jest autonomia jednostki czy lojalność wobec grupy. To jeden z najbardziej wpływowych modeli różnic kulturowych."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Skupia się wyłącznie na obiektywnych wskaźnikach ekonomicznych"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Podejście emic bada zjawiska z perspektywy wewnętrznej, używając pojęć sensownych dla danej kultury. Dzięki temu ogranicza ryzyko narzucania lokalnym społecznościom zewnętrznych kategorii."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Opiera się wyłącznie na obserwacji uczestniczącej"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Podejście etic stosuje zewnętrzne, porównawcze kategorie teoretyczne do badania wielu kultur. Jest typowe dla psychologii cross-cultural, ale wymaga ostrożności przy porównaniach."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Posiadają mniejszą siatkę powiązań rodzinnych"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Kultury kolektywistyczne silniej akcentują obowiązki wobec rodziny i grupy oraz utrzymanie harmonii społecznej. Markus i Kitayama wiążą to z bardziej zależnym konstruowaniem Ja."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Złudzenie działa silniej u dzieci niż u dorosłych we wszystkich kulturach"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Badania Segalla nad złudzeniami pokazały, że podatność na efekt Müllera–Lyera zależy od środowiska wizualnego. Osoby wychowane poza tzw. carpentered world są zwykle mniej podatne na to złudzenie."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Teorii tożsamości społecznej Tajfela"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Markus i Kitayama pokazali, że kultura kształtuje self-construal, czyli sposób definiowania siebie w relacji do innych. W kulturach indywidualistycznych częstsze jest Ja niezależne, a w kolektywistycznych współzależne."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Emocje podstawowe są wyrażane identycznie we wszystkich językach"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Hipoteza Sapira-Whorfa mówi, że język wpływa na sposób kategoryzowania i rozumienia rzeczywistości. Wspierają ją m.in. badania nad kolorem czy orientacją przestrzenną."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Związane wyłącznie z poziomem urbanizacji społeczeństwa"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Ekman i Friesen początkowo argumentowali, że podstawowe emocje i ich ekspresje twarzowe są w dużej mierze uniwersalne biologicznie. Później doprecyzowano, że kultura silniej wpływa na reguły okazywania emocji niż na samą rozpoznawalność."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Psycholog stosuje narzędzia diagnostyczne opracowane w innej kulturze"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Akkulturacja zachodzi, gdy grupy kulturowe wchodzą w trwały kontakt i obie strony ulegają zmianom. Berry opisał różne strategie radzenia sobie z tym procesem."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Badaczy prowadzących obserwację uczestniczącą"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Stres akulturacyjny najczęściej dotyczy migrantów i uchodźców, którzy muszą przystosować się do nowych norm i ról społecznych. Może on zwiększać ryzyko lęku, depresji i izolacji."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Orientacja długo- vs. krótkoterminowa"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Dystans władzy u Hofstedego mierzy, na ile nierówny podział władzy jest uznawany za normalny i akceptowalny. Wysoki wynik oznacza większą zgodę na hierarchię i zależność."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Hierarchii rodzinnej w kulturach konfucjańskich"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Pojęcie twarzy odnosi się do reputacji, honoru i społecznego szacunku. W kulturach wschodnioazjatyckich chronienie twarzy silnie reguluje komunikację i zachowania relacyjne."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Nabycie biegłości językowej w obcym kraju"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Szok kulturowy to dezorientacja i napięcie pojawiające się przy wejściu w obcy system norm i znaczeń. Oberg opisywał go jako typowy etap adaptacji międzykulturowej."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Kultury tropikalne rozróżniają więcej odcieni zieleni niż kultury arktyczne"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Badania nad kategoriami barw pokazują, że język wpływa na szybkość i łatwość rozróżniania kolorów na granicach kategorii. To klasyczny przykład słabszej wersji relatywizmu językowego."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Ignoruje różnice płciowe w strukturze osobowości"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Big Five powstała głównie na próbach WEIRD, dlatego nie zawsze w pełni opisuje osobowość poza Zachodem. Psychologia kulturowa podkreśla potrzebę sprawdzania uniwersalności modeli cech."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Rytuału inicjacji w kulturach południowoazjatyckich"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Amok jest klasycznym przykładem culture-bound syndrome, czyli wzorca zaburzeń silnie osadzonego w danym kontekście kulturowym. Pokazuje, że ekspresja psychopatologii może przyjmować lokalne formy."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "Rytuały kulturowe jako mechanizm zdrowienia"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "W kulturach indywidualistycznych zdrowie psychiczne częściej łączy się z autonomią, samorealizacją i dobrostanem jednostki. Wpływa to także na preferowane cele terapii i język pomocy."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Stosowanie identycznych warunków badania we wszystkich krajach"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Ekwiwalencja pomiarowa oznacza, że narzędzie musi mierzyć ten sam konstrukt w porównywanych kulturach. Bez tego różnice wyników mogą być artefaktem testu, a nie realną różnicą psychologiczną."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "Instytutów badań naukowych w Europie"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Hofstede oparł swój model na danych pracowników IBM z wielu krajów. To umożliwiło pierwsze szerokie porównania międzykulturowe, choć później wskazywano też ograniczenia tej próby."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Przynależność kulturowa jest wyłącznie biologicznie determinowana"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Cultural priming polega na tym, że chwilowe uaktywnienie symboli kultury może przesunąć styl myślenia lub zachowania. Hong i współpracownicy pokazali to szczególnie dobrze u osób bikulturowych."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Częściej poszukują terapii indywidualnej"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "W kulturach kolektywistycznych Ja definiuje się częściej przez role, obowiązki i relacje społeczne. To sedno teorii Markus i Kitayamy o współzależnym konstruowaniu Ja."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Adaptacją testów psychologicznych do języka migowego"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Psychologia transkulturowa porównuje procesy psychiczne między kulturami, aby odróżniać uniwersalia od różnic kulturowych. Ma więc charakter przede wszystkim porównawczy."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Unikać pracy z klientami z innych kręgów kulturowych"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "W praktyce klinicznej wielokulturowość oznacza konieczność dostosowania terapii do kontekstu kulturowego klienta. Sue i Sue podkreślali też potrzebę pracy terapeuty nad własnymi założeniami kulturowymi."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Niereprezentujących swojej kultury z powodu migracji"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "WEIRD oznacza Western, Educated, Industrialized, Rich, Democratic. Henrich i współpracownicy użyli tego skrótu, by krytykować nadreprezentację zachodnich prób w psychologii."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Mają trudności z rozróżnianiem figury od tła"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Nisbett pokazał, że styl poznawczy w kulturach wschodnioazjatyckich jest częściej holistyczny, a w zachodnich bardziej analityczny. Oznacza to większą wrażliwość na kontekst i relacje między obiektami."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Promuje rywalizację kosztem współpracy"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Uncertainty avoidance opisuje, jak silnie kultura dąży do redukowania niepewności przez zasady, normy i rytuały. Wysoki poziom oznacza mniejszą tolerancję dla niejednoznaczności."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Marginalizacja, kolonizacja, hybrydyzacja, akulturacja"
     ],
     "correct": 0,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Berry wyróżnił cztery strategie akulturacji: integrację, asymilację, separację i marginalizację. Zależą one od tego, czy jednostka chce zachować kulturę pochodzenia i wejść w nową kulturę."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Wysoki poziom alfabetyzacji jest cechą charakterystyczną"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "U Halla kultura wysokiego kontekstu opiera znaczenie bardziej na sytuacji, relacji i niewypowiedzianych sygnałach niż na samych słowach. Dlatego komunikacja bywa w niej bardziej pośrednia."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Różnicy między depresją endogenną a reaktywną"
     ],
     "correct": 0,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "To przykład różnic w idiomach dystresu, czyli kulturowych sposobach przeżywania i wyrażania cierpienia psychicznego. Ta sama depresja może być opisywana bardziej somatycznie albo poznawczo zależnie od kultury."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "Islamskiej"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Silny nacisk na self-esteem jako miarę zdrowia psychicznego wyrósł głównie w psychologii zachodniej, zwłaszcza północnoamerykańskiej. W innych kulturach większe znaczenie mogą mieć harmonia relacyjna czy samodoskonalenie."
   }
 ]
