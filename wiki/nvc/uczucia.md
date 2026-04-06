@@ -67,11 +67,11 @@ NVC podkreśla związek między uczuciami a doznaniami cielesnymi. Uczucia częs
 
 Jedną z najtrudniejszych zasad NVC jest branie pełnej odpowiedzialności za swoje uczucia. Oznacza to odejście od modelu:
 
-> „Czuję złość, **bo ty** się spóźniłeś."
+> ❌ „Czuję złość, **bo ty** się spóźniłeś."
 
 W kierunku:
 
-> „Czuję złość, **bo** potrzebuję niezawodności i dotrzymywania umów."
+> ✅ „Czuję złość, **bo** potrzebuję niezawodności i dotrzymywania umów."
 
 Zmiana jest subtelna, ale fundamentalna: w pierwszym przypadku przyczyna uczucia leży w drugiej osobie; w drugim — w naszej własnej potrzebie. To zmienia relację z ofiary w kogoś, kto może wziąć sprawy w swoje ręce.
 
