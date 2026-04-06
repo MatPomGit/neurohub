@@ -32,10 +32,10 @@ W toku studiów psychologicznych często pojawiają się dwa podobnie brzmiące 
 
 Jeśli chcesz otrzymać wstępną rekomendację, przejdź do testu:
 
-👉 **[Uruchom test wyboru specjalności](#students/test_specjalnosci)**
+**[Uruchom test wyboru specjalności](#students/test_specjalnosci)**
 
 ## Co dalej po wyborze specjalności?
 
 Jeżeli chcesz zaplanować rozwój zawodowy po studiach (ścieżki kariery, wymogi formalne i egzaminy państwowe), zobacz:
 
-👉 **[Przepisy i zasady pracy psychologa w Polsce i NFZ](#reference/przepisy_zawod)**
+**[Przepisy i zasady pracy psychologa w Polsce i NFZ](#reference/przepisy_zawod)**

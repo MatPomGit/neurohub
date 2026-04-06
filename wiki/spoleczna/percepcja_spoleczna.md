@@ -65,9 +65,9 @@ Harold Kelley zaproponował, że przy wielokrotnych obserwacjach przypisujemy pr
 | **Consensus** | Czy inni też tak się zachowują wobec tego obiektu? | Wysoki consensus → zewnętrzna |
 
 **Przykład:** Anna śmieje się z komika X.
-- Czy śmieje się tylko z X? (wyrazistość wysoka ✓)
-- Czy zawsze śmieje się z X? (spójność wysoka ✓)
-- Czy wszyscy śmieją się z X? (consensus wysoki ✓)
+- Czy śmieje się tylko z X? (wyrazistość wysoka)
+- Czy zawsze śmieje się z X? (spójność wysoka)
+- Czy wszyscy śmieją się z X? (consensus wysoki)
 → Przyczyna zewnętrzna: X jest naprawdę śmieszny.
 
 Gdy consensus jest niski, a wyrazistość i spójność są wysokie → atrybucja wewnętrzna (Anna ma specyficzne poczucie humoru).

@@ -136,7 +136,7 @@ Sam FSIQ nie wystarcza — konieczna jest analiza:
 |--------|---------|--------|
 | Liczba indeksów | 4 | 5 |
 | Nowy indeks | — | VSI (wzrokowo-przestrzenny) |
-| Pełnoskalowe IQ | ✓ | ✓ |
+| Pełnoskalowe IQ | + | + |
 | Podtesty podstawowe | 10 | 10 |
 | Wskaźniki uzupełniające | Ograniczone | GAI, CPI, QRI, AWMI |
 | Czas badania | 45–65 min | 45–65 min (podstawowe) |

@@ -35,10 +35,10 @@ James Marcia (1966, 1980) operacjonalizował teorię Eriksona, wyróżniając cz
 
 | Status tożsamości | Eksploracja | Zaangażowanie | Charakterystyka |
 |---|---|---|---|
-| **Osiągnięta** (*achieved*) | ✓ | ✓ | Przebyła aktywne poszukiwania, podjęła decyzje |
-| **Moratoryjna** (*moratorium*) | ✓ | ✗ | Aktywnie eksploruje, jeszcze niezaangażowana |
-| **Wykluczona** (*foreclosed*) | ✗ | ✓ | Zaangażowana bez eksploracji (tożsamość przejęta) |
-| **Rozmyta** (*diffused*) | ✗ | ✗ | Brak eksploracji i zaangażowania |
+| **Osiągnięta** (*achieved*) | + | + | Przebyła aktywne poszukiwania, podjęła decyzje |
+| **Moratoryjna** (*moratorium*) | + | − | Aktywnie eksploruje, jeszcze niezaangażowana |
+| **Wykluczona** (*foreclosed*) | − | + | Zaangażowana bez eksploracji (tożsamość przejęta) |
+| **Rozmyta** (*diffused*) | − | − | Brak eksploracji i zaangażowania |
 
 Badania podłużne wskazują, że status osiągniętej tożsamości wiąże się z wyższym dobrostanem i lepszym radzeniem sobie ze stresem. Status rozmyty powiązany jest z niską samooceną i podatnością na depresję.
 

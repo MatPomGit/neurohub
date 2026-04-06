@@ -62,12 +62,12 @@ Seligman (1975) zaproponował, że wyuczona bezradność jest modelem **depresji
 
 | Cecha | Wyuczona bezradność (zwierzęta) | Depresja (ludzie) |
 |-------|--------------------------------|-------------------|
-| Bierna postawa wobec negatywnych zdarzeń | ✓ | ✓ |
-| Trudności z uczeniem się nowych strategii | ✓ | ✓ |
-| Spowolnienie psychoruchowe | ✓ | ✓ |
-| Zmniejszony apetyt | ✓ | ✓ |
-| Zaburzenia snu | ✓ | ✓ |
-| Reaktywacja przez kontrolę nad bodźcem | ✓ | ✓ (poczucie sprawczości w terapii) |
+| Bierna postawa wobec negatywnych zdarzeń | + | + |
+| Trudności z uczeniem się nowych strategii | + | + |
+| Spowolnienie psychoruchowe | + | + |
+| Zmniejszony apetyt | + | + |
+| Zaburzenia snu | + | + |
+| Reaktywacja przez kontrolę nad bodźcem | + | + (poczucie sprawczości w terapii) |
 
 ### Teoria depresji z beznadziejności (Alloy, Abramson)
 

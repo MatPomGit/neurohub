@@ -4,8 +4,8 @@
 
 Marshall Rosenberg posługiwał się barwną metaforą dwóch zwierząt, aby zilustrować dwa fundamentalnie różne style komunikacji:
 
-- 🐺 **Szakal** (*ang. jackal*) — symbol języka opartego na ocenianiu, krytyce, żądaniach i strachu
-- 🦒 **Żyrafa** (*ang. giraffe*) — symbol języka opartego na empatii, potrzebach i sercu
+- **Szakal** (*ang. jackal*) — symbol języka opartego na ocenianiu, krytyce, żądaniach i strachu
+- **Żyrafa** (*ang. giraffe*) — symbol języka opartego na empatii, potrzebach i sercu
 
 > „Żyrafa to zwierzę lądowe z największym sercem. Dlatego wybrałem ją jako symbol języka serca." — Marshall Rosenberg
 

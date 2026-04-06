@@ -17,7 +17,7 @@ Cztery komponenty to:
 Obserwacja to opis konkretnego, mierzalnego zdarzenia — bez ocen, interpretacji i generalizacji.
 
 **Ocena (X):** „Zawsze się spóźniasz."  
-**Obserwacja (✓):** „Przez ostatnie trzy spotkania przychodziłeś 15–20 minut po umówionej godzinie."
+**Obserwacja:** „Przez ostatnie trzy spotkania przychodziłeś 15–20 minut po umówionej godzinie."
 
 Kluczowe zasady obserwacji:
 - Opisuj to, co widzisz i słyszysz — nie swoje interpretacje

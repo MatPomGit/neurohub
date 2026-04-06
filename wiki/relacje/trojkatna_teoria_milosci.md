@@ -45,13 +45,13 @@ Różne konfiguracje trzech składników tworzą siedem typów miłości:
 
 | Typ miłości | Intymność | Namiętność | Zobowiązanie | Opis |
 |---|:---:|:---:|:---:|---|
-| **Lubienie** (*Liking*) | ✓ | — | — | głęboka przyjaźń bez namiętności ani zobowiązania |
-| **Zauroczenie** (*Infatuation*) | — | ✓ | — | „miłość od pierwszego wejrzenia", bez bliskości |
-| **Miłość pusta** (*Empty love*) | — | — | ✓ | zobowiązanie bez bliskości ani pożądania |
-| **Miłość romantyczna** (*Romantic love*) | ✓ | ✓ | — | bliskość i namiętność, brak trwałego zobowiązania |
-| **Miłość przyjacielska** (*Companionate love*) | ✓ | — | ✓ | głęboka więź i lojalność, bez namiętności |
-| **Miłość fatalna** (*Fatuous love*) | — | ✓ | ✓ | pochopne zaangażowanie bez zbudowanej bliskości |
-| **Miłość doskonała** (*Consummate love*) | ✓ | ✓ | ✓ | pełna, zintegrowana miłość |
+| **Lubienie** (*Liking*) | + | — | — | głęboka przyjaźń bez namiętności ani zobowiązania |
+| **Zauroczenie** (*Infatuation*) | — | + | — | „miłość od pierwszego wejrzenia", bez bliskości |
+| **Miłość pusta** (*Empty love*) | — | — | + | zobowiązanie bez bliskości ani pożądania |
+| **Miłość romantyczna** (*Romantic love*) | + | + | — | bliskość i namiętność, brak trwałego zobowiązania |
+| **Miłość przyjacielska** (*Companionate love*) | + | — | + | głęboka więź i lojalność, bez namiętności |
+| **Miłość fatalna** (*Fatuous love*) | — | + | + | pochopne zaangażowanie bez zbudowanej bliskości |
+| **Miłość doskonała** (*Consummate love*) | + | + | + | pełna, zintegrowana miłość |
 
 Sternberg podkreśla, że **miłość doskonała** jest ideałem trudnym do osiągnięcia i utrzymania — sama jej obecność nie gwarantuje trwałości bez świadomej pielęgnacji relacji.
 

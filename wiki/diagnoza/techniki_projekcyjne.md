@@ -69,7 +69,7 @@ Techniki oparte na rysunku zakładają, że graficzne przedstawienie zawiera dan
 - Siła kreski, nacisk, wymazywanie
 - Kolejność rysowania
 
-⚠️ **Ważne**: Interpretacja rysunków projekcyjnych jest wysoce spekulatywna bez dodatkowych danych — wymagają włączenia w szerszy kontekst diagnostyczny.
+**Ważne**: Interpretacja rysunków projekcyjnych jest wysoce spekulatywna bez dodatkowych danych — wymagają włączenia w szerszy kontekst diagnostyczny.
 
 ---
 
