@@ -159,7 +159,11 @@ window.SITE_CONFIG = {
         { id: 'relacje/konflikty', label: 'Konflikty i ich rozwiązywanie', file: 'wiki/relacje/konflikty.md' },
         { id: 'relacje/zdrada', label: 'Zdrada i odbudowa zaufania', file: 'wiki/relacje/zdrada.md' },
         { id: 'relacje/terapia_par', label: 'Terapia par', file: 'wiki/relacje/terapia_par.md' },
-        { id: 'relacje/przemoc_zwiazki', label: 'Przemoc w związkach', file: 'wiki/relacje/przemoc_zwiazki.md' },
+        { id: 'relacje/przemoc_zwiazki',  label: 'Przemoc w związkach',             file: 'wiki/relacje/przemoc_zwiazki.md'  },
+        { id: 'relacje/samotnosc',        label: 'Samotność i izolacja społeczna',  file: 'wiki/relacje/samotnosc.md'        },
+        { id: 'relacje/przyjaznie',       label: 'Przyjaźń',                        file: 'wiki/relacje/przyjaznie.md'       },
+        { id: 'relacje/rozstanie',        label: 'Rozpad związku i żałoba',         file: 'wiki/relacje/rozstanie.md'        },
+        { id: 'relacje/relacje_rodzinne', label: 'Relacje rodzinne — dynamika',     file: 'wiki/relacje/relacje_rodzinne.md' },
       ]
     },
     {
@@ -233,7 +237,14 @@ window.SITE_CONFIG = {
         { id: 'temperament/modele',   label: 'Modele temperamentu',  file: 'wiki/temperament/modele.md'   },
         { id: 'temperament/pomiar',   label: 'Pomiar temperamentu',  file: 'wiki/temperament/pomiar.md'   },
         { id: 'temperament/kliniczne',label: 'Wymiar kliniczny',     file: 'wiki/temperament/kliniczne.md'},
-        { id: 'temperament/razvoj',   label: 'Temperament a rozwój', file: 'wiki/temperament/razvoj.md'   },
+        { id: 'temperament/razvoj',                  label: 'Temperament a rozwój',                file: 'wiki/temperament/razvoj.md'                   },
+        { id: 'temperament/strelau',                 label: 'RTT — teoria Strelaua',               file: 'wiki/temperament/strelau.md'                  },
+        { id: 'temperament/eysenck',                 label: 'Model Eysencka (PEN)',                file: 'wiki/temperament/eysenck.md'                  },
+        { id: 'temperament/gray',                    label: 'Teoria BIS/BAS Graya',                file: 'wiki/temperament/gray.md'                     },
+        { id: 'temperament/kagan',                   label: 'Zahamowanie behawioralne (Kagan)',    file: 'wiki/temperament/kagan.md'                    },
+        { id: 'temperament/temperament_a_psychopat', label: 'Temperament a psychopatologia',       file: 'wiki/temperament/temperament_a_psychopat.md'  },
+        { id: 'temperament/biologia_temperamentu',   label: 'Biologiczne podłoże temperamentu',    file: 'wiki/temperament/biologia_temperamentu.md'    },
+        { id: 'temperament/temperament_a_kariera',   label: 'Temperament a kariera i praca',       file: 'wiki/temperament/temperament_a_kariera.md'    },
       ]
     },
     {
@@ -949,7 +960,14 @@ window.SITE_CONFIG = {
       { file: 'wiki/temperament/modele.md',    label: 'Modele temperamentu',     status: 'live' },
       { file: 'wiki/temperament/pomiar.md',    label: 'Pomiar temperamentu',     status: 'live' },
       { file: 'wiki/temperament/kliniczne.md', label: 'Temperament w klinice',   status: 'live' },
-      { file: 'wiki/temperament/razvoj.md',    label: 'Temperament a rozwój',    status: 'live' },
+      { file: 'wiki/temperament/razvoj.md',                   label: 'Temperament a rozwój',               status: 'live' },
+      { file: 'wiki/temperament/strelau.md',                  label: 'RTT — teoria Strelaua',              status: 'live' },
+      { file: 'wiki/temperament/eysenck.md',                  label: 'Model Eysencka (PEN)',               status: 'live' },
+      { file: 'wiki/temperament/gray.md',                     label: 'Teoria BIS/BAS Graya',               status: 'live' },
+      { file: 'wiki/temperament/kagan.md',                    label: 'Zahamowanie behawioralne (Kagan)',    status: 'live' },
+      { file: 'wiki/temperament/temperament_a_psychopat.md',  label: 'Temperament a psychopatologia',       status: 'live' },
+      { file: 'wiki/temperament/biologia_temperamentu.md',    label: 'Biologiczne podłoże temperamentu',    status: 'live' },
+      { file: 'wiki/temperament/temperament_a_kariera.md',    label: 'Temperament a kariera i praca',       status: 'live' },
     ],
     emotions: [
       { file: 'wiki/emotions/emocje_wprowadzenie.md', label: 'Emocje — wprowadzenie',    status: 'live' },
@@ -1378,6 +1396,10 @@ window.SITE_CONFIG = {
       { file: 'wiki/relacje/zdrada.md',                          label: 'Zdrada i odbudowa zaufania',         status: 'live' },
       { file: 'wiki/relacje/terapia_par.md',                     label: 'Terapia par',                        status: 'live' },
       { file: 'wiki/relacje/przemoc_zwiazki.md',                 label: 'Przemoc w związkach',                status: 'live' },
+      { file: 'wiki/relacje/samotnosc.md',                       label: 'Samotność i izolacja społeczna',     status: 'live' },
+      { file: 'wiki/relacje/przyjaznie.md',                      label: 'Przyjaźń',                           status: 'live' },
+      { file: 'wiki/relacje/rozstanie.md',                       label: 'Rozpad związku i żałoba relacyjna',  status: 'live' },
+      { file: 'wiki/relacje/relacje_rodzinne.md',                label: 'Relacje rodzinne — dynamika',        status: 'live' },
     ],
     etyka: [
       { file: 'wiki/etyka/kodeksy_etyczne.md',                   label: 'Kodeksy etyczne — przegląd',         status: 'live' },
@@ -1848,6 +1870,15 @@ window.SITE_CONFIG = {
             { label: 'Modele odpowiedzi seksualnej', id: 'sexology/modele_odpowiedzi', status: 'live' },
           ]
         },
+        {
+          title: 'Inne relacje i utrata',
+          articles: [
+            { label: 'Samotność i izolacja społeczna',    id: 'relacje/samotnosc',        status: 'live' },
+            { label: 'Przyjaźń',                          id: 'relacje/przyjaznie',        status: 'live' },
+            { label: 'Rozpad związku i żałoba relacyjna', id: 'relacje/rozstanie',         status: 'live' },
+            { label: 'Relacje rodzinne — dynamika',       id: 'relacje/relacje_rodzinne',  status: 'live' },
+          ]
+        },
       ]
     },
 
@@ -1958,7 +1989,14 @@ window.SITE_CONFIG = {
             { label: 'Modele temperamentu', id: 'temperament/modele', status: 'live' },
             { label: 'Pomiar temperamentu', id: 'temperament/pomiar', status: 'live' },
             { label: 'Temperament a klinika', id: 'temperament/kliniczne', status: 'live' },
-            { label: 'Rozwój temperamentu', id: 'temperament/razvoj', status: 'live' },
+            { label: 'Rozwój temperamentu',                id: 'temperament/razvoj',                   status: 'live' },
+            { label: 'RTT — teoria Strelaua',              id: 'temperament/strelau',                  status: 'live' },
+            { label: 'Model Eysencka (PEN)',               id: 'temperament/eysenck',                  status: 'live' },
+            { label: 'Teoria BIS/BAS Graya',               id: 'temperament/gray',                     status: 'live' },
+            { label: 'Zahamowanie behawioralne (Kagan)',   id: 'temperament/kagan',                    status: 'live' },
+            { label: 'Temperament a psychopatologia',      id: 'temperament/temperament_a_psychopat',  status: 'live' },
+            { label: 'Biologiczne podłoże temperamentu',   id: 'temperament/biologia_temperamentu',    status: 'live' },
+            { label: 'Temperament a kariera i praca',      id: 'temperament/temperament_a_kariera',    status: 'live' },
           ]
         },
       ]
