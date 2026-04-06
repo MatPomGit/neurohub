@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "Kodeks Etyczno-Zawodowy Psychologa PTP (Polskie Towarzystwo Psychologiczne) dzieli się na cztery obszary regulacji. Który z poniższych NIE jest jednym z nich?",
+    "options": [
+      "Relacja z klientem",
+      "Kompetencje zawodowe",
+      "Badania i diagnostyka",
+      "Wynagrodzenie i warunki pracy"
+    ],
+    "correct": 3,
+    "difficulty": 1
+  },
+  {
+    "id": 2,
+    "question": "Zasada 'non nocere' (nieszkodzenia) w etyce psychologicznej oznacza:",
+    "options": [
+      "Obowiązek działania wyłącznie na rzecz dobra klienta z pominięciem własnych interesów",
+      "Zobowiązanie do unikania działań, które mogłyby wyrządzić szkodę klientowi lub innym osobom",
+      "Zakaz stosowania metod niepotwierdzonych empirycznie",
+      "Konieczność ujawniania tajemnicy zawodowej w przypadku zagrożenia"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 3,
+    "question": "Świadoma zgoda (informed consent) wymaga, aby klient był poinformowany o:",
+    "options": [
+      "Wyłącznie czasie trwania i koszcie terapii",
+      "Wyłącznie diagnozie, bez planu terapii",
+      "Celu, metodach, ryzyku, korzyściach i warunkach poufności przed rozpoczęciem interwencji",
+      "Zarobkach i kwalifikacjach psychologa"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  },
+  {
+    "id": 4,
+    "question": "Tajemnica zawodowa psychologa ma granice. Zgodnie z zasadami etycznymi, należy ją złamać, gdy:",
+    "options": [
+      "Klient prosi psychologa o kontakt z jego rodziną",
+      "Rodzina klienta żąda informacji o przebiegu terapii",
+      "Istnieje bezpośrednie i poważne zagrożenie życia — klienta lub innych osób",
+      "Ubezpieczyciel żąda pełnej dokumentacji terapeutycznej"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  },
+  {
+    "id": 5,
+    "question": "Podwójna rola (dual relationship) w praktyce psychologicznej oznacza sytuację, gdy:",
+    "options": [
+      "Psycholog pracuje z dwoma terapeutami jednocześnie w superwizji",
+      "Psycholog prowadzi terapię indywidualną i grupową z tym samym klientem",
+      "Psycholog ma z klientem zarówno relację profesjonalną, jak i prywatną (np. przyjacielską, biznesową)",
+      "Klient uczestniczy w dwóch różnych podejściach terapeutycznych"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  },
+  {
+    "id": 6,
+    "question": "Zasada autonomii klienta w etyce psychologicznej głosi, że:",
+    "options": [
+      "Psycholog samodzielnie decyduje o metodach terapii bez informowania klienta",
+      "Klient ma prawo do samookreślenia i decydowania o własnym życiu; psycholog szanuje jego decyzje",
+      "Psycholog może narzucić klientowi plan terapii dla jego dobra",
+      "Klient nie powinien przerywać terapii bez zgody psychologa"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 7,
+    "question": "Superwizja w psychoterapii i pracy psychologicznej służy przede wszystkim:",
+    "options": [
+      "Kontroli czasu pracy i efektywności psychologa przez pracodawcę",
+      "Wsparciu zawodowemu, refleksji nad pracą z klientami, zapewnieniu jakości terapii i ochronie klienta",
+      "Administracyjnemu nadzorowi nad wydatkami gabinetu",
+      "Wyłącznie szkoleniu psychologów stażystów"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 8,
+    "question": "Które z poniższych stwierdzeń dotyczących kompetencji zawodowych psychologa jest prawidłowe?",
+    "options": [
+      "Posiadanie dyplomu magistra psychologii uprawnia do pracy w każdym obszarze psychologii bez ograniczeń",
+      "Psycholog powinien pracować wyłącznie w obszarach, w których posiada odpowiednie przeszkolenie i kompetencje",
+      "Psycholog nie musi aktualizować wiedzy po ukończeniu studiów",
+      "Kompetencje są stałe i nie wymagają regularnej weryfikacji"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 9,
+    "question": "Etyczny zakaz relacji seksualnych z klientem obowiązuje:",
+    "options": [
+      "Tylko w czasie aktywnej terapii; po zakończeniu relacja jest dozwolona",
+      "Wyłącznie w terapii psychodynamicznej",
+      "Zawsze — zarówno w trakcie terapii, jak i po jej zakończeniu (choć standardy dotyczące okresu po zakończeniu mogą się różnić w kodeksach)",
+      "Tylko gdy klient jest osobą małoletnią"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  },
+  {
+    "id": 10,
+    "question": "Zasada 'dobroczynności' (beneficence) w etyce psychologicznej oznacza:",
+    "options": [
+      "Nieuczestniczenie w działaniach mogących zaszkodzić klientowi",
+      "Aktywne działanie na rzecz dobra i poprawy dobrostanu klienta",
+      "Zachowanie poufności w każdych okolicznościach",
+      "Świadczenie usług psychologicznych bez wynagrodzenia dla potrzebujących"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 11,
+    "question": "Kodeks etyczny APA (American Psychological Association) reguluje obszary takie jak: kompetencje, relacje ludzkie, prywatność, badania i diagnostyka. Ile standardów etycznych egzekwowanych (Enforceable Standards) zawiera kodeks APA?",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 12,
+    "question": "Obligacja 'pro bono' w psychologii oznacza:",
+    "options": [
+      "Obowiązek rejestrowania wszystkich sesji wideo",
+      "Przeznaczanie części czasu zawodowego na pomoc osobom nieposiadającym środków na leczenie",
+      "Zakaz reklamy usług psychologicznych",
+      "Konieczność superwizji dla wszystkich psychologów klinicznych"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 13,
+    "question": "Psycholog otrzymuje prośbę sądu o ujawnienie akt terapeutycznych klienta. Według zasad etycznych powinien:",
+    "options": [
+      "Natychmiast przekazać wszystkie dokumenty bez informowania klienta",
+      "Odmówić w każdych okolicznościach, powołując się na tajemnicę zawodową",
+      "Poinformować klienta, omówić kwestię z prawnikiem i ujawnić tylko to, co jest prawnie wymagane",
+      "Zaprzestać pracy z klientem, aby uniknąć konfliktu interesów"
+    ],
+    "correct": 2,
+    "difficulty": 2
+  },
+  {
+    "id": 14,
+    "question": "Zasada 'sprawiedliwości' (justice) w etyce psychologicznej oznacza:",
+    "options": [
+      "Obowiązek zeznawania w sądzie jako biegły",
+      "Równe traktowanie wszystkich klientów bez dyskryminacji i uczciwy dostęp do pomocy psychologicznej",
+      "Stosowanie wyłącznie metod opartych na dowodach naukowych",
+      "Ujawnianie informacji o klientach organom sprawiedliwości"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 15,
+    "question": "Granice relacji terapeutycznej (therapeutic boundaries) chronią przede wszystkim:",
+    "options": [
+      "Reputację zawodową psychologa",
+      "Bezpieczeństwo, zaufanie i dobro klienta, zapewniając ochronę przed nadużyciami władzy",
+      "Zyski finansowe gabinetu psychologicznego",
+      "Prawa pracodawcy psychologa"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 16,
+    "question": "Wypalenie zawodowe (burnout) u psychologów i terapeutów etycznie zobowiązuje ich do:",
+    "options": [
+      "Zwiększenia liczby klientów, aby nadrobić zaległości",
+      "Utrzymywania pozorów sprawności zawodowej dla dobra klientów",
+      "Dbania o własne zdrowie psychiczne, szukania pomocy i ograniczenia pracy jeśli wypalenie zagraża jakości świadczonych usług",
+      "Natychmiastowego zakończenia wszystkich terapii"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  },
+  {
+    "id": 17,
+    "question": "Kodeks EFPA (European Federation of Psychologists' Associations) jest:",
+    "options": [
+      "Prawnie wiążącym dokumentem we wszystkich krajach UE",
+      "Meta-kodeksem stanowiącym wspólne ramy etyczne dla organizacji psychologicznych w Europie",
+      "Wyłącznie kodeksem dotyczącym badań naukowych",
+      "Kodeksem opracowanym dla psychologów sądowych"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 18,
+    "question": "Konflikt interesów w pracy psychologa pojawia się, gdy:",
+    "options": [
+      "Psycholog pracuje z klientem dłużej niż rok",
+      "Osobiste, finansowe lub inne interesy psychologa mogą wpływać na jego obiektywność i działanie na rzecz dobra klienta",
+      "Klient i psycholog są tego samego wieku",
+      "Psycholog nie podziela wartości religijnych klienta"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 19,
+    "question": "Etyczna zasada 'minimalnego naruszenia prywatności' przy diagnozowaniu oznacza:",
+    "options": [
+      "Zbieranie jak najmniejszej ilości danych osobowych koniecznych do celu diagnostycznego",
+      "Stosowanie wyłącznie nieinwazyjnych metod obserwacyjnych",
+      "Unikanie pytań dotyczących historii rodzinnej",
+      "Prowadzenie diagnostyki wyłącznie w środowisku klienta"
+    ],
+    "correct": 0,
+    "difficulty": 2
+  },
+  {
+    "id": 20,
+    "question": "Reklama usług psychologicznych w świetle kodeksów etycznych powinna być:",
+    "options": [
+      "Zakazana we wszelkich formach",
+      "Rzetelna i nieudzielająca fałszywych obietnic; nie może wprowadzać klientów w błąd co do kompetencji lub wyników",
+      "Dozwolona bez żadnych ograniczeń jako forma wolności gospodarczej",
+      "Obowiązkowa dla każdego praktykującego psychologa"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 21,
+    "question": "Zasada 'integralności' (integrity) w etyce psychologicznej odnosi się do:",
+    "options": [
+      "Fizycznej integralności klienta podczas badania",
+      "Uczciwości, prawdomówności i unikania oszustwa, fałszerstwa i manipulacji w praktyce zawodowej",
+      "Integralności danych w bazach diagnostycznych",
+      "Niełączenia różnych podejść teoretycznych"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 22,
+    "question": "Terapeuta ma klienta, który wyraźnie grozi śmiercią konkretnej osobie. Według reguły Tarasoffa psycholog ma obowiązek:",
+    "options": [
+      "Utrzymać poufność i omówić zagrożenie na kolejnej sesji",
+      "Natychmiast zakończyć terapię z tym klientem",
+      "Ostrzec osobę zagrożoną i/lub powiadomić właściwe organy",
+      "Skonsultować się z superwizorem i poczekać na jego decyzję"
+    ],
+    "correct": 2,
+    "difficulty": 2
+  },
+  {
+    "id": 23,
+    "question": "Etyczne poszanowanie różnorodności kulturowej w pracy psychologa obejmuje:",
+    "options": [
+      "Stosowanie standardowych procedur bez uwzględnienia kontekstu kulturowego",
+      "Świadomość własnych uprzedzeń kulturowych i dostosowywanie podejścia do kontekstu kulturowego klienta",
+      "Unikanie pracy z klientami z innych grup kulturowych",
+      "Tłumaczenie narzędzi diagnostycznych bez oceny ich trafności kulturowej"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 24,
+    "question": "Granice kompetencji (scope of practice) oznaczają, że psycholog:",
+    "options": [
+      "Może pracować z każdym klientem niezależnie od specjalizacji",
+      "Powinien odsyłać klientów, których problemy wykraczają poza jego wykształcenie i kompetencje",
+      "Musi posiadać certyfikat we wszystkich podejściach psychoterapeutycznych",
+      "Jest zobowiązany do odmówienia pracy z klientami z zaburzeniami psychotycznymi"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 25,
+    "question": "Dokumentacja terapeutyczna (notatki, nagrania) należy do:",
+    "options": [
+      "Wyłącznie pracodawcy gabinetu",
+      "Zarówno klienta, jak i terapeuty na równych prawach",
+      "Klienta mającego prawo wglądu i ewentualnie terapeuty; dostęp osób trzecich wymaga zgody lub nakazu sądowego",
+      "Instytucji ubezpieczeniowej, która finansuje leczenie"
+    ],
+    "correct": 2,
+    "difficulty": 2
+  },
+  {
+    "id": 26,
+    "question": "Psycholog prowadzący badania naukowe z udziałem ludzi ma obowiązek uzyskania zgody:",
+    "options": [
+      "Wyłącznie dyrektora instytucji zatrudniającej",
+      "Komisji etycznej (IRB/KEP) oraz świadomej zgody uczestników",
+      "Ministerstwa Zdrowia",
+      "Tylko uczestników badania; komisja etyczna jest opcjonalna"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 27,
+    "question": "Pojęcie 'Autonomia terapeutyczna' (therapeutic autonomy) jest najlepiej rozumiane jako:",
+    "options": [
+      "Prawo terapeuty do decydowania o metodach bez konsultacji z klientem",
+      "Zdolność i prawo klienta do samodzielnego decydowania w sprawach dotyczących jego terapii i życia",
+      "Niezależność terapeuty od instytucji zatrudniającej",
+      "Prawo do prowadzenia prywatnej praktyki"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 28,
+    "question": "Terapeuta odkrywa, że czuje silną antypatię do klienta, co utrudnia terapię. Etycznie powinien:",
+    "options": [
+      "Ukrywać swoje emocje i kontynuować terapię bez zmian",
+      "Natychmiast zakończyć terapię bez wyjaśnienia",
+      "Omówić temat w superwizji, a jeśli to konieczne — przenieść klienta do innego specjalisty",
+      "Ujawnić klientowi pełen zakres swoich negatywnych emocji"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  },
+  {
+    "id": 29,
+    "question": "Zakończenie terapii (termination) jest procesem etycznym, który powinien obejmować:",
+    "options": [
+      "Natychmiastowe zaprzestanie kontaktu bez uprzedzenia",
+      "Planowe podsumowanie postępów, omówienie dalszego wsparcia i upewnienie się, że klient nie jest w kryzysie",
+      "Wyłącznie wystawienie rachunku końcowego",
+      "Prośbę klienta o rekomendację"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 30,
+    "question": "Metaanaliza Wampolda (2001) wykazała, że efektywność psychoterapii zależy w dużej mierze od 'czynników wspólnych'. Które etyczne implikacje wynikają z tego odkrycia?",
+    "options": [
+      "Terapeuci powinni stosować wyłącznie terapię poznawczo-behawioralną",
+      "Relacja terapeutyczna, empatia i sojusz terapeutyczny są etycznie niezbędnymi elementami praktyki",
+      "Wszyscy terapeuci osiągają identyczne wyniki niezależnie od kompetencji",
+      "Metody oparte na dowodach są zbędne wobec znaczenia relacji"
+    ],
+    "correct": 1,
+    "difficulty": 3
+  }
+]

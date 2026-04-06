@@ -44,6 +44,36 @@
         label: 'Psychologia poznawcza',
         file: 'tests/psychologia_poznawcza.json',
         icon: '💡'
+      },
+      {
+        key: 'psychologia_rozwojowa',
+        label: 'Psychologia rozwojowa',
+        file: 'tests/psychologia_rozwojowa.json',
+        icon: '🌱'
+      },
+      {
+        key: 'psychologia_kulturowa',
+        label: 'Psychologia kulturowa',
+        file: 'tests/psychologia_kulturowa.json',
+        icon: '🌍'
+      },
+      {
+        key: 'uzaleznienia',
+        label: 'Psychologia uzależnień',
+        file: 'tests/uzaleznienia.json',
+        icon: '🔗'
+      },
+      {
+        key: 'etyka_zawodowa',
+        label: 'Etyka zawodowa',
+        file: 'tests/etyka_zawodowa.json',
+        icon: '⚖️'
+      },
+      {
+        key: 'relacje_i_zwiazki',
+        label: 'Relacje i związki',
+        file: 'tests/relacje_i_zwiazki.json',
+        icon: '💑'
       }
     ]
   };

@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "Według ICD-11, uzależnienie od substancji rozpoznaje się, gdy wzorzec używania prowadzi do trzech głównych cech. Które z poniższych jest KLUCZOWYM objawem uzależnienia?",
+    "options": [
+      "Epizodyczne spożycie substancji w sytuacjach towarzyskich",
+      "Silna potrzeba (głód) używania substancji, utrata kontroli i kontynuowanie mimo szkód",
+      "Jednorazowe przedawkowanie substancji",
+      "Używanie substancji wyłącznie w celach leczniczych"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 2,
+    "question": "Model 'biopsychospołeczny' uzależnień zakłada, że uzależnienie jest wynikiem:",
+    "options": [
+      "Wyłącznie słabości charakteru i braku woli",
+      "Tylko czynników genetycznych i neurobiologicznych",
+      "Wzajemnych oddziaływań czynników biologicznych, psychologicznych i społecznych",
+      "Wyłącznie traumatycznych doświadczeń z dzieciństwa"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  },
+  {
+    "id": 3,
+    "question": "Dialog motywujący (Motivational Interviewing, MI) opracowany przez Millera i Rollnicka jest techniką:",
+    "options": [
+      "Konfrontacyjną, zmuszającą klienta do przyznania się do problemu",
+      "Skoncentrowaną na kliencie, wspierającą wewnętrzną motywację do zmiany przez empatię i eksplorację ambiwalencji",
+      "Opartą na terapii poznawczo-behawioralnej skupionej na myślach automatycznych",
+      "Stosowaną wyłącznie w grupach wsparcia AA"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 4,
+    "question": "Model etapów zmiany (transteoretyczny model Prochaska i DiClemente) wyróżnia pięć stadiów. Które stadium oznacza, że osoba nie rozważa jeszcze zmiany?",
+    "options": [
+      "Kontemplacja",
+      "Przygotowanie",
+      "Prekontemplacja",
+      "Działanie"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  },
+  {
+    "id": 5,
+    "question": "Tolerancja jako objaw uzależnienia oznacza:",
+    "options": [
+      "Zdolność organizmu do całkowitego wyeliminowania substancji",
+      "Konieczność przyjmowania coraz większych dawek substancji, aby osiągnąć ten sam efekt",
+      "Akceptację przez rodzinę faktu używania substancji",
+      "Łagodny przebieg objawów abstynencyjnych"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 6,
+    "question": "Objawy odstawienia (abstynencyjne) pojawiają się, gdy:",
+    "options": [
+      "Osoba po raz pierwszy próbuje substancji",
+      "Stężenie substancji we krwi gwałtownie spada po zaprzestaniu lub ograniczeniu jej przyjmowania",
+      "Osoba przyjmuje zbyt dużą dawkę substancji naraz",
+      "Organizm całkowicie wykształci odporność na substancję"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 7,
+    "question": "Współuzależnienie (codependency) oznacza:",
+    "options": [
+      "Używanie kilku substancji psychoaktywnych jednocześnie",
+      "Dysfunkcyjny wzorzec relacji, w którym bliskie osoby osoby uzależnionej angażują się w zachowania podtrzymujące uzależnienie",
+      "Uzależnienie od leków przepisanych przez lekarza",
+      "Objaw substytucji — zastąpienie jednej substancji drugą"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 8,
+    "question": "Enabling (umożliwianie) w kontekście uzależnień oznacza zachowanie otoczenia, które:",
+    "options": [
+      "Konfrontuje osobę uzależnioną z konsekwencjami jej zachowań",
+      "Nieświadomie chroni osobę uzależnioną przed konsekwencjami jej działań, tym samym podtrzymując uzależnienie",
+      "Zachęca do profesjonalnego leczenia",
+      "Monitoruje abstynencję osoby uzależnionej"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 9,
+    "question": "Program 12 Kroków (np. Anonimowi Alkoholicy) oparty jest na założeniu, że:",
+    "options": [
+      "Uzależnienie można wyleczyć wyłącznie farmakologicznie",
+      "Powrót do kontrolowanego picia jest możliwy po roku abstynencji",
+      "Uzależnienie jest chorobą chroniczną, a abstynencja i wsparcie wspólnoty są kluczem do zdrowienia",
+      "Uzależnienie wynika z zaburzeń osobowości, które należy leczyć psychoterapeutycznie"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  },
+  {
+    "id": 10,
+    "question": "Zapobieganie nawrotom (Relapse Prevention) opracowane przez Marlatta i Gordona koncentruje się na:",
+    "options": [
+      "Całkowitym wyeliminowaniu wszelkich sytuacji ryzyka z życia pacjenta",
+      "Rozpoznawaniu czynników wyzwalających (triggerów) i rozwijaniu strategii radzenia sobie z głodem substancji i ryzykiem nawrotu",
+      "Stosowaniu leków blokujących efekty substancji",
+      "Izolacji pacjenta od środowisk używania substancji"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 11,
+    "question": "Harm reduction (ograniczanie szkód) jako podejście w profilaktyce uzależnień zakłada:",
+    "options": [
+      "Wyłącznie całkowitą abstynencję jako cel leczenia",
+      "Redukcję negatywnych konsekwencji używania substancji bez konieczności natychmiastowego zaprzestania",
+      "Legalizację wszystkich substancji psychoaktywnych",
+      "Przymusowe leczenie wszystkich osób uzależnionych"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 12,
+    "question": "Profilaktyka uzależnień pierwszorzędowa (primary prevention) skierowana jest do:",
+    "options": [
+      "Osób już uzależnionych wymagających leczenia",
+      "Osób z grupy ryzyka wykazujących pierwsze objawy szkodliwego używania",
+      "Całej populacji, zapobiegając pierwszemu kontaktowi z substancją lub problemem",
+      "Rodzin osób uzależnionych"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  },
+  {
+    "id": 13,
+    "question": "Neurobiologicznie uzależnienie wiąże się z dysregulacją układu:",
+    "options": [
+      "Serotoninowego w rdzeniu kręgowym",
+      "Dopaminergicznego mezolimbicznego (układ nagrody)",
+      "Cholinergicznego w pniu mózgu",
+      "Noradrenergicznego w korze czołowej"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 14,
+    "question": "Uzależnienie behawioralne (np. hazard, gry wideo) różni się od uzależnienia od substancji tym, że:",
+    "options": [
+      "Nie powoduje objawów odstawiennych ani tolerancji",
+      "Nie prowadzi do żadnych szkód zdrowotnych",
+      "Nie angażuje układu nagrody",
+      "Nie ma zewnętrznej substancji, lecz mechanizmy neurobiologiczne są podobne do uzależnień od substancji"
+    ],
+    "correct": 3,
+    "difficulty": 1
+  },
+  {
+    "id": 15,
+    "question": "Uzależnienia u młodzieży wyróżniają się tym, że:",
+    "options": [
+      "Rozwijają się wolniej niż u dorosłych ze względu na plastyczność mózgu",
+      "Rzadko prowadzą do poważnych konsekwencji zdrowotnych",
+      "Mózg nastolatka jest bardziej podatny na uzależnienie; ryzyko uzależnienia jest wyższe przy wczesnym inicjowaniu używania",
+      "Dotyczą głównie substancji legalnych"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  },
+  {
+    "id": 16,
+    "question": "Podwójna diagnoza (dual diagnosis / comorbidity) w kontekście uzależnień oznacza:",
+    "options": [
+      "Jednoczesne uzależnienie od dwóch różnych substancji",
+      "Współwystępowanie zaburzenia używania substancji z innym zaburzeniem psychicznym (np. depresją, PTSD)",
+      "Diagnozę postawioną przez dwóch niezależnych specjalistów",
+      "Równoczesne leczenie farmakologiczne i psychoterapeutyczne"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 17,
+    "question": "Pojęcie 'głód substancji' (craving) opisuje:",
+    "options": [
+      "Objawy fizyczne abstynencji po odstawieniu substancji",
+      "Silną, przymusową chęć zażycia substancji, mogącą być wywoływaną przez sygnały środowiskowe",
+      "Tolerancję fizyczną na substancję",
+      "Etap trzeźwienia po intensywnym piciu"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 18,
+    "question": "Terapia poznawczo-behawioralna (CBT) w leczeniu uzależnień skupia się przede wszystkim na:",
+    "options": [
+      "Analizie nieświadomych motywów używania substancji",
+      "Identyfikacji i modyfikacji myśli i przekonań podtrzymujących używanie oraz rozwijaniu umiejętności radzenia sobie",
+      "Farmakologicznym leczeniu objawów odstawiennych",
+      "Uczestnictwie w grupach wzajemnego wsparcia"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 19,
+    "question": "Profilaktyka drugorzędowa uzależnień obejmuje działania skierowane do:",
+    "options": [
+      "Całej populacji w ramach kampanii zdrowotnych",
+      "Osób już uzależnionych w zaawansowanym stadium choroby",
+      "Osób z grupy zwiększonego ryzyka lub wykazujących pierwsze sygnały ostrzegawcze używania szkodliwego",
+      "Wyłącznie do rodzin osób uzależnionych"
+    ],
+    "correct": 2,
+    "difficulty": 2
+  },
+  {
+    "id": 20,
+    "question": "Leczenie substytucyjne (np. metadonem lub buprenorfiną) w uzależnieniu od opioidów ma na celu:",
+    "options": [
+      "Wywołanie awersji do substancji",
+      "Redukcję głodu i objawów abstynencyjnych, umożliwienie stabilizacji i rehabilitacji",
+      "Całkowite wyeliminowanie potrzeby przyjmowania opiatów w ciągu tygodnia",
+      "Leczenie neurologicznych uszkodzeń mózgu wywołanych uzależnieniem"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 21,
+    "question": "Interwencja kryzysowa wobec osoby uzależnionej różni się od terapii uzależnień tym, że:",
+    "options": [
+      "Obejmuje długotrwałe leczenie farmakologiczne",
+      "Jest krótkoterminową pomocą ukierunkowaną na stabilizację w sytuacji kryzysu, nie na długofalowe leczenie uzależnienia",
+      "Wymaga hospitalizacji w oddziale psychiatrycznym",
+      "Polega na konfrontacji i wymuszeniu przyznania się do uzależnienia"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 22,
+    "question": "Spirala uzależnienia opisuje kolejność: pierwsze używanie → nagroda → wzmocnienie → tolerancja → głód → kontynuacja mimo szkód. Który mechanizm jest kluczowy we wzmocnieniu pozytywnym?",
+    "options": [
+      "Unikanie bólu i dyskomfortu objawów abstynencyjnych",
+      "Przyjemność i euforyczny efekt substancji aktywujący układ nagrody",
+      "Presja społeczna ze strony grupy rówieśniczej",
+      "Nieświadome mechanizmy obronne zaprzeczania"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 23,
+    "question": "Który z poniższych czynników jest uznawany za czynnik chroniący przed uzależnieniami u młodzieży?",
+    "options": [
+      "Wczesna inicjacja alkoholowa w środowisku rodzinnym",
+      "Silne więzi rodzinne, wsparcie szkoły i umiejętności społeczne",
+      "Dostęp do substancji w środowisku rówieśniczym",
+      "Wysoka impulsywność i skłonność do poszukiwania doznań"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 24,
+    "question": "Terapia motywująca (Motivational Enhancement Therapy, MET) opiera się na zasadach:",
+    "options": [
+      "Konfrontacji i konfrontacyjnej interwencji grupowej",
+      "Dialogu motywującego i wzmacnianiu motywacji wewnętrznej do zmiany",
+      "Terapii ekspozycyjnej i odczulania",
+      "Psychoedukacji dotyczącej skutków substancji"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 25,
+    "question": "Marker ryzyka uzależnienia od alkoholu, identyfikowany już u dzieci rodziców alkoholiczyków, to:",
+    "options": [
+      "Niższy poziom endorfin w spoczynku",
+      "Niższa amplituda fali P300 w EEG związana z procesami hamowania",
+      "Wyższy poziom kortyzolu w sytuacjach neutralnych",
+      "Wzmożona aktywność parasympatyczna"
+    ],
+    "correct": 1,
+    "difficulty": 3
+  },
+  {
+    "id": 26,
+    "question": "Terapia systemowa rodziny w uzależnieniach uznaje, że:",
+    "options": [
+      "Uzależnienie to problem wyłącznie jednostki i nie należy angażować rodziny",
+      "Rodzina tworzy system, którego dynamika może podtrzymywać uzależnienie; zmiana wymaga pracy z całym systemem",
+      "Rodziny osób uzależnionych powinny być objęte wyłącznie psychoedukacją, nie terapią",
+      "Uzależnienie jest zawsze wynikiem błędów wychowawczych rodziców"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 27,
+    "question": "Szczyt kryzysu w modelu interwencji kryzysowej (model Caplan) jest momentem, w którym:",
+    "options": [
+      "Osoba całkowicie traci kontakt z rzeczywistością",
+      "Dotychczasowe mechanizmy radzenia sobie zawodzą, tworząc okazję do zmiany",
+      "Rodzina decyduje się na przymusowe leczenie",
+      "Osoba uzależniona sięga po substancję po raz pierwszy"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 28,
+    "question": "Uzależnienie od nikotyny jest szczególnie silne ze względu na mechanizm:",
+    "options": [
+      "Halucynogenny wpływający na postrzeganie",
+      "Dysocjacyjny powodujący oderwanie od rzeczywistości",
+      "Szybkiego osiągania wysokiego stężenia nikotyny we krwi przy inhalacji i silne wzmocnienie dopaminergiczne",
+      "Działania na receptory opioidowe mu"
+    ],
+    "correct": 2,
+    "difficulty": 2
+  },
+  {
+    "id": 29,
+    "question": "Psychologiczne pojęcie 'zaprzeczenie' (denial) w kontekście uzależnienia oznacza:",
+    "options": [
+      "Świadome ukrywanie faktu używania substancji przed rodziną",
+      "Nieświadomy mechanizm obronny minimalizujący lub negujący istnienie problemu z uzależnieniem",
+      "Strategię terapeutyczną polegającą na milczeniu o uzależnieniu",
+      "Medyczny protokół leczenia podczas detoksu"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 30,
+    "question": "Które z poniższych jest głównym celem profilaktyki trzeciorzędowej uzależnień?",
+    "options": [
+      "Zapobieganie pierwszemu sięgnięciu po substancję",
+      "Wczesne wykrywanie osób z ryzykiem szkodliwego używania",
+      "Minimalizacja szkód i poprawa jakości życia osób z chronicznym uzależnieniem oraz zapobieganie nawrotom",
+      "Edukacja zdrowotna całej populacji w zakresie substancji psychoaktywnych"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "Triangularna teoria miłości Sternberga wyróżnia trzy składniki. Który z poniższych NIE jest jednym z nich?",
+    "options": [
+      "Intymność (intimacy)",
+      "Namiętność (passion)",
+      "Lojalność (loyalty)",
+      "Zobowiązanie (commitment)"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  },
+  {
+    "id": 2,
+    "question": "Według teorii Sternberga, 'miłość doskonała' (consummate love) to połączenie:",
+    "options": [
+      "Intymności i namiętności bez zobowiązania",
+      "Namiętności i zobowiązania bez intymności",
+      "Intymności i zobowiązania bez namiętności",
+      "Intymności, namiętności i zobowiązania jednocześnie"
+    ],
+    "correct": 3,
+    "difficulty": 1
+  },
+  {
+    "id": 3,
+    "question": "Style przywiązania u dorosłych (Hazan i Shaver, 1987) są odpowiednikami stylów przywiązania badanych przez Ainsworth. Styl 'lękowo-ambiwalentny' u dorosłego przejawia się:",
+    "options": [
+      "Unikaniem bliskości i dyskomfortem w relacjach intymnych",
+      "Silnym lękiem przed porzuceniem, intensywnym poszukiwaniem bliskości i zazdrością",
+      "Swobodą w bliskich relacjach i ufnością wobec partnera",
+      "Chaotycznym, dezorganizowanym wzorcem przywiązania"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 4,
+    "question": "Dobór partnera według ewolucyjnych teorii psychologicznych (Buss, 1989) sugeruje, że mężczyźni przykładają większą wagę do:",
+    "options": [
+      "Stabilności finansowej i statusu społecznego partnerki",
+      "Sygnałów zdrowia i płodności (atrakcyjność fizyczna, młodość)",
+      "Emocjonalnej dostępności i zdolności opiekuńczych",
+      "Zbieżności wartości i przekonań"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 5,
+    "question": "Model 'Four Horsemen' (Czterech Jeźdźców) Gottmana opisuje cztery wzorce komunikacji destrukcyjnej dla związku. Które z poniższych NIE jest jednym z nich?",
+    "options": [
+      "Krytyka (criticism)",
+      "Pogarda (contempt)",
+      "Nadmierne przepraszanie (over-apologizing)",
+      "Defensywność (defensiveness)"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  },
+  {
+    "id": 6,
+    "question": "Przemoc w związkach intymnych (Intimate Partner Violence, IPV) ma charakter cykliczny. Model 'koła przemocy' Walkera obejmuje fazę:",
+    "options": [
+      "Wspólnego rozwiązywania problemów i mediacji",
+      "Narastania napięcia, incydentu przemocy, pojednania (honeymoon) i spokoju",
+      "Wzajemnego oddalania i powrotu do bliskości",
+      "Silnej namiętności naprzemiennie ze znudzeniem"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 7,
+    "question": "Metaanaliza wyników Gottmana wskazuje, że optymalny stosunek pozytywnych do negatywnych interakcji w satysfakcjonujących związkach wynosi:",
+    "options": [
+      "1:1",
+      "3:1",
+      "5:1",
+      "10:1"
+    ],
+    "correct": 2,
+    "difficulty": 2
+  },
+  {
+    "id": 8,
+    "question": "Terapia par skoncentrowana na emocjach (EFT, Emotionally Focused Therapy) autorstwa Sue Johnson opiera się na:",
+    "options": [
+      "Teorii poznawczo-behawioralnej i restrukturyzacji przekonań",
+      "Teorii przywiązania — pomaga partnerom wyrażać emocje i tworzyć bezpieczną więź",
+      "Psychoanalizie i analizie nieświadomych konfliktów",
+      "Teorii systemowej rodziny Bowena"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 9,
+    "question": "Zdrada w związkach partnerskich jest najsilniejszym predyktorem:",
+    "options": [
+      "Natychmiastowego i ostatecznego zakończenia związku",
+      "Przejściowego kryzysu bez trwałych konsekwencji",
+      "Głębokiego urazu przywiązania, utraty zaufania i konieczności odbudowy bezpieczeństwa",
+      "Wzrostu namiętności po jej ujawnieniu"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  },
+  {
+    "id": 10,
+    "question": "Komunikacja asertywna w parze różni się od agresywnej tym, że:",
+    "options": [
+      "Asertywność zakłada rezygnację z własnych potrzeb dla dobra partnera",
+      "Asertywność wyraża własne potrzeby i uczucia bez naruszania granic partnera",
+      "Komunikacja agresywna jest skuteczniejsza w rozwiązywaniu konfliktów",
+      "Asertywność wyklucza wyrażanie negatywnych emocji"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 11,
+    "question": "Koncepcja 'miłosnego języka' (love language) Chapmana wyróżnia pięć języków miłości. Który z poniższych NIE jest jednym z nich?",
+    "options": [
+      "Słowa uznania (words of affirmation)",
+      "Czas jakości (quality time)",
+      "Kontakt fizyczny (physical touch)",
+      "Dominacja emocjonalna (emotional dominance)"
+    ],
+    "correct": 3,
+    "difficulty": 1
+  },
+  {
+    "id": 12,
+    "question": "Teoria wymiany społecznej (Social Exchange Theory) w kontekście związków zakłada, że ludzie:",
+    "options": [
+      "Wybierają partnerów wyłącznie na podstawie podobieństwa wartości",
+      "Dążą do maksymalizacji nagród i minimalizacji kosztów w relacjach; satysfakcja zależy od bilansu zysk-koszt",
+      "Kierują się wyłącznie biologicznymi mechanizmami doboru seksualnego",
+      "Tworzą trwałe związki niezależnie od poziomu satysfakcji"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 13,
+    "question": "Styl przywiązania 'unikający-odrzucający' (dismissing avoidant) u dorosłych charakteryzuje się:",
+    "options": [
+      "Idealizowaniem własnej historii przywiązania i zaprzeczaniem jej znaczenia",
+      "Intensywnym poszukiwaniem bliskości połączonym z lękiem przed porzuceniem",
+      "Spójną narracyjną historią przywiązania z akceptacją trudnych doświadczeń",
+      "Dezorganizacją narracji o własnej historii przywiązania"
+    ],
+    "correct": 0,
+    "difficulty": 3
+  },
+  {
+    "id": 14,
+    "question": "Asertywna technika 'komunikatu ja' (I-message) polega na:",
+    "options": [
+      "Opisaniu zachowania partnera i oskarżeniu go o złe intencje",
+      "Wyrażeniu własnych uczuć i potrzeb ('Czuję X, gdy Y, ponieważ potrzebuję Z') bez atakowania partnera",
+      "Ignorowaniu własnych potrzeb i skupianiu się na potrzebach partnera",
+      "Listownym komunikowaniu trudnych tematów"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 15,
+    "question": "Pojęcie 'gaslighting' w kontekście relacji oznacza:",
+    "options": [
+      "Romantyczną grę opartą na napięciu i wzajemnym uwodzeniu",
+      "Formę psychologicznej manipulacji, w której sprawca podważa rzeczywistość, percepcję i zdrowie psychiczne ofiary",
+      "Technikę terapeutyczną pomagającą parze przepracować konflikty",
+      "Mechanizm adaptacyjny pozwalający radzić sobie z traumą"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 16,
+    "question": "Efekt podobieństwa (similarity attraction) w doborze partnera oznacza, że:",
+    "options": [
+      "Przeciwieństwa się przyciągają i tworzą stabilniejsze związki",
+      "Ludzie są bardziej atrakcyjni dla tych, którzy są podobni do nich pod względem wartości, postaw i cech",
+      "Podobieństwo jest ważne tylko w krótkoterminowych relacjach",
+      "Podobieństwo fizyczne jest ważniejsze niż podobieństwo osobowości"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 17,
+    "question": "Terapia par wg metody Gottmana koncentruje się na:",
+    "options": [
+      "Analizie przeszłości i nieświadomych motywów",
+      "Budowaniu 'mapy miłości', wzmacnianiu przyjaźni, zarządzaniu konfliktami i tworzeniu wspólnego sensu",
+      "Wyłącznie technicznych umiejętnościach komunikacyjnych",
+      "Rozwiązaniu problemów prawnych i finansowych pary"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 18,
+    "question": "Przemoc psychologiczna w związku może obejmować:",
+    "options": [
+      "Wyłącznie fizyczne formy przemocy",
+      "Izolację, kontrolę, poniżanie, zastraszanie i manipulację emocjonalną",
+      "Wyrażanie niezadowolenia i kłótnie",
+      "Ograniczanie czasu spędzanego poza domem wyłącznie z powodów finansowych"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 19,
+    "question": "Teoria inwestycji (Investment Model) Rusbulta zakłada, że zaangażowanie w związek zależy od:",
+    "options": [
+      "Wyłącznie poziomu satysfakcji seksualnej",
+      "Satysfakcji, jakości alternatyw i wielkości inwestycji (czasu, zasobów) poniesionych w związek",
+      "Długości trwania związku mierzonej w latach",
+      "Stopnia podobieństwa cech osobowości"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 20,
+    "question": "Teoria miłości jako narracji (Love as a Story) Sternberga sugeruje, że:",
+    "options": [
+      "Miłość jest wyłącznie biologicznie zdeterminowanym uczuciem",
+      "Każda osoba tworzy wewnętrzną narrację o tym, czym jest miłość, i szuka partnera pasującego do tej historii",
+      "Miłość podlega wyłącznie prawom ekonomii wymiany społecznej",
+      "Narracje miłosne są niezmienne przez całe życie"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 21,
+    "question": "Pojęcie 'zarządzanie konfliktami' (conflict management) u Gottmana wskazuje, że:",
+    "options": [
+      "Celem terapii par jest całkowite wyeliminowanie konfliktów",
+      "69% problemów w parze to konflikty 'wieczne' (perpetual), których nie da się rozwiązać, ale można nimi zarządzać z szacunkiem",
+      "Konflikty są zawsze destrukcyjne i należy ich unikać",
+      "Każdy konflikt można rozwiązać poprzez kompromis"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 22,
+    "question": "Powrót do zaufania po zdradzie według modeli terapeutycznych (np. Gottman) wymaga:",
+    "options": [
+      "Natychmiastowego wybaczenia i zapomnienia o incydencie",
+      "Czasu, przejrzystości sprawcy, wyrażenia żalu, stopniowego odbudowywania bezpieczeństwa",
+      "Całkowitego milczenia na temat zdrady po pierwszym omówieniu",
+      "Udowodnienia przez sprawcę, że zdrada się nie powtórzy poprzez kontrolę zewnętrzną"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 23,
+    "question": "Bliskość (intymność) według teorii Sternberga:",
+    "options": [
+      "Wzrasta gwałtownie, potem spada i nie odbudowuje się",
+      "Rośnie stopniowo, może wejść w fazę 'latentną' — wciąż obecna, lecz mniej uświadamiana",
+      "Jest tożsama z fizyczną atrakcją seksualną",
+      "Zależy wyłącznie od zbieżności przekonań religijnych"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 24,
+    "question": "Pojęcie 'stonewalling' (zamurowanie) w modelu Gottmana oznacza:",
+    "options": [
+      "Eskalację krytyki wobec partnera",
+      "Całkowite wycofanie się z interakcji i ignorowanie partnera jako reakcja na przytłaczające pobudzenie emocjonalne",
+      "Obronne zaprzeczanie zarzutom partnera",
+      "Pogardliwe zachowanie wyrażające wyższość"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 25,
+    "question": "Cykl 'atak–obrona' w komunikacji pary polega na tym, że:",
+    "options": [
+      "Jedna osoba atakuje fizycznie, a druga się broni",
+      "Krytyka/atak jednej osoby wywołuje defensywność lub kontratak drugiej, eskalując konflikt",
+      "Para naprzemiennie inicjuje pozytywne i negatywne interakcje",
+      "Partner inicjuje zmiany, podczas gdy drugi je blokuje"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 26,
+    "question": "Teoria ekwiwalentności w doborze partnerów (matching hypothesis) Walstera i wsp. zakłada, że:",
+    "options": [
+      "Ludzie wybierają partnerów znacznie atrakcyjniejszych od siebie",
+      "Ludzie wybierają partnerów podobnych do siebie pod względem atrakcyjności fizycznej i społecznej",
+      "Atrakcyjność fizyczna nie ma znaczenia w długoterminowych związkach",
+      "Partnerzy wyrównują poziom statusu ekonomicznego"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 27,
+    "question": "Teoria stylów miłości (Lee, 1973) wyróżnia sześć stylów. Który z poniższych jest stylem 'maniakalnym' (mania) charakteryzującym się obsesją, zazdrością i lękiem przed utratą?",
+    "options": [
+      "Eros",
+      "Storge",
+      "Mania",
+      "Pragma"
+    ],
+    "correct": 2,
+    "difficulty": 2
+  },
+  {
+    "id": 28,
+    "question": "Badania nad rozwodem wskazują, że najsilniejszym predyktorem rozwodu według Gottmana jest:",
+    "options": [
+      "Częstotliwość kłótni",
+      "Różnice w dochodach partnerów",
+      "Pogarda (contempt) wyrażana wobec partnera",
+      "Różnice w stylu wychowania dzieci"
+    ],
+    "correct": 2,
+    "difficulty": 2
+  },
+  {
+    "id": 29,
+    "question": "Koncepcja 'bezpiecznej bazy' w terapii par (EFT) oznacza, że:",
+    "options": [
+      "Para powinna mieszkać razem przed ślubem",
+      "Partnerzy tworzą relację, w której oboje mogą być wrażliwi i szukać wsparcia bez strachu przed odrzuceniem",
+      "Terapeuta staje się tymczasową bezpieczną bazą dla obojga partnerów",
+      "Dom rodzinny jest bazą, do której para wraca po kryzysach"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 30,
+    "question": "Która z poniższych interwencji jest rekomendowana przy przemocy domowej w parze?",
+    "options": [
+      "Terapia par z obojgiem partnerów jednocześnie w celu poprawy komunikacji",
+      "Wyłącznie mediacja",
+      "Indywidualna praca z każdym z partnerów osobno, zapewnienie bezpieczeństwa ofierze jako priorytet",
+      "Zwiększenie wzajemnej ekspozycji partnerów w celu normalizacji konfliktu"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  }
+]
