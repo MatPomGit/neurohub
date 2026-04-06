@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "Wymiar 'indywidualizm–kolektywizm' zaproponowany przez Hofstedego opisuje przede wszystkim:",
+    "options": [
+      "Różnice w inteligencji pomiędzy kulturami",
+      "Stopień, w jakim kultura ceni niezależność jednostki kontra lojalność wobec grupy",
+      "Poziom dystansu władzy w organizacjach",
+      "Różnice w stylu wychowania między kulturami zachodnimi a wschodnimi"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 2,
+    "question": "Metoda 'emic' w psychologii kulturowej oznacza podejście, które:",
+    "options": [
+      "Poszukuje pojęć i kategorii uniwersalnych dla wszystkich kultur",
+      "Bada kulturę z perspektywy wewnętrznej, używając pojęć zrozumiałych dla jej uczestników",
+      "Porównuje różne kultury przy użyciu tych samych narzędzi pomiarowych",
+      "Skupia się wyłącznie na obiektywnych wskaźnikach ekonomicznych"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 3,
+    "question": "Metoda 'etic' w psychologii kulturowej oznacza podejście, które:",
+    "options": [
+      "Opisuje kulturę wyłącznie z perspektywy wewnętrznej uczestnika",
+      "Nadaje pierwszeństwo empatii i narracji nad pomiarem",
+      "Stosuje zewnętrzne, porównawcze kategorie teoretyczne do analizy wielu kultur",
+      "Opiera się wyłącznie na obserwacji uczestniczącej"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  },
+  {
+    "id": 4,
+    "question": "Kultury kolektywistyczne w porównaniu z indywidualistycznymi zazwyczaj:",
+    "options": [
+      "Bardziej cenią autonomię i osiągnięcia osobiste",
+      "Kładą większy nacisk na obowiązki wobec grupy i harmonię społeczną",
+      "Wykazują wyższy poziom dystansu władzy",
+      "Posiadają mniejszą siatkę powiązań rodzinnych"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 5,
+    "question": "Złudzenie Müllera–Lyera polega na błędnym postrzeganiu długości linii. Badania międzykulturowe wykazały, że:",
+    "options": [
+      "Złudzenie jest tak samo silne we wszystkich kulturach",
+      "Osoby z kultur niepiśmiennych, mieszkające na otwartych przestrzeniach, są mniej podatne na złudzenie",
+      "Inteligencja ogólna całkowicie eliminuje wpływ złudzenia",
+      "Złudzenie działa silniej u dzieci niż u dorosłych we wszystkich kulturach"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 6,
+    "question": "Pojęcie 'niezależne vs. zależne Ja' (independent vs. interdependent self-construal) wprowadzone przez Markus i Kitayamę odnosi się do:",
+    "options": [
+      "Samooceny globalnej mierzonej skalą Rosenberga",
+      "Sposobu, w jaki kultura kształtuje to, jak jednostka definiuje siebie w relacji do innych",
+      "Różnic płciowych w stylu przywiązania",
+      "Teorii tożsamości społecznej Tajfela"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 7,
+    "question": "Efekt Sapira-Whorfa (hipoteza relatywizmu językowego) głosi, że:",
+    "options": [
+      "Wszystkie języki posiadają te same struktury gramatyczne",
+      "Język, którym mówimy, wpływa na sposób postrzegania i myślenia o rzeczywistości",
+      "Tłumaczenie pojęć jest zawsze możliwe bez utraty znaczenia",
+      "Emocje podstawowe są wyrażane identycznie we wszystkich językach"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 8,
+    "question": "Badania Ekmanów nad emocjami podstawowymi początkowo sugerowały, że rozpoznawanie wyrazu twarzy jest:",
+    "options": [
+      "Całkowicie zależne od kultury i wyuczone społecznie",
+      "Biologicznie universalne niezależnie od kultury",
+      "Zależne od płci, lecz nie od kultury",
+      "Związane wyłącznie z poziomem urbanizacji społeczeństwa"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 9,
+    "question": "Akkulturacja to proces, który zachodzi gdy:",
+    "options": [
+      "Jednostka uczy się języka ojczystego",
+      "Dwie lub więcej grup kulturowych wchodzi w kontakt, prowadząc do zmian kulturowych",
+      "Kultura izoluje się od wpływów zewnętrznych",
+      "Psycholog stosuje narzędzia diagnostyczne opracowane w innej kulturze"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 10,
+    "question": "Stres akulturacyjny (acculturation stress) doświadczany jest najczęściej przez:",
+    "options": [
+      "Osoby podróżujące turystycznie na krótki czas",
+      "Imigrantów i uchodźców stykających się z wymogami nowej kultury",
+      "Osoby powracające z krótkich wyjazdów służbowych",
+      "Badaczy prowadzących obserwację uczestniczącą"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 11,
+    "question": "Który z poniższych wymiarów kultury Hofstedego mierzy stopień akceptacji nierównego podziału władzy w społeczeństwie?",
+    "options": [
+      "Indywidualizm–kolektywizm",
+      "Unikanie niepewności",
+      "Dystans władzy",
+      "Orientacja długo- vs. krótkoterminowa"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  },
+  {
+    "id": 12,
+    "question": "Kulturowe syndromowe pojęcie 'twarz' (face) w kulturach wschodnioazjatyckich odnosi się przede wszystkim do:",
+    "options": [
+      "Dosłownego wyglądu fizycznego danej osoby",
+      "Społecznej reputacji i szacunku zdobywanego w oczach innych",
+      "Zdolności do wyrażania emocji w grupie",
+      "Hierarchii rodzinnej w kulturach konfucjańskich"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 13,
+    "question": "Pojęcie 'szok kulturowy' (culture shock) opisuje:",
+    "options": [
+      "Zaskoczenie wynikające z pierwszego kontaktu z nową kuchnią",
+      "Dezorientację, lęk i trudności adaptacyjne przy konfrontacji z obcą kulturą",
+      "Fascynację egzotyką nowej kultury w pierwszej fazie pobytu",
+      "Nabycie biegłości językowej w obcym kraju"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 14,
+    "question": "Badania nad 'kategoryzacją kolorów' w różnych kulturach wykazały, że:",
+    "options": [
+      "Wszystkie kultury posiadają identyczną liczbę nazw kolorów",
+      "Język wpływa na szybkość rozróżniania kolorów, zwłaszcza przy granicy kategorii",
+      "Percepcja koloru jest całkowicie niezależna od języka i kultury",
+      "Kultury tropikalne rozróżniają więcej odcieni zieleni niż kultury arktyczne"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 15,
+    "question": "W ramach psychologii kulturowej 'wielka piątka' cech osobowości (Big Five) jest krytykowana dlatego, że:",
+    "options": [
+      "Obejmuje zbyt wiele wymiarów do praktycznego zastosowania",
+      "Była opracowana głównie na próbach WEIRD (zachodnie, wykształcone, zurbanizowane) i może nie być universalna",
+      "Nie mierzy cech biologicznie zakorzenionych w temperamencie",
+      "Ignoruje różnice płciowe w strukturze osobowości"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 16,
+    "question": "Syndrom kulturowy 'amok' jest przykładem:",
+    "options": [
+      "Universalnej reakcji na stres ostry",
+      "Kulturowo specyficznego wzorca zaburzeń psychicznych (culture-bound syndrome)",
+      "Biologicznie uwarunkowanego zaburzenia psychotycznego",
+      "Rytuału inicjacji w kulturach południowoazjatyckich"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 17,
+    "question": "Psychologia kulturowa wskazuje, że kultura indywidualistyczna (np. USA) typowo promuje w dziedzinie zdrowia psychicznego:",
+    "options": [
+      "Podejście systemowe skupione na rodzinie i sieci społecznej",
+      "Indywidualną autonomię, samorealizację i terapię skoncentrowaną na jednostce",
+      "Leczenie farmakologiczne jako metodę pierwszego wyboru",
+      "Rytuały kulturowe jako mechanizm zdrowienia"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 18,
+    "question": "Koncepcja 'ekwiwalencji pomiarowej' w badaniach porównawczych między kulturami oznacza:",
+    "options": [
+      "Tłumaczenie narzędzi badawczych na wiele języków",
+      "Konieczność sprawdzenia, czy dane narzędzie mierzy ten sam konstrukt w taki sam sposób w różnych kulturach",
+      "Wyrównanie wielkości próby między grupami kulturowymi",
+      "Stosowanie identycznych warunków badania we wszystkich krajach"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 19,
+    "question": "Badania Geerta Hofstedego były pierwotnie prowadzone na próbach pracowników:",
+    "options": [
+      "WHO w różnych krajach",
+      "IBM w ponad 50 krajach",
+      "ONZ w krajach rozwijających się",
+      "Instytutów badań naukowych w Europie"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 20,
+    "question": "Koncepcja 'kulturowego prima' (cultural priming) oznacza, że:",
+    "options": [
+      "Kultury zawsze wywierają trwały i nieodwracalny wpływ na osobowość",
+      "Aktywowanie symboli kulturowych (flag, języka) chwilowo zmienia sposób myślenia i zachowania",
+      "Osoby dwukulturowe są bardziej podatne na zaburzenia tożsamości",
+      "Przynależność kulturowa jest wyłącznie biologicznie determinowana"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 21,
+    "question": "Teoria 'niezależnego vs. zależnego konstruowania Ja' Markus i Kitayamy sugeruje, że osoby z kultur kolektywistycznych:",
+    "options": [
+      "Osiągają wyższe wyniki na skalach neurotyczności",
+      "Definiują siebie przede wszystkim przez relacje, role i przynależność do grupy",
+      "Wykazują wyższą samoocenę globalną niż osoby z kultur indywidualistycznych",
+      "Częściej poszukują terapii indywidualnej"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 22,
+    "question": "Czym zajmuje się psychologia transkultural (cross-cultural psychology)?",
+    "options": [
+      "Terapią osób z doświadczeniami migracyjnymi",
+      "Porównywaniem psychologicznych podobieństw i różnic między ludźmi z różnych kultur",
+      "Badaniem wpływu mediów na tożsamość kulturową",
+      "Adaptacją testów psychologicznych do języka migowego"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 23,
+    "question": "Koncepcja 'wielokulturowości' (multiculturalism) w psychologii klinicznej postuluje, że terapeuci powinni:",
+    "options": [
+      "Ignorować różnice kulturowe i traktować każdego klienta jednakowo",
+      "Być świadomi własnych przekonań kulturowych oraz dostosowywać podejście terapeutyczne do kontekstu kulturowego klienta",
+      "Stosować wyłącznie narzędzia opracowane w kulturze klienta",
+      "Unikać pracy z klientami z innych kręgów kulturowych"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 24,
+    "question": "Akronim WEIRD w kontekście krytyki psychologii badań oznacza próbę złożoną z osób:",
+    "options": [
+      "Bardzo ekstremalnych pod względem cech osobowości",
+      "Western, Educated, Industrialised, Rich, Democratic",
+      "Wyłącznie z zaburzeniami psychicznymi",
+      "Niereprezentujących swojej kultury z powodu migracji"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 25,
+    "question": "Badania Nisbetta nad 'myśleniem holistycznym vs. analitycznym' wykazały, że osoby z kultur wschodnioazjatyckich w porównaniu z zachodnimi:",
+    "options": [
+      "Są lepsze w myśleniu dedukcyjnym i abstrakcyjnym",
+      "Bardziej skupiają się na kontekście i relacjach między obiektami niż na izolowanych przedmiotach",
+      "Wykazują niższe zdolności pamięci operacyjnej",
+      "Mają trudności z rozróżnianiem figury od tła"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 26,
+    "question": "Wymiar 'unikania niepewności' (uncertainty avoidance) Hofstedego oznacza stopień, w jakim kultura:",
+    "options": [
+      "Toleruje nierówności klasowe i majątkowe",
+      "Czuje się niekomfortowo wobec niejednoznaczności i stara się ją zredukować przez zasady i rytuały",
+      "Nagradza spontaniczne zachowanie",
+      "Promuje rywalizację kosztem współpracy"
+    ],
+    "correct": 1,
+    "difficulty": 1
+  },
+  {
+    "id": 27,
+    "question": "Cztery strategie akulturacji Berry'ego to:",
+    "options": [
+      "Asymilacja, separacja, marginalizacja, integracja",
+      "Adaptacja, izolacja, synkretyzm, koloniacja",
+      "Integracja, asymilacja, dominacja, izolacja",
+      "Marginalizacja, kolonizacja, hybrydyzacja, akulturacja"
+    ],
+    "correct": 0,
+    "difficulty": 2
+  },
+  {
+    "id": 28,
+    "question": "Kultura 'wysokiego kontekstu' (high-context culture) według Halla oznacza, że:",
+    "options": [
+      "Komunikacja jest wysoce formalna i dosłowna",
+      "Większość informacji zawarta jest w kontekście sytuacyjnym, relacjach i gestach, a nie w słowach",
+      "Kultura dysponuje rozbudowaną infrastrukturą cyfrową",
+      "Wysoki poziom alfabetyzacji jest cechą charakterystyczną"
+    ],
+    "correct": 1,
+    "difficulty": 2
+  },
+  {
+    "id": 29,
+    "question": "Depresja jako 'smutek serca' vs. depresja jako 'złe myśli' to przykład:",
+    "options": [
+      "Różnic w przeżywaniu i wyrażaniu zaburzeń afektywnych w różnych kulturach",
+      "Klasyfikacji DSM-5 kontra ICD-11",
+      "Różnic płciowych w symptomatologii depresji",
+      "Różnicy między depresją endogenną a reaktywną"
+    ],
+    "correct": 0,
+    "difficulty": 2
+  },
+  {
+    "id": 30,
+    "question": "Psychologia kulturowa zwraca uwagę, że koncepcja 'self-esteem' (samooceny) jako centralna wartość zdrowia psychicznego pochodzi przede wszystkim z kultury:",
+    "options": [
+      "Japońskiej",
+      "Skandynawskiej",
+      "Zachodniej (zwłaszcza północnoamerykańskiej)",
+      "Islamskiej"
+    ],
+    "correct": 2,
+    "difficulty": 1
+  }
+]
