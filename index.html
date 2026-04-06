@@ -369,6 +369,9 @@ em{color:var(--goldl)}
 .ttest-review-ans{font-size:.82rem;color:var(--t3);line-height:1.5}
 .ttest-review-ans .correct-ans{color:#8fd4a0}
 .ttest-review-ans .wrong-ans{color:#d4909e;text-decoration:line-through}
+.ttest-review-just{font-size:.8rem;color:var(--t2);margin-top:.55rem;padding-top:.5rem;border-top:1px solid rgba(255,255,255,.07);line-height:1.6}
+.ttest-review-just::before{content:"💡 ";opacity:.7}
+.ttest-result-time{font-size:.85rem;color:var(--t3);margin-bottom:.6rem}
 
 /* page hero */
 .page-hero{padding-bottom:1.9rem;margin-bottom:2.3rem;border-bottom:1px solid var(--border)}
@@ -1078,7 +1081,9 @@ function renderTheoreticalTest(id, item) {
       difficulty: 'normal',
       questions: [],
       currentIndex: 0,
-      answers: []
+      answers: [],
+      startTime: null,
+      endTime: null
     };
   }
   const st = theoreticalTestState;
@@ -1143,7 +1148,7 @@ function renderTheoreticalTest(id, item) {
       </div>
       <div class="ttest-nav">
         <button class="ttest-nav-btn" onclick="ttPrev()" ${st.currentIndex === 0 ? 'disabled' : ''}>← Poprzednie</button>
-        <button class="ttest-nav-btn primary" onclick="ttNext()" ${st.currentIndex === total - 1 ? 'disabled' : ''}>Następne →</button>
+        <button class="ttest-nav-btn primary" onclick="ttNext()" ${(st.currentIndex === total - 1 || st.answers[st.currentIndex] === null) ? 'disabled' : ''}>Następne →</button>
         <button class="ttest-nav-btn" onclick="ttFirstUnanswered()" ${canFinish ? 'disabled' : ''}>Pierwsze bez odpowiedzi</button>
         <button class="ttest-nav-btn" onclick="ttFinish()" ${!canFinish ? 'disabled' : ''} style="margin-left:auto">Zakończ test ✓</button>
       </div>
@@ -1160,6 +1165,13 @@ function renderTheoreticalTest(id, item) {
                 : pct >= 60 ? { label: 'Zaliczony',  cls: 'pass' }
                 :             { label: 'Niezaliczony', cls: 'fail' };
     const letters = ['A', 'B', 'C', 'D'];
+    let timeHtml = '';
+    if (st.startTime && st.endTime) {
+      const elapsed = st.endTime - st.startTime;
+      const minutes = Math.floor(elapsed / 60000);
+      const seconds = Math.floor((elapsed % 60000) / 1000);
+      timeHtml = `<div class="ttest-result-time">⏱ Czas wypełniania: ${minutes}:${seconds.toString().padStart(2, '0')}</div>`;
+    }
     const reviewHtml = st.questions.map((q, i) => {
       const userAns = st.answers[i];
       const isCorrect = userAns === q.correct;
@@ -1169,9 +1181,11 @@ function renderTheoreticalTest(id, item) {
       const ansHtml = isCorrect
         ? `<span class="correct-ans">✓ ${userLabel}</span>`
         : `<span class="wrong-ans">${userLabel}</span> → <span class="correct-ans">✓ ${corrLabel}</span>`;
+      const justHtml = q.justification ? `<div class="ttest-review-just">${q.justification}</div>` : '';
       return `<div class="ttest-review-item ${cls}">
         <div class="ttest-review-q">${i + 1}. ${q.question}</div>
         <div class="ttest-review-ans">${ansHtml}</div>
+        ${justHtml}
       </div>`;
     }).join('');
     area.innerHTML = `<div class="rendered ttest-wrap">
@@ -1182,6 +1196,7 @@ function renderTheoreticalTest(id, item) {
       <div class="ttest-result-box">
         <div class="ttest-result-score">${correct} / ${total}</div>
         <div class="ttest-result-pct">${pct}% poprawnych odpowiedzi</div>
+        ${timeHtml}
         <span class="ttest-result-grade ${grade.cls}">${grade.label}</span>
         <div class="ttest-nav" style="margin-top:.5rem">
           <button class="ttest-nav-btn primary" onclick="ttReset()">Nowy test</button>
@@ -1230,6 +1245,8 @@ window.ttStart = async function() {
     st.questions = questions;
     st.currentIndex = 0;
     st.answers = new Array(questions.length).fill(null);
+    st.startTime = Date.now();
+    st.endTime = null;
     st.phase = 'test';
     if (current === 'students/testy_teoretyczne') renderTheoreticalTest(current, pageMap.get(current));
   } catch(e) {
@@ -1242,7 +1259,12 @@ window.ttSelectAnswer = function(optIdx) {
   if (!theoreticalTestState || theoreticalTestState.phase !== 'test') return;
   const st = theoreticalTestState;
   st.answers[st.currentIndex] = optIdx;
-  if (st.currentIndex < st.questions.length - 1) st.currentIndex++;
+  if (st.answers.every(a => a !== null)) {
+    st.endTime = Date.now();
+    st.phase = 'results';
+  } else if (st.currentIndex < st.questions.length - 1) {
+    st.currentIndex++;
+  }
   if (current === 'students/testy_teoretyczne') renderTheoreticalTest(current, pageMap.get(current));
 };
 
@@ -1255,6 +1277,7 @@ window.ttPrev = function() {
 window.ttNext = function() {
   if (!theoreticalTestState) return;
   const st = theoreticalTestState;
+  if (st.answers[st.currentIndex] === null) return;
   st.currentIndex = Math.min(st.questions.length - 1, st.currentIndex + 1);
   if (current === 'students/testy_teoretyczne') renderTheoreticalTest(current, pageMap.get(current));
 };
@@ -1272,6 +1295,7 @@ window.ttFinish = function() {
   if (!theoreticalTestState) return;
   const st = theoreticalTestState;
   if (st.answers.some(a => a === null)) return;
+  st.endTime = Date.now();
   st.phase = 'results';
   if (current === 'students/testy_teoretyczne') renderTheoreticalTest(current, pageMap.get(current));
 };
