@@ -66,7 +66,7 @@ Debata akademicka jest żywa — Ferguson (2017) i inni krytycy wskazują na:
 - Ukrywanie zakupów przed bliskimi, zaciąganie długów
 - Poczucie winy po zakupach, mimo to nawrót
 
-Zakupoholizm jest silnie powiązany z materializmem, depresjąi lękiem. Wyróżnia się dwa typy: **impulsywne** (nieplanowane zakupy pod wpływem chwili) i **kompulsywne** (rytualne, powtarzalne).
+Zakupoholizm jest silnie powiązany z materializmem, depresją i lękiem. Wyróżnia się dwa typy: **impulsywne** (nieplanowane zakupy pod wpływem chwili) i **kompulsywne** (rytualne, powtarzalne).
 
 ---
 

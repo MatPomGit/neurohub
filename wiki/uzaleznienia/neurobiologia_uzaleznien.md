@@ -117,7 +117,7 @@ Model ten stanowi podstawę dla farmakoterapii:
 |---------|-----------|
 | **Genetyczne** | Polimorfizm genów receptorów D2 (DRD2), COMT (metabolizm dopaminy), OPRM1 (receptory opioidowe) |
 | **Epigenetyczne** | Wczesna trauma → metylacja promotorów genów stresowych |
-| **Wiek inicjacji** | Niezrelizowana PFC u adolescentów → wyższe ryzyko uzależnienia |
+| **Wiek inicjacji** | Niedojrzała PFC u adolescentów → wyższe ryzyko uzależnienia |
 | **Choroba psychiczna** | Depresja, PTSD, ADHD → samoleczenie substancjami |
 | **Środowisko** | Stres chroniczny zwiększa reaktywność systemu CRF |
 

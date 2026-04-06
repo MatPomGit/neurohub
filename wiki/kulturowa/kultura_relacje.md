@@ -108,7 +108,7 @@ Osoba z kultury niskokontekstowej może interpretować pośredniość jako niesz
 
 ## Implikacje kliniczne i praktyczne
 
-1. **Terapia par wielokulturowych** — partnerzy z różnych tygodni kulturowych mogą mieć odmienne oczekiwania wobec bliskości, komunikacji i ról
+1. **Terapia par wielokulturowych** — partnerzy z różnych tradycji kulturowych mogą mieć odmienne oczekiwania wobec bliskości, komunikacji i ról
 2. **Diagnoza zaburzeń relacyjnych** — wzorzec zachowania uważany za patologiczny w jednej kulturze (np. submisywność, unikanie konfliktu) może być adaptacyjny w innej
 3. **Praca grupowa** — style komunikacji w grupie terapeutycznej mogą być modulowane kulturowo; milczenie nie zawsze oznacza opór
 4. **Mediacja i negocjacje** — znajomość kontekstowości komunikacji jest kluczowa w pracy mediatora z parami o różnym tle kulturowym
