@@ -323,6 +323,7 @@ window.SITE_CONFIG = {
         { id: 'diagnostics/testy_uwagi',       label: 'Testy uwagi',                file: 'wiki/diagnostics/testy_uwagi.md'       },
         { id: 'diagnostics/testy_jezyka',      label: 'Testy językowe',             file: 'wiki/diagnostics/testy_jezyka.md'      },
         { id: 'diagnostics/wais',              label: 'Skale Wechslera (WAIS/WISC)',file: 'wiki/diagnostics/wais.md'              },
+        { id: 'diagnostics/wisc_v',            label: 'WISC-V — opis testu',        file: 'wiki/diagnostics/wisc_v.md'            },
         { id: 'diagnostics/neuropsych_battery',label: 'Baterie neuropsychologiczne',file: 'wiki/diagnostics/neuropsych_battery.md'},
         { id: 'diagnostics/rdoc',              label: 'Model RDoC',                  file: 'wiki/diagnostics/rdoc.md'              },
       ]
@@ -868,6 +869,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/diagnostics/testy_uwagi.md',      label: 'Testy uwagi',           status: 'live' },
       { file: 'wiki/diagnostics/testy_jezyka.md',     label: 'Testy językowe',        status: 'live' },
       { file: 'wiki/diagnostics/wais.md',             label: 'Skale Wechslera (WAIS/WISC)', status: 'live' },
+      { file: 'wiki/diagnostics/wisc_v.md',           label: 'WISC-V — opis testu',         status: 'live' },
       { file: 'wiki/diagnostics/neuropsych_battery.md',label: 'Baterie neuropsychologiczne', status: 'live' },
       { file: 'wiki/diagnostics/rdoc.md',              label: 'Model RDoC',                  status: 'live' },
     ],
@@ -1423,6 +1425,7 @@ window.SITE_CONFIG = {
             { label: 'Testy uwagi', id: 'diagnostics/testy_uwagi', status: 'live' },
             { label: 'Testy językowe', id: 'diagnostics/testy_jezyka', status: 'live' },
             { label: 'Skale Wechslera (WAIS/WISC)', id: 'diagnostics/wais', status: 'live' },
+            { label: 'WISC-V — opis testu', id: 'diagnostics/wisc_v', status: 'live' },
             { label: 'Baterie neuropsychologiczne', id: 'diagnostics/neuropsych_battery', status: 'live', desc: 'LNNB, HRNB, D-KEFS.' },
           ]
         },
