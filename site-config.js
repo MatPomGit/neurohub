@@ -124,6 +124,12 @@ window.SITE_CONFIG = {
         { id: 'kulturowa/kultura_percepcja', label: 'Kultura a percepcja i uwaga', file: 'wiki/kulturowa/kultura_percepcja.md' },
         { id: 'kulturowa/kulturowe_modele_ja', label: 'Kulturowe modele Ja', file: 'wiki/kulturowa/kulturowe_modele_ja.md' },
         { id: 'kulturowa/kultura_zdrowie', label: 'Kultura a zdrowie psychiczne', file: 'wiki/kulturowa/kultura_zdrowie.md' },
+        { id: 'kulturowa/kultura_emocje',    label: 'Kultura a emocje',                   file: 'wiki/kulturowa/kultura_emocje.md'    },
+        { id: 'kulturowa/akulturacja',       label: 'Akulturacja i adaptacja kulturowa',   file: 'wiki/kulturowa/akulturacja.md'       },
+        { id: 'kulturowa/kultura_jezyk',     label: 'Kultura a język (Sapir-Whorf)',        file: 'wiki/kulturowa/kultura_jezyk.md'     },
+        { id: 'kulturowa/kultura_osobowosc', label: 'Kultura a osobowość',                 file: 'wiki/kulturowa/kultura_osobowosc.md' },
+        { id: 'kulturowa/wschodnia_zachodnia',label: 'Psychologia Wschodu i Zachodu',      file: 'wiki/kulturowa/wschodnia_zachodnia.md'},
+        { id: 'kulturowa/kultura_relacje',   label: 'Kultura a relacje interpersonalne',   file: 'wiki/kulturowa/kultura_relacje.md'   },
       ]
     },
     {
@@ -135,6 +141,12 @@ window.SITE_CONFIG = {
         { id: 'uzaleznienia/uzaleznienia_mlodziezy', label: 'Uzależnienia u młodzieży', file: 'wiki/uzaleznienia/uzaleznienia_mlodziezy.md' },
         { id: 'uzaleznienia/wspoluzaleznienie', label: 'Współuzależnienie', file: 'wiki/uzaleznienia/wspoluzaleznienie.md' },
         { id: 'uzaleznienia/profilaktyka', label: 'Profilaktyka', file: 'wiki/uzaleznienia/profilaktyka.md' },
+        { id: 'uzaleznienia/uzaleznienia_behawioralne', label: 'Uzależnienia behawioralne',              file: 'wiki/uzaleznienia/uzaleznienia_behawioralne.md' },
+        { id: 'uzaleznienia/neurobiologia_uzaleznien',  label: 'Neurobiologia uzależnień',               file: 'wiki/uzaleznienia/neurobiologia_uzaleznien.md'  },
+        { id: 'uzaleznienia/rodzina_w_uzaleznieniach',  label: 'Rodzina w systemie uzależnienia',        file: 'wiki/uzaleznienia/rodzina_w_uzaleznieniach.md'  },
+        { id: 'uzaleznienia/internet_uzaleznienie',     label: 'Uzależnienie od internetu i technologii',file: 'wiki/uzaleznienia/internet_uzaleznienie.md'     },
+        { id: 'uzaleznienia/terapia_grupowa',           label: 'Terapia grupowa w uzależnieniach',       file: 'wiki/uzaleznienia/terapia_grupowa.md'           },
+        { id: 'uzaleznienia/recovery',                  label: 'Recovery — droga do zdrowia',            file: 'wiki/uzaleznienia/recovery.md'                  },
       ]
     },
     {
@@ -1321,6 +1333,12 @@ window.SITE_CONFIG = {
       { file: 'wiki/kulturowa/kultura_percepcja.md',             label: 'Kultura a percepcja i uwaga',         status: 'live' },
       { file: 'wiki/kulturowa/kulturowe_modele_ja.md',           label: 'Kulturowe modele Ja',                 status: 'live' },
       { file: 'wiki/kulturowa/kultura_zdrowie.md',               label: 'Kultura a zdrowie psychiczne',        status: 'live' },
+      { file: 'wiki/kulturowa/kultura_emocje.md',       label: 'Kultura a emocje',                  status: 'live' },
+      { file: 'wiki/kulturowa/akulturacja.md',          label: 'Akulturacja i adaptacja kulturowa', status: 'live' },
+      { file: 'wiki/kulturowa/kultura_jezyk.md',        label: 'Kultura a język (Sapir-Whorf)',      status: 'live' },
+      { file: 'wiki/kulturowa/kultura_osobowosc.md',    label: 'Kultura a osobowość',               status: 'live' },
+      { file: 'wiki/kulturowa/wschodnia_zachodnia.md',  label: 'Psychologia Wschodu i Zachodu',     status: 'live' },
+      { file: 'wiki/kulturowa/kultura_relacje.md',      label: 'Kultura a relacje interpersonalne', status: 'live' },
     ],
     uzaleznienia: [
       { file: 'wiki/uzaleznienia/kryteria_diagnostyczne.md',     label: 'Kryteria diagnostyczne',             status: 'live' },
@@ -1329,6 +1347,12 @@ window.SITE_CONFIG = {
       { file: 'wiki/uzaleznienia/uzaleznienia_mlodziezy.md',     label: 'Uzależnienia u młodzieży',           status: 'live' },
       { file: 'wiki/uzaleznienia/wspoluzaleznienie.md',          label: 'Współuzależnienie',                  status: 'live' },
       { file: 'wiki/uzaleznienia/profilaktyka.md',               label: 'Profilaktyka',                       status: 'live' },
+      { file: 'wiki/uzaleznienia/uzaleznienia_behawioralne.md', label: 'Uzależnienia behawioralne',              status: 'live' },
+      { file: 'wiki/uzaleznienia/neurobiologia_uzaleznien.md',  label: 'Neurobiologia uzależnień',               status: 'live' },
+      { file: 'wiki/uzaleznienia/rodzina_w_uzaleznieniach.md',  label: 'Rodzina w systemie uzależnienia',        status: 'live' },
+      { file: 'wiki/uzaleznienia/internet_uzaleznienie.md',     label: 'Uzależnienie od internetu i technologii',status: 'live' },
+      { file: 'wiki/uzaleznienia/terapia_grupowa.md',           label: 'Terapia grupowa w uzależnieniach',       status: 'live' },
+      { file: 'wiki/uzaleznienia/recovery.md',                  label: 'Recovery — droga do zdrowia',            status: 'live' },
     ],
     relacje: [
       { file: 'wiki/relacje/przywiezanie_doroslych.md',          label: 'Style przywiązania u dorosłych',     status: 'live' },
@@ -1633,6 +1657,17 @@ window.SITE_CONFIG = {
           ]
         },
         {
+          title: 'Kultura i tożsamość',
+          articles: [
+            { label: 'Kultura a emocje',                  id: 'kulturowa/kultura_emocje',     status: 'live' },
+            { label: 'Akulturacja i adaptacja kulturowa', id: 'kulturowa/akulturacja',         status: 'live' },
+            { label: 'Kultura a język (Sapir-Whorf)',     id: 'kulturowa/kultura_jezyk',       status: 'live' },
+            { label: 'Kultura a osobowość',               id: 'kulturowa/kultura_osobowosc',   status: 'live' },
+            { label: 'Psychologia Wschodu i Zachodu',     id: 'kulturowa/wschodnia_zachodnia', status: 'live' },
+            { label: 'Kultura a relacje interpersonalne', id: 'kulturowa/kultura_relacje',     status: 'live' },
+          ]
+        },
+        {
           title: 'Emocje i motywacja',
           articles: [
             { label: 'Emocje — wprowadzenie', id: 'emotions/emocje_wprowadzenie', status: 'live' },
@@ -1731,6 +1766,17 @@ window.SITE_CONFIG = {
             { label: 'Uzależnienia u młodzieży', id: 'uzaleznienia/uzaleznienia_mlodziezy', status: 'live' },
             { label: 'Współuzależnienie', id: 'uzaleznienia/wspoluzaleznienie', status: 'live' },
             { label: 'Profilaktyka', id: 'uzaleznienia/profilaktyka', status: 'live' },
+          ]
+        },
+        {
+          title: 'Neurobiologia i zaawansowane zagadnienia',
+          articles: [
+            { label: 'Neurobiologia uzależnień',               id: 'uzaleznienia/neurobiologia_uzaleznien',   status: 'live' },
+            { label: 'Uzależnienia behawioralne',              id: 'uzaleznienia/uzaleznienia_behawioralne',  status: 'live' },
+            { label: 'Uzależnienie od internetu i technologii',id: 'uzaleznienia/internet_uzaleznienie',      status: 'live' },
+            { label: 'Rodzina w systemie uzależnienia',        id: 'uzaleznienia/rodzina_w_uzaleznieniach',   status: 'live' },
+            { label: 'Terapia grupowa w uzależnieniach',       id: 'uzaleznienia/terapia_grupowa',            status: 'live' },
+            { label: 'Recovery — droga do zdrowia',           id: 'uzaleznienia/recovery',                   status: 'live' },
           ]
         },
       ]
