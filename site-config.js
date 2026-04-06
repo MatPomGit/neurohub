@@ -172,6 +172,11 @@ window.SITE_CONFIG = {
         { id: 'etyka/swiadoma_zgoda', label: 'Świadoma zgoda', file: 'wiki/etyka/swiadoma_zgoda.md' },
         { id: 'etyka/granice_relacji', label: 'Granice relacji terapeutycznej', file: 'wiki/etyka/granice_relacji.md' },
         { id: 'etyka/superwizja_odpowiedzialnosc', label: 'Superwizja i odpowiedzialność', file: 'wiki/etyka/superwizja_odpowiedzialnosc.md' },
+        { id: 'etyka/dylematy_etyczne',          label: 'Dylematy etyczne w praktyce',           file: 'wiki/etyka/dylematy_etyczne.md'          },
+        { id: 'etyka/kompetencje_kulturowe',     label: 'Kompetencje kulturowe',                 file: 'wiki/etyka/kompetencje_kulturowe.md'     },
+        { id: 'etyka/etyka_badan',               label: 'Etyka badań naukowych',                 file: 'wiki/etyka/etyka_badan.md'               },
+        { id: 'etyka/etyka_cyfrowa',             label: 'Etyka w psychologii cyfrowej',          file: 'wiki/etyka/etyka_cyfrowa.md'             },
+        { id: 'etyka/odpowiedzialnosc_zawodowa', label: 'Odpowiedzialność zawodowa',             file: 'wiki/etyka/odpowiedzialnosc_zawodowa.md' },
       ]
     },
     {
@@ -197,6 +202,11 @@ window.SITE_CONFIG = {
         { id: 'emotions/neurobiologia',       label: 'Neurobiologia emocji',     file: 'wiki/emotions/neurobiologia.md'       },
         { id: 'emotions/wspolczucie',         label: 'Empatia i współczucie',    file: 'wiki/emotions/wspolczucie.md'         },
         { id: 'emotions/aleksytymia',         label: 'Aleksytymia',              file: 'wiki/emotions/aleksytymia.md'         },
+        { id: 'emotions/inteligencja_emocjonalna', label: 'Inteligencja emocjonalna',          file: 'wiki/emotions/inteligencja_emocjonalna.md' },
+        { id: 'emotions/stres_emocje',             label: 'Stres i emocje',                    file: 'wiki/emotions/stres_emocje.md'             },
+        { id: 'emotions/pozytywne_emocje',         label: 'Pozytywne emocje i broaden-build',  file: 'wiki/emotions/pozytywne_emocje.md'         },
+        { id: 'emotions/wstyd_wina',               label: 'Wstyd i wina',                      file: 'wiki/emotions/wstyd_wina.md'               },
+        { id: 'emotions/emocje_spoleczne',         label: 'Emocje społeczne i moralne',        file: 'wiki/emotions/emocje_spoleczne.md'         },
       ]
     },
     {
@@ -949,6 +959,11 @@ window.SITE_CONFIG = {
       { file: 'wiki/emotions/neurobiologia.md',label: 'Neurobiologia emocji',    status: 'live' },
       { file: 'wiki/emotions/wspolczucie.md',  label: 'Empatia i współczucie',   status: 'live' },
       { file: 'wiki/emotions/aleksytymia.md',  label: 'Aleksytymia',             status: 'live' },
+      { file: 'wiki/emotions/inteligencja_emocjonalna.md', label: 'Inteligencja emocjonalna',         status: 'live' },
+      { file: 'wiki/emotions/stres_emocje.md',             label: 'Stres i emocje',                   status: 'live' },
+      { file: 'wiki/emotions/pozytywne_emocje.md',         label: 'Pozytywne emocje i broaden-build', status: 'live' },
+      { file: 'wiki/emotions/wstyd_wina.md',               label: 'Wstyd i wina',                     status: 'live' },
+      { file: 'wiki/emotions/emocje_spoleczne.md',         label: 'Emocje społeczne i moralne',       status: 'live' },
     ],
     biology: [
       { file: 'wiki/biology/biologiczne_podstawy.md', label: 'Biologiczne podstawy — wprow.', status: 'live' },
@@ -1372,6 +1387,11 @@ window.SITE_CONFIG = {
       { file: 'wiki/etyka/swiadoma_zgoda.md',                    label: 'Świadoma zgoda',                     status: 'live' },
       { file: 'wiki/etyka/granice_relacji.md',                   label: 'Granice relacji terapeutycznej',     status: 'live' },
       { file: 'wiki/etyka/superwizja_odpowiedzialnosc.md',       label: 'Superwizja i odpowiedzialność',      status: 'live' },
+      { file: 'wiki/etyka/dylematy_etyczne.md',          label: 'Dylematy etyczne w praktyce',          status: 'live' },
+      { file: 'wiki/etyka/kompetencje_kulturowe.md',     label: 'Kompetencje kulturowe',                status: 'live' },
+      { file: 'wiki/etyka/etyka_badan.md',               label: 'Etyka badań naukowych',                status: 'live' },
+      { file: 'wiki/etyka/etyka_cyfrowa.md',             label: 'Etyka w psychologii cyfrowej',         status: 'live' },
+      { file: 'wiki/etyka/odpowiedzialnosc_zawodowa.md', label: 'Odpowiedzialność zawodowa',            status: 'live' },
     ],
     diagnoza: [
       { file: 'wiki/diagnoza/etapy_diagnozy.md',                 label: 'Etapy i cele diagnozy',              status: 'live' },
@@ -1677,6 +1697,11 @@ window.SITE_CONFIG = {
             { label: 'Neurobiologia emocji', id: 'emotions/neurobiologia', status: 'live' },
             { label: 'Empatia i współczucie', id: 'emotions/wspolczucie', status: 'live' },
             { label: 'Aleksytymia', id: 'emotions/aleksytymia', status: 'live' },
+            { label: 'Inteligencja emocjonalna', id: 'emotions/inteligencja_emocjonalna', status: 'live' },
+            { label: 'Stres i emocje', id: 'emotions/stres_emocje', status: 'live' },
+            { label: 'Pozytywne emocje i broaden-build', id: 'emotions/pozytywne_emocje', status: 'live' },
+            { label: 'Wstyd i wina', id: 'emotions/wstyd_wina', status: 'live' },
+            { label: 'Emocje społeczne i moralne', id: 'emotions/emocje_spoleczne', status: 'live' },
           ]
         },
       ]
@@ -1992,6 +2017,16 @@ window.SITE_CONFIG = {
             { label: 'Świadoma zgoda', id: 'etyka/swiadoma_zgoda', status: 'live' },
             { label: 'Granice relacji terapeutycznej', id: 'etyka/granice_relacji', status: 'live' },
             { label: 'Superwizja i odpowiedzialność', id: 'etyka/superwizja_odpowiedzialnosc', status: 'live' },
+          ]
+        },
+        {
+          title: 'Zaawansowane zagadnienia',
+          articles: [
+            { label: 'Dylematy etyczne w praktyce',        id: 'etyka/dylematy_etyczne',          status: 'live' },
+            { label: 'Kompetencje kulturowe',              id: 'etyka/kompetencje_kulturowe',     status: 'live' },
+            { label: 'Etyka badań naukowych',              id: 'etyka/etyka_badan',               status: 'live' },
+            { label: 'Etyka w psychologii cyfrowej',       id: 'etyka/etyka_cyfrowa',             status: 'live' },
+            { label: 'Odpowiedzialność zawodowa',          id: 'etyka/odpowiedzialnosc_zawodowa', status: 'live' },
           ]
         },
       ]
