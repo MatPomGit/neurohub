@@ -9,7 +9,8 @@
       "Pamięci jawnej i utajonej"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Model Baddeleya i Hitcha opisuje pamięć roboczą jako system z centralnym wykonawcą oraz wyspecjalizowanymi podsystemami. Dodany później bufor epizodyczny integruje informacje z różnych modalności."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Jednakowym zapamiętywaniu wszystkich elementów listy"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Efekt pierwszeństwa wynika z większej szansy na powtórzenie pierwszych elementów i ich zapis w pamięci długotrwałej. To klasyczna część krzywej pozycji seryjnej."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Przenoszenia uwagi między różnymi źródłami informacji"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Selektywna uwaga pozwala filtrować informacje i kierować ograniczone zasoby na bodźce ważne dla celu. Badania Broadbenta i Treisman pokazały, że bez takiej selekcji system poznawczy byłby przeciążony."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Karaniu niepożądanego zachowania bodźcem awersyjnym"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "W warunkowaniu klasycznym bodziec neutralny zaczyna wywoływać reakcję po skojarzeniu z bodźcem bezwarunkowym. Pawłow pokazał to na przykładzie ślinienia psów na dźwięk."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Percepcja głębi wymaga obu oczu"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Złudzenie Müllera-Lyera pokazuje, że percepcja jest konstrukcją mózgu, a nie prostym odbiorem świata. Układ wzrokowy interpretuje wskazówki perspektywiczne, przez co linie wydają się nierówne."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Preferowaniu informacji potwierdzających wcześniejsze przekonania"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Heurystyka reprezentatywności polega na ocenianiu prawdopodobieństwa przez podobieństwo do prototypu, a nie przez realne statystyki. Tversky i Kahneman pokazali, że prowadzi to np. do ignorowania częstości bazowych."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Percepcję wzrokową i słuchową"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Teoria wykrywania sygnałów oddziela rzeczywistą zdolność rozróżniania bodźców od stylu odpowiadania. Dlatego rozróżnia czułość d' od kryterium decyzyjnego β."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Powtarzanie wystarczy do trwałego zapamiętania"
     ],
     "correct": 0,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Zasada encoding specificity Tulvinga mówi, że przypominanie jest najlepsze, gdy wskazówki przy odtwarzaniu pasują do warunków kodowania. Kontekst staje się więc częścią śladu pamięciowego."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Aktywny wyłącznie podczas snu i konsolidacji pamięci"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "System 1 u Kahnemana działa szybko, automatycznie i intuicyjnie, oszczędzając wysiłek poznawczy. Jego szybkość sprzyja jednak błędom heurystycznym i stronniczościom."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Schematy graficzne stosowane w terapii"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Schemat poznawczy to uporządkowana struktura wiedzy, która kieruje interpretacją nowych informacji. U Piageta schematy zmieniają się przez asymilację i akomodację."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Efekt pierwszeństwa w przetwarzaniu dźwięków mowy"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Efekt cocktail party pokazuje, że nawet ignorowany kanał może być częściowo analizowany semantycznie. Własne imię ma wysoki priorytet uwagowy, co wspiera modele attenuacji Treisman."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Tendencji do porównywania się z osobami podobnymi do nas"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Efekt Simona polega na tym, że zgodność miejsca bodźca z odpowiedzią przyspiesza reakcję, nawet gdy lokalizacja nie ma znaczenia. Pokazuje to automatyczne kodowanie przestrzeni w kontroli działania."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Czasu, jaki upłynął od pierwszego zapoznania się z materiałem"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Craik i Lockhart twierdzili, że o trwałości pamięci decyduje głębokość przetwarzania. Analiza semantyczna daje silniejsze ślady niż płytkie przetwarzanie cech fizycznych."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Rozproszenie uwagi przez muzykę utrudnia przetwarzanie werbalne"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "W teście Stroopa automatyczne czytanie słowa koliduje z zadaniem nazwania koloru atramentu. Spowolnienie reakcji ujawnia konflikt poznawczy i rolę hamowania."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Emocjonalnie neutralny materiał jest gorzej pamiętany niż emocjonalny"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Interferencja retroaktywna oznacza, że nowszy materiał zakłóca wydobycie starszego. To jedno z klasycznych wyjaśnień zapominania w badaniach pamięci."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Poprawie przypominania po przerwie (efekt inkubacji)"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Zeigarnik zauważyła, że zadania niedokończone pozostają bardziej aktywne poznawczo niż ukończone. Napięcie związane z przerwanym celem wzmacnia ich pamiętanie."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "Hamowania reakcji automatycznych w zadaniach wymagających kontroli wykonawczej"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Inhibicja latentna oznacza, że bodziec wielokrotnie nieistotny trudniej później skojarzyć z konsekwencją. Wcześniejsza ekspozycja bez znaczenia obniża jego podatność na uczenie."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Uwaga działa wyłącznie w sposób selekcji wczesnej (filtru Broadbenta)"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Kahneman proponował model jednej puli zasobów uwagi, które dzielimy między zadania. Im większa trudność i mniejsza motywacja, tym szybciej pojawia się przeciążenie."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "Obie przechowują te same informacje, różnią się jedynie szybkością dostępu"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Pamięć epizodyczna dotyczy osobistych zdarzeń osadzonych w czasie i miejscu, a semantyczna ogólnej wiedzy o świecie. Rozróżnienie to wprowadził Endel Tulving."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Efekt pierwszeństwa przy odtwarzaniu listy słów"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Stan tip-of-the-tongue pokazuje, że dostęp do informacji może być częściowy. Osoba wie, że zna odpowiedź, ale chwilowo nie może odzyskać pełnej reprezentacji fonologicznej."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Kodowanie werbalne jest dominującym i wystarczającym trybem przechowywania informacji"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Paivio zakładał dwa systemy reprezentacji: słowny i obrazowy. Gdy oba zostają aktywowane, materiał ma więcej dróg wydobycia i lepiej się utrwala."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Kodowanie informacji odbywa się sekwencyjnie od zmysłów do kory kojarzeniowej"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "W predictive coding mózg stale generuje hipotezy o świecie i koryguje je na podstawie błędów predykcji. Friston ujmuje percepcję jako minimalizację takiego błędu."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Pamięć externa (np. notatniki) jest zawsze mniej wiarygodna niż wewnętrzna"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Clark i Chalmers argumentowali, że narzędzia zewnętrzne mogą stać się częścią procesu poznawczego, jeśli pełnią funkcję równoważną pamięci lub obliczeniom wewnętrznym. Klasyczny przykład to notatnik jako rozszerzenie pamięci."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Aktywacja schematów powoduje zniekształcenia pamięciowe w kierunku zgodności ze schematem"
     ],
     "correct": 3,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Schematy porządkują doświadczenie, ale mogą też zniekształcać pamięć w kierunku informacji zgodnych z oczekiwaniami. Bartlett pokazał, że odtwarzanie jest rekonstrukcją, a nie kopią wydarzenia."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Modele sieci neuronowych bez odpowiedników w psychologii poznawczej"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "ACT-R Andersona łączy moduły pamięci deklaratywnej, proceduralnej, percepcji i działania w jedną architekturę poznawczą. Model ma także powiązania z funkcjonalną organizacją mózgu."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Efekt świeżości w pamięci roboczej"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Present bias oznacza preferowanie mniejszej nagrody teraz zamiast większej później. To przykład niespójnego w czasie dyskontowania opisywanego w ekonomii behawioralnej."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Automatyczne procesy nieobjęte świadomą kontrolą"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Flavell definiował metapoznanie jako wiedzę o własnym myśleniu oraz zdolność jego monitorowania i regulacji. Jest ono kluczowe np. dla skutecznego uczenia się i samokontroli."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Każdy element kategorii jest równoważny i żaden nie jest bardziej \"centralny\""
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Rosch pokazała, że kategorie nie zawsze mają ostre granice, lecz organizują się wokół najlepszych przykładów. Dlatego niektóre egzemplarze wydają się bardziej typowe od innych."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Modelu jednokomponentowej pamięci roboczej"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "MINERVA 2 opisuje pamięć jako zbiór wielu śladów epizodycznych, które wspólnie odpowiadają na wskazówkę. Wydobycie jest efektem sumowania aktywacji podobnych śladów."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "Ruchy gałek ocznych zawsze wyprzedzają przesunięcia uwagi"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Posner pokazał, że uwagę można przesuwać bez ruchu oczu, czyli skrycie. Taki ruchomy reflektor przyspiesza przetwarzanie bodźców w zaznaczonym obszarze przestrzeni."
   }
 ]

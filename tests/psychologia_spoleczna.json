@@ -9,7 +9,8 @@
       "Wykazywali agresję wobec słabszych uczestników"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Asch pokazał, że ludzie potrafią zgodzić się z oczywiście błędną większością pod presją normatywną. Konformizm wynika tu bardziej z potrzeby dopasowania niż z błędu percepcji."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Kategoryzacji społecznej i faworyzowania grupy własnej"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Milgram badał posłuszeństwo wobec autorytetu, pokazując, że zwykłe osoby mogą zadawać pozornie silne wstrząsy na polecenie eksperymentatora. To klasyczne badanie siły sytuacji społecznej."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Procesami grupowymi i przywództwem"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Teorie atrybucji opisują, jak ludzie wyjaśniają przyczyny zdarzeń i zachowań. Kelly i Weiner pokazali, że takie wyjaśnienia wpływają potem na emocje, ocenę i motywację."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Człowiek naśladuje zachowania modela"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Festinger twierdził, że niezgodność między przekonaniami i zachowaniem wywołuje napięcie motywujące do redukcji dysonansu. Można to robić przez zmianę postawy, zachowania albo reinterpretację sytuacji."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Większe grupy podejmują bardziej ryzykowne decyzje"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Efekt widza opisany przez Darleya i Latané pokazuje rozproszenie odpowiedzialności w grupie. Im więcej świadków, tym łatwiej uznać, że ktoś inny powinien pomóc."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Silne, negatywne emocje kierowane wobec outgrupy"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Stereotypy to poznawcze, uogólnione przekonania o grupach społecznych. W modelu ABC uprzedzeń stanowią komponent poznawczy, odrębny od emocji i zachowań."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Niedocenianiu roli osobowości w wyjaśnianiu własnych zachowań"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Podstawowy błąd atrybucji polega na przecenianiu cech osoby i niedocenianiu sytuacji przy ocenie innych. Ross pokazał, że jest to typowa stronniczość sądów społecznych."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Wyłącznie bezpośrednie wzmocnienie negatywne"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Bandura wykazał w eksperymencie z lalką Bobo, że agresji można uczyć się przez obserwację modeli. To sedno społeczno-poznawczej teorii uczenia się."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Jednostki rezygnują z własnych opinii pod wpływem autorytetu lidera"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Polaryzacja grupowa oznacza, że dyskusja wzmacnia dominujący kierunek opinii, czyniąc stanowiska bardziej skrajnymi. Wyjaśnia się to m.in. porównaniem społecznym i argumentami perswazyjnymi."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Wzroście motywacji przy publicznej ocenie wyników"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Efekt Pygmaliona polega na tym, że oczekiwania nauczyciela wpływają na sposób traktowania ucznia, a to zmienia jego wyniki. Rosenthal i Jacobson opisali ten mechanizm jako samospełniające się proroctwo."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Procesy kategoryzacji nie mają wpływu na uprzedzenia"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Teoria tożsamości społecznej Tajfela i Turnera zakłada, że część samooceny pochodzi z przynależności grupowej. Stąd tendencja do faworyzowania ingrupy nawet przy minimalnych podstawach podziału."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Ograniczonego i pośredniego (medialnego), by unikać konfliktów"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Allport twierdził, że sam kontakt nie wystarczy do redukcji uprzedzeń. Najlepiej działa kontakt oparty na równym statusie, współpracy, wspólnych celach i wsparciu instytucjonalnym."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Efekty perswazji znikają po usunięciu źródła nacisku"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Reaktancja Brehma to opór wobec ograniczania wolności wyboru. Gdy człowiek czuje presję, zakazana opcja może stać się bardziej atrakcyjna."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Preferujemy informacje potwierdzające nasze wcześniejsze przekonania"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Heurystyka dostępności polega na szacowaniu częstości lub prawdopodobieństwa na podstawie łatwości przypominania przykładów. Dlatego zdarzenia spektakularne bywają przeceniane."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Indywidualną i grupową"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "ELM Petty’ego i Cacioppo rozróżnia trasę centralną opartą na analizie argumentów i peryferyjną opartą na prostych wskazówkach. Trwałość zmiany postawy zależy od sposobu przetwarzania przekazu."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Faworyzowaniem mniejszości kosztem większości"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Janis opisywał groupthink jako dążenie do zgody kosztem realistycznej oceny sytuacji. Iluzja nieomylności i autocenzura zwiększają ryzyko złych decyzji grupowych."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "Tendencji grup do dehumanizacji swoich liderów"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Efekt Lucyfera Zimbarda pokazuje, że warunki sytuacyjne i role społeczne mogą wydobywać skrajnie destrukcyjne zachowania. To ważna przeciwwaga dla wyjaśniania zła wyłącznie cechami jednostki."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Biologiczne–środowiskowe i wrodzone–nabyte"
     ],
     "correct": 0,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "U Weinera ważne są wymiary wewnętrzne–zewnętrzne oraz stabilne–niestabilne, bo wpływają na oczekiwania sukcesu i motywację. Porażka przypisana trwałemu brakowi zdolności działa inaczej niż porażka przypisana chwilowemu brakowi wysiłku."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "Społecznego dowodu słuszności – inni też to robią"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Foot-in-the-door działa dzięki potrzebie spójności własnego obrazu. Po zgodzie na małą prośbę łatwiej spełnić większą, by zachować konsekwencję."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Wzrostem empatii wobec ofiar w dużej grupie"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Deindywiduacja zmniejsza samoświadomość i poczucie osobistej odpowiedzialności, co może nasilać zachowania impulsywne lub antyspołeczne. Opisywali to m.in. Festinger i Zimbardo."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Zaburzeń osobowości, nadużywania substancji i braku wsparcia"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Joiner wskazał trzy warunki wysokiego ryzyka samobójstwa: poczucie bycia ciężarem, frustrację przynależności i nabytą zdolność do skrzywdzenia siebie. Dopiero ich współwystępowanie silnie zwiększa ryzyko zamachu."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Efekt pojawia się tylko wtedy, gdy badani podzielają stereotyp"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Steele pokazał, że sama świadomość negatywnego stereotypu wobec własnej grupy obciąża poznawczo i pogarsza wynik. To efekt sytuacyjny, a nie dowód niższych zdolności."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Tylko osoby z zaburzeniami lękowymi doświadczają egzystencjalnego lęku przed śmiercią"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Terror Management Theory zakłada, że świadomość śmierci wywołuje lęk egzystencjalny. Ludzie redukują go przez obronę światopoglądu i wzmacnianie poczucia własnej wartości."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Wykazują typowo niższy poziom empatii niż osoby na peryferiach sieci"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Osoby centralne w sieci mają więcej połączeń, więc szybciej rozprzestrzeniają normy i informacje. Jednocześnie większa liczba relacji może zwiększać przeciążenie społeczne."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Przyjemność, unikanie bólu i reprodukcję"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Deci i Ryan wyróżnili trzy potrzeby podstawowe: autonomii, kompetencji i relacyjności. Ich zaspokojenie sprzyja dobrostanowi oraz motywacji autonomicznej."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Relacji między nadawcą a odbiorcą"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Latané opisywał wpływ społeczny jako funkcję liczby źródeł, ich siły i bliskości. Im bliższe, liczniejsze i silniejsze źródła nacisku, tym większy wpływ grupy."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Grupowe podejmowanie decyzji zawsze jest bardziej racjonalne niż indywidualne"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Kaskada informacyjna powstaje, gdy ludzie porzucają własne dane i podążają za zachowaniem innych. To ważny mechanizm plotek, mód i zbiorowych błędów."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Emocje nie mają wpływu na framing, gdy decyzja dotyczy kwestii etycznych"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Framing pokazuje, że identyczna treść przedstawiona jako zysk lub strata zmienia wybory. To jedno z kluczowych odkryć teorii perspektywy Tversky’ego i Kahnemana."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Dostosowywaniu ocen do oczekiwań grupy bez wewnętrznej zmiany przekonań"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Efekt fałszywego konsensusu polega na przecenianiu powszechności własnych opinii i zachowań. Ross wiązał go z egocentryzmem poznawczym i selektywną ekspozycją na podobnych ludzi."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "Altruizm ewoluował wyłącznie w kontekście doboru krewniaczy"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Batson argumentował, że empatia może wzbudzać motywację naprawdę altruistyczną, a nie tylko egoistyczne unikanie własnego dyskomfortu. To ważna kontrteza wobec teorii czysto egoistycznych."
   }
 ]

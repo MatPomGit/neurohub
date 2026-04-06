@@ -9,7 +9,8 @@
       "Statystyka, matematyka, informatyka, chemia"
     ],
     "correct": 0,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "To są klasyczne źródła danych diagnostycznych: wywiad, obserwacja, testy i analiza dokumentacji. Diagnoza psychologiczna opiera się na wielometodowym zbieraniu informacji, aby zwiększyć trafność wniosków."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Drukowanie testu w kolorze"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Standaryzacja oznacza, że test ma jednolitą procedurę podawania i interpretacji oraz normy odniesienia. Dzięki temu wyniki różnych osób można porównywać w sposób rzetelny i obiektywny."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "WRIT"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "WAIS-IV to Wechsler Adult Intelligence Scale, czyli wersja skali inteligencji przeznaczona dla osób dorosłych. WISC-V służy dzieciom, a WPPSI-IV dzieciom młodszym, dlatego tylko WAIS-IV jest poprawną odpowiedzią."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Kosztem przeprowadzenia badania"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Rzetelność dotyczy spójności i powtarzalności pomiaru, czyli tego, czy test daje stabilne wyniki. Im mniejszy wpływ błędu losowego, tym wyższa rzetelność narzędzia."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Wiek, dla którego przeznaczony jest test"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Trafność mówi, czy test rzeczywiście mierzy zamierzony konstrukt psychologiczny, a nie coś innego. To podstawowe kryterium jakości testu obok rzetelności."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Obserwacja zachowania pacjenta w naturalnym środowisku"
     ],
     "correct": 0,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Wywiad kliniczny jest celową rozmową diagnostyczną służącą zebraniu danych o objawach, historii życia i funkcjonowaniu osoby badanej. Może mieć formę swobodną, półustrukturyzowaną lub ustrukturyzowaną."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Dominanta"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Odchylenie standardowe opisuje, jak bardzo wyniki rozpraszają się wokół średniej. W psychometrii jest podstawową miarą zmienności i pomaga ocenić, czy wyniki grupy są jednorodne."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Skala oceny zachowania lekarza"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Norma to punkt odniesienia utworzony na podstawie wyników reprezentatywnej grupy. Dzięki normom można interpretować, czy wynik jednostki jest przeciętny, niski czy wysoki."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Wynik o odchyleniu standardowym równym 2"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "50. percentyl oznacza, że połowa grupy uzyskała wynik niższy, a połowa wyższy. Taki rezultat jest więc typowy i znajduje się w środku rozkładu wyników normatywnych."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Oceny ryzyka samobójstwa"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Anamneza oznacza zebranie historii życia, zdrowia i przebiegu trudności pacjenta. To ważny element diagnozy, bo pozwala osadzić aktualne objawy w kontekście rozwojowym i klinicznym."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Wywiadzie z rodzicami dziecka"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Obserwacja naturalistyczna polega na śledzeniu zachowania w zwykłym środowisku osoby badanej bez manipulowania sytuacją. Dzięki temu można uchwycić bardziej spontaniczne i ekologicznie trafne reakcje."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Europejską Federację Stowarzyszeń Psychologów (EFPA)"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "ICD-11 jest klasyfikacją opracowywaną przez WHO, czyli Światową Organizację Zdrowia. To międzynarodowy system rozpoznawania chorób i zaburzeń, szeroko używany także w zdrowiu psychicznym."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "WAIS-IV"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Test Rorschacha należy do metod projekcyjnych, ponieważ zakłada, że osoba badana rzutuje własne treści psychiczne na niejednoznaczny materiał. Projekcja ma tu ujawniać wzorce percepcji i funkcjonowania emocjonalnego."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Porównywaniu wyników z normami różnych grup wiekowych"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Diagnoza różnicowa polega na odróżnieniu jednego zaburzenia od innych o podobnym obrazie klinicznym. Jest kluczowa, bo podobne objawy mogą mieć odmienne podłoże, rokowanie i konsekwencje terapeutyczne."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Wskaźnik trudności pytania"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Alpha Cronbacha jest wskaźnikiem spójności wewnętrznej, czyli tego, na ile pozycje testu mierzą ten sam konstrukt. Wysoka wartość zwykle sugeruje dobrą rzetelność skali."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Orientacji przestrzennej"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Test Stroopa mierzy zdolność hamowania automatycznej reakcji czytania na rzecz nazwania koloru. Dlatego bada uwagę selektywną i kontrolę hamowania, zaliczane do funkcji wykonawczych."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "TAT (Tematyczny Test Apercepcji)"
     ],
     "correct": 0,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "BDI, czyli Inwentarz Depresji Becka, jest jednym z najczęściej stosowanych narzędzi do oceny nasilenia objawów depresyjnych. To samoopisowa skala dobrze znana w praktyce klinicznej i badaniach."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Brak norm dla osób starszych"
     ],
     "correct": 0,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Efekt sufitowy występuje wtedy, gdy wiele osób osiąga wyniki bliskie maksimum skali. Test przestaje wtedy różnicować osoby o wyższym poziomie badanej cechy lub umiejętności."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "Orientacji w miejscu i czasie"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "CBCL służy do oceny problemów emocjonalnych i behawioralnych u dzieci na podstawie obserwacji opiekunów. Jest elementem systemu Achenbacha i wspiera diagnozę rozwojową oraz kliniczną."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Diagnoza nie wymaga narzędzi standaryzowanych"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Nowoczesna diagnoza nie ogranicza się do opisu deficytów, lecz obejmuje także zasoby, mechanizmy radzenia sobie i czynniki ochronne. Takie ujęcie wspiera trafniejsze planowanie pomocy psychologicznej."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Osobowości metodą projekcyjną"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Test Bender-Gestalt bada, jak osoba kopiuje wzory wzrokowe, dlatego pozwala ocenić integrację wzrokowo-ruchową i organizację percepcyjną. Bywa używany w diagnostyce neuropsychologicznej i rozwojowej."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "SCL-90"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "WMS-IV to skala Wechslera przeznaczona do badania pamięci, a jej wyniki pomagają też oceniać wybrane funkcje wykonawcze w kontekście neuropsychologicznym. Jest standardowym narzędziem do analizy różnych systemów pamięci."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Stresory środowiskowe"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "W DSM-IV-TR oś I obejmowała główne zaburzenia kliniczne, takie jak depresja, zaburzenia lękowe czy schizofrenia. Był to element wieloosiowego systemu klasyfikacji używanego przed DSM-5."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Osób z głęboką niepełnosprawnością intelektualną"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "WISC-V to wersja skali Wechslera przeznaczona dla dzieci i młodzieży w wieku 6–16 lat. Dobór właściwej wersji testu zależy od wieku badanego, bo normy są specyficzne rozwojowo."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Obserwacja zachowania pacjenta w gabinecie"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Wywiad ustrukturyzowany opiera się na stałym zestawie pytań i jasno określonych zasadach oceny odpowiedzi. Zwiększa to obiektywność oraz zgodność między diagnostami."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "DSM-5 nie uwzględnia kryterium wieku zachorowania"
     ],
     "correct": 0,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "DSM-5 połączył wcześniejsze rozpoznania, takie jak autyzm dziecięcy, zespół Aspergera i PDD-NOS, w jedną kategorię spektrum autyzmu. Podkreśla to ciągłość nasilenia objawów zamiast sztywnych podtypów."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Stosowaniu techniki wzmocnienia pozytywnego"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Efekt halo polega na tym, że ogólne wrażenie o osobie wpływa na ocenę jej konkretnych cech. To klasyczny błąd poznawczy zagrażający obiektywności diagnozy."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Narzędzie do oceny ryzyka agresji"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "SCID-5 to ustrukturyzowany wywiad kliniczny oparty na kryteriach DSM-5. Jego standaryzowana forma pomaga zwiększyć trafność i zgodność rozpoznań."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Nomotetyczna analizuje przeszłość; idiograficzna – przyszłość"
     ],
     "correct": 0,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Podejście nomotetyczne odnosi jednostkę do prawidłowości grupowych i norm, natomiast idiograficzne koncentruje się na jej niepowtarzalnym profilu. Oba sposoby opisu są ważne, ale odpowiadają na inne pytania diagnostyczne."
   },
   {
     "id": 30,
@@ -357,7 +386,8 @@
       "Terapia poznawcza polega na tworzeniu nowych wspomnień"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Badania nad fałszywą pamięcią pokazują, że wspomnienia nie są wiernym zapisem wydarzeń, lecz mogą ulegać rekonstrukcji i sugestii. W diagnostyce oznacza to konieczność ostrożnej interpretacji relacji pacjenta."
   },
   {
     "id": 31,
@@ -369,7 +399,8 @@
       "Pomija historię choroby"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Diagnoza funkcjonalna opisuje, jak osoba radzi sobie w codziennym życiu, jakie ma ograniczenia i zasoby. Diagnoza nozologiczna skupia się głównie na przypisaniu kategorii zaburzenia."
   },
   {
     "id": 32,
@@ -381,7 +412,8 @@
       "Efekty uboczne leków psychotropowych"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "GAF ocenia całościowy poziom funkcjonowania psychicznego, społecznego i zawodowego na kontinuum od poważnych trudności do dobrego przystosowania. Nie mierzy pojedynczego objawu, lecz ogólną sprawność funkcjonalną."
   },
   {
     "id": 33,
@@ -393,7 +425,8 @@
       "Wyniki są powtarzalne w kolejnych pomiarach"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Trafność treściowa oznacza, że pozycje testu adekwatnie reprezentują cały zakres badanego konstruktu. Jeśli część ważnych aspektów zostanie pominięta, test nie oddaje pełnej treści cechy."
   },
   {
     "id": 34,
@@ -405,7 +438,8 @@
       "Współpracę terapeutyczną między specjalistami"
     ],
     "correct": 0,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Komorbidność oznacza współwystępowanie co najmniej dwóch zaburzeń u tej samej osoby. W praktyce klinicznej jest częsta i komplikuje zarówno diagnozę, jak i plan leczenia."
   },
   {
     "id": 35,
@@ -417,7 +451,8 @@
       "Słuch fonemiczny"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Fluencja słowna wymaga szybkiego generowania słów według określonej reguły, dlatego angażuje język, dostęp do pamięci semantycznej i funkcje wykonawcze. Szczególnie ważna jest tu elastyczność poznawcza."
   },
   {
     "id": 36,
@@ -429,7 +464,8 @@
       "Zaburzeń osobowości metodą wywiadową"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "PANSS służy do oceny objawów pozytywnych, negatywnych i ogólnej psychopatologii w schizofrenii. Jest jednym z podstawowych narzędzi do opisu nasilenia obrazu psychotycznego."
   },
   {
     "id": 37,
@@ -441,7 +477,8 @@
       "Wpływie zmęczenia na wyniki testu"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Regresja do średniej oznacza, że bardzo skrajne wyniki przy kolejnym pomiarze często przesuwają się bliżej przeciętnej. To zjawisko statystyczne, które trzeba uwzględniać przy interpretacji zmian."
   },
   {
     "id": 38,
@@ -453,7 +490,8 @@
       "Do porównania wyników z normami kulturowymi"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Skale kontrolne MMPI-2 pomagają ocenić, czy profil jest wiarygodny, czy też odpowiedzi są zafałszowane przez symulację, dysymulację lub przypadkowe zaznaczanie. Bez tej kontroli interpretacja skal klinicznych może być błędna."
   },
   {
     "id": 39,
@@ -465,7 +503,8 @@
       "Diagnoza oparta na procesach biochemicznych"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Diagnoza procesalna skupia się na sposobie wykonywania zadania, strategiach i popełnianych błędach, a nie tylko na wyniku końcowym. To podejście jest szczególnie cenne w neuropsychologii i diagnozie dzieci."
   },
   {
     "id": 40,
@@ -477,7 +516,8 @@
       "Ocenę stopnia niepełnosprawności intelektualnej"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "MINI jest krótkim, ustrukturyzowanym wywiadem przesiewowo-diagnostycznym zgodnym z systemami DSM i ICD. Pozwala szybko i względnie standaryzowanie ocenić obecność najważniejszych zaburzeń psychicznych."
   },
   {
     "id": 41,
@@ -489,7 +529,8 @@
       "Do diagnozy ADHD u dorosłych"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "SCL-90 mierzy szerokie spektrum objawów psychopatologicznych, takich jak lęk, depresja czy somatyzacja. Jest narzędziem samoopisowym używanym do oceny nasilenia objawów i monitorowania zmian."
   },
   {
     "id": 42,
@@ -501,7 +542,8 @@
       "Tylko testy kryterialnie mogą być stosowane klinicznie"
     ],
     "correct": 0,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Test znormalizowany interpretuje wynik przez porównanie z grupą odniesienia, natomiast test kryterialny sprawdza, czy osoba osiągnęła określony standard. To różnica między oceną względną a oceną względem kryterium."
   },
   {
     "id": 43,
@@ -513,7 +555,8 @@
       "Narzędziem przeznaczonym dla dzieci"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "HDRS jest skalą heterologiczną, bo objawy ocenia klinicysta na podstawie wywiadu i obserwacji. Narzędzie to służy do oszacowania nasilenia depresji, a nie do samopomiaru."
   },
   {
     "id": 44,
@@ -525,7 +568,8 @@
       "Określa plan leczenia farmakologicznego"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Hipoteza diagnostyczna to robocze wyjaśnienie problemu, które organizuje dalsze zbieranie danych. Dzięki niej dobiera się odpowiednie metody i weryfikuje konkurencyjne interpretacje."
   },
   {
     "id": 45,
@@ -537,7 +581,8 @@
       "Braku spójności między wynikami różnych testów"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Dysocjacja oznacza rozszczepienie lub zakłócenie integracji procesów takich jak pamięć, świadomość, tożsamość czy percepcja. Pojęcie to jest ważne m.in. w diagnozie zaburzeń pourazowych i dysocjacyjnych."
   },
   {
     "id": 46,
@@ -549,7 +594,8 @@
       "Korelację między wynikiem testu a kryterium zewnętrznym"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "d Cohena jest miarą wielkości efektu, czyli mówi, jak duża jest różnica między grupami w jednostkach odchylenia standardowego. Pozwala ocenić znaczenie praktyczne wyniku, a nie tylko jego istotność statystyczną."
   },
   {
     "id": 47,
@@ -561,7 +607,8 @@
       "Służy wyłącznie do oceny stylów wychowawczych"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Wywiad z rodzicami dostarcza kluczowych informacji o przebiegu rozwoju, zachowaniu dziecka w domu i kontekście rodzinnym. W diagnozie dzieci dane od opiekunów są niezbędne do pełnego obrazu funkcjonowania."
   },
   {
     "id": 48,
@@ -573,7 +620,8 @@
       "Wyniki testu są niezależne od kryterium"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Korelacja r = 0,85 wskazuje na bardzo silny związek testu z kryterium zewnętrznym. Oznacza to wysoką trafność kryterialną, czyli dobrą zgodność z niezależnym wskaźnikiem badanego zjawiska."
   },
   {
     "id": 49,
@@ -585,7 +633,8 @@
       "Wyłącznie testy komputerowe mają normy populacyjne"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Testy komputerowe mogą mierzyć czas reakcji z dużą dokładnością i wspierać adaptacyjne dobieranie pozycji, co zwiększa precyzję pomiaru. Jednocześnie trzeba uwzględnić wpływ interfejsu i kompetencji cyfrowych osoby badanej."
   },
   {
     "id": 50,
@@ -597,7 +646,8 @@
       "Stanowi uproszczoną wersję analizy czynnikowej dla małych prób"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "P-technika Cattella analizuje zmienność wewnątrz jednej osoby w kolejnych pomiarach, czyli wzorce wewnątrzosobowe. R-technika dotyczy natomiast różnic między osobami w danym momencie."
   },
   {
     "id": 51,
@@ -609,7 +659,8 @@
       "Korelacji między wynikami testu a kryterium zewnętrznym"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Kappa Cohena mierzy zgodność między oceniającymi po odjęciu części zgodności, która mogłaby wynikać z przypadku. Dlatego jest lepszą miarą interrater reliability niż zwykły procent zgodności."
   },
   {
     "id": 52,
@@ -621,7 +672,8 @@
       "Zdolność adaptacji testu do nowych populacji"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Patoplastyczność oznacza, że kultura, środowisko i kontekst życiowy wpływają na to, jak objawy zaburzenia się przejawiają. Ta sama jednostka nozologiczna może więc wyglądać klinicznie różnie w różnych warunkach."
   },
   {
     "id": 53,
@@ -633,7 +685,8 @@
       "Zastępuje podejście czynnikowe modelem przetwarzania informacji"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Model CHC porządkuje zdolności poznawcze hierarchicznie: od ogólnego czynnika g, przez szerokie zdolności, po bardziej specyficzne umiejętności. To jeden z najważniejszych współczesnych modeli inteligencji wykorzystywanych w testach."
   },
   {
     "id": 54,
@@ -645,7 +698,8 @@
       "Stosowanie norm tworzonych ad hoc dla każdego badania"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "EBA oznacza diagnozowanie na podstawie metod popartych dowodami empirycznymi, a więc o znanej trafności i rzetelności. To podejście ogranicza arbitralność i wzmacnia jakość decyzji klinicznych."
   },
   {
     "id": 55,
@@ -657,7 +711,8 @@
       "Nadmiernym poleganiu na informacjach z wywiadu z rodziną"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Błąd potwierdzania polega na preferowaniu informacji zgodnych z początkową hipotezą i pomijaniu danych sprzecznych. W diagnozie może to prowadzić do przedwczesnego zamknięcia procesu wnioskowania."
   },
   {
     "id": 56,
@@ -669,7 +724,8 @@
       "Do oceny rzetelności narzędzia projekcyjnego"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Krzywa ROC pokazuje, jak zmieniają się czułość i swoistość testu przy różnych punktach odcięcia. Dzięki temu można ocenić, jak dobrze test odróżnia przypadki od osób bez zaburzenia."
   },
   {
     "id": 57,
@@ -681,7 +737,8 @@
       "Jest stosowana wyłącznie w psychiatrii sądowej"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Formułowanie przypadku tworzy indywidualny model wyjaśniający problem pacjenta, uwzględniając przyczyny, czynniki podtrzymujące i zasoby. Jest bardziej funkcjonalne i spersonalizowane niż sama etykieta diagnostyczna."
   },
   {
     "id": 58,
@@ -693,7 +750,8 @@
       "Dysocjacyjne zaburzenie tożsamości diagnozowane za pomocą dwóch narzędzi"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Podwójna dysocjacja pokazuje, że dwie funkcje psychiczne mogą działać niezależnie, jeśli uszkodzenie jednego obszaru zaburza funkcję X, ale nie Y, a innego odwrotnie. To silny argument za odrębnością mechanizmów poznawczych."
   },
   {
     "id": 59,
@@ -705,7 +763,8 @@
       "Normalizowania wyników w grupach klinicznych"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "RCI służy do oceny, czy zmiana wyniku przekracza to, czego można oczekiwać z powodu błędu pomiaru. Dzięki temu można odróżnić realną poprawę lub pogorszenie od zwykłej fluktuacji testowej."
   },
   {
     "id": 60,
@@ -717,7 +776,8 @@
       "Normalizacji wyników w grupach klinicznych i subklinicznych"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Macierz MTMM służy do badania trafności zbieżnej i różnicowej przez porównanie cech mierzonych różnymi metodami. Dobry konstrukt powinien silnie korelować z tym samym konstruktem mierzonym inną metodą i słabiej z innymi cechami."
   },
   {
     "id": 61,
@@ -729,7 +789,8 @@
       "Pomijaniu grupy kontrolnej w badaniach walidacyjnych"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Spectrum bias oznacza, że czułość i swoistość testu zależą od tego, jak ciężkie lub typowe przypadki znalazły się w badanej próbie. Właściwości diagnostyczne narzędzia nie są więc całkowicie stałe niezależnie od populacji."
   },
   {
     "id": 62,
@@ -741,7 +802,8 @@
       "Diagnozę uwzględniającą jednocześnie oś biologiczną, psychologiczną i społeczną"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Podejście transdiagnostyczne szuka wspólnych mechanizmów leżących u podstaw różnych zaburzeń, takich jak ruminacje czy unikanie emocjonalne. Ułatwia to rozumienie współwystępowania objawów i planowanie terapii ponad kategoriami DSM/ICD."
   },
   {
     "id": 63,
@@ -753,7 +815,8 @@
       "Jest stosowana wyłącznie w testach komputerowych"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "IRT modeluje parametry pozycji, takie jak trudność i dyskryminacja, na poziomie pojedynczych zadań. Dzięki temu umożliwia bardziej precyzyjny pomiar oraz adaptacyjne testowanie komputerowe niż klasyczna teoria testów."
   },
   {
     "id": 64,
@@ -765,7 +828,8 @@
       "Ocenie ryzyka nawrotu depresji"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "PCL-R jest narzędziem używanym głównie w psychologii sądowej do oceny cech psychopatii. Obejmuje zarówno aspekt interpersonalno-afektywny, jak i antyspołeczny styl życia, co ma znaczenie dla oceny ryzyka."
   },
   {
     "id": 65,
@@ -777,7 +841,8 @@
       "Błędów diagnostycznych wynikających z uprzedzeń kulturowych klinicysty"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Dysfunkcjonalne schematy to głębokie, utrwalone przekonania o sobie, innych i świecie, zwykle kształtowane wcześnie w życiu. W diagnozie poznawczej wyjaśniają one, dlaczego osoba interpretuje doświadczenia w zniekształcony sposób."
   },
   {
     "id": 66,
@@ -789,7 +854,8 @@
       "Oceny poziomu agresji i impulsywności"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "PTI w systemie Exnera pomaga wychwycić zaburzenia percepcji i myślenia, które mogą wskazywać na proces psychotyczny. Jest więc wskaźnikiem szczególnie istotnym przy ocenie dezorganizacji poznawczej."
   },
   {
     "id": 67,
@@ -801,7 +867,8 @@
       "Stosowanie ekologicznych metod oceny środowiskowej"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Podejście aktuarialne wykorzystuje modele statystyczne i dane z dużych prób do przewidywania ryzyka lub wyniku. W przeciwieństwie do czysto intuicyjnego osądu klinicznego opiera się na empirycznych regułach predykcji."
   },
   {
     "id": 68,
@@ -813,7 +880,8 @@
       "Diagnostycznych właściwości testów projekcyjnych"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Nomologiczna sieć służy do oceny trafności konstruktu przez sprawdzenie, czy badana zmienna wchodzi w oczekiwane teoretycznie związki z innymi zmiennymi. To ważny sposób weryfikacji, czy konstrukt ma sens psychologiczny."
   },
   {
     "id": 69,
@@ -825,7 +893,8 @@
       "Zbieżność różnych diagnoz przy zastosowaniu różnych narzędzi"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Paradoks Simpsona pokazuje, że po zsumowaniu danych można otrzymać wniosek przeciwny do tego, który występuje w podgrupach. W diagnostyce uczy to ostrożności wobec interpretacji zagregowanych statystyk bez kontroli zmiennych zakłócających."
   },
   {
     "id": 70,
@@ -837,7 +906,8 @@
       "Oceny wpływu czynników demograficznych na wyniki testu"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Bootstrapping polega na wielokrotnym losowaniu ze zwracaniem z dostępnej próby, aby oszacować rozkład statystyki. W psychometrii pomaga wyznaczać stabilniejsze przedziały ufności i oceny parametrów."
   },
   {
     "id": 71,
@@ -849,7 +919,8 @@
       "Pozycje testowe są spójne wewnętrznie"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Niezmienność pomiaru oznacza, że test działa równoważnie w różnych grupach, więc porównania wyników są uczciwe i interpretowalne. Bez measurement invariance różnice między grupami mogą wynikać z właściwości testu, a nie z rzeczywistych różnic w konstrukcie."
   },
   {
     "id": 72,
@@ -861,7 +932,8 @@
       "Służy wyłącznie do diagnozy sądowej"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "AMPD proponuje dymensjonalny model zaburzeń osobowości, oparty na poziomie funkcjonowania osobowości i pięciu wymiarach patologicznych cech. To odejście od wyłącznie kategorialnego myślenia o osobowości."
   },
   {
     "id": 73,
@@ -873,7 +945,8 @@
       "Diagnozie dysleksji przy pomocy testów znormalizowanych"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Formative assessment polega na bieżącym monitorowaniu postępów ucznia po to, by od razu dostosowywać nauczanie i wsparcie. Ma funkcję regulacyjną, a nie jedynie końcowo-oceniającą."
   },
   {
     "id": 74,
@@ -885,7 +958,8 @@
       "Normy są nieprzydatne dla osób poniżej 18. roku życia"
     ],
     "correct": 0,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Kluczową cechą efektu podłogi jest skupienie wyników przy dolnej granicy skali, co uniemożliwia różnicowanie osób z najsłabszym wykonaniem. Gdy wyniki „zbierają się” przy minimum, test traci czułość diagnostyczną w dolnym zakresie."
   },
   {
     "id": 75,
@@ -897,6 +971,7 @@
       "Stosowaniu wyłącznie skal samooceny"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Biopsychospołeczny, wieloosiowy opis przypadku zakłada równoczesne uwzględnianie czynników biologicznych, psychologicznych i społecznych. Dopiero połączenie tych poziomów daje pełniejszą i bardziej funkcjonalną diagnozę."
   }
 ]

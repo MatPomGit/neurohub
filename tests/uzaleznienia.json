@@ -9,7 +9,8 @@
       "Używanie substancji wyłącznie w celach leczniczych"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "ICD-11 opisuje uzależnienie przez utratę kontroli, dominację używania w życiu oraz kontynuację mimo szkód. To rdzeń zaburzenia, a nie samo sporadyczne czy towarzyskie używanie substancji."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Wyłącznie traumatycznych doświadczeń z dzieciństwa"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Model biopsychospołeczny zakłada, że uzależnienie wynika z interakcji biologii, psychiki i środowiska. Żaden pojedynczy czynnik nie wyjaśnia całego zaburzenia."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Stosowaną wyłącznie w grupach wsparcia AA"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Dialog motywujący Millera i Rollnicka wzmacnia motywację wewnętrzną przez empatię, wydobywanie ambiwalencji i wspieranie sprawstwa. Nie jest konfrontacyjny, lecz oparty na współpracy."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Działanie"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Prekontemplacja oznacza brak zamiaru zmiany, bo osoba nie widzi problemu albo nie jest gotowa go rozważać. To pierwszy etap modelu Prochaski i DiClemente."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Łagodny przebieg objawów abstynencyjnych"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Tolerancja polega na potrzebie coraz większej dawki dla uzyskania tego samego efektu. Wynika z adaptacji neurobiologicznej organizmu do substancji."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Organizm całkowicie wykształci odporność na substancję"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Objawy abstynencyjne pojawiają się, gdy poziom substancji spada po okresie używania, a organizm jest już przystosowany do jej obecności. To znak fizjologicznej zależności."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Objaw substytucji — zastąpienie jednej substancji drugą"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Współuzależnienie opisuje wzorzec relacji, w którym bliska osoba organizuje życie wokół problemu uzależnionego i często nieświadomie go podtrzymuje. Pojęcie wywodzi się z pracy z rodzinami alkoholowymi."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Monitoruje abstynencję osoby uzależnionej"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Enabling polega na chronieniu osoby uzależnionej przed konsekwencjami, np. usprawiedliwianiu jej czy spłacaniu długów. Paradoksalnie zmniejsza to presję do zmiany."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Uzależnienie wynika z zaburzeń osobowości, które należy leczyć psychoterapeutycznie"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Program 12 Kroków traktuje uzależnienie jako chorobę przewlekłą i podkreśla rolę abstynencji, wspólnoty oraz duchowej przemiany. Jego skuteczność wiąże się m.in. ze wsparciem społecznym."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Izolacji pacjenta od środowisk używania substancji"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Relapse Prevention Marlatta i Gordona uczy rozpoznawania sytuacji wysokiego ryzyka i budowania alternatywnych strategii radzenia sobie. Nawrót jest tu rozumiany jako proces, a nie pojedyncze zdarzenie."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Przymusowe leczenie wszystkich osób uzależnionych"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Harm reduction nie wymaga od razu pełnej abstynencji, lecz redukuje szkody zdrowotne i społeczne używania. To ważne podejście w zdrowiu publicznym i pracy z osobami o niskiej gotowości do zmiany."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Rodzin osób uzależnionych"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Profilaktyka pierwszorzędowa działa zanim problem się pojawi i obejmuje całą populację. Jej celem jest zapobieganie inicjacji lub opóźnianie pierwszego kontaktu z substancją."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Noradrenergicznego w korze czołowej"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Uzależnienie silnie angażuje mezolimbiczny układ dopaminowy, zwłaszcza połączenia VTA–jądro półleżące. To neurobiologiczna podstawa wzmocnienia, głodu i utrwalania nałogu."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Nie ma zewnętrznej substancji, lecz mechanizmy neurobiologiczne są podobne do uzależnień od substancji"
     ],
     "correct": 3,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "W uzależnieniach behawioralnych nie ma substancji chemicznej, ale podobnie aktywowany jest układ nagrody i mechanizmy nawyku. Dlatego hazard czy gaming mogą klinicznie przypominać uzależnienie od substancji."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Dotyczą głównie substancji legalnych"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Mózg nastolatka, zwłaszcza układy kontroli i nagrody, jest nadal w rozwoju, co zwiększa podatność na uzależnienie. Wczesna inicjacja używania podnosi ryzyko późniejszego zaburzenia."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Równoczesne leczenie farmakologiczne i psychoterapeutyczne"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Podwójna diagnoza oznacza współwystępowanie uzależnienia i innego zaburzenia psychicznego, np. depresji czy PTSD. Leczenie wymaga wtedy zintegrowanego podejścia."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "Etap trzeźwienia po intensywnym piciu"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Craving to silna, natrętna chęć użycia substancji, często wywoływana przez bodźce skojarzone z używaniem. Jest jednym z kluczowych predyktorów nawrotu."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Uczestnictwie w grupach wzajemnego wsparcia"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "CBT w uzależnieniach identyfikuje myśli, przekonania i sytuacje podtrzymujące używanie oraz uczy nowych sposobów radzenia sobie. Celem jest przerwanie automatycznego cyklu nałogu."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "Wyłącznie do rodzin osób uzależnionych"
     ],
     "correct": 2,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Profilaktyka drugorzędowa jest kierowana do osób już zagrożonych lub z pierwszymi sygnałami problemu. Ma wcześnie wykryć ryzyko i zahamować rozwój uzależnienia."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Leczenie neurologicznych uszkodzeń mózgu wywołanych uzależnieniem"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Metadon i buprenorfina stabilizują układ opioidowy, zmniejszając głód i objawy odstawienia. Dzięki temu pacjent może odzyskać funkcjonowanie i korzystać z dalszego leczenia."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Polega na konfrontacji i wymuszeniu przyznania się do uzależnienia"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Interwencja kryzysowa ma charakter krótkoterminowy i służy stabilizacji bezpieczeństwa, np. po przedawkowaniu lub załamaniu. Nie zastępuje długofalowej terapii uzależnienia."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Nieświadome mechanizmy obronne zaprzeczania"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Wzmocnienie pozytywne polega na tym, że przyjemny efekt substancji aktywuje układ nagrody i zwiększa prawdopodobieństwo ponownego użycia. To pierwszy etap uczenia nałogowego."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Wysoka impulsywność i skłonność do poszukiwania doznań"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Silne więzi rodzinne, wsparcie szkoły i kompetencje społeczne działają ochronnie, bo wzmacniają regulację emocji i poczucie przynależności. Profilaktyka rozwojowa opiera się właśnie na takich zasobach."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Psychoedukacji dotyczącej skutków substancji"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "MET wywodzi się z dialogu motywującego i ma szybko wzmocnić gotowość do zmiany. Kluczowe są empatia, autonomia i wydobywanie własnych argumentów za zmianą."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Wzmożona aktywność parasympatyczna"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Obniżona amplituda P300 jest uznawana za marker podatności do uzależnienia, zwłaszcza w rodzinach wysokiego ryzyka alkoholizmu. Wskazuje na słabsze procesy uwagowe i hamowanie."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Uzależnienie jest zawsze wynikiem błędów wychowawczych rodziców"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Terapia systemowa uznaje, że objaw uzależnienia jest osadzony w dynamice całej rodziny. Zmiana jednego członka bywa nietrwała bez zmiany wzorców systemowych."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Osoba uzależniona sięga po substancję po raz pierwszy"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "U Caplana kryzys osiąga szczyt, gdy dotychczasowe sposoby radzenia sobie przestają działać. To moment zagrożenia, ale też zwiększonej podatności na pomoc i zmianę."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Działania na receptory opioidowe mu"
     ],
     "correct": 2,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Nikotyna działa wyjątkowo wzmacniająco, bo po inhalacji bardzo szybko dociera do mózgu i pobudza układ dopaminowy. Krótki odstęp między użyciem a nagrodą silnie utrwala nawyk."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Medyczny protokół leczenia podczas detoksu"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Zaprzeczenie to mechanizm obronny polegający na minimalizowaniu lub negowaniu problemu mimo dowodów szkody. Utrudnia ono motywację do leczenia i utrzymuje uzależnienie."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "Edukacja zdrowotna całej populacji w zakresie substancji psychoaktywnych"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Profilaktyka trzeciorzędowa dotyczy osób z utrwalonym problemem i ma ograniczać szkody, poprawiać funkcjonowanie oraz zapobiegać nawrotom. Jest najbliższa rehabilitacji i długoterminowemu wsparciu."
   }
 ]

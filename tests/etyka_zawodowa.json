@@ -9,7 +9,8 @@
       "Wynagrodzenie i warunki pracy"
     ],
     "correct": 3,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Kodeks PTP reguluje przede wszystkim standardy relacji, kompetencji oraz diagnozy i badań, a nie kwestie płacowe. Wynagrodzenie i warunki pracy należą raczej do regulacji organizacyjnych niż do rdzenia etyki zawodowej."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Konieczność ujawniania tajemnicy zawodowej w przypadku zagrożenia"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Zasada non nocere wywodzi się z tradycji medycznej i oznacza obowiązek unikania szkody. W psychologii dotyczy to zarówno interwencji, jak i skutków diagnozy, opiniowania czy ujawniania informacji."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Zarobkach i kwalifikacjach psychologa"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Świadoma zgoda wymaga przekazania informacji o celu, metodzie, ryzyku, korzyściach i granicach poufności przed rozpoczęciem pracy. To praktyczny wyraz szacunku dla autonomii klienta."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Ubezpieczyciel żąda pełnej dokumentacji terapeutycznej"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Poufność nie jest absolutna, gdy istnieje bezpośrednie i poważne zagrożenie życia lub zdrowia. W takiej sytuacji pierwszeństwo ma zasada ochrony klienta i innych osób, podobnie jak w logice reguły Tarasoffa."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Klient uczestniczy w dwóch różnych podejściach terapeutycznych"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Podwójna rola oznacza, że psycholog pozostaje z klientem jednocześnie w relacji profesjonalnej i pozazawodowej. Taki układ zwiększa ryzyko konfliktu interesów, nadużycia władzy i zatarcia granic terapii."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Klient nie powinien przerywać terapii bez zgody psychologa"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Autonomia klienta oznacza prawo do samostanowienia i współdecydowania o własnym życiu oraz terapii. Psycholog może rekomendować rozwiązania, ale nie powinien odbierać klientowi sprawczości."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Wyłącznie szkoleniu psychologów stażystów"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Superwizja służy refleksji nad procesem pracy, korekcie błędów i ochronie klienta. W wielu nurtach psychoterapii jest uznawana za podstawowy mechanizm utrzymania jakości praktyki."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Kompetencje są stałe i nie wymagają regularnej weryfikacji"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Kodeksy APA i EFPA podkreślają, że psycholog powinien działać wyłącznie w granicach własnych kompetencji. Chroni to klienta przed nieskuteczną lub potencjalnie szkodliwą pomocą."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Tylko gdy klient jest osobą małoletnią"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Relacje seksualne z klientem są etycznie zakazane, ponieważ naruszają asymetrię władzy i zaufanie. Większość kodeksów uznaje je za poważne nadużycie także po zakończeniu terapii."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Świadczenie usług psychologicznych bez wynagrodzenia dla potrzebujących"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Dobroczynność oznacza aktywne działanie na rzecz dobra klienta, a nie jedynie brak szkody. Psycholog ma wspierać dobrostan, rozwój i poprawę funkcjonowania osoby korzystającej z pomocy."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "20"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Kodeks APA zawiera 10 egzekwowalnych standardów etycznych. Odróżnia się je od ogólnych zasad aspiracyjnych, takich jak dobroczynność, sprawiedliwość czy integralność."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Konieczność superwizji dla wszystkich psychologów klinicznych"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Pro bono oznacza przeznaczanie części pracy zawodowej na bezpłatną pomoc osobom o ograniczonym dostępie do usług. To wyraz społecznej odpowiedzialności zawodu psychologa."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Zaprzestać pracy z klientem, aby uniknąć konfliktu interesów"
     ],
     "correct": 2,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Przy żądaniu sądu psycholog powinien poinformować klienta i ujawnić wyłącznie zakres danych wymagany prawem. Łączy to obowiązek prawny z zasadą minimalnego naruszenia prywatności."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Ujawnianie informacji o klientach organom sprawiedliwości"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Sprawiedliwość w etyce psychologicznej oznacza równe traktowanie i niedyskryminowanie klientów. APA podkreśla, że wszyscy powinni mieć uczciwy dostęp do kompetentnej pomocy."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Prawa pracodawcy psychologa"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Granice terapeutyczne chronią bezpieczeństwo i zaufanie klienta. Zapobiegają wykorzystaniu zależności oraz utrzymują przewidywalną, profesjonalną strukturę relacji pomocowej."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Natychmiastowego zakończenia wszystkich terapii"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Jeśli wypalenie obniża jakość pracy, psycholog ma etyczny obowiązek zadbać o własne zdrowie i ograniczyć praktykę. Kompetencja obejmuje także zdolność do bezpiecznego wykonywania zawodu."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "Kodeksem opracowanym dla psychologów sądowych"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "EFPA Meta-Code stanowi wspólne europejskie ramy etyczne dla stowarzyszeń psychologicznych. Nie zastępuje kodeksów krajowych, lecz porządkuje podstawowe wartości zawodu."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Psycholog nie podziela wartości religijnych klienta"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Konflikt interesów pojawia się, gdy prywatne, finansowe lub inne korzyści mogą zniekształcić osąd zawodowy. Kodeksy etyczne nakazują unikać takich sytuacji albo jasno nimi zarządzać."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "Prowadzenie diagnostyki wyłącznie w środowisku klienta"
     ],
     "correct": 0,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Zasada minimalnego naruszenia prywatności oznacza zbieranie tylko tych danych, które są konieczne do danego celu diagnostycznego. Jest to zgodne z ochroną godności i poufności klienta."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Obowiązkowa dla każdego praktykującego psychologa"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Etyczna reklama musi być rzetelna i niewprowadzająca w błąd. Psycholog nie może obiecywać gwarantowanych efektów ani przypisywać sobie kompetencji, których faktycznie nie posiada."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Niełączenia różnych podejść teoretycznych"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Integralność odnosi się do uczciwości, prawdomówności i unikania manipulacji czy fałszowania informacji. W zawodzie zaufania publicznego jest warunkiem wiarygodności relacji pomocowej."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Skonsultować się z superwizorem i poczekać na jego decyzję"
     ],
     "correct": 2,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Reguła Tarasoffa mówi o obowiązku ostrzeżenia lub ochrony potencjalnej ofiary przy wiarygodnej groźbie wobec konkretnej osoby. W takich przypadkach ochrona życia może ograniczyć poufność."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Tłumaczenie narzędzi diagnostycznych bez oceny ich trafności kulturowej"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Poszanowanie różnorodności kulturowej wymaga świadomości własnych uprzedzeń i dostosowania pracy do kontekstu klienta. Sue i Sue podkreślali, że brak kompetencji kulturowej obniża trafność pomocy."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Jest zobowiązany do odmówienia pracy z klientami z zaburzeniami psychotycznymi"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Granice kompetencji, czyli scope of practice, wyznaczają wykształcenie, szkolenie i doświadczenie psychologa. Jeśli problem je przekracza, etyczne jest skierowanie klienta do innego specjalisty."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Instytucji ubezpieczeniowej, która finansuje leczenie"
     ],
     "correct": 2,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Dokumentacja dotyczy procesu klienta, ale jest prowadzona i chroniona przez terapeutę zgodnie z prawem. Osoby trzecie uzyskują dostęp tylko za zgodą klienta albo na podstawie nakazu prawnego."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Tylko uczestników badania; komisja etyczna jest opcjonalna"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Badania z udziałem ludzi wymagają zarówno zgody komisji etycznej, jak i świadomej zgody uczestników. To standard wynikający m.in. z zasad Raportu Belmonta: szacunku, dobroczynności i sprawiedliwości."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Prawo do prowadzenia prywatnej praktyki"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Autonomia terapeutyczna oznacza, że klient ma prawo współdecydować o celach i przebiegu terapii. Współczesna etyka odchodzi tu od modelu paternalistycznego na rzecz współpracy."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Ujawnić klientowi pełen zakres swoich negatywnych emocji"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Silna antypatia wobec klienta może być przejawem kontrprzeniesienia i powinna zostać omówiona w superwizji. Jeśli utrudnia terapię, etyczne jest przekazanie klienta innemu specjaliście."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Prośbę klienta o rekomendację"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Etyczne zakończenie terapii powinno być planowe, a nie nagłe czy porzucające. Obejmuje podsumowanie efektów, omówienie dalszego wsparcia i ocenę, czy klient jest wystarczająco bezpieczny."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "Metody oparte na dowodach są zbędne wobec znaczenia relacji"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Metaanaliza Wampolda pokazała, że skuteczność terapii w dużej mierze zależy od czynników wspólnych, zwłaszcza relacji. Oznacza to, że empatia i sojusz terapeutyczny są etycznym rdzeniem dobrej praktyki."
   }
 ]

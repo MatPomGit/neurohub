@@ -9,7 +9,8 @@
       "Płat potyliczny"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Ruch dowolny jest kontrolowany głównie przez korę ruchową w płacie czołowym, szczególnie zakręt przedśrodkowy. Klasyczne mapy Penfielda pokazały somatotopową organizację tego obszaru."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Regulacji rytmów dobowych"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Hipokamp jest kluczowy dla konsolidacji pamięci deklaratywnej, co pokazał przypadek H.M. opisany przez Scoville’a i Milnera. Uczestniczy też w nawigacji przestrzennej, o czym świadczą badania O’Keefe’a."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Regulacji rytmu dobowego"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Ciało migdałowate szybko ocenia znaczenie emocjonalne bodźców, szczególnie zagrożenia. LeDoux opisywał jego centralną rolę w reakcji strachu i uczeniu emocjonalnym."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Zaburzeń pamięci semantycznej"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Uszkodzenie obszaru Broki w lewej półkuli powoduje afazję ekspresyjną, czyli trudność w tworzeniu płynnej mowy przy względnie zachowanym rozumieniu. To klasyczne odkrycie Paula Broki."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Przewodzenia bólu w rdzeniu kręgowym"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Dopamina uczestniczy zarówno w układzie nagrody, jak i w kontroli ruchu przez szlaki nigrostriatalne. Dlatego wiąże się z motywacją, uzależnieniami oraz objawami parkinsonowskimi."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Pamięć epizodyczną długoterminową"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "TMT-B wymaga naprzemiennego łączenia liczb i liter, więc bada przełączanie zestawów, kontrolę uwagi i elastyczność poznawczą. Są to klasyczne funkcje wykonawcze zależne od kory przedczołowej."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Nieuwagę przestrzenną po stronie przeciwnej do uszkodzenia"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Pierwszorzędowa kora wzrokowa V1 jest niezbędna dla świadomego widzenia w przeciwległym polu widzenia. Jej uszkodzenie prowadzi do ślepoty korowej mimo zachowanych oczu i nerwów wzrokowych."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Acetylocholina"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "GABA jest głównym neuroprzekaźnikiem hamującym w ośrodkowym układzie nerwowym. Zmniejsza pobudliwość neuronów, a zaburzenia jego działania wiążą się m.in. z lękiem i drgawkami."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Prawa połowa siatkówki obu oczu przetwarza lewa stronę pola widzenia"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "W skrzyżowaniu wzrokowym krzyżują się włókna z nosowych połówek siatkówki. Dzięki temu każda półkula przetwarza informacje z przeciwległej połowy pola widzenia obu oczu."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Zaburzeniami pamięci prospektywnej"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Prawy płat ciemieniowy odpowiada szczególnie za uwagę przestrzenną i orientację względem lewej strony przestrzeni. Jego uszkodzenie daje lewostronny neglect, czyli ignorowanie bodźców po lewej."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Wzgórzu i podwzgórzu"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Pamięć proceduralna opiera się na uczeniu umiejętności i nawyków, dlatego zależy głównie od jąder podstawy, móżdżku i sieci motorycznych. To odróżnia ją od pamięci deklaratywnej zależnej od hipokampa."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Zaburzenia percepcji wzrokowo-przestrzennej"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Kora przedczołowa organizuje planowanie, hamowanie reakcji i monitorowanie działań. Jej uszkodzenie prowadzi do zespołu dysegzekutywnego opisywanego m.in. przez Łurię."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Akalkulii – niemożności wykonywania obliczeń"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Prawa dolna kora skroniowa, zwłaszcza okolica wrzecionowata, jest ważna dla rozpoznawania twarzy. Jej uszkodzenie prowadzi do prozopagnozji opisanej klasycznie przez Bodamera."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Dojrzewania aksonów podczas rozwoju prenatalnego"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "LTP, czyli długotrwałe wzmocnienie synaptyczne, zwiększa skuteczność połączeń po powtarzanej aktywacji. Bliss i Lømo uznali ten mechanizm za komórkową podstawę uczenia się i pamięci."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Pomiaru szybkości przewodnictwa nerwowego"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Bateria Luria-Nebraska służy szerokiej ocenie funkcji neuropsychologicznych w duchu klinicznej neuropsychologii Łurii. Pozwala uchwycić profil deficytów po uszkodzeniu mózgu."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Dopaminy i uszkodzeniem jąder podstawy"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Zespół Korsakowa wiąże się z niedoborem tiaminy, najczęściej w przebiegu przewlekłego alkoholizmu. Uszkodzenie ciał suteczkowatych i wzgórza prowadzi wtedy do ciężkich zaburzeń pamięci."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "Wpływ środowiska na plastyczność mózgu"
     ],
     "correct": 0,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Spór lokalizacjonizm–holizm dotyczył tego, czy funkcje psychiczne są przypisane konkretnym obszarom mózgu, czy rozproszone. To jedna z osi rozwoju neuropsychologii od Broki po Lashleya."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Braku aktywności umysłowej w celu regeneracji"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Rehabilitacja neuropsychologiczna wykorzystuje neuroplastyczność, czyli zdolność mózgu do reorganizacji po uszkodzeniu. Poprawa może wynikać z odzyskiwania funkcji, kompensacji lub uczenia nowych strategii."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "Niemożność przypomnienia sobie procedur i umiejętności"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Amnezja następcza oznacza trudność tworzenia nowych wspomnień po urazie lub chorobie. Jest typowa dla uszkodzeń hipokampa i struktur pamięci deklaratywnej."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Spoidło wielkie nie odgrywa roli w komunikacji międzypółkulowej"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Badania Sperry’ego i Gazzanigi pokazały, że po przecięciu spoidła wielkiego półkule mogą przetwarzać informacje względnie niezależnie. Ujawniło to lateralizację, np. przewagę lewej półkuli dla języka."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Mózgowie działa wyłącznie jako homogeniczna całość bez modułowej organizacji"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Lashley bronił zasady ekwipotencjalności i prawa masy, twierdząc, że znaczenie ma rozległość uszkodzenia bardziej niż jego dokładna lokalizacja. Była to kontrpropozycja wobec skrajnego lokalizacjonizmu."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Gęstość połączeń synaptycznych maleje po przycięciu synaptycznym (synaptic pruning)"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Crowding oznacza, że po wczesnym uszkodzeniu funkcje mogą przenieść się do drugiej półkuli, ale kosztem jej typowych zadań. Pokazuje to, że plastyczność rozwojowa ma również cenę funkcjonalną."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Sieci spoczynkowe nie mają związku z funkcjami poznawczymi"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Sieć wykonawcza i DMN są zwykle antyskorelowane: skupienie na zadaniu tłumi procesy autorefleksyjne. Badania resting-state fMRI pokazują ten naprzemienny wzorzec aktywacji."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Kora somatosensoryczna odpowiada wyłącznie za percepcję bólu"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Damasio zakładał, że sygnały cielesno-emocjonalne z wcześniejszych doświadczeń pomagają podejmować decyzje. Gdy markerów somatycznych brakuje, wybory bywają logiczne formalnie, ale życiowo nietrafne."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Obrazowanie metabolizmu glukozy z rozdzielczością milisekundową"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "TMS pozwala czasowo pobudzić lub zakłócić aktywność wybranego obszaru kory, tworząc tzw. wirtualną lezję. Dzięki temu można wnioskować o przyczynowej roli danego rejonu mózgu."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Nadwrażliwości wzrokowej na poruszające się bodźce"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Blindsight oznacza reagowanie na bodźce wzrokowe bez świadomego widzenia po uszkodzeniu V1. Zjawisko to tłumaczy się zachowaniem podkorowych dróg wzrokowych, np. przez wzgórek górny."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Środowisko testowe lepiej odzwierciedla możliwości pacjenta niż środowisko domowe"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Ekologiczna trafność oznacza, że wyniki testów nie zawsze przekładają się wprost na codzienne funkcjonowanie. Życie wymaga integracji wielu procesów, które testy często mierzą oddzielnie."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Procesami uczenia się motorycznego w móżdżku"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Oksytocyna jest związana z tworzeniem więzi, zaufaniem i opieką, ale jej działanie nie jest wyłącznie prosocjalne. Badania pokazują też wzmacnianie preferencji wobec własnej grupy."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Neguje rolę czynników środowiskowych w powstawaniu zaburzeń"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Model sieciowy Borsbooma i Cramera traktuje objawy jako aktywnie wpływające na siebie elementy systemu. Zaburzenie nie wynika tu z jednej ukrytej przyczyny, lecz z dynamiki całej sieci objawów."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "Diagnoza → interwencja → rehabilitacja"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "To odpowiada dawnej klasyfikacji WHO: impairment oznacza uszkodzenie biologiczne, disability ograniczenie funkcji, a handicap skutek społeczny. Triada porządkuje poziomy konsekwencji choroby lub urazu."
   }
 ]

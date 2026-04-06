@@ -9,7 +9,8 @@
       "6 miesięcy"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "DSM-5 wymaga co najmniej pięciu objawów przez minimum 2 tygodnie, aby rozpoznać epizod depresyjny. Wśród objawów musi znaleźć się nastrój depresyjny lub anhedonia."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Epizody manii naprzemiennie z depresją"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "ASD definiują deficyty w komunikacji społecznej oraz ograniczone, powtarzalne wzorce zachowań i zainteresowań. To rdzeń kryteriów DSM-5, a nie np. sama nieśmiałość czy opóźnienie mowy."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Zaburzeń dysocjacyjnych"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Fobie specyficzne należą do zaburzeń lękowych, ponieważ ich głównym mechanizmem jest nieproporcjonalny lęk i unikanie. Obiekt lęku jest przy tym zawężony do konkretnej sytuacji lub bodźca."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Alogia"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Omamy i urojenia są objawami pozytywnymi, bo oznaczają pojawienie się patologicznych doświadczeń ponad zwykłe funkcjonowanie. Od objawów negatywnych różni je to, że nie są ubytkiem, lecz dodatkiem do psychiki."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Przewlekłym obniżeniem nastroju bez epizodów maniakalnych"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Do rozpoznania CHAD typu I wystarcza co najmniej jeden epizod maniakalny, nawet bez epizodu depresji. To właśnie mania odróżnia typ I od typu II."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Nawracającymi epizodami dysocjacji"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "OCD obejmuje obsesje, czyli natrętne myśli lub impulsy, oraz kompulsje, które mają obniżać napięcie. Model behawioralny podkreśla rolę negatywnego wzmocnienia w podtrzymaniu rytuałów."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "Napadowym objadaniem się"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Anorexia nervosa wymaga istotnie obniżonej masy ciała lub utrzymywania wagi poniżej oczekiwanej, czego nie wymaga bulimia. W obu zaburzeniach może występować lęk przed przytyciem, ale masa ciała różnicuje diagnozę."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Co najmniej 1 rok"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "W GAD nadmierne zamartwianie musi utrzymywać się przez co najmniej 6 miesięcy. Ten długi czas odróżnia zaburzenie uogólnione od przejściowego stresu."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Obsesyjno-kompulsywne zaburzenie osobowości"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "BPD charakteryzuje się niestabilnością emocji, relacji i obrazu siebie oraz silnym lękiem przed porzuceniem. Linehan opisywała te cechy jako przejaw głębokiej dysregulacji emocjonalnej."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Każdym stresującym wydarzeniu dnia codziennego"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "PTSD może rozwinąć się po bezpośrednim doświadczeniu traumy, byciu świadkiem lub dowiedzeniu się o traumatycznym zdarzeniu dotyczącym bliskiej osoby. To odpowiada kryterium A w DSM-5."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Dotyczy wyłącznie dzieci i młodzieży"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Dystymia to przewlekłe, zwykle mniej nasilone objawy depresyjne trwające co najmniej 2 lata. Od epizodu dużej depresji odróżnia ją właśnie chroniczność."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Zaburzeń osobowości"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "SAD nie jest odrębną chorobą, lecz specyfikatorem dużej depresji z sezonowym wzorcem. Objawy pojawiają się cyklicznie w określonych porach roku."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Katatonię i pobudzenie"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Objawy negatywne oznaczają ubytek normalnych funkcji: emocji, motywacji, mowy czy zdolności do odczuwania przyjemności. Są one silnie związane z gorszym funkcjonowaniem społecznym."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Każde zaburzenie jest odrębną jednostką chorobową niepowiązaną z innymi"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Model kontinuum zakłada, że psychopatologia nie zaczyna się na ostrej granicy, lecz płynnie przechodzi od normy do zaburzenia. Takie podejście wspierają badania populacyjne i modele wymiarowe."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Zewnętrzne objawy choroby różniące grupę chorą od zdrowej"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Endofenotyp to cecha pośrednia między genotypem a pełnym objawem klinicznym, np. określony wzorzec poznawczy lub neurofizjologiczny. Ma pomagać lepiej zrozumieć mechanizmy dziedziczenia zaburzeń."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Stres może wywołać zaburzenie tylko u osób bez predyspozycji genetycznych"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Model diateza–stres mówi, że sama podatność nie wystarcza; potrzebny jest jeszcze stresor uruchamiający zaburzenie. Łączy to czynniki biologiczne, psychologiczne i środowiskowe."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "Dziedzicznej nieprawidłowości neuroprzekaźnictwa dopaminergicznego"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Linehan wyjaśnia BPD jako efekt wrodzonej wrażliwości emocjonalnej rozwijającej się w środowisku unieważniającym. To właśnie prowadzi do chronicznej dysregulacji emocji."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Nadmiarem serotoniny w układzie limbicznym"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Hipoteza dopaminowa wiąże objawy pozytywne schizofrenii z nadaktywnością dopaminy w szlaku mezolimbicznym. Tłumaczy to też działanie wielu leków przeciwpsychotycznych blokujących receptory D2."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "Omamy dotykowe towarzyszące psychozie"
     ],
     "correct": 0,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Anosognozja oznacza brak wglądu w chorobę lub jej objawy. U części pacjentów psychotycznych utrudnia to leczenie, bo nie postrzegają swoich doświadczeń jako patologicznych."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Zwiększanie wrażliwości receptorów po długotrwałej farmakoterapii"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Kindling oznacza, że po kolejnych epizodach zaburzeń afektywnych coraz mniejszy stres może wywołać następny, a czasem epizody pojawiają się spontanicznie. Mechanizm ten sugeruje narastającą samopodtrzymywalność choroby."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Zaburzeniu odżywiania prowadzącym do kacheksji"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "BDD polega na nadmiernym zaabsorbowaniu drobnym albo wyobrażonym defektem wyglądu, co powoduje cierpienie i rytuały sprawdzania. Dlatego nie jest zwykłą troską o wygląd."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Do diagnozy wymagane jest minimum 8 objawów nieuważności"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "W DSM-5 dla ADHD u dorosłych ważne jest, by objawy były obecne już przed 12. rokiem życia. Zaburzenie ma charakter neurorozwojowy, a nie nabyty dopiero w dorosłości."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Dewaluacja i idealizacja w relacjach interpersonalnych"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "W zaburzeniu panicznym kluczowe są katastroficzne interpretacje doznań ciała, np. kołatania serca czy zawrotów głowy. Model Clarka pokazuje, że taka interpretacja napędza błędne koło paniki."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Zaburzenia pamięci o charakterze amnezji dysocjacyjnej"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "ICD-11 dodaje w C-PTSD zaburzenia samoorganizacji: trudności regulacji emocji, trwały negatywny obraz siebie i problemy w relacjach. To odróżnia przewlekłą traumę interpersonalną od klasycznego PTSD."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Zaburzenia żywienia i wydalania"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Do spektrum OCRD w DSM-5 należą m.in. trichotillomania, dermatillomania i BDD, bo łączą je natrętność i powtarzalne zachowania. Nie są to jednak tożsame zaburzenia z OCD."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Zawsze mają podłoże traumatyczne"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Model etapowy zakłada rozwój zaburzeń od stanu ryzyka do pełnego obrazu klinicznego. Im wcześniej interweniujemy, tym większa szansa zapobiegania utrwaleniu choroby."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Nadmiaru GABA w układzie limbicznym"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Hipoteza glutaminianergiczna wskazuje na hipoaktywność receptorów NMDA, co wtórnie rozregulowuje dopaminę i GABA. To próba wyjaśnienia objawów, których nie tłumaczy sama dopamina."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Brak adaptacji neuroendokrynnej na chroniczny stres"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Allostaza oznacza aktywne dostosowywanie organizmu do przewidywanego obciążenia, a nie tylko bierne utrzymywanie stałości. Gdy system jest przeciążony, powstaje koszt w postaci obciążenia allostatycznego."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Koncentruje się wyłącznie na zaburzeniach neuropsychiatrycznych u dzieci"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "RDoC organizuje badania według wymiarów funkcjonowania, takich jak walencja negatywna czy procesy poznawcze, a nie według rozpoznań DSM. NIMH promuje to podejście, by lepiej łączyć objawy z neurobiologią."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "DMN kontroluje wyłącznie procesy pamięci proceduralnej"
     ],
     "correct": 1,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "DMN wiąże się z myśleniem o sobie i narracją wewnętrzną; jej nadaktywność sprzyja ruminacjom w depresji. W schizofrenii zaburzona łączność tej sieci może współtworzyć problemy z monitorowaniem źródła doświadczeń."
   }
 ]

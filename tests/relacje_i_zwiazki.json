@@ -9,7 +9,8 @@
       "Zobowiązanie (commitment)"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Sternberg wyróżnił intymność, namiętność i zobowiązanie; lojalność nie jest osobnym składnikiem modelu. Może wynikać z zobowiązania, ale nie stanowi odrębnego wierzchołka trójkąta miłości."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "Intymności, namiętności i zobowiązania jednocześnie"
     ],
     "correct": 3,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Miłość doskonała u Sternberga łączy jednocześnie bliskość emocjonalną, pożądanie i decyzję o trwałości relacji. To pełna konfiguracja trzech składników teorii trójczynnikowej."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "Chaotycznym, dezorganizowanym wzorcem przywiązania"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Styl lękowo-ambiwalentny u dorosłych wiąże się z silnym pragnieniem bliskości oraz lękiem przed odrzuceniem. Hazan i Shaver odnosili go do niespójnych doświadczeń przywiązaniowych z dzieciństwa."
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
       "Zbieżności wartości i przekonań"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Buss pokazał, że w ujęciu ewolucyjnym mężczyźni częściej cenią wskaźniki płodności i zdrowia, takie jak młodość czy atrakcyjność fizyczna. Ma to odzwierciedlać presję doboru płciowego."
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
       "Defensywność (defensiveness)"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Czterech Jeźdźców Gottmana to krytyka, pogarda, defensywność i stonewalling. Nadmierne przepraszanie nie należy do tego modelu destrukcyjnej komunikacji."
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
       "Silnej namiętności naprzemiennie ze znudzeniem"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Walker opisywała cykl przemocy jako fazę narastania napięcia, akt przemocy, miodowy miesiąc i względny spokój. Taka cykliczność utrudnia ofierze przerwanie relacji."
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
       "10:1"
     ],
     "correct": 2,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "W badaniach Gottmana stabilne pary miały około pięć pozytywnych interakcji na jedną negatywną podczas konfliktu. Ten wskaźnik 5:1 chroni relację przed erozją."
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
       "Teorii systemowej rodziny Bowena"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "EFT Sue Johnson opiera się na teorii przywiązania Bowlby’ego i traktuje konflikt jako protest więzi. Celem terapii jest odbudowa bezpiecznej dostępności emocjonalnej partnerów."
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
       "Wzrostu namiętności po jej ujawnieniu"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Zdrada narusza podstawowe poczucie bezpieczeństwa i więzi, dlatego jest rozumiana jako uraz przywiązaniowy. Praca terapeutyczna dotyczy wtedy głównie odbudowy zaufania i przewidywalności."
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
       "Asertywność wyklucza wyrażanie negatywnych emocji"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Asertywność polega na jasnym wyrażaniu potrzeb z szacunkiem dla granic obu stron. W odróżnieniu od agresji nie służy dominacji ani poniżeniu partnera."
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
       "Dominacja emocjonalna (emotional dominance)"
     ],
     "correct": 3,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Chapman wyróżnił słowa uznania, wspólny czas, prezenty, akty usług i dotyk. Dominacja emocjonalna nie jest jednym z pięciu języków miłości."
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
       "Tworzą trwałe związki niezależnie od poziomu satysfakcji"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Teoria wymiany społecznej zakłada, że satysfakcja z relacji zależy od bilansu nagród i kosztów oraz poziomu porównawczego. Ludzie częściej pozostają w relacjach ocenianych jako korzystne."
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
       "Dezorganizacją narracji o własnej historii przywiązania"
     ],
     "correct": 0,
-    "difficulty": 3
+    "difficulty": 3,
+    "justification": "Styl dismissing avoidant charakteryzuje się dystansem, samowystarczalnością i deprecjonowaniem znaczenia więzi. W Adult Attachment Interview często widać idealizację historii przy jednoczesnym braku konkretnych wspomnień."
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
       "Listownym komunikowaniu trudnych tematów"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Komunikat ja opisuje własne uczucia i potrzeby bez obwiniania drugiej osoby. Zmniejsza to defensywność partnera i ułatwia dialog."
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
       "Mechanizm adaptacyjny pozwalający radzić sobie z traumą"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Gaslighting to manipulacja polegająca na systematycznym podważaniu pamięci, percepcji i osądu ofiary. Skutkiem jest dezorientacja oraz większa zależność od sprawcy."
   },
   {
     "id": 16,
@@ -189,7 +204,8 @@
       "Podobieństwo fizyczne jest ważniejsze niż podobieństwo osobowości"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Efekt podobieństwa pokazuje, że podobne wartości, postawy i styl życia zwiększają atrakcyjność oraz stabilność relacji. Zjawisko to opisywano już w klasycznych badaniach Byrne’a."
   },
   {
     "id": 17,
@@ -201,7 +217,8 @@
       "Rozwiązaniu problemów prawnych i finansowych pary"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Metoda Gottmana skupia się na wzmacnianiu przyjaźni, map miłości, rytuałów bliskości i konstruktywnego zarządzania konfliktem. Nie chodzi tylko o redukcję kłótni, ale o budowanie pozytywnej więzi."
   },
   {
     "id": 18,
@@ -213,7 +230,8 @@
       "Ograniczanie czasu spędzanego poza domem wyłącznie z powodów finansowych"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Przemoc psychologiczna obejmuje kontrolę, izolację, upokarzanie i zastraszanie. Może powodować równie poważne szkody jak przemoc fizyczna, choć bywa mniej widoczna."
   },
   {
     "id": 19,
@@ -225,7 +243,8 @@
       "Stopnia podobieństwa cech osobowości"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Model inwestycji Rusbult mówi, że zaangażowanie rośnie wraz z satysfakcją i inwestycjami oraz maleje, gdy alternatywy wydają się atrakcyjne. Dlatego ludzie czasem trwają także w trudnych związkach."
   },
   {
     "id": 20,
@@ -237,7 +256,8 @@
       "Narracje miłosne są niezmienne przez całe życie"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Love as a Story Sternberga zakłada, że każdy nosi własną narrację o tym, czym ma być miłość. Zgodność tych historii wpływa na dobór partnera i satysfakcję ze związku."
   },
   {
     "id": 21,
@@ -249,7 +269,8 @@
       "Każdy konflikt można rozwiązać poprzez kompromis"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Gottman podkreślał, że większość problemów w parach ma charakter wieczny, wynikający z trwałych różnic. Sukces polega więc bardziej na zarządzaniu konfliktem niż jego całkowitym rozwiązaniu."
   },
   {
     "id": 22,
@@ -261,7 +282,8 @@
       "Udowodnienia przez sprawcę, że zdrada się nie powtórzy poprzez kontrolę zewnętrzną"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Odbudowa zaufania po zdradzie wymaga odpowiedzialności sprawcy, przejrzystości i konsekwentnego tworzenia bezpieczeństwa. Modele Gottmana i EFT traktują to jako proces, a nie jednorazową rozmowę."
   },
   {
     "id": 23,
@@ -273,7 +295,8 @@
       "Zależy wyłącznie od zbieżności przekonań religijnych"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Intymność u Sternberga rozwija się zwykle stopniowo wraz z samoujawnianiem i wzajemnym wsparciem. Z czasem może być mniej uświadamiana, ale nadal organizować więź."
   },
   {
     "id": 24,
@@ -285,7 +308,8 @@
       "Pogardliwe zachowanie wyrażające wyższość"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Stonewalling oznacza wycofanie, milczenie i odcięcie się od kontaktu pod wpływem przeciążenia. Gottman uznał je za jeden z najsilniej destrukcyjnych wzorców konfliktu."
   },
   {
     "id": 25,
@@ -297,7 +321,8 @@
       "Partner inicjuje zmiany, podczas gdy drugi je blokuje"
     ],
     "correct": 1,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "W cyklu atak–obrona krytyka jednej strony uruchamia defensywność drugiej, co eskaluje konflikt. To typowy samopodtrzymujący się wzorzec interakcji w parach."
   },
   {
     "id": 26,
@@ -309,7 +334,8 @@
       "Partnerzy wyrównują poziom statusu ekonomicznego"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Matching hypothesis Walstera mówi, że ludzie dobierają się z partnerami o zbliżonej atrakcyjności i statusie, bo zwiększa to szansę wzajemności. To bardziej realistyczne niż poszukiwanie maksymalnie atrakcyjnego partnera."
   },
   {
     "id": 27,
@@ -321,7 +347,8 @@
       "Pragma"
     ],
     "correct": 2,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Lee wyróżnił manię jako styl miłości obsesyjnej, pełnej zazdrości i lęku utraty. To połączenie silnej zależności emocjonalnej i niestabilności."
   },
   {
     "id": 28,
@@ -333,7 +360,8 @@
       "Różnice w stylu wychowania dzieci"
     ],
     "correct": 2,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Pogarda jest u Gottmana najsilniejszym predyktorem rozwodu, bo komunikuje wyższość i odrzucenie partnera. Niszczy tym samym fundament szacunku w relacji."
   },
   {
     "id": 29,
@@ -345,7 +373,8 @@
       "Dom rodzinny jest bazą, do której para wraca po kryzysach"
     ],
     "correct": 1,
-    "difficulty": 2
+    "difficulty": 2,
+    "justification": "Bezpieczna baza w EFT oznacza relację, w której partnerzy mogą być wrażliwi i liczyć na responsywność drugiej strony. To bezpośrednie zastosowanie teorii przywiązania do relacji dorosłych."
   },
   {
     "id": 30,
@@ -357,6 +386,7 @@
       "Zwiększenie wzajemnej ekspozycji partnerów w celu normalizacji konfliktu"
     ],
     "correct": 2,
-    "difficulty": 1
+    "difficulty": 1,
+    "justification": "Przy przemocy domowej priorytetem jest bezpieczeństwo ofiary, dlatego terapia wspólna zwykle nie jest pierwszym wyborem. Zaleca się oddzielną pracę, ocenę ryzyka i plan bezpieczeństwa."
   }
 ]
