@@ -124,6 +124,12 @@ window.SITE_CONFIG = {
         { id: 'kulturowa/kultura_percepcja', label: 'Kultura a percepcja i uwaga', file: 'wiki/kulturowa/kultura_percepcja.md' },
         { id: 'kulturowa/kulturowe_modele_ja', label: 'Kulturowe modele Ja', file: 'wiki/kulturowa/kulturowe_modele_ja.md' },
         { id: 'kulturowa/kultura_zdrowie', label: 'Kultura a zdrowie psychiczne', file: 'wiki/kulturowa/kultura_zdrowie.md' },
+        { id: 'kulturowa/kultura_emocje',    label: 'Kultura a emocje',                   file: 'wiki/kulturowa/kultura_emocje.md'    },
+        { id: 'kulturowa/akulturacja',       label: 'Akulturacja i adaptacja kulturowa',   file: 'wiki/kulturowa/akulturacja.md'       },
+        { id: 'kulturowa/kultura_jezyk',     label: 'Kultura a język (Sapir-Whorf)',        file: 'wiki/kulturowa/kultura_jezyk.md'     },
+        { id: 'kulturowa/kultura_osobowosc', label: 'Kultura a osobowość',                 file: 'wiki/kulturowa/kultura_osobowosc.md' },
+        { id: 'kulturowa/wschodnia_zachodnia',label: 'Psychologia Wschodu i Zachodu',      file: 'wiki/kulturowa/wschodnia_zachodnia.md'},
+        { id: 'kulturowa/kultura_relacje',   label: 'Kultura a relacje interpersonalne',   file: 'wiki/kulturowa/kultura_relacje.md'   },
       ]
     },
     {
@@ -135,6 +141,12 @@ window.SITE_CONFIG = {
         { id: 'uzaleznienia/uzaleznienia_mlodziezy', label: 'Uzależnienia u młodzieży', file: 'wiki/uzaleznienia/uzaleznienia_mlodziezy.md' },
         { id: 'uzaleznienia/wspoluzaleznienie', label: 'Współuzależnienie', file: 'wiki/uzaleznienia/wspoluzaleznienie.md' },
         { id: 'uzaleznienia/profilaktyka', label: 'Profilaktyka', file: 'wiki/uzaleznienia/profilaktyka.md' },
+        { id: 'uzaleznienia/uzaleznienia_behawioralne', label: 'Uzależnienia behawioralne',              file: 'wiki/uzaleznienia/uzaleznienia_behawioralne.md' },
+        { id: 'uzaleznienia/neurobiologia_uzaleznien',  label: 'Neurobiologia uzależnień',               file: 'wiki/uzaleznienia/neurobiologia_uzaleznien.md'  },
+        { id: 'uzaleznienia/rodzina_w_uzaleznieniach',  label: 'Rodzina w systemie uzależnienia',        file: 'wiki/uzaleznienia/rodzina_w_uzaleznieniach.md'  },
+        { id: 'uzaleznienia/internet_uzaleznienie',     label: 'Uzależnienie od internetu i technologii',file: 'wiki/uzaleznienia/internet_uzaleznienie.md'     },
+        { id: 'uzaleznienia/terapia_grupowa',           label: 'Terapia grupowa w uzależnieniach',       file: 'wiki/uzaleznienia/terapia_grupowa.md'           },
+        { id: 'uzaleznienia/recovery',                  label: 'Recovery — droga do zdrowia',            file: 'wiki/uzaleznienia/recovery.md'                  },
       ]
     },
     {
@@ -147,7 +159,11 @@ window.SITE_CONFIG = {
         { id: 'relacje/konflikty', label: 'Konflikty i ich rozwiązywanie', file: 'wiki/relacje/konflikty.md' },
         { id: 'relacje/zdrada', label: 'Zdrada i odbudowa zaufania', file: 'wiki/relacje/zdrada.md' },
         { id: 'relacje/terapia_par', label: 'Terapia par', file: 'wiki/relacje/terapia_par.md' },
-        { id: 'relacje/przemoc_zwiazki', label: 'Przemoc w związkach', file: 'wiki/relacje/przemoc_zwiazki.md' },
+        { id: 'relacje/przemoc_zwiazki',  label: 'Przemoc w związkach',             file: 'wiki/relacje/przemoc_zwiazki.md'  },
+        { id: 'relacje/samotnosc',        label: 'Samotność i izolacja społeczna',  file: 'wiki/relacje/samotnosc.md'        },
+        { id: 'relacje/przyjaznie',       label: 'Przyjaźń',                        file: 'wiki/relacje/przyjaznie.md'       },
+        { id: 'relacje/rozstanie',        label: 'Rozpad związku i żałoba',         file: 'wiki/relacje/rozstanie.md'        },
+        { id: 'relacje/relacje_rodzinne', label: 'Relacje rodzinne — dynamika',     file: 'wiki/relacje/relacje_rodzinne.md' },
       ]
     },
     {
@@ -160,6 +176,11 @@ window.SITE_CONFIG = {
         { id: 'etyka/swiadoma_zgoda', label: 'Świadoma zgoda', file: 'wiki/etyka/swiadoma_zgoda.md' },
         { id: 'etyka/granice_relacji', label: 'Granice relacji terapeutycznej', file: 'wiki/etyka/granice_relacji.md' },
         { id: 'etyka/superwizja_odpowiedzialnosc', label: 'Superwizja i odpowiedzialność', file: 'wiki/etyka/superwizja_odpowiedzialnosc.md' },
+        { id: 'etyka/dylematy_etyczne',          label: 'Dylematy etyczne w praktyce',           file: 'wiki/etyka/dylematy_etyczne.md'          },
+        { id: 'etyka/kompetencje_kulturowe',     label: 'Kompetencje kulturowe',                 file: 'wiki/etyka/kompetencje_kulturowe.md'     },
+        { id: 'etyka/etyka_badan',               label: 'Etyka badań naukowych',                 file: 'wiki/etyka/etyka_badan.md'               },
+        { id: 'etyka/etyka_cyfrowa',             label: 'Etyka w psychologii cyfrowej',          file: 'wiki/etyka/etyka_cyfrowa.md'             },
+        { id: 'etyka/odpowiedzialnosc_zawodowa', label: 'Odpowiedzialność zawodowa',             file: 'wiki/etyka/odpowiedzialnosc_zawodowa.md' },
       ]
     },
     {
@@ -185,6 +206,11 @@ window.SITE_CONFIG = {
         { id: 'emotions/neurobiologia',       label: 'Neurobiologia emocji',     file: 'wiki/emotions/neurobiologia.md'       },
         { id: 'emotions/wspolczucie',         label: 'Empatia i współczucie',    file: 'wiki/emotions/wspolczucie.md'         },
         { id: 'emotions/aleksytymia',         label: 'Aleksytymia',              file: 'wiki/emotions/aleksytymia.md'         },
+        { id: 'emotions/inteligencja_emocjonalna', label: 'Inteligencja emocjonalna',          file: 'wiki/emotions/inteligencja_emocjonalna.md' },
+        { id: 'emotions/stres_emocje',             label: 'Stres i emocje',                    file: 'wiki/emotions/stres_emocje.md'             },
+        { id: 'emotions/pozytywne_emocje',         label: 'Pozytywne emocje i broaden-build',  file: 'wiki/emotions/pozytywne_emocje.md'         },
+        { id: 'emotions/wstyd_wina',               label: 'Wstyd i wina',                      file: 'wiki/emotions/wstyd_wina.md'               },
+        { id: 'emotions/emocje_spoleczne',         label: 'Emocje społeczne i moralne',        file: 'wiki/emotions/emocje_spoleczne.md'         },
       ]
     },
     {
@@ -211,7 +237,14 @@ window.SITE_CONFIG = {
         { id: 'temperament/modele',   label: 'Modele temperamentu',  file: 'wiki/temperament/modele.md'   },
         { id: 'temperament/pomiar',   label: 'Pomiar temperamentu',  file: 'wiki/temperament/pomiar.md'   },
         { id: 'temperament/kliniczne',label: 'Wymiar kliniczny',     file: 'wiki/temperament/kliniczne.md'},
-        { id: 'temperament/razvoj',   label: 'Temperament a rozwój', file: 'wiki/temperament/razvoj.md'   },
+        { id: 'temperament/razvoj',                  label: 'Temperament a rozwój',                file: 'wiki/temperament/razvoj.md'                   },
+        { id: 'temperament/strelau',                 label: 'RTT — teoria Strelaua',               file: 'wiki/temperament/strelau.md'                  },
+        { id: 'temperament/eysenck',                 label: 'Model Eysencka (PEN)',                file: 'wiki/temperament/eysenck.md'                  },
+        { id: 'temperament/gray',                    label: 'Teoria BIS/BAS Graya',                file: 'wiki/temperament/gray.md'                     },
+        { id: 'temperament/kagan',                   label: 'Zahamowanie behawioralne (Kagan)',    file: 'wiki/temperament/kagan.md'                    },
+        { id: 'temperament/temperament_a_psychopat', label: 'Temperament a psychopatologia',       file: 'wiki/temperament/temperament_a_psychopat.md'  },
+        { id: 'temperament/biologia_temperamentu',   label: 'Biologiczne podłoże temperamentu',    file: 'wiki/temperament/biologia_temperamentu.md'    },
+        { id: 'temperament/temperament_a_kariera',   label: 'Temperament a kariera i praca',       file: 'wiki/temperament/temperament_a_kariera.md'    },
       ]
     },
     {
@@ -927,7 +960,14 @@ window.SITE_CONFIG = {
       { file: 'wiki/temperament/modele.md',    label: 'Modele temperamentu',     status: 'live' },
       { file: 'wiki/temperament/pomiar.md',    label: 'Pomiar temperamentu',     status: 'live' },
       { file: 'wiki/temperament/kliniczne.md', label: 'Temperament w klinice',   status: 'live' },
-      { file: 'wiki/temperament/razvoj.md',    label: 'Temperament a rozwój',    status: 'live' },
+      { file: 'wiki/temperament/razvoj.md',                   label: 'Temperament a rozwój',               status: 'live' },
+      { file: 'wiki/temperament/strelau.md',                  label: 'RTT — teoria Strelaua',              status: 'live' },
+      { file: 'wiki/temperament/eysenck.md',                  label: 'Model Eysencka (PEN)',               status: 'live' },
+      { file: 'wiki/temperament/gray.md',                     label: 'Teoria BIS/BAS Graya',               status: 'live' },
+      { file: 'wiki/temperament/kagan.md',                    label: 'Zahamowanie behawioralne (Kagan)',    status: 'live' },
+      { file: 'wiki/temperament/temperament_a_psychopat.md',  label: 'Temperament a psychopatologia',       status: 'live' },
+      { file: 'wiki/temperament/biologia_temperamentu.md',    label: 'Biologiczne podłoże temperamentu',    status: 'live' },
+      { file: 'wiki/temperament/temperament_a_kariera.md',    label: 'Temperament a kariera i praca',       status: 'live' },
     ],
     emotions: [
       { file: 'wiki/emotions/emocje_wprowadzenie.md', label: 'Emocje — wprowadzenie',    status: 'live' },
@@ -937,6 +977,11 @@ window.SITE_CONFIG = {
       { file: 'wiki/emotions/neurobiologia.md',label: 'Neurobiologia emocji',    status: 'live' },
       { file: 'wiki/emotions/wspolczucie.md',  label: 'Empatia i współczucie',   status: 'live' },
       { file: 'wiki/emotions/aleksytymia.md',  label: 'Aleksytymia',             status: 'live' },
+      { file: 'wiki/emotions/inteligencja_emocjonalna.md', label: 'Inteligencja emocjonalna',         status: 'live' },
+      { file: 'wiki/emotions/stres_emocje.md',             label: 'Stres i emocje',                   status: 'live' },
+      { file: 'wiki/emotions/pozytywne_emocje.md',         label: 'Pozytywne emocje i broaden-build', status: 'live' },
+      { file: 'wiki/emotions/wstyd_wina.md',               label: 'Wstyd i wina',                     status: 'live' },
+      { file: 'wiki/emotions/emocje_spoleczne.md',         label: 'Emocje społeczne i moralne',       status: 'live' },
     ],
     biology: [
       { file: 'wiki/biology/biologiczne_podstawy.md', label: 'Biologiczne podstawy — wprow.', status: 'live' },
@@ -1321,6 +1366,12 @@ window.SITE_CONFIG = {
       { file: 'wiki/kulturowa/kultura_percepcja.md',             label: 'Kultura a percepcja i uwaga',         status: 'live' },
       { file: 'wiki/kulturowa/kulturowe_modele_ja.md',           label: 'Kulturowe modele Ja',                 status: 'live' },
       { file: 'wiki/kulturowa/kultura_zdrowie.md',               label: 'Kultura a zdrowie psychiczne',        status: 'live' },
+      { file: 'wiki/kulturowa/kultura_emocje.md',       label: 'Kultura a emocje',                  status: 'live' },
+      { file: 'wiki/kulturowa/akulturacja.md',          label: 'Akulturacja i adaptacja kulturowa', status: 'live' },
+      { file: 'wiki/kulturowa/kultura_jezyk.md',        label: 'Kultura a język (Sapir-Whorf)',      status: 'live' },
+      { file: 'wiki/kulturowa/kultura_osobowosc.md',    label: 'Kultura a osobowość',               status: 'live' },
+      { file: 'wiki/kulturowa/wschodnia_zachodnia.md',  label: 'Psychologia Wschodu i Zachodu',     status: 'live' },
+      { file: 'wiki/kulturowa/kultura_relacje.md',      label: 'Kultura a relacje interpersonalne', status: 'live' },
     ],
     uzaleznienia: [
       { file: 'wiki/uzaleznienia/kryteria_diagnostyczne.md',     label: 'Kryteria diagnostyczne',             status: 'live' },
@@ -1329,6 +1380,12 @@ window.SITE_CONFIG = {
       { file: 'wiki/uzaleznienia/uzaleznienia_mlodziezy.md',     label: 'Uzależnienia u młodzieży',           status: 'live' },
       { file: 'wiki/uzaleznienia/wspoluzaleznienie.md',          label: 'Współuzależnienie',                  status: 'live' },
       { file: 'wiki/uzaleznienia/profilaktyka.md',               label: 'Profilaktyka',                       status: 'live' },
+      { file: 'wiki/uzaleznienia/uzaleznienia_behawioralne.md', label: 'Uzależnienia behawioralne',              status: 'live' },
+      { file: 'wiki/uzaleznienia/neurobiologia_uzaleznien.md',  label: 'Neurobiologia uzależnień',               status: 'live' },
+      { file: 'wiki/uzaleznienia/rodzina_w_uzaleznieniach.md',  label: 'Rodzina w systemie uzależnienia',        status: 'live' },
+      { file: 'wiki/uzaleznienia/internet_uzaleznienie.md',     label: 'Uzależnienie od internetu i technologii',status: 'live' },
+      { file: 'wiki/uzaleznienia/terapia_grupowa.md',           label: 'Terapia grupowa w uzależnieniach',       status: 'live' },
+      { file: 'wiki/uzaleznienia/recovery.md',                  label: 'Recovery — droga do zdrowia',            status: 'live' },
     ],
     relacje: [
       { file: 'wiki/relacje/przywiezanie_doroslych.md',          label: 'Style przywiązania u dorosłych',     status: 'live' },
@@ -1339,6 +1396,10 @@ window.SITE_CONFIG = {
       { file: 'wiki/relacje/zdrada.md',                          label: 'Zdrada i odbudowa zaufania',         status: 'live' },
       { file: 'wiki/relacje/terapia_par.md',                     label: 'Terapia par',                        status: 'live' },
       { file: 'wiki/relacje/przemoc_zwiazki.md',                 label: 'Przemoc w związkach',                status: 'live' },
+      { file: 'wiki/relacje/samotnosc.md',                       label: 'Samotność i izolacja społeczna',     status: 'live' },
+      { file: 'wiki/relacje/przyjaznie.md',                      label: 'Przyjaźń',                           status: 'live' },
+      { file: 'wiki/relacje/rozstanie.md',                       label: 'Rozpad związku i żałoba relacyjna',  status: 'live' },
+      { file: 'wiki/relacje/relacje_rodzinne.md',                label: 'Relacje rodzinne — dynamika',        status: 'live' },
     ],
     etyka: [
       { file: 'wiki/etyka/kodeksy_etyczne.md',                   label: 'Kodeksy etyczne — przegląd',         status: 'live' },
@@ -1348,6 +1409,11 @@ window.SITE_CONFIG = {
       { file: 'wiki/etyka/swiadoma_zgoda.md',                    label: 'Świadoma zgoda',                     status: 'live' },
       { file: 'wiki/etyka/granice_relacji.md',                   label: 'Granice relacji terapeutycznej',     status: 'live' },
       { file: 'wiki/etyka/superwizja_odpowiedzialnosc.md',       label: 'Superwizja i odpowiedzialność',      status: 'live' },
+      { file: 'wiki/etyka/dylematy_etyczne.md',          label: 'Dylematy etyczne w praktyce',          status: 'live' },
+      { file: 'wiki/etyka/kompetencje_kulturowe.md',     label: 'Kompetencje kulturowe',                status: 'live' },
+      { file: 'wiki/etyka/etyka_badan.md',               label: 'Etyka badań naukowych',                status: 'live' },
+      { file: 'wiki/etyka/etyka_cyfrowa.md',             label: 'Etyka w psychologii cyfrowej',         status: 'live' },
+      { file: 'wiki/etyka/odpowiedzialnosc_zawodowa.md', label: 'Odpowiedzialność zawodowa',            status: 'live' },
     ],
     diagnoza: [
       { file: 'wiki/diagnoza/etapy_diagnozy.md',                 label: 'Etapy i cele diagnozy',              status: 'live' },
@@ -1633,6 +1699,17 @@ window.SITE_CONFIG = {
           ]
         },
         {
+          title: 'Kultura i tożsamość',
+          articles: [
+            { label: 'Kultura a emocje',                  id: 'kulturowa/kultura_emocje',     status: 'live' },
+            { label: 'Akulturacja i adaptacja kulturowa', id: 'kulturowa/akulturacja',         status: 'live' },
+            { label: 'Kultura a język (Sapir-Whorf)',     id: 'kulturowa/kultura_jezyk',       status: 'live' },
+            { label: 'Kultura a osobowość',               id: 'kulturowa/kultura_osobowosc',   status: 'live' },
+            { label: 'Psychologia Wschodu i Zachodu',     id: 'kulturowa/wschodnia_zachodnia', status: 'live' },
+            { label: 'Kultura a relacje interpersonalne', id: 'kulturowa/kultura_relacje',     status: 'live' },
+          ]
+        },
+        {
           title: 'Emocje i motywacja',
           articles: [
             { label: 'Emocje — wprowadzenie', id: 'emotions/emocje_wprowadzenie', status: 'live' },
@@ -1642,6 +1719,11 @@ window.SITE_CONFIG = {
             { label: 'Neurobiologia emocji', id: 'emotions/neurobiologia', status: 'live' },
             { label: 'Empatia i współczucie', id: 'emotions/wspolczucie', status: 'live' },
             { label: 'Aleksytymia', id: 'emotions/aleksytymia', status: 'live' },
+            { label: 'Inteligencja emocjonalna', id: 'emotions/inteligencja_emocjonalna', status: 'live' },
+            { label: 'Stres i emocje', id: 'emotions/stres_emocje', status: 'live' },
+            { label: 'Pozytywne emocje i broaden-build', id: 'emotions/pozytywne_emocje', status: 'live' },
+            { label: 'Wstyd i wina', id: 'emotions/wstyd_wina', status: 'live' },
+            { label: 'Emocje społeczne i moralne', id: 'emotions/emocje_spoleczne', status: 'live' },
           ]
         },
       ]
@@ -1733,6 +1815,17 @@ window.SITE_CONFIG = {
             { label: 'Profilaktyka', id: 'uzaleznienia/profilaktyka', status: 'live' },
           ]
         },
+        {
+          title: 'Neurobiologia i zaawansowane zagadnienia',
+          articles: [
+            { label: 'Neurobiologia uzależnień',               id: 'uzaleznienia/neurobiologia_uzaleznien',   status: 'live' },
+            { label: 'Uzależnienia behawioralne',              id: 'uzaleznienia/uzaleznienia_behawioralne',  status: 'live' },
+            { label: 'Uzależnienie od internetu i technologii',id: 'uzaleznienia/internet_uzaleznienie',      status: 'live' },
+            { label: 'Rodzina w systemie uzależnienia',        id: 'uzaleznienia/rodzina_w_uzaleznieniach',   status: 'live' },
+            { label: 'Terapia grupowa w uzależnieniach',       id: 'uzaleznienia/terapia_grupowa',            status: 'live' },
+            { label: 'Recovery — droga do zdrowia',           id: 'uzaleznienia/recovery',                   status: 'live' },
+          ]
+        },
       ]
     },
 
@@ -1775,6 +1868,15 @@ window.SITE_CONFIG = {
             { label: 'Trauma seksualna', id: 'sexology/trauma_seksualna', status: 'live' },
             { label: 'Rozwój seksualny', id: 'sexology/rozw_seksualny', status: 'live' },
             { label: 'Modele odpowiedzi seksualnej', id: 'sexology/modele_odpowiedzi', status: 'live' },
+          ]
+        },
+        {
+          title: 'Inne relacje i utrata',
+          articles: [
+            { label: 'Samotność i izolacja społeczna',    id: 'relacje/samotnosc',        status: 'live' },
+            { label: 'Przyjaźń',                          id: 'relacje/przyjaznie',        status: 'live' },
+            { label: 'Rozpad związku i żałoba relacyjna', id: 'relacje/rozstanie',         status: 'live' },
+            { label: 'Relacje rodzinne — dynamika',       id: 'relacje/relacje_rodzinne',  status: 'live' },
           ]
         },
       ]
@@ -1887,7 +1989,14 @@ window.SITE_CONFIG = {
             { label: 'Modele temperamentu', id: 'temperament/modele', status: 'live' },
             { label: 'Pomiar temperamentu', id: 'temperament/pomiar', status: 'live' },
             { label: 'Temperament a klinika', id: 'temperament/kliniczne', status: 'live' },
-            { label: 'Rozwój temperamentu', id: 'temperament/razvoj', status: 'live' },
+            { label: 'Rozwój temperamentu',                id: 'temperament/razvoj',                   status: 'live' },
+            { label: 'RTT — teoria Strelaua',              id: 'temperament/strelau',                  status: 'live' },
+            { label: 'Model Eysencka (PEN)',               id: 'temperament/eysenck',                  status: 'live' },
+            { label: 'Teoria BIS/BAS Graya',               id: 'temperament/gray',                     status: 'live' },
+            { label: 'Zahamowanie behawioralne (Kagan)',   id: 'temperament/kagan',                    status: 'live' },
+            { label: 'Temperament a psychopatologia',      id: 'temperament/temperament_a_psychopat',  status: 'live' },
+            { label: 'Biologiczne podłoże temperamentu',   id: 'temperament/biologia_temperamentu',    status: 'live' },
+            { label: 'Temperament a kariera i praca',      id: 'temperament/temperament_a_kariera',    status: 'live' },
           ]
         },
       ]
@@ -1946,6 +2055,16 @@ window.SITE_CONFIG = {
             { label: 'Świadoma zgoda', id: 'etyka/swiadoma_zgoda', status: 'live' },
             { label: 'Granice relacji terapeutycznej', id: 'etyka/granice_relacji', status: 'live' },
             { label: 'Superwizja i odpowiedzialność', id: 'etyka/superwizja_odpowiedzialnosc', status: 'live' },
+          ]
+        },
+        {
+          title: 'Zaawansowane zagadnienia',
+          articles: [
+            { label: 'Dylematy etyczne w praktyce',        id: 'etyka/dylematy_etyczne',          status: 'live' },
+            { label: 'Kompetencje kulturowe',              id: 'etyka/kompetencje_kulturowe',     status: 'live' },
+            { label: 'Etyka badań naukowych',              id: 'etyka/etyka_badan',               status: 'live' },
+            { label: 'Etyka w psychologii cyfrowej',       id: 'etyka/etyka_cyfrowa',             status: 'live' },
+            { label: 'Odpowiedzialność zawodowa',          id: 'etyka/odpowiedzialnosc_zawodowa', status: 'live' },
           ]
         },
       ]
