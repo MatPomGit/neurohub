@@ -23,14 +23,14 @@ PPP **nie jest terapią** — to humanitarna, ludzka interwencja skierowana na z
 
 ## Co robić, a czego unikać
 
-### Robić ✅
+### Robić
 - Być spokojnym, obecnym, dostępnym
 - Słuchać aktywnie, bez oceniania
 - Pytać o konkretne potrzeby
 - Szanować prywatność i tempo osoby
 - Normalizować reakcje stresowe („To normalna reakcja na nienormalną sytuację")
 
-### Unikać ❌
+### Unikać
 - Zmuszania do mówienia o traumatycznym wydarzeniu
 - Obietnic bez pokrycia
 - Diagnozowania lub interpretowania zachowania

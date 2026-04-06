@@ -8,11 +8,11 @@ Jeden z najbardziej znanych i najbardziej kontrowersyjnych eksperymentów w hist
 
 Eksperyment Watson i Rayner był filmowany — co było rzadkością w badaniach psychologicznych tamtej epoki. Oryginalne taśmy filmowe przetrwały i są dostępne publicznie:
 
-- 🎞 **Oryginalne nagranie eksperymentu (1920)** — fragmenty sesji warunkowania i testowania generalizacji strachu:
+- **Oryginalne nagranie eksperymentu (1920)** — fragmenty sesji warunkowania i testowania generalizacji strachu:
   [youtube.com/watch?v=FMnhyGozLyE](https://www.youtube.com/watch?v=FMnhyGozLyE)
-- 🎞 **Rozszerzona wersja z komentarzem historycznym** — kolekcja Davidsona Films, zawierająca kontekst oraz nagrania oryginalnego eksperymentu w pełniejszym wymiarze:
+- **Rozszerzona wersja z komentarzem historycznym** — kolekcja Davidsona Films, zawierająca kontekst oraz nagrania oryginalnego eksperymentu w pełniejszym wymiarze:
   [youtube.com/watch?v=9hBfnXACsOI](https://www.youtube.com/watch?v=9hBfnXACsOI)
-- 🎞 **Archiwum filmów psychologicznych — Uniwersytet Akron** — skatalogowane nagrania Watsona w ramach History of Psychology Film Archive:
+- **Archiwum filmów psychologicznych — Uniwersytet Akron** — skatalogowane nagrania Watsona w ramach History of Psychology Film Archive:
   [uakron.edu/chp/resources/films](https://www.uakron.edu/chp/resources/films)
 
 > Nagrania są szczególnie cenne, bo pozwalają zaobserwować, jak Albert reaguje na bodźce przed warunkowaniem (spokojna, eksploracyjna postawa), podczas warunkowania (wzrastający dystres) i po warunkowaniu (wyraźny lęk na widok szczura). Filmy te były wielokrotnie cytowane w podręcznikach i stały się ikonograficznym elementem historii psychologii.

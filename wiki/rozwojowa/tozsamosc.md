@@ -26,10 +26,10 @@ Konsekwencje kryzysu tożsamości:
 
 | Status | Eksploracja | Zaangażowanie | Charakterystyka |
 |---|---|---|---|
-| **Osiągnięta** (*achieved*) | ✓ | ✓ | Przebyła kryzysy, podjęła decyzje; wysoki dobrostan, elastyczność |
-| **Moratoryjna** (*moratorium*) | ✓ | ✗ | Aktywnie poszukuje; lęk, ale i otwartość; stan przejściowy |
-| **Wykluczona** (*foreclosed*) | ✗ | ✓ | Przejęła tożsamość od rodziców/grupy; sztywność, autorytarność |
-| **Rozmyta** (*diffused*) | ✗ | ✗ | Brak zaangażowania i eksploracji; nuda, anomia, depresja |
+| **Osiągnięta** (*achieved*) | + | + | Przebyła kryzysy, podjęła decyzje; wysoki dobrostan, elastyczność |
+| **Moratoryjna** (*moratorium*) | + | − | Aktywnie poszukuje; lęk, ale i otwartość; stan przejściowy |
+| **Wykluczona** (*foreclosed*) | − | + | Przejęła tożsamość od rodziców/grupy; sztywność, autorytarność |
+| **Rozmyta** (*diffused*) | − | − | Brak zaangażowania i eksploracji; nuda, anomia, depresja |
 
 Badania podłużne wykazują, że większość osób w Zachodzie nie osiąga statusu tożsamości osiągniętej przed wczesną dorosłością. Statusy nie są trwałymi cechami — mogą się zmieniać w odpowiedzi na nowe wyzwania życiowe (*MAMA cycles* — moratorium-achievement cycles).
 

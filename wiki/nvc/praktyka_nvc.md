@@ -14,25 +14,25 @@ Codzienna praktyka NVC nie wymaga, żeby każde zdanie miało cztery komponenty.
 
 **Sytuacja:** Wracasz do domu i widzisz bałagan, choć prosiliście się o sprzątanie.
 
-❌ **Reakcja szakala:** „Znowu nie posprzątałeś! To jest nie do wytrzymania!"
+**Reakcja szakala:** „Znowu nie posprzątałeś! To jest nie do wytrzymania!"
 
-✅ **Reakcja żyrafy:** „Widzę rzeczy na podłodze i niepozmywane naczynia (obserwacja). Czuję zmęczenie i trochę frustracji (uczucie), bo potrzebuję porządku, żeby odpocząć po pracy (potrzeba). Czy mógłbyś posprzątać kuchnię dziś wieczorem? (prośba)"
+**Reakcja żyrafy:** „Widzę rzeczy na podłodze i niepozmywane naczynia (obserwacja). Czuję zmęczenie i trochę frustracji (uczucie), bo potrzebuję porządku, żeby odpocząć po pracy (potrzeba). Czy mógłbyś posprzątać kuchnię dziś wieczorem? (prośba)"
 
 ### W pracy
 
 **Sytuacja:** Kolega regularnie przenosi termin oddania projektów, co utrudnia twoją pracę.
 
-❌ **Reakcja szakala:** „Ty nigdy nie dotrzymujesz terminów! Przez ciebie mamy opóźnienia."
+**Reakcja szakala:** „Ty nigdy nie dotrzymujesz terminów! Przez ciebie mamy opóźnienia."
 
-✅ **Reakcja żyrafy:** „Przez ostatni miesiąc trzy projekty trafiły do mnie z opóźnieniem (obserwacja). Czuję niepokój (uczucie), bo potrzebuję przewidywalności, żeby zaplanować swoją pracę (potrzeba). Czy możemy ustalić, że będziesz informować mnie z wyprzedzeniem, jeśli termin będzie zagrożony? (prośba)"
+**Reakcja żyrafy:** „Przez ostatni miesiąc trzy projekty trafiły do mnie z opóźnieniem (obserwacja). Czuję niepokój (uczucie), bo potrzebuję przewidywalności, żeby zaplanować swoją pracę (potrzeba). Czy możemy ustalić, że będziesz informować mnie z wyprzedzeniem, jeśli termin będzie zagrożony? (prośba)"
 
 ### Z dziećmi
 
 **Sytuacja:** Dziecko nie chce wychodzić z parku.
 
-❌ **Reakcja szakala:** „Natychmiast chodź! Mamy dość zabawy!"
+**Reakcja szakala:** „Natychmiast chodź! Mamy dość zabawy!"
 
-✅ **Reakcja żyrafy:** „Widzę, że dobrze się bawisz (obserwacja). Rozumiem, że jest ci tu fajnie (empatia). Ja czuję zmęczenie i potrzebuję iść do domu (potrzeba). Możemy wrócić tu jutro. Czy możesz pożegnać się ze zjeżdżalnią i chodźmy? (prośba)"
+**Reakcja żyrafy:** „Widzę, że dobrze się bawisz (obserwacja). Rozumiem, że jest ci tu fajnie (empatia). Ja czuję zmęczenie i potrzebuję iść do domu (potrzeba). Możemy wrócić tu jutro. Czy możesz pożegnać się ze zjeżdżalnią i chodźmy? (prośba)"
 
 ## Wewnętrzna praktyka NVC
 

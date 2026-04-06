@@ -83,9 +83,9 @@ Ruch neurodywersji (szczególnie w kontekście autyzmu, ADHD, dysleksji) kwestio
 
 ### Język zorientowany na osobę (*person-first language*)
 
-- ✓ „osoba z zaburzeniem lękowym" zamiast ✗ „lękowiec"
-- ✓ „osoba z diagnozą schizofrenii" zamiast ✗ „schizofrenik"
-- ✓ „osoba doświadczająca depresji" zamiast ✗ „depresyjny pacjent"
+- „osoba z zaburzeniem lękowym" zamiast „lękowiec"
+- „osoba z diagnozą schizofrenii" zamiast „schizofrenik"
+- „osoba doświadczająca depresji" zamiast „depresyjny pacjent"
 
 Uwaga: część społeczności, zwłaszcza autystyczna, preferuje tożsamościowy język (*identity-first*): „autystyczna osoba" zamiast „osoba z autyzmem" — respektuj preferencje rozmówcy.
 
