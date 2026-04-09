@@ -587,6 +587,8 @@ window.SITE_CONFIG = {
         { id: 'psychotherapy/psychoanaliza_fromma',    label: 'Psychoanaliza humanistyczna (Fromm)', file: 'wiki/psychotherapy/psychoanaliza_fromma.md' },
         { id: 'psychotherapy/psychologia_zimbardo',    label: 'Psychologia społeczna (Zimbardo)',    file: 'wiki/psychotherapy/psychologia_zimbardo.md' },
         { id: 'psychotherapy/aktywacja_behawioralna', label: 'Aktywacja behawioralna',               file: 'wiki/psychotherapy/aktywacja_behawioralna.md' },
+        { id: 'psychotherapy/rebt',                    label: 'REBT — racjonalna terapia',            file: 'wiki/psychotherapy/rebt.md'                     },
+        { id: 'psychotherapy/psychologiczne_mechanizmy_przebaczenia', label: 'Mechanizmy przebaczenia po przemocy emocjonalnej', file: 'wiki/psychotherapy/psychologiczne_mechanizmy_przebaczenia.md' },
         { id: 'psychotherapy/superwizja',              label: 'Superwizja w psychoterapii',           file: 'wiki/psychotherapy/superwizja.md'           },
       ]
     },
@@ -1011,6 +1013,8 @@ window.SITE_CONFIG = {
       { file: 'wiki/psychotherapy/psychoanaliza_fromma.md', label: 'Psychoanaliza humanistyczna (Fromm)',   status: 'live' },
       { file: 'wiki/psychotherapy/psychologia_zimbardo.md', label: 'Psychologia społeczna (Zimbardo)',      status: 'live' },
       { file: 'wiki/psychotherapy/aktywacja_behawioralna.md', label: 'Aktywacja behawioralna',             status: 'live' },
+      { file: 'wiki/psychotherapy/rebt.md',                 label: 'REBT — racjonalna terapia',              status: 'live' },
+      { file: 'wiki/psychotherapy/psychologiczne_mechanizmy_przebaczenia.md', label: 'Mechanizmy przebaczenia po przemocy emocjonalnej', status: 'live' },
       { file: 'wiki/psychotherapy/superwizja.md',           label: 'Superwizja w psychoterapii',            status: 'live' },
     ],
     psychopathology: [
@@ -1573,6 +1577,8 @@ window.SITE_CONFIG = {
             { label: 'Psychoanaliza humanistyczna (Fromm)', id: 'psychotherapy/psychoanaliza_fromma', status: 'live' },
             { label: 'Psychologia społeczna (Zimbardo)', id: 'psychotherapy/psychologia_zimbardo', status: 'live' },
             { label: 'Aktywacja behawioralna', id: 'psychotherapy/aktywacja_behawioralna', status: 'live' },
+            { label: 'REBT — racjonalna terapia', id: 'psychotherapy/rebt', status: 'live' },
+            { label: 'Mechanizmy przebaczenia po przemocy emocjonalnej', id: 'psychotherapy/psychologiczne_mechanizmy_przebaczenia', status: 'live' },
             { label: 'Superwizja w psychoterapii', id: 'psychotherapy/superwizja', status: 'live' },
             { label: 'Interwencja kryzysowa', id: 'suicidology/interwencja', status: 'live' },
           ]
