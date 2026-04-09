@@ -24,12 +24,15 @@ window.SITE_CONFIG = {
       items: [
         { id: 'intro/definicja', label: 'Definicja i zakres',  file: 'wiki/intro/definicja.md' },
         { id: 'intro/historia',  label: 'Historia dyscypliny', file: 'wiki/intro/historia.md'  },
+        { id: 'intro/nurty_psychologii', label: 'Główne nurty psychologii', file: 'wiki/intro/nurty_psychologii.md'  },
+        { id: 'intro/etyka_badan_psychologicznych', label: 'Etyka badań psychologicznych', file: 'wiki/intro/etyka_badan_psychologicznych.md'  },
       ]
     },
     {
       section: 'Dla studentów',
       items: [
         { id: 'students/wybor_specjalnosci', label: 'Wybór specjalności', file: 'wiki/students/wybor_specjalnosci.md' },
+        { id: 'students/sciezki_kariery', label: 'Ścieżki kariery po psychologii', file: 'wiki/students/sciezki_kariery.md' },
         { id: 'students/test_specjalnosci',  label: 'Test wyboru specjalności', custom: 'specialization_test' },
         { id: 'students/etyka_studenta',     label: 'Etyka studenta psychologii', file: 'wiki/students/etyka_studenta.md' },
         { id: 'students/psychologia_codziennej', label: 'Psychologia codzienna',    custom: 'daily_psychology' },
@@ -1138,6 +1141,8 @@ window.SITE_CONFIG = {
     intro: [
       { file: 'wiki/intro/definicja.md', label: 'Definicja i zakres',  status: 'live' },
       { file: 'wiki/intro/historia.md',  label: 'Historia dyscypliny', status: 'live' },
+      { file: 'wiki/intro/nurty_psychologii.md',  label: 'Główne nurty psychologii', status: 'live' },
+      { file: 'wiki/intro/etyka_badan_psychologicznych.md',  label: 'Etyka badań psychologicznych', status: 'live' },
     ],
     cases: [
       { file: 'wiki/cases/hm.md',         label: 'H.M. — amnezja',  status: 'live' },
@@ -1519,6 +1524,8 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Definicja i zakres', id: 'intro/definicja', status: 'live' },
             { label: 'Historia dyscypliny', id: 'intro/historia', status: 'live' },
+            { label: 'Główne nurty psychologii', id: 'intro/nurty_psychologii', status: 'live' },
+            { label: 'Etyka badań psychologicznych', id: 'intro/etyka_badan_psychologicznych', status: 'live' },
           ]
         },
       ]
