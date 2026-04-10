@@ -388,5 +388,70 @@
     "correct": 0,
     "difficulty": 2,
     "justification": "Regresja psychodynamiczna polega na powrocie do wcześniejszych form zachowania pod wpływem stresu. Moczenie łóżka po narodzinach rodzeństwa jest klasycznym przykładem takiego cofnięcia."
+  },
+  {
+    "question": "Które twierdzenie najlepiej opisuje pojęcie strefy najbliższego rozwoju Wygotskiego?",
+    "options": [
+      "To zakres umiejętności całkowicie niedostępnych dziecku",
+      "To różnica między tym, co dziecko potrafi samo a tym, co osiąga przy wsparciu",
+      "To etap rozwoju fizycznego w okresie dojrzewania",
+      "To miara temperamentu dziecka"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Strefa najbliższego rozwoju opisuje potencjał uczenia się aktywowany dzięki wsparciu kompetentniejszej osoby i odpowiedniemu rusztowaniu edukacyjnemu.",
+    "id": 31
+  },
+  {
+    "question": "W teorii przywiązania Ainsworth wzorzec lękowo-ambiwalentny u dziecka zwykle wiąże się z:",
+    "options": [
+      "Stałą, przewidywalną dostępnością opiekuna",
+      "Niespójnością responsywności opiekuna",
+      "Brakiem reakcji na rozstanie i powrót opiekuna",
+      "Wyłącznie czynnikami genetycznymi"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Niespójna opieka sprzyja nasilonej niepewności dziecka i strategiom hiperaktywacji systemu przywiązaniowego, typowym dla wzorca lękowo-ambiwalentnego.",
+    "id": 32
+  },
+  {
+    "question": "Co najtrafniej odróżnia dojrzewanie od uczenia się w rozwoju człowieka?",
+    "options": [
+      "Dojrzewanie dotyczy tylko emocji, a uczenie tylko poznania",
+      "Dojrzewanie wynika głównie z procesów biologicznych, a uczenie z doświadczenia",
+      "Uczenie się zachodzi wyłącznie w dzieciństwie",
+      "Dojrzewanie jest całkowicie niezależne od środowiska"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Dojrzewanie jest biologicznym procesem zmian organizmu, natomiast uczenie się to modyfikacja zachowania i wiedzy pod wpływem doświadczeń.",
+    "id": 33
+  },
+  {
+    "question": "W okresie adolescencji wzrost znaczenia grupy rówieśniczej najczęściej wspiera:",
+    "options": [
+      "Wyłącznie zachowania ryzykowne",
+      "Proces kształtowania tożsamości i autonomii",
+      "Całkowite odrzucenie wpływu rodziny",
+      "Spadek wrażliwości na ocenę społeczną"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Relacje rówieśnicze stanowią kluczowe środowisko testowania ról społecznych i wartości, co wspiera rozwój tożsamości w adolescencji.",
+    "id": 34
+  },
+  {
+    "question": "Który wskaźnik najlepiej charakteryzuje funkcje wykonawcze u dzieci w wieku szkolnym?",
+    "options": [
+      "Tempo wzrostu ciała",
+      "Kontrola hamowania, pamięć robocza i elastyczność poznawcza",
+      "Liczba rodzeństwa",
+      "Preferencje smakowe"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Funkcje wykonawcze obejmują mechanizmy samoregulacji poznawczej, takie jak hamowanie, pamięć robocza i przełączanie między zadaniami.",
+    "id": 35
   }
 ]

@@ -74,6 +74,49 @@
         label: 'Relacje i związki',
         file: 'tests/relacje_i_zwiazki.json',
         icon: '💑'
+      },
+      {
+        key: 'psychometria_i_metodologia',
+        label: 'Psychometria i metodologia',
+        file: 'tests/psychometria_i_metodologia.json',
+        icon: '📊'
+      },
+      {
+        key: 'psychologia_zdrowia',
+        label: 'Psychologia zdrowia',
+        file: 'tests/psychologia_zdrowia.json',
+        icon: '🩺'
+      },
+      {
+        key: 'interwencja_kryzysowa',
+        label: 'Interwencja kryzysowa',
+        file: 'tests/interwencja_kryzysowa.json',
+        icon: '🆘'
+      },
+      /* Kolejne paczki pytań rozszerzające obszary specjalistyczne dla studentów. */
+      {
+        key: 'psychologia_biologiczna',
+        label: 'Psychologia biologiczna',
+        file: 'tests/psychologia_biologiczna.json',
+        icon: '🧬'
+      },
+      {
+        key: 'psychologia_pracy_i_organizacji',
+        label: 'Psychologia pracy i organizacji',
+        file: 'tests/psychologia_pracy_i_organizacji.json',
+        icon: '🏢'
+      },
+      {
+        key: 'psychologia_sadowa',
+        label: 'Psychologia sądowa',
+        file: 'tests/psychologia_sadowa.json',
+        icon: '🧾'
+      },
+      {
+        key: 'geropsychologia',
+        label: 'Geropsychologia',
+        file: 'tests/geropsychologia.json',
+        icon: '👵'
       }
     ]
   };

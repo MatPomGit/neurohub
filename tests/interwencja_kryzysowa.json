@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "question": "Pierwszym celem interwencji kryzysowej jest:",
+    "options": [
+      "Pełna rekonstrukcja historii życia",
+      "Stabilizacja bezpieczeństwa i obniżenie ostrego napięcia",
+      "Diagnoza osobowości metodą projekcyjną",
+      "Natychmiastowe zakończenie wszystkich objawów"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "W kryzysie priorytetem jest bezpieczeństwo i przywrócenie minimalnej równowagi psychofizycznej."
+  },
+  {
+    "id": 2,
+    "question": "W ocenie ryzyka samobójczego szczególnie alarmujące jest:",
+    "options": [
+      "Dobra pamięć autobiograficzna",
+      "Konkretny plan, dostęp do środków i zamiar działania",
+      "Niechęć do rozmowy o pracy",
+      "Niski poziom ekstrawersji"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Najwyższe ryzyko wiąże się z obecnością planu, intencji i możliwości realizacji zachowania samobójczego."
+  },
+  {
+    "id": 3,
+    "question": "Technika grounding (uziemiania) służy głównie do:",
+    "options": [
+      "Analizy dzieciństwa",
+      "Zmniejszenia dysocjacji i przywrócenia kontaktu z tu i teraz",
+      "Podnoszenia samooceny przez afirmacje",
+      "Diagnozy zaburzeń neurorozwojowych"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Grounding pomaga regulować pobudzenie i orientację, szczególnie przy silnym lęku lub objawach dysocjacyjnych."
+  },
+  {
+    "id": 4,
+    "question": "Kiedy w kryzysie należy pilnie włączyć pomoc medyczną lub służby ratunkowe?",
+    "options": [
+      "Gdy pacjent płacze podczas rozmowy",
+      "Gdy występuje bezpośrednie zagrożenie życia lub ciężkie pobudzenie",
+      "Gdy pacjent nie zgadza się z opinią terapeuty",
+      "Przy każdym zgłoszeniu stresu akademickiego"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Bezpośrednie ryzyko dla życia lub zdrowia wymaga natychmiastowej eskalacji interwencji i działań ratunkowych."
+  },
+  {
+    "id": 5,
+    "question": "Kontrakt bezpieczeństwa bez dodatkowego planu działania:",
+    "options": [
+      "Jest wystarczający w każdym przypadku",
+      "Może być niewystarczający i nie zastępuje pełnej oceny ryzyka",
+      "Zastępuje hospitalizację",
+      "Jest metodą diagnostyczną DSM"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Sama deklaracja pacjenta nie gwarantuje bezpieczeństwa; konieczna jest pełna ocena ryzyka i konkretne kroki ochronne."
+  },
+  {
+    "id": 6,
+    "question": "W modelu SAFER-R etap A (Acknowledge) oznacza:",
+    "options": [
+      "Analizę statystyczną objawów",
+      "Uznanie i nazwanie reakcji kryzysowej osoby",
+      "Automatyczne przekierowanie do psychiatry",
+      "Unikanie rozmowy o emocjach"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Uznanie doświadczenia kryzysowego zmniejsza poczucie osamotnienia i tworzy podstawę do dalszej pracy."
+  },
+  {
+    "id": 7,
+    "question": "Które pytanie najlepiej wspiera ocenę zasobów ochronnych?",
+    "options": [
+      "Dlaczego nie radzisz sobie lepiej?",
+      "Co dotąd pomagało Ci przetrwać najtrudniejsze momenty?",
+      "Czy możesz natychmiast przestać się martwić?",
+      "Ile masz lat?"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Pytania o zasoby i wcześniejsze strategie pomagają aktywizować sprawczość i planować dalsze wsparcie."
+  },
+  {
+    "id": 8,
+    "question": "Po zdarzeniu traumatycznym interwencja wczesna powinna przede wszystkim:",
+    "options": [
+      "Wymuszać szczegółowe odtwarzanie zdarzenia",
+      "Normalizować reakcje i wspierać podstawowe potrzeby",
+      "Zastąpić długoterminową terapię",
+      "Unikać informacji o dostępnej pomocy"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "We wczesnej fazie ważne jest wsparcie, psychoedukacja i stabilizacja, a nie intensywna ekspozycja na szczegóły traumy."
+  },
+  {
+    "id": 9,
+    "question": "Który element planu bezpieczeństwa jest kluczowy?",
+    "options": [
+      "Lista abstrakcyjnych celów życiowych",
+      "Konkretne kroki: sygnały ostrzegawcze, kontakty i miejsca pomocy",
+      "Diagnoza różnicowa osobowości",
+      "Szczegółowy harmonogram badań laboratoryjnych"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Skuteczny plan bezpieczeństwa zawiera praktyczne, dostępne od razu działania i numery wsparcia."
+  },
+  {
+    "id": 10,
+    "question": "W pracy z osobą po kryzysie, która odmawia wsparcia, najbardziej adekwatne jest:",
+    "options": [
+      "Natychmiastowe zakończenie kontaktu",
+      "Empatyczne podtrzymanie relacji, monitorowanie ryzyka i oferowanie opcji pomocy",
+      "Straszenie konsekwencjami prawnymi",
+      "Ignorowanie sygnałów ostrzegawczych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Nawet przy oporze warto utrzymywać kanał kontaktu, monitorować bezpieczeństwo i proponować realistyczne formy wsparcia."
+  },
+  {
+    "id": 11,
+    "question": "W interwencji kryzysowej pytania otwarte są użyteczne, ponieważ:",
+    "options": [
+      "Przyspieszają zakończenie rozmowy",
+      "Ułatwiają eksplorację doświadczenia i budowanie kontaktu",
+      "Zastępują ocenę ryzyka",
+      "Zmniejszają znaczenie kontekstu"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Pytania otwarte pomagają zrozumieć perspektywę osoby i wzmacniają przymierze pomocowe."
+  },
+  {
+    "id": 12,
+    "question": "Która reakcja pomaga obniżyć eskalację w ostrej rozmowie kryzysowej?",
+    "options": [
+      "Przerywanie i ocenianie",
+      "Krótka walidacja emocji i spokojny ton",
+      "Wchodzenie w spór logiczny",
+      "Ignorowanie sygnałów somatycznych"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Walidacja i spokojna komunikacja zmniejszają pobudzenie i wzmacniają poczucie bezpieczeństwa."
+  },
+  {
+    "id": 13,
+    "question": "Plan bezpieczeństwa powinien być:",
+    "options": [
+      "Ogólny i bez konkretów",
+      "Konkretny, dostępny i uzgodniony z osobą w kryzysie",
+      "Tworzony wyłącznie przez specjalistę",
+      "Stosowany tylko po hospitalizacji"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Skuteczny plan musi być realistyczny i możliwy do zastosowania w sytuacji pogorszenia stanu."
+  },
+  {
+    "id": 14,
+    "question": "Który sygnał może wskazywać na wzrost ryzyka autoagresji?",
+    "options": [
+      "Powrót do ulubionego hobby",
+      "Nagłe porządkowanie spraw i rozdawanie ważnych rzeczy przy nasilonej beznadziei",
+      "Wzrost kontaktów społecznych",
+      "Lepszy sen przez kilka dni"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Nagłe przygotowania i pożegnania przy wysokiej beznadziei wymagają pilnej oceny ryzyka."
+  },
+  {
+    "id": 15,
+    "question": "W pracy z rodziną osoby w kryzysie ważne jest:",
+    "options": [
+      "Udzielanie wyłącznie informacji medycznych",
+      "Psychoedukacja, role wsparcia i jasne procedury alarmowe",
+      "Wyciszanie wszystkich emocji",
+      "Przeniesienie całej odpowiedzialności na bliskich"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Rodzina potrzebuje konkretnych narzędzi i wiedzy, jak reagować bez przekraczania granic."
+  },
+  {
+    "id": 16,
+    "question": "Po zakończeniu ostrej interwencji zaleca się:",
+    "options": [
+      "Brak dalszego planu",
+      "Ustalenie follow-up i ścieżki dalszej pomocy",
+      "Wyłącznie samodzielne radzenie sobie",
+      "Ograniczenie kontaktu do minimum"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Ciągłość opieki zmniejsza ryzyko nawrotu kryzysu i wspiera stabilizację."
+  },
+  {
+    "id": 17,
+    "question": "Które sformułowanie jest najbardziej pomocne w kryzysie?",
+    "options": [
+      "Musisz się natychmiast uspokoić",
+      "Widzę, że to bardzo trudne; sprawdźmy razem, co pomoże przetrwać najbliższe godziny",
+      "Inni mają gorzej",
+      "To tylko chwilowy dramat"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Komunikat empatyczny i zadaniowy wspiera regulację emocji i poczucie sprawstwa."
+  },
+  {
+    "id": 18,
+    "question": "Interwencja kryzysowa różni się od psychoterapii długoterminowej tym, że:",
+    "options": [
+      "Nigdy nie obejmuje rozmowy o emocjach",
+      "Koncentruje się na krótkoterminowej stabilizacji i bezpieczeństwie",
+      "Nie wymaga oceny ryzyka",
+      "Zawsze kończy się hospitalizacją"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Jej celem jest szybka redukcja zagrożenia i odzyskanie podstawowego poziomu funkcjonowania."
+  },
+  {
+    "id": 19,
+    "question": "W ocenie ryzyka przemocy wobec innych ważne jest uwzględnienie:",
+    "options": [
+      "Wyłącznie diagnozy nozologicznej",
+      "Historia przemocy, aktualne pobudzenie, dostęp do środków i czynniki ochronne",
+      "Tylko wieku osoby",
+      "Preferencji zawodowych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Rzetelna ocena ryzyka łączy dane historyczne, dynamiczne i kontekstowe."
+  },
+  {
+    "id": 20,
+    "question": "W modelu pracy kryzysowej zasada least restrictive oznacza:",
+    "options": [
+      "Zawsze pełną izolację",
+      "Dobór najmniej ograniczającej, ale bezpiecznej formy pomocy",
+      "Rezygnację z monitorowania",
+      "Unikanie współpracy międzyinstytucjonalnej"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Interwencja powinna chronić bezpieczeństwo, zachowując możliwie dużą autonomię osoby."
+  }
+]

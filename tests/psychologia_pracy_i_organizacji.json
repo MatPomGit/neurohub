@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "question": "Który model motywacji zakłada, że autonomia, kompetencja i relacyjność są podstawowymi potrzebami psychologicznymi?",
+    "options": [
+      "Teoria oczekiwań Vrooma",
+      "Teoria autodeterminacji (SDT)",
+      "Dwuczynnikowa teoria Herzberga",
+      "Teoria sprawiedliwości Adamsa"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "SDT wskazuje trzy uniwersalne potrzeby, których zaspokojenie wspiera motywację wewnętrzną."
+  },
+  {
+    "id": 2,
+    "question": "Wypalenie zawodowe najczęściej obejmuje triadę:",
+    "options": [
+      "Nuda, bezsenność, nadmierna aktywność",
+      "Wyczerpanie emocjonalne, depersonalizacja/cynizm, obniżone poczucie dokonań",
+      "Lęk, mania, amnezja",
+      "Spadek IQ, anhedonia, bezsenność"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Klasyczny model Maslach opisuje wypalenie poprzez trzy główne komponenty."
+  },
+  {
+    "id": 3,
+    "question": "Ocena 360° w organizacji polega na:",
+    "options": [
+      "Ocena pracownika tylko przez przełożonego",
+      "Zbieraniu informacji zwrotnej z wielu źródeł (przełożeni, współpracownicy, podwładni, samoocena)",
+      "Losowym przydziale awansów",
+      "Badaniu satysfakcji klientów wyłącznie ankietą online"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Metoda 360° poszerza perspektywę oceny kompetencji przez wieloźródłowy feedback."
+  },
+  {
+    "id": 4,
+    "question": "Psychologiczne bezpieczeństwo w zespole oznacza, że:",
+    "options": [
+      "Nie wolno krytykować pomysłów",
+      "Członkowie mogą zgłaszać wątpliwości i błędy bez lęku przed upokorzeniem",
+      "Wszystkie decyzje podejmuje lider",
+      "Unika się konfliktów za wszelką cenę"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Wysokie bezpieczeństwo psychologiczne sprzyja uczeniu się zespołu i jakości komunikacji."
+  },
+  {
+    "id": 5,
+    "question": "Który wskaźnik najlepiej opisuje rotację pracowników?",
+    "options": [
+      "Absencja chorobowa",
+      "Odsetek osób opuszczających organizację w określonym czasie",
+      "Średnia wieku zespołu",
+      "Liczba szkoleń rocznych"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Rotacja to tempo odejść pracowników, zwykle raportowane jako procent zatrudnienia w danym okresie."
+  },
+  {
+    "id": 6,
+    "question": "Job crafting to:",
+    "options": [
+      "Formalna zmiana stanowiska przez dział HR",
+      "Aktywne modyfikowanie sposobu wykonywania pracy przez pracownika, aby zwiększyć sens i dopasowanie",
+      "Redukcja etatu przez pracodawcę",
+      "Automatyzacja wszystkich procesów"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Job crafting opisuje oddolne dostosowywanie zadań, relacji i znaczenia pracy przez samych pracowników."
+  },
+  {
+    "id": 7,
+    "question": "W modelu JD-R wysokie wymagania pracy bez zasobów zwykle prowadzą do:",
+    "options": [
+      "Wzrostu zaangażowania",
+      "Przeciążenia i ryzyka wypalenia",
+      "Natychmiastowej poprawy efektywności",
+      "Spadku odpowiedzialności zawodowej"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Model Job Demands-Resources zakłada, że brak zasobów przy wysokich wymaganiach zwiększa koszty psychologiczne."
+  },
+  {
+    "id": 8,
+    "question": "Która praktyka najczęściej zwiększa trafność selekcji kandydatów?",
+    "options": [
+      "Niestrukturalizowana rozmowa rekrutacyjna",
+      "Strukturalny wywiad kompetencyjny i standaryzowane kryteria",
+      "Decyzja oparta na pierwszym wrażeniu",
+      "Testowanie tylko umiejętności technicznych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Strukturalizacja procesu selekcji ogranicza błędy poznawcze i podnosi trafność decyzji."
+  },
+  {
+    "id": 9,
+    "question": "Konflikt zadaniowy w zespole może być konstruktywny, jeśli:",
+    "options": [
+      "Przeradza się w konflikt personalny",
+      "Dotyczy sposobu realizacji celu i jest moderowany komunikacyjnie",
+      "Jest tłumiony przez lidera",
+      "Eliminuje różnice zdań"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Różnice merytoryczne mogą podnosić jakość decyzji, gdy są prowadzone w bezpiecznej komunikacji."
+  },
+  {
+    "id": 10,
+    "question": "Który styl przywództwa koncentruje się na rozwijaniu autonomii i sensu pracy pracowników?",
+    "options": [
+      "Autokratyczny",
+      "Transformacyjny",
+      "Laissez-faire bez wsparcia",
+      "Transakcyjny oparty wyłącznie na karach"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Przywództwo transformacyjne wzmacnia motywację przez wizję, inspirację i rozwój kompetencji."
+  },
+  {
+    "id": 11,
+    "question": "Który wskaźnik najlepiej odzwierciedla zaangażowanie pracowników?",
+    "options": [
+      "Liczba e-maili dziennie",
+      "Połączenie energii, oddania i absorpcji zadaniowej",
+      "Średnia długość spotkań",
+      "Liczba raportów kwartalnych"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Zaangażowanie opisuje stan motywacyjny obejmujący energię i identyfikację z pracą."
+  },
+  {
+    "id": 12,
+    "question": "W onboarding'u najbardziej efektywne jest:",
+    "options": [
+      "Brak opiekuna wdrożenia",
+      "Plan 30-60-90 dni z celami i feedbackiem",
+      "Wyłącznie przekazanie regulaminu",
+      "Ocena nowej osoby po pierwszym dniu"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Strukturalne wdrożenie skraca adaptację i zwiększa retencję."
+  },
+  {
+    "id": 13,
+    "question": "Efekt halo w ocenie pracowniczej polega na:",
+    "options": [
+      "Losowym przypisywaniu ocen",
+      "Uogólnianiu jednego silnego wrażenia na całą ocenę",
+      "Nadmiernej surowości wszystkich ocen",
+      "Braku pamięci o wynikach"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Jedna cecha może nieadekwatnie wpływać na ocenę pozostałych kompetencji."
+  },
+  {
+    "id": 14,
+    "question": "Które działanie najlepiej wspiera dobrostan psychiczny zespołu?",
+    "options": [
+      "Stała dostępność po godzinach",
+      "Jasne granice pracy, odpoczynek i kultura wsparcia",
+      "Unikanie feedbacku",
+      "Rywalizacja bez zasad"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Higiena pracy i wspierające środowisko redukują przeciążenie i wypalenie."
+  },
+  {
+    "id": 15,
+    "question": "W analizie stanowiska pracy kluczowe jest:",
+    "options": [
+      "Ocena preferencji kierownika",
+      "Opis zadań, kompetencji i warunków wykonywania pracy",
+      "Wyłącznie analiza płac",
+      "Ograniczenie do historii firmy"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Rzetelna analiza stanowiska stanowi podstawę rekrutacji, oceny i szkoleń."
+  },
+  {
+    "id": 16,
+    "question": "Koncepcja person-job fit odnosi się do:",
+    "options": [
+      "Dopasowania koloru biura do marki",
+      "Dopasowania kompetencji i potrzeb osoby do wymagań stanowiska",
+      "Liczby godzin pracy",
+      "Stylu ubioru"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Lepsze dopasowanie zwiększa efektywność i satysfakcję zawodową."
+  },
+  {
+    "id": 17,
+    "question": "Który typ celu wg teorii goal-setting zwykle zwiększa wykonanie?",
+    "options": [
+      "Cel niejasny i odległy",
+      "Cel konkretny, ambitny i akceptowany",
+      "Cel narzucony bez informacji zwrotnej",
+      "Cel bez mierników"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Cele powinny być jasne i wymagające, ale realistyczne i wspierane feedbackiem."
+  },
+  {
+    "id": 18,
+    "question": "W pracy zdalnej ryzyko technostresu ogranicza:",
+    "options": [
+      "Stałe powiadomienia 24/7",
+      "Jasna polityka komunikacji i higiena cyfrowa",
+      "Brak przerw ekranowych",
+      "Nieograniczona liczba narzędzi"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Reguły komunikacji i przerwy cyfrowe zmniejszają przeciążenie informacyjne."
+  },
+  {
+    "id": 19,
+    "question": "Sprawiedliwość organizacyjna proceduralna dotyczy:",
+    "options": [
+      "Wysokości premii",
+      "Postrzeganej uczciwości procesu podejmowania decyzji",
+      "Wyłącznie relacji koleżeńskich",
+      "Estetyki miejsca pracy"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Percepcja uczciwych procedur wpływa na zaufanie i akceptację decyzji."
+  },
+  {
+    "id": 20,
+    "question": "Który styl feedbacku najczęściej sprzyja rozwojowi?",
+    "options": [
+      "Ocena globalna bez przykładów",
+      "Feedback oparty na konkretnych zachowaniach, skutkach i planie poprawy",
+      "Krytyka personalna",
+      "Brak informacji zwrotnej"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Konkret i orientacja na rozwój zwiększają użyteczność informacji zwrotnej."
+  }
+]
