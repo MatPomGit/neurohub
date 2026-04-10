@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "question": "Pierwszym celem interwencji kryzysowej jest:",
+    "options": [
+      "Pełna rekonstrukcja historii życia",
+      "Stabilizacja bezpieczeństwa i obniżenie ostrego napięcia",
+      "Diagnoza osobowości metodą projekcyjną",
+      "Natychmiastowe zakończenie wszystkich objawów"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "W kryzysie priorytetem jest bezpieczeństwo i przywrócenie minimalnej równowagi psychofizycznej."
+  },
+  {
+    "id": 2,
+    "question": "W ocenie ryzyka samobójczego szczególnie alarmujące jest:",
+    "options": [
+      "Dobra pamięć autobiograficzna",
+      "Konkretny plan, dostęp do środków i zamiar działania",
+      "Niechęć do rozmowy o pracy",
+      "Niski poziom ekstrawersji"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Najwyższe ryzyko wiąże się z obecnością planu, intencji i możliwości realizacji zachowania samobójczego."
+  },
+  {
+    "id": 3,
+    "question": "Technika grounding (uziemiania) służy głównie do:",
+    "options": [
+      "Analizy dzieciństwa",
+      "Zmniejszenia dysocjacji i przywrócenia kontaktu z tu i teraz",
+      "Podnoszenia samooceny przez afirmacje",
+      "Diagnozy zaburzeń neurorozwojowych"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Grounding pomaga regulować pobudzenie i orientację, szczególnie przy silnym lęku lub objawach dysocjacyjnych."
+  },
+  {
+    "id": 4,
+    "question": "Kiedy w kryzysie należy pilnie włączyć pomoc medyczną lub służby ratunkowe?",
+    "options": [
+      "Gdy pacjent płacze podczas rozmowy",
+      "Gdy występuje bezpośrednie zagrożenie życia lub ciężkie pobudzenie",
+      "Gdy pacjent nie zgadza się z opinią terapeuty",
+      "Przy każdym zgłoszeniu stresu akademickiego"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Bezpośrednie ryzyko dla życia lub zdrowia wymaga natychmiastowej eskalacji interwencji i działań ratunkowych."
+  },
+  {
+    "id": 5,
+    "question": "Kontrakt bezpieczeństwa bez dodatkowego planu działania:",
+    "options": [
+      "Jest wystarczający w każdym przypadku",
+      "Może być niewystarczający i nie zastępuje pełnej oceny ryzyka",
+      "Zastępuje hospitalizację",
+      "Jest metodą diagnostyczną DSM"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Sama deklaracja pacjenta nie gwarantuje bezpieczeństwa; konieczna jest pełna ocena ryzyka i konkretne kroki ochronne."
+  },
+  {
+    "id": 6,
+    "question": "W modelu SAFER-R etap A (Acknowledge) oznacza:",
+    "options": [
+      "Analizę statystyczną objawów",
+      "Uznanie i nazwanie reakcji kryzysowej osoby",
+      "Automatyczne przekierowanie do psychiatry",
+      "Unikanie rozmowy o emocjach"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Uznanie doświadczenia kryzysowego zmniejsza poczucie osamotnienia i tworzy podstawę do dalszej pracy."
+  },
+  {
+    "id": 7,
+    "question": "Które pytanie najlepiej wspiera ocenę zasobów ochronnych?",
+    "options": [
+      "Dlaczego nie radzisz sobie lepiej?",
+      "Co dotąd pomagało Ci przetrwać najtrudniejsze momenty?",
+      "Czy możesz natychmiast przestać się martwić?",
+      "Ile masz lat?"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Pytania o zasoby i wcześniejsze strategie pomagają aktywizować sprawczość i planować dalsze wsparcie."
+  },
+  {
+    "id": 8,
+    "question": "Po zdarzeniu traumatycznym interwencja wczesna powinna przede wszystkim:",
+    "options": [
+      "Wymuszać szczegółowe odtwarzanie zdarzenia",
+      "Normalizować reakcje i wspierać podstawowe potrzeby",
+      "Zastąpić długoterminową terapię",
+      "Unikać informacji o dostępnej pomocy"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "We wczesnej fazie ważne jest wsparcie, psychoedukacja i stabilizacja, a nie intensywna ekspozycja na szczegóły traumy."
+  },
+  {
+    "id": 9,
+    "question": "Który element planu bezpieczeństwa jest kluczowy?",
+    "options": [
+      "Lista abstrakcyjnych celów życiowych",
+      "Konkretne kroki: sygnały ostrzegawcze, kontakty i miejsca pomocy",
+      "Diagnoza różnicowa osobowości",
+      "Szczegółowy harmonogram badań laboratoryjnych"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Skuteczny plan bezpieczeństwa zawiera praktyczne, dostępne od razu działania i numery wsparcia."
+  },
+  {
+    "id": 10,
+    "question": "W pracy z osobą po kryzysie, która odmawia wsparcia, najbardziej adekwatne jest:",
+    "options": [
+      "Natychmiastowe zakończenie kontaktu",
+      "Empatyczne podtrzymanie relacji, monitorowanie ryzyka i oferowanie opcji pomocy",
+      "Straszenie konsekwencjami prawnymi",
+      "Ignorowanie sygnałów ostrzegawczych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Nawet przy oporze warto utrzymywać kanał kontaktu, monitorować bezpieczeństwo i proponować realistyczne formy wsparcia."
+  }
+]

@@ -74,6 +74,24 @@
         label: 'Relacje i związki',
         file: 'tests/relacje_i_zwiazki.json',
         icon: '💑'
+      },
+      {
+        key: 'psychometria_i_metodologia',
+        label: 'Psychometria i metodologia',
+        file: 'tests/psychometria_i_metodologia.json',
+        icon: '📊'
+      },
+      {
+        key: 'psychologia_zdrowia',
+        label: 'Psychologia zdrowia',
+        file: 'tests/psychologia_zdrowia.json',
+        icon: '🩺'
+      },
+      {
+        key: 'interwencja_kryzysowa',
+        label: 'Interwencja kryzysowa',
+        file: 'tests/interwencja_kryzysowa.json',
+        icon: '🆘'
       }
     ]
   };

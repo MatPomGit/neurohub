@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "question": "Która miara opisuje siłę liniowego związku między dwiema zmiennymi ilościowymi?",
+    "options": [
+      "Współczynnik korelacji Pearsona r",
+      "Test chi-kwadrat",
+      "Mediana",
+      "Wariancja wewnątrzgrupowa"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Współczynnik Pearsona r określa kierunek i siłę zależności liniowej między dwiema zmiennymi liczbowymi."
+  },
+  {
+    "id": 2,
+    "question": "Co oznacza poziom istotności α = 0,05?",
+    "options": [
+      "Że hipoteza zerowa jest prawdziwa w 95%",
+      "Dopuszczalne ryzyko błędu I rodzaju wynosi 5%",
+      "Że wynik jest klinicznie ważny",
+      "Że moc testu wynosi 95%"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Poziom α definiuje akceptowane prawdopodobieństwo odrzucenia prawdziwej hipotezy zerowej, czyli błędu I rodzaju."
+  },
+  {
+    "id": 3,
+    "question": "Wysoka moc testu statystycznego oznacza przede wszystkim:",
+    "options": [
+      "Duże ryzyko błędu I rodzaju",
+      "Dużą zdolność wykrycia efektu, gdy efekt istnieje",
+      "Brak potrzeby losowania próby",
+      "Brak znaczenia wielkości próby"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Moc testu to prawdopodobieństwo odrzucenia H0, gdy H1 jest prawdziwa; rośnie m.in. wraz z wielkością próby i efektem."
+  },
+  {
+    "id": 4,
+    "question": "Które badanie najlepiej wspiera wnioskowanie przyczynowe?",
+    "options": [
+      "Badanie przekrojowe",
+      "Studium przypadku",
+      "Eksperyment z randomizacją",
+      "Analiza archiwalna"
+    ],
+    "correct": 2,
+    "difficulty": 1,
+    "justification": "Randomizacja i kontrola warunków w eksperymencie pomagają ograniczyć wpływ zmiennych zakłócających."
+  },
+  {
+    "id": 5,
+    "question": "Czym jest efekt wielkości (effect size)?",
+    "options": [
+      "Liczbą uczestników badania",
+      "Miara praktycznej siły zjawiska",
+      "Miara rzetelności kwestionariusza",
+      "Rodzajem rozkładu danych"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Effect size opisuje, jak duża jest obserwowana różnica lub zależność, niezależnie od samej istotności statystycznej."
+  },
+  {
+    "id": 6,
+    "question": "Który wskaźnik jest najczęściej używany do oceny zgodności między sędziami dla danych kategorialnych?",
+    "options": [
+      "Alpha Cronbacha",
+      "Kappa Cohena",
+      "Test t-Studenta",
+      "R Pearsona"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Kappa Cohena uwzględnia zgodność przypadkową i służy do oceny rzetelności międzyoceniających dla kategorii."
+  },
+  {
+    "id": 7,
+    "question": "W badaniu podłużnym największą trudnością metodologiczną bywa:",
+    "options": [
+      "Brak możliwości pomiaru zmian w czasie",
+      "Attrition, czyli odpływ uczestników",
+      "Zbyt duża liczba eksperymentatorów",
+      "Niemożność stosowania statystyki"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "W projektach długoterminowych częstym problemem jest utrata części badanych, co może zniekształcać wyniki."
+  },
+  {
+    "id": 8,
+    "question": "Które twierdzenie o rzetelności i trafności jest poprawne?",
+    "options": [
+      "Test może być trafny mimo bardzo niskiej rzetelności",
+      "Rzetelność jest warunkiem koniecznym, ale niewystarczającym trafności",
+      "Trafność i rzetelność to pojęcia tożsame",
+      "Rzetelność dotyczy wyłącznie testów projekcyjnych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Narzędzie powinno najpierw mierzyć stabilnie (rzetelnie), aby można było sensownie oceniać, czy mierzy właściwy konstrukt (trafność)."
+  },
+  {
+    "id": 9,
+    "question": "Co najtrafniej opisuje prerejestrację badania?",
+    "options": [
+      "Publikację wyników po recenzji",
+      "Wcześniejsze udokumentowanie hipotez i planu analiz",
+      "Usunięcie danych odstających",
+      "Losowe przypisanie badanych do grup"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Prerejestracja ogranicza elastyczność analityczną i wzmacnia transparentność procesu badawczego."
+  },
+  {
+    "id": 10,
+    "question": "W metaanalizie heterogeniczność wyników badań oznacza:",
+    "options": [
+      "Że wszystkie badania dają identyczny wynik",
+      "Zróżnicowanie efektów między badaniami",
+      "Brak istotności statystycznej",
+      "Błąd kodowania danych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Heterogeniczność wskazuje, że wielkości efektów różnią się między badaniami, co może wynikać np. z różnic metodologicznych lub populacyjnych."
+  }
+]

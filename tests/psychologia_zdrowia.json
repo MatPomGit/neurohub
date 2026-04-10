@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "question": "Model biopsychospołeczny zakłada, że zdrowie i choroba wynikają z:",
+    "options": [
+      "Wyłącznie czynników biologicznych",
+      "Interakcji czynników biologicznych, psychologicznych i społecznych",
+      "Wyłącznie stylu życia",
+      "Wyłącznie predyspozycji genetycznych"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Model biopsychospołeczny integruje wiele poziomów wyjaśniania i jest podstawą współczesnej psychologii zdrowia."
+  },
+  {
+    "id": 2,
+    "question": "Adherencja w leczeniu oznacza:",
+    "options": [
+      "Wymuszanie wykonywania zaleceń",
+      "Współpracę pacjenta i zespołu medycznego w realizacji planu leczenia",
+      "Stosowanie wyłącznie farmakoterapii",
+      "Odroczenie decyzji terapeutycznych"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Adherencja podkreśla aktywną, partnerską rolę pacjenta w procesie leczenia."
+  },
+  {
+    "id": 3,
+    "question": "Który czynnik najlepiej zmniejsza ryzyko wypalenia zawodowego u personelu pomagającego?",
+    "options": [
+      "Brak przerw w pracy",
+      "Wsparcie społeczne i superwizja",
+      "Zwiększenie liczby nadgodzin",
+      "Unikanie rozmów o emocjach"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Wsparcie zespołowe i superwizja działają ochronnie wobec chronicznego stresu zawodowego."
+  },
+  {
+    "id": 4,
+    "question": "W modelu transakcyjnym stresu Lazarusa i Folkman kluczowe znaczenie ma:",
+    "options": [
+      "Wyłącznie intensywność bodźca",
+      "Ocena poznawcza sytuacji i zasobów radzenia sobie",
+      "Poziom glukozy we krwi",
+      "Wiek osoby badanej"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "To, jak jednostka interpretuje sytuację i własne zasoby, współdecyduje o odczuwanym stresie i sposobach radzenia sobie."
+  },
+  {
+    "id": 5,
+    "question": "Psychoneuroimmunologia bada związki między:",
+    "options": [
+      "Osobowością i inteligencją",
+      "Psychiką, układem nerwowym i odpornościowym",
+      "Tylko dietą i snem",
+      "Psychoterapią i farmakologią"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Psychoneuroimmunologia analizuje dwukierunkowe relacje między procesami psychicznymi, neurobiologicznymi i immunologicznymi."
+  },
+  {
+    "id": 6,
+    "question": "Która strategia jest najbardziej adaptacyjna przy przewlekłej chorobie somatycznej?",
+    "options": [
+      "Całkowite zaprzeczanie problemowi",
+      "Aktywne radzenie sobie i budowanie planu dnia",
+      "Rezygnacja z kontaktów społecznych",
+      "Unikanie informacji medycznych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Aktywne strategie radzenia sobie i realistyczne planowanie wspierają jakość życia i poczucie sprawczości."
+  },
+  {
+    "id": 7,
+    "question": "Efekt placebo najtrafniej opisuje:",
+    "options": [
+      "Błąd pomiaru laboratoryjnego",
+      "Poprawę wynikającą z oczekiwań i kontekstu leczenia",
+      "Wyłącznie działanie leku aktywnego",
+      "Objaw psychotyczny"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Placebo pokazuje, że oczekiwania pacjenta i relacja terapeutyczna mogą modyfikować objawy i samopoczucie."
+  },
+  {
+    "id": 8,
+    "question": "W profilaktyce zdrowotnej poziom prewencji wtórnej obejmuje:",
+    "options": [
+      "Zapobieganie powstaniu choroby",
+      "Wczesne wykrywanie i szybkie leczenie",
+      "Rehabilitację po powikłaniach",
+      "Wyłącznie edukację szkolną"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Prewencja wtórna koncentruje się na wykrywaniu choroby na wczesnym etapie, aby zmniejszyć jej konsekwencje."
+  },
+  {
+    "id": 9,
+    "question": "Który element komunikacji medycznej wzmacnia zaufanie pacjenta?",
+    "options": [
+      "Dominujący monolog specjalisty",
+      "Aktywne słuchanie i parafraza",
+      "Unikanie pytań o obawy pacjenta",
+      "Skracanie wizyty bez podsumowania"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Aktywne słuchanie i sprawdzanie rozumienia przekazu budują relację i poprawiają współpracę terapeutyczną."
+  },
+  {
+    "id": 10,
+    "question": "W interwencjach prozdrowotnych najlepiej utrwala zmianę zachowania:",
+    "options": [
+      "Jednorazowy wykład motywacyjny",
+      "Łączenie małych celów, monitorowania i informacji zwrotnej",
+      "Straszenie konsekwencjami choroby",
+      "Całkowita rezygnacja z nagród"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Zmiana nawyków zwykle wymaga procesu: realistycznych celów, monitorowania postępów i wzmacniania sprawczości."
+  }
+]

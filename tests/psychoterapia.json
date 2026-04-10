@@ -778,5 +778,70 @@
     "correct": 1,
     "difficulty": 3,
     "justification": "Korektywne doświadczenie emocjonalne to nowe doświadczenie relacyjne, które modyfikuje stare bolesne oczekiwania. Alexander i French widzieli w nim ważny mechanizm zmiany terapeutycznej."
+  },
+  {
+    "question": "Który element najsilniej przewiduje efekt psychoterapii niezależnie od nurtu?",
+    "options": [
+      "Długość pojedynczej sesji",
+      "Przymierze terapeutyczne",
+      "Użycie testów projekcyjnych",
+      "Wiek terapeuty"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Badania procesów psychoterapii pokazują, że jakość przymierza terapeutycznego konsekwentnie koreluje z poprawą kliniczną niezależnie od szkoły terapeutycznej.",
+    "id": 61
+  },
+  {
+    "question": "W modelu CBT pojęcie restrukturyzacji poznawczej oznacza przede wszystkim:",
+    "options": [
+      "Uspokojenie pacjenta farmakoterapią",
+      "Weryfikację i modyfikację nieadaptacyjnych przekonań",
+      "Wydłużenie czasu terapii psychodynamicznej",
+      "Naukę technik medytacyjnych bez pracy poznawczej"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Restrukturyzacja poznawcza to systematyczne badanie automatycznych myśli i przekonań oraz formułowanie bardziej adekwatnych interpretacji sytuacji.",
+    "id": 62
+  },
+  {
+    "question": "Co jest głównym celem ekspozycji z powstrzymaniem reakcji (ERP) w leczeniu OCD?",
+    "options": [
+      "Natychmiastowe usunięcie wszystkich natręctw",
+      "Zmniejszenie lęku przez uczenie hamowania kompulsji",
+      "Analiza snów i symboli nieświadomości",
+      "Wzmocnienie zachowań unikowych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "ERP polega na kontrolowanej ekspozycji na bodźce wywołujące lęk przy jednoczesnym powstrzymaniu rytuałów, co stopniowo osłabia błędne koło obsesji i kompulsji.",
+    "id": 63
+  },
+  {
+    "question": "W DBT moduł regulacja emocji ma na celu:",
+    "options": [
+      "Całkowite wyeliminowanie emocji negatywnych",
+      "Zwiększenie zdolności rozpoznawania i modyfikacji reakcji emocjonalnych",
+      "Wyłącznie trening pamięci roboczej",
+      "Skupienie tylko na relacji terapeutycznej"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "W DBT regulacja emocji dotyczy identyfikacji emocji, redukcji podatności biologicznej i wyboru bardziej adaptacyjnych zachowań w sytuacjach silnego pobudzenia.",
+    "id": 64
+  },
+  {
+    "question": "Kiedy najbardziej wskazane jest rozważenie interwencji kryzysowej przed pełną psychoterapią długoterminową?",
+    "options": [
+      "Gdy pacjent nie lubi prac domowych",
+      "Przy bezpośrednim zagrożeniu bezpieczeństwa i dezorganizacji funkcjonowania",
+      "Wyłącznie na pierwszej sesji każdego pacjenta",
+      "Tylko gdy pacjent ma wysokie IQ"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "W sytuacjach ostrego kryzysu pierwszeństwo ma stabilizacja i bezpieczeństwo pacjenta; dopiero po opanowaniu stanu ostrego planuje się szerszy proces terapeutyczny.",
+    "id": 65
   }
 ]
