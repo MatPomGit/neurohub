@@ -128,5 +128,135 @@
     "correct": 1,
     "difficulty": 2,
     "justification": "Nawet przy oporze warto utrzymywać kanał kontaktu, monitorować bezpieczeństwo i proponować realistyczne formy wsparcia."
+  },
+  {
+    "id": 11,
+    "question": "W interwencji kryzysowej pytania otwarte są użyteczne, ponieważ:",
+    "options": [
+      "Przyspieszają zakończenie rozmowy",
+      "Ułatwiają eksplorację doświadczenia i budowanie kontaktu",
+      "Zastępują ocenę ryzyka",
+      "Zmniejszają znaczenie kontekstu"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Pytania otwarte pomagają zrozumieć perspektywę osoby i wzmacniają przymierze pomocowe."
+  },
+  {
+    "id": 12,
+    "question": "Która reakcja pomaga obniżyć eskalację w ostrej rozmowie kryzysowej?",
+    "options": [
+      "Przerywanie i ocenianie",
+      "Krótka walidacja emocji i spokojny ton",
+      "Wchodzenie w spór logiczny",
+      "Ignorowanie sygnałów somatycznych"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Walidacja i spokojna komunikacja zmniejszają pobudzenie i wzmacniają poczucie bezpieczeństwa."
+  },
+  {
+    "id": 13,
+    "question": "Plan bezpieczeństwa powinien być:",
+    "options": [
+      "Ogólny i bez konkretów",
+      "Konkretny, dostępny i uzgodniony z osobą w kryzysie",
+      "Tworzony wyłącznie przez specjalistę",
+      "Stosowany tylko po hospitalizacji"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Skuteczny plan musi być realistyczny i możliwy do zastosowania w sytuacji pogorszenia stanu."
+  },
+  {
+    "id": 14,
+    "question": "Który sygnał może wskazywać na wzrost ryzyka autoagresji?",
+    "options": [
+      "Powrót do ulubionego hobby",
+      "Nagłe porządkowanie spraw i rozdawanie ważnych rzeczy przy nasilonej beznadziei",
+      "Wzrost kontaktów społecznych",
+      "Lepszy sen przez kilka dni"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Nagłe przygotowania i pożegnania przy wysokiej beznadziei wymagają pilnej oceny ryzyka."
+  },
+  {
+    "id": 15,
+    "question": "W pracy z rodziną osoby w kryzysie ważne jest:",
+    "options": [
+      "Udzielanie wyłącznie informacji medycznych",
+      "Psychoedukacja, role wsparcia i jasne procedury alarmowe",
+      "Wyciszanie wszystkich emocji",
+      "Przeniesienie całej odpowiedzialności na bliskich"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Rodzina potrzebuje konkretnych narzędzi i wiedzy, jak reagować bez przekraczania granic."
+  },
+  {
+    "id": 16,
+    "question": "Po zakończeniu ostrej interwencji zaleca się:",
+    "options": [
+      "Brak dalszego planu",
+      "Ustalenie follow-up i ścieżki dalszej pomocy",
+      "Wyłącznie samodzielne radzenie sobie",
+      "Ograniczenie kontaktu do minimum"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Ciągłość opieki zmniejsza ryzyko nawrotu kryzysu i wspiera stabilizację."
+  },
+  {
+    "id": 17,
+    "question": "Które sformułowanie jest najbardziej pomocne w kryzysie?",
+    "options": [
+      "Musisz się natychmiast uspokoić",
+      "Widzę, że to bardzo trudne; sprawdźmy razem, co pomoże przetrwać najbliższe godziny",
+      "Inni mają gorzej",
+      "To tylko chwilowy dramat"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Komunikat empatyczny i zadaniowy wspiera regulację emocji i poczucie sprawstwa."
+  },
+  {
+    "id": 18,
+    "question": "Interwencja kryzysowa różni się od psychoterapii długoterminowej tym, że:",
+    "options": [
+      "Nigdy nie obejmuje rozmowy o emocjach",
+      "Koncentruje się na krótkoterminowej stabilizacji i bezpieczeństwie",
+      "Nie wymaga oceny ryzyka",
+      "Zawsze kończy się hospitalizacją"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Jej celem jest szybka redukcja zagrożenia i odzyskanie podstawowego poziomu funkcjonowania."
+  },
+  {
+    "id": 19,
+    "question": "W ocenie ryzyka przemocy wobec innych ważne jest uwzględnienie:",
+    "options": [
+      "Wyłącznie diagnozy nozologicznej",
+      "Historia przemocy, aktualne pobudzenie, dostęp do środków i czynniki ochronne",
+      "Tylko wieku osoby",
+      "Preferencji zawodowych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Rzetelna ocena ryzyka łączy dane historyczne, dynamiczne i kontekstowe."
+  },
+  {
+    "id": 20,
+    "question": "W modelu pracy kryzysowej zasada least restrictive oznacza:",
+    "options": [
+      "Zawsze pełną izolację",
+      "Dobór najmniej ograniczającej, ale bezpiecznej formy pomocy",
+      "Rezygnację z monitorowania",
+      "Unikanie współpracy międzyinstytucjonalnej"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Interwencja powinna chronić bezpieczeństwo, zachowując możliwie dużą autonomię osoby."
   }
 ]

@@ -128,5 +128,135 @@
     "correct": 2,
     "difficulty": 2,
     "justification": "Współczesna psychologia biologiczna podkreśla interakcyjny model rozwoju cech i zachowań."
+  },
+  {
+    "id": 11,
+    "question": "Który układ neuroprzekaźnikowy jest kluczowy dla hamowania w OUN?",
+    "options": [
+      "Dopaminergiczny",
+      "GABA-ergiczny",
+      "Serotoninergiczny",
+      "Cholinergiczny"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "GABA jest głównym neuroprzekaźnikiem hamującym w ośrodkowym układzie nerwowym."
+  },
+  {
+    "id": 12,
+    "question": "Lateralizacja funkcji mózgowych oznacza:",
+    "options": [
+      "Równy udział półkul we wszystkich zadaniach",
+      "Specjalizację półkul dla wybranych funkcji",
+      "Brak plastyczności mózgu",
+      "Wyłącznie dominację prawej półkuli"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Niektóre funkcje, np. język, częściej angażują określone półkule."
+  },
+  {
+    "id": 13,
+    "question": "Rola kory przedczołowej grzbietowo-bocznej (DLPFC) dotyczy głównie:",
+    "options": [
+      "Regulacji oddechu",
+      "Pamięci roboczej i kontroli poznawczej",
+      "Widzenia barw",
+      "Słuchu przestrzennego"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "DLPFC wspiera planowanie, utrzymywanie celu i elastyczną kontrolę zachowania."
+  },
+  {
+    "id": 14,
+    "question": "Neurogeneza u dorosłych jest najlepiej udokumentowana w obrębie:",
+    "options": [
+      "Pnia mózgu",
+      "Zakretu zębatego hipokampa",
+      "Kory potylicznej",
+      "Mostu"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Najsilniejsze dowody dotyczą hipokampa, zwłaszcza jego części związanej z uczeniem."
+  },
+  {
+    "id": 15,
+    "question": "Układ współczulny w reakcji stresowej odpowiada m.in. za:",
+    "options": [
+      "Spadek tętna i senność",
+      "Wzrost tętna i mobilizację energetyczną",
+      "Hamowanie uwagi selektywnej",
+      "Wydzielanie melatoniny"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Aktywacja współczulna przygotowuje organizm do reakcji walki/ucieczki."
+  },
+  {
+    "id": 16,
+    "question": "Które badanie najlepiej pokazuje zmiany aktywności mózgu w czasie rzeczywistym?",
+    "options": [
+      "Tomografia komputerowa",
+      "fMRI",
+      "RTG",
+      "USG"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "fMRI pozwala śledzić względne zmiany sygnału BOLD związane z aktywnością neuronalną."
+  },
+  {
+    "id": 17,
+    "question": "Serotonina jest szczególnie związana z:",
+    "options": [
+      "Regulacją nastroju, snu i impulsywności",
+      "Wyłącznie pamięcią proceduralną",
+      "Percepcją głębi",
+      "Regulacją glikemii"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Układ serotoninergiczny uczestniczy m.in. w regulacji nastroju i kontroli impulsów."
+  },
+  {
+    "id": 18,
+    "question": "Plastyczność synaptyczna typu LTP oznacza:",
+    "options": [
+      "Długotrwałe osłabienie połączeń",
+      "Długotrwałe wzmocnienie efektywności transmisji synaptycznej",
+      "Całkowite wyciszenie neuronu",
+      "Degenerację aksonu"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "LTP jest jednym z mechanizmów uczenia i pamięci na poziomie synaptycznym."
+  },
+  {
+    "id": 19,
+    "question": "Który obszar jest szczególnie ważny dla rozpoznawania twarzy?",
+    "options": [
+      "FFA w zakręcie wrzecionowatym",
+      "Jądro ogoniaste",
+      "Wzgórze",
+      "Móżdżek"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Fusiform Face Area odgrywa kluczową rolę w przetwarzaniu twarzy."
+  },
+  {
+    "id": 20,
+    "question": "Model allostazy podkreśla, że:",
+    "options": [
+      "Homeostaza jest całkowicie stała",
+      "Organizm adaptuje się do obciążeń kosztem potencjalnego allostatic load",
+      "Stres nie wpływa na zdrowie",
+      "Układ nerwowy działa niezależnie od endokrynnego"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Długotrwała aktywacja mechanizmów adaptacyjnych może prowadzić do kosztów biologicznych."
   }
 ]

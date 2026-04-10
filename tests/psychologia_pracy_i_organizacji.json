@@ -128,5 +128,135 @@
     "correct": 1,
     "difficulty": 1,
     "justification": "Przywództwo transformacyjne wzmacnia motywację przez wizję, inspirację i rozwój kompetencji."
+  },
+  {
+    "id": 11,
+    "question": "Który wskaźnik najlepiej odzwierciedla zaangażowanie pracowników?",
+    "options": [
+      "Liczba e-maili dziennie",
+      "Połączenie energii, oddania i absorpcji zadaniowej",
+      "Średnia długość spotkań",
+      "Liczba raportów kwartalnych"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Zaangażowanie opisuje stan motywacyjny obejmujący energię i identyfikację z pracą."
+  },
+  {
+    "id": 12,
+    "question": "W onboarding'u najbardziej efektywne jest:",
+    "options": [
+      "Brak opiekuna wdrożenia",
+      "Plan 30-60-90 dni z celami i feedbackiem",
+      "Wyłącznie przekazanie regulaminu",
+      "Ocena nowej osoby po pierwszym dniu"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Strukturalne wdrożenie skraca adaptację i zwiększa retencję."
+  },
+  {
+    "id": 13,
+    "question": "Efekt halo w ocenie pracowniczej polega na:",
+    "options": [
+      "Losowym przypisywaniu ocen",
+      "Uogólnianiu jednego silnego wrażenia na całą ocenę",
+      "Nadmiernej surowości wszystkich ocen",
+      "Braku pamięci o wynikach"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Jedna cecha może nieadekwatnie wpływać na ocenę pozostałych kompetencji."
+  },
+  {
+    "id": 14,
+    "question": "Które działanie najlepiej wspiera dobrostan psychiczny zespołu?",
+    "options": [
+      "Stała dostępność po godzinach",
+      "Jasne granice pracy, odpoczynek i kultura wsparcia",
+      "Unikanie feedbacku",
+      "Rywalizacja bez zasad"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Higiena pracy i wspierające środowisko redukują przeciążenie i wypalenie."
+  },
+  {
+    "id": 15,
+    "question": "W analizie stanowiska pracy kluczowe jest:",
+    "options": [
+      "Ocena preferencji kierownika",
+      "Opis zadań, kompetencji i warunków wykonywania pracy",
+      "Wyłącznie analiza płac",
+      "Ograniczenie do historii firmy"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Rzetelna analiza stanowiska stanowi podstawę rekrutacji, oceny i szkoleń."
+  },
+  {
+    "id": 16,
+    "question": "Koncepcja person-job fit odnosi się do:",
+    "options": [
+      "Dopasowania koloru biura do marki",
+      "Dopasowania kompetencji i potrzeb osoby do wymagań stanowiska",
+      "Liczby godzin pracy",
+      "Stylu ubioru"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Lepsze dopasowanie zwiększa efektywność i satysfakcję zawodową."
+  },
+  {
+    "id": 17,
+    "question": "Który typ celu wg teorii goal-setting zwykle zwiększa wykonanie?",
+    "options": [
+      "Cel niejasny i odległy",
+      "Cel konkretny, ambitny i akceptowany",
+      "Cel narzucony bez informacji zwrotnej",
+      "Cel bez mierników"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Cele powinny być jasne i wymagające, ale realistyczne i wspierane feedbackiem."
+  },
+  {
+    "id": 18,
+    "question": "W pracy zdalnej ryzyko technostresu ogranicza:",
+    "options": [
+      "Stałe powiadomienia 24/7",
+      "Jasna polityka komunikacji i higiena cyfrowa",
+      "Brak przerw ekranowych",
+      "Nieograniczona liczba narzędzi"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Reguły komunikacji i przerwy cyfrowe zmniejszają przeciążenie informacyjne."
+  },
+  {
+    "id": 19,
+    "question": "Sprawiedliwość organizacyjna proceduralna dotyczy:",
+    "options": [
+      "Wysokości premii",
+      "Postrzeganej uczciwości procesu podejmowania decyzji",
+      "Wyłącznie relacji koleżeńskich",
+      "Estetyki miejsca pracy"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Percepcja uczciwych procedur wpływa na zaufanie i akceptację decyzji."
+  },
+  {
+    "id": 20,
+    "question": "Który styl feedbacku najczęściej sprzyja rozwojowi?",
+    "options": [
+      "Ocena globalna bez przykładów",
+      "Feedback oparty na konkretnych zachowaniach, skutkach i planie poprawy",
+      "Krytyka personalna",
+      "Brak informacji zwrotnej"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Konkret i orientacja na rozwój zwiększają użyteczność informacji zwrotnej."
   }
 ]

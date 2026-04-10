@@ -128,5 +128,135 @@
     "correct": 1,
     "difficulty": 1,
     "justification": "Interwencje aktywizujące i relacyjne wspierają funkcjonowanie emocjonalne oraz społeczne w późnej dorosłości."
+  },
+  {
+    "id": 11,
+    "question": "Który czynnik najlepiej wspiera zdrowie poznawcze w późnej dorosłości?",
+    "options": [
+      "Stała izolacja społeczna",
+      "Regularna aktywność fizyczna i poznawcza",
+      "Wyłącznie suplementacja",
+      "Unikanie nowych zadań"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Połączenie aktywności ruchowej i poznawczej sprzyja utrzymaniu funkcji poznawczych."
+  },
+  {
+    "id": 12,
+    "question": "Delirium u seniorów najczęściej charakteryzuje:",
+    "options": [
+      "Powolny, wieloletni początek bez wahań",
+      "Nagły początek i fluktuacje uwagi/świadomości",
+      "Wyłącznie obniżony nastrój",
+      "Brak związku z chorobą somatyczną"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Majaczenie ma zwykle ostry początek i zmienny przebieg, często na tle medycznym."
+  },
+  {
+    "id": 13,
+    "question": "Ageizm w opiece psychologicznej oznacza:",
+    "options": [
+      "Wspieranie autonomii seniorów",
+      "Stereotypowe i dyskryminujące traktowanie ze względu na wiek",
+      "Wyłącznie kwestie ekonomiczne",
+      "Naturalny etap starzenia"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Ageizm obniża jakość opieki i może prowadzić do pomijania realnych potrzeb osoby starszej."
+  },
+  {
+    "id": 14,
+    "question": "W pracy z łagodnymi zaburzeniami poznawczymi (MCI) ważne jest:",
+    "options": [
+      "Brak monitorowania zmian",
+      "Regularna reocena funkcji i psychoedukacja rodziny",
+      "Natychmiastowa rezygnacja z aktywności",
+      "Unikanie treningów poznawczych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "MCI wymaga monitorowania i wspierania strategii kompensacyjnych."
+  },
+  {
+    "id": 15,
+    "question": "Która strategia komunikacyjna jest najbardziej adekwatna wobec seniora z niedosłuchem?",
+    "options": [
+      "Mówienie szybciej i ciszej",
+      "Wolniejsze tempo, kontakt wzrokowy i prosty przekaz",
+      "Mówienie wyłącznie do opiekuna",
+      "Unikanie pytań kontrolnych"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Dostosowanie tempa i kanału komunikacji poprawia zrozumienie i komfort rozmowy."
+  },
+  {
+    "id": 16,
+    "question": "W ocenie jakości życia seniora należy uwzględniać:",
+    "options": [
+      "Wyłącznie stan somatyczny",
+      "Aspekty fizyczne, psychiczne, społeczne i poczucie sensu",
+      "Tylko wynik testu poznawczego",
+      "Wyłącznie poziom dochodu"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Jakość życia ma charakter wielowymiarowy."
+  },
+  {
+    "id": 17,
+    "question": "Który objaw bardziej sugeruje depresję niż otępienie?",
+    "options": [
+      "Postępujące zaburzenia pamięci epizodycznej przez lata",
+      "Dominująca beznadzieja i utrata zainteresowań przy możliwej poprawie uwagi po wsparciu",
+      "Znaczna afazja postępująca",
+      "Trwała apraksja"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Nastrój i anhedonia są kluczowe dla depresji, choć może ona wtórnie wpływać na poznanie."
+  },
+  {
+    "id": 18,
+    "question": "Wspieranie opiekunów osób z demencją powinno obejmować:",
+    "options": [
+      "Wyłącznie instrukcję medyczną",
+      "Psychoedukację, trening radzenia sobie i wsparcie wytchnieniowe",
+      "Pomijanie obciążenia opiekuna",
+      "Zakaz korzystania z grup wsparcia"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Pomoc opiekunom zmniejsza przeciążenie i poprawia ciągłość opieki."
+  },
+  {
+    "id": 19,
+    "question": "Które działanie sprzyja podtrzymaniu autonomii seniora?",
+    "options": [
+      "Wyręczanie we wszystkich czynnościach",
+      "Współdecydowanie i adaptacja środowiska do możliwości",
+      "Ograniczanie aktywności społecznej",
+      "Ignorowanie preferencji"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Autonomia rośnie, gdy środowisko i wsparcie są dopasowane do możliwości osoby."
+  },
+  {
+    "id": 20,
+    "question": "W terapii reminiscencyjnej celem jest m.in.:",
+    "options": [
+      "Wywoływanie stresu przez konfrontację",
+      "Wzmacnianie tożsamości i dobrostanu przez pracę z autobiograficznymi wspomnieniami",
+      "Ocena poczytalności",
+      "Trening szybkości reakcji"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Praca ze wspomnieniami może wspierać poczucie ciągłości Ja i relacje społeczne."
   }
 ]

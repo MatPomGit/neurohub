@@ -128,5 +128,135 @@
     "correct": 1,
     "difficulty": 2,
     "justification": "Zmiana nawyków zwykle wymaga procesu: realistycznych celów, monitorowania postępów i wzmacniania sprawczości."
+  },
+  {
+    "id": 11,
+    "question": "Który czynnik najczęściej poprawia adherencję farmakologiczną?",
+    "options": [
+      "Złożony i zmienny schemat dawkowania",
+      "Prosty plan leczenia i jasna psychoedukacja",
+      "Unikanie pytań pacjenta",
+      "Stosowanie wyłącznie komunikatów nakazowych"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Uproszczenie zaleceń i rozumienie celu terapii zwiększają regularność stosowania leków."
+  },
+  {
+    "id": 12,
+    "question": "W modelu przekonań zdrowotnych (HBM) decyzję o działaniu wzmacnia:",
+    "options": [
+      "Niskie poczucie podatności",
+      "Postrzegane korzyści przewyższające bariery",
+      "Brak wskazówek do działania",
+      "Minimalna samoocena skuteczności"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "HBM podkreśla znaczenie bilansu korzyści i barier oraz sygnałów do podjęcia działania."
+  },
+  {
+    "id": 13,
+    "question": "Coping skoncentrowany na problemie polega na:",
+    "options": [
+      "Regulowaniu emocji bez zmiany sytuacji",
+      "Aktywnym planowaniu i modyfikacji źródła stresu",
+      "Zaprzeczaniu trudności",
+      "Unikaniu informacji"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Strategie problem-focused dotyczą działań ukierunkowanych na rozwiązanie problemu."
+  },
+  {
+    "id": 14,
+    "question": "Które działanie najbardziej wspiera zmianę nawyków żywieniowych?",
+    "options": [
+      "Radykalne cele bez monitorowania",
+      "Stopniowe cele SMART i samomonitorowanie",
+      "Wyłącznie motywowanie strachem",
+      "Rezygnacja z informacji zwrotnej"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Małe, mierzalne cele i monitorowanie postępów zwiększają trwałość zmiany."
+  },
+  {
+    "id": 15,
+    "question": "W chronicznym bólu interwencje psychologiczne często koncentrują się na:",
+    "options": [
+      "Całkowitej eliminacji każdego sygnału bólowego",
+      "Zwiększaniu funkcjonowania i akceptacji przy redukcji cierpienia",
+      "Wyłącznie farmakoterapii opioidowej",
+      "Ignorowaniu aktywności fizycznej"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Współczesne podejścia łączą zarządzanie objawami z poprawą jakości życia i sprawczości."
+  },
+  {
+    "id": 16,
+    "question": "Który element najlepiej charakteryzuje interview motywujący (MI)?",
+    "options": [
+      "Konfrontacja i nacisk na zmianę",
+      "Wzmacnianie autonomii i wydobywanie motywacji własnej pacjenta",
+      "Udzielanie gotowych poleceń",
+      "Unikanie ambiwalencji"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "MI wspiera zmianę poprzez empatię, pracę z ambiwalencją i autonomię pacjenta."
+  },
+  {
+    "id": 17,
+    "question": "W prewencji trzeciorzędowej celem jest:",
+    "options": [
+      "Zapobieganie zachorowaniu",
+      "Wczesne wykrywanie choroby",
+      "Ograniczanie skutków choroby i poprawa funkcjonowania",
+      "Wyłącznie edukacja prozdrowotna"
+    ],
+    "correct": 2,
+    "difficulty": 1,
+    "justification": "Prewencja trzeciorzędowa dotyczy minimalizacji następstw choroby i rehabilitacji."
+  },
+  {
+    "id": 18,
+    "question": "Który czynnik zwiększa ryzyko nieprzestrzegania zaleceń u pacjentów?",
+    "options": [
+      "Współdecydowanie o planie leczenia",
+      "Niska alfabetyzacja zdrowotna",
+      "Regularna kontrola postępów",
+      "Wysoki poziom wsparcia społecznego"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Niska umiejętność rozumienia informacji medycznych utrudnia realizację zaleceń."
+  },
+  {
+    "id": 19,
+    "question": "W psychoonkologii kluczowe znaczenie ma:",
+    "options": [
+      "Redukowanie kontaktu z rodziną",
+      "Integracja wsparcia emocjonalnego, informacyjnego i praktycznego",
+      "Unikanie rozmów o lęku",
+      "Wyłącznie ocena biomarkerów"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Kompleksowe wsparcie poprawia jakość życia pacjentów i ich bliskich."
+  },
+  {
+    "id": 20,
+    "question": "Teoria planowanego zachowania zakłada, że intencja zależy m.in. od:",
+    "options": [
+      "Poziomu glukozy",
+      "Postaw, norm subiektywnych i postrzeganej kontroli",
+      "Wyłącznie cech temperamentu",
+      "Losowych zdarzeń dnia"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Model Ajzena podkreśla rolę postaw, norm i perceived behavioral control w kształtowaniu intencji."
   }
 ]

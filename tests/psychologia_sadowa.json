@@ -128,5 +128,135 @@
     "correct": 1,
     "difficulty": 1,
     "justification": "Rzetelna opinia wymaga jawnego komunikowania granic interpretacji i stopnia pewności."
+  },
+  {
+    "id": 11,
+    "question": "W kontekście przesłuchań dzieci standard NICHD promuje przede wszystkim:",
+    "options": [
+      "Pytania sugerujące i zamknięte",
+      "Pytania otwarte i minimalizację sugestii",
+      "Konfrontację ze sprawcą",
+      "Wyłącznie pytania o daty"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Protokoły oparte na pytaniach otwartych zwiększają jakość i wiarygodność relacji."
+  },
+  {
+    "id": 12,
+    "question": "Która praktyka najlepiej wspiera bezstronność biegłego?",
+    "options": [
+      "Przyjmowanie jednej hipotezy od początku",
+      "Formułowanie hipotez alternatywnych i ich systematyczna weryfikacja",
+      "Konsultacja tylko ze stroną zlecającą",
+      "Pomijanie danych niespójnych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Praca hipotezami alternatywnymi ogranicza bias potwierdzenia."
+  },
+  {
+    "id": 13,
+    "question": "W opiniowaniu rodzinnym pojęcie dobro dziecka oznacza:",
+    "options": [
+      "Wyłącznie preferencję jednego z rodziców",
+      "Wielowymiarową ocenę bezpieczeństwa, więzi i potrzeb rozwojowych",
+      "Szybkie zakończenie postępowania",
+      "Brak kontaktu z otoczeniem dziecka"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Ocena dobra dziecka wymaga uwzględnienia bezpieczeństwa i długofalowego rozwoju."
+  },
+  {
+    "id": 14,
+    "question": "Fałszywe przyznanie się do winy może być nasilane przez:",
+    "options": [
+      "Neutralny styl przesłuchania",
+      "Długotrwały nacisk i dezinformację",
+      "Wysoką jakość obrońcy",
+      "Dokładne pouczenie prawne"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Presja i manipulacje poznawcze zwiększają ryzyko nieprawdziwych zeznań."
+  },
+  {
+    "id": 15,
+    "question": "W psychologii świadków pamięć epizodyczna jest:",
+    "options": [
+      "Dosłownym zapisem jak kamera",
+      "Podatna na rekonstrukcję i wpływ kontekstu",
+      "Niezależna od emocji",
+      "Stała w czasie"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Wspomnienia są rekonstrukcyjne i mogą ulegać zniekształceniom."
+  },
+  {
+    "id": 16,
+    "question": "Dlaczego ważne jest oddzielenie faktów od interpretacji w opinii?",
+    "options": [
+      "By skrócić dokument",
+      "By umożliwić sądowi ocenę podstaw wnioskowania",
+      "By ukryć niepewność",
+      "By zastąpić uzasadnienie"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Transparentne rozdzielenie danych i interpretacji zwiększa czytelność opinii."
+  },
+  {
+    "id": 17,
+    "question": "Wysoka zgodność międzybiegłych (inter-rater reliability) oznacza:",
+    "options": [
+      "Identyczne poglądy etyczne",
+      "Spójność ocen niezależnych ekspertów",
+      "Brak potrzeby danych empirycznych",
+      "Zawsze trafność kliniczną"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Zgodność ocenia stabilność wnioskowania między różnymi oceniającymi."
+  },
+  {
+    "id": 18,
+    "question": "W opinii dotyczącej przemocy domowej istotne jest:",
+    "options": [
+      "Koncentrowanie się na pojedynczym incydencie",
+      "Analiza wzorca zachowań, dynamiki kontroli i czynników ryzyka",
+      "Wyłącznie analiza dokumentów sądowych",
+      "Pomijanie perspektywy ofiary"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Ocena powinna uwzględniać powtarzalność i mechanizmy przemocy."
+  },
+  {
+    "id": 19,
+    "question": "Które działanie zmniejsza ryzyko wtórnej wiktymizacji?",
+    "options": [
+      "Wielokrotne przesłuchania bez potrzeby",
+      "Koordynacja procedur i ograniczenie powtórnych ekspozycji na traumę",
+      "Brak informacji o prawach osoby",
+      "Konfrontacyjne pytania"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Minimalizacja zbędnych przesłuchań i wsparcie proceduralne chronią osoby pokrzywdzone."
+  },
+  {
+    "id": 20,
+    "question": "Granice kompetencji biegłego wymagają, aby:",
+    "options": [
+      "Wypowiadał się o każdej dziedzinie sprawy",
+      "Ograniczał wnioski do obszaru własnej specjalizacji i danych",
+      "Decydował o wyroku",
+      "Pomijał literaturę"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Rzetelność opinii zależy od działania w granicach kompetencji i materiału dowodowego."
   }
 ]

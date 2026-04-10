@@ -128,5 +128,135 @@
     "correct": 1,
     "difficulty": 2,
     "justification": "Heterogeniczność wskazuje, że wielkości efektów różnią się między badaniami, co może wynikać np. z różnic metodologicznych lub populacyjnych."
+  },
+  {
+    "id": 11,
+    "question": "W badaniu korelacyjnym stwierdzono r = 0,00. Najtrafniejszy wniosek to:",
+    "options": [
+      "Nie ma żadnej zależności między zmiennymi",
+      "Brak zależności liniowej, ale możliwa zależność nieliniowa",
+      "Pomiar był nierzetelny",
+      "Hipoteza alternatywna jest potwierdzona"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Wartość r bliska zero dotyczy związku liniowego i nie wyklucza relacji nieliniowych."
+  },
+  {
+    "id": 12,
+    "question": "Który schemat zwiększa trafność zewnętrzną badań interwencyjnych?",
+    "options": [
+      "Wyłącznie studenci jednego roku jako próba",
+      "Replikacje na różnych populacjach i kontekstach",
+      "Brak kryteriów wykluczenia",
+      "Analiza tylko jednej podgrupy"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Powtarzanie badań w różnych populacjach pozwala ocenić uogólnialność wyników."
+  },
+  {
+    "id": 13,
+    "question": "Błąd II rodzaju (β) oznacza:",
+    "options": [
+      "Odrzucenie prawdziwej hipotezy zerowej",
+      "Nieodrzucenie fałszywej hipotezy zerowej",
+      "Naruszenie normalności rozkładu",
+      "Brak randomizacji"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Błąd II rodzaju polega na przeoczeniu istniejącego efektu."
+  },
+  {
+    "id": 14,
+    "question": "Która technika ogranicza ryzyko p-hackingu?",
+    "options": [
+      "Wielokrotne testowanie aż do istotności",
+      "Prerejestracja i jawny plan analiz",
+      "Usuwanie obserwacji odstających bez uzasadnienia",
+      "Zmiana hipotezy po analizie bez adnotacji"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Transparentny plan analityczny redukuje dowolność decyzji statystycznych."
+  },
+  {
+    "id": 15,
+    "question": "Wskaźnik IQR jest miarą:",
+    "options": [
+      "Tendencji centralnej",
+      "Rozstępu międzykwartylowego i zmienności",
+      "Siły korelacji",
+      "Mocy statystycznej"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "IQR opisuje rozproszenie środkowych 50% wyników."
+  },
+  {
+    "id": 16,
+    "question": "W badaniu kwestionariuszowym efekt wspólnej metody (common method bias) oznacza:",
+    "options": [
+      "Błąd wynikający z losowania próby",
+      "Sztuczne zawyżenie zależności przez wspólne źródło pomiaru",
+      "Brak normalizacji narzędzia",
+      "Niski poziom alfa Cronbacha"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Jedno źródło i forma pomiaru mogą zwiększać współzależności niezależnie od rzeczywistych konstruktów."
+  },
+  {
+    "id": 17,
+    "question": "Analiza czynnikowa eksploracyjna (EFA) służy głównie do:",
+    "options": [
+      "Testowania gotowego modelu struktury",
+      "Odkrywania potencjalnej struktury latentnej pozycji",
+      "Porównania średnich grup",
+      "Oceny trafności kryterialnej"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "EFA jest narzędziem eksploracyjnym do identyfikacji wymiarów ukrytych."
+  },
+  {
+    "id": 18,
+    "question": "Który indeks najlepiej sygnalizuje problem wielokrotnego porównywania hipotez?",
+    "options": [
+      "Średnia arytmetyczna",
+      "Skumulowane ryzyko błędu I rodzaju",
+      "Odchylenie standardowe",
+      "Współczynnik determinacji"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Przy wielu testach rośnie prawdopodobieństwo fałszywie dodatnich wyników."
+  },
+  {
+    "id": 19,
+    "question": "Podejście intention-to-treat w badaniach interwencyjnych oznacza:",
+    "options": [
+      "Analizę wyłącznie osób, które ukończyły interwencję",
+      "Analizę wszystkich randomizowanych uczestników zgodnie z pierwotnym przydziałem",
+      "Usunięcie braków danych",
+      "Analizę jedynie przypadków skrajnych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "ITT zachowuje korzyści randomizacji i ogranicza bias wynikający z rezygnacji."
+  },
+  {
+    "id": 20,
+    "question": "Dobra operacjonalizacja konstruktu psychologicznego powinna:",
+    "options": [
+      "Być możliwie ogólna i niejednoznaczna",
+      "Być jednoznaczna, mierzalna i zgodna z teorią",
+      "Pomijać definicje teoretyczne",
+      "Unikać wskaźników obserwowalnych"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Operacjonalizacja łączy teorię z pomiarem empirycznym i zwiększa interpretowalność wyników."
   }
 ]
