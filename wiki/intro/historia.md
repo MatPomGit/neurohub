@@ -27,3 +27,27 @@ Od frenologii Galla przez odkrycia Broki i Wernickego po współczesne metody ne
 Druga połowa XX wieku przyniosła techniki pozwalające obserwować mózg *in vivo*. CT (lata 70.) jako pierwsza technika pokazująca strukturę mózgu żywego człowieka, MRI (lata 80.) ze znacznie lepszą rozdzielczością tkanek miękkich, PET (lata 80.) jako pierwsza technika funkcjonalna, a w końcu fMRI (lata 90.) — technika BOLD pozwalająca mapować aktywację bez promieniowania radioaktywnego.
 
 Te techniki przekształciły neuropsychologię z dyscypliny opartej na obserwacji deficytów w naukę, która może badać funkcje mózgu u zdrowych osób w czasie rzeczywistym.
+
+## Wkład polskich badaczy i ośrodków
+
+Rozwój neuropsychologii w Polsce przebiegał równolegle do badań światowych, ze szczególnym naciskiem na diagnostykę kliniczną i rehabilitację funkcji poznawczych.
+
+- **Ośrodki akademickie** (m.in. Warszawa, Kraków, Poznań, Lublin) rozwijały diagnostykę neuropsychologiczną w powiązaniu z neurologią i psychiatrią.
+- **Tradycja psychologii klinicznej** w Polsce kładła nacisk na łączenie testów z pogłębionym wywiadem oraz analizą funkcjonalną trudności pacjenta.
+- **Rozwój rehabilitacji neuropsychologicznej** zwiększył znaczenie pracy interdyscyplinarnej: psycholog, neurolog, psychiatra, logopeda, fizjoterapeuta i terapeuta zajęciowy.
+
+## Najnowsze trendy (XXI wiek)
+
+Współczesna neuropsychologia odchodzi od prostego „mapowania funkcji do jednego obszaru”, a koncentruje się na modelach sieciowych i dynamicznych.
+
+Najważniejsze kierunki rozwoju:
+
+1. **Podejście sieciowe** — analiza funkcji poznawczych jako efektu współpracy wielu obszarów mózgu.
+2. **Diagnostyka cyfrowa** — coraz częstsze użycie narzędzi komputerowych i adaptacyjnych baterii testów.
+3. **Medycyna spersonalizowana** — dobór interwencji do profilu deficytów, zasobów i kontekstu pacjenta.
+4. **Integracja danych** — łączenie wyników testów, wywiadu, neuroobrazowania i danych środowiskowych.
+
+## Podsumowanie
+
+Historia neuropsychologii pokazuje przejście od intuicji i prostych modeli lokalizacyjnych do złożonych, wielopoziomowych wyjaśnień funkcjonowania człowieka.  
+Dzisiaj kluczowa jest równowaga między rzetelnym pomiarem a rozumieniem indywidualnej historii pacjenta.
