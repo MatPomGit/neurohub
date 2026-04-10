@@ -58,6 +58,11 @@
     src = src.replace(/((?:^\d+\.\s.+\n?)+)/gm, blk =>
       '<ol>'+blk.trim().split('\n').map(l=>`<li>${inl(l.replace(/^\d+\.\s/,''))}</li>`).join('')+'</ol>\n'
     );
+
+    /* Normalizuje granice bloków HTML, żeby parser akapitów nie wyświetlał tagów jako tekstu. */
+    src = src
+      .replace(/([^\n])\n(<(?:h[1-4]|blockquote|ul|ol|pre|div|hr)\b[^>]*>)/g, '$1\n\n$2')
+      .replace(/(<\/(?:h[1-4]|blockquote|ul|ol|pre|div)>|<hr>)\n?(?=\S)/g, '$1\n\n');
     src = src.split('\n\n').map(blk => {
       blk = blk.trim();
       if (!blk) return '';
