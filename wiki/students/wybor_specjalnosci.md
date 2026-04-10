@@ -39,3 +39,29 @@ Jeśli chcesz otrzymać wstępną rekomendację, przejdź do testu:
 Jeżeli chcesz zaplanować rozwój zawodowy po studiach (ścieżki kariery, wymogi formalne i egzaminy państwowe), zobacz:
 
 **[Przepisy i zasady pracy psychologa w Polsce i NFZ](#reference/przepisy_zawod)**
+
+## Decyzja na lata 2026+ — praktyczna checklista
+
+Zanim wybierzesz specjalność, przejdź przez krótką checklistę decyzyjną:
+
+1. **Rynek i miejsca stażowe**  
+   Sprawdź, czy w Twoim mieście i regionie realnie działają placówki, w których zdobędziesz doświadczenie w danym obszarze.
+
+2. **Koszt ścieżki po studiach**  
+   Uwzględnij koszty kursów, superwizji, certyfikacji i dodatkowych szkoleń (często rozłożonych na kilka lat).
+
+3. **Styl pracy**  
+   Oceń, czy preferujesz pracę szybką i interwencyjną (np. kryzys, szpital), czy długoterminową i procesową (np. psychoterapia).
+
+4. **Obciążenie emocjonalne i odpowiedzialność prawna**  
+   Im więcej decyzji wysokiego ryzyka (np. orzecznictwo, interwencja kryzysowa), tym większa potrzeba superwizji i higieny pracy.
+
+5. **Możliwość łączenia kompetencji**  
+   Dobra strategia to łączenie dwóch osi, np. diagnoza + psychoterapia albo kliniczna + neuropsychologia.
+
+## Najczęstsze błędy przy wyborze specjalności
+
+- Wybór „modnego” obszaru bez sprawdzenia codziennych realiów pracy.  
+- Ignorowanie kosztów i czasu certyfikacji podyplomowej.  
+- Odkładanie decyzji o superwizji i własnym rozwoju osobistym.  
+- Traktowanie wyboru jako nieodwracalnego — wiele kompetencji można łączyć i rozwijać etapowo.

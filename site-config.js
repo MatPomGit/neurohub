@@ -816,6 +816,8 @@ window.SITE_CONFIG = {
       items: [
         { id: 'reference/zakres',             label: 'Zakres wiedzy',                      file: 'wiki/reference/zakres.md'             },
         { id: 'reference/literatura',         label: 'Literatura',                         file: 'wiki/reference/literatura.md'         },
+        { id: 'reference/bibliografia_portalu', label: 'Bibliografia portalu',             file: 'wiki/reference/bibliografia_portalu.md' },
+        { id: 'reference/skale_i_akronimy',   label: 'Skale i akronimy diagnostyczne',    file: 'wiki/reference/skale_i_akronimy.md'   },
         { id: 'reference/przepisy_zawod',     label: 'Przepisy i zasady pracy psychologa', file: 'wiki/reference/przepisy_zawod.md'     },
         { id: 'reference/etyka_psychologa',   label: 'Etyka zawodowa psychologa i psychoterapeuty', file: 'wiki/reference/etyka_psychologa.md' },
       ]
@@ -1153,6 +1155,8 @@ window.SITE_CONFIG = {
     reference: [
       { file: 'wiki/reference/zakres.md',               label: 'Zakres wiedzy',                               status: 'live' },
       { file: 'wiki/reference/literatura.md',           label: 'Literatura',                                  status: 'live' },
+      { file: 'wiki/reference/bibliografia_portalu.md', label: 'Bibliografia portalu',                        status: 'live' },
+      { file: 'wiki/reference/skale_i_akronimy.md',     label: 'Skale i akronimy diagnostyczne',              status: 'live' },
       { file: 'wiki/reference/przepisy_zawod.md',       label: 'Przepisy i zasady pracy psychologa',          status: 'live' },
       { file: 'wiki/reference/etyka_psychologa.md',     label: 'Etyka zawodowa psychologa i psychoterapeuty', status: 'live' },
     ],
@@ -1948,6 +1952,8 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Zakres wiedzy', id: 'reference/zakres', status: 'live' },
             { label: 'Literatura', id: 'reference/literatura', status: 'live' },
+            { label: 'Bibliografia portalu', id: 'reference/bibliografia_portalu', status: 'live' },
+            { label: 'Skale i akronimy diagnostyczne', id: 'reference/skale_i_akronimy', status: 'live' },
           ]
         },
       ]
