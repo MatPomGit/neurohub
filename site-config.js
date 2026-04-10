@@ -72,7 +72,7 @@ window.SITE_CONFIG = {
       ]
     },
     {
-      section: 'Biologiczne bodstawy zachowania',
+      section: 'Biologiczne podstawy zachowania',
       items: [
         { id: 'biology/biologiczne_podstawy', label: 'Biologiczne podstawy — wprow.', file: 'wiki/biology/biologiczne_podstawy.md' },
         { id: 'biology/genetyka_beh',         label: 'Genetyka behawioralna',          file: 'wiki/biology/genetyka_beh.md'          },
