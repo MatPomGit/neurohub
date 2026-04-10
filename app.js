@@ -364,6 +364,91 @@
     });
   };
 
+  /* ── Konfiguracja ikon sekcji na stronie głównej ─────────────
+     Klucze muszą być 1:1 zgodne z wartościami `section` z SITE_CONFIG.nav. */
+  const HOME_SECTION_ICONS = {
+    'Dla studentów': '🎓',
+    'Filozofia': '🧠',
+    'Biologiczne podstawy zachowania': '🔬',
+    'Psychologia Rozwojowa': '🧒',
+    'Psychologia Społeczna': '👥',
+    'Psychologia Kulturowa': '🌍',
+    'Psychologia Uzależnień': '🧷',
+    'Relacje i związki': '💞',
+    'Etyka zawodowa': '⚖️',
+    'Diagnoza psychologiczna (proces)': '🩺',
+    'Emocje i motywacje': '❤️',
+    'Podstawy pomocy psychologicznej': '🤝',
+    'Temperament': '🌡️',
+    'Różnice indywidualne': '👤',
+    'Psychometria': '📏',
+    'Neurobiologia': '🧬',
+    'Zaburzenia kliniczne': '⚕️',
+    'Przypadki kliniczne': '📋',
+    'Psychopatologia': '🔍',
+    'Diagnoza psychologiczna': '🧾',
+    'Funkcje poznawcze': '🧩',
+    'Psychologia zdrowia': '🩹',
+    'Psychosomatyka': '🫀',
+    'Porozumiewanie się bez przemocy (NVC)': '🕊️',
+    'Arteterapia': '🎨',
+    'Animaloterapia': '🐾',
+    'Odporność psychiczna': '🛡️',
+    'Psychologia szkolna i edukacyjna': '🏫',
+    'Psychologia osób z niepełnosprawnością': '♿',
+    'Psychologia osób w podeszłym wieku': '👵',
+    'Neuroróżnorodność': '🧩',
+    'Psychoterapia': '🛋️',
+    'Farmakologia': '💊',
+    'Psychologia pozytywna': '✨',
+    'Suicydologia': '🆘',
+    'Seksuologia': '💜',
+    'Psychologia sądowa i opiniowanie': '🏛️',
+    'Ekrany, książki, a natura': '📚',
+    'Psychologia gier wideo': '🎮',
+    'E-terapia': '💻',
+    'Psychologia Sztucznej Inteligencji': '🤖',
+    'Robotyka afektywna i kognitywistyka': '🦾',
+    'Seminarium dyplomowe': '🎓'
+  };
+
+  /* ── Walidacja spójności sekcji i ikon ───────────────────────
+     Weryfikuje braki i potencjalne rozjazdy (wielkość liter / polskie znaki). */
+  function validateNavSectionIcons() {
+    const excludedSections = new Set(['Encyklopedie', 'Referencje', 'Wprowadzenie']);
+    const navSections = SITE_CONFIG.nav
+      .map(section => section.section)
+      .filter(sectionName => !excludedSections.has(sectionName));
+    const iconKeys = Object.keys(HOME_SECTION_ICONS);
+    const iconKeySet = new Set(iconKeys);
+    const navSectionSet = new Set(navSections);
+
+    const missingIcons = navSections.filter(sectionName => !iconKeySet.has(sectionName));
+    const extraIcons = iconKeys.filter(sectionName => !navSectionSet.has(sectionName));
+
+    const normalizeSectionName = value => value
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '');
+    const normalizedNavMap = new Map(navSections.map(sectionName => [normalizeSectionName(sectionName), sectionName]));
+    const caseOrDiacriticMismatches = extraIcons
+      .map(iconKey => ({
+        iconKey,
+        navSection: normalizedNavMap.get(normalizeSectionName(iconKey))
+      }))
+      .filter(result => Boolean(result.navSection) && result.navSection !== result.iconKey);
+
+    if (missingIcons.length) {
+      console.warn('[PsyHub] Brak ikon dla sekcji:', missingIcons);
+    }
+    if (extraIcons.length) {
+      console.warn('[PsyHub] Ikony bez odpowiadającej sekcji nav:', extraIcons);
+    }
+    if (caseOrDiacriticMismatches.length) {
+      console.warn('[PsyHub] Możliwe rozjazdy nazw sekcji (wielkość liter / polskie znaki):', caseOrDiacriticMismatches);
+    }
+  }
+
   /* ── Home ──────────────────────────────────── */
   function renderHome() {
     const area = document.getElementById('content');
@@ -373,16 +458,11 @@
     const domains   = SITE_CONFIG.nav.filter(s=>!['Encyklopedie','Referencje','Wprowadzenie'].includes(s.section));
     const totalPlan = Object.values(SITE_CONFIG.plans||{}).flat().filter(p=>p.status==='planned').length;
 
-    const icons = {'Neurobiologia':'🧬','Funkcje Poznawcze':'🧩','Zaburzenia Kliniczne':'⚕️',
-      'Przypadki Kliniczne':'📋','Diagnostyka':'📊','Psychometria':'📏','Farmakologia':'💊',
-      'Różnice Indywidualne':'👤','Temperament':'🌡️','Emocje i Motywacja':'❤️',
-      'Biologiczne Podstawy':'🔬','Psychoterapia':'🛋️','Psychopatologia':'🔍',
-      'Suicydologia':'🆘','Seksuologia':'💜','Arteterapia':'🎨','Animaloterapia':'🐾'};
     const cards = domains.map(sec=>{
       const cnt   = sec.items.filter(i=>i.file).length;
       const navId = sec.items[0]?.id||'';
       return `<div class="domain-card" onclick="navigate('${navId}')">
-        <div class="d-icon">${icons[sec.section]||'📖'}</div>
+        <div class="d-icon">${HOME_SECTION_ICONS[sec.section]||'📖'}</div>
         <div class="d-name">${sec.section}</div>
         <span class="d-count">${cnt} art.</span>
       </div>`;
@@ -551,6 +631,8 @@
 
   /* ── Boot ──────────────────────────────────── */
   window.addEventListener('DOMContentLoaded', () => {
+    // Walidacja uruchamiana przy starcie, aby szybko wykryć niespójności konfiguracji.
+    validateNavSectionIcons();
     buildPageMap();
     state.pageMap.set('__home__', {id:'__home__', label:'Strona główna', section:''});
     renderSidebar();
