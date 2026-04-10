@@ -34,18 +34,31 @@ Praca magisterska to projekt rozciągnięty na dwa semestry. Podziel go na mierz
 Przykładowa organizacja folderu projektu:
 ```bash
 magisterka/
+
 ├── literatura/
+
 │   ├── artykuly_pdf/
+
 │   └── notatki_literatury.docx
+
 ├── dane/
+
 │   ├── surowe/ (nigdy nie modyfikuj)
+
 │   └── przetworzone/
+
 ├── analizy/
+
 │   └── skrypt_R.R / plik_SPSS.sav
+
 ├── praca_magisterska/
+
 │   └── wersje/
+
 │       ├── rozdz1_v1.docx
+
 │       └── praca_FINALNA.docx
+
 └── prezentacja_obrona/
 ```
 
