@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "question": "Który proces poznawczy zwykle najsilniej obniża się wraz z wiekiem?",
+    "options": [
+      "Pamięć semantyczna",
+      "Szybkość przetwarzania informacji",
+      "Słownictwo bierne",
+      "Wiedza krystaliczna"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "W starzeniu normatywnym relatywnie wcześnie spada tempo przetwarzania, podczas gdy część wiedzy krystalicznej pozostaje stabilna."
+  },
+  {
+    "id": 2,
+    "question": "Pojęcie successful aging najczęściej odnosi się do:",
+    "options": [
+      "Braku jakichkolwiek chorób",
+      "Utrzymywania możliwie dobrego funkcjonowania fizycznego, poznawczego i społecznego",
+      "Wyłącznie wysokiego statusu ekonomicznego",
+      "Całkowitego wycofania z aktywności"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Koncepcja pomyślnego starzenia podkreśla wielowymiarowe dobrostanowe funkcjonowanie mimo zmian związanych z wiekiem."
+  },
+  {
+    "id": 3,
+    "question": "Który czynnik jest istotnym buforem samotności u osób starszych?",
+    "options": [
+      "Ograniczenie kontaktów do minimum",
+      "Regularne wsparcie społeczne i poczucie przynależności",
+      "Wyłącznie farmakoterapia",
+      "Unikanie nowych aktywności"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Relacje społeczne i uczestnictwo wspólnotowe zmniejszają ryzyko izolacji i depresji w późnej dorosłości."
+  },
+  {
+    "id": 4,
+    "question": "W diagnostyce przesiewowej otępień często wykorzystuje się:",
+    "options": [
+      "Skalę PANSS",
+      "MMSE lub MoCA",
+      "Test Rorschacha",
+      "STAI"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "MMSE i MoCA to najczęściej stosowane narzędzia przesiewowe funkcji poznawczych u seniorów."
+  },
+  {
+    "id": 5,
+    "question": "Rezerwa poznawcza oznacza:",
+    "options": [
+      "Wrodzony iloraz inteligencji niezmienny przez życie",
+      "Zdolność mózgu do kompensacji zmian dzięki wcześniejszej aktywności poznawczej i edukacji",
+      "Brak związku stylu życia z funkcjonowaniem poznawczym",
+      "Wyłącznie pamięć proceduralną"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Wyższa rezerwa poznawcza może opóźniać kliniczną manifestację deficytów dzięki mechanizmom kompensacyjnym."
+  },
+  {
+    "id": 6,
+    "question": "Które działanie najlepiej wspiera profilaktykę upadków u seniorów?",
+    "options": [
+      "Unikanie ruchu",
+      "Trening równowagi, siły i modyfikacja ryzyka środowiskowego",
+      "Wyłącznie suplementacja witamin",
+      "Zwiększenie liczby leków nasennych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Programy łączące aktywność fizyczną i dostosowanie otoczenia skutecznie obniżają ryzyko upadków."
+  },
+  {
+    "id": 7,
+    "question": "W pracy psychologicznej z osobą starszą kluczowe jest:",
+    "options": [
+      "Mówienie wyłącznie do opiekuna",
+      "Poszanowanie autonomii i tempa pacjenta",
+      "Unikanie pytań o cele życiowe",
+      "Automatyczne infantylizowanie komunikacji"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Etyczna praktyka zakłada podmiotowe traktowanie seniora i dostosowanie komunikacji bez odbierania sprawczości."
+  },
+  {
+    "id": 8,
+    "question": "Depresja u osób starszych może być mylona z otępieniem, ponieważ:",
+    "options": [
+      "Zawsze daje identyczny obraz kliniczny",
+      "Może powodować spowolnienie, trudności koncentracji i obniżenie pamięci",
+      "Nie wpływa na funkcje poznawcze",
+      "Występuje tylko u osób samotnych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Objawy depresyjne mogą wtórnie obniżać sprawność poznawczą, dlatego potrzebna jest uważna diagnostyka różnicowa."
+  },
+  {
+    "id": 9,
+    "question": "Model selektywnej optymalizacji z kompensacją (SOC) opisuje:",
+    "options": [
+      "Rezygnację z celów rozwojowych w starości",
+      "Wybór priorytetów, wzmacnianie zasobów i kompensowanie strat",
+      "Wyłącznie terapię poznawczą",
+      "Mechanizm neurodegeneracji"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Model SOC pokazuje adaptacyjne strategie utrzymywania jakości życia mimo ograniczeń związanych z wiekiem."
+  },
+  {
+    "id": 10,
+    "question": "Która interwencja psychospołeczna często poprawia dobrostan seniorów?",
+    "options": [
+      "Długotrwała izolacja bodźców",
+      "Treningi aktywizujące, grupy wsparcia i psychoedukacja",
+      "Wyłącznie monitoring leków",
+      "Unikanie rozmów o stratach"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Interwencje aktywizujące i relacyjne wspierają funkcjonowanie emocjonalne oraz społeczne w późnej dorosłości."
+  }
+]

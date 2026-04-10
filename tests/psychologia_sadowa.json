@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "question": "Głównym zadaniem opinii psychologicznej w sprawach sądowych jest:",
+    "options": [
+      "Prowadzenie terapii długoterminowej",
+      "Dostarczenie sądowi rzetelnej oceny psychologicznej odpowiadającej na pytania procesowe",
+      "Zastąpienie decyzji sędziego",
+      "Rozstrzygnięcie sporu mediacyjnego"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Opinia ma charakter pomocniczy i powinna odpowiadać na pytania organu procesowego w granicach kompetencji psychologa."
+  },
+  {
+    "id": 2,
+    "question": "W psychologii zeznań największe ryzyko zniekształceń pamięci zwiększa:",
+    "options": [
+      "Neutralne pytanie otwarte",
+      "Sugestywne pytanie z presupozycją",
+      "Czas reakcji poniżej 1 sekundy",
+      "Badanie w obecności adwokata"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Sugestywne pytania mogą modyfikować relację świadka przez efekt dezinformacji."
+  },
+  {
+    "id": 3,
+    "question": "Kompetencja biegłego wymaga przede wszystkim:",
+    "options": [
+      "Wyłącznie ukończenia studiów psychologicznych",
+      "Aktualnej wiedzy specjalistycznej, metodologicznej i etycznej adekwatnej do sprawy",
+      "Doświadczenia życiowego bez dokumentacji",
+      "Zgody stron postępowania"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Biegły powinien posiadać kompetencje adekwatne do zakresu opinii i działać zgodnie ze standardami zawodowymi."
+  },
+  {
+    "id": 4,
+    "question": "W ocenie wiarygodności zeznań dziecka należy szczególnie unikać:",
+    "options": [
+      "Pytań otwartych",
+      "Powtarzania pytań sugerujących jedną wersję zdarzeń",
+      "Rejestracji audiowideo wywiadu",
+      "Dostosowania języka do wieku"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Powtarzanie pytań sugerujących może nasilać konformizm i obniżać wiarygodność materiału dowodowego."
+  },
+  {
+    "id": 5,
+    "question": "Pojęcie poczytalności w kontekście psychologicznym odnosi się do:",
+    "options": [
+      "Poziomu wykształcenia oskarżonego",
+      "Zdolności rozpoznania znaczenia czynu i pokierowania swoim postępowaniem",
+      "Skłonności do kłamstwa",
+      "Stylu przywiązania"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Ocena poczytalności dotyczy funkcjonowania psychicznego sprawcy w chwili czynu i jego zdolności kontrolnych."
+  },
+  {
+    "id": 6,
+    "question": "Który błąd jest częsty w interpretacji testów w opiniowaniu sądowym?",
+    "options": [
+      "Opis ograniczeń metod",
+      "Nadmierna pewność wniosków przy niejednoznacznych danych",
+      "Triangulacja źródeł",
+      "Wskazanie alternatywnych hipotez"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Nadmierna kategoryczność przy słabych danych narusza standard ostrożności interpretacyjnej."
+  },
+  {
+    "id": 7,
+    "question": "W pracy biegłego konflikt ról pojawia się, gdy psycholog:",
+    "options": [
+      "Stosuje więcej niż jedną metodę diagnostyczną",
+      "Łączy rolę terapeuty i biegłego wobec tej samej osoby",
+      "Konsultuje opinię z superwizorem",
+      "Korzysta z literatury naukowej"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Łączenie ról może obniżać bezstronność i naruszać zasady etyczne opiniowania."
+  },
+  {
+    "id": 8,
+    "question": "Ocena ryzyka przemocy oparta na narzędziach aktuarialnych i klinicznych ma na celu:",
+    "options": [
+      "Przewidzenie zachowania ze 100% pewnością",
+      "Oszacowanie prawdopodobieństwa i czynników ryzyka/protekcyjnych",
+      "Zastąpienie decyzji organu procesowego",
+      "Ustalenie kary"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Modele ryzyka dostarczają probabilistycznej oceny wspierającej decyzje, nie gwarantują pełnej predykcji."
+  },
+  {
+    "id": 9,
+    "question": "Dlaczego dokumentowanie przebiegu badania biegłego jest kluczowe?",
+    "options": [
+      "Ponieważ skraca czas rozprawy",
+      "Zapewnia przejrzystość, możliwość kontroli metod i odtwarzalność wnioskowania",
+      "Zastępuje wywiad",
+      "Umożliwia rezygnację z uzasadnienia opinii"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Dokumentacja jest podstawą transparentności i oceny jakości opinii przez sąd oraz strony postępowania."
+  },
+  {
+    "id": 10,
+    "question": "W przypadku ograniczeń danych biegły powinien:",
+    "options": [
+      "Ukryć niepewność, by nie osłabiać opinii",
+      "Jawnie opisać ograniczenia i zakres możliwych wniosków",
+      "Odmówić każdej opinii niezależnie od kontekstu",
+      "Przeprowadzić wyłącznie test samoopisowy"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Rzetelna opinia wymaga jawnego komunikowania granic interpretacji i stopnia pewności."
+  }
+]

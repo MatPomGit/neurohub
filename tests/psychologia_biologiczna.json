@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "question": "Która struktura mózgu jest kluczowa dla konsolidacji pamięci epizodycznej?",
+    "options": [
+      "Ciało migdałowate",
+      "Hipokamp",
+      "Móżdżek",
+      "Wzgórze"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Hipokamp odgrywa centralną rolę w tworzeniu i konsolidacji nowych wspomnień epizodycznych."
+  },
+  {
+    "id": 2,
+    "question": "Neuroprzekaźnik najczęściej wiązany z układem nagrody i motywacją to:",
+    "options": [
+      "GABA",
+      "Dopamina",
+      "Acetylocholina",
+      "Glicyna"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Dopamina uczestniczy w kodowaniu wartości nagrody i uczeniu opartym na wzmocnieniu."
+  },
+  {
+    "id": 3,
+    "question": "Oś HPA w reakcji stresowej obejmuje kolejno:",
+    "options": [
+      "Podwzgórze–przysadka–nadnercza",
+      "Przysadka–rdzeń kręgowy–nadnercza",
+      "Hipokamp–podwzgórze–tarczyca",
+      "Kora przedczołowa–pień mózgu–przysadka"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Klasyczna odpowiedź stresowa przebiega przez oś podwzgórze-przysadka-nadnercza i prowadzi m.in. do wydzielania kortyzolu."
+  },
+  {
+    "id": 4,
+    "question": "Neuroplastyczność oznacza:",
+    "options": [
+      "Stałość połączeń neuronalnych po okresie dzieciństwa",
+      "Zdolność układu nerwowego do reorganizacji pod wpływem doświadczeń",
+      "Wyłącznie regenerację nerwów obwodowych",
+      "Brak wpływu środowiska na mózg"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Neuroplastyczność opisuje zmiany funkcjonalne i strukturalne mózgu zachodzące w uczeniu i adaptacji."
+  },
+  {
+    "id": 5,
+    "question": "Który płat kory mózgowej jest szczególnie zaangażowany w funkcje wykonawcze?",
+    "options": [
+      "Płat potyliczny",
+      "Płat skroniowy",
+      "Płat czołowy",
+      "Płat ciemieniowy"
+    ],
+    "correct": 2,
+    "difficulty": 1,
+    "justification": "Funkcje wykonawcze, takie jak planowanie i kontrola hamowania, silnie wiążą się z korą przedczołową płata czołowego."
+  },
+  {
+    "id": 6,
+    "question": "W EEG fale alfa najczęściej dominują:",
+    "options": [
+      "Podczas intensywnego wysiłku fizycznego",
+      "W stanie relaksu przy zamkniętych oczach",
+      "Wyłącznie podczas snu REM",
+      "W trakcie napadu padaczkowego"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Rytm alfa jest charakterystyczny dla czuwania w spokojnym stanie relaksu, zwłaszcza przy zamkniętych oczach."
+  },
+  {
+    "id": 7,
+    "question": "Ciało migdałowate pełni szczególnie ważną rolę w:",
+    "options": [
+      "Regulacji emocji i uczeniu lęku",
+      "Kontroli postawy ciała",
+      "Przetwarzaniu bodźców wzrokowych wysokiego rzędu",
+      "Produkcji hormonów tarczycy"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Ciało migdałowate uczestniczy w detekcji znaczenia emocjonalnego bodźców i warunkowaniu lękowym."
+  },
+  {
+    "id": 8,
+    "question": "Który hormon najczęściej wiąże się z przewlekłą odpowiedzią stresową?",
+    "options": [
+      "Oksytocyna",
+      "Kortyzol",
+      "Insulina",
+      "Melatonina"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Kortyzol jest końcowym hormonem osi HPA i markerem długotrwałej odpowiedzi na stresory."
+  },
+  {
+    "id": 9,
+    "question": "Uszkodzenie okolicy Broki najczęściej skutkuje:",
+    "options": [
+      "Afazją płynną",
+      "Trudnościami w ekspresji mowy przy względnie lepszym rozumieniu",
+      "Całkowitą utratą słuchu",
+      "Zniesieniem pamięci proceduralnej"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Afazja Broki charakteryzuje się mową niepłynną i wysiłkową przy relatywnie zachowanym rozumieniu."
+  },
+  {
+    "id": 10,
+    "question": "Które stwierdzenie o relacji geny–środowisko jest najbardziej trafne?",
+    "options": [
+      "Geny w pełni determinują zachowanie",
+      "Środowisko nie wpływa na ekspresję genów",
+      "Cechy psychologiczne wynikają z interakcji predyspozycji biologicznych i środowiska",
+      "Dziedziczność oznacza niezmienność cechy"
+    ],
+    "correct": 2,
+    "difficulty": 2,
+    "justification": "Współczesna psychologia biologiczna podkreśla interakcyjny model rozwoju cech i zachowań."
+  }
+]
