@@ -11,7 +11,10 @@
   const AXES = [
     { key: 'conservatism_acceptance', left: 'Konserwatyzm', right: 'Akceptacja' },
     { key: 'law_compassion', left: 'Prawo', right: 'Współczucie' },
-    { key: 'comfort_ambition', left: 'Wygoda', right: 'Ambicja' }
+    { key: 'comfort_ambition', left: 'Wygoda', right: 'Ambicja' },
+    { key: 'analysis_intuition', left: 'Intuicja', right: 'Analiza' },
+    { key: 'self_preservation_mission', left: 'Samoochrona', right: 'Misja' },
+    { key: 'stability_change', left: 'Stabilność', right: 'Zmiana' }
   ];
 
   const q = (id, text, options) => ({ id, text, options });
@@ -190,6 +193,9 @@
       if (!opt) continue;
       for (const [spec, val] of Object.entries(opt.scores || {})) specialtyScores[spec] += val;
       for (const [axis, val] of Object.entries(opt.axes || {})) axisScores[axis] += val;
+      /* Doliczamy trzy dodatkowe osie profilu na podstawie stylu odpowiedzi. */
+      const inferredAxes = inferDecisionAxes(opt);
+      for (const [axis, val] of Object.entries(inferredAxes)) axisScores[axis] += val;
     }
 
     const ranking = SPECIALTIES.map(s => ({ ...s, score: specialtyScores[s.key] }))
@@ -205,6 +211,35 @@
     });
 
     return { recommended, ranking: percentages, axes: axisResults };
+  }
+
+  /* Mapuje odpowiedź na dodatkowe osie „jak podejmujesz decyzje”. */
+  function inferDecisionAxes(option) {
+    const baseAxes = option.axes || {};
+    const specialty = option.scores || {};
+    const inferred = {
+      analysis_intuition: 0,
+      self_preservation_mission: 0,
+      stability_change: 0
+    };
+
+    /* Oś Intuicja ↔ Analiza: im więcej akcentu na dane/procedury, tym większa analiza. */
+    inferred.analysis_intuition += ((specialty.neuro || 0) * 2) + (specialty.sadowa || 0) + (specialty.kliniczna || 0);
+    inferred.analysis_intuition -= ((specialty.psychoterapia || 0) * 2) + (specialty.dziecieca || 0);
+    inferred.analysis_intuition += (baseAxes.comfort_ambition || 0) - (baseAxes.conservatism_acceptance || 0);
+
+    /* Oś Samoochrona ↔ Misja: czy wybór idzie bardziej w bezpieczeństwo własnej roli, czy w sens i wpływ. */
+    inferred.self_preservation_mission += ((specialty.zdrowia || 0) * 2) + (specialty.dziecieca || 0) + (specialty.psychoterapia || 0);
+    inferred.self_preservation_mission -= ((specialty.sadowa || 0) * 2) + (specialty.kliniczna || 0);
+    inferred.self_preservation_mission += (baseAxes.law_compassion || 0) + (baseAxes.conservatism_acceptance || 0);
+
+    /* Oś Stabilność ↔ Zmiana: zachowawczość proceduralna kontra gotowość do modyfikacji i eksperymentowania. */
+    inferred.stability_change += (baseAxes.conservatism_acceptance || 0) * 2;
+    inferred.stability_change -= (baseAxes.law_compassion || 0);
+    inferred.stability_change += (specialty.psychoterapia || 0) + (specialty.zdrowia || 0);
+    inferred.stability_change -= (specialty.sadowa || 0) + (specialty.kliniczna || 0);
+
+    return inferred;
   }
 
   window.SPECIALIZATION_TEST = { SPECIALTIES, AXES, QUESTIONS, evaluate };
