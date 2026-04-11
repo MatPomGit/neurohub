@@ -641,9 +641,50 @@ const mdCache = new Map();
 const emptyArticles = new Set();   /* IDs of articles whose files are empty or missing */
 const testAnswers = [];
 let testCurrentIndex = 0;
+let testAttemptState = { started: false, completed: false };
 let theoreticalTestState = null;
 let   current = null;
 const MOBILE_BREAKPOINT = 900; /* matches CSS @media(max-width:900px) */
+const SPECIALIZATION_TEST_COUNTER_KEY = 'psyhub-specialization-test-counter';
+
+/* Zwraca klucz daty (YYYY-MM-DD) w lokalnej strefie użytkownika do licznika dziennego. */
+function getTodayDateKey() {
+  const now = new Date();
+  const y = now.getFullYear();
+  const m = String(now.getMonth() + 1).padStart(2, '0');
+  const d = String(now.getDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
+}
+
+/* Odczytuje licznik z localStorage i zwraca bezpieczny obiekt z wartościami domyślnymi. */
+function readSpecializationTestCounter() {
+  try {
+    const raw = localStorage.getItem(SPECIALIZATION_TEST_COUNTER_KEY);
+    if (!raw) return { totalCompleted: 0, byDate: {} };
+    const parsed = JSON.parse(raw);
+    const totalCompleted = Number.isFinite(parsed?.totalCompleted) ? parsed.totalCompleted : 0;
+    const byDate = (parsed && typeof parsed.byDate === 'object' && parsed.byDate) ? parsed.byDate : {};
+    return { totalCompleted, byDate };
+  } catch (_) {
+    return { totalCompleted: 0, byDate: {} };
+  }
+}
+
+/* Zapisuje zaktualizowany licznik wszystkich i dziennych ukończeń testu specjalizacji. */
+function writeSpecializationTestCounter(counter) {
+  localStorage.setItem(SPECIALIZATION_TEST_COUNTER_KEY, JSON.stringify(counter));
+}
+
+/* Rejestruje zakończone podejście dokładnie raz na jedno przejście testu. */
+function registerCompletedSpecializationAttempt() {
+  if (testAttemptState.completed) return;
+  const counter = readSpecializationTestCounter();
+  const todayKey = getTodayDateKey();
+  counter.totalCompleted += 1;
+  counter.byDate[todayKey] = (counter.byDate[todayKey] || 0) + 1;
+  writeSpecializationTestCounter(counter);
+  testAttemptState.completed = true;
+}
 
 function buildPageMap() {
   for (const sec of SITE_CONFIG.nav)
@@ -839,6 +880,8 @@ function renderSpecializationTest(id, item) {
 
   const total = test.QUESTIONS.length;
   const answered = testAnswers.filter(v => typeof v === 'number').length;
+  const counter = readSpecializationTestCounter();
+  const todayCount = counter.byDate[getTodayDateKey()] || 0;
   const clampedIndex = Math.min(Math.max(testCurrentIndex, 0), total - 1);
   testCurrentIndex = Number.isFinite(clampedIndex) ? clampedIndex : 0;
   const question = test.QUESTIONS[testCurrentIndex];
@@ -862,6 +905,7 @@ function renderSpecializationTest(id, item) {
     </div>
     <p class="test-intro">Pytania są celowo nieoczywiste i zawierają scenki oraz dylematy etyczno-praktyczne (m.in. medycyna, farmakologia, diagnostyka, statystyka, neurologia i kompetencje miękkie).</p>
     <div class="test-meta">Udzielone odpowiedzi: <strong>${answered}/${total}</strong></div>
+    <div class="test-meta">Wypełnione podejścia łącznie: <strong>${counter.totalCompleted}</strong> · Dzisiaj: <strong>${todayCount}</strong></div>
     <div class="test-actions">
       <button class="test-btn" onclick="resetSpecializationTest()">Wyczyść odpowiedzi</button>
       <button class="test-btn" onclick="goToPrevQuestion()" ${testCurrentIndex===0?'disabled':''}>Poprzednie pytanie</button>
@@ -903,10 +947,17 @@ function renderTestResults(result) {
 }
 
 window.selectTestAnswer = function(questionIndex, optionIndex) {
+  /* Pierwsza odpowiedź oznacza rozpoczęcie nowego podejścia do testu. */
+  testAttemptState.started = true;
   testAnswers[questionIndex] = optionIndex;
   const test = window.SPECIALIZATION_TEST;
   if (test && questionIndex < test.QUESTIONS.length - 1) {
     testCurrentIndex = questionIndex + 1;
+  }
+  /* Po domknięciu wszystkich odpowiedzi zapisujemy ukończone podejście. */
+  const answered = testAnswers.filter(v => typeof v === 'number').length;
+  if (test && answered === test.QUESTIONS.length) {
+    registerCompletedSpecializationAttempt();
   }
   if (current === 'students/test_specjalnosci') {
     renderSpecializationTest(current, pageMap.get(current));
@@ -916,6 +967,8 @@ window.selectTestAnswer = function(questionIndex, optionIndex) {
 window.resetSpecializationTest = function() {
   testAnswers.length = 0;
   testCurrentIndex = 0;
+  /* Reset przygotowuje nową próbę i odblokowuje możliwość kolejnego zliczenia ukończenia. */
+  testAttemptState = { started: false, completed: false };
   if (current === 'students/test_specjalnosci') {
     renderSpecializationTest(current, pageMap.get(current));
   }
