@@ -1,5 +1,5 @@
 /**
- * site-config.js — PsyHub v3.1 "Knedlozarł"
+ * site-config.js — PsyHub v3.2 "bulbulgator"
  * Jedyne źródło prawdy: nawigacja, mapowanie plików MD, definicje WIKI.
  *
  * Konwencja statusów artykułu:
@@ -108,6 +108,7 @@ window.SITE_CONFIG = {
         { id: 'spoleczna/eksperyment_wiezienny', label: 'Stanfordzki Eksperyment Więzienny', file: 'wiki/spoleczna/eksperyment_wiezienny.md' },
         { id: 'spoleczna/manipulacja', label: 'Manipulacja — mechanizmy i metody wpływu', file: 'wiki/spoleczna/manipulacja.md' },
         { id: 'spoleczna/stereotypy', label: 'Stereotypy i uprzedzenia', file: 'wiki/spoleczna/stereotypy.md' },
+        { id: 'spoleczna/manosfera_feminizm', label: 'Manosfera i feminizm — ujęcie psychologiczne', file: 'wiki/spoleczna/manosfera_feminizm.md' },
         { id: 'spoleczna/ja_i_samoocena', label: 'Ja i samoocena', file: 'wiki/spoleczna/ja_i_samoocena.md' },
         { id: 'spoleczna/postawy', label: 'Postawy i zmiana postaw', file: 'wiki/spoleczna/postawy.md' },
         { id: 'spoleczna/konformizm', label: 'Konformizm i posłuszeństwo', file: 'wiki/spoleczna/konformizm.md' },
@@ -159,6 +160,7 @@ window.SITE_CONFIG = {
         { id: 'relacje/trojkatna_teoria_milosci', label: 'Triangularna teoria miłości', file: 'wiki/relacje/trojkatna_teoria_milosci.md' },
         { id: 'relacje/dobor_partnera', label: 'Dobór partnera', file: 'wiki/relacje/dobor_partnera.md' },
         { id: 'relacje/komunikacja_para', label: 'Komunikacja w parze', file: 'wiki/relacje/komunikacja_para.md' },
+        { id: 'relacje/glebia_relacji_a_traumy', label: 'Głębia relacji a dzielenie się traumą', file: 'wiki/relacje/glebia_relacji_a_traumy.md' },
         { id: 'relacje/konflikty', label: 'Konflikty i ich rozwiązywanie', file: 'wiki/relacje/konflikty.md' },
         { id: 'relacje/zdrada', label: 'Zdrada i odbudowa zaufania', file: 'wiki/relacje/zdrada.md' },
         { id: 'relacje/terapia_par', label: 'Terapia par', file: 'wiki/relacje/terapia_par.md' },
@@ -645,11 +647,17 @@ window.SITE_CONFIG = {
       section: 'Seksuologia',
       items: [
         { id: 'sexology/seksuologia_wprowadzenie', label: 'Seksuologia — wprowadzenie', file: 'wiki/sexology/seksuologia_wprowadzenie.md' },
+        { id: 'sexology/psychologia_seksu',         label: 'Psychologia seksu',           file: 'wiki/sexology/psychologia_seksu.md'         },
+        { id: 'sexology/emocjonalne_zaangazowanie_w_seksie', label: 'Emocjonalne zaangażowanie a seks', file: 'wiki/sexology/emocjonalne_zaangazowanie_w_seksie.md' },
+        { id: 'sexology/wstyd_ciala_a_pozycje',      label: 'Wstyd ciała a pozycje seksualne', file: 'wiki/sexology/wstyd_ciala_a_pozycje.md'      },
         { id: 'sexology/orientacja',               label: 'Orientacja seksualna',        file: 'wiki/sexology/orientacja.md'               },
         { id: 'sexology/tozsamosc_plciowa',        label: 'Tożsamość płciowa',           file: 'wiki/sexology/tozsamosc_plciowa.md'        },
         { id: 'sexology/dysfunkcje',               label: 'Dysfunkcje seksualne',        file: 'wiki/sexology/dysfunkcje.md'               },
+        { id: 'sexology/hiperseksualnosc_mechanizm', label: 'Hiperseksualność jako mechanizm', file: 'wiki/sexology/hiperseksualnosc_mechanizm.md' },
         { id: 'sexology/terapia_seksualna',        label: 'Terapia seksualna',           file: 'wiki/sexology/terapia_seksualna.md'        },
         { id: 'sexology/trauma_seksualna',         label: 'Trauma seksualna',            file: 'wiki/sexology/trauma_seksualna.md'         },
+        { id: 'sexology/przemoc_w_dziecinstwie_a_seksualnosc', label: 'Przemoc w dzieciństwie a seksualność dorosłych', file: 'wiki/sexology/przemoc_w_dziecinstwie_a_seksualnosc.md' },
+        { id: 'sexology/dda_a_seksualnosc',         label: 'DDA a seksualność dorosłych', file: 'wiki/sexology/dda_a_seksualnosc.md'         },
         { id: 'sexology/rozw_seksualny',           label: 'Rozwój seksualny',            file: 'wiki/sexology/rozw_seksualny.md'           },
         { id: 'sexology/modele_odpowiedzi',        label: 'Modele odpowiedzi seksualnej',file: 'wiki/sexology/modele_odpowiedzi.md'        },
       ]
@@ -881,6 +889,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/spoleczna/eksperyment_wiezienny.md', label: 'Stanfordzki Eksperyment Więzienny', status: 'live' },
       { file: 'wiki/spoleczna/manipulacja.md', label: 'Manipulacja — mechanizmy i metody wpływu', status: 'live' },
       { file: 'wiki/spoleczna/stereotypy.md', label: 'Stereotypy i uprzedzenia', status: 'live' },
+      { file: 'wiki/spoleczna/manosfera_feminizm.md', label: 'Manosfera i feminizm — ujęcie psychologiczne', status: 'live' },
       { file: 'wiki/spoleczna/ja_i_samoocena.md', label: 'Ja i samoocena', status: 'live' },
       { file: 'wiki/spoleczna/postawy.md', label: 'Postawy i zmiana postaw', status: 'live' },
       { file: 'wiki/spoleczna/konformizm.md', label: 'Konformizm i posłuszeństwo', status: 'live' },
@@ -1056,11 +1065,17 @@ window.SITE_CONFIG = {
     ],
     sexology: [
       { file: 'wiki/sexology/seksuologia_wprowadzenie.md', label: 'Seksuologia — wprowadzenie', status: 'live' },
+      { file: 'wiki/sexology/psychologia_seksu.md',      label: 'Psychologia seksu',         status: 'live' },
+      { file: 'wiki/sexology/emocjonalne_zaangazowanie_w_seksie.md', label: 'Emocjonalne zaangażowanie a seks', status: 'live' },
+      { file: 'wiki/sexology/wstyd_ciala_a_pozycje.md',   label: 'Wstyd ciała a pozycje seksualne', status: 'live' },
       { file: 'wiki/sexology/orientacja.md',         label: 'Orientacja seksualna',      status: 'live' },
       { file: 'wiki/sexology/tozsamosc_plciowa.md',  label: 'Tożsamość płciowa',         status: 'live' },
       { file: 'wiki/sexology/dysfunkcje.md',         label: 'Dysfunkcje seksualne',      status: 'live' },
+      { file: 'wiki/sexology/hiperseksualnosc_mechanizm.md', label: 'Hiperseksualność jako mechanizm', status: 'live' },
       { file: 'wiki/sexology/terapia_seksualna.md',  label: 'Terapia seksualna',         status: 'live' },
       { file: 'wiki/sexology/trauma_seksualna.md',   label: 'Trauma seksualna',          status: 'live' },
+      { file: 'wiki/sexology/przemoc_w_dziecinstwie_a_seksualnosc.md', label: 'Przemoc w dzieciństwie a seksualność dorosłych', status: 'live' },
+      { file: 'wiki/sexology/dda_a_seksualnosc.md',    label: 'DDA a seksualność dorosłych', status: 'live' },
       { file: 'wiki/sexology/rozw_seksualny.md',     label: 'Rozwój seksualny',          status: 'live' },
       { file: 'wiki/sexology/modele_odpowiedzi.md',  label: 'Modele odpowiedzi seksualnej', status: 'live' },
     ],
@@ -1669,6 +1684,7 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Percepcja społeczna i atrybucje', id: 'spoleczna/percepcja_spoleczna', status: 'live' },
             { label: 'Stereotypy i uprzedzenia', id: 'spoleczna/stereotypy', status: 'live' },
+            { label: 'Manosfera i feminizm — ujęcie psychologiczne', id: 'spoleczna/manosfera_feminizm', status: 'live' },
             { label: 'Ja i samoocena', id: 'spoleczna/ja_i_samoocena', status: 'live' },
             { label: 'Postawy i zmiana postaw', id: 'spoleczna/postawy', status: 'live' },
           ]
@@ -1871,18 +1887,24 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Terapia par', id: 'relacje/terapia_par', status: 'live' },
             { label: 'Przemoc w związkach', id: 'relacje/przemoc_zwiazki', status: 'live' },
-            { label: 'Psychologia seksu', id: 'sexology/seksuologia_wprowadzenie', status: 'xlink' },
+            { label: 'Psychologia seksu', id: 'sexology/psychologia_seksu', status: 'xlink' },
           ]
         },
         {
           title: 'Seksuologia',
           articles: [
             { label: 'Seksuologia — wprowadzenie', id: 'sexology/seksuologia_wprowadzenie', status: 'live' },
+            { label: 'Psychologia seksu', id: 'sexology/psychologia_seksu', status: 'live' },
+            { label: 'Emocjonalne zaangażowanie a seks', id: 'sexology/emocjonalne_zaangazowanie_w_seksie', status: 'live' },
+            { label: 'Wstyd ciała a pozycje seksualne', id: 'sexology/wstyd_ciala_a_pozycje', status: 'live' },
             { label: 'Orientacja seksualna', id: 'sexology/orientacja', status: 'live' },
             { label: 'Tożsamość płciowa', id: 'sexology/tozsamosc_plciowa', status: 'live' },
             { label: 'Dysfunkcje seksualne', id: 'sexology/dysfunkcje', status: 'live' },
+            { label: 'Hiperseksualność jako mechanizm', id: 'sexology/hiperseksualnosc_mechanizm', status: 'live' },
             { label: 'Terapia seksualna', id: 'sexology/terapia_seksualna', status: 'live' },
             { label: 'Trauma seksualna', id: 'sexology/trauma_seksualna', status: 'live' },
+            { label: 'Przemoc w dzieciństwie a seksualność dorosłych', id: 'sexology/przemoc_w_dziecinstwie_a_seksualnosc', status: 'live' },
+            { label: 'DDA a seksualność dorosłych', id: 'sexology/dda_a_seksualnosc', status: 'live' },
             { label: 'Rozwój seksualny', id: 'sexology/rozw_seksualny', status: 'live' },
             { label: 'Modele odpowiedzi seksualnej', id: 'sexology/modele_odpowiedzi', status: 'live' },
           ]
