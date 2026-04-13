@@ -646,6 +646,7 @@ window.SITE_CONFIG = {
       section: 'Seksuologia',
       items: [
         { id: 'sexology/seksuologia_wprowadzenie', label: 'Seksuologia — wprowadzenie', file: 'wiki/sexology/seksuologia_wprowadzenie.md' },
+        { id: 'sexology/psychologia_seksu',         label: 'Psychologia seksu',           file: 'wiki/sexology/psychologia_seksu.md'         },
         { id: 'sexology/orientacja',               label: 'Orientacja seksualna',        file: 'wiki/sexology/orientacja.md'               },
         { id: 'sexology/tozsamosc_plciowa',        label: 'Tożsamość płciowa',           file: 'wiki/sexology/tozsamosc_plciowa.md'        },
         { id: 'sexology/dysfunkcje',               label: 'Dysfunkcje seksualne',        file: 'wiki/sexology/dysfunkcje.md'               },
@@ -1057,6 +1058,7 @@ window.SITE_CONFIG = {
     ],
     sexology: [
       { file: 'wiki/sexology/seksuologia_wprowadzenie.md', label: 'Seksuologia — wprowadzenie', status: 'live' },
+      { file: 'wiki/sexology/psychologia_seksu.md',      label: 'Psychologia seksu',         status: 'live' },
       { file: 'wiki/sexology/orientacja.md',         label: 'Orientacja seksualna',      status: 'live' },
       { file: 'wiki/sexology/tozsamosc_plciowa.md',  label: 'Tożsamość płciowa',         status: 'live' },
       { file: 'wiki/sexology/dysfunkcje.md',         label: 'Dysfunkcje seksualne',      status: 'live' },
@@ -1872,13 +1874,14 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Terapia par', id: 'relacje/terapia_par', status: 'live' },
             { label: 'Przemoc w związkach', id: 'relacje/przemoc_zwiazki', status: 'live' },
-            { label: 'Psychologia seksu', id: 'sexology/seksuologia_wprowadzenie', status: 'xlink' },
+            { label: 'Psychologia seksu', id: 'sexology/psychologia_seksu', status: 'xlink' },
           ]
         },
         {
           title: 'Seksuologia',
           articles: [
             { label: 'Seksuologia — wprowadzenie', id: 'sexology/seksuologia_wprowadzenie', status: 'live' },
+            { label: 'Psychologia seksu', id: 'sexology/psychologia_seksu', status: 'live' },
             { label: 'Orientacja seksualna', id: 'sexology/orientacja', status: 'live' },
             { label: 'Tożsamość płciowa', id: 'sexology/tozsamosc_plciowa', status: 'live' },
             { label: 'Dysfunkcje seksualne', id: 'sexology/dysfunkcje', status: 'live' },
