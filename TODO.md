@@ -88,3 +88,7 @@
   **Właściciel:** Tooling + Content  
   **Priorytet:** P3  
   **Definition of Done:** CLI przyjmuje domenę i tytuł, tworzy plik `.md` z gotowym szkieletem sekcji i metadanych.
+
+- [ ] **Nowa zakładka z 12 artykułami 'Somatic Experiencing jako metoda pracy ze stresem i traumą'**
+- [ ] **Nowa zakładka z 12 artykułami 'Wstęp do psychologii klinicznej dziecka'**
+- [ ] **Nowa zakładka z 12 artykułami 'Reagowanie na krytykę'** 
