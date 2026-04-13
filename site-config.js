@@ -1,5 +1,5 @@
 /**
- * site-config.js — PsyHub v3.1 "Knedlozarł"
+ * site-config.js — PsyHub v3.2 "bulbulgator"
  * Jedyne źródło prawdy: nawigacja, mapowanie plików MD, definicje WIKI.
  *
  * Konwencja statusów artykułu:
@@ -108,6 +108,7 @@ window.SITE_CONFIG = {
         { id: 'spoleczna/eksperyment_wiezienny', label: 'Stanfordzki Eksperyment Więzienny', file: 'wiki/spoleczna/eksperyment_wiezienny.md' },
         { id: 'spoleczna/manipulacja', label: 'Manipulacja — mechanizmy i metody wpływu', file: 'wiki/spoleczna/manipulacja.md' },
         { id: 'spoleczna/stereotypy', label: 'Stereotypy i uprzedzenia', file: 'wiki/spoleczna/stereotypy.md' },
+        { id: 'spoleczna/manosfera_feminizm', label: 'Manosfera i feminizm — ujęcie psychologiczne', file: 'wiki/spoleczna/manosfera_feminizm.md' },
         { id: 'spoleczna/ja_i_samoocena', label: 'Ja i samoocena', file: 'wiki/spoleczna/ja_i_samoocena.md' },
         { id: 'spoleczna/postawy', label: 'Postawy i zmiana postaw', file: 'wiki/spoleczna/postawy.md' },
         { id: 'spoleczna/konformizm', label: 'Konformizm i posłuszeństwo', file: 'wiki/spoleczna/konformizm.md' },
@@ -883,6 +884,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/spoleczna/eksperyment_wiezienny.md', label: 'Stanfordzki Eksperyment Więzienny', status: 'live' },
       { file: 'wiki/spoleczna/manipulacja.md', label: 'Manipulacja — mechanizmy i metody wpływu', status: 'live' },
       { file: 'wiki/spoleczna/stereotypy.md', label: 'Stereotypy i uprzedzenia', status: 'live' },
+      { file: 'wiki/spoleczna/manosfera_feminizm.md', label: 'Manosfera i feminizm — ujęcie psychologiczne', status: 'live' },
       { file: 'wiki/spoleczna/ja_i_samoocena.md', label: 'Ja i samoocena', status: 'live' },
       { file: 'wiki/spoleczna/postawy.md', label: 'Postawy i zmiana postaw', status: 'live' },
       { file: 'wiki/spoleczna/konformizm.md', label: 'Konformizm i posłuszeństwo', status: 'live' },
@@ -1672,6 +1674,7 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Percepcja społeczna i atrybucje', id: 'spoleczna/percepcja_spoleczna', status: 'live' },
             { label: 'Stereotypy i uprzedzenia', id: 'spoleczna/stereotypy', status: 'live' },
+            { label: 'Manosfera i feminizm — ujęcie psychologiczne', id: 'spoleczna/manosfera_feminizm', status: 'live' },
             { label: 'Ja i samoocena', id: 'spoleczna/ja_i_samoocena', status: 'live' },
             { label: 'Postawy i zmiana postaw', id: 'spoleczna/postawy', status: 'live' },
           ]
