@@ -159,6 +159,7 @@ window.SITE_CONFIG = {
         { id: 'relacje/trojkatna_teoria_milosci', label: 'Triangularna teoria miłości', file: 'wiki/relacje/trojkatna_teoria_milosci.md' },
         { id: 'relacje/dobor_partnera', label: 'Dobór partnera', file: 'wiki/relacje/dobor_partnera.md' },
         { id: 'relacje/komunikacja_para', label: 'Komunikacja w parze', file: 'wiki/relacje/komunikacja_para.md' },
+        { id: 'relacje/glebia_relacji_a_traumy', label: 'Głębia relacji a dzielenie się traumą', file: 'wiki/relacje/glebia_relacji_a_traumy.md' },
         { id: 'relacje/konflikty', label: 'Konflikty i ich rozwiązywanie', file: 'wiki/relacje/konflikty.md' },
         { id: 'relacje/zdrada', label: 'Zdrada i odbudowa zaufania', file: 'wiki/relacje/zdrada.md' },
         { id: 'relacje/terapia_par', label: 'Terapia par', file: 'wiki/relacje/terapia_par.md' },
