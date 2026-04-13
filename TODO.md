@@ -93,3 +93,8 @@
 - [ ] **Nowa zakładka z 12 artykułami 'Wstęp do psychologii klinicznej dziecka'**
 - [ ] **Nowa zakładka z 12 artykułami 'Reagowanie na krytykę'**
 - [ ] **Nowa zakładka z 12 artykułami 'Psychologia nadmiernego jedzenia'**
+- [ ] **Nowa zakładka z 12 artykułami 'Instytucje pomocy dziecku i rodzinie'**
+- [ ] **Nowa zakładka z 12 artykułami 'Systemy rodzinne'**
+- [ ] **Nowa zakładka z 12 artykułami 'Wystapienia publiczne i autoprezentacja'**
+- [ ] **Nowa zakładka z 12 artykułami 'Psycholog w IT'**
+- [ ] **Nowa zakładka z 12 artykułami 'Psycholog w IT'**
