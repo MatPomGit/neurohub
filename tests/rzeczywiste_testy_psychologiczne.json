@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "question": "Który test najczęściej wykorzystuje się do przesiewowej oceny funkcji poznawczych u osób starszych w praktyce ambulatoryjnej?",
+    "options": ["MMPI-2", "MoCA", "Rorschach", "ADOS-2"],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "MoCA jest często stosowanym narzędziem przesiewowym do wykrywania łagodnych zaburzeń poznawczych i wczesnych deficytów neurokognitywnych."
+  },
+  {
+    "id": 2,
+    "question": "W badaniu inteligencji osoby dorosłej narzędziem pierwszego wyboru jest zazwyczaj:",
+    "options": ["WAIS", "WISC-V", "CBCL", "SCID-5"],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "WAIS służy do oceny inteligencji osób dorosłych, natomiast WISC-V dotyczy dzieci i młodzieży."
+  },
+  {
+    "id": 3,
+    "question": "Które twierdzenie najlepiej opisuje rzetelność testu?",
+    "options": ["Czy test mierzy to, co powinien mierzyć", "Czy wynik testu jest stabilny i powtarzalny", "Czy test ma normy międzynarodowe", "Czy test jest krótki"],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Rzetelność odnosi się do precyzji i stabilności pomiaru, np. poprzez zgodność wewnętrzną lub test-retest."
+  },
+  {
+    "id": 4,
+    "question": "Wynik stenowy 9 w skali osobowości oznacza najczęściej:",
+    "options": ["Wynik niski", "Wynik przeciętny", "Wynik wysoki", "Wynik nieważny"],
+    "correct": 2,
+    "difficulty": 1,
+    "justification": "W skali stenowej wynik 9–10 interpretuje się jako wysoki."
+  },
+  {
+    "id": 5,
+    "question": "Który element powinien pojawić się w informacji zwrotnej po badaniu psychologicznym?",
+    "options": ["Tylko surowe wyniki punktowe", "Opis ograniczeń badania i kontekstu interpretacji", "Wyłącznie rozpoznanie ICD", "Brak rekomendacji"],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Dobra praktyka diagnostyczna obejmuje omówienie ograniczeń, mocnych stron i kontekstu wyniku."
+  },
+  {
+    "id": 6,
+    "question": "W teście BDI-II wysokie nasilenie objawów najczęściej sugeruje:",
+    "options": ["Objawy psychotyczne", "Nasilone objawy depresyjne wymagające pogłębionej oceny", "Zaburzenie osobowości", "Symulację"],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "BDI-II jest narzędziem samoopisowym do oceny nasilenia objawów depresyjnych, nie stawia samodzielnie diagnozy nozologicznej."
+  },
+  {
+    "id": 7,
+    "question": "Który wskaźnik najlepiej odzwierciedla zgodność wewnętrzną pozycji testowych?",
+    "options": ["Alfa Cronbacha", "Współczynnik V Craméra", "Test t-Studenta", "R2"],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Alfa Cronbacha służy do oceny spójności pozycji, które mają mierzyć ten sam konstrukt."
+  },
+  {
+    "id": 8,
+    "question": "Wynik istotnie poniżej średniej w teście uwagi selektywnej należy interpretować przede wszystkim:",
+    "options": ["Jako pewny dowód ADHD", "W kontekście całego wywiadu, obserwacji i innych testów", "Jako błąd aparatury", "Jako podstawę do natychmiastowej hospitalizacji"],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Pojedynczy wynik testu nie wystarcza do diagnozy; konieczna jest integracja danych z wielu źródeł."
+  },
+  {
+    "id": 9,
+    "question": "W badaniach przesiewowych fałszywie dodatni wynik oznacza, że:",
+    "options": ["Test nie wykrył zaburzenia mimo jego obecności", "Test wskazał zaburzenie mimo jego braku", "Wynik jest zawsze nieważny", "Badany odmówił odpowiedzi"],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Fałszywie dodatni wynik to klasyczny błąd typu I na poziomie decyzji diagnostycznej."
+  },
+  {
+    "id": 10,
+    "question": "Która praktyka zwiększa trafność oceny psychologicznej w środowisku klinicznym?",
+    "options": ["Opieranie się wyłącznie na jednym teście", "Triangulacja danych: testy, wywiad i obserwacja", "Pomijanie danych od rodziny", "Interpretowanie bez norm"],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Łączenie wielu źródeł danych zwykle zwiększa trafność wnioskowania klinicznego."
+  },
+  {
+    "id": 11,
+    "question": "Który czynnik najczęściej obniża porównywalność wyniku testu między osobami?",
+    "options": ["Standaryzowana instrukcja", "Różne warunki badania i zakłócenia środowiskowe", "Normy wiekowe", "Podręcznik testowy"],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Niestandaryzowane warunki badania zwiększają wariancję błędu i utrudniają rzetelne porównania."
+  },
+  {
+    "id": 12,
+    "question": "Wynik wysoki w skali kłamstwa (L) w inwentarzu osobowości może sugerować:",
+    "options": ["Skrajną impulsywność", "Tendencję do prezentowania się w nadmiernie korzystnym świetle", "Zaburzenia pamięci świeżej", "Objawy maniakalne"],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Wysoka skala L bywa interpretowana jako defensywna autoprezentacja i możliwe zaniżanie trudności."
+  },
+  {
+    "id": 13,
+    "question": "W opinii psychologicznej dla sądu najbardziej kluczowa jest:",
+    "options": ["Użycie specjalistycznego żargonu", "Jasna odpowiedź na pytanie sądu i transparentny tok wnioskowania", "Maksymalna objętość opisu", "Brak odniesienia do danych"],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Opinia sądowa powinna być czytelna, odpowiadać na tezę dowodową i opierać się na udokumentowanych przesłankach."
+  },
+  {
+    "id": 14,
+    "question": "Jeżeli osoba badana ma istotne ograniczenia językowe, najwłaściwszym działaniem diagnosty jest:",
+    "options": ["Kontynuowanie standardowej procedury bez zmian", "Dostosowanie narzędzi i opisanie wpływu ograniczeń na interpretację", "Zrezygnowanie z dokumentowania badania", "Zgadywanie odpowiedzi na podstawie zachowania"],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Adaptacja procedury i jawne opisanie ograniczeń zwiększa etyczność oraz użyteczność wniosków."
+  },
+  {
+    "id": 15,
+    "question": "Który scenariusz najlepiej uzasadnia wykonanie ponownego badania testowego?",
+    "options": ["Gdy wynik jest zgodny z obrazem klinicznym", "Gdy w trakcie pierwszego badania wystąpiły silne zakłócenia i brak współpracy", "Zawsze po 24 godzinach", "Nigdy"],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Re-test jest uzasadniony, gdy pierwsza procedura była obarczona istotnymi czynnikami zniekształcającymi wynik."
+  },
+  {
+    "id": 16,
+    "question": "W podejściu evidence-based assessment psycholog powinien przede wszystkim:",
+    "options": ["Polegać na intuicji", "Łączyć dane empiryczne, kompetencje kliniczne i preferencje klienta", "Unikać narzędzi standaryzowanych", "Interpretować wynik bez norm"],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "EBA zakłada integrację dowodów naukowych, doświadczenia klinicznego i kontekstu osoby badanej."
+  },
+  {
+    "id": 17,
+    "question": "Najbardziej etyczny sposób przekazania trudnej informacji po badaniu to:",
+    "options": ["Suchy odczyt wyników bez pytań", "Komunikacja zrozumiała, empatyczna i oparta na zaleceniach", "Przekazanie wyników wyłącznie rodzinie", "Zatajenie niepewności interpretacyjnej"],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Informacja zwrotna powinna być zrozumiała i wspierająca, z zaznaczeniem niepewności i kierunków pomocy."
+  },
+  {
+    "id": 18,
+    "question": "Który błąd poznawczy jest szczególnie ryzykowny przy interpretacji testów?",
+    "options": ["Efekt świeżości", "Błąd konfirmacji", "Heurystyka zakotwiczenia czasowego", "Efekt halo pozytywnego nastroju"],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Błąd konfirmacji może prowadzić do wybiórczego traktowania danych zgodnie z początkową hipotezą diagnostyczną."
+  }
+]

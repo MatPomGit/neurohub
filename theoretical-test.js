@@ -117,6 +117,25 @@
         label: 'Geropsychologia',
         file: 'tests/geropsychologia.json',
         icon: '👵'
+      },
+      /* Moduły przekrojowe rozszerzające sekcję testów o zastosowania praktyczne. */
+      {
+        key: 'rzeczywiste_testy_psychologiczne',
+        label: 'Moduł rzeczywistych testów psychologicznych',
+        file: 'tests/rzeczywiste_testy_psychologiczne.json',
+        icon: '🧪'
+      },
+      {
+        key: 'winiety_kliniczne',
+        label: 'Moduł winiet klinicznych',
+        file: 'tests/winiety_kliniczne.json',
+        icon: '🩺'
+      },
+      {
+        key: 'egzamin_dyplomowy',
+        label: 'Moduł egzaminu dyplomowego',
+        file: 'tests/egzamin_dyplomowy.json',
+        icon: '🎓'
       }
     ]
   };
