@@ -91,4 +91,5 @@
 
 - [ ] **Nowa zakładka z 12 artykułami 'Somatic Experiencing jako metoda pracy ze stresem i traumą'**
 - [ ] **Nowa zakładka z 12 artykułami 'Wstęp do psychologii klinicznej dziecka'**
-- [ ] **Nowa zakładka z 12 artykułami 'Reagowanie na krytykę'** 
+- [ ] **Nowa zakładka z 12 artykułami 'Reagowanie na krytykę'**
+- [ ] **Nowa zakładka z 12 artykułami 'Psychologia nadmiernego jedzenia'**
