@@ -97,4 +97,5 @@
 - [ ] **Nowa zakładka z 12 artykułami 'Systemy rodzinne'**
 - [ ] **Nowa zakładka z 12 artykułami 'Wystapienia publiczne i autoprezentacja'**
 - [ ] **Nowa zakładka z 12 artykułami 'Psycholog w IT'**
-- [ ] **Nowa zakładka z 12 artykułami 'Psycholog w IT'**
+- [ ] **Nowa zakładka z 12 artykułami 'Resocjalizacja'**
+- [ ] Artykuł dotyczący zachowania i dwóch półkul mózgu.
