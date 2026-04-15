@@ -99,3 +99,4 @@
 - [ ] **Nowa zakładka z 12 artykułami 'Psycholog w IT'**
 - [ ] **Nowa zakładka z 12 artykułami 'Resocjalizacja'**
 - [ ] Artykuł dotyczący zachowania i dwóch półkul mózgu.
+- [ ] Addon // mały stworek chodzący po stronie
