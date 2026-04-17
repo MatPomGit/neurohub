@@ -37,6 +37,8 @@ window.SITE_CONFIG = {
         { id: 'students/etyka_studenta',     label: 'Etyka studenta psychologii', file: 'wiki/students/etyka_studenta.md' },
         { id: 'students/psychologia_codziennej', label: 'Psychologia codzienna',    custom: 'daily_psychology' },
         { id: 'students/testy_teoretyczne',      label: 'Testy teoretyczne',         custom: 'theoretical_test' },
+        { id: 'students/winietki_kliniczne',     label: 'Winietki kliniczne',        custom: 'theoretical_test', presetTopic: 'winiety_kliniczne' },
+        { id: 'students/testy_dyplomowe',        label: 'Testy dyplomowe',           custom: 'theoretical_test', presetTopic: 'egzamin_dyplomowy' },
         /**{ id: 'students/monopoly_psychologiczne', href: 'https://matpomgit.github.io/Psychopoly/', label: 'Monopoly Psychologiczne' },*/
       ]
     },
