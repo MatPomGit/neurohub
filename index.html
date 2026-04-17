@@ -1122,6 +1122,12 @@ function ttSelectQuestions(allQuestions, length, difficulty) {
   return ttShuffle(selected);
 }
 
+/* Sprawdza, czy aktywna podstrona korzysta ze wspólnego modułu testów teoretycznych. */
+function isTheoreticalTestPageActive() {
+  const activeItem = pageMap.get(current);
+  return Boolean(activeItem && activeItem.custom === 'theoretical_test');
+}
+
 function renderTheoreticalTest(id, item) {
   const area = document.getElementById('content');
   setBreadcrumb(item);
@@ -1133,7 +1139,8 @@ function renderTheoreticalTest(id, item) {
   if (!theoreticalTestState) {
     theoreticalTestState = {
       phase: 'setup',
-      topicKey: cfg.topics[0].key,
+      /* Dla skrótów w menu "Dla studentów" ustawiamy domyślny temat modułu. */
+      topicKey: item.presetTopic || cfg.topics[0].key,
       length: 30,
       difficulty: 'normal',
       questions: [],
@@ -1144,6 +1151,14 @@ function renderTheoreticalTest(id, item) {
     };
   }
   const st = theoreticalTestState;
+  /* Synchronizacja skrótu tematycznego działa wyłącznie podczas konfiguracji testu. */
+  if (st.phase === 'setup' && item.presetTopic && st.topicKey !== item.presetTopic) {
+    st.topicKey = item.presetTopic;
+  }
+  const heroTitle = item.label || 'Testy Teoretyczne';
+  const heroLead = item.presetTopic
+    ? 'Uruchom dedykowany test dla wybranego modułu i sprawdź wynik wraz z uzasadnieniami odpowiedzi.'
+    : 'Sprawdź swoją wiedzę z wybranego zakresu psychologii. Odpowiedz na pytania zamknięte i sprawdź wynik.';
   if (st.phase === 'setup') {
     const topicsHtml = cfg.topics.map(t => {
       const active = t.key === st.topicKey ? ' active' : '';
@@ -1163,8 +1178,8 @@ function renderTheoreticalTest(id, item) {
     area.innerHTML = `<div class="rendered ttest-wrap">
       <div class="page-hero">
         <span class="chapter-lbl">${item.section || ''}</span>
-        <h1>Testy Teoretyczne</h1>
-        <p class="lead">Sprawdź swoją wiedzę z wybranego zakresu psychologii. Odpowiedz na pytania zamknięte i sprawdź wynik.</p>
+        <h1>${heroTitle}</h1>
+        <p class="lead">${heroLead}</p>
       </div>
       <div class="ttest-section">
         <div class="ttest-section-title">Wybierz temat</div>
@@ -1195,7 +1210,7 @@ function renderTheoreticalTest(id, item) {
     area.innerHTML = `<div class="rendered ttest-wrap">
       <div class="page-hero">
         <span class="chapter-lbl">${item.section || ''}</span>
-        <h1>Testy Teoretyczne</h1>
+        <h1>${heroTitle}</h1>
       </div>
       <div class="ttest-progress-bar"><div class="ttest-progress-fill" style="width:${pct}%"></div></div>
       <div class="ttest-q-card">
@@ -1248,7 +1263,7 @@ function renderTheoreticalTest(id, item) {
     area.innerHTML = `<div class="rendered ttest-wrap">
       <div class="page-hero">
         <span class="chapter-lbl">${item.section || ''}</span>
-        <h1>Wynik testu</h1>
+        <h1>Wynik testu — ${heroTitle}</h1>
       </div>
       <div class="ttest-result-box">
         <div class="ttest-result-score">${correct} / ${total}</div>
@@ -1273,19 +1288,19 @@ function renderTheoreticalTest(id, item) {
 window.ttSetTopic = function(key) {
   if (!theoreticalTestState) return;
   theoreticalTestState.topicKey = key;
-  if (current === 'students/testy_teoretyczne') renderTheoreticalTest(current, pageMap.get(current));
+  if (isTheoreticalTestPageActive()) renderTheoreticalTest(current, pageMap.get(current));
 };
 
 window.ttSetLength = function(n) {
   if (!theoreticalTestState) return;
   theoreticalTestState.length = n;
-  if (current === 'students/testy_teoretyczne') renderTheoreticalTest(current, pageMap.get(current));
+  if (isTheoreticalTestPageActive()) renderTheoreticalTest(current, pageMap.get(current));
 };
 
 window.ttSetDiff = function(d) {
   if (!theoreticalTestState) return;
   theoreticalTestState.difficulty = d;
-  if (current === 'students/testy_teoretyczne') renderTheoreticalTest(current, pageMap.get(current));
+  if (isTheoreticalTestPageActive()) renderTheoreticalTest(current, pageMap.get(current));
 };
 
 window.ttStart = async function() {
@@ -1305,7 +1320,7 @@ window.ttStart = async function() {
     st.startTime = Date.now();
     st.endTime = null;
     st.phase = 'test';
-    if (current === 'students/testy_teoretyczne') renderTheoreticalTest(current, pageMap.get(current));
+    if (isTheoreticalTestPageActive()) renderTheoreticalTest(current, pageMap.get(current));
   } catch(e) {
     const area = document.getElementById('content');
     area.innerHTML = '<div class="error-box"><h2>Błąd ładowania pytań</h2><p>Nie udało się wczytać pytań testu. Sprawdź połączenie i spróbuj ponownie.</p></div>';
@@ -1322,13 +1337,13 @@ window.ttSelectAnswer = function(optIdx) {
   } else if (st.currentIndex < st.questions.length - 1) {
     st.currentIndex++;
   }
-  if (current === 'students/testy_teoretyczne') renderTheoreticalTest(current, pageMap.get(current));
+  if (isTheoreticalTestPageActive()) renderTheoreticalTest(current, pageMap.get(current));
 };
 
 window.ttPrev = function() {
   if (!theoreticalTestState) return;
   theoreticalTestState.currentIndex = Math.max(0, theoreticalTestState.currentIndex - 1);
-  if (current === 'students/testy_teoretyczne') renderTheoreticalTest(current, pageMap.get(current));
+  if (isTheoreticalTestPageActive()) renderTheoreticalTest(current, pageMap.get(current));
 };
 
 window.ttNext = function() {
@@ -1336,7 +1351,7 @@ window.ttNext = function() {
   const st = theoreticalTestState;
   if (st.answers[st.currentIndex] === null) return;
   st.currentIndex = Math.min(st.questions.length - 1, st.currentIndex + 1);
-  if (current === 'students/testy_teoretyczne') renderTheoreticalTest(current, pageMap.get(current));
+  if (isTheoreticalTestPageActive()) renderTheoreticalTest(current, pageMap.get(current));
 };
 
 window.ttFirstUnanswered = function() {
@@ -1345,7 +1360,7 @@ window.ttFirstUnanswered = function() {
   const idx = st.answers.findIndex(a => a === null);
   if (idx < 0) return;
   st.currentIndex = idx;
-  if (current === 'students/testy_teoretyczne') renderTheoreticalTest(current, pageMap.get(current));
+  if (isTheoreticalTestPageActive()) renderTheoreticalTest(current, pageMap.get(current));
 };
 
 window.ttFinish = function() {
@@ -1354,17 +1369,17 @@ window.ttFinish = function() {
   if (st.answers.some(a => a === null)) return;
   st.endTime = Date.now();
   st.phase = 'results';
-  if (current === 'students/testy_teoretyczne') renderTheoreticalTest(current, pageMap.get(current));
+  if (isTheoreticalTestPageActive()) renderTheoreticalTest(current, pageMap.get(current));
 };
 
 window.ttAbort = function() {
   theoreticalTestState = null;
-  if (current === 'students/testy_teoretyczne') renderTheoreticalTest(current, pageMap.get(current));
+  if (isTheoreticalTestPageActive()) renderTheoreticalTest(current, pageMap.get(current));
 };
 
 window.ttReset = function() {
   theoreticalTestState = null;
-  if (current === 'students/testy_teoretyczne') renderTheoreticalTest(current, pageMap.get(current));
+  if (isTheoreticalTestPageActive()) renderTheoreticalTest(current, pageMap.get(current));
 };
 
 window.ttReview = function() {

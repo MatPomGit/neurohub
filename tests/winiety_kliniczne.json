@@ -1,146 +1,782 @@
 [
   {
     "id": 1,
-    "question": "Pacjentka od 3 tygodni zgłasza obniżony nastrój, anhedonię i bezsenność. Jaki jest najbardziej adekwatny kolejny krok?",
-    "options": ["Natychmiastowa diagnoza CHAD", "Pogłębiony wywiad diagnostyczny i ocena ryzyka samobójczego", "Wyłącznie ćwiczenia oddechowe", "Brak interwencji"],
+    "question": "Pacjentka od 4 tygodni zgłasza obniżony nastrój, anhedonię i wczesne wybudzenia. Jaki jest najlepszy kolejny krok?",
+    "options": [
+      "Rozpocząć terapię bez wywiadu",
+      "Pogłębić wywiad i ocenić ryzyko samobójcze",
+      "Zalecić tylko suplementację",
+      "Odroczyć diagnozę o 6 miesięcy"
+    ],
     "correct": 1,
     "difficulty": 1,
-    "justification": "Wstępne objawy depresyjne wymagają pogłębienia wywiadu oraz rutynowej oceny bezpieczeństwa."
+    "justification": "Przy objawach epizodu depresyjnego konieczne są pełny wywiad, ocena nasilenia i bezpieczeństwa."
   },
   {
     "id": 2,
-    "question": "Mężczyzna po wypadku samochodowym unika jazdy, ma koszmary i nadmierną czujność. Najbardziej prawdopodobny obszar diagnostyczny to:",
-    "options": ["Zaburzenia odżywiania", "Spektrum PTSD", "Otępienie", "Zaburzenia somatyzacyjne"],
+    "question": "Mężczyzna po napadzie ma natrętne wspomnienia, koszmary i unikanie miejsca zdarzenia. Najbardziej prawdopodobny obszar diagnostyczny to:",
+    "options": [
+      "Fobia specyficzna",
+      "Spektrum PTSD",
+      "Zaburzenie opozycyjno-buntownicze",
+      "Otępienie"
+    ],
     "correct": 1,
     "difficulty": 1,
-    "justification": "Unikanie, intruzje i hiperreaktywność po traumie są kluczowymi markerami klinicznymi PTSD."
+    "justification": "Triada intruzji, unikania i pobudzenia po traumie wskazuje na zaburzenia pourazowe."
   },
   {
     "id": 3,
-    "question": "Pacjent zgłasza natrętne myśli o zabrudzeniu i wielokrotne mycie rąk. Najbardziej adekwatna hipoteza to:",
-    "options": ["OCD", "ADHD", "Fobia społeczna", "Zaburzenie urojeniowe"],
-    "correct": 0,
+    "question": "Pacjent opisuje natrętne myśli o zakażeniu i wielokrotne mycie rąk. Najtrafniejsza hipoteza:",
+    "options": [
+      "ADHD",
+      "OCD",
+      "Zaburzenie konwersyjne",
+      "Zaburzenie schizoafektywne"
+    ],
+    "correct": 1,
     "difficulty": 1,
-    "justification": "Obsesje i kompulsje w tym układzie objawów są typowe dla zaburzenia obsesyjno-kompulsywnego."
+    "justification": "Obsesje i kompulsje tworzą charakterystyczny obraz OCD."
   },
   {
     "id": 4,
-    "question": "Studentka doświadcza nagłych napadów lęku z kołataniem serca i lękiem przed śmiercią. Najtrafniejsze rozpoznanie robocze:",
-    "options": ["Napady paniki", "ChAD typu I", "Autyzm", "Dysleksja"],
+    "question": "Studentka doświadcza napadów lęku z dusznością i lękiem przed śmiercią. Wstępne rozpoznanie robocze:",
+    "options": [
+      "Napady paniki",
+      "Dysleksja",
+      "Anoreksja",
+      "Autyzm"
+    ],
     "correct": 0,
     "difficulty": 1,
-    "justification": "Opis odpowiada epizodom paniki, które wymagają różnicowania z przyczynami somatycznymi."
+    "justification": "Nagłe epizody intensywnego lęku z objawami autonomicznymi są typowe dla napadów paniki."
   },
   {
     "id": 5,
-    "question": "Dziecko ma trudności z utrzymaniem uwagi, impulsywność i objawy od wczesnych lat szkolnych. Co jest kluczowe diagnostycznie?",
-    "options": ["Ocena wieloźródłowa (rodzice, szkoła, obserwacja)", "Wyłącznie samoopis dziecka", "Pominięcie wywiadu rozwojowego", "Jednorazowy test online"],
-    "correct": 0,
+    "question": "Dziecko ma od lat trudności z koncentracją i impulsywność zarówno w domu, jak i w szkole. Kluczowe diagnostycznie będzie:",
+    "options": [
+      "Wyłącznie samoopis dziecka",
+      "Ocena wieloźródłowa i wywiad rozwojowy",
+      "Jednorazowy test internetowy",
+      "Pominięcie danych od nauczycieli"
+    ],
+    "correct": 1,
     "difficulty": 1,
-    "justification": "ADHD wymaga danych z wielu kontekstów i potwierdzenia trwałości objawów rozwojowych."
+    "justification": "ADHD wymaga potwierdzenia objawów w więcej niż jednym środowisku i ich rozwojowej ciągłości."
   },
   {
     "id": 6,
-    "question": "Pacjent mówi o utracie sensu życia, ale zaprzecza planom samobójczym. Jak postąpić?",
-    "options": ["Zakończyć temat", "Wykonać ustrukturyzowaną ocenę ryzyka i plan bezpieczeństwa", "Powiedzieć, że to normalne", "Od razu wysłać do szpitala bez oceny"],
+    "question": "Pacjent mówi: „nie widzę sensu życia”, ale zaprzecza planowi samobójczemu. Najbardziej adekwatna reakcja:",
+    "options": [
+      "Zamknąć temat",
+      "Ustrukturyzowana ocena ryzyka i plan bezpieczeństwa",
+      "Poczekać do kolejnej wizyty",
+      "Tylko techniki oddechowe"
+    ],
     "correct": 1,
     "difficulty": 1,
-    "justification": "Nawet bez ujawnionego planu konieczna jest systematyczna ocena ryzyka i czynników ochronnych."
+    "justification": "Brak planu nie wyklucza ryzyka; potrzebna jest systematyczna ocena i działania ochronne."
   },
   {
     "id": 7,
-    "question": "W winiecie pacjentka przejawia chwiejność relacji, impulsywność i lęk przed porzuceniem. Najbardziej prawdopodobne jest:",
-    "options": ["Osobowość schizoidalna", "Osobowość borderline", "Osobowość anankastyczna", "Otępienie czołowo-skroniowe"],
+    "question": "Pacjentka po porodzie od 3 tygodni zgłasza przygnębienie, lęk i poczucie winy. Priorytet:",
+    "options": [
+      "Ignorować jako normę",
+      "Ocenić depresję poporodową i bezpieczeństwo",
+      "Zalecić wyłącznie odpoczynek",
+      "Skupić się tylko na diecie"
+    ],
     "correct": 1,
-    "difficulty": 2,
-    "justification": "Opis obejmuje rdzeniowe cechy BPD: niestabilność emocjonalną, relacyjną i obawy przed odrzuceniem."
+    "difficulty": 1,
+    "justification": "Przedłużone objawy poporodowe wymagają diagnostyki i oceny ryzyka dla matki oraz dziecka."
   },
   {
     "id": 8,
-    "question": "Pacjent z bezsennością i drażliwością pije codziennie alkohol „na uspokojenie”. Najbardziej użyteczne klinicznie będzie:",
-    "options": ["Pominięcie tematu używek", "Krótki wywiad motywujący i ocena wzorca używania", "Wyłącznie psychoedukacja o śnie", "Natychmiastowa diagnoza osobowości"],
+    "question": "Pacjent z lękiem społecznym unika prezentacji i spotkań zespołowych. Interwencja pierwszego wyboru:",
+    "options": [
+      "Brak interwencji",
+      "CBT z ekspozycją",
+      "Wyłącznie hipnoza",
+      "Wyłącznie psychoanaliza"
+    ],
     "correct": 1,
-    "difficulty": 2,
-    "justification": "Wzorzec samoleczenia alkoholem wymaga równoległej oceny ryzyka uzależnienia i motywacji do zmiany."
+    "difficulty": 1,
+    "justification": "W lęku społecznym najlepiej udokumentowana jest terapia poznawczo-behawioralna z ekspozycją."
   },
   {
     "id": 9,
-    "question": "Pacjentka po porodzie zgłasza przygnębienie, lęk i poczucie winy utrzymujące się ponad 2 tygodnie. Co jest priorytetem?",
-    "options": ["Ignorowanie objawów jako normy", "Ocena depresji poporodowej i bezpieczeństwa matki oraz dziecka", "Tylko suplementacja witamin", "Przerwanie karmienia jako jedyna interwencja"],
-    "correct": 1,
-    "difficulty": 2,
-    "justification": "Przedłużone i nasilone objawy poporodowe wymagają diagnostyki i oceny bezpieczeństwa."
+    "question": "U pacjenta po urazie głowy występuje spowolnienie i trudności wykonawcze. Najbardziej zasadny kierunek:",
+    "options": [
+      "Badanie neuropsychologiczne i rehabilitacja",
+      "Wyłącznie medytacja",
+      "Tylko konsultacja dietetyczna",
+      "Brak dalszej diagnostyki"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Po urazie OUN konieczna jest ocena funkcji poznawczych i plan rehabilitacji."
   },
   {
     "id": 10,
-    "question": "U pacjenta z lękiem społecznym pojawia się unikanie wystąpień i pracy zespołowej. Najbardziej adekwatna interwencja pierwszego wyboru to:",
-    "options": ["Wyłącznie farmakoterapia", "CBT z ekspozycją i restrukturyzacją poznawczą", "Brak interwencji", "Hipnoza jako jedyna metoda"],
+    "question": "Pacjent opisuje okresy zmniejszonej potrzeby snu, gonitwy myśli i wzmożonej aktywności. Co pilnie różnicować?",
+    "options": [
+      "Fobię społeczną",
+      "Spektrum ChAD",
+      "Zaburzenia odżywiania",
+      "Zaburzenia dysocjacyjne"
+    ],
     "correct": 1,
-    "difficulty": 2,
-    "justification": "W lęku społecznym silne poparcie empiryczne ma poznawczo-behawioralna praca z ekspozycją."
+    "difficulty": 1,
+    "justification": "Objawy aktywacji i skróconego snu sugerują możliwe epizody hipomanii/manii."
   },
   {
     "id": 11,
-    "question": "Pacjent po urazie czaszkowo-mózgowym ma spowolnienie i problemy wykonawcze. Jaki kierunek jest najbardziej zasadny?",
-    "options": ["Wyłącznie psychoterapia wglądowa", "Badanie neuropsychologiczne i plan rehabilitacji", "Ocena astrologiczna", "Brak dalszej diagnostyki"],
+    "question": "Pacjent po konflikcie w pracy pije codziennie alkohol „dla uspokojenia”. Najbardziej użyteczne klinicznie:",
+    "options": [
+      "Pominięcie tematu",
+      "Krótka interwencja motywująca i ocena wzorca używania",
+      "Natychmiastowa diagnoza osobowości",
+      "Zalecenie całkowitego odstawienia bez rozmowy"
+    ],
     "correct": 1,
-    "difficulty": 2,
-    "justification": "Po urazie OUN konieczna jest ocena profilu deficytów i zasobów dla planu rehabilitacji."
+    "difficulty": 1,
+    "justification": "Samoleczenie alkoholem wymaga oceny ryzyka uzależnienia i gotowości do zmiany."
   },
   {
     "id": 12,
-    "question": "W wywiadzie pacjent opisuje okresy zmniejszonej potrzeby snu, gonitwy myśli i wzmożonej aktywności. Co należy pilnie różnicować?",
-    "options": ["Zaburzenie paniczne", "Spektrum choroby afektywnej dwubiegunowej", "Fobię specyficzną", "Upośledzenie słuchu"],
+    "question": "W wywiadzie nastolatki pojawia się samouszkadzanie bez intencji śmierci. Pierwszy krok:",
+    "options": [
+      "Zignorować incydenty",
+      "Ocena funkcji zachowania i ryzyka suicydalnego",
+      "Skoncentrować się tylko na ocenach szkolnych",
+      "Natychmiastowe wypisanie z terapii"
+    ],
     "correct": 1,
-    "difficulty": 2,
-    "justification": "Objawy aktywacji i redukcji snu wymagają pilnego różnicowania epizodu hipomanii/manii."
+    "difficulty": 1,
+    "justification": "NSSI wymaga oceny funkcji regulacyjnej i równoległego oszacowania zagrożenia życia."
   },
   {
     "id": 13,
-    "question": "Pacjent ujawnia przemoc domową i prosi, by nikomu nie mówić. Najlepsza reakcja terapeutyczna to:",
-    "options": ["Bezrefleksyjne obiecanie pełnej tajemnicy", "Wyjaśnienie granic poufności i wspólne planowanie bezpieczeństwa", "Natychmiastowe zakończenie terapii", "Ignorowanie tematu"],
-    "correct": 1,
-    "difficulty": 3,
-    "justification": "Etyka pracy klinicznej wymaga transparentności granic poufności i priorytetu bezpieczeństwa."
+    "question": "Pacjent zgłasza przewlekły lęk, napięcie mięśniowe i zamartwianie się przez większość dni od ponad 6 miesięcy. Najbliższe rozpoznanie:",
+    "options": [
+      "GAD",
+      "ChAD I",
+      "Zespół Tourette’a",
+      "Bulimia"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Długotrwałe, uogólnione zamartwianie się z napięciem somatycznym jest typowe dla GAD."
   },
   {
     "id": 14,
-    "question": "W winiecie pacjent prezentuje objawy psychotyczne oraz używa amfetaminy. Najbardziej adekwatne podejście diagnostyczne to:",
-    "options": ["Natychmiastowa diagnoza schizofrenii", "Różnicowanie psychozy pierwotnej i indukowanej substancjami", "Wyłącznie interwencja rodzinna", "Brak oceny toksykologicznej"],
+    "question": "Osoba zgłasza utratę zainteresowań i spadek energii po śmierci bliskiej osoby. Najważniejsze na etapie pierwszej konsultacji:",
+    "options": [
+      "Automatycznie rozpoznać MDD",
+      "Różnicować żałobę normatywną i epizod depresyjny",
+      "Zakazać rozmów o zmarłym",
+      "Skierować bez wywiadu do szpitala"
+    ],
     "correct": 1,
-    "difficulty": 3,
-    "justification": "Używanie substancji psychoaktywnych może imitować lub nasilać psychozę, dlatego różnicowanie jest konieczne."
+    "difficulty": 1,
+    "justification": "Należy ocenić przebieg żałoby, stopień upośledzenia i objawy wskazujące na depresję kliniczną."
   },
   {
     "id": 15,
-    "question": "Pacjentka z historią traumy silnie dysocjuje podczas sesji. Co powinien zrobić terapeuta w pierwszej kolejności?",
-    "options": ["Pogłębiać ekspozycję na traumę", "Zastosować techniki stabilizacji i ugruntowania", "Przerwać leczenie", "Wymagać szczegółowego opisu zdarzenia"],
-    "correct": 1,
-    "difficulty": 3,
-    "justification": "Przy silnej dysocjacji priorytetem jest stabilizacja i przywrócenie poczucia bezpieczeństwa."
+    "question": "Pacjent z bezsennością i drażliwością stosuje kofeinę do późna i korzysta z telefonu w łóżku. Najbardziej adekwatna interwencja początkowa:",
+    "options": [
+      "Psychoedukacja higieny snu",
+      "Wyłącznie farmakoterapia",
+      "Rezygnacja z diagnozy",
+      "Wyłącznie techniki projekcyjne"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Modyfikacja zachowań podtrzymujących bezsenność jest podstawowym elementem postępowania."
   },
   {
     "id": 16,
-    "question": "W opisie przypadku seniora z pogorszeniem pamięci rodzina oczekuje szybkiej diagnozy otępienia. Najbardziej profesjonalne postępowanie to:",
-    "options": ["Diagnoza po 10 minutach rozmowy", "Pełna ocena różnicowa: depresja, delirium, choroby somatyczne i otępienie", "Skupienie się wyłącznie na wieku", "Rezygnacja z badań przesiewowych"],
+    "question": "Pacjentka prezentuje niestabilne relacje, impulsywność i silny lęk przed porzuceniem. Najbardziej prawdopodobne:",
+    "options": [
+      "Osobowość schizoidalna",
+      "Osobowość borderline",
+      "Osobowość zależna",
+      "Otępienie"
+    ],
     "correct": 1,
-    "difficulty": 3,
-    "justification": "Deficyty poznawcze u seniorów mają wiele możliwych przyczyn, dlatego potrzebna jest pełna diagnostyka różnicowa."
+    "difficulty": 2,
+    "justification": "Wzorzec niestabilności relacyjnej i afektywnej z impulsywnością jest charakterystyczny dla BPD."
   },
   {
     "id": 17,
-    "question": "Pacjent z OCD pyta o sens ekspozycji z powstrzymaniem reakcji (ERP). Kluczowe wyjaśnienie brzmi:",
-    "options": ["To metoda wzmacniająca kompulsje", "To trening tolerowania lęku i wygaszania rytuałów", "To technika relaksacyjna bez ekspozycji", "To metoda wyłącznie farmakologiczna"],
+    "question": "Pacjent ujawnia przemoc domową i prosi o pełną tajemnicę. Najlepsza odpowiedź kliniczna:",
+    "options": [
+      "Obiecać całkowitą tajemnicę bez wyjątków",
+      "Wyjaśnić granice poufności i wspólnie zaplanować bezpieczeństwo",
+      "Natychmiast zakończyć terapię",
+      "Zmienić temat"
+    ],
     "correct": 1,
-    "difficulty": 3,
-    "justification": "ERP pomaga osłabić związek między obsesją a kompulsją poprzez uczenie tolerancji dyskomfortu."
+    "difficulty": 2,
+    "justification": "Etyczna praktyka wymaga transparentności granic poufności i priorytetu bezpieczeństwa."
   },
   {
     "id": 18,
-    "question": "W przypadku młodej osoby LGBTQ+ doświadczającej odrzucenia rodzinnego terapeuta powinien szczególnie zadbać o:",
-    "options": ["Neutralność bez poruszania kontekstu mniejszościowego", "Podejście afirmatywne i ocenę stresu mniejszościowego", "Konfrontacyjne podważanie tożsamości", "Unikanie tematu relacji rodzinnych"],
+    "question": "W przypadku objawów psychotycznych i równoczesnego używania amfetaminy najbardziej adekwatne podejście to:",
+    "options": [
+      "Natychmiastowa diagnoza schizofrenii",
+      "Różnicowanie psychozy pierwotnej i indukowanej substancjami",
+      "Wyłącznie interwencja rodzinna",
+      "Pominięcie badania używek"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Substancje psychoaktywne mogą wywoływać lub nasilać objawy psychotyczne."
+  },
+  {
+    "id": 19,
+    "question": "Pacjentka z historią traumy silnie dysocjuje podczas sesji. Co najpierw?",
+    "options": [
+      "Pogłębić ekspozycję",
+      "Stabilizacja i techniki ugruntowania",
+      "Wymagać szczegółów traumy",
+      "Przerwać terapię"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Przy nasilonej dysocjacji priorytetem jest regulacja pobudzenia i bezpieczeństwo."
+  },
+  {
+    "id": 20,
+    "question": "Senior z pogorszeniem pamięci ma też objawy depresyjne i infekcję dróg moczowych. Najbardziej profesjonalne postępowanie:",
+    "options": [
+      "Rozpoznać otępienie po krótkiej rozmowie",
+      "Pełna diagnostyka różnicowa: depresja, delirium, otępienie",
+      "Skupić się wyłącznie na wieku",
+      "Pominąć badania laboratoryjne"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Deficyty poznawcze u osób starszych mają liczne odwracalne i nieodwracalne przyczyny."
+  },
+  {
+    "id": 21,
+    "question": "Pacjent z OCD pyta, dlaczego ekspozycja z powstrzymaniem reakcji działa. Najtrafniejsze wyjaśnienie:",
+    "options": [
+      "Wzmacnia rytuały",
+      "Uczy tolerancji lęku i wygaszania kompulsji",
+      "Działa tylko przez relaksację",
+      "To forma farmakoterapii"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "ERP osłabia związek między obsesją a kompulsją poprzez doświadczenie braku katastrofy."
+  },
+  {
+    "id": 22,
+    "question": "Młoda osoba LGBTQ+ doświadcza odrzucenia rodzinnego i nasilonego lęku. Co jest szczególnie ważne?",
+    "options": [
+      "Unikać kontekstu tożsamości",
+      "Podejście afirmatywne i ocena stresu mniejszościowego",
+      "Konfrontować tożsamość",
+      "Skupić się wyłącznie na farmakologii"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Uwzględnienie stresu mniejszościowego zwiększa trafność konceptualizacji i bezpieczeństwo."
+  },
+  {
+    "id": 23,
+    "question": "Pacjent zgłasza ból, zmęczenie i kołatania serca mimo licznych prawidłowych badań. Najlepszy kierunek kliniczny:",
+    "options": [
+      "Oskarżyć o symulację",
+      "Ocena pod kątem zaburzenia lękowego i objawów somatycznych",
+      "Przerwać diagnostykę",
+      "Skierować wyłącznie do chirurga"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Przy uporczywych objawach somatycznych konieczna jest integracja perspektywy medycznej i psychologicznej."
+  },
+  {
+    "id": 24,
+    "question": "Nastolatek po cyberprzemocy unika szkoły i ma objawy depresyjne. Pierwszy etap interwencji:",
+    "options": [
+      "Ocena bezpieczeństwa, wsparcia i planu działania ze szkołą/rodziną",
+      "Wyłącznie kara dla sprawców",
+      "Natychmiastowe rozpoznanie osobowości",
+      "Brak kontaktu z opiekunami"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "W kryzysie adolescenta kluczowe są bezpieczeństwo, zasoby wsparcia i działania systemowe."
+  },
+  {
+    "id": 25,
+    "question": "Pacjent z historią napadów paniki unika wysiłku fizycznego, bo boi się objawów somatycznych. Najbardziej adekwatna technika CBT:",
+    "options": [
+      "Ekspozycja interoceptywna",
+      "Wyłącznie dziennik snu",
+      "Interpretacja snów",
+      "Brak psychoedukacji"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Ekspozycja interoceptywna redukuje lęk przed sygnałami z ciała poprzez uczenie bezpieczeństwa."
+  },
+  {
+    "id": 26,
+    "question": "Pacjentka z depresją przerywa terapię po 2 spotkaniach, mówiąc „to nie działa”. Co najpierw?",
+    "options": [
+      "Uznanie oporu i zamknięcie procesu",
+      "Walidacja trudności, renegocjacja celów i kontraktu",
+      "Nacisk na kontynuację bez rozmowy",
+      "Zmiana diagnozy bez danych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Praca nad przymierzem terapeutycznym i celami zwiększa retencję i skuteczność leczenia."
+  },
+  {
+    "id": 27,
+    "question": "W wywiadzie pojawiają się okresy drażliwości, impulsywnych zakupów i wzmożonej towarzyskości po SSRI. Co rozważyć?",
+    "options": [
+      "Wyłącznie poprawę nastroju",
+      "Ryzyko przełączenia w hipomanię",
+      "Objawy autyzmu",
+      "Wyłącznie bezsenność pierwotną"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Aktywacja po leku przeciwdepresyjnym może ujawniać podatność dwubiegunową."
+  },
+  {
+    "id": 28,
+    "question": "Pacjent po nagłej stracie partnera ma natrętne obrazy i unika mieszkania. Najlepsza sekwencja pracy:",
+    "options": [
+      "Najpierw stabilizacja i rytm dnia, potem interwencje ukierunkowane na traumę/żałobę",
+      "Natychmiastowa ekspozycja bez przygotowania",
+      "Wyłącznie farmakoterapia",
+      "Brak pracy z unikaniem"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Regulacja i odbudowa zasobów poprzedzają intensywniejsze techniki przetwarzania."
+  },
+  {
+    "id": 29,
+    "question": "Pacjentka zgłasza restrykcje jedzenia, lęk przed przytyciem i zanik miesiączki. Co jest kluczowe na starcie?",
+    "options": [
+      "Skupić się wyłącznie na obrazie ciała",
+      "Pilna ocena medyczna ryzyka somatycznego",
+      "Praca tylko nad relacją",
+      "Przerwanie diagnozy"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "W zaburzeniach odżywiania najpierw należy wykluczyć stan zagrożenia zdrowia i życia."
+  },
+  {
+    "id": 30,
+    "question": "W wywiadzie osoby uzależnionej od opioidów pojawia się wielokrotne przedawkowanie. Priorytet interwencji:",
+    "options": [
+      "Ocena ryzyka zgonu i plan redukcji szkód",
+      "Wyłącznie praca nad motywacją",
+      "Natychmiastowe wypisanie",
+      "Brak edukacji o naloksonie"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Wysokie ryzyko śmiertelności wymaga natychmiastowego planu bezpieczeństwa i redukcji szkód."
+  },
+  {
+    "id": 31,
+    "question": "Pacjent z PTSD i nadużywaniem alkoholu deklaruje gotowość do pracy nad traumą, ale codziennie pije. Najbardziej adekwatna strategia:",
+    "options": [
+      "Rozdzielić leczenie na lata i nie łączyć tematów",
+      "Zintegrowany plan: stabilizacja używania + etapowa praca nad traumą",
+      "Natychmiastowa intensywna ekspozycja",
+      "Skupić się tylko na abstynencji bez PTSD"
+    ],
     "correct": 1,
     "difficulty": 3,
-    "justification": "Podejście afirmatywne i uwzględnienie stresu mniejszościowego poprawia trafność i bezpieczeństwo pracy klinicznej."
+    "justification": "Współwystępowanie PTSD-SUD wymaga skoordynowanego podejścia, a nie sekwencji „albo-albo”."
+  },
+  {
+    "id": 32,
+    "question": "Pacjentka z BPD grozi samobójstwem po konflikcie relacyjnym i żąda codziennych sesji poza kontraktem. Najlepsza odpowiedź:",
+    "options": [
+      "Natychmiast spełnić żądania bez granic",
+      "Ocenić ryzyko, uruchomić plan kryzysowy i utrzymać jasne granice",
+      "Zignorować groźby",
+      "Zakończyć terapię bez przekazania opieki"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Połączenie walidacji, oceny ryzyka i konsekwentnych granic jest kluczowe klinicznie i etycznie."
+  },
+  {
+    "id": 33,
+    "question": "Osoba z podejrzeniem psychozy odmawia leczenia, ale rodzina zgłasza narastające ryzyko agresji. Priorytet diagnostyczno-prawny:",
+    "options": [
+      "Uszanować odmowę bez oceny",
+      "Ocena zdolności do świadomej decyzji i bezpośredniego ryzyka",
+      "Skupić się tylko na wywiadzie rodziny",
+      "Pominąć dokumentację"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Decyzje interwencyjne muszą opierać się na ocenie kompetencji decyzyjnej i bieżącego zagrożenia."
+  },
+  {
+    "id": 34,
+    "question": "Pacjent z przewlekłą depresją po wielu niepowodzeniach terapeutycznych zgłasza „terapia nic nie zmieni”. Najbardziej adekwatna formuła pracy:",
+    "options": [
+      "Konfrontacja i nacisk",
+      "Formulacja oparta na czynnikach podtrzymujących + cele behawioralne małych kroków",
+      "Zawieszenie terapii",
+      "Wyłącznie testy osobowości"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Przy chronicznej depresji skuteczna jest praca nad bezradnością, unikaniem i aktywizacją w mikrocelach."
+  },
+  {
+    "id": 35,
+    "question": "Pacjentka po traumie seksualnej doświadcza flashbacków w relacji intymnej. Najlepszy plan:",
+    "options": [
+      "Pominięcie tematu seksualności",
+      "Psychoedukacja traumowa, stabilizacja i stopniowa ekspozycja z kontrolą pacjentki",
+      "Wymaganie szybkiej konfrontacji",
+      "Wyłącznie farmakoterapia"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Praca musi być etapowa, z naciskiem na poczucie kontroli i bezpieczeństwa."
+  },
+  {
+    "id": 36,
+    "question": "W diagnostyce różnicowej CHAD II vs. osobowości borderline najbardziej użyteczne klinicznie jest:",
+    "options": [
+      "Jedno badanie kwestionariuszowe",
+      "Analiza epizodyczności objawów nastroju, czasu trwania i czynników wyzwalających",
+      "Pominięcie wywiadu rodzinnego",
+      "Ocena tylko na podstawie impulsywności"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Różnicowanie wymaga danych o przebiegu temporalnym i jakości zmian nastroju."
+  },
+  {
+    "id": 37,
+    "question": "Pacjent z OCD i silnym lękiem moralnym odmawia ERP z obawy „utraty wartości”. Najbardziej adekwatna interwencja:",
+    "options": [
+      "Wymuszenie ERP",
+      "Motywacyjne wyjaśnienie modelu OCD i wspólna hierarchia zgodna z wartościami",
+      "Rezygnacja z leczenia",
+      "Wyłącznie ćwiczenia relaksacyjne"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Integracja wartości pacjenta zwiększa akceptację ERP i zmniejsza opór."
+  },
+  {
+    "id": 38,
+    "question": "Pacjentka z anoreksją, BMI 15,5 i bradykardią chce kontynuować wyłącznie terapię ambulatoryjną. Najwłaściwsze postępowanie:",
+    "options": [
+      "Pozostawić decyzję bez komentarza",
+      "Pilna konsultacja internistyczna/psychiatryczna i ocena wskazań do hospitalizacji",
+      "Skupić się tylko na technikach poznawczych",
+      "Odroczyć decyzję o miesiąc"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Parametry somatyczne wskazują na potencjalne zagrożenie życia wymagające pilnej oceny medycznej."
+  },
+  {
+    "id": 39,
+    "question": "U pacjenta z nawracającą depresją i bezsennością mimo terapii pojawia się podejrzenie obturacyjnego bezdechu sennego. Co dalej?",
+    "options": [
+      "Ignorować, bo to temat medyczny",
+      "Skierować na diagnostykę snu i zintegrować wyniki z planem psychologicznym",
+      "Zwiększyć tylko liczbę sesji",
+      "Zakończyć psychoterapię"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Współchorobowość somatyczna może podtrzymywać objawy psychiczne i wymaga integracji opieki."
+  },
+  {
+    "id": 40,
+    "question": "Pacjent ujawnia myśli samobójcze, dostęp do broni i świeżą utratę pracy, ale prosi o pełną poufność. Priorytet:",
+    "options": [
+      "Zachować pełną poufność",
+      "Ocena bezpośredniego ryzyka i działania ochronne zgodnie z prawem oraz etyką",
+      "Umówić kolejną wizytę za miesiąc",
+      "Skupić się na technikach relaksacyjnych"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Przy wysokim ryzyku życia bezpieczeństwo ma pierwszeństwo nad standardową poufnością."
+  },
+  {
+    "id": 41,
+    "question": "Pacjentka doświadcza epizodów derealizacji po użyciu konopi, a także wcześniej miała napady paniki. Najlepsze podejście różnicowe:",
+    "options": [
+      "Rozpoznać natychmiast psychozę",
+      "Różnicować objawy dysocjacyjne, lękowe i indukowane substancją",
+      "Skupić się tylko na derealizacji",
+      "Pominąć historię używek"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Objawy mogą mieć wieloczynnikową etiologię, wymagającą szerokiej diagnostyki różnicowej."
+  },
+  {
+    "id": 42,
+    "question": "W terapii par pojawia się przemoc psychiczna i kontrola ekonomiczna. Najbardziej adekwatna decyzja kliniczna:",
+    "options": [
+      "Kontynuować standardową terapię komunikacji",
+      "Priorytet bezpieczeństwa, ocena przemocy i modyfikacja formatu pracy",
+      "Wymusić pojednanie",
+      "Pominąć temat, by nie eskalować"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "W warunkach przemocy klasyczna terapia par może zwiększać ryzyko i wymaga zmiany interwencji."
+  },
+  {
+    "id": 43,
+    "question": "Pacjent z ADHD i uzależnieniem od stymulantów prosi o natychmiastowe leki psychostymulujące. Najlepsze postępowanie:",
+    "options": [
+      "Natychmiast przepisać wysoką dawkę",
+      "Ocena ryzyka nadużywania, plan monitoringu i rozważenie alternatyw terapeutycznych",
+      "Odmówić leczenia ADHD",
+      "Skupić się tylko na psychoedukacji"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Leczenie powinno równoważyć skuteczność objawową i ryzyko nawrotu używania substancji."
+  },
+  {
+    "id": 44,
+    "question": "Pacjentka z depresją poporodową zgłasza intruzywne myśli skrzywdzenia dziecka, które ją przerażają. Co najważniejsze?",
+    "options": [
+      "Automatycznie uznać, że jest zagrożeniem",
+      "Różnicować intruzje ego-dystoniczne, ocenić ryzyko i wdrożyć plan bezpieczeństwa",
+      "Zakazać kontaktu z dzieckiem bez oceny",
+      "Pominąć temat z obawy przed stygmatyzacją"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Należy odróżnić natrętne myśli od intencji oraz systemowo ocenić bezpieczeństwo."
+  },
+  {
+    "id": 45,
+    "question": "Pacjent z wieloletnią traumą rozwojową idealizuje i dewaluuje terapeutę między sesjami. Najbardziej użyteczna konceptualizacja:",
+    "options": [
+      "Brak motywacji do terapii",
+      "Niestabilność przywiązaniowa i przeniesienie wymagające pracy nad mentalizacją",
+      "Symulacja objawów",
+      "Wyłącznie problem poznawczy"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Wzorzec relacyjny często odzwierciedla doświadczenia przywiązaniowe i wymaga ustrukturyzowanej pracy relacyjnej."
+  },
+  {
+    "id": 46,
+    "question": "Pacjent zgłasza nasilony stres przed egzaminami, ale funkcjonuje dobrze społecznie i zawodowo. Najlepszy pierwszy krok kliniczny:",
+    "options": [
+      "Diagnoza ciężkiego zaburzenia lękowego",
+      "Psychoedukacja stresu i ocena strategii radzenia sobie",
+      "Natychmiastowe leczenie szpitalne",
+      "Pominięcie objawów"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "W sytuacjach stresu sytuacyjnego warto rozpocząć od oceny zasobów i technik regulacji napięcia."
+  },
+  {
+    "id": 47,
+    "question": "Osoba po rozstaniu ma trudności ze snem od 10 dni, bez istotnego upośledzenia funkcjonowania. Najbardziej adekwatne rozpoznanie robocze:",
+    "options": [
+      "Bezsenność przewlekła",
+      "Reakcja adaptacyjna na stresor",
+      "Otępienie",
+      "Psychoza"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Krótki czas trwania i związek z aktualnym stresorem wskazują na reakcję adaptacyjną."
+  },
+  {
+    "id": 48,
+    "question": "Pacjentka zgłasza napady objadania się bez zachowań kompensacyjnych. Najbardziej prawdopodobny obszar diagnostyczny:",
+    "options": [
+      "Jadłowstręt psychiczny",
+      "Zaburzenie z napadami objadania się",
+      "Bulimia z kompensacją",
+      "Zaburzenie psychotyczne"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Powtarzające się epizody objadania bez kompensacji są zgodne z BED."
+  },
+  {
+    "id": 49,
+    "question": "Dziecko po zmianie szkoły zaczęło moczyć się nocą mimo wcześniejszej kontroli mikcji. Najbardziej zasadny kierunek:",
+    "options": [
+      "Ocena stresu adaptacyjnego i konsultacja pediatryczna",
+      "Natychmiastowa diagnoza zaburzenia osobowości",
+      "Wyłącznie kara behawioralna",
+      "Brak reakcji"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Wtórne moczenie nocne wymaga różnicowania przyczyn somatycznych i psychospołecznych."
+  },
+  {
+    "id": 50,
+    "question": "Pacjent doświadcza lęku i napięcia w ciągu dnia oraz pije 6 kaw dziennie. Najbardziej użyteczny element wywiadu:",
+    "options": [
+      "Ocena roli kofeiny i higieny pobudzenia",
+      "Skupienie wyłącznie na dzieciństwie",
+      "Pominięcie stylu życia",
+      "Natychmiastowe testy projekcyjne"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Czynniki behawioralne, takie jak nadmiar kofeiny, mogą istotnie podtrzymywać objawy lękowe."
+  },
+  {
+    "id": 51,
+    "question": "Pacjent po 3 miesiącach abstynencji od alkoholu ma silne objawy anhedonii i bezsenności. Najbardziej adekwatne postępowanie:",
+    "options": [
+      "Uznać to za brak motywacji",
+      "Różnicować protrakcyjny zespół abstynencyjny i epizod depresyjny",
+      "Natychmiast zakończyć terapię",
+      "Wyłącznie trening relaksacji"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Objawy po odstawieniu mogą być elementem przedłużonej abstynencji lub współwystępującej depresji."
+  },
+  {
+    "id": 52,
+    "question": "Pacjentka zgłasza przewlekłe zmęczenie i „mgłę poznawczą”, a badania somatyczne są graniczne. Najlepszy kierunek:",
+    "options": [
+      "Pominięcie objawów jako somatyzacji",
+      "Model biopsychospołeczny: dalsza diagnostyka i ocena obciążenia psychicznego",
+      "Skierowanie wyłącznie na psychoterapię bez konsultacji",
+      "Wyłącznie suplementacja"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "W niejednoznacznych przypadkach konieczna jest integracja danych medycznych i psychologicznych."
+  },
+  {
+    "id": 53,
+    "question": "W terapii adolescenta rodzice wzajemnie podważają zalecenia terapeuty. Najbardziej adekwatna interwencja:",
+    "options": [
+      "Praca tylko indywidualna z nastolatkiem",
+      "Kontrakt systemowy i ujednolicenie komunikatów opiekuńczych",
+      "Wstrzymanie leczenia do porozumienia rodziców",
+      "Pominięcie konfliktu"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Spójność oddziaływań opiekuńczych jest kluczowa dla skuteczności terapii młodzieży."
+  },
+  {
+    "id": 54,
+    "question": "Pacjent z lękiem zdrowotnym wielokrotnie korzysta z SOR mimo prawidłowych wyników. Co jest kluczowe terapeutycznie?",
+    "options": [
+      "Nasilenie diagnostyki doraźnej",
+      "Plan ograniczania zachowań upewniających i praca poznawcza",
+      "Zakaz kontaktu z lekarzami",
+      "Brak psychoedukacji"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Redukcja reassurance seeking i modyfikacja katastroficznych interpretacji obniżają lęk zdrowotny."
+  },
+  {
+    "id": 55,
+    "question": "Osoba po epizodzie psychotycznym wraca do pracy i zgłasza przeciążenie bodźcami. Najlepsze zalecenie:",
+    "options": [
+      "Natychmiastowy pełen etat",
+      "Stopniowany powrót i trening rozpoznawania sygnałów nawrotu",
+      "Całkowita izolacja społeczna",
+      "Wyłącznie farmakoterapia bez psychoedukacji"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Stopniowanie obciążeń i monitorowanie prodromów zmniejsza ryzyko dekompensacji."
+  },
+  {
+    "id": 56,
+    "question": "Pacjentka z rozpoznaniem BPD i PTSD doświadcza częstych kryzysów po ekspozycjach traumowych. Najbardziej adekwatna modyfikacja planu:",
+    "options": [
+      "Zwiększyć intensywność ekspozycji",
+      "Wrócić do fazy stabilizacji, regulacji emocji i dopiero potem kontynuować przetwarzanie",
+      "Przerwać terapię definitywnie",
+      "Skupić się wyłącznie na farmakologii"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Współwystępowanie złożonej dysregulacji wymaga elastycznego, fazowego planu leczenia."
+  },
+  {
+    "id": 57,
+    "question": "Pacjent z OCD i depresją ma wysoką bierność oraz unika ERP przez perfekcjonizm. Co najlepiej wdrożyć na starcie?",
+    "options": [
+      "Samo ERP bez przygotowania",
+      "Interwencje aktywizujące i praca motywacyjna jako pomost do ERP",
+      "Zamknięcie terapii",
+      "Wyłącznie monitoring nastroju"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Przy silnym unikaniu pomocne jest budowanie gotowości poprzez aktywizację i cele pośrednie."
+  },
+  {
+    "id": 58,
+    "question": "U pacjentki po porodzie występuje bezsenność, pobudzenie, gonitwa myśli i drażliwość. Najpilniejsze różnicowanie:",
+    "options": [
+      "Depresja jednobiegunowa",
+      "Epizod maniakalny/hipomaniakalny w okresie poporodowym",
+      "Wyłącznie zaburzenie lękowe",
+      "Reakcja adaptacyjna"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Objawy aktywacji poporodowej wymagają szybkiej oceny pod kątem spektrum dwubiegunowego."
+  },
+  {
+    "id": 59,
+    "question": "Pacjent z historią urazów dziecięcych ujawnia wspomnienia fragmentaryczne i silny wstyd. Najbardziej adekwatna postawa terapeuty:",
+    "options": [
+      "Nacisk na pełną rekonstrukcję wspomnień",
+      "Praca na tolerancji afektu, stabilizacji i ostrożnym znaczeniu narracyjnym",
+      "Podważanie wiarygodności relacji",
+      "Unikanie tematu traumy"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "W pracy z traumą rozwojową priorytetem jest bezpieczeństwo emocjonalne i stopniowe integrowanie doświadczeń."
+  },
+  {
+    "id": 60,
+    "question": "Pacjent z chorobą afektywną dwubiegunową planuje odstawić leki po poprawie. Najbardziej efektywna interwencja psychologiczna:",
+    "options": [
+      "Akceptacja decyzji bez rozmowy",
+      "Decyzja wspólna: psychoedukacja nawrotów, plan wczesnych sygnałów i konsultacja z psychiatrą",
+      "Straszenie konsekwencjami",
+      "Zakończenie terapii"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Model shared decision-making zwiększa adherencję i pozwala zminimalizować ryzyko nawrotu."
   }
 ]
