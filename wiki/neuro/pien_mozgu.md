@@ -2,7 +2,11 @@
 
 Pień mózgu (*truncus cerebri*) i móżdżek (*cerebellum*) to starożytne ewolucyjnie struktury śródmózgowia i tyłomózgowia, które stanowią centrum integracji życiowych funkcji wegetatywnych, modulacji motoryki oraz koordynacji ruchowej. Choć ich rola bywa przyćmiana przez korę mózgową, uszkodzenie pnia mózgu niemal zawsze zagraża życiu, a uszkodzenie móżdżku dramatycznie zaburza jakość ruchu i równowagę.
 
+![Przekrój pnia mózgu i móżdżku](/assets/pien-mozgu.jpg)
+*Grafika: główne części pnia mózgu oraz relacja anatomiczna z móżdżkiem.*
+
 ## Anatomia pnia mózgu
+
 
 Pień mózgu stanowi połączenie między półkulami mózgowymi a rdzeniem kręgowym. Anatomicznie wyróżnia się trzy główne segmenty — od góry ku dołowi:
 
@@ -32,6 +36,9 @@ Most tworzy widoczne wybrzuszenie na brzusznej powierzchni pnia. Zawiera:
 > Neurologicznie kluczowy objaw: „locked-in syndrome" (zespół zamknięcia) może wynikać z obustronnego uszkodzenia brzusznego mostu (np. zawał tętnicy podstawnej) — pacjent jest przytomny, ale sparaliżowany, komunikuje się ruchami oczu.
 
 ### Rdzeń przedłużony (*medulla oblongata*)
+
+![Rdzeń przedłużony — kluczowe struktury anatomiczne](/assets/Rdzen_Przedluzony.jpg)
+*Grafika: przekrój rdzenia przedłużonego z oznaczeniem najważniejszych jąder i dróg.*
 
 Rdzeń przedłużony jest bezpośrednią kontynuacją rdzenia kręgowego. Tutaj krzyżują się piramidy ruchowe (skrzyżowanie pyramidum) — dlatego uszkodzenia lewej półkuli powodują niedowład prawostronny. Kluczowe ośrodki i struktury:
 
