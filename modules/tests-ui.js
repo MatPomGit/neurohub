@@ -1,6 +1,27 @@
 (function(){
 'use strict';
 
+/* Zwraca panel skrótów klawiaturowych zależny od trybu testu. */
+function renderKeyboardHints(mode) {
+  const common = '<span><kbd>←</kbd>/<kbd>→</kbd> nawigacja</span>';
+  const perMode = mode === 'specialization'
+    ? '<span><kbd>1-6</kbd> wybór odpowiedzi</span>'
+    : '<span><kbd>1-4</kbd> wybór odpowiedzi</span>';
+  return `<div class="test-hotkeys" role="note" aria-label="Skróty klawiaturowe">${common}${perMode}</div>`;
+}
+
+/* Buduje czytelne podsumowanie postępu testu dla użytkownika. */
+function renderProgressSummary(total, answered, modeLabel) {
+  const remaining = Math.max(0, total - answered);
+  const pct = total > 0 ? Math.round((answered / total) * 100) : 0;
+  return `<div class="test-progress-summary">
+    <span class="test-progress-chip">${modeLabel}</span>
+    <span class="test-progress-chip">Udzielone: <strong>${answered}/${total}</strong></span>
+    <span class="test-progress-chip">Pozostało: <strong>${remaining}</strong></span>
+    <span class="test-progress-chip">Postęp: <strong>${pct}%</strong></span>
+  </div>`;
+}
+
 function renderSpecializationTest(id, item) {
   const area = document.getElementById('content');
   setBreadcrumb(item);
@@ -24,7 +45,10 @@ function renderSpecializationTest(id, item) {
   `).join('');
   const options = question.options.map((opt, oIdx) => {
     const selected = testAnswers[testCurrentIndex] === oIdx ? 'sel' : '';
-    return `<button class="test-opt ${selected}" onclick="selectTestAnswer(${testCurrentIndex},${oIdx})">${opt.text}</button>`;
+    return `<button class="test-opt ${selected}" aria-pressed="${selected ? 'true' : 'false'}" onclick="selectTestAnswer(${testCurrentIndex},${oIdx})">
+      <span class="test-opt-id">${oIdx + 1}.</span>
+      <span>${opt.text}</span>
+    </button>`;
   }).join('');
   const pagerHtml = renderQuestionPager(total, testCurrentIndex, testAnswers, 'goToQuestionIndex');
   const currentQ = `<div class="test-card">
@@ -43,6 +67,8 @@ function renderSpecializationTest(id, item) {
       <p class="lead">Odpowiedz na 20 pytań, aby uzyskać rekomendację specjalności, poziom dopasowania do pozostałych obszarów oraz profil na sześciu osiach decyzyjnych.</p>
     </div>
     ${renderTestZoneBanner()}
+    ${renderProgressSummary(total, answered, 'Test specjalizacji')}
+    ${renderKeyboardHints('specialization')}
     <div class="ttest-layout">
       <aside class="ttest-side">
         <div class="ttest-section">
@@ -369,6 +395,7 @@ function renderTheoreticalTest(id, item) {
         <p class="lead">${heroLead}</p>
       </div>
       ${renderTestZoneBanner()}
+      ${renderKeyboardHints('theoretical')}
       <div class="ttest-layout ttest-layout--setup">
         <aside class="ttest-side">
           <div class="ttest-section">
@@ -408,6 +435,8 @@ function renderTheoreticalTest(id, item) {
         <h1>${heroTitle}</h1>
       </div>
       ${renderTestZoneBanner()}
+      ${renderProgressSummary(total, answered, 'Test teoretyczny')}
+      ${renderKeyboardHints('theoretical')}
       <div class="ttest-layout">
         <aside class="ttest-side">
           <div class="ttest-section">
@@ -503,6 +532,50 @@ function renderTheoreticalTest(id, item) {
   window.scrollTo(0, 0);
   animateContentIn();
 }
+
+/* Obsługuje skróty klawiaturowe dla aktywnego widoku testowego. */
+function handleTestKeyboardShortcuts(event) {
+  const tagName = (event.target && event.target.tagName) ? event.target.tagName.toLowerCase() : '';
+  if (tagName === 'input' || tagName === 'textarea' || event.target?.isContentEditable) return;
+
+  if (current === 'students/test_specjalnosci') {
+    if (event.key === 'ArrowLeft') {
+      event.preventDefault();
+      window.goToPrevQuestion();
+      return;
+    }
+    if (event.key === 'ArrowRight') {
+      event.preventDefault();
+      window.goToNextQuestion();
+      return;
+    }
+    if (/^[1-6]$/.test(event.key)) {
+      const index = Number(event.key) - 1;
+      event.preventDefault();
+      window.selectTestAnswer(testCurrentIndex, index);
+    }
+    return;
+  }
+
+  if (!isTheoreticalTestPageActive() || !theoreticalTestState || theoreticalTestState.phase !== 'test') return;
+  if (event.key === 'ArrowLeft') {
+    event.preventDefault();
+    window.ttPrev();
+    return;
+  }
+  if (event.key === 'ArrowRight') {
+    event.preventDefault();
+    window.ttNext();
+    return;
+  }
+  if (/^[1-4]$/.test(event.key)) {
+    event.preventDefault();
+    window.ttSelectAnswer(Number(event.key) - 1);
+  }
+}
+
+/* Rejestrujemy listener raz, aby nie dublować nasłuchiwania po kolejnych renderach. */
+window.addEventListener('keydown', handleTestKeyboardShortcuts);
 
 window.ttSetTopic = function(key) {
   if (!theoreticalTestState) return;
