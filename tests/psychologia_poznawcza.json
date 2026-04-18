@@ -648,5 +648,135 @@
     "difficulty": 2,
     "justification": "Metapoznanie obejmuje wiedzę o własnym poznaniu oraz kontrolę przebiegu uczenia się, np. dobór strategii i ocenę postępu.",
     "id": 50
+  },
+  {
+    "question": "W klasycznym modelu Atkinsona i Shiffrina transfer informacji z pamięci krótkotrwałej do długotrwałej jest wspierany głównie przez:",
+    "options": [
+      "Habituację sensoryczną",
+      "Powtarzanie i elaborację materiału",
+      "Hamowanie lateralne",
+      "Samo upływanie czasu"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "W modelu modalnym utrzymanie i pogłębione opracowanie informacji zwiększa szansę trwałego zapisu w pamięci długotrwałej.",
+    "id": 51
+  },
+  {
+    "question": "Zjawisko attentional blink oznacza, że:",
+    "options": [
+      "Po wykryciu pierwszego celu drugi cel prezentowany krótko po nim bywa pomijany",
+      "Uwaga wzrokowa stale rośnie wraz z tempem prezentacji bodźców",
+      "Błyski światła poprawiają pamięć deklaratywną",
+      "Odruch mrugania zawsze zakłóca percepcję słuchową"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Attentional blink opisuje czasowe okno ograniczonej dostępności zasobów po przetworzeniu pierwszego celu w strumieniu bodźców.",
+    "id": 52
+  },
+  {
+    "question": "W badaniach nad rozwiązywaniem problemów efekt nastawienia (Einstellung effect) polega na:",
+    "options": [
+      "Ułatwieniu znalezienia nowej strategii po wielu niepowodzeniach",
+      "Skłonności do używania znanego schematu nawet gdy lepsze rozwiązanie jest dostępne",
+      "Losowym wyborze strategii niezależnie od doświadczenia",
+      "Braku wpływu wcześniejszej wiedzy na rozwiązanie zadania"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Efekt nastawienia poznawczego pokazuje, że wcześniejsze sukcesy mogą usztywniać strategie i utrudniać dostrzeżenie prostszej drogi.",
+    "id": 53
+  },
+  {
+    "question": "W teorii kodowania podwójnego Paivio materiał jest lepiej pamiętany, gdy:",
+    "options": [
+      "Kodowany jest tylko fonologicznie",
+      "Jest reprezentowany zarówno werbalnie, jak i obrazowo",
+      "Prezentowany jest wyłącznie podprogowo",
+      "Zawiera jak najmniej skojarzeń"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Kodowanie w dwóch systemach reprezentacji zwiększa liczbę wskazówek wydobycia i poprawia przypominanie.",
+    "id": 54
+  },
+  {
+    "question": "Błąd hazardzisty (gambler's fallacy) to przekonanie, że:",
+    "options": [
+      "Wyniki losowe są od siebie niezależne",
+      "Po serii jednego wyniku inny wynik jest należny",
+      "Prawdopodobieństwo nie zmienia się przy małych próbach",
+      "Dane statystyczne są bardziej wiarygodne niż intuicja"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Błąd hazardzisty wynika z mylnej intuicji reprezentatywności i oczekiwania krótkoterminowego wyrównania losowych sekwencji.",
+    "id": 55
+  },
+  {
+    "question": "W zadaniu flankerów Eriksenów wydłużenie czasu reakcji w warunku niezgodnym odzwierciedla głównie:",
+    "options": [
+      "Konflikt odpowiedzi i potrzebę hamowania dystraktorów",
+      "Deficyt percepcji barw",
+      "Utratę pamięci epizodycznej",
+      "Wyłącznie spadek motywacji"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Bodźce flankujące aktywują konkurencyjne reakcje, co zwiększa koszt kontroli poznawczej przy selekcji poprawnej odpowiedzi.",
+    "id": 56
+  },
+  {
+    "question": "Hipoteza desirable difficulties Bjorka sugeruje, że skuteczne uczenie długoterminowe wspiera:",
+    "options": [
+      "Usuwanie wszystkich trudności i maksymalna płynność przetwarzania",
+      "Wprowadzanie umiarkowanych utrudnień, np. przeplatania i odroczonego odtwarzania",
+      "Nauka wyłącznie tuż przed testem",
+      "Wyłącznie bierne słuchanie wykładu"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Umiarkowane, kontrolowane trudności zwiększają wysiłek poznawczy podczas kodowania i wydobycia, co poprawia trwałość śladów pamięciowych.",
+    "id": 57
+  },
+  {
+    "question": "W modelu pamięci roboczej zakłócenie artykulacyjne (articulatory suppression) najbardziej obniża wykonanie zadań zależnych od:",
+    "options": [
+      "Szkicownika wzrokowo-przestrzennego",
+      "Pętli fonologicznej",
+      "Bufora epizodycznego",
+      "Systemu limbicznego"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Powtarzanie nieistotnych sylab blokuje odświeżanie śladów werbalnych, przez co spada efektywność pętli fonologicznej.",
+    "id": 58
+  },
+  {
+    "question": "W teorii predykcyjnego przetwarzania (predictive processing) błąd predykcji to:",
+    "options": [
+      "Różnica między oczekiwanym sygnałem a napływającym wejściem sensorycznym",
+      "Każdy błąd poznawczy wynikający ze zmęczenia",
+      "Niezdolność do tworzenia pamięci autobiograficznej",
+      "Zakłócenie przewodnictwa w nerwach obwodowych"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Modele predykcyjne zakładają, że mózg minimalizuje różnicę między przewidywaniami a sygnałem wejściowym poprzez aktualizację modelu świata.",
+    "id": 59
+  },
+  {
+    "question": "Zadania N-back są najczęściej wykorzystywane do oceny:",
+    "options": [
+      "Pamięci proceduralnej",
+      "Aktualizacji informacji w pamięci roboczej i kontroli wykonawczej",
+      "Wyłącznie inteligencji krystalicznej",
+      "Percepcji bólu"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "N-back wymaga ciągłego monitorowania sekwencji oraz aktualizowania reprezentacji, dlatego obciąża pamięć roboczą i procesy wykonawcze.",
+    "id": 60
   }
 ]

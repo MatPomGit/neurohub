@@ -648,5 +648,135 @@
     "difficulty": 2,
     "justification": "MoCA jest narzędziem przesiewowym; wynik obniżony wskazuje na potrzebę dalszej, wielowymiarowej oceny, a nie samodzielne rozpoznanie etiologii.",
     "id": 50
+  },
+  {
+    "question": "Wzorzec ciężkich trudności w uczeniu się nowego materiału przy względnie zachowanej pamięci odległej najbardziej sugeruje:",
+    "options": [
+      "Uszkodzenie przyśrodkowych struktur skroniowych",
+      "Izolowaną neuropatię obwodową",
+      "Uszkodzenie móżdżku bez wpływu na pamięć",
+      "Pierwotną afazję motoryczną"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Profil ten jest typowy dla dysfunkcji układu hipokampalnego odpowiedzialnego za kodowanie nowych śladów pamięci deklaratywnej.",
+    "id": 51
+  },
+  {
+    "question": "Objaw anozognozji po udarze prawej półkuli oznacza najczęściej:",
+    "options": [
+      "Nasilony lęk przed badaniem neuropsychologicznym",
+      "Brak świadomości własnych deficytów neurologicznych",
+      "Utratę zdolności pisania przy zachowanym czytaniu",
+      "Przemijające zawroty głowy"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Anozognozja to zaburzenie wglądu, w którym pacjent nie rozpoznaje lub zaniża własne ograniczenia wynikające z uszkodzenia mózgu.",
+    "id": 52
+  },
+  {
+    "question": "W chorobie Alzheimera najbardziej typowy wczesny profil poznawczy obejmuje:",
+    "options": [
+      "Dominujące zaburzenia praksji przy zachowanej pamięci epizodycznej",
+      "Deficyty świeżej pamięci epizodycznej i uczenia się nowych informacji",
+      "Izolowane trudności motoryczne bez zmian pamięci",
+      "Głównie zaburzenia pola widzenia"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "We wczesnym AD zwykle dominują trudności kodowania i wydobycia nowego materiału epizodycznego związane z patologią przyśrodkowych płatów skroniowych.",
+    "id": 53
+  },
+  {
+    "question": "W podejrzeniu symulacji deficytów poznawczych testy trafności wykonania (PVT) służą do:",
+    "options": [
+      "Oceny ciśnienia śródczaszkowego",
+      "Sprawdzenia wiarygodności zaangażowania i wysiłku podczas badania",
+      "Diagnozy rodzaju afazji na podstawie EEG",
+      "Pomiaru szybkości przewodnictwa nerwowego"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "PVT pomagają ocenić, czy wynik odzwierciedla rzeczywiste możliwości, czy jest zniekształcony przez niski wysiłek lub celowe zaniżanie.",
+    "id": 54
+  },
+  {
+    "question": "Uszkodzenie pęczka łukowatego (arcuate fasciculus) klasycznie wiąże się z:",
+    "options": [
+      "Afazją przewodzenia i nasilonymi trudnościami powtarzania",
+      "Ślepotą korową",
+      "Mutyzmem akinetycznym",
+      "Zespołem Balinta"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Pęczek łukowaty łączy obszary językowe tylne i przednie, a jego uszkodzenie często skutkuje afazją przewodzenia z zaburzeniem powtarzania.",
+    "id": 55
+  },
+  {
+    "question": "W urazowym uszkodzeniu mózgu (TBI) z uszkodzeniem aksonalnym częsty profil obejmuje:",
+    "options": [
+      "Wyłącznie zaburzenia słuchu obwodowego",
+      "Spowolnienie przetwarzania, osłabienie uwagi i funkcji wykonawczych",
+      "Izolowaną utratę rozpoznawania twarzy",
+      "Brak jakichkolwiek zmian poznawczych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Rozlane uszkodzenie aksonalne często zakłóca integrację sieci mózgowych, co przekłada się na wolniejsze tempo przetwarzania i trudności wykonawcze.",
+    "id": 56
+  },
+  {
+    "question": "Który zestaw objawów najbardziej odpowiada triadzie wodogłowia normotensyjnego (NPH)?",
+    "options": [
+      "Afazja, apraksja, agnozja",
+      "Zaburzenia chodu, pogorszenie funkcji poznawczych, nietrzymanie moczu",
+      "Drżenie spoczynkowe, sztywność, dyskinezy",
+      "Bóle głowy, fotofobia, sztywność karku"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Klasyczna triada NPH obejmuje zaburzenia chodu, objawy poznawcze o profilu podkorowym oraz problemy mikcyjne.",
+    "id": 57
+  },
+  {
+    "question": "W próbach fluencji słownej (fonemicznej i semantycznej) spadek wyników może wskazywać m.in. na:",
+    "options": [
+      "Deficyty funkcji językowych i wykonawczych",
+      "Wyłącznie zaburzenia słuchu",
+      "Wyłącznie uszkodzenie rdzenia kręgowego",
+      "Brak znaczenia klinicznego"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Fluencja wymaga zarówno dostępu leksykalnego, jak i strategii przeszukiwania oraz monitorowania odpowiedzi, dlatego jest czuła na dysfunkcje czołowo-skroniowe.",
+    "id": 58
+  },
+  {
+    "question": "Apraksja konstrukcyjna najczęściej ujawnia się jako:",
+    "options": [
+      "Trudność odwzorowywania figur i relacji przestrzennych",
+      "Niemożność rozpoznawania twarzy",
+      "Całkowita utrata rozumienia mowy",
+      "Wyłącznie spadek siły mięśniowej"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "W apraksji konstrukcyjnej pacjent ma problem z organizacją przestrzenną podczas rysowania lub składania wzorów mimo braku ciężkiego niedowładu.",
+    "id": 59
+  },
+  {
+    "question": "W monitorowaniu zmian poznawczych po neurorehabilitacji najbardziej trafne podejście to:",
+    "options": [
+      "Ocena wyłącznie jednego wyniku globalnego bez kontekstu",
+      "Łączenie powtarzanych pomiarów testowych, obserwacji funkcjonalnej i danych od bliskich",
+      "Poleganie tylko na subiektywnym wrażeniu klinicysty",
+      "Rezygnacja z oceny przy pierwszej poprawie"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Rzetelna ewaluacja efektów rehabilitacji wymaga triangulacji danych: testów, funkcjonowania codziennego oraz informacji środowiskowych.",
+    "id": 60
   }
 ]
