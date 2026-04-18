@@ -350,6 +350,22 @@ em{color:var(--goldl)}
 .test-zone-icon{font-size:.95rem;line-height:1}
 .test-zone-title{font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
 .test-zone-desc{font-size:.78rem;color:var(--t2)}
+.ttest-wrap{max-width:1120px}
+.ttest-layout{display:grid;gap:1rem;grid-template-columns:1fr;grid-template-areas:"main" "side"}
+.ttest-layout--setup{grid-template-areas:"main" "side"}
+.ttest-side{grid-area:side}
+.ttest-main{grid-area:main}
+.ttest-topic-list{display:grid;gap:.55rem;grid-template-columns:1fr}
+.ttest-pager{display:grid;grid-template-columns:repeat(auto-fit,minmax(34px,1fr));gap:.35rem;margin-top:.85rem}
+.ttest-page-btn{background:var(--bg3);border:1px solid var(--border);color:var(--t3);border-radius:8px;padding:.38rem .3rem;cursor:pointer;font-size:.73rem;line-height:1.2;min-height:32px}
+.ttest-page-btn:hover{border-color:var(--gold);color:var(--gold)}
+.ttest-page-btn.active{border-color:var(--gold);background:var(--goldt);color:var(--goldl);font-weight:700}
+.ttest-page-btn.answered{border-color:rgba(90,158,111,.4);color:#8fd4a0}
+.ttest-page-btn.unanswered{border-color:rgba(184,107,123,.35);color:#d4909e}
+.ttest-sticky{position:sticky;top:calc(var(--hh) + .9rem);z-index:3;background:var(--bg)}
+.ttest-review-controls{display:flex;gap:.55rem;flex-wrap:wrap;align-items:center;margin:1rem 0 .6rem}
+.ttest-filter-toggle{display:inline-flex;align-items:center;gap:.5rem;font-size:.8rem;color:var(--t2)}
+.ttest-review-meta{font-size:.76rem;color:var(--t3)}
 .art-dot.empty{background:var(--rose)}
 .art-badge.empty{background:rgba(184,107,123,.15);color:var(--rose);border-color:rgba(184,107,123,.3)}
 .art-card.empty{border-color:rgba(184,107,123,.22)}
@@ -394,4 +410,9 @@ em{color:var(--goldl)}
     font-size:.55rem;
     padding:.08rem .4rem;
   }
+}
+@media(min-width:901px){
+  .ttest-layout{grid-template-columns:minmax(260px,340px) 1fr;grid-template-areas:"side main";align-items:start}
+  .ttest-topic-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .test-actions.ttest-sticky,.ttest-nav.ttest-sticky{padding:.55rem .65rem;border:1px solid var(--border);border-radius:10px;background:rgba(9,9,15,.9);backdrop-filter:blur(8px)}
 }
