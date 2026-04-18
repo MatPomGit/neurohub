@@ -32,7 +32,7 @@
       "Ocena pracownika tylko przez przełożonego",
       "Zbieraniu informacji zwrotnej z wielu źródeł (przełożeni, współpracownicy, podwładni, samoocena)",
       "Losowym przydziale awansów",
-      "Badaniu satysfakcji klientów wyłącznie ankietą online"
+      "Badaniu satysfakcji klientów głównie ankietą online"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -123,7 +123,7 @@
       "Autokratyczny",
       "Transformacyjny",
       "Laissez-faire bez wsparcia",
-      "Transakcyjny oparty wyłącznie na karach"
+      "Transakcyjny oparty głównie na karach"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -148,7 +148,7 @@
     "options": [
       "Brak opiekuna wdrożenia",
       "Plan 30-60-90 dni z celami i feedbackiem",
-      "Wyłącznie przekazanie regulaminu",
+      "Głównie przekazanie regulaminu",
       "Ocena nowej osoby po pierwszym dniu"
     ],
     "correct": 1,
@@ -187,7 +187,7 @@
     "options": [
       "Ocena preferencji kierownika",
       "Opis zadań, kompetencji i warunków wykonywania pracy",
-      "Wyłącznie analiza płac",
+      "Głównie analiza płac",
       "Ograniczenie do historii firmy"
     ],
     "correct": 1,
@@ -239,7 +239,7 @@
     "options": [
       "Wysokości premii",
       "Postrzeganej uczciwości procesu podejmowania decyzji",
-      "Wyłącznie relacji koleżeńskich",
+      "Głównie relacji koleżeńskich",
       "Estetyki miejsca pracy"
     ],
     "correct": 1,

@@ -94,10 +94,10 @@
     "id": 8,
     "question": "Teoria społeczno-poznawcza Bandury zakłada, że uczenie się zachowań agresywnych odbywa się poprzez:",
     "options": [
-      "Wyłącznie warunkowanie instrumentalne",
+      "Głównie warunkowanie instrumentalne",
       "Obserwację i naśladownictwo modeli (uczenie się przez obserwację)",
       "Wrodzone instynkty agresywne wyzwalane przez frustrację",
-      "Wyłącznie bezpośrednie wzmocnienie negatywne"
+      "Głównie bezpośrednie wzmocnienie negatywne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -107,7 +107,7 @@
     "id": 9,
     "question": "Polaryzacja grupowa (group polarization) oznacza, że:",
     "options": [
-      "Grupy zawsze podejmują bardziej konserwatywne decyzje niż jednostki",
+      "Grupy często podejmują bardziej konserwatywne decyzje niż jednostki",
       "Po dyskusji grupowej postawy członków przesuwają się ku bardziej ekstremalnym wersjom dominującego przed dyskusją stanowiska",
       "Grupy dzielą się na wyraźnie antagonistyczne podgrupy",
       "Jednostki rezygnują z własnych opinii pod wpływem autorytetu lidera"
@@ -133,9 +133,9 @@
     "id": 11,
     "question": "Teoria tożsamości społecznej (SIT) Tajfela i Turnera zakłada, że:",
     "options": [
-      "Tożsamość jednostki opiera się wyłącznie na cechach osobowości",
+      "Tożsamość jednostki opiera się głównie na cechach osobowości",
       "Przynależność do grup społecznych dostarcza elementu tożsamości, a motywacja do pozytywnej oceny własnej grupy prowadzi do faworyzowania ingrupy",
-      "Konflikty między grupami wynikają wyłącznie z rywalizacji o zasoby",
+      "Konflikty między grupami wynikają głównie z rywalizacji o zasoby",
       "Procesy kategoryzacji nie mają wpływu na uprzedzenia"
     ],
     "correct": 1,
@@ -148,7 +148,7 @@
     "options": [
       "Każdego rodzaju – wystarczy samo zetknięcie się grup",
       "Równego statusu, opartego na współpracy, z poparciem instytucjonalnym i wspólnymi celami",
-      "Wyłącznie w warunkach rywalizacji, bo wzmacnia wzajemny szacunek",
+      "Głównie w warunkach rywalizacji, bo wzmacnia wzajemny szacunek",
       "Ograniczonego i pośredniego (medialnego), by unikać konfliktów"
     ],
     "correct": 1,
@@ -159,7 +159,7 @@
     "id": 13,
     "question": "Teoria reaktancji (Brehm) w kontekście perswazji i zgodności oznacza, że:",
     "options": [
-      "Ludzie zawsze ulegają perswazji, gdy przekaz pochodzi od autorytetu",
+      "Ludzie często ulegają perswazji, gdy przekaz pochodzi od autorytetu",
       "Gdy ludzie spostrzegają zagrożenie wolności wyboru, reagują oporem i wzrostem atrakcyjności zakazanej opcji",
       "Im silniejszy nacisk społeczny, tym wyższy poziom konformizmu",
       "Efekty perswazji znikają po usunięciu źródła nacisku"
@@ -278,7 +278,7 @@
     "options": [
       "Stereotypy nie mają wpływu na wyniki testów, jeśli badani mają wysoką samoocenę",
       "Świadomość negatywnego stereotypu dotyczącego własnej grupy w sytuacji oceny pogarsza wyniki, potwierdzając stereotyp",
-      "Zagrożenie stereotypem dotyczy wyłącznie grup mniejszościowych",
+      "Zagrożenie stereotypem dotyczy głównie grup mniejszościowych",
       "Efekt pojawia się tylko wtedy, gdy badani podzielają stereotyp"
     ],
     "correct": 1,
@@ -289,9 +289,9 @@
     "id": 23,
     "question": "Teoria zarządzania trwogą (Terror Management Theory, Greenberg, Solomon, Pyszczynski) zakłada, że:",
     "options": [
-      "Strach przed śmiercią redukuje się wyłącznie przez unikanie myśli o śmiertelności",
+      "Strach przed śmiercią redukuje się głównie przez unikanie myśli o śmiertelności",
       "Świadomość własnej śmiertelności motywuje do podtrzymywania światopoglądów i poczucia własnej wartości, które symbolicznie transcendują śmierć",
-      "Kultury różnią się wyłącznie w zakresie rytuałów żałobnych, nie w psychologicznych reakcjach na śmierć",
+      "Kultury różnią się głównie w zakresie rytuałów żałobnych, nie w psychologicznych reakcjach na śmierć",
       "Tylko osoby z zaburzeniami lękowymi doświadczają egzystencjalnego lęku przed śmiercią"
     ],
     "correct": 1,
@@ -302,9 +302,9 @@
     "id": 24,
     "question": "Socjometryczny model sieci społecznych wskazuje, że centralne osoby w sieci (\"hubs\"):",
     "options": [
-      "Zawsze odczuwają silniejsze wsparcie społeczne niż osoby peryferyjne",
+      "Często odczuwają silniejsze wsparcie społeczne niż osoby peryferyjne",
       "Mają większy wpływ na dyfuzję informacji i norm, lecz są też bardziej narażone na przeciążenie relacyjne",
-      "Charakteryzują się wyłącznie wysokim statusem socjoekonomicznym",
+      "Charakteryzują się głównie wysokim statusem socjoekonomicznym",
       "Wykazują typowo niższy poziom empatii niż osoby na peryferiach sieci"
     ],
     "correct": 1,
@@ -328,9 +328,9 @@
     "id": 26,
     "question": "Model Latané'a dotyczący wpływu społecznego zakłada, że siła wpływu grupy zależy od:",
     "options": [
-      "Wyłącznie liczby źródeł wpływu",
+      "Głównie liczby źródeł wpływu",
       "Liczby, bezpośredniości (bliskości) i siły (statusu) źródeł wpływu",
-      "Wyłącznie statusu osoby wywierającej wpływ",
+      "Głównie statusu osoby wywierającej wpływ",
       "Relacji między nadawcą a odbiorcą"
     ],
     "correct": 1,
@@ -344,7 +344,7 @@
       "Informacje przekazywane ustnie ulegają systematycznym zniekształceniom",
       "Jednostki ignorują własną wiedzę na rzecz obserwacji zachowań innych, prowadząc do masowego podążania za trendem mimo prywatnych wątpliwości",
       "Media społecznościowe pogłębiają konflikty grupowe",
-      "Grupowe podejmowanie decyzji zawsze jest bardziej racjonalne niż indywidualne"
+      "Grupowe podejmowanie decyzji często jest bardziej racjonalne niż indywidualne"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -354,9 +354,9 @@
     "id": 28,
     "question": "Teoria ram interpretacyjnych (framing theory) Tversky'ego i Kahnemana wykazuje, że:",
     "options": [
-      "Ludzie zawsze podejmują racjonalne decyzje przy wystarczającej ilości informacji",
+      "Ludzie często podejmują racjonalne decyzje przy wystarczającej ilości informacji",
       "Sposób prezentacji tej samej informacji (zysk vs. strata) wpływa na wybory, co jest sprzeczne z założeniami teorii użyteczności oczekiwanej",
-      "Efekty framing dotyczą wyłącznie decyzji finansowych",
+      "Efekty framing dotyczą głównie decyzji finansowych",
       "Emocje nie mają wpływu na framing, gdy decyzja dotyczy kwestii etycznych"
     ],
     "correct": 1,
@@ -380,10 +380,10 @@
     "id": 30,
     "question": "W kontekście badań nad altruizmem, \"hipoteza empatia-altruizm\" Batsona zakłada, że:",
     "options": [
-      "Ludzie pomagają innym wyłącznie z powodów egoistycznych (redukcja własnego dyskomfortu)",
+      "Ludzie pomagają innym głównie z powodów egoistycznych (redukcja własnego dyskomfortu)",
       "Empatia emocjonalna wywołuje prawdziwie altruistyczną motywację do pomocy niezależnie od osobistych korzyści",
-      "Pomoc innym jest zawsze warunkowana sposobnością do wzajemności",
-      "Altruizm ewoluował wyłącznie w kontekście doboru krewniaczy"
+      "Pomoc innym jest często warunkowana sposobnością do wzajemności",
+      "Altruizm ewoluował głównie w kontekście doboru krewniaczy"
     ],
     "correct": 1,
     "difficulty": 3,

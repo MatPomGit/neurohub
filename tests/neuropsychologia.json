@@ -107,9 +107,9 @@
     "id": 9,
     "question": "Skrzyżowanie wzrokowe (chiazma opticum) sprawia, że:",
     "options": [
-      "Informacje z lewego oka trafiają wyłącznie do lewej półkuli",
+      "Informacje z lewego oka trafiają głównie do lewej półkuli",
       "Informacje z lewej połowy pola widzenia obu oczu trafiają do prawej półkuli wzrokowej",
-      "Każde oko przesyła informacje wyłącznie do tej samej półkuli",
+      "Każde oko przesyła informacje głównie do tej samej półkuli",
       "Prawa połowa siatkówki obu oczu przetwarza lewa stronę pola widzenia"
     ],
     "correct": 1,
@@ -185,7 +185,7 @@
     "id": 15,
     "question": "Bateria LURIA-Nebraska służy w neuropsychologii do:",
     "options": [
-      "Oceny wyłącznie pamięci i funkcji wykonawczych",
+      "Oceny głównie pamięci i funkcji wykonawczych",
       "Kompleksowej oceny funkcji neuropsychologicznych: motoryki, rytmu, dotykowych, wzrokowych, mowy, pamięci i inteligencji",
       "Diagnozy zaburzeń osobowości u pacjentów z urazami mózgu",
       "Pomiaru szybkości przewodnictwa nerwowego"
@@ -224,9 +224,9 @@
     "id": 18,
     "question": "Neuropsychologia rehabilitacyjna zakłada, że po uszkodzeniu mózgu poprawa funkcji jest możliwa m.in. dzięki:",
     "options": [
-      "Wyłącznie spontanicznemu zrostowi neuronów w miejscu uszkodzenia",
+      "Głównie spontanicznemu zrostowi neuronów w miejscu uszkodzenia",
       "Neuroplastyczności – reorganizacji połączeń mózgowych i kompensacji przez niezajęte obszary",
-      "Wyłącznie farmakoterapii neuroprotekcyjnej",
+      "Głównie farmakoterapii neuroprotekcyjnej",
       "Braku aktywności umysłowej w celu regeneracji"
     ],
     "correct": 1,
@@ -266,7 +266,7 @@
       "Różne obszary kory mają ściśle wyspecjalizowane funkcje, które nie mogą być przejęte przez inne regiony",
       "Kora mózgowa ma równorzędny potencjał funkcjonalny – pamięć zależy od masy uszkodzonego obszaru, a nie jego lokalizacji (prawo masy)",
       "Lewa półkula dominuje we wszystkich funkcjach poznawczych",
-      "Mózgowie działa wyłącznie jako homogeniczna całość bez modułowej organizacji"
+      "Mózgowie działa głównie jako homogeniczna całość bez modułowej organizacji"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -305,7 +305,7 @@
       "Emocje zaburzają racjonalne podejmowanie decyzji i powinny być eliminowane",
       "Sygnały somatyczne (emocjonalne) z przeszłych doświadczeń są konieczne do efektywnego podejmowania decyzji – ich brak prowadzi do złych wyborów",
       "Pamięć ciała (somatyczna) jest niezależna od procesów korowych",
-      "Kora somatosensoryczna odpowiada wyłącznie za percepcję bólu"
+      "Kora somatosensoryczna odpowiada głównie za percepcję bólu"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -341,7 +341,7 @@
     "id": 27,
     "question": "W kontekście neuropsychologii klinicznej, \"dysocjacja\" między testem a codziennym funkcjonowaniem (ecological validity) oznacza, że:",
     "options": [
-      "Wyniki testów laboratoryjnych zawsze odzwierciedlają codzienne trudności",
+      "Wyniki testów laboratoryjnych często odzwierciedlają codzienne trudności",
       "Wyniki testów neuropsychologicznych mogą nie odpowiadać stopniowi trudności w naturalnych warunkach – testy mierzą izolowane zdolności, a życie wymaga ich integracji",
       "Testy neuropsychologiczne są zbyt trudne dla klinicznych grup pacjentów",
       "Środowisko testowe lepiej odzwierciedla możliwości pacjenta niż środowisko domowe"
@@ -356,7 +356,7 @@
     "options": [
       "Agresją i rywalizacją w grupie własnej",
       "Bondem społecznym, zaufaniem i zachowaniami opiekuńczymi, ale też z etnocentryzmem i wrogością wobec outgrupy",
-      "Wyłącznie reakcją stresową osi HPA",
+      "Głównie reakcją stresową osi HPA",
       "Procesami uczenia się motorycznego w móżdżku"
     ],
     "correct": 1,
@@ -367,9 +367,9 @@
     "id": 29,
     "question": "Podejście \"sieciowe\" (network approach) do psychopatologii Borsboom i Cramer różni się od modelu biomedycznego tym, że:",
     "options": [
-      "Zakłada, że objawy są wyłącznie wskaźnikami ukrytej choroby mózgu",
+      "Zakłada, że objawy są głównie wskaźnikami ukrytej choroby mózgu",
       "Traktuje objawy jako wzajemnie powiązane węzły sieci – aktywacja jednego objawu wzmacnia inne, a zaburzenie wyłania się z dynamiki całej sieci, nie z jednej przyczyny",
-      "Skupia się wyłącznie na genetycznych podstawach zaburzeń",
+      "Skupia się głównie na genetycznych podstawach zaburzeń",
       "Neguje rolę czynników środowiskowych w powstawaniu zaburzeń"
     ],
     "correct": 1,
@@ -562,7 +562,7 @@
     "question": "W teście Rey-Osterrieth Complex Figure opóźnione odtwarzanie ocenia głównie:",
     "options": [
       "Pamięć wzrokowo-przestrzenną i organizację materiału",
-      "Wyłącznie praksję oralną",
+      "Głównie praksję oralną",
       "Przetwarzanie słuchowo-werbalne",
       "Nasilenie objawów depresyjnych"
     ],
@@ -629,7 +629,7 @@
       "Świadome kłamstwo w celu manipulacji",
       "Niezamierzone, błędne wypełnianie luk pamięciowych przy osłabionej kontroli źródła informacji",
       "Typowy objaw izolowanej agnozji słuchowej",
-      "Skutek wyłącznie zaburzeń widzenia"
+      "Skutek głównie zaburzeń widzenia"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -641,7 +641,7 @@
     "options": [
       "Pewne rozpoznanie konkretnej choroby neurodegeneracyjnej",
       "Sygnał przesiewowy wymagający pogłębionej diagnozy klinicznej i neuropsychologicznej",
-      "Dowód wyłącznie zaburzeń nastroju",
+      "Dowód głównie zaburzeń nastroju",
       "Brak znaczenia diagnostycznego"
     ],
     "correct": 1,
@@ -717,7 +717,7 @@
   {
     "question": "W urazowym uszkodzeniu mózgu (TBI) z uszkodzeniem aksonalnym częsty profil obejmuje:",
     "options": [
-      "Wyłącznie zaburzenia słuchu obwodowego",
+      "Głównie zaburzenia słuchu obwodowego",
       "Spowolnienie przetwarzania, osłabienie uwagi i funkcji wykonawczych",
       "Izolowaną utratę rozpoznawania twarzy",
       "Brak jakichkolwiek zmian poznawczych"
@@ -744,8 +744,8 @@
     "question": "W próbach fluencji słownej (fonemicznej i semantycznej) spadek wyników może wskazywać m.in. na:",
     "options": [
       "Deficyty funkcji językowych i wykonawczych",
-      "Wyłącznie zaburzenia słuchu",
-      "Wyłącznie uszkodzenie rdzenia kręgowego",
+      "Głównie zaburzenia słuchu",
+      "Głównie uszkodzenie rdzenia kręgowego",
       "Brak znaczenia klinicznego"
     ],
     "correct": 0,
@@ -759,7 +759,7 @@
       "Trudność odwzorowywania figur i relacji przestrzennych",
       "Niemożność rozpoznawania twarzy",
       "Całkowita utrata rozumienia mowy",
-      "Wyłącznie spadek siły mięśniowej"
+      "Głównie spadek siły mięśniowej"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -769,7 +769,7 @@
   {
     "question": "W monitorowaniu zmian poznawczych po neurorehabilitacji najbardziej trafne podejście to:",
     "options": [
-      "Ocena wyłącznie jednego wyniku globalnego bez kontekstu",
+      "Ocena głównie jednego wyniku globalnego bez kontekstu",
       "Łączenie powtarzanych pomiarów testowych, obserwacji funkcjonalnej i danych od bliskich",
       "Poleganie tylko na subiektywnym wrażeniu klinicysty",
       "Rezygnacja z oceny przy pierwszej poprawie"

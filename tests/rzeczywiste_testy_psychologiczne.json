@@ -57,7 +57,7 @@
     "options": [
       "Tylko surowe wyniki punktowe",
       "Opis ograniczeń badania i kontekstu interpretacji",
-      "Wyłącznie rozpoznanie ICD",
+      "Głównie rozpoznanie ICD",
       "Brak rekomendacji"
     ],
     "correct": 1,
@@ -109,7 +109,7 @@
     "options": [
       "Test nie wykrył zaburzenia mimo jego obecności",
       "Test wskazał zaburzenie mimo jego braku",
-      "Wynik jest zawsze nieważny",
+      "Wynik jest często nieważny",
       "Badany odmówił odpowiedzi"
     ],
     "correct": 1,
@@ -120,7 +120,7 @@
     "id": 10,
     "question": "Która praktyka zwiększa trafność oceny psychologicznej w środowisku klinicznym?",
     "options": [
-      "Opieranie się wyłącznie na jednym teście",
+      "Opieranie się głównie na jednym teście",
       "Triangulacja danych: testy, wywiad i obserwacja",
       "Pomijanie danych od rodziny",
       "Interpretowanie bez norm"
@@ -187,8 +187,8 @@
     "options": [
       "Gdy wynik jest zgodny z obrazem klinicznym",
       "Gdy w trakcie pierwszego badania wystąpiły silne zakłócenia i brak współpracy",
-      "Zawsze po 24 godzinach",
-      "Nigdy"
+      "Często po 24 godzinach",
+      "Rzadko"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -213,7 +213,7 @@
     "options": [
       "Suchy odczyt wyników bez pytań",
       "Komunikacja zrozumiała, empatyczna i oparta na zaleceniach",
-      "Przekazanie wyników wyłącznie rodzinie",
+      "Przekazanie wyników głównie rodzinie",
       "Zatajenie niepewności interpretacyjnej"
     ],
     "correct": 1,
@@ -237,7 +237,7 @@
     "id": 19,
     "question": "W skali MMSE wynik graniczny powinien być interpretowany przede wszystkim:",
     "options": [
-      "Wyłącznie na podstawie jednego punktu odcięcia",
+      "Głównie na podstawie jednego punktu odcięcia",
       "Z uwzględnieniem wieku, wykształcenia i danych klinicznych",
       "Jako pewna diagnoza otępienia",
       "Bez odniesienia do funkcjonowania codziennego"
@@ -250,7 +250,7 @@
     "id": 20,
     "question": "Który scenariusz najlepiej opisuje użycie testu projekcyjnego zgodnie z dobrymi praktykami?",
     "options": [
-      "Stawianie diagnozy wyłącznie na podstawie testu projekcyjnego",
+      "Stawianie diagnozy głównie na podstawie testu projekcyjnego",
       "Traktowanie wyników jako danych pomocniczych w szerszej integracji",
       "Rezygnacja z wywiadu klinicznego",
       "Interpretacja bez standaryzowanego systemu"
@@ -318,7 +318,7 @@
       "Interpretowanie wyniku bez danych od nauczycieli i rodziców",
       "Uwzględnienie informacji wieloźródłowych oraz norm rozwojowych",
       "Pomijanie funkcjonowania emocjonalnego",
-      "Użycie wyłącznie narzędzi dla dorosłych"
+      "Użycie głównie narzędzi dla dorosłych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -369,7 +369,7 @@
     "options": [
       "Formułowanie oskarżeń bez danych",
       "Użycie wskaźników trafności wykonania i ostrożna interpretacja",
-      "Natychmiastowe zakończenie badania bez raportu",
+      "Szybkie zakończenie badania bez raportu",
       "Pominięcie tematu w opinii"
     ],
     "correct": 1,

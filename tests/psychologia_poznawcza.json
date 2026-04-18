@@ -55,7 +55,7 @@
     "id": 5,
     "question": "Złudzenie Müllera-Lyera ilustruje, że:",
     "options": [
-      "Pamięć wzrokowa jest zawsze dokładna",
+      "Pamięć wzrokowa jest często dokładna",
       "Percepcja może być niezgodna z fizyczną rzeczywistością – mózg interpretuje bodźce, a nie tylko je rejestruje",
       "Uwaga selektywna ogranicza przetwarzanie bodźców wzrokowych",
       "Percepcja głębi wymaga obu oczu"
@@ -96,7 +96,7 @@
     "options": [
       "Materiał zapamiętany w jednym kontekście jest trudniej przypomnieć w innym – kontekst kodowania ułatwia przypomnienie",
       "Najlepiej zapamiętujemy materiał nowy i zaskakujący",
-      "Emocje zawsze pogarszają zapamiętywanie faktów",
+      "Emocje często pogarszają zapamiętywanie faktów",
       "Powtarzanie wystarczy do trwałego zapamiętania"
     ],
     "correct": 0,
@@ -110,7 +110,7 @@
       "Wolny, analityczny i wymagający wysiłku",
       "Szybki, automatyczny, intuicyjny i podatny na błędy heurystyczne",
       "Odpowiedzialny za rozwiązywanie złożonych problemów matematycznych",
-      "Aktywny wyłącznie podczas snu i konsolidacji pamięci"
+      "Aktywny głównie podczas snu i konsolidacji pamięci"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -227,7 +227,7 @@
       "Uwaga jest podzielona na niezależne moduły, każdy z własną pojemnością",
       "Istnieje ogólna pula zasobów uwagi, które są przydzielane do zadań w zależności od trudności i motywacji",
       "Pojemność uwagi jest stała i niezależna od trudności zadania",
-      "Uwaga działa wyłącznie w sposób selekcji wczesnej (filtru Broadbenta)"
+      "Uwaga działa głównie w sposób selekcji wczesnej (filtru Broadbenta)"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -265,7 +265,7 @@
     "options": [
       "Informacje werbalne i obrazowe są przechowywane w tym samym systemie pamięciowym",
       "Istnieją dwa niezależne systemy kodowania – werbalny i wyobrażeniowy – a ich jednoczesna aktywacja wzmacnia zapamiętywanie",
-      "Obrazy są zawsze lepiej pamiętane niż słowa niezależnie od kontekstu",
+      "Obrazy są często lepiej pamiętane niż słowa niezależnie od kontekstu",
       "Kodowanie werbalne jest dominującym i wystarczającym trybem przechowywania informacji"
     ],
     "correct": 1,
@@ -278,7 +278,7 @@
     "options": [
       "Mózg pasywnie rejestruje bodźce sensoryczne i przesyła je do wyższych obszarów",
       "Mózg generuje predykcje top-down i porównuje je z sygnałami sensorycznymi – percepcja to minimalizacja błędów predykcji",
-      "Percepcja jest wyłącznie procesem bottom-up, zależnym od intensywności bodźca",
+      "Percepcja jest głównie procesem bottom-up, zależnym od intensywności bodźca",
       "Kodowanie informacji odbywa się sekwencyjnie od zmysłów do kory kojarzeniowej"
     ],
     "correct": 1,
@@ -289,10 +289,10 @@
     "id": 23,
     "question": "Koncepcja \"rozszerzonego umysłu\" (extended mind, Clark i Chalmers) zakłada, że:",
     "options": [
-      "Procesy poznawcze są wyłącznie wewnętrznymi procesami mózgu",
+      "Procesy poznawcze są głównie wewnętrznymi procesami mózgu",
       "Procesy poznawcze mogą obejmować narzędzia i środowisko zewnętrzne, gdy spełniają te same funkcje co procesy wewnętrzne",
       "Inteligencja sztuczna jest tożsama z ludzkim poznaniem",
-      "Pamięć externa (np. notatniki) jest zawsze mniej wiarygodna niż wewnętrzna"
+      "Pamięć externa (np. notatniki) jest często mniej wiarygodna niż wewnętrzna"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -304,7 +304,7 @@
     "options": [
       "Schematy poznawcze ulegają osłabieniu przy braku aktywacji",
       "Powtarzające się ekspozycje na niezgodne z schematem informacje prowadzą do stopniowej zmiany schematów",
-      "Schematy zawsze uniemożliwiają przetwarzanie nowych informacji",
+      "Schematy często uniemożliwiają przetwarzanie nowych informacji",
       "Aktywacja schematów powoduje zniekształcenia pamięciowe w kierunku zgodności ze schematem"
     ],
     "correct": 3,
@@ -315,9 +315,9 @@
     "id": 25,
     "question": "Teoria ACT-R (Anderson) to architektura kognitywna, która integruje:",
     "options": [
-      "Wyłącznie modele pamięci deklaratywnej",
+      "Głównie modele pamięci deklaratywnej",
       "Moduły deklaratywne, proceduralne, wzrokowe i motoryczne w zunifikowanej teorii poznania z biologicznymi odpowiednikami w mózgu",
-      "Wyłącznie teorie uczenia się przez wzmocnienie",
+      "Głównie teorie uczenia się przez wzmocnienie",
       "Modele sieci neuronowych bez odpowiedników w psychologii poznawczej"
     ],
     "correct": 1,
@@ -341,9 +341,9 @@
     "id": 27,
     "question": "Koncepcja \"metacognition\" (metapoznania) Flawella obejmuje:",
     "options": [
-      "Wyłącznie wiedzę o własnej pamięci",
+      "Głównie wiedzę o własnej pamięci",
       "Wiedzę o własnych procesach poznawczych oraz monitorowanie i regulowanie tych procesów podczas wykonywania zadań",
-      "Wyłącznie procesy kontroli wykonawczej w korze przedczołowej",
+      "Głównie procesy kontroli wykonawczej w korze przedczołowej",
       "Automatyczne procesy nieobjęte świadomą kontrolą"
     ],
     "correct": 1,
@@ -356,7 +356,7 @@
     "options": [
       "Kategorie mają sztywne, binarne granice oparte na koniecznych i wystarczających cechach",
       "Kategorie są zorganizowane wokół najlepszych przykładów (prototypów), a przynależność do kategorii jest stopniowalna",
-      "Kategoryzacja jest wyłącznie wynikiem warunkowania kulturowego",
+      "Kategoryzacja jest głównie wynikiem warunkowania kulturowego",
       "Każdy element kategorii jest równoważny i żaden nie jest bardziej \"centralny\""
     ],
     "correct": 1,
@@ -382,8 +382,8 @@
     "options": [
       "Uwaga przestrzenna jest nierozerwalnie związana z ruchami gałek ocznych",
       "Uwaga może być przesuwana w przestrzeni bez ruchu gałek ocznych (covert attention), przyspieszając przetwarzanie bodźców w ogniskowanym obszarze",
-      "Percepcja przestrzenna jest wyłącznie zależna od kory wzrokowej pierwszorzędowej",
-      "Ruchy gałek ocznych zawsze wyprzedzają przesunięcia uwagi"
+      "Percepcja przestrzenna jest głównie zależna od kory wzrokowej pierwszorzędowej",
+      "Ruchy gałek ocznych często wyprzedzają przesunięcia uwagi"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -550,8 +550,8 @@
     "options": [
       "Prezentować jak najwięcej informacji jednocześnie",
       "Redukować obciążenie zewnętrzne i segmentować materiał na mniejsze kroki",
-      "Usunąć przykłady i pozostawić wyłącznie zadania transferowe",
-      "Skupić się wyłącznie na pamięci mechanicznej"
+      "Usunąć przykłady i pozostawić głównie zadania transferowe",
+      "Skupić się głównie na pamięci mechanicznej"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -561,7 +561,7 @@
   {
     "question": "Paradoks wiedzy eksperckiej (expertise reversal effect) oznacza, że:",
     "options": [
-      "Eksperci zawsze uczą się wolniej od nowicjuszy",
+      "Eksperci często uczą się wolniej od nowicjuszy",
       "Techniki pomocne dla początkujących mogą być nieefektywne lub zbędne dla ekspertów",
       "Eksperci mają gorszą pamięć długotrwałą",
       "Poziom wiedzy nie wpływa na skuteczność instrukcji"
@@ -628,7 +628,7 @@
     "options": [
       "Nie wpływają na decyzje poznawcze",
       "Pełnią funkcję heurystycznych wskazówek, zawężając przestrzeń wyboru",
-      "Są istotne wyłącznie w decyzjach matematycznych",
+      "Są istotne głównie w decyzjach matematycznych",
       "Dotyczą tylko pamięci proceduralnej"
     ],
     "correct": 1,
@@ -641,7 +641,7 @@
     "options": [
       "Automatyczne kodowanie bodźców sensorycznych",
       "Monitorowanie i regulację własnych procesów poznawczych, np. planowanie strategii",
-      "Wyłącznie pamięć autobiograficzną",
+      "Głównie pamięć autobiograficzną",
       "Zdolność do tłumienia odruchów pniowych"
     ],
     "correct": 1,
@@ -668,7 +668,7 @@
       "Po wykryciu pierwszego celu drugi cel prezentowany krótko po nim bywa pomijany",
       "Uwaga wzrokowa stale rośnie wraz z tempem prezentacji bodźców",
       "Błyski światła poprawiają pamięć deklaratywną",
-      "Odruch mrugania zawsze zakłóca percepcję słuchową"
+      "Odruch mrugania często zakłóca percepcję słuchową"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -693,7 +693,7 @@
     "options": [
       "Kodowany jest tylko fonologicznie",
       "Jest reprezentowany zarówno werbalnie, jak i obrazowo",
-      "Prezentowany jest wyłącznie podprogowo",
+      "Prezentowany jest głównie podprogowo",
       "Zawiera jak najmniej skojarzeń"
     ],
     "correct": 1,
@@ -720,7 +720,7 @@
       "Konflikt odpowiedzi i potrzebę hamowania dystraktorów",
       "Deficyt percepcji barw",
       "Utratę pamięci epizodycznej",
-      "Wyłącznie spadek motywacji"
+      "Głównie spadek motywacji"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -732,8 +732,8 @@
     "options": [
       "Usuwanie wszystkich trudności i maksymalna płynność przetwarzania",
       "Wprowadzanie umiarkowanych utrudnień, np. przeplatania i odroczonego odtwarzania",
-      "Nauka wyłącznie tuż przed testem",
-      "Wyłącznie bierne słuchanie wykładu"
+      "Nauka głównie tuż przed testem",
+      "Głównie bierne słuchanie wykładu"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -771,7 +771,7 @@
     "options": [
       "Pamięci proceduralnej",
       "Aktualizacji informacji w pamięci roboczej i kontroli wykonawczej",
-      "Wyłącznie inteligencji krystalicznej",
+      "Głównie inteligencji krystalicznej",
       "Percepcji bólu"
     ],
     "correct": 1,

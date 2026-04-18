@@ -3,10 +3,10 @@
     "id": 1,
     "question": "Model biopsychospołeczny zakłada, że zdrowie i choroba wynikają z:",
     "options": [
-      "Wyłącznie czynników biologicznych",
+      "Głównie czynników biologicznych",
       "Interakcji czynników biologicznych, psychologicznych i społecznych",
-      "Wyłącznie stylu życia",
-      "Wyłącznie predyspozycji genetycznych"
+      "Głównie stylu życia",
+      "Głównie predyspozycji genetycznych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -18,7 +18,7 @@
     "options": [
       "Wymuszanie wykonywania zaleceń",
       "Współpracę pacjenta i zespołu medycznego w realizacji planu leczenia",
-      "Stosowanie wyłącznie farmakoterapii",
+      "Stosowanie głównie farmakoterapii",
       "Odroczenie decyzji terapeutycznych"
     ],
     "correct": 1,
@@ -42,7 +42,7 @@
     "id": 4,
     "question": "W modelu transakcyjnym stresu Lazarusa i Folkman kluczowe znaczenie ma:",
     "options": [
-      "Wyłącznie intensywność bodźca",
+      "Głównie intensywność bodźca",
       "Ocena poznawcza sytuacji i zasobów radzenia sobie",
       "Poziom glukozy we krwi",
       "Wiek osoby badanej"
@@ -83,7 +83,7 @@
     "options": [
       "Błąd pomiaru laboratoryjnego",
       "Poprawę wynikającą z oczekiwań i kontekstu leczenia",
-      "Wyłącznie działanie leku aktywnego",
+      "Głównie działanie leku aktywnego",
       "Objaw psychotyczny"
     ],
     "correct": 1,
@@ -97,7 +97,7 @@
       "Zapobieganie powstaniu choroby",
       "Wczesne wykrywanie i szybkie leczenie",
       "Rehabilitację po powikłaniach",
-      "Wyłącznie edukację szkolną"
+      "Głównie edukację szkolną"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -136,7 +136,7 @@
       "Złożony i zmienny schemat dawkowania",
       "Prosty plan leczenia i jasna psychoedukacja",
       "Unikanie pytań pacjenta",
-      "Stosowanie wyłącznie komunikatów nakazowych"
+      "Stosowanie głównie komunikatów nakazowych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -174,7 +174,7 @@
     "options": [
       "Radykalne cele bez monitorowania",
       "Stopniowe cele SMART i samomonitorowanie",
-      "Wyłącznie motywowanie strachem",
+      "Głównie motywowanie strachem",
       "Rezygnacja z informacji zwrotnej"
     ],
     "correct": 1,
@@ -187,7 +187,7 @@
     "options": [
       "Całkowitej eliminacji każdego sygnału bólowego",
       "Zwiększaniu funkcjonowania i akceptacji przy redukcji cierpienia",
-      "Wyłącznie farmakoterapii opioidowej",
+      "Głównie farmakoterapii opioidowej",
       "Ignorowaniu aktywności fizycznej"
     ],
     "correct": 1,
@@ -214,7 +214,7 @@
       "Zapobieganie zachorowaniu",
       "Wczesne wykrywanie choroby",
       "Ograniczanie skutków choroby i poprawa funkcjonowania",
-      "Wyłącznie edukacja prozdrowotna"
+      "Głównie edukacja prozdrowotna"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -240,7 +240,7 @@
       "Redukowanie kontaktu z rodziną",
       "Integracja wsparcia emocjonalnego, informacyjnego i praktycznego",
       "Unikanie rozmów o lęku",
-      "Wyłącznie ocena biomarkerów"
+      "Głównie ocena biomarkerów"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -252,7 +252,7 @@
     "options": [
       "Poziomu glukozy",
       "Postaw, norm subiektywnych i postrzeganej kontroli",
-      "Wyłącznie cech temperamentu",
+      "Głównie cech temperamentu",
       "Losowych zdarzeń dnia"
     ],
     "correct": 1,

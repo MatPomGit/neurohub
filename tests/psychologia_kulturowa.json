@@ -19,7 +19,7 @@
       "Poszukuje pojęć i kategorii uniwersalnych dla wszystkich kultur",
       "Bada kulturę z perspektywy wewnętrznej, używając pojęć zrozumiałych dla jej uczestników",
       "Porównuje różne kultury przy użyciu tych samych narzędzi pomiarowych",
-      "Skupia się wyłącznie na obiektywnych wskaźnikach ekonomicznych"
+      "Skupia się głównie na obiektywnych wskaźnikach ekonomicznych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -29,10 +29,10 @@
     "id": 3,
     "question": "Metoda 'etic' w psychologii kulturowej oznacza podejście, które:",
     "options": [
-      "Opisuje kulturę wyłącznie z perspektywy wewnętrznej uczestnika",
+      "Opisuje kulturę głównie z perspektywy wewnętrznej uczestnika",
       "Nadaje pierwszeństwo empatii i narracji nad pomiarem",
       "Stosuje zewnętrzne, porównawcze kategorie teoretyczne do analizy wielu kultur",
-      "Opiera się wyłącznie na obserwacji uczestniczącej"
+      "Opiera się głównie na obserwacji uczestniczącej"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -57,7 +57,7 @@
     "options": [
       "Złudzenie jest tak samo silne we wszystkich kulturach",
       "Osoby z kultur niepiśmiennych, mieszkające na otwartych przestrzeniach, są mniej podatne na złudzenie",
-      "Inteligencja ogólna całkowicie eliminuje wpływ złudzenia",
+      "Inteligencja ogólna w dużej mierze eliminuje wpływ złudzenia",
       "Złudzenie działa silniej u dzieci niż u dorosłych we wszystkich kulturach"
     ],
     "correct": 1,
@@ -83,7 +83,7 @@
     "options": [
       "Wszystkie języki posiadają te same struktury gramatyczne",
       "Język, którym mówimy, wpływa na sposób postrzegania i myślenia o rzeczywistości",
-      "Tłumaczenie pojęć jest zawsze możliwe bez utraty znaczenia",
+      "Tłumaczenie pojęć jest często możliwe bez utraty znaczenia",
       "Emocje podstawowe są wyrażane identycznie we wszystkich językach"
     ],
     "correct": 1,
@@ -94,10 +94,10 @@
     "id": 8,
     "question": "Badania Ekmanów nad emocjami podstawowymi początkowo sugerowały, że rozpoznawanie wyrazu twarzy jest:",
     "options": [
-      "Całkowicie zależne od kultury i wyuczone społecznie",
+      "W dużej mierze zależne od kultury i wyuczone społecznie",
       "Biologicznie universalne niezależnie od kultury",
       "Zależne od płci, lecz nie od kultury",
-      "Związane wyłącznie z poziomem urbanizacji społeczeństwa"
+      "Związane głównie z poziomem urbanizacji społeczeństwa"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -174,7 +174,7 @@
     "options": [
       "Wszystkie kultury posiadają identyczną liczbę nazw kolorów",
       "Język wpływa na szybkość rozróżniania kolorów, zwłaszcza przy granicy kategorii",
-      "Percepcja koloru jest całkowicie niezależna od języka i kultury",
+      "Percepcja koloru jest w dużej mierze niezależna od języka i kultury",
       "Kultury tropikalne rozróżniają więcej odcieni zieleni niż kultury arktyczne"
     ],
     "correct": 1,
@@ -250,10 +250,10 @@
     "id": 20,
     "question": "Koncepcja 'kulturowego prima' (cultural priming) oznacza, że:",
     "options": [
-      "Kultury zawsze wywierają trwały i nieodwracalny wpływ na osobowość",
+      "Kultury często wywierają trwały i nieodwracalny wpływ na osobowość",
       "Aktywowanie symboli kulturowych (flag, języka) chwilowo zmienia sposób myślenia i zachowania",
       "Osoby dwukulturowe są bardziej podatne na zaburzenia tożsamości",
-      "Przynależność kulturowa jest wyłącznie biologicznie determinowana"
+      "Przynależność kulturowa jest głównie biologicznie determinowana"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -291,7 +291,7 @@
     "options": [
       "Ignorować różnice kulturowe i traktować każdego klienta jednakowo",
       "Być świadomi własnych przekonań kulturowych oraz dostosowywać podejście terapeutyczne do kontekstu kulturowego klienta",
-      "Stosować wyłącznie narzędzia opracowane w kulturze klienta",
+      "Stosować głównie narzędzia opracowane w kulturze klienta",
       "Unikać pracy z klientami z innych kręgów kulturowych"
     ],
     "correct": 1,
@@ -304,7 +304,7 @@
     "options": [
       "Bardzo ekstremalnych pod względem cech osobowości",
       "Western, Educated, Industrialised, Rich, Democratic",
-      "Wyłącznie z zaburzeniami psychicznymi",
+      "Głównie z zaburzeniami psychicznymi",
       "Niereprezentujących swojej kultury z powodu migracji"
     ],
     "correct": 1,

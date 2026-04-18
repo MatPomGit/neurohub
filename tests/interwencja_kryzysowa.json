@@ -6,7 +6,7 @@
       "Pełna rekonstrukcja historii życia",
       "Stabilizacja bezpieczeństwa i obniżenie ostrego napięcia",
       "Diagnoza osobowości metodą projekcyjną",
-      "Natychmiastowe zakończenie wszystkich objawów"
+      "Szybkie zakończenie wszystkich objawów"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -45,7 +45,7 @@
       "Gdy pacjent płacze podczas rozmowy",
       "Gdy występuje bezpośrednie zagrożenie życia lub ciężkie pobudzenie",
       "Gdy pacjent nie zgadza się z opinią terapeuty",
-      "Przy każdym zgłoszeniu stresu akademickiego"
+      "Przy wielu zgłoszeniu stresu akademickiego"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -55,7 +55,7 @@
     "id": 5,
     "question": "Kontrakt bezpieczeństwa bez dodatkowego planu działania:",
     "options": [
-      "Jest wystarczający w każdym przypadku",
+      "Jest wystarczający w większości przypadków",
       "Może być niewystarczający i nie zastępuje pełnej oceny ryzyka",
       "Zastępuje hospitalizację",
       "Jest metodą diagnostyczną DSM"
@@ -83,7 +83,7 @@
     "options": [
       "Dlaczego nie radzisz sobie lepiej?",
       "Co dotąd pomagało Ci przetrwać najtrudniejsze momenty?",
-      "Czy możesz natychmiast przestać się martwić?",
+      "Czy możesz od razu przestać się martwić?",
       "Ile masz lat?"
     ],
     "correct": 1,
@@ -120,7 +120,7 @@
     "id": 10,
     "question": "W pracy z osobą po kryzysie, która odmawia wsparcia, najbardziej adekwatne jest:",
     "options": [
-      "Natychmiastowe zakończenie kontaktu",
+      "Szybkie zakończenie kontaktu",
       "Empatyczne podtrzymanie relacji, monitorowanie ryzyka i oferowanie opcji pomocy",
       "Straszenie konsekwencjami prawnymi",
       "Ignorowanie sygnałów ostrzegawczych"
@@ -161,7 +161,7 @@
     "options": [
       "Ogólny i bez konkretów",
       "Konkretny, dostępny i uzgodniony z osobą w kryzysie",
-      "Tworzony wyłącznie przez specjalistę",
+      "Tworzony głównie przez specjalistę",
       "Stosowany tylko po hospitalizacji"
     ],
     "correct": 1,
@@ -185,7 +185,7 @@
     "id": 15,
     "question": "W pracy z rodziną osoby w kryzysie ważne jest:",
     "options": [
-      "Udzielanie wyłącznie informacji medycznych",
+      "Udzielanie głównie informacji medycznych",
       "Psychoedukacja, role wsparcia i jasne procedury alarmowe",
       "Wyciszanie wszystkich emocji",
       "Przeniesienie całej odpowiedzialności na bliskich"
@@ -200,7 +200,7 @@
     "options": [
       "Brak dalszego planu",
       "Ustalenie follow-up i ścieżki dalszej pomocy",
-      "Wyłącznie samodzielne radzenie sobie",
+      "Głównie samodzielne radzenie sobie",
       "Ograniczenie kontaktu do minimum"
     ],
     "correct": 1,
@@ -211,7 +211,7 @@
     "id": 17,
     "question": "Które sformułowanie jest najbardziej pomocne w kryzysie?",
     "options": [
-      "Musisz się natychmiast uspokoić",
+      "Musisz się od razu uspokoić",
       "Widzę, że to bardzo trudne; sprawdźmy razem, co pomoże przetrwać najbliższe godziny",
       "Inni mają gorzej",
       "To tylko chwilowy dramat"
@@ -224,10 +224,10 @@
     "id": 18,
     "question": "Interwencja kryzysowa różni się od psychoterapii długoterminowej tym, że:",
     "options": [
-      "Nigdy nie obejmuje rozmowy o emocjach",
+      "Rzadko nie obejmuje rozmowy o emocjach",
       "Koncentruje się na krótkoterminowej stabilizacji i bezpieczeństwie",
       "Nie wymaga oceny ryzyka",
-      "Zawsze kończy się hospitalizacją"
+      "Często kończy się hospitalizacją"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -237,7 +237,7 @@
     "id": 19,
     "question": "W ocenie ryzyka przemocy wobec innych ważne jest uwzględnienie:",
     "options": [
-      "Wyłącznie diagnozy nozologicznej",
+      "Głównie diagnozy nozologicznej",
       "Historia przemocy, aktualne pobudzenie, dostęp do środków i czynniki ochronne",
       "Tylko wieku osoby",
       "Preferencji zawodowych"
@@ -250,7 +250,7 @@
     "id": 20,
     "question": "W modelu pracy kryzysowej zasada least restrictive oznacza:",
     "options": [
-      "Zawsze pełną izolację",
+      "Często pełną izolację",
       "Dobór najmniej ograniczającej, ale bezpiecznej formy pomocy",
       "Rezygnację z monitorowania",
       "Unikanie współpracy międzyinstytucjonalnej"

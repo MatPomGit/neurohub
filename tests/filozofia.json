@@ -29,10 +29,10 @@
     "id": 3,
     "question": "Racjonalizm w epistemologii zakłada przede wszystkim, że:",
     "options": [
-      "Cała wiedza pochodzi wyłącznie z doświadczenia zmysłowego",
+      "Cała wiedza pochodzi głównie z doświadczenia zmysłowego",
       "Źródłem wiedzy jest przede wszystkim rozum, a część wiedzy ma charakter aprioryczny",
       "Nie istnieje żadna pewna wiedza",
-      "Wiedza jest wyłącznie konstruktem językowym"
+      "Wiedza jest głównie konstruktem językowym"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -58,7 +58,7 @@
       "Bezwarunkowo akceptuje autorytet ekspertów",
       "Kwestionuje możliwość pewnej wiedzy lub zakres uzasadnienia przekonań",
       "Redukuje etykę do biologii",
-      "Uznaje wyłącznie dane ilościowe za sensowne"
+      "Uznaje głównie dane ilościowe za sensowne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -94,9 +94,9 @@
     "id": 8,
     "question": "Które z poniższych najlepiej opisuje redukcjonizm w filozofii umysłu?",
     "options": [
-      "Tezę, że umysł jest całkowicie niezależny od mózgu",
+      "Tezę, że umysł jest w dużej mierze niezależny od mózgu",
       "Pogląd, że zjawiska psychiczne można wyjaśniać przez procesy niższego poziomu, np. neurobiologiczne",
-      "Założenie, że emocje są wyłącznie społecznym konstruktem",
+      "Założenie, że emocje są głównie społecznym konstruktem",
       "Twierdzenie, że świadomość jest iluzją językową"
     ],
     "correct": 1,
@@ -108,7 +108,7 @@
     "question": "Dualizm Kartezjusza zakłada, że:",
     "options": [
       "Umysł i ciało są dwiema różnymi substancjami",
-      "Umysł to wyłącznie funkcja języka",
+      "Umysł to głównie funkcja języka",
       "Wolna wola jest niemożliwa",
       "Nie istnieją stany mentalne"
     ],
@@ -123,7 +123,7 @@
       "Determinizm i wolność są logicznie nie do pogodzenia",
       "Wolność jest możliwa nawet jeśli świat jest deterministyczny",
       "Wolność wymaga losowości zdarzeń",
-      "Odpowiedzialność moralna jest zawsze iluzją"
+      "Odpowiedzialność moralna jest często iluzją"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -135,7 +135,7 @@
     "options": [
       "Zgodność z obowiązkiem niezależnie od skutków",
       "Skutki dla dobrostanu i bilansu korzyści/szkód",
-      "Intencję moralną podmiotu wyłącznie",
+      "Intencję moralną podmiotu głównie",
       "Zgodność z tradycją kulturową"
     ],
     "correct": 1,
@@ -162,7 +162,7 @@
       "Charakterze i dyspozycjach moralnych osoby",
       "Formalnych procedurach prawnych",
       "Algorytmach podejmowania decyzji",
-      "Wyłącznie konsekwencjach ekonomicznych"
+      "Głównie konsekwencjach ekonomicznych"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -225,7 +225,7 @@
     "question": "Fenomenologia w najprostszym ujęciu koncentruje się na:",
     "options": [
       "Opisie struktury przeżywanego doświadczenia z perspektywy pierwszoosobowej",
-      "Weryfikacji hipotez wyłącznie metodą randomizowanych badań klinicznych",
+      "Weryfikacji hipotez głównie metodą randomizowanych badań klinicznych",
       "Budowie modeli neuronowych świadomości bez odniesienia do doświadczenia",
       "Normatywnych kodeksach zachowania zawodowego"
     ],
@@ -237,10 +237,10 @@
     "id": 19,
     "question": "Egzystencjalizm podkreśla, że człowiek:",
     "options": [
-      "Jest całkowicie wyznaczony przez biologiczne popędy",
+      "Jest w dużej mierze wyznaczony przez biologiczne popędy",
       "Jest wolny i współodpowiedzialny za nadawanie sensu własnemu życiu",
       "Nie ma żadnej możliwości zmiany siebie",
-      "Powinien zawsze podporządkować się autorytetowi"
+      "Powinien często podporządkować się autorytetowi"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -252,7 +252,7 @@
     "options": [
       "To dowód, że psychologia nie jest nauką",
       "To sygnał potrzeby poprawy metodologii, transparentności i kontroli jakości dowodów",
-      "To wyłącznie problem statystyczny bez konsekwencji teoretycznych",
+      "To głównie problem statystyczny bez konsekwencji teoretycznych",
       "To efekt zbyt małej liczby teorii filozoficznych"
     ],
     "correct": 1,

@@ -83,7 +83,7 @@
     "options": [
       "Umową finansową między terapeutą a pacjentem",
       "Relacją opartą na wspólnym celu, zadaniach i emocjonalnej więzi między terapeutą a klientem – silny predyktor skuteczności terapii",
-      "Techniką stosowaną wyłącznie w terapii grupowej",
+      "Techniką stosowaną głównie w terapii grupowej",
       "Transferem klienta do innego specjalisty"
     ],
     "correct": 1,
@@ -211,7 +211,7 @@
     "id": 17,
     "question": "Pojęcie \"kontrprzeniesienia\" (countertransference) we współczesnej psychoterapii jest rozumiane jako:",
     "options": [
-      "Wyłącznie patologiczna reakcja terapeuty, która zawsze zaburza terapię",
+      "Głównie patologiczna reakcja terapeuty, która często zaburza terapię",
       "Totalna odpowiedź terapeuty – emocjonalna, cielesna i poznawcza – na klienta, stanowiąca cenny materiał diagnostyczny",
       "Technika ekspozycji stosowana w leczeniu fobii",
       "Przeniesienie przez terapeutę własnych potrzeb na klienta"
@@ -252,7 +252,7 @@
     "options": [
       "Systematyczną desensytyzację bez elementu ekspozycji in vivo",
       "Wyobrażeniową ekspozycję na wspomnienie traumy oraz ekspozycję in vivo na unikane sytuacje",
-      "Wyłącznie techniki relaksacyjne i mindfulness",
+      "Głównie techniki relaksacyjne i mindfulness",
       "Restrukturyzację schematu tożsamości przez pracę z częściami osobowości"
     ],
     "correct": 1,
@@ -266,7 +266,7 @@
       "Efekty terapii są niepowtarzalne i nie można ich generalizować",
       "Różne podejścia terapeutyczne mają porównywalne wyniki, a wspólne czynniki ważniejsze niż techniki specyficzne",
       "Terapia CBT jest skuteczniejsza od wszystkich innych podejść",
-      "Farmakoterapia zawsze przewyższa psychoterapię"
+      "Farmakoterapia często przewyższa psychoterapię"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -289,7 +289,7 @@
     "id": 23,
     "question": "Czynniki wspólne (common factors) terapii, opisane przez Lamberta, obejmują:",
     "options": [
-      "Wyłącznie techniki specyficzne dla danego nurtu (CBT, psychodynamika)",
+      "Głównie techniki specyficzne dla danego nurtu (CBT, psychodynamika)",
       "Czynniki relacyjne (~30%), placebo/oczekiwanie (~15%), techniki specyficzne (~15%) i czynniki pozaterapeutyczne (~40%)",
       "Nurt terapii jako główny predyktor wyniku",
       "Długość terapii jako jedyny istotny predyktor skuteczności"
@@ -343,7 +343,7 @@
     "options": [
       "Techniki specyficzne odpowiadają za ponad 50% wariancji wyników",
       "Czynniki relacyjne i terapeuta-specyficzne wyjaśniają więcej wariancji niż przynależność do nurtu terapeutycznego",
-      "Farmakoterapia w połączeniu z terapią zawsze przewyższa samą psychoterapię",
+      "Farmakoterapia w połączeniu z terapią często przewyższa samą psychoterapię",
       "CBT jest jedynym podejściem z udowodnioną skutecznością empiryczną"
     ],
     "correct": 1,
@@ -354,7 +354,7 @@
     "id": 28,
     "question": "Koncepcja \"intersubiektywności\" w psychoterapii relacyjnej odnosi się do:",
     "options": [
-      "Wyłącznie badań nad komunikacją niewerbalną",
+      "Głównie badań nad komunikacją niewerbalną",
       "Wzajemnego, ciągłego wpływu podmiotowości terapeuty i klienta – terapia jako współtworzony proces",
       "Techniki lustrzanego odbicia emocji stosowanej w terapii humanistycznej",
       "Interwencji grupowych opartych na wymianie doświadczeń"
@@ -383,7 +383,7 @@
       "Wszystkie rodziny przechodzą przez te same etapy rozwoju",
       "Ten sam wynik może zostać osiągnięty różnymi drogami, a różne punkty wyjścia mogą prowadzić do tego samego rezultatu",
       "Każdy system rodzinny dąży do równowagi (homeostazy) kosztem zmiany",
-      "Skuteczność terapii rodzinnej zależy wyłącznie od technik stosowanych przez terapeutę"
+      "Skuteczność terapii rodzinnej zależy głównie od technik stosowanych przez terapeutę"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -668,7 +668,7 @@
     "options": [
       "IQ i temperament",
       "Zdolności regulacyjne i relacyjne",
-      "Wyłącznie objawy",
+      "Głównie objawy",
       "Zachowania"
     ],
     "correct": 1,
@@ -808,7 +808,7 @@
   {
     "question": "Co jest głównym celem ekspozycji z powstrzymaniem reakcji (ERP) w leczeniu OCD?",
     "options": [
-      "Natychmiastowe usunięcie wszystkich natręctw",
+      "Szybkie usunięcie wszystkich natręctw",
       "Zmniejszenie lęku przez uczenie hamowania kompulsji",
       "Analiza snów i symboli nieświadomości",
       "Wzmocnienie zachowań unikowych"
@@ -823,7 +823,7 @@
     "options": [
       "Całkowite wyeliminowanie emocji negatywnych",
       "Zwiększenie zdolności rozpoznawania i modyfikacji reakcji emocjonalnych",
-      "Wyłącznie trening pamięci roboczej",
+      "Głównie trening pamięci roboczej",
       "Skupienie tylko na relacji terapeutycznej"
     ],
     "correct": 1,
@@ -836,7 +836,7 @@
     "options": [
       "Gdy pacjent nie lubi prac domowych",
       "Przy bezpośrednim zagrożeniu bezpieczeństwa i dezorganizacji funkcjonowania",
-      "Wyłącznie na pierwszej sesji każdego pacjenta",
+      "Głównie na pierwszej sesji każdego pacjenta",
       "Tylko gdy pacjent ma wysokie IQ"
     ],
     "correct": 1,

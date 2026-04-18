@@ -18,7 +18,7 @@
     "options": [
       "Braku jakichkolwiek chorób",
       "Utrzymywania możliwie dobrego funkcjonowania fizycznego, poznawczego i społecznego",
-      "Wyłącznie wysokiego statusu ekonomicznego",
+      "Głównie wysokiego statusu ekonomicznego",
       "Całkowitego wycofania z aktywności"
     ],
     "correct": 1,
@@ -31,7 +31,7 @@
     "options": [
       "Ograniczenie kontaktów do minimum",
       "Regularne wsparcie społeczne i poczucie przynależności",
-      "Wyłącznie farmakoterapia",
+      "Głównie farmakoterapia",
       "Unikanie nowych aktywności"
     ],
     "correct": 1,
@@ -58,7 +58,7 @@
       "Wrodzony iloraz inteligencji niezmienny przez życie",
       "Zdolność mózgu do kompensacji zmian dzięki wcześniejszej aktywności poznawczej i edukacji",
       "Brak związku stylu życia z funkcjonowaniem poznawczym",
-      "Wyłącznie pamięć proceduralną"
+      "Głównie pamięć proceduralną"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -70,7 +70,7 @@
     "options": [
       "Unikanie ruchu",
       "Trening równowagi, siły i modyfikacja ryzyka środowiskowego",
-      "Wyłącznie suplementacja witamin",
+      "Głównie suplementacja witamin",
       "Zwiększenie liczby leków nasennych"
     ],
     "correct": 1,
@@ -81,7 +81,7 @@
     "id": 7,
     "question": "W pracy psychologicznej z osobą starszą kluczowe jest:",
     "options": [
-      "Mówienie wyłącznie do opiekuna",
+      "Mówienie głównie do opiekuna",
       "Poszanowanie autonomii i tempa pacjenta",
       "Unikanie pytań o cele życiowe",
       "Automatyczne infantylizowanie komunikacji"
@@ -94,7 +94,7 @@
     "id": 8,
     "question": "Depresja u osób starszych może być mylona z otępieniem, ponieważ:",
     "options": [
-      "Zawsze daje identyczny obraz kliniczny",
+      "Często daje identyczny obraz kliniczny",
       "Może powodować spowolnienie, trudności koncentracji i obniżenie pamięci",
       "Nie wpływa na funkcje poznawcze",
       "Występuje tylko u osób samotnych"
@@ -109,7 +109,7 @@
     "options": [
       "Rezygnację z celów rozwojowych w starości",
       "Wybór priorytetów, wzmacnianie zasobów i kompensowanie strat",
-      "Wyłącznie terapię poznawczą",
+      "Głównie terapię poznawczą",
       "Mechanizm neurodegeneracji"
     ],
     "correct": 1,
@@ -122,7 +122,7 @@
     "options": [
       "Długotrwała izolacja bodźców",
       "Treningi aktywizujące, grupy wsparcia i psychoedukacja",
-      "Wyłącznie monitoring leków",
+      "Głównie monitoring leków",
       "Unikanie rozmów o stratach"
     ],
     "correct": 1,
@@ -135,7 +135,7 @@
     "options": [
       "Stała izolacja społeczna",
       "Regularna aktywność fizyczna i poznawcza",
-      "Wyłącznie suplementacja",
+      "Głównie suplementacja",
       "Unikanie nowych zadań"
     ],
     "correct": 1,
@@ -148,7 +148,7 @@
     "options": [
       "Powolny, wieloletni początek bez wahań",
       "Nagły początek i fluktuacje uwagi/świadomości",
-      "Wyłącznie obniżony nastrój",
+      "Głównie obniżony nastrój",
       "Brak związku z chorobą somatyczną"
     ],
     "correct": 1,
@@ -161,7 +161,7 @@
     "options": [
       "Wspieranie autonomii seniorów",
       "Stereotypowe i dyskryminujące traktowanie ze względu na wiek",
-      "Wyłącznie kwestie ekonomiczne",
+      "Głównie kwestie ekonomiczne",
       "Naturalny etap starzenia"
     ],
     "correct": 1,
@@ -187,7 +187,7 @@
     "options": [
       "Mówienie szybciej i ciszej",
       "Wolniejsze tempo, kontakt wzrokowy i prosty przekaz",
-      "Mówienie wyłącznie do opiekuna",
+      "Mówienie głównie do opiekuna",
       "Unikanie pytań kontrolnych"
     ],
     "correct": 1,
@@ -198,10 +198,10 @@
     "id": 16,
     "question": "W ocenie jakości życia seniora należy uwzględniać:",
     "options": [
-      "Wyłącznie stan somatyczny",
+      "Głównie stan somatyczny",
       "Aspekty fizyczne, psychiczne, społeczne i poczucie sensu",
       "Tylko wynik testu poznawczego",
-      "Wyłącznie poziom dochodu"
+      "Głównie poziom dochodu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -224,7 +224,7 @@
     "id": 18,
     "question": "Wspieranie opiekunów osób z demencją powinno obejmować:",
     "options": [
-      "Wyłącznie instrukcję medyczną",
+      "Głównie instrukcję medyczną",
       "Psychoedukację, trening radzenia sobie i wsparcie wytchnieniowe",
       "Pomijanie obciążenia opiekuna",
       "Zakaz korzystania z grup wsparcia"

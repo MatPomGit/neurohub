@@ -97,7 +97,7 @@
       "Test może być trafny mimo bardzo niskiej rzetelności",
       "Rzetelność jest warunkiem koniecznym, ale niewystarczającym trafności",
       "Trafność i rzetelność to pojęcia tożsame",
-      "Rzetelność dotyczy wyłącznie testów projekcyjnych"
+      "Rzetelność dotyczy głównie testów projekcyjnych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -146,7 +146,7 @@
     "id": 12,
     "question": "Który schemat zwiększa trafność zewnętrzną badań interwencyjnych?",
     "options": [
-      "Wyłącznie studenci jednego roku jako próba",
+      "Głównie studenci jednego roku jako próba",
       "Replikacje na różnych populacjach i kontekstach",
       "Brak kryteriów wykluczenia",
       "Analiza tylko jednej podgrupy"
@@ -237,7 +237,7 @@
     "id": 19,
     "question": "Podejście intention-to-treat w badaniach interwencyjnych oznacza:",
     "options": [
-      "Analizę wyłącznie osób, które ukończyły interwencję",
+      "Analizę głównie osób, które ukończyły interwencję",
       "Analizę wszystkich randomizowanych uczestników zgodnie z pierwotnym przydziałem",
       "Usunięcie braków danych",
       "Analizę jedynie przypadków skrajnych"

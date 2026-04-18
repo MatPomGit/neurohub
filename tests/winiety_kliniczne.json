@@ -55,7 +55,7 @@
     "id": 5,
     "question": "Dziecko ma od lat trudności z koncentracją i impulsywność zarówno w domu, jak i w szkole. Kluczowe diagnostycznie będzie:",
     "options": [
-      "Wyłącznie samoopis dziecka",
+      "Głównie samoopis dziecka",
       "Ocena wieloźródłowa i wywiad rozwojowy",
       "Jednorazowy test internetowy",
       "Pominięcie danych od nauczycieli"
@@ -83,7 +83,7 @@
     "options": [
       "Ignorować jako normę",
       "Ocenić depresję poporodową i bezpieczeństwo",
-      "Zalecić wyłącznie odpoczynek",
+      "Zalecić głównie odpoczynek",
       "Skupić się tylko na diecie"
     ],
     "correct": 1,
@@ -96,8 +96,8 @@
     "options": [
       "Brak interwencji",
       "CBT z ekspozycją",
-      "Wyłącznie hipnoza",
-      "Wyłącznie psychoanaliza"
+      "Głównie hipnoza",
+      "Głównie psychoanaliza"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -108,7 +108,7 @@
     "question": "U pacjenta po urazie głowy występuje spowolnienie i trudności wykonawcze. Najbardziej zasadny kierunek:",
     "options": [
       "Badanie neuropsychologiczne i rehabilitacja",
-      "Wyłącznie medytacja",
+      "Głównie medytacja",
       "Tylko konsultacja dietetyczna",
       "Brak dalszej diagnostyki"
     ],
@@ -149,7 +149,7 @@
       "Zignorować incydenty",
       "Ocena funkcji zachowania i ryzyka suicydalnego",
       "Skoncentrować się tylko na ocenach szkolnych",
-      "Natychmiastowe wypisanie z terapii"
+      "Szybkie wypisanie z terapii"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -186,9 +186,9 @@
     "question": "Pacjent z bezsennością i drażliwością stosuje kofeinę do późna i korzysta z telefonu w łóżku. Najbardziej adekwatna interwencja początkowa:",
     "options": [
       "Psychoedukacja higieny snu",
-      "Wyłącznie farmakoterapia",
+      "Głównie farmakoterapia",
       "Rezygnacja z diagnozy",
-      "Wyłącznie techniki projekcyjne"
+      "Głównie techniki projekcyjne"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -226,7 +226,7 @@
     "options": [
       "Natychmiastowa diagnoza schizofrenii",
       "Różnicowanie psychozy pierwotnej i indukowanej substancjami",
-      "Wyłącznie interwencja rodzinna",
+      "Głównie interwencja rodzinna",
       "Pominięcie badania używek"
     ],
     "correct": 1,
@@ -252,7 +252,7 @@
     "options": [
       "Rozpoznać otępienie po krótkiej rozmowie",
       "Pełna diagnostyka różnicowa: depresja, delirium, otępienie",
-      "Skupić się wyłącznie na wieku",
+      "Skupić się głównie na wieku",
       "Pominąć badania laboratoryjne"
     ],
     "correct": 1,
@@ -279,7 +279,7 @@
       "Unikać kontekstu tożsamości",
       "Podejście afirmatywne i ocena stresu mniejszościowego",
       "Konfrontować tożsamość",
-      "Skupić się wyłącznie na farmakologii"
+      "Skupić się głównie na farmakologii"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -292,7 +292,7 @@
       "Oskarżyć o symulację",
       "Ocena pod kątem zaburzenia lękowego i objawów somatycznych",
       "Przerwać diagnostykę",
-      "Skierować wyłącznie do chirurga"
+      "Skierować głównie do chirurga"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -303,8 +303,8 @@
     "question": "Nastolatek po cyberprzemocy unika szkoły i ma objawy depresyjne. Pierwszy etap interwencji:",
     "options": [
       "Ocena bezpieczeństwa, wsparcia i planu działania ze szkołą/rodziną",
-      "Wyłącznie kara dla sprawców",
-      "Natychmiastowe rozpoznanie osobowości",
+      "Głównie kara dla sprawców",
+      "Szybkie rozpoznanie osobowości",
       "Brak kontaktu z opiekunami"
     ],
     "correct": 0,
@@ -316,7 +316,7 @@
     "question": "Pacjent z historią napadów paniki unika wysiłku fizycznego, bo boi się objawów somatycznych. Najbardziej adekwatna technika CBT:",
     "options": [
       "Ekspozycja interoceptywna",
-      "Wyłącznie dziennik snu",
+      "Głównie dziennik snu",
       "Interpretacja snów",
       "Brak psychoedukacji"
     ],
@@ -341,10 +341,10 @@
     "id": 27,
     "question": "W wywiadzie pojawiają się okresy drażliwości, impulsywnych zakupów i wzmożonej towarzyskości po SSRI. Co rozważyć?",
     "options": [
-      "Wyłącznie poprawę nastroju",
+      "Głównie poprawę nastroju",
       "Ryzyko przełączenia w hipomanię",
       "Objawy autyzmu",
-      "Wyłącznie bezsenność pierwotną"
+      "Głównie bezsenność pierwotną"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -356,7 +356,7 @@
     "options": [
       "Najpierw stabilizacja i rytm dnia, potem interwencje ukierunkowane na traumę/żałobę",
       "Natychmiastowa ekspozycja bez przygotowania",
-      "Wyłącznie farmakoterapia",
+      "Głównie farmakoterapia",
       "Brak pracy z unikaniem"
     ],
     "correct": 0,
@@ -367,7 +367,7 @@
     "id": 29,
     "question": "Pacjentka zgłasza restrykcje jedzenia, lęk przed przytyciem i zanik miesiączki. Co jest kluczowe na starcie?",
     "options": [
-      "Skupić się wyłącznie na obrazie ciała",
+      "Skupić się głównie na obrazie ciała",
       "Pilna ocena medyczna ryzyka somatycznego",
       "Praca tylko nad relacją",
       "Przerwanie diagnozy"
@@ -381,8 +381,8 @@
     "question": "W wywiadzie osoby uzależnionej od opioidów pojawia się wielokrotne przedawkowanie. Priorytet interwencji:",
     "options": [
       "Ocena ryzyka zgonu i plan redukcji szkód",
-      "Wyłącznie praca nad motywacją",
-      "Natychmiastowe wypisanie",
+      "Głównie praca nad motywacją",
+      "Szybkie wypisanie",
       "Brak edukacji o naloksonie"
     ],
     "correct": 0,
@@ -435,7 +435,7 @@
       "Konfrontacja i nacisk",
       "Formulacja oparta na czynnikach podtrzymujących + cele behawioralne małych kroków",
       "Zawieszenie terapii",
-      "Wyłącznie testy osobowości"
+      "Głównie testy osobowości"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -448,7 +448,7 @@
       "Pominięcie tematu seksualności",
       "Psychoedukacja traumowa, stabilizacja i stopniowa ekspozycja z kontrolą pacjentki",
       "Wymaganie szybkiej konfrontacji",
-      "Wyłącznie farmakoterapia"
+      "Głównie farmakoterapia"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -474,7 +474,7 @@
       "Wymuszenie ERP",
       "Motywacyjne wyjaśnienie modelu OCD i wspólna hierarchia zgodna z wartościami",
       "Rezygnacja z leczenia",
-      "Wyłącznie ćwiczenia relaksacyjne"
+      "Głównie ćwiczenia relaksacyjne"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -523,7 +523,7 @@
     "id": 41,
     "question": "Pacjentka doświadcza epizodów derealizacji po użyciu konopi, a także wcześniej miała napady paniki. Najlepsze podejście różnicowe:",
     "options": [
-      "Rozpoznać natychmiast psychozę",
+      "Rozpoznać od razu psychozę",
       "Różnicować objawy dysocjacyjne, lękowe i indukowane substancją",
       "Skupić się tylko na derealizacji",
       "Pominąć historię używek"
@@ -578,7 +578,7 @@
       "Brak motywacji do terapii",
       "Niestabilność przywiązaniowa i przeniesienie wymagające pracy nad mentalizacją",
       "Symulacja objawów",
-      "Wyłącznie problem poznawczy"
+      "Głównie problem poznawczy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -590,7 +590,7 @@
     "options": [
       "Diagnoza ciężkiego zaburzenia lękowego",
       "Psychoedukacja stresu i ocena strategii radzenia sobie",
-      "Natychmiastowe leczenie szpitalne",
+      "Szybkie leczenie szpitalne",
       "Pominięcie objawów"
     ],
     "correct": 1,
@@ -629,7 +629,7 @@
     "options": [
       "Ocena stresu adaptacyjnego i konsultacja pediatryczna",
       "Natychmiastowa diagnoza zaburzenia osobowości",
-      "Wyłącznie kara behawioralna",
+      "Głównie kara behawioralna",
       "Brak reakcji"
     ],
     "correct": 0,
@@ -641,9 +641,9 @@
     "question": "Pacjent doświadcza lęku i napięcia w ciągu dnia oraz pije 6 kaw dziennie. Najbardziej użyteczny element wywiadu:",
     "options": [
       "Ocena roli kofeiny i higieny pobudzenia",
-      "Skupienie wyłącznie na dzieciństwie",
+      "Skupienie głównie na dzieciństwie",
       "Pominięcie stylu życia",
-      "Natychmiastowe testy projekcyjne"
+      "Szybkie testy projekcyjne"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -656,7 +656,7 @@
       "Uznać to za brak motywacji",
       "Różnicować protrakcyjny zespół abstynencyjny i epizod depresyjny",
       "Natychmiast zakończyć terapię",
-      "Wyłącznie trening relaksacji"
+      "Głównie trening relaksacji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -668,8 +668,8 @@
     "options": [
       "Pominięcie objawów jako somatyzacji",
       "Model biopsychospołeczny: dalsza diagnostyka i ocena obciążenia psychicznego",
-      "Skierowanie wyłącznie na psychoterapię bez konsultacji",
-      "Wyłącznie suplementacja"
+      "Skierowanie głównie na psychoterapię bez konsultacji",
+      "Głównie suplementacja"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -708,7 +708,7 @@
       "Natychmiastowy pełen etat",
       "Stopniowany powrót i trening rozpoznawania sygnałów nawrotu",
       "Całkowita izolacja społeczna",
-      "Wyłącznie farmakoterapia bez psychoedukacji"
+      "Głównie farmakoterapia bez psychoedukacji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -721,7 +721,7 @@
       "Zwiększyć intensywność ekspozycji",
       "Wrócić do fazy stabilizacji, regulacji emocji i dopiero potem kontynuować przetwarzanie",
       "Przerwać terapię definitywnie",
-      "Skupić się wyłącznie na farmakologii"
+      "Skupić się głównie na farmakologii"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -734,7 +734,7 @@
       "Samo ERP bez przygotowania",
       "Interwencje aktywizujące i praca motywacyjna jako pomost do ERP",
       "Zamknięcie terapii",
-      "Wyłącznie monitoring nastroju"
+      "Głównie monitoring nastroju"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -746,7 +746,7 @@
     "options": [
       "Depresja jednobiegunowa",
       "Epizod maniakalny/hipomaniakalny w okresie poporodowym",
-      "Wyłącznie zaburzenie lękowe",
+      "Głównie zaburzenie lękowe",
       "Reakcja adaptacyjna"
     ],
     "correct": 1,
