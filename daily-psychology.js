@@ -2,7 +2,7 @@
    PSYCHOLOGIA CODZIENNEJ — dane tygodniowe
    Plik: daily-psychology.js
    Każdy wpis zawiera:
-     - day:        0=niedziela … 6=sobota (getDay())
+     - day:        0=niedziela … 6=sobota (Date.getDay)
      - dayName:    polska nazwa dnia
      - theme:      temat dnia
      - emoji:      ikona dnia
@@ -213,5 +213,160 @@
     }
   ];
 
-  window.DAILY_PSYCHOLOGY = DAILY_PSYCHOLOGY;
+  /* Dodatkowe warianty treści dla każdego dnia tygodnia.
+     Dzięki temu ten sam dzień może prezentować różne materiały przy kolejnych wejściach. */
+  const DAILY_VARIANTS = {
+    1: {
+      curiosity: [{
+        title: 'Błąd atrybucji – jak szybko oceniamy intencje innych',
+        lead: 'Fundamental attribution error sprawia, że cudze zachowania tłumaczymy „charakterem", a własne – sytuacją.',
+        body: [
+          'W praktyce oznacza to, że spóźnionego klienta łatwo uznać za „niezmotywowanego", zamiast zauważyć możliwe obciążenia kontekstowe.',
+          'Świadome zatrzymanie osądu i zadanie pytania o kontekst obniża napięcie relacyjne i poprawia jakość kontaktu.'
+        ]
+      }],
+      exercise: [{
+        title: 'Ćwiczenie: 3 alternatywne wyjaśnienia',
+        type: 'reflection',
+        intro: 'Krótki trening poznawczy na poniedziałkowy start.',
+        steps: [
+          'Wybierz jedną sytuację, która dziś Cię zirytowała.',
+          'Zapisz trzy alternatywne wyjaśnienia zachowania drugiej osoby (bez etykietowania).',
+          'Sprawdź, czy któreś wyjaśnienie obniża poziom napięcia choćby o 10%.'
+        ]
+      }]
+    },
+    2: {
+      curiosity: [{
+        title: 'Nerw błędny i poczucie bezpieczeństwa',
+        lead: 'Teoria poliwagalna podkreśla, że regulacja zaczyna się od sygnałów bezpieczeństwa płynących z ciała.',
+        body: [
+          'Kontakt wzrokowy, spokojny ton głosu i wydłużony wydech aktywują układ sprzyjający współregulacji.',
+          'To dlatego jakość obecności terapeuty bywa równie ważna jak technika.'
+        ]
+      }],
+      exercise: [{
+        title: 'Oddech 4-6 z kotwicą sensoryczną',
+        type: 'mindfulness',
+        intro: 'Mikrointerwencja na przeciążenie poznawcze.',
+        steps: [
+          'Przez 2 minuty oddychaj rytmem 4 sekundy wdechu / 6 sekund wydechu.',
+          'Jednocześnie nazwij 5 rzeczy, które widzisz, 4 które słyszysz i 3 które czujesz dotykiem.',
+          'Oceń poziom pobudzenia przed i po ćwiczeniu.'
+        ]
+      }]
+    },
+    3: {
+      curiosity: [{
+        title: 'Synchronia interpersonalna wzmacnia zaufanie',
+        lead: 'Badania nad synchronią pokazują, że dopasowanie rytmu interakcji zwiększa poczucie bycia rozumianym.',
+        body: [
+          'Nie chodzi o „technikę sprzedażową", lecz o naturalne dostrojenie tempa i pauz.',
+          'Uważna synchronia wspiera przymierze terapeutyczne i redukuje dystans.'
+        ]
+      }],
+      exercise: [{
+        title: 'Aktywne pauzy',
+        type: 'social',
+        intro: 'Ćwiczenie jakości słuchania.',
+        steps: [
+          'W jednej rozmowie celowo wydłuż pauzę o 2 sekundy po wypowiedzi drugiej osoby.',
+          'Nie dopowiadaj od razu – pozwól drugiej stronie rozwinąć myśl.',
+          'Zanotuj, jak zmieniła się głębokość rozmowy.'
+        ]
+      }]
+    },
+    4: {
+      curiosity: [{
+        title: 'Samowspółczucie a skuteczność',
+        lead: 'Kristin Neff pokazała, że samowspółczucie nie obniża ambicji – stabilizuje motywację po porażce.',
+        body: [
+          'Osoby samowspółczujące szybciej wracają do działania, bo nie marnują zasobów na autokrytykę.',
+          'To szczególnie ważne w zawodach pomocowych, gdzie perfekcjonizm bywa normą.'
+        ]
+      }],
+      exercise: [{
+        title: 'Przeramowanie krytyka',
+        type: 'writing',
+        intro: 'Krótki zapis poznawczo-emocjonalny.',
+        steps: [
+          'Zapisz jedno samokrytyczne zdanie, które dziś się pojawiło.',
+          'Przepisz je w wersji wspierającej, ale realistycznej.',
+          'Dopisz mikro-krok, który wykonasz jeszcze dziś.'
+        ]
+      }]
+    },
+    5: {
+      curiosity: [{
+        title: 'Mikroodpoczynek chroni funkcje wykonawcze',
+        lead: 'Krótkie przerwy regeneracyjne (2–5 minut) mogą poprawiać koncentrację i jakość decyzji.',
+        body: [
+          'To nie strata czasu: mózg odzyskuje zdolność hamowania impulsów i planowania.',
+          'W praktyce klinicznej przekłada się to na lepszą obecność i mniej automatyzmów.'
+        ]
+      }],
+      exercise: [{
+        title: 'Protokół 3x3',
+        type: 'challenge',
+        intro: 'Szybka regeneracja pod koniec tygodnia.',
+        steps: [
+          '3 minuty: odejdź od ekranu i rozluźnij barki.',
+          '3 minuty: spokojny marsz lub rozciąganie.',
+          '3 minuty: zapis jednej najważniejszej myśli z tygodnia.'
+        ]
+      }]
+    },
+    6: {
+      curiosity: [{
+        title: 'Efekt nowicjusza i uczenie się',
+        lead: 'Początkujący częściej popełniają błędy, ale szybciej kalibrują strategie, gdy mają bezpieczne warunki.',
+        body: [
+          'Uczenie się przyspiesza, gdy skupiamy się na informacji zwrotnej zamiast na autoprezentacji.',
+          'To dobra przeciwwaga dla „muszę wypaść idealnie".'
+        ]
+      }],
+      exercise: [{
+        title: 'Eksperyment „pierwszej wersji”',
+        type: 'creative',
+        intro: 'Weekendowy trening tolerancji niedoskonałości.',
+        steps: [
+          'Wykonaj celowo niedoskonałą „wersję 1.0” dowolnego zadania twórczego.',
+          'Po 20 minutach zatrzymaj się i wypisz 3 rzeczy, które już działają.',
+          'Dopiero potem nanieś jedną poprawkę.'
+        ]
+      }]
+    },
+    0: {
+      curiosity: [{
+        title: 'Bilans tygodnia a dobrostan',
+        lead: 'Krótka autorefleksja pod koniec tygodnia zwiększa poczucie sprawczości i sensu.',
+        body: [
+          'Systematyczne domykanie tygodnia porządkuje pamięć epizodyczną i redukuje przeciążenie.',
+          'To prosty rytuał, który wspiera odporność psychiczną.'
+        ]
+      }],
+      exercise: [{
+        title: 'Niedzielny reset 3 pól',
+        type: 'reflection',
+        intro: 'Domknięcie tygodnia i przygotowanie poniedziałku.',
+        steps: [
+          'Pole 1: Co było najważniejsze w mijającym tygodniu?',
+          'Pole 2: Co chcę odpuścić w kolejnym?',
+          'Pole 3: Jaki jeden priorytet ustawiam na poniedziałek?'
+        ]
+      }]
+    }
+  };
+
+  /* Łączymy podstawowy materiał z wariantami, zachowując kompatybilność starego API. */
+  const DAILY_PSYCHOLOGY_ENRICHED = DAILY_PSYCHOLOGY.map(entry => {
+    const variants = DAILY_VARIANTS[entry.day] || {};
+    return {
+      ...entry,
+      curiosityVariants: [entry.curiosity, ...(variants.curiosity || [])],
+      exerciseVariants: [entry.exercise, ...(variants.exercise || [])]
+    };
+  });
+
+  window.DAILY_PSYCHOLOGY = DAILY_PSYCHOLOGY_ENRICHED;
 }());

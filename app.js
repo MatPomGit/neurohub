@@ -305,27 +305,42 @@ function renderDailyPsychology(id, item) {
     area.innerHTML = '<div class="error-box"><h2>Błąd ładowania modułu</h2><p>Nie udało się wczytać danych psychologii codziennej.</p></div>';
     return;
   }
-  const today = new Date().getDay(); /* 0=Sun … 6=Sat */
+  /* Porządek tygodnia w UI zaczynamy od poniedziałku niezależnie od lokalizacji. */
+  const WEEK_ORDER_MONDAY_FIRST = [1, 2, 3, 4, 5, 6, 0];
+  const sortByMondayFirst = (entries) =>
+    [...entries].sort((a, b) => WEEK_ORDER_MONDAY_FIRST.indexOf(a.day) - WEEK_ORDER_MONDAY_FIRST.indexOf(b.day));
+  /* Stabilny wybór wariantu na podstawie aktualnej daty i numeru dnia. */
+  const pickDailyVariant = (variants, dayNumber) => {
+    if (!Array.isArray(variants) || variants.length === 0) return null;
+    const dateKey = new Date().toISOString().slice(0, 10).replace(/-/g, '');
+    const seed = Number(dateKey) + (dayNumber * 37);
+    return variants[Math.abs(seed) % variants.length];
+  };
+
+  const today = new Date().getDay(); /* 0=niedziela … 6=sobota */
+  const orderedData = sortByMondayFirst(data);
   const displayDay = (dailySelectedDay !== null) ? dailySelectedDay : today;
-  const entry = data.find(e => e.day === displayDay) || data[0];
+  const entry = orderedData.find(e => e.day === displayDay) || orderedData[0];
+  const curiosity = pickDailyVariant(entry.curiosityVariants, entry.day) || entry.curiosity;
+  const exercise = pickDailyVariant(entry.exerciseVariants, entry.day) || entry.exercise;
 
   const typeLabels = {
     reflection: 'Refleksja', challenge: 'Wyzwanie', bodyscan: 'Skan ciała',
     writing: 'Pisanie', mindfulness: 'Uważność', social: 'Wyzwanie społeczne', creative: 'Kreatywność'
   };
 
-  const navBtns = data.map(e => {
+  const navBtns = orderedData.map(e => {
     const isToday = e.day === today;
     const isActive = e.day === displayDay;
     const todayMark = isToday ? `<span class="daily-today-label">dziś</span>` : '';
     return `<button class="daily-day-btn${isActive ? ' is-active' : ''}" onclick="selectDailyDay(${e.day})">${e.emoji} ${e.dayName}${todayMark}</button>`;
   }).join('');
 
-  const stepsHtml = entry.exercise.steps.map((step, i) =>
+  const stepsHtml = exercise.steps.map((step, i) =>
     `<li><span class="daily-step-num">${i + 1}</span><span>${step}</span></li>`
   ).join('');
 
-  const bodyParas = entry.curiosity.body.map(p => `<p>${p}</p>`).join('');
+  const bodyParas = curiosity.body.map(p => `<p>${p}</p>`).join('');
 
   area.innerHTML = `<div class="rendered daily-wrap">
     <div class="page-hero">
@@ -342,8 +357,8 @@ function renderDailyPsychology(id, item) {
         <span class="daily-card-icon">🧠</span>
         <span class="daily-card-label curiosity">Ciekawostka psychologiczna</span>
       </div>
-      <div class="daily-card-title">${entry.curiosity.title}</div>
-      <div class="daily-card-lead">${entry.curiosity.lead}</div>
+      <div class="daily-card-title">${curiosity.title}</div>
+      <div class="daily-card-lead">${curiosity.lead}</div>
       <div class="daily-card-body">${bodyParas}</div>
     </div>
 
@@ -352,9 +367,9 @@ function renderDailyPsychology(id, item) {
         <span class="daily-card-icon">✏️</span>
         <span class="daily-card-label exercise">Praca nad sobą</span>
       </div>
-      <div class="daily-card-title">${entry.exercise.title}</div>
-      <span class="daily-exercise-type ${entry.exercise.type}">${typeLabels[entry.exercise.type] || entry.exercise.type}</span>
-      <div class="daily-card-lead">${entry.exercise.intro}</div>
+      <div class="daily-card-title">${exercise.title}</div>
+      <span class="daily-exercise-type ${exercise.type}">${typeLabels[exercise.type] || exercise.type}</span>
+      <div class="daily-card-lead">${exercise.intro}</div>
       <ol class="daily-steps">${stepsHtml}</ol>
     </div>
   </div>`;
