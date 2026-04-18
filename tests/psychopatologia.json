@@ -18,7 +18,7 @@
     "options": [
       "Omamy słuchowe",
       "Deficyty w komunikacji społecznej i ograniczone, powtarzające się wzorce zachowań",
-      "Silny lęk separacyjny wyłącznie u dorosłych",
+      "Silny lęk separacyjny głównie u dorosłych",
       "Epizody manii naprzemiennie z depresją"
     ],
     "correct": 1,
@@ -55,9 +55,9 @@
     "id": 5,
     "question": "Zaburzenie dwubiegunowe typu I charakteryzuje się:",
     "options": [
-      "Wyłącznie epizodami depresyjnymi",
+      "Głównie epizodami depresyjnymi",
       "Co najmniej jednym epizodem maniakalnym",
-      "Wyłącznie epizodami hipomaniakalnym i depresyjnymi",
+      "Głównie epizodami hipomaniakalnym i depresyjnymi",
       "Przewlekłym obniżeniem nastroju bez epizodów maniakalnych"
     ],
     "correct": 1,
@@ -120,10 +120,10 @@
     "id": 10,
     "question": "PTSD (zespół stresu pourazowego) może rozwinąć się po:",
     "options": [
-      "Wyłącznie bezpośrednim doświadczeniu zagrożenia życia",
+      "Głównie bezpośrednim doświadczeniu zagrożenia życia",
       "Bezpośrednim doświadczeniu, świadkowaniu lub dowiedzeniu się o traumatycznym zdarzeniu",
-      "Wyłącznie zagrożeniu życia własnego",
-      "Każdym stresującym wydarzeniu dnia codziennego"
+      "Głównie zagrożeniu życia własnego",
+      "Wielu stresującym wydarzeniu dnia codziennego"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -135,8 +135,8 @@
     "options": [
       "Objawy są intensywniejsze, ale krótsze",
       "Objawy są mniej nasilone, lecz utrzymują się co najmniej 2 lata",
-      "Nigdy nie towarzyszą jej myśli samobójcze",
-      "Dotyczy wyłącznie dzieci i młodzieży"
+      "Rzadko nie towarzyszą jej myśli samobójcze",
+      "Dotyczy głównie dzieci i młodzieży"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -172,9 +172,9 @@
     "id": 14,
     "question": "Koncepcja \"kontinuum\" zaburzeń psychicznych zakłada, że:",
     "options": [
-      "Zaburzenia psychiczne są zawsze dziedziczne",
+      "Zaburzenia psychiczne są często dziedziczne",
       "Między zdrowiem a zaburzeniem psychicznym istnieje płynne spectrum, a nie wyraźna granica kategorialna",
-      "Zaburzenia psychiczne mają zawsze tło biologiczne",
+      "Zaburzenia psychiczne mają często tło biologiczne",
       "Każde zaburzenie jest odrębną jednostką chorobową niepowiązaną z innymi"
     ],
     "correct": 1,
@@ -185,9 +185,9 @@
     "id": 15,
     "question": "Endofenotywy w psychiatrii to:",
     "options": [
-      "Objawy biologiczne widoczne wyłącznie w badaniach neuroobrazowania",
+      "Objawy biologiczne widoczne głównie w badaniach neuroobrazowania",
       "Mierzalne cechy pośrednie (biologiczne, psychologiczne) powiązane genetycznie z zaburzeniem, niewidoczne gołym okiem",
-      "Biomarkery stosowane wyłącznie do oceny efektów farmakoterapii",
+      "Biomarkery stosowane głównie do oceny efektów farmakoterapii",
       "Zewnętrzne objawy choroby różniące grupę chorą od zdrowej"
     ],
     "correct": 1,
@@ -198,7 +198,7 @@
     "id": 16,
     "question": "Model diateza–stres w psychopatologii wyjaśnia, że:",
     "options": [
-      "Zaburzenia psychiczne są wyłącznie skutkiem stresu środowiskowego",
+      "Zaburzenia psychiczne są głównie skutkiem stresu środowiskowego",
       "Zaburzenia rozwijają się, gdy biologiczna lub psychologiczna podatność spotka się z wystarczającym czynnikiem stresowym",
       "Genetyczne predyspozycje nieuchronnie prowadzą do zaburzenia",
       "Stres może wywołać zaburzenie tylko u osób bez predyspozycji genetycznych"
@@ -276,7 +276,7 @@
     "id": 22,
     "question": "Która z poniższych jest cechą diagnostyczną ADHD w DSM-5 u dorosłych?",
     "options": [
-      "Wymagany jest wyłącznie podtyp z przewagą nadruchliwości",
+      "Wymagany jest głównie podtyp z przewagą nadruchliwości",
       "Objawy muszą być obecne przed 12. rokiem życia",
       "Zaburzenie nie może współwystępować z zaburzeniami lękowymi",
       "Do diagnozy wymagane jest minimum 8 objawów nieuważności"
@@ -330,8 +330,8 @@
     "options": [
       "Są niezmienne i od początku mają pełen obraz kliniczny",
       "Rozwijają się etapami od stanu ryzyka przez prodrom do pełnoobjawowego zaburzenia, a interwencja wcześniejsza jest skuteczniejsza",
-      "Wymagają do rozpoznania wyłącznie neuroobrazowania",
-      "Zawsze mają podłoże traumatyczne"
+      "Wymagają do rozpoznania głównie neuroobrazowania",
+      "Często mają podłoże traumatyczne"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -367,10 +367,10 @@
     "id": 29,
     "question": "Model RDoC (Research Domain Criteria) NIMH różni się od klasyfikacji DSM/ICD tym, że:",
     "options": [
-      "Diagnozuje wyłącznie na podstawie biomarkerów genetycznych",
+      "Diagnozuje głównie na podstawie biomarkerów genetycznych",
       "Organizuje badania według wymiarów biologicznych i behawioralnych (domeny) zamiast kategorii objawowych",
       "Zastępuje wywiad kliniczny neuroobrazowaniem",
-      "Koncentruje się wyłącznie na zaburzeniach neuropsychiatrycznych u dzieci"
+      "Koncentruje się głównie na zaburzeniach neuropsychiatrycznych u dzieci"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -383,7 +383,7 @@
       "Jest odpowiedzialna za procesy uwagi selektywnej i kontroli hamowania",
       "Nadaktywność DMN w spoczynku wiąże się z ruminacjami w depresji; zaburzenia jej łączności – z halucynacjami w schizofrenii",
       "Niedobór aktywacji DMN powoduje anhedonię",
-      "DMN kontroluje wyłącznie procesy pamięci proceduralnej"
+      "DMN kontroluje głównie procesy pamięci proceduralnej"
     ],
     "correct": 1,
     "difficulty": 3,

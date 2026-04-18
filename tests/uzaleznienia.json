@@ -6,7 +6,7 @@
       "Epizodyczne spożycie substancji w sytuacjach towarzyskich",
       "Silna potrzeba (głód) używania substancji, utrata kontroli i kontynuowanie mimo szkód",
       "Jednorazowe przedawkowanie substancji",
-      "Używanie substancji wyłącznie w celach leczniczych"
+      "Używanie substancji głównie w celach leczniczych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -16,10 +16,10 @@
     "id": 2,
     "question": "Model 'biopsychospołeczny' uzależnień zakłada, że uzależnienie jest wynikiem:",
     "options": [
-      "Wyłącznie słabości charakteru i braku woli",
+      "Głównie słabości charakteru i braku woli",
       "Tylko czynników genetycznych i neurobiologicznych",
       "Wzajemnych oddziaływań czynników biologicznych, psychologicznych i społecznych",
-      "Wyłącznie traumatycznych doświadczeń z dzieciństwa"
+      "Głównie traumatycznych doświadczeń z dzieciństwa"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -32,7 +32,7 @@
       "Konfrontacyjną, zmuszającą klienta do przyznania się do problemu",
       "Skoncentrowaną na kliencie, wspierającą wewnętrzną motywację do zmiany przez empatię i eksplorację ambiwalencji",
       "Opartą na terapii poznawczo-behawioralnej skupionej na myślach automatycznych",
-      "Stosowaną wyłącznie w grupach wsparcia AA"
+      "Stosowaną głównie w grupach wsparcia AA"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -71,7 +71,7 @@
       "Osoba po raz pierwszy próbuje substancji",
       "Stężenie substancji we krwi gwałtownie spada po zaprzestaniu lub ograniczeniu jej przyjmowania",
       "Osoba przyjmuje zbyt dużą dawkę substancji naraz",
-      "Organizm całkowicie wykształci odporność na substancję"
+      "Organizm w dużej mierze wykształci odporność na substancję"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -107,7 +107,7 @@
     "id": 9,
     "question": "Program 12 Kroków (np. Anonimowi Alkoholicy) oparty jest na założeniu, że:",
     "options": [
-      "Uzależnienie można wyleczyć wyłącznie farmakologicznie",
+      "Uzależnienie można wyleczyć głównie farmakologicznie",
       "Powrót do kontrolowanego picia jest możliwy po roku abstynencji",
       "Uzależnienie jest chorobą chroniczną, a abstynencja i wsparcie wspólnoty są kluczem do zdrowienia",
       "Uzależnienie wynika z zaburzeń osobowości, które należy leczyć psychoterapeutycznie"
@@ -133,7 +133,7 @@
     "id": 11,
     "question": "Harm reduction (ograniczanie szkód) jako podejście w profilaktyce uzależnień zakłada:",
     "options": [
-      "Wyłącznie całkowitą abstynencję jako cel leczenia",
+      "Głównie całkowitą abstynencję jako cel leczenia",
       "Redukcję negatywnych konsekwencji używania substancji bez konieczności natychmiastowego zaprzestania",
       "Legalizację wszystkich substancji psychoaktywnych",
       "Przymusowe leczenie wszystkich osób uzależnionych"
@@ -240,7 +240,7 @@
       "Całej populacji w ramach kampanii zdrowotnych",
       "Osób już uzależnionych w zaawansowanym stadium choroby",
       "Osób z grupy zwiększonego ryzyka lub wykazujących pierwsze sygnały ostrzegawcze używania szkodliwego",
-      "Wyłącznie do rodzin osób uzależnionych"
+      "Głównie do rodzin osób uzależnionych"
     ],
     "correct": 2,
     "difficulty": 2,
@@ -328,10 +328,10 @@
     "id": 26,
     "question": "Terapia systemowa rodziny w uzależnieniach uznaje, że:",
     "options": [
-      "Uzależnienie to problem wyłącznie jednostki i nie należy angażować rodziny",
+      "Uzależnienie to problem głównie jednostki i nie należy angażować rodziny",
       "Rodzina tworzy system, którego dynamika może podtrzymywać uzależnienie; zmiana wymaga pracy z całym systemem",
-      "Rodziny osób uzależnionych powinny być objęte wyłącznie psychoedukacją, nie terapią",
-      "Uzależnienie jest zawsze wynikiem błędów wychowawczych rodziców"
+      "Rodziny osób uzależnionych powinny być objęte głównie psychoedukacją, nie terapią",
+      "Uzależnienie jest często wynikiem błędów wychowawczych rodziców"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -341,7 +341,7 @@
     "id": 27,
     "question": "Szczyt kryzysu w modelu interwencji kryzysowej (model Caplan) jest momentem, w którym:",
     "options": [
-      "Osoba całkowicie traci kontakt z rzeczywistością",
+      "Osoba w dużej mierze traci kontakt z rzeczywistością",
       "Dotychczasowe mechanizmy radzenia sobie zawodzą, tworząc okazję do zmiany",
       "Rodzina decyduje się na przymusowe leczenie",
       "Osoba uzależniona sięga po substancję po raz pierwszy"

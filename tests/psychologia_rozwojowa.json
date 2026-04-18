@@ -83,7 +83,7 @@
     "options": [
       "Egoizm i brak troski o innych",
       "Trudność w przyjmowaniu perspektywy innej niż własna",
-      "Skupianie się wyłącznie na własnych potrzebach fizycznych",
+      "Skupianie się głównie na własnych potrzebach fizycznych",
       "Nieumiejętność rozumienia symboli i języka"
     ],
     "correct": 1,
@@ -239,7 +239,7 @@
     "options": [
       "Mniejszą intensywnością doświadczeń stresowych",
       "Powtarzającym się lub chronicznym charakterem urazów we wczesnodziecięcym środowisku opiekuńczym",
-      "Tym, że dotyczy wyłącznie dorosłych",
+      "Tym, że dotyczy głównie dorosłych",
       "Brakiem wpływu na system nerwowy"
     ],
     "correct": 1,
@@ -392,7 +392,7 @@
   {
     "question": "Które twierdzenie najlepiej opisuje pojęcie strefy najbliższego rozwoju Wygotskiego?",
     "options": [
-      "To zakres umiejętności całkowicie niedostępnych dziecku",
+      "To zakres umiejętności w dużej mierze niedostępnych dziecku",
       "To różnica między tym, co dziecko potrafi samo a tym, co osiąga przy wsparciu",
       "To etap rozwoju fizycznego w okresie dojrzewania",
       "To miara temperamentu dziecka"
@@ -408,7 +408,7 @@
       "Stałą, przewidywalną dostępnością opiekuna",
       "Niespójnością responsywności opiekuna",
       "Brakiem reakcji na rozstanie i powrót opiekuna",
-      "Wyłącznie czynnikami genetycznymi"
+      "Głównie czynnikami genetycznymi"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -420,8 +420,8 @@
     "options": [
       "Dojrzewanie dotyczy tylko emocji, a uczenie tylko poznania",
       "Dojrzewanie wynika głównie z procesów biologicznych, a uczenie z doświadczenia",
-      "Uczenie się zachodzi wyłącznie w dzieciństwie",
-      "Dojrzewanie jest całkowicie niezależne od środowiska"
+      "Uczenie się zachodzi głównie w dzieciństwie",
+      "Dojrzewanie jest w dużej mierze niezależne od środowiska"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -431,7 +431,7 @@
   {
     "question": "W okresie adolescencji wzrost znaczenia grupy rówieśniczej najczęściej wspiera:",
     "options": [
-      "Wyłącznie zachowania ryzykowne",
+      "Głównie zachowania ryzykowne",
       "Proces kształtowania tożsamości i autonomii",
       "Całkowite odrzucenie wpływu rodziny",
       "Spadek wrażliwości na ocenę społeczną"

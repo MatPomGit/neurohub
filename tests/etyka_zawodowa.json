@@ -16,7 +16,7 @@
     "id": 2,
     "question": "Zasada 'non nocere' (nieszkodzenia) w etyce psychologicznej oznacza:",
     "options": [
-      "Obowiązek działania wyłącznie na rzecz dobra klienta z pominięciem własnych interesów",
+      "Obowiązek działania głównie na rzecz dobra klienta z pominięciem własnych interesów",
       "Zobowiązanie do unikania działań, które mogłyby wyrządzić szkodę klientowi lub innym osobom",
       "Zakaz stosowania metod niepotwierdzonych empirycznie",
       "Konieczność ujawniania tajemnicy zawodowej w przypadku zagrożenia"
@@ -29,8 +29,8 @@
     "id": 3,
     "question": "Świadoma zgoda (informed consent) wymaga, aby klient był poinformowany o:",
     "options": [
-      "Wyłącznie czasie trwania i koszcie terapii",
-      "Wyłącznie diagnozie, bez planu terapii",
+      "Głównie czasie trwania i koszcie terapii",
+      "Głównie diagnozie, bez planu terapii",
       "Celu, metodach, ryzyku, korzyściach i warunkach poufności przed rozpoczęciem interwencji",
       "Zarobkach i kwalifikacjach psychologa"
     ],
@@ -84,7 +84,7 @@
       "Kontroli czasu pracy i efektywności psychologa przez pracodawcę",
       "Wsparciu zawodowemu, refleksji nad pracą z klientami, zapewnieniu jakości terapii i ochronie klienta",
       "Administracyjnemu nadzorowi nad wydatkami gabinetu",
-      "Wyłącznie szkoleniu psychologów stażystów"
+      "Głównie szkoleniu psychologów stażystów"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -94,7 +94,7 @@
     "id": 8,
     "question": "Które z poniższych stwierdzeń dotyczących kompetencji zawodowych psychologa jest prawidłowe?",
     "options": [
-      "Posiadanie dyplomu magistra psychologii uprawnia do pracy w każdym obszarze psychologii bez ograniczeń",
+      "Posiadanie dyplomu magistra psychologii uprawnia do pracy w wielu obszarze psychologii bez ograniczeń",
       "Psycholog powinien pracować wyłącznie w obszarach, w których posiada odpowiednie przeszkolenie i kompetencje",
       "Psycholog nie musi aktualizować wiedzy po ukończeniu studiów",
       "Kompetencje są stałe i nie wymagają regularnej weryfikacji"
@@ -108,7 +108,7 @@
     "question": "Etyczny zakaz relacji seksualnych z klientem obowiązuje:",
     "options": [
       "Tylko w czasie aktywnej terapii; po zakończeniu relacja jest dozwolona",
-      "Wyłącznie w terapii psychodynamicznej",
+      "Głównie w terapii psychodynamicznej",
       "Zawsze — zarówno w trakcie terapii, jak i po jej zakończeniu (choć standardy dotyczące okresu po zakończeniu mogą się różnić w kodeksach)",
       "Tylko gdy klient jest osobą małoletnią"
     ],
@@ -174,7 +174,7 @@
     "options": [
       "Obowiązek zeznawania w sądzie jako biegły",
       "Równe traktowanie wszystkich klientów bez dyskryminacji i uczciwy dostęp do pomocy psychologicznej",
-      "Stosowanie wyłącznie metod opartych na dowodach naukowych",
+      "Stosowanie głównie metod opartych na dowodach naukowych",
       "Ujawnianie informacji o klientach organom sprawiedliwości"
     ],
     "correct": 1,
@@ -213,7 +213,7 @@
     "options": [
       "Prawnie wiążącym dokumentem we wszystkich krajach UE",
       "Meta-kodeksem stanowiącym wspólne ramy etyczne dla organizacji psychologicznych w Europie",
-      "Wyłącznie kodeksem dotyczącym badań naukowych",
+      "Głównie kodeksem dotyczącym badań naukowych",
       "Kodeksem opracowanym dla psychologów sądowych"
     ],
     "correct": 1,
@@ -238,9 +238,9 @@
     "question": "Etyczna zasada 'minimalnego naruszenia prywatności' przy diagnozowaniu oznacza:",
     "options": [
       "Zbieranie jak najmniejszej ilości danych osobowych koniecznych do celu diagnostycznego",
-      "Stosowanie wyłącznie nieinwazyjnych metod obserwacyjnych",
+      "Stosowanie głównie nieinwazyjnych metod obserwacyjnych",
       "Unikanie pytań dotyczących historii rodzinnej",
-      "Prowadzenie diagnostyki wyłącznie w środowisku klienta"
+      "Prowadzenie diagnostyki głównie w środowisku klienta"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -302,7 +302,7 @@
     "id": 24,
     "question": "Granice kompetencji (scope of practice) oznaczają, że psycholog:",
     "options": [
-      "Może pracować z każdym klientem niezależnie od specjalizacji",
+      "Może pracować z wielu klientem niezależnie od specjalizacji",
       "Powinien odsyłać klientów, których problemy wykraczają poza jego wykształcenie i kompetencje",
       "Musi posiadać certyfikat we wszystkich podejściach psychoterapeutycznych",
       "Jest zobowiązany do odmówienia pracy z klientami z zaburzeniami psychotycznymi"
@@ -315,7 +315,7 @@
     "id": 25,
     "question": "Dokumentacja terapeutyczna (notatki, nagrania) należy do:",
     "options": [
-      "Wyłącznie pracodawcy gabinetu",
+      "Głównie pracodawcy gabinetu",
       "Zarówno klienta, jak i terapeuty na równych prawach",
       "Klienta mającego prawo wglądu i ewentualnie terapeuty; dostęp osób trzecich wymaga zgody lub nakazu sądowego",
       "Instytucji ubezpieczeniowej, która finansuje leczenie"
@@ -328,7 +328,7 @@
     "id": 26,
     "question": "Psycholog prowadzący badania naukowe z udziałem ludzi ma obowiązek uzyskania zgody:",
     "options": [
-      "Wyłącznie dyrektora instytucji zatrudniającej",
+      "Głównie dyrektora instytucji zatrudniającej",
       "Komisji etycznej (IRB/KEP) oraz świadomej zgody uczestników",
       "Ministerstwa Zdrowia",
       "Tylko uczestników badania; komisja etyczna jest opcjonalna"
@@ -367,9 +367,9 @@
     "id": 29,
     "question": "Zakończenie terapii (termination) jest procesem etycznym, który powinien obejmować:",
     "options": [
-      "Natychmiastowe zaprzestanie kontaktu bez uprzedzenia",
+      "Szybkie zaprzestanie kontaktu bez uprzedzenia",
       "Planowe podsumowanie postępów, omówienie dalszego wsparcia i upewnienie się, że klient nie jest w kryzysie",
-      "Wyłącznie wystawienie rachunku końcowego",
+      "Głównie wystawienie rachunku końcowego",
       "Prośbę klienta o rekomendację"
     ],
     "correct": 1,
@@ -380,7 +380,7 @@
     "id": 30,
     "question": "Metaanaliza Wampolda (2001) wykazała, że efektywność psychoterapii zależy w dużej mierze od 'czynników wspólnych'. Które etyczne implikacje wynikają z tego odkrycia?",
     "options": [
-      "Terapeuci powinni stosować wyłącznie terapię poznawczo-behawioralną",
+      "Terapeuci powinni stosować głównie terapię poznawczo-behawioralną",
       "Relacja terapeutyczna, empatia i sojusz terapeutyczny są etycznie niezbędnymi elementami praktyki",
       "Wszyscy terapeuci osiągają identyczne wyniki niezależnie od kompetencji",
       "Metody oparte na dowodach są zbędne wobec znaczenia relacji"

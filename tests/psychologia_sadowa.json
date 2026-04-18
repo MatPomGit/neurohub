@@ -29,7 +29,7 @@
     "id": 3,
     "question": "Kompetencja biegłego wymaga przede wszystkim:",
     "options": [
-      "Wyłącznie ukończenia studiów psychologicznych",
+      "Głównie ukończenia studiów psychologicznych",
       "Aktualnej wiedzy specjalistycznej, metodologicznej i etycznej adekwatnej do sprawy",
       "Doświadczenia życiowego bez dokumentacji",
       "Zgody stron postępowania"
@@ -94,7 +94,7 @@
     "id": 8,
     "question": "Ocena ryzyka przemocy oparta na narzędziach aktuarialnych i klinicznych ma na celu:",
     "options": [
-      "Przewidzenie zachowania ze 100% pewnością",
+      "Przewidzenie zachowania ze wysoką pewnością",
       "Oszacowanie prawdopodobieństwa i czynników ryzyka/protekcyjnych",
       "Zastąpienie decyzji organu procesowego",
       "Ustalenie kary"
@@ -123,7 +123,7 @@
       "Ukryć niepewność, by nie osłabiać opinii",
       "Jawnie opisać ograniczenia i zakres możliwych wniosków",
       "Odmówić każdej opinii niezależnie od kontekstu",
-      "Przeprowadzić wyłącznie test samoopisowy"
+      "Przeprowadzić głównie test samoopisowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -136,7 +136,7 @@
       "Pytania sugerujące i zamknięte",
       "Pytania otwarte i minimalizację sugestii",
       "Konfrontację ze sprawcą",
-      "Wyłącznie pytania o daty"
+      "Głównie pytania o daty"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -159,7 +159,7 @@
     "id": 13,
     "question": "W opiniowaniu rodzinnym pojęcie dobro dziecka oznacza:",
     "options": [
-      "Wyłącznie preferencję jednego z rodziców",
+      "Głównie preferencję jednego z rodziców",
       "Wielowymiarową ocenę bezpieczeństwa, więzi i potrzeb rozwojowych",
       "Szybkie zakończenie postępowania",
       "Brak kontaktu z otoczeniem dziecka"
@@ -214,7 +214,7 @@
       "Identyczne poglądy etyczne",
       "Spójność ocen niezależnych ekspertów",
       "Brak potrzeby danych empirycznych",
-      "Zawsze trafność kliniczną"
+      "Często trafność kliniczną"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -226,7 +226,7 @@
     "options": [
       "Koncentrowanie się na pojedynczym incydencie",
       "Analiza wzorca zachowań, dynamiki kontroli i czynników ryzyka",
-      "Wyłącznie analiza dokumentów sądowych",
+      "Głównie analiza dokumentów sądowych",
       "Pomijanie perspektywy ofiary"
     ],
     "correct": 1,

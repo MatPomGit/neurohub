@@ -44,7 +44,7 @@
     "options": [
       "Stałość połączeń neuronalnych po okresie dzieciństwa",
       "Zdolność układu nerwowego do reorganizacji pod wpływem doświadczeń",
-      "Wyłącznie regenerację nerwów obwodowych",
+      "Głównie regenerację nerwów obwodowych",
       "Brak wpływu środowiska na mózg"
     ],
     "correct": 1,
@@ -70,7 +70,7 @@
     "options": [
       "Podczas intensywnego wysiłku fizycznego",
       "W stanie relaksu przy zamkniętych oczach",
-      "Wyłącznie podczas snu REM",
+      "Głównie podczas snu REM",
       "W trakcie napadu padaczkowego"
     ],
     "correct": 1,
@@ -149,7 +149,7 @@
       "Równy udział półkul we wszystkich zadaniach",
       "Specjalizację półkul dla wybranych funkcji",
       "Brak plastyczności mózgu",
-      "Wyłącznie dominację prawej półkuli"
+      "Głównie dominację prawej półkuli"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -212,7 +212,7 @@
     "question": "Serotonina jest szczególnie związana z:",
     "options": [
       "Regulacją nastroju, snu i impulsywności",
-      "Wyłącznie pamięcią proceduralną",
+      "Głównie pamięcią proceduralną",
       "Percepcją głębi",
       "Regulacją glikemii"
     ],
@@ -250,7 +250,7 @@
     "id": 20,
     "question": "Model allostazy podkreśla, że:",
     "options": [
-      "Homeostaza jest całkowicie stała",
+      "Homeostaza jest w dużej mierze stała",
       "Organizm adaptuje się do obciążeń kosztem potencjalnego allostatic load",
       "Stres nie wpływa na zdrowie",
       "Układ nerwowy działa niezależnie od endokrynnego"
