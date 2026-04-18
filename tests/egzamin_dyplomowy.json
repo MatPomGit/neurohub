@@ -2,7 +2,12 @@
   {
     "id": 1,
     "question": "W projekcie badawczym hipoteza główna powinna być przede wszystkim:",
-    "options": ["Niefalsyfikowalna", "Operacjonalizowalna i możliwa do empirycznego testowania", "Bardzo ogólna", "Wyłącznie opisowa"],
+    "options": [
+      "Niefalsyfikowalna",
+      "Operacjonalizowalna i możliwa do empirycznego testowania",
+      "Bardzo ogólna",
+      "Wyłącznie opisowa"
+    ],
     "correct": 1,
     "difficulty": 1,
     "justification": "Hipoteza naukowa musi być testowalna i powiązana z jasno zdefiniowanymi zmiennymi."
@@ -10,7 +15,12 @@
   {
     "id": 2,
     "question": "Największą zaletą randomizacji w badaniu eksperymentalnym jest:",
-    "options": ["Zwiększenie liczby pytań", "Redukcja wpływu zmiennych zakłócających", "Eliminacja potrzeby analizy statystycznej", "Ułatwienie publikacji"],
+    "options": [
+      "Zwiększenie liczby pytań",
+      "Redukcja wpływu zmiennych zakłócających",
+      "Eliminacja potrzeby analizy statystycznej",
+      "Ułatwienie publikacji"
+    ],
     "correct": 1,
     "difficulty": 1,
     "justification": "Losowy przydział wzmacnia trafność wewnętrzną przez ograniczenie systematycznych różnic między grupami."
@@ -18,7 +28,12 @@
   {
     "id": 3,
     "question": "Współczynnik korelacji Pearsona r = 0,00 oznacza, że:",
-    "options": ["Nie ma związku liniowego", "Nie ma żadnego związku", "Związek jest bardzo silny", "Dane są błędne"],
+    "options": [
+      "Nie ma związku liniowego",
+      "Nie ma żadnego związku",
+      "Związek jest bardzo silny",
+      "Dane są błędne"
+    ],
     "correct": 0,
     "difficulty": 1,
     "justification": "r=0 wskazuje brak związku liniowego, ale nie wyklucza np. relacji nieliniowych."
@@ -26,7 +41,12 @@
   {
     "id": 4,
     "question": "W modelu biopsychospołecznym etiologia zaburzeń psychicznych jest rozumiana jako:",
-    "options": ["Wyłącznie biologiczna", "Interakcja czynników biologicznych, psychologicznych i społecznych", "Wyłącznie kulturowa", "Wyłącznie rodzinna"],
+    "options": [
+      "Wyłącznie biologiczna",
+      "Interakcja czynników biologicznych, psychologicznych i społecznych",
+      "Wyłącznie kulturowa",
+      "Wyłącznie rodzinna"
+    ],
     "correct": 1,
     "difficulty": 1,
     "justification": "Model biopsychospołeczny zakłada wieloczynnikowy charakter rozwoju i utrzymywania objawów."
@@ -34,7 +54,12 @@
   {
     "id": 5,
     "question": "Która zasada etyczna jest podstawą uzyskania świadomej zgody?",
-    "options": ["Autonomia osoby badanej", "Sprawiedliwość proceduralna", "Lojalność instytucjonalna", "Priorytet publikacji"],
+    "options": [
+      "Autonomia osoby badanej",
+      "Sprawiedliwość proceduralna",
+      "Lojalność instytucjonalna",
+      "Priorytet publikacji"
+    ],
     "correct": 0,
     "difficulty": 1,
     "justification": "Świadoma zgoda opiera się na prawie osoby do samostanowienia i rozumienia celu procedury."
@@ -42,7 +67,12 @@
   {
     "id": 6,
     "question": "W psychometrii trafność kryterialna dotyczy przede wszystkim:",
-    "options": ["Zgodności testu z wynikiem zewnętrznym", "Powtarzalności wyników", "Liczby pozycji", "Rozkładu normalnego"],
+    "options": [
+      "Zgodności testu z wynikiem zewnętrznym",
+      "Powtarzalności wyników",
+      "Liczby pozycji",
+      "Rozkładu normalnego"
+    ],
     "correct": 0,
     "difficulty": 1,
     "justification": "Trafność kryterialna sprawdza, czy wynik testu wiąże się z odpowiednim kryterium zewnętrznym."
@@ -50,7 +80,12 @@
   {
     "id": 7,
     "question": "W analizie regresji wielorakiej kolinearność predyktorów jest problemem, ponieważ:",
-    "options": ["Zwiększa stabilność oszacowań", "Utrudnia interpretację unikalnego wkładu zmiennych", "Zawsze podnosi R2", "Uniemożliwia obliczenie średniej"],
+    "options": [
+      "Zwiększa stabilność oszacowań",
+      "Utrudnia interpretację unikalnego wkładu zmiennych",
+      "Zawsze podnosi R2",
+      "Uniemożliwia obliczenie średniej"
+    ],
     "correct": 1,
     "difficulty": 2,
     "justification": "Silna współliniowość zawyża błędy standardowe i utrudnia interpretację efektów cząstkowych."
@@ -58,7 +93,12 @@
   {
     "id": 8,
     "question": "W metaanalizie efekt publikacyjny oznacza, że:",
-    "options": ["Publikuje się tylko badania jakościowe", "Częściej publikowane są wyniki istotne statystycznie", "Nie da się łączyć badań", "Wszystkie badania są równoważne"],
+    "options": [
+      "Publikuje się tylko badania jakościowe",
+      "Częściej publikowane są wyniki istotne statystycznie",
+      "Nie da się łączyć badań",
+      "Wszystkie badania są równoważne"
+    ],
     "correct": 1,
     "difficulty": 2,
     "justification": "Bias publikacyjny może zawyżać oszacowanie efektu, gdy negatywne wyniki pozostają nieopublikowane."
@@ -66,7 +106,12 @@
   {
     "id": 9,
     "question": "Który argument najlepiej uzasadnia użycie podejścia mixed-methods w pracy dyplomowej?",
-    "options": ["Skrócenie czasu analizy", "Połączenie głębokości danych jakościowych z możliwością uogólniania danych ilościowych", "Rezygnacja z hipotez", "Brak konieczności doboru próby"],
+    "options": [
+      "Skrócenie czasu analizy",
+      "Połączenie głębokości danych jakościowych z możliwością uogólniania danych ilościowych",
+      "Rezygnacja z hipotez",
+      "Brak konieczności doboru próby"
+    ],
     "correct": 1,
     "difficulty": 2,
     "justification": "Mixed-methods może zwiększać kompletność wniosków przez komplementarne źródła danych."
@@ -74,7 +119,12 @@
   {
     "id": 10,
     "question": "W terapii poznawczo-behawioralnej konceptualizacja przypadku służy głównie do:",
-    "options": ["Zastąpienia diagnozy", "Zrozumienia mechanizmów podtrzymujących problem i planowania interwencji", "Oceny IQ", "Wyłącznie dokumentacji formalnej"],
+    "options": [
+      "Zastąpienia diagnozy",
+      "Zrozumienia mechanizmów podtrzymujących problem i planowania interwencji",
+      "Oceny IQ",
+      "Wyłącznie dokumentacji formalnej"
+    ],
     "correct": 1,
     "difficulty": 2,
     "justification": "Konceptualizacja integruje dane i wskazuje cele terapeutyczne oraz hipotezy mechanizmów."
@@ -82,7 +132,12 @@
   {
     "id": 11,
     "question": "W badaniu longitudinalnym największym zagrożeniem dla trafności jest często:",
-    "options": ["Zbyt duża liczba pytań", "Odpływ uczestników (attrition)", "Brak normalności rozkładu", "Nadmiar zmiennych zależnych"],
+    "options": [
+      "Zbyt duża liczba pytań",
+      "Odpływ uczestników (attrition)",
+      "Brak normalności rozkładu",
+      "Nadmiar zmiennych zależnych"
+    ],
     "correct": 1,
     "difficulty": 2,
     "justification": "Systematyczny odpływ badanych może zniekształcać wyniki i obniżać możliwość wnioskowania przyczynowego."
@@ -90,7 +145,12 @@
   {
     "id": 12,
     "question": "Który wskaźnik najlepiej raportować obok wartości p w pracy dyplomowej?",
-    "options": ["Numer strony", "Wielkość efektu", "Datę zbierania danych", "Typ czcionki"],
+    "options": [
+      "Numer strony",
+      "Wielkość efektu",
+      "Datę zbierania danych",
+      "Typ czcionki"
+    ],
     "correct": 1,
     "difficulty": 2,
     "justification": "Wielkość efektu pokazuje praktyczne znaczenie wyniku niezależnie od liczebności próby."
@@ -98,7 +158,12 @@
   {
     "id": 13,
     "question": "Jeśli promotor sygnalizuje ryzyko plagiatu fragmentu pracy, autor powinien przede wszystkim:",
-    "options": ["Usunąć bibliografię", "Przeprowadzić pełną rewizję cytowań i parafraz zgodnie ze standardem APA", "Zignorować uwagę", "Zmienić tylko tytuł rozdziału"],
+    "options": [
+      "Usunąć bibliografię",
+      "Przeprowadzić pełną rewizję cytowań i parafraz zgodnie ze standardem APA",
+      "Zignorować uwagę",
+      "Zmienić tylko tytuł rozdziału"
+    ],
     "correct": 1,
     "difficulty": 3,
     "justification": "Rzetelność akademicka wymaga poprawnego przypisywania źródeł oraz transparentności zapożyczeń."
@@ -106,7 +171,12 @@
   {
     "id": 14,
     "question": "W obronie pracy student otrzymuje pytanie o ograniczenia badania. Najlepsza strategia odpowiedzi to:",
-    "options": ["Zaprzeczyć istnieniu ograniczeń", "Wskazać ograniczenia i zaproponować konkretne kierunki dalszych badań", "Zmienić temat", "Powołać się wyłącznie na autorytet promotora"],
+    "options": [
+      "Zaprzeczyć istnieniu ograniczeń",
+      "Wskazać ograniczenia i zaproponować konkretne kierunki dalszych badań",
+      "Zmienić temat",
+      "Powołać się wyłącznie na autorytet promotora"
+    ],
     "correct": 1,
     "difficulty": 3,
     "justification": "Dojrzała odpowiedź metodologiczna obejmuje krytyczną refleksję i realistyczne rekomendacje."
@@ -114,7 +184,12 @@
   {
     "id": 15,
     "question": "W projekcie interwencyjnym najlepszym sposobem oceny skuteczności jest:",
-    "options": ["Wyłącznie opinia prowadzącego", "Pomiar pre-post z adekwatnym planem analitycznym i kontrolą zakłóceń", "Jednorazowa ankieta satysfakcji", "Brak pomiaru bazowego"],
+    "options": [
+      "Wyłącznie opinia prowadzącego",
+      "Pomiar pre-post z adekwatnym planem analitycznym i kontrolą zakłóceń",
+      "Jednorazowa ankieta satysfakcji",
+      "Brak pomiaru bazowego"
+    ],
     "correct": 1,
     "difficulty": 3,
     "justification": "Ocena pre-post i kontrola czynników zakłócających zwiększają wiarygodność wniosków o skuteczności."
@@ -122,7 +197,12 @@
   {
     "id": 16,
     "question": "Podczas obrony student myli korelację z przyczynowością. Poprawne doprecyzowanie brzmi:",
-    "options": ["Korelacja zawsze dowodzi przyczyny", "Korelacja nie przesądza o przyczynowości bez odpowiedniego planu badania", "Przyczynowość jest nieistotna", "Wystarczy duża próba"],
+    "options": [
+      "Korelacja zawsze dowodzi przyczyny",
+      "Korelacja nie przesądza o przyczynowości bez odpowiedniego planu badania",
+      "Przyczynowość jest nieistotna",
+      "Wystarczy duża próba"
+    ],
     "correct": 1,
     "difficulty": 3,
     "justification": "Do wnioskowania przyczynowego potrzebny jest odpowiedni plan badawczy, np. eksperyment lub silne podejścia quasi-eksperymentalne."
@@ -130,7 +210,12 @@
   {
     "id": 17,
     "question": "Komisja pyta o implikacje praktyczne wyników. Najlepiej odpowiedzieć:",
-    "options": ["Wyniki nie mają zastosowania", "Wskazać konkretne zastosowania kliniczne/edukacyjne oraz warunki ich ograniczeń", "To zależy od recenzenta", "Nie omawiać wdrożeń"],
+    "options": [
+      "Wyniki nie mają zastosowania",
+      "Wskazać konkretne zastosowania kliniczne/edukacyjne oraz warunki ich ograniczeń",
+      "To zależy od recenzenta",
+      "Nie omawiać wdrożeń"
+    ],
     "correct": 1,
     "difficulty": 3,
     "justification": "Dobre podsumowanie łączy użyteczność wyników z ostrożnością interpretacyjną."
@@ -138,9 +223,170 @@
   {
     "id": 18,
     "question": "W standardzie otwartej nauki (open science) w pracy dyplomowej warto uwzględnić:",
-    "options": ["Wyłącznie slajdy z obrony", "Pre-rejestrację, udostępnienie danych/kodu (gdy możliwe) i transparentny opis analizy", "Brak opisu procedury", "Anonimowe źródła bez bibliografii"],
+    "options": [
+      "Wyłącznie slajdy z obrony",
+      "Pre-rejestrację, udostępnienie danych/kodu (gdy możliwe) i transparentny opis analizy",
+      "Brak opisu procedury",
+      "Anonimowe źródła bez bibliografii"
+    ],
     "correct": 1,
     "difficulty": 3,
     "justification": "Praktyki open science zwiększają replikowalność i wiarygodność procesu badawczego."
+  },
+  {
+    "id": 19,
+    "question": "W projekcie z małą próbą badawczą najlepszą praktyką raportowania jest:",
+    "options": [
+      "Pomijanie przedziałów ufności",
+      "Podanie wielkości efektu i przedziałów ufności",
+      "Raportowanie wyłącznie wartości p",
+      "Ukrycie liczebności grup"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Przy małych próbach przedziały ufności i wielkości efektu pomagają ocenić precyzję oszacowań."
+  },
+  {
+    "id": 20,
+    "question": "Która procedura najlepiej ogranicza ryzyko HARKing (dopasowywania hipotez po wynikach)?",
+    "options": [
+      "Pre-rejestracja pytań i planu analizy",
+      "Analiza tylko istotnych wyników",
+      "Zmiana hipotez bez adnotacji",
+      "Usunięcie danych odstających bez uzasadnienia"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Pre-rejestracja zwiększa transparentność i oddziela analizy potwierdzające od eksploracyjnych."
+  },
+  {
+    "id": 21,
+    "question": "W analizie jakościowej wiarygodność interpretacji zwiększa przede wszystkim:",
+    "options": [
+      "Brak kodera pomocniczego",
+      "Triangulacja badaczy lub źródeł danych",
+      "Dobór tylko potwierdzających cytatów",
+      "Rezygnacja z opisu procedury kodowania"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Triangulacja ogranicza stronniczość i wzmacnia rzetelność interpretacji danych jakościowych."
+  },
+  {
+    "id": 22,
+    "question": "Jeżeli wyniki badania nie potwierdzają hipotezy, w dyskusji pracy należy:",
+    "options": [
+      "Ukryć wynik i zmienić hipotezę",
+      "Rzetelnie omówić możliwe wyjaśnienia i ograniczenia",
+      "Usunąć analizę z pracy",
+      "Raportować jedynie wyniki pomocnicze"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Wyniki nieistotne również mają wartość naukową, jeśli są poprawnie zinterpretowane."
+  },
+  {
+    "id": 23,
+    "question": "Wybierając narzędzie pomiarowe do pracy dyplomowej, priorytetem metodologicznym jest:",
+    "options": [
+      "Popularność testu w mediach",
+      "Dostępność danych o trafności i rzetelności w danej populacji",
+      "Najkrótsza możliwa skala",
+      "Brak kosztu licencji niezależnie od jakości"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Dobór narzędzia powinien wynikać z jakości psychometrycznej i adekwatności do celu badania."
+  },
+  {
+    "id": 24,
+    "question": "W etycznym badaniu online konieczne jest przede wszystkim:",
+    "options": [
+      "Brak informacji o administratorze danych",
+      "Jasne poinformowanie o poufności i sposobie przetwarzania danych",
+      "Wymuszenie ujawnienia danych wrażliwych",
+      "Ukrycie celu badania bez debriefingu"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Transparentność wobec uczestników i ochrona danych osobowych to podstawa etyczna badań online."
+  },
+  {
+    "id": 25,
+    "question": "Podczas obrony pracy pytanie o dobór próby najlepiej adresować przez:",
+    "options": [
+      "Stwierdzenie, że próba nie ma znaczenia",
+      "Opis kryteriów włączenia/wykluczenia i ich konsekwencji dla uogólniania",
+      "Unikanie odpowiedzi metodologicznej",
+      "Powołanie się na zwyczaj wydziału"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Komisja ocenia świadomość ograniczeń i zakresu uogólniania wyników."
+  },
+  {
+    "id": 26,
+    "question": "Które działanie najlepiej wspiera replikowalność projektu badawczego?",
+    "options": [
+      "Opis ogólny bez szczegółów procedury",
+      "Udostępnienie materiałów, kodu i szczegółowego protokołu",
+      "Brak informacji o czyszczeniu danych",
+      "Raportowanie wyłącznie wyników końcowych"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Szczegółowa dokumentacja umożliwia odtworzenie analizy i weryfikację wyników."
+  },
+  {
+    "id": 27,
+    "question": "W przypadku testowania wielu hipotez jednocześnie należy rozważyć:",
+    "options": [
+      "Podwyższenie poziomu alfa",
+      "Korektę na wielokrotne porównania",
+      "Pominięcie wyników nieistotnych",
+      "Łączenie zmiennych bez uzasadnienia"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Korekty ograniczają ryzyko inflacji błędu I rodzaju przy wielu testach statystycznych."
+  },
+  {
+    "id": 28,
+    "question": "W badaniu quasi-eksperymentalnym kluczowe jest raportowanie:",
+    "options": [
+      "Wyłącznie średnich końcowych",
+      "Potencjalnych źródeł stronniczości i sposobów ich kontroli",
+      "Braku grupy porównawczej jako zalety",
+      "Jedynie narracyjnych opisów wyników"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Bez pełnej randomizacji trzeba jawnie opisać ograniczenia trafności wewnętrznej."
+  },
+  {
+    "id": 29,
+    "question": "Najlepszą odpowiedzią na pytanie komisji o znaczenie praktyczne efektu małego (np. d=0,2) jest:",
+    "options": [
+      "Efekt mały jest zawsze bezwartościowy",
+      "Omówienie kontekstu klinicznego i kosztów wdrożenia interwencji",
+      "Ignorowanie wielkości efektu",
+      "Deklaracja, że p<0,05 wystarcza"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Znaczenie praktyczne zależy od kontekstu, populacji i bilansu korzyści do kosztów."
+  },
+  {
+    "id": 30,
+    "question": "Jeśli recenzent wskazuje niespójność między celem badania a analizą, autor powinien:",
+    "options": [
+      "Pozostawić pracę bez zmian",
+      "Doprecyzować pytania badawcze i dostosować plan analizy",
+      "Usunąć sekcję metod",
+      "Zmienić wyłącznie streszczenie"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Spójność celu, hipotez i analiz jest kluczowa dla jakości pracy dyplomowej."
   }
 ]
