@@ -70,6 +70,12 @@
         icon: '⚖️'
       },
       {
+        key: 'filozofia',
+        label: 'Filozofia',
+        file: 'tests/filozofia.json',
+        icon: '🏛️'
+      },
+      {
         key: 'relacje_i_zwiazki',
         label: 'Relacje i związki',
         file: 'tests/relacje_i_zwiazki.json',
