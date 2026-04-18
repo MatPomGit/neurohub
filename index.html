@@ -521,6 +521,57 @@ em{color:var(--goldl)}
   .content{padding:1.6rem 1.2rem 3.5rem}
   .home-hero h1{font-size:2.1rem}
   .page-hero h1{font-size:2rem}
+
+  /* Mobilnie zwiększamy strefę dotyku i kontrast elementów nawigacji (zakładek). */
+  .nav-group-hdr{padding:.7rem 1rem .45rem}
+  .ng-label{font-size:.68rem;letter-spacing:.16em}
+  .nav-item{
+    padding:.5rem 1rem .5rem 1.35rem;
+    font-size:.88rem;
+    min-height:42px;
+    align-items:center;
+  }
+  .nav-item.is-wiki{
+    font-size:.84rem;
+    padding-left:1.7rem;
+  }
+
+  /* Spis artykułów: poprawa czytelności kart na mniejszych ekranach. */
+  .wiki-sec{margin-bottom:1.9rem}
+  .wiki-sec-title{font-size:1.15rem}
+  .art-card{
+    padding:.85rem .9rem;
+    gap:.65rem;
+  }
+  .art-lbl{font-size:.94rem;line-height:1.45}
+  .art-desc{font-size:.83rem;line-height:1.6}
+  .art-badge{
+    font-size:.66rem;
+    padding:.22rem .55rem;
+    margin-top:.12rem;
+  }
+}
+
+@media(max-width:640px){
+  /* Bardzo małe ekrany: układ kart pionowy i większa separacja treści. */
+  .content{padding:1.15rem .85rem 3rem}
+  .topbar{padding:0 .8rem}
+  .breadcrumb{font-size:.74rem}
+
+  .art-card,
+  .plan-item{
+    flex-wrap:wrap;
+    align-items:flex-start;
+  }
+  .art-badge,
+  .plan-badge{
+    margin-left:1.35rem;
+  }
+  .art-body{flex:1 1 100%}
+  .art-lbl{font-size:.96rem}
+
+  .page-hero{padding-bottom:1.3rem;margin-bottom:1.5rem}
+  .wiki-hdr{padding-bottom:1.3rem;margin-bottom:1.5rem}
 }
   </style>
 </head>
