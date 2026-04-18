@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "question": "Które pytanie najlepiej oddaje zakres ontologii?",
+    "options": [
+      "Jakie metody statystyczne są najbardziej trafne?",
+      "Co istnieje i jakie są podstawowe kategorie bytu?",
+      "Jak mierzyć natężenie emocji w skali Likerta?",
+      "Jakie techniki relaksacyjne są najskuteczniejsze?"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Ontologia dotyczy istnienia i struktury rzeczywistości. Pyta o to, co istnieje, w jaki sposób istnieje i jak porządkować podstawowe typy bytów."
+  },
+  {
+    "id": 2,
+    "question": "Klasyczna definicja wiedzy jako 'uzasadnionego prawdziwego przekonania' została zakwestionowana przez:",
+    "options": [
+      "Immanuela Kanta",
+      "Arystotelesa",
+      "Edmunda Gettiera",
+      "Jeana Piageta"
+    ],
+    "correct": 2,
+    "difficulty": 1,
+    "justification": "Gettier pokazał przypadki, w których ktoś ma uzasadnione i prawdziwe przekonanie, ale intuicyjnie nie ma wiedzy. To uruchomiło współczesną debatę nad definicją wiedzy."
+  },
+  {
+    "id": 3,
+    "question": "Racjonalizm w epistemologii zakłada przede wszystkim, że:",
+    "options": [
+      "Cała wiedza pochodzi wyłącznie z doświadczenia zmysłowego",
+      "Źródłem wiedzy jest przede wszystkim rozum, a część wiedzy ma charakter aprioryczny",
+      "Nie istnieje żadna pewna wiedza",
+      "Wiedza jest wyłącznie konstruktem językowym"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Racjonalizm podkreśla rolę rozumu i dopuszcza wiedzę niezależną od doświadczenia, np. twierdzenia matematyczne lub logiczne."
+  },
+  {
+    "id": 4,
+    "question": "Które stanowisko wiąże się z tezą, że wiedza pochodzi z doświadczenia zmysłowego?",
+    "options": [
+      "Empiryzm",
+      "Idealizm obiektywny",
+      "Egzystencjalizm",
+      "Stoicyzm"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Empiryzm akcentuje doświadczenie jako podstawowe źródło wiedzy. W jego klasycznych wersjach umysł jest kształtowany przez treści pochodzące z percepcji."
+  },
+  {
+    "id": 5,
+    "question": "Sceptycyzm filozoficzny najtrafniej opisuje stanowisko, które:",
+    "options": [
+      "Bezwarunkowo akceptuje autorytet ekspertów",
+      "Kwestionuje możliwość pewnej wiedzy lub zakres uzasadnienia przekonań",
+      "Redukuje etykę do biologii",
+      "Uznaje wyłącznie dane ilościowe za sensowne"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Sceptycyzm nie musi negować wszelkiej wiedzy, ale podważa jej pewność i wskazuje granice uzasadnienia."
+  },
+  {
+    "id": 6,
+    "question": "W filozofii nauki Popper wiąże naukowość teorii przede wszystkim z:",
+    "options": [
+      "Falsyfikowalnością",
+      "Liczbą cytowań",
+      "Popularnością społeczną",
+      "Zgodnością z intuicją badacza"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Dla Poppera teoria naukowa musi dawać się potencjalnie obalić przez dane empiryczne. Niefalsyfikowalność osłabia status naukowy twierdzenia."
+  },
+  {
+    "id": 7,
+    "question": "Problem demarkacji dotyczy pytania:",
+    "options": [
+      "Jak podzielić budżet grantowy między zespoły?",
+      "Jak odróżnić naukę od pseudonauki?",
+      "Jakie są etapy rozwoju moralnego?",
+      "Jak konstruować kwestionariusze osobowości?"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Demarkacja to klasyczny problem filozofii nauki: jakie kryteria pozwalają odróżnić wiedzę naukową od twierdzeń pseudonaukowych."
+  },
+  {
+    "id": 8,
+    "question": "Które z poniższych najlepiej opisuje redukcjonizm w filozofii umysłu?",
+    "options": [
+      "Tezę, że umysł jest całkowicie niezależny od mózgu",
+      "Pogląd, że zjawiska psychiczne można wyjaśniać przez procesy niższego poziomu, np. neurobiologiczne",
+      "Założenie, że emocje są wyłącznie społecznym konstruktem",
+      "Twierdzenie, że świadomość jest iluzją językową"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Redukcjonizm dąży do wyjaśniania zjawisk złożonych przez mechanizmy bardziej podstawowe, np. neuronalne i fizjologiczne."
+  },
+  {
+    "id": 9,
+    "question": "Dualizm Kartezjusza zakłada, że:",
+    "options": [
+      "Umysł i ciało są dwiema różnymi substancjami",
+      "Umysł to wyłącznie funkcja języka",
+      "Wolna wola jest niemożliwa",
+      "Nie istnieją stany mentalne"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Dualizm substancjalny Descartesa rozdziela res cogitans (myślącą) i res extensa (rozciągłą), czyli umysł i ciało."
+  },
+  {
+    "id": 10,
+    "question": "Która teza jest bliska kompatybilizmowi?",
+    "options": [
+      "Determinizm i wolność są logicznie nie do pogodzenia",
+      "Wolność jest możliwa nawet jeśli świat jest deterministyczny",
+      "Wolność wymaga losowości zdarzeń",
+      "Odpowiedzialność moralna jest zawsze iluzją"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Kompatybilizm utrzymuje, że odpowiedzialność i wolność można rozumieć w sposób zgodny z determinizmem, np. jako działanie zgodne z własnymi racjami i intencjami."
+  },
+  {
+    "id": 11,
+    "question": "Utylitaryzm w etyce ocenia działanie głównie przez:",
+    "options": [
+      "Zgodność z obowiązkiem niezależnie od skutków",
+      "Skutki dla dobrostanu i bilansu korzyści/szkód",
+      "Intencję moralną podmiotu wyłącznie",
+      "Zgodność z tradycją kulturową"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "W utylitaryzmie kluczowe są konsekwencje działania, zwłaszcza wpływ na cierpienie i dobrostan osób dotkniętych decyzją."
+  },
+  {
+    "id": 12,
+    "question": "Deontologia Kanta akcentuje przede wszystkim:",
+    "options": [
+      "Maksymalizację szczęścia większości",
+      "Obowiązek moralny i uniwersalizowalne zasady działania",
+      "Przystosowanie do norm lokalnej wspólnoty",
+      "Efektywność ekonomiczną decyzji"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Etyka deontologiczna podkreśla powinność i zasadę, że człowieka należy traktować jako cel sam w sobie, a nie jedynie środek."
+  },
+  {
+    "id": 13,
+    "question": "Etyka cnót koncentruje się głównie na:",
+    "options": [
+      "Charakterze i dyspozycjach moralnych osoby",
+      "Formalnych procedurach prawnych",
+      "Algorytmach podejmowania decyzji",
+      "Wyłącznie konsekwencjach ekonomicznych"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Etyka cnót pyta nie tylko 'co robić', ale 'jakim człowiekiem być'. Kluczowe są trwałe cnoty, np. roztropność, odwaga i umiarkowanie."
+  },
+  {
+    "id": 14,
+    "question": "W kontekście praktyki psychologicznej odpowiedzialność epistemiczna oznacza m.in.:",
+    "options": [
+      "Utrzymywanie stałej diagnozy niezależnie od nowych danych",
+      "Dopasowywanie przekonań do jakości dowodów i jawne komunikowanie niepewności",
+      "Unikanie superwizji, by zachować autonomię",
+      "Stawianie mocnych tez na podstawie pojedynczego przypadku"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Odpowiedzialność epistemiczna wymaga proporcjonalności przekonań do danych, gotowości rewizji stanowiska oraz transparentnej komunikacji granic wiedzy."
+  },
+  {
+    "id": 15,
+    "question": "Epistemiczna niesprawiedliwość (Fricker) dotyczy sytuacji, gdy:",
+    "options": [
+      "Narzędzia diagnostyczne mają zbyt wiele pytań",
+      "Niektórym osobom systematycznie odmawia się wiarygodności jako świadkom poznawczym",
+      "Badania nie przechodzą procedury prerejestracji",
+      "Psycholog nie publikuje wyników null"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Pojęcie to opisuje nierówności poznawcze wynikające z uprzedzeń społecznych, które zaniżają wiarygodność wypowiedzi określonych grup."
+  },
+  {
+    "id": 16,
+    "question": "Który przykład najlepiej ilustruje błąd konfirmacji?",
+    "options": [
+      "Psycholog aktywnie szuka danych przeczących wstępnej hipotezie",
+      "Badacz analizuje tylko wyniki zgodne z własną tezą i pomija dane sprzeczne",
+      "Terapeuta konsultuje przypadek na superwizji",
+      "Zespół wykonuje replikację badania"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Błąd konfirmacji polega na selektywnym traktowaniu informacji wspierających hipotezę i ignorowaniu kontrdowodów."
+  },
+  {
+    "id": 17,
+    "question": "Hermeneutyka jako nurt filozoficzny skupia się przede wszystkim na:",
+    "options": [
+      "Pomiarze EEG i fMRI",
+      "Interpretacji znaczeń, tekstu i kontekstu rozumienia",
+      "Matematycznej formalizacji logiki modalnej",
+      "Eksperymentalnej analizie percepcji wzrokowej"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Hermeneutyka bada proces rozumienia i interpretacji, podkreślając rolę języka, historii i kontekstu kulturowego."
+  },
+  {
+    "id": 18,
+    "question": "Fenomenologia w najprostszym ujęciu koncentruje się na:",
+    "options": [
+      "Opisie struktury przeżywanego doświadczenia z perspektywy pierwszoosobowej",
+      "Weryfikacji hipotez wyłącznie metodą randomizowanych badań klinicznych",
+      "Budowie modeli neuronowych świadomości bez odniesienia do doświadczenia",
+      "Normatywnych kodeksach zachowania zawodowego"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Fenomenologia analizuje to, jak zjawiska jawią się w świadomości podmiotu, zanim zostaną wyjaśnione przyczynowo lub biologicznie."
+  },
+  {
+    "id": 19,
+    "question": "Egzystencjalizm podkreśla, że człowiek:",
+    "options": [
+      "Jest całkowicie wyznaczony przez biologiczne popędy",
+      "Jest wolny i współodpowiedzialny za nadawanie sensu własnemu życiu",
+      "Nie ma żadnej możliwości zmiany siebie",
+      "Powinien zawsze podporządkować się autorytetowi"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "Myśliciele egzystencjalni akcentują wolność, autentyczność i odpowiedzialność za wybory, nawet w warunkach niepewności i absurdu."
+  },
+  {
+    "id": 20,
+    "question": "Które stwierdzenie najlepiej oddaje sens kryzysu replikacji w psychologii z perspektywy filozofii nauki?",
+    "options": [
+      "To dowód, że psychologia nie jest nauką",
+      "To sygnał potrzeby poprawy metodologii, transparentności i kontroli jakości dowodów",
+      "To wyłącznie problem statystyczny bez konsekwencji teoretycznych",
+      "To efekt zbyt małej liczby teorii filozoficznych"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Kryzys replikacji wskazuje na konieczność wzmacniania standardów metodologicznych i epistemicznych, a nie automatyczne odrzucenie całej dyscypliny."
+  }
+]

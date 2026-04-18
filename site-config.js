@@ -48,6 +48,7 @@ window.SITE_CONFIG = {
         { id: 'philosophy/wprowadzenie',                 label: 'Filozofia — wprowadzenie',                   file: 'wiki/philosophy/wprowadzenie.md'        },
         { id: 'philosophy/ontologia',                    label: 'Ontologia i metafizyka',                     file: 'wiki/philosophy/ontologia.md'           },
         { id: 'philosophy/epistemologia',                label: 'Epistemologia i teoria poznania',            file: 'wiki/philosophy/epistemologia.md'       },
+        { id: 'philosophy/odpowiedzialnosc_epistemiczna',label: 'Odpowiedzialność epistemiczna',              file: 'wiki/philosophy/odpowiedzialnosc_epistemiczna.md' },
         { id: 'philosophy/etyka',                        label: 'Etyka i filozofia moralna',                  file: 'wiki/philosophy/etyka.md'               },
         { id: 'philosophy/filozofia_umyslu',             label: 'Filozofia umysłu',                           file: 'wiki/philosophy/filozofia_umyslu.md'    },
         { id: 'philosophy/filozofia_nauki',              label: 'Filozofia nauki',                            file: 'wiki/philosophy/filozofia_nauki.md'     },
@@ -567,6 +568,7 @@ window.SITE_CONFIG = {
         { id: 'neurodiversity/dysleksja',                  label: 'Dysleksja',                            file: 'wiki/neurodiversity/dysleksja.md'                  },
         { id: 'neurodiversity/dyskalkulia',                label: 'Dyskalkulia',                          file: 'wiki/neurodiversity/dyskalkulia.md'                },
         { id: 'neurodiversity/dyspraksja',                 label: 'Dyspraksja i DCD',                     file: 'wiki/neurodiversity/dyspraksja.md'                 },
+        { id: 'neurodiversity/profil_sensoryczny',         label: 'Profil sensoryczny',                  file: 'wiki/neurodiversity/profil_sensoryczny.md'         },
         { id: 'neurodiversity/tourette',                   label: 'Zespół Tourette\'a i tiki',            file: 'wiki/neurodiversity/tourette.md'                   },
         { id: 'neurodiversity/hiperleksja',                label: 'Hiperleksja i wyjątkowe zdolności',    file: 'wiki/neurodiversity/hiperleksja.md'                },
         { id: 'neurodiversity/model_mocnych_stron',        label: 'Model mocnych stron',                  file: 'wiki/neurodiversity/model_mocnych_stron.md'        },
@@ -1298,6 +1300,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/neurodiversity/dysleksja.md',                  label: 'Dysleksja',                            status: 'live' },
       { file: 'wiki/neurodiversity/dyskalkulia.md',                label: 'Dyskalkulia',                          status: 'live' },
       { file: 'wiki/neurodiversity/dyspraksja.md',                 label: 'Dyspraksja i DCD',                     status: 'live' },
+      { file: 'wiki/neurodiversity/profil_sensoryczny.md',         label: 'Profil sensoryczny',                  status: 'live' },
       { file: 'wiki/neurodiversity/tourette.md',                   label: "Zespół Tourette'a i tiki",             status: 'live' },
       { file: 'wiki/neurodiversity/hiperleksja.md',                label: 'Hiperleksja i wyjątkowe zdolności',    status: 'live' },
       { file: 'wiki/neurodiversity/model_mocnych_stron.md',        label: 'Model mocnych stron',                  status: 'live' },
@@ -2638,6 +2641,7 @@ window.SITE_CONFIG = {
         {
           title: 'Inne profile i zdolności',
           articles: [
+            { label: 'Profil sensoryczny',                 id: 'neurodiversity/profil_sensoryczny', status: 'live' },
             { label: 'Zespół Tourette\'a i tiki',         id: 'neurodiversity/tourette',    status: 'live' },
             { label: 'Hiperleksja i wyjątkowe zdolności', id: 'neurodiversity/hiperleksja', status: 'live' },
           ]
