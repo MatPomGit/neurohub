@@ -973,5 +973,161 @@
     "correct": 1,
     "difficulty": 3,
     "justification": "Biopsychospołeczny, wieloosiowy opis przypadku zakłada równoczesne uwzględnianie czynników biologicznych, psychologicznych i społecznych. Dopiero połączenie tych poziomów daje pełniejszą i bardziej funkcjonalną diagnozę."
+  },
+  {
+    "id": 76,
+    "question": "Który scenariusz najlepiej ilustruje trafność inkrementalną narzędzia diagnostycznego?",
+    "options": [
+      "Nowy kwestionariusz poprawia przewidywanie nawrotu objawów ponad to, co już wyjaśnia wywiad kliniczny i dotychczasowe skale",
+      "Nowy kwestionariusz ma wyższą liczbę pozycji niż wcześniejsze narzędzie, więc uznaje się go za lepszy",
+      "Nowy kwestionariusz jest krótszy i wygodniejszy administracyjnie, dlatego automatycznie zwiększa trafność diagnozy",
+      "Nowy kwestionariusz daje podobne wyniki jak stare narzędzie, co dowodzi jego większej mocy predykcyjnej"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Trafność inkrementalna oznacza dodatkową wartość predykcyjną ponad istniejące źródła danych. Kluczowe jest „co wnosi więcej”, a nie sama długość czy wygoda testu."
+  },
+  {
+    "id": 77,
+    "question": "W praktyce diagnostycznej błąd konfirmacji najczęściej pojawia się wtedy, gdy diagnosta:",
+    "options": [
+      "selektywnie dopytuje o dane zgodne z pierwszą hipotezą i pomija informacje ją falsyfikujące",
+      "zbiera dane z wielu źródeł i porównuje alternatywne wyjaśnienia",
+      "dokonuje ponownej oceny hipotez po uzyskaniu nowych informacji",
+      "stosuje ustrukturyzowany protokół wywiadu z wcześniej zdefiniowanymi kryteriami"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Błąd konfirmacji polega na preferowaniu danych potwierdzających wcześniejsze założenie. Dlatego w diagnozie istotne jest aktywne testowanie hipotez konkurencyjnych."
+  },
+  {
+    "id": 78,
+    "question": "Który układ danych najbardziej uzasadnia ostrożność przed diagnozą „cechy osobowości”, a nie „stanu sytuacyjnego”?",
+    "options": [
+      "Objawy nasilają się głównie w określonym kontekście (np. konflikt zawodowy) i wyraźnie słabną po zmianie warunków",
+      "Objawy są stabilne między sytuacjami i utrzymują się mimo istotnych zmian środowiskowych",
+      "Wzorzec funkcjonowania jest długoterminowy i potwierdzony retrospektywnie od adolescencji",
+      "Dane z wywiadu, obserwacji i testów konsekwentnie wskazują na ten sam profil"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Silna zależność objawów od kontekstu i ich odwracalność po zmianie warunków częściej sugerują reakcję sytuacyjną niż utrwaloną dyspozycję osobowościową."
+  },
+  {
+    "id": 79,
+    "question": "W podejściu opartym na hipotezach diagnostycznych najbardziej poprawna sekwencja pracy to:",
+    "options": [
+      "Formułowanie kilku hipotez roboczych, planowanie danych rozstrzygających i iteracyjne ich aktualizowanie",
+      "Wybór jednej najbardziej prawdopodobnej hipotezy na początku i ignorowanie danych niezgodnych",
+      "Losowe zbieranie dużej liczby wskaźników bez planu decyzyjnego, aby uniknąć stronniczości",
+      "Opieranie końcowego rozpoznania wyłącznie na pierwszym wrażeniu klinicznym"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Diagnoza hipotezowa wymaga planu falsyfikacji i ciągłej aktualizacji przekonań na podstawie nowych danych. To zmniejsza ryzyko przedwczesnego domknięcia diagnozy."
+  },
+  {
+    "id": 80,
+    "question": "Które stwierdzenie najlepiej opisuje różnicę między czułością a swoistością narzędzia przesiewowego?",
+    "options": [
+      "Czułość to odsetek poprawnie wykrytych przypadków z zaburzeniem, a swoistość to odsetek poprawnie wykluczonych osób bez zaburzenia",
+      "Czułość określa stabilność wyników w czasie, a swoistość ich trafność treściową",
+      "Czułość i swoistość są równoważne i zawsze rosną jednocześnie przy tej samej wartości odcięcia",
+      "Czułość dotyczy tylko badań populacyjnych, a swoistość tylko diagnozy indywidualnej"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Czułość i swoistość opisują różne aspekty klasyfikacji diagnostycznej. Zmiana progu zwykle poprawia jeden parametr kosztem drugiego."
+  },
+  {
+    "id": 81,
+    "question": "Pacjent uzyskał wynik wysoki w skali lęku, ale podczas wywiadu zgłasza głównie objawy somatyczne po niedawnym odstawieniu kofeiny i dużym stresie. Najtrafniejsze działanie diagnostyczne to:",
+    "options": [
+      "Zintegrować wynik testu z danymi klinicznymi i różnicować objawy lękowe z reakcją fizjologiczną oraz kontekstem substancyjnym",
+      "Przyjąć rozpoznanie zaburzenia lękowego wyłącznie na podstawie wyniku skali, bo standaryzacja eliminuje kontekst",
+      "Odrzucić wynik testu jako nieistotny, ponieważ wywiad zawsze ma wyższy priorytet",
+      "Powtórzyć wyłącznie tę samą skalę kilkukrotnie i pominąć inne źródła danych"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Wynik testu jest jednym źródłem informacji. Poprawna interpretacja wymaga integracji danych, różnicowania etiologii objawów i oceny kontekstu klinicznego."
+  },
+  {
+    "id": 82,
+    "question": "Który wskaźnik najbardziej zwiększa wiarygodność wniosku diagnostycznego o zaburzeniu neurorozwojowym u osoby dorosłej?",
+    "options": [
+      "Potwierdzenie podobnych trudności retrospektywnie od dzieciństwa w wielu środowiskach funkcjonowania",
+      "Jednorazowy wysoki wynik w jednej skali samoopisowej bez danych rozwojowych",
+      "Krótki epizod pogorszenia funkcjonowania po zmianie pracy",
+      "Wyłącznie pozytywna opinia jednej osoby bliskiej bez innych danych"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Dla zaburzeń neurorozwojowych kluczowa jest ciągłość objawów od wczesnych okresów rozwoju i ich obecność w różnych kontekstach życia."
+  },
+  {
+    "id": 83,
+    "question": "W opinii psychologicznej najbardziej problematyczne etycznie jest:",
+    "options": [
+      "Formułowanie kategorycznych wniosków wykraczających poza zakres zebranych danych",
+      "Jasne oddzielenie danych obserwacyjnych od interpretacji klinicznej",
+      "Wskazanie ograniczeń badania i alternatywnych wyjaśnień",
+      "Użycie języka zrozumiałego dla odbiorcy opinii"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Etyka opiniowania wymaga adekwatności twierdzeń do jakości danych. Nadmierna pewność przy ograniczonym materiale zwiększa ryzyko szkody decyzyjnej."
+  },
+  {
+    "id": 84,
+    "question": "Który wzorzec najbardziej pasuje do efektu „good test taker” (zawyżanie wyniku przez strategię testową, a nie realną kompetencję)?",
+    "options": [
+      "Wysokie wyniki w zadaniach wielokrotnego wyboru przy słabym transferze do zadań otwartych i sytuacji praktycznych",
+      "Spójnie wysokie wyniki w różnych formatach pomiaru oraz dobre funkcjonowanie w realnych zadaniach",
+      "Niskie wyniki testowe przy jednocześnie niskiej motywacji i wysokim poziomie zmęczenia",
+      "Szybkie, ale trafne odpowiedzi w warunkach ograniczonego czasu"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "„Good test taker” może wykorzystywać strategie egzaminacyjne bez adekwatnego opanowania umiejętności. Wtedy pojawia się rozjazd między testem a wykonaniem funkcjonalnym."
+  },
+  {
+    "id": 85,
+    "question": "W diagnozie różnicowej obniżonego nastroju najbardziej pomocne klinicznie jest:",
+    "options": [
+      "ocenienie czasu trwania, nasilenia, rytmu dobowego, anhedonii, myśli rezygnacyjnych i wpływu na funkcjonowanie",
+      "skupienie się wyłącznie na wyniku jednej skali depresji bez wywiadu",
+      "uznanie, że każdy spadek nastroju trwający ponad 48 godzin spełnia kryteria epizodu depresyjnego",
+      "pominięcie oceny czynników somatycznych i farmakologicznych, aby uniknąć „medykalizacji”"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Rzetelne różnicowanie wymaga oceny pełnego obrazu klinicznego, dynamiki objawów i ich konsekwencji funkcjonalnych oraz wykluczeń somatycznych."
+  },
+  {
+    "id": 86,
+    "question": "Który przykład najlepiej pokazuje błąd atrybucji podstawowej w interpretacji wyników diagnozy?",
+    "options": [
+      "Przypisanie trudności ucznia wyłącznie „lenistwu”, mimo danych o chronicznym stresie rodzinnym i przeciążeniu środowiskowym",
+      "Rozważenie wpływu cech osobowości i warunków sytuacyjnych jednocześnie",
+      "Włączenie informacji od nauczyciela, rodzica i samego ucznia przed wnioskowaniem",
+      "Odroczenie decyzji diagnostycznej do czasu uzyskania danych z obserwacji naturalnej"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Błąd atrybucji podstawowej polega na przecenianiu przyczyn dyspozycyjnych i niedoszacowaniu roli kontekstu sytuacyjnego."
+  },
+  {
+    "id": 87,
+    "question": "Najbardziej poprawna interpretacja wyniku poniżej normy w pojedynczej podskali testu to:",
+    "options": [
+      "Wniosek roboczy wymagający integracji z profilem całego badania, wiarygodnością wykonania i danymi funkcjonalnymi",
+      "Pewny dowód trwałego deficytu niezależnie od warunków badania",
+      "Podstawa do natychmiastowego rozpoznania zaburzenia bez dalszej diagnostyki",
+      "Informacja nieistotna klinicznie, którą należy pominąć w raporcie"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Pojedynczy wynik skrajny może wynikać z wielu czynników (zmęczenie, motywacja, kontekst zadania). Dlatego interpretacja powinna być profilowa i wieloźródłowa."
   }
 ]
