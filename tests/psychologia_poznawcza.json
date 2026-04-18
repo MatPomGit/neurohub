@@ -518,5 +518,265 @@
     "correct": 0,
     "difficulty": 2,
     "justification": "W obszarze psychologii poznawczej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+  },
+  {
+    "question": "W paradygmacie Posnera (cueing) krótszy czas reakcji po trafnej wskazówce pojawia się głównie dlatego, że:",
+    "options": [
+      "Wskazówka zwiększa pojemność pamięci roboczej",
+      "Uwaga jest wcześniej skierowana do oczekiwanej lokalizacji bodźca",
+      "Bodziec docelowy staje się fizycznie silniejszy",
+      "Uczestnik uczy się na pamięć kolejności prób"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "W zadaniu Posnera trafna wskazówka uprzednio orientuje zasoby uwagi przestrzennej, co skraca czas detekcji bodźca w danej lokalizacji.",
+    "id": 41
+  },
+  {
+    "question": "W modelu zasobów uwagi Kahnemana (1973) spadek wykonania przy dual-task wynika przede wszystkim z:",
+    "options": [
+      "Uszkodzenia pętli fonologicznej",
+      "Niezgodności modalności bodźców",
+      "Ograniczonej puli zasobów przetwarzania dzielonych między zadania",
+      "Braku motywacji badanych"
+    ],
+    "correct": 2,
+    "difficulty": 2,
+    "justification": "Model zasobowy zakłada jedną, ograniczoną pulę zasobów mentalnych; gdy dwa zadania konkurują o tę samą pulę, pojawia się koszt wykonania.",
+    "id": 42
+  },
+  {
+    "question": "Zgodnie z teorią obciążenia poznawczego (Sweller), aby ułatwić uczenie się nowej procedury, najlepiej:",
+    "options": [
+      "Prezentować jak najwięcej informacji jednocześnie",
+      "Redukować obciążenie zewnętrzne i segmentować materiał na mniejsze kroki",
+      "Usunąć przykłady i pozostawić wyłącznie zadania transferowe",
+      "Skupić się wyłącznie na pamięci mechanicznej"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Sweller odróżnia obciążenie istotne od zewnętrznego; ograniczanie obciążenia zewnętrznego i porcjowanie treści wspiera kodowanie schematów.",
+    "id": 43
+  },
+  {
+    "question": "Paradoks wiedzy eksperckiej (expertise reversal effect) oznacza, że:",
+    "options": [
+      "Eksperci zawsze uczą się wolniej od nowicjuszy",
+      "Techniki pomocne dla początkujących mogą być nieefektywne lub zbędne dla ekspertów",
+      "Eksperci mają gorszą pamięć długotrwałą",
+      "Poziom wiedzy nie wpływa na skuteczność instrukcji"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Efekt odwrócenia ekspertyzy pokazuje, że silne prowadzenie instruktażowe pomaga nowicjuszom, ale u ekspertów może zwiększać nadmiarowość i obciążenie.",
+    "id": 44
+  },
+  {
+    "question": "W teorii ACT-R produkcje (productions) pełnią funkcję:",
+    "options": [
+      "Magazynu pamięci epizodycznej",
+      "Reguł warunek–działanie sterujących wyborem operacji poznawczych",
+      "Mechanizmu tłumienia emocji",
+      "Sieci percepcji głębi"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "W ACT-R wiedza proceduralna ma formę reguł produkcyjnych typu if-then, które uruchamiają kolejne kroki przetwarzania.",
+    "id": 45
+  },
+  {
+    "question": "Który przykład najlepiej ilustruje błąd konfirmacji (confirmation bias)?",
+    "options": [
+      "Sprawdzanie zarówno argumentów za, jak i przeciw hipotezie",
+      "Wybieranie informacji potwierdzających własne przekonanie i pomijanie danych sprzecznych",
+      "Losowe generowanie hipotez alternatywnych",
+      "Wstrzymywanie oceny do czasu zebrania pełnych danych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Błąd konfirmacji polega na selektywnym wyszukiwaniu i interpretowaniu danych zgodnych z początkowym przekonaniem.",
+    "id": 46
+  },
+  {
+    "question": "W badaniach nad pamięcią prospektywną zadanie typu event-based polega na:",
+    "options": [
+      "Wykonaniu intencji o określonej godzinie",
+      "Wykonaniu intencji po pojawieniu się konkretnego bodźca/zdarzenia",
+      "Zapamiętaniu listy słów bez kontekstu",
+      "Odroczeniu działania do zakończenia dnia"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Pamięć prospektywna event-based jest wyzwalana przez sygnał środowiskowy, a nie przez sam upływ czasu.",
+    "id": 47
+  },
+  {
+    "question": "Efekt testowania (testing effect) oznacza, że:",
+    "options": [
+      "Samo ponowne czytanie materiału jest skuteczniejsze niż odtwarzanie",
+      "Aktywne wydobywanie informacji wzmacnia długoterminowe utrwalanie lepiej niż bierna ekspozycja",
+      "Testy działają tylko przy materiale obrazowym",
+      "Najlepsze efekty daje nauka bez przerw"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Regularne odtwarzanie treści (retrieval practice) wzmacnia ślad pamięciowy i ułatwia późniejsze przypominanie.",
+    "id": 48
+  },
+  {
+    "question": "W hipotezie znacznika somatycznego Damasio sygnały cielesne:",
+    "options": [
+      "Nie wpływają na decyzje poznawcze",
+      "Pełnią funkcję heurystycznych wskazówek, zawężając przestrzeń wyboru",
+      "Są istotne wyłącznie w decyzjach matematycznych",
+      "Dotyczą tylko pamięci proceduralnej"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Damasio postulował, że reakcje somatyczne sprzężone z wcześniejszym doświadczeniem wspierają szybkie szacowanie opłacalności opcji.",
+    "id": 49
+  },
+  {
+    "question": "Metapoznanie w uczeniu się najtrafniej opisuje:",
+    "options": [
+      "Automatyczne kodowanie bodźców sensorycznych",
+      "Monitorowanie i regulację własnych procesów poznawczych, np. planowanie strategii",
+      "Wyłącznie pamięć autobiograficzną",
+      "Zdolność do tłumienia odruchów pniowych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Metapoznanie obejmuje wiedzę o własnym poznaniu oraz kontrolę przebiegu uczenia się, np. dobór strategii i ocenę postępu.",
+    "id": 50
+  },
+  {
+    "question": "W klasycznym modelu Atkinsona i Shiffrina transfer informacji z pamięci krótkotrwałej do długotrwałej jest wspierany głównie przez:",
+    "options": [
+      "Habituację sensoryczną",
+      "Powtarzanie i elaborację materiału",
+      "Hamowanie lateralne",
+      "Samo upływanie czasu"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "W modelu modalnym utrzymanie i pogłębione opracowanie informacji zwiększa szansę trwałego zapisu w pamięci długotrwałej.",
+    "id": 51
+  },
+  {
+    "question": "Zjawisko attentional blink oznacza, że:",
+    "options": [
+      "Po wykryciu pierwszego celu drugi cel prezentowany krótko po nim bywa pomijany",
+      "Uwaga wzrokowa stale rośnie wraz z tempem prezentacji bodźców",
+      "Błyski światła poprawiają pamięć deklaratywną",
+      "Odruch mrugania zawsze zakłóca percepcję słuchową"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Attentional blink opisuje czasowe okno ograniczonej dostępności zasobów po przetworzeniu pierwszego celu w strumieniu bodźców.",
+    "id": 52
+  },
+  {
+    "question": "W badaniach nad rozwiązywaniem problemów efekt nastawienia (Einstellung effect) polega na:",
+    "options": [
+      "Ułatwieniu znalezienia nowej strategii po wielu niepowodzeniach",
+      "Skłonności do używania znanego schematu nawet gdy lepsze rozwiązanie jest dostępne",
+      "Losowym wyborze strategii niezależnie od doświadczenia",
+      "Braku wpływu wcześniejszej wiedzy na rozwiązanie zadania"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Efekt nastawienia poznawczego pokazuje, że wcześniejsze sukcesy mogą usztywniać strategie i utrudniać dostrzeżenie prostszej drogi.",
+    "id": 53
+  },
+  {
+    "question": "W teorii kodowania podwójnego Paivio materiał jest lepiej pamiętany, gdy:",
+    "options": [
+      "Kodowany jest tylko fonologicznie",
+      "Jest reprezentowany zarówno werbalnie, jak i obrazowo",
+      "Prezentowany jest wyłącznie podprogowo",
+      "Zawiera jak najmniej skojarzeń"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Kodowanie w dwóch systemach reprezentacji zwiększa liczbę wskazówek wydobycia i poprawia przypominanie.",
+    "id": 54
+  },
+  {
+    "question": "Błąd hazardzisty (gambler's fallacy) to przekonanie, że:",
+    "options": [
+      "Wyniki losowe są od siebie niezależne",
+      "Po serii jednego wyniku inny wynik jest należny",
+      "Prawdopodobieństwo nie zmienia się przy małych próbach",
+      "Dane statystyczne są bardziej wiarygodne niż intuicja"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Błąd hazardzisty wynika z mylnej intuicji reprezentatywności i oczekiwania krótkoterminowego wyrównania losowych sekwencji.",
+    "id": 55
+  },
+  {
+    "question": "W zadaniu flankerów Eriksenów wydłużenie czasu reakcji w warunku niezgodnym odzwierciedla głównie:",
+    "options": [
+      "Konflikt odpowiedzi i potrzebę hamowania dystraktorów",
+      "Deficyt percepcji barw",
+      "Utratę pamięci epizodycznej",
+      "Wyłącznie spadek motywacji"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Bodźce flankujące aktywują konkurencyjne reakcje, co zwiększa koszt kontroli poznawczej przy selekcji poprawnej odpowiedzi.",
+    "id": 56
+  },
+  {
+    "question": "Hipoteza desirable difficulties Bjorka sugeruje, że skuteczne uczenie długoterminowe wspiera:",
+    "options": [
+      "Usuwanie wszystkich trudności i maksymalna płynność przetwarzania",
+      "Wprowadzanie umiarkowanych utrudnień, np. przeplatania i odroczonego odtwarzania",
+      "Nauka wyłącznie tuż przed testem",
+      "Wyłącznie bierne słuchanie wykładu"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Umiarkowane, kontrolowane trudności zwiększają wysiłek poznawczy podczas kodowania i wydobycia, co poprawia trwałość śladów pamięciowych.",
+    "id": 57
+  },
+  {
+    "question": "W modelu pamięci roboczej zakłócenie artykulacyjne (articulatory suppression) najbardziej obniża wykonanie zadań zależnych od:",
+    "options": [
+      "Szkicownika wzrokowo-przestrzennego",
+      "Pętli fonologicznej",
+      "Bufora epizodycznego",
+      "Systemu limbicznego"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Powtarzanie nieistotnych sylab blokuje odświeżanie śladów werbalnych, przez co spada efektywność pętli fonologicznej.",
+    "id": 58
+  },
+  {
+    "question": "W teorii predykcyjnego przetwarzania (predictive processing) błąd predykcji to:",
+    "options": [
+      "Różnica między oczekiwanym sygnałem a napływającym wejściem sensorycznym",
+      "Każdy błąd poznawczy wynikający ze zmęczenia",
+      "Niezdolność do tworzenia pamięci autobiograficznej",
+      "Zakłócenie przewodnictwa w nerwach obwodowych"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Modele predykcyjne zakładają, że mózg minimalizuje różnicę między przewidywaniami a sygnałem wejściowym poprzez aktualizację modelu świata.",
+    "id": 59
+  },
+  {
+    "question": "Zadania N-back są najczęściej wykorzystywane do oceny:",
+    "options": [
+      "Pamięci proceduralnej",
+      "Aktualizacji informacji w pamięci roboczej i kontroli wykonawczej",
+      "Wyłącznie inteligencji krystalicznej",
+      "Percepcji bólu"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "N-back wymaga ciągłego monitorowania sekwencji oraz aktualizowania reprezentacji, dlatego obciąża pamięć roboczą i procesy wykonawcze.",
+    "id": 60
   }
 ]

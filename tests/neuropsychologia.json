@@ -518,5 +518,265 @@
     "correct": 0,
     "difficulty": 2,
     "justification": "W obszarze neuropsychologii rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+  },
+  {
+    "question": "W teście Wisconsin Card Sorting Test (WCST) wzrost liczby błędów perseweracyjnych najczęściej wskazuje na:",
+    "options": [
+      "Izolowany deficyt pamięci epizodycznej",
+      "Trudność zmiany reguły i osłabienie elastyczności poznawczej związane z dysfunkcją czołową",
+      "Pierwotne zaburzenie ostrości wzroku",
+      "Uszkodzenie móżdżku bez wpływu na funkcje wykonawcze"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Perseweracje w WCST odzwierciedlają trudność porzucenia nieaktualnej zasady i są klasycznie łączone z dysfunkcją obwodów czołowo-prążkowiowych.",
+    "id": 41
+  },
+  {
+    "question": "Profil: płynna mowa, liczne parafazje, słabe rozumienie i brak świadomości błędów sugeruje przede wszystkim:",
+    "options": [
+      "Afazję Broki",
+      "Afazję Wernickego",
+      "Dyzartrię opuszkową",
+      "Mutyzm akinetyczny"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Afazja Wernickego zwykle przebiega z płynną, ale mało informacyjną mową i wyraźnie osłabionym rozumieniem języka.",
+    "id": 42
+  },
+  {
+    "question": "Zespół Balinta po obustronnym uszkodzeniu okolic ciemieniowo-potylicznych obejmuje typowo:",
+    "options": [
+      "Apraksję ideomotoryczną i echolalię",
+      "Ataksję wzrokową, symultagnozję i apraksję spojrzenia",
+      "Amnezję następczą i konfabulacje",
+      "Afonię i agrafię"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Triada Balinta to trudność kierowania spojrzenia, zaburzenie sięgania pod kontrolą wzroku i niemożność jednoczesnego ujmowania wielu elementów sceny.",
+    "id": 43
+  },
+  {
+    "question": "W teście Rey-Osterrieth Complex Figure opóźnione odtwarzanie ocenia głównie:",
+    "options": [
+      "Pamięć wzrokowo-przestrzenną i organizację materiału",
+      "Wyłącznie praksję oralną",
+      "Przetwarzanie słuchowo-werbalne",
+      "Nasilenie objawów depresyjnych"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Figura Reya pozwala ocenić strategię kopiowania oraz późniejsze odtwarzanie, co dostarcza danych o pamięci niewerbalnej i funkcjach wykonawczych.",
+    "id": 44
+  },
+  {
+    "question": "Podwójna dysocjacja w neuropsychologii poznawczej jest szczególnie cenna, ponieważ:",
+    "options": [
+      "Eliminuje potrzebę badań obrazowych",
+      "Wspiera wniosek o względnej niezależności dwóch procesów/funkcji",
+      "Dowodzi, że wszystkie funkcje są rozproszone",
+      "Potwierdza brak plastyczności mózgu"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Gdy pacjent A ma deficyt funkcji X przy zachowanej Y, a pacjent B odwrotnie, zwiększa to siłę argumentu o odrębnych mechanizmach funkcjonalnych.",
+    "id": 45
+  },
+  {
+    "question": "W chorobie Parkinsona dominujące trudności poznawcze dotyczą zwykle:",
+    "options": [
+      "Wczesnej ciężkiej afazji czuciowej",
+      "Spowolnienia przetwarzania i funkcji wykonawczych (fronto-subcortical profile)",
+      "Izolowanej utraty pamięci semantycznej",
+      "Pierwotnych agnozji wzrokowych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Profil poznawczy PD często obejmuje bradyfrenię, osłabienie set-shiftingu i hamowania, co wiąże się z dysfunkcją obwodów czołowo-podkorowych.",
+    "id": 46
+  },
+  {
+    "question": "Który objaw najlepiej odpowiada apraksji ideomotorycznej?",
+    "options": [
+      "Niemożność rozpoznawania przedmiotów wzrokiem",
+      "Trudność wykonania wyuczonego gestu na polecenie mimo zachowanej siły i rozumienia",
+      "Całkowity brak ruchu dowolnego kończyny",
+      "Utrata czucia bólu i temperatury"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "W apraksji ideomotorycznej pacjent rozumie zadanie i ma zachowaną sprawność ruchową, ale nie potrafi prawidłowo zorganizować gestu celowego.",
+    "id": 47
+  },
+  {
+    "question": "Wariant behawioralny otępienia czołowo-skroniowego (bvFTD) najczęściej rozpoczyna się od:",
+    "options": [
+      "Dominującej amnezji epizodycznej jak w typowym AD",
+      "Wczesnych zmian osobowości, odhamowania i osłabienia kontroli społecznej",
+      "Nagłej ślepoty korowej",
+      "Drgawek uogólnionych jako głównego objawu"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "W bvFTD wcześnie pojawiają się zmiany zachowania i funkcji wykonawczych, podczas gdy pamięć epizodyczna bywa relatywnie lepiej zachowana na początku choroby.",
+    "id": 48
+  },
+  {
+    "question": "Konfabulacje po uszkodzeniu struktur czołowo-podstawnych są rozumiane jako:",
+    "options": [
+      "Świadome kłamstwo w celu manipulacji",
+      "Niezamierzone, błędne wypełnianie luk pamięciowych przy osłabionej kontroli źródła informacji",
+      "Typowy objaw izolowanej agnozji słuchowej",
+      "Skutek wyłącznie zaburzeń widzenia"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Konfabulacje zwykle wynikają z deficytu monitorowania źródła wspomnień i kontroli wykonawczej, a nie z intencjonalnego wprowadzania w błąd.",
+    "id": 49
+  },
+  {
+    "question": "Najbardziej trafna interpretacja wyniku MoCA poniżej punktu odcięcia to:",
+    "options": [
+      "Pewne rozpoznanie konkretnej choroby neurodegeneracyjnej",
+      "Sygnał przesiewowy wymagający pogłębionej diagnozy klinicznej i neuropsychologicznej",
+      "Dowód wyłącznie zaburzeń nastroju",
+      "Brak znaczenia diagnostycznego"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "MoCA jest narzędziem przesiewowym; wynik obniżony wskazuje na potrzebę dalszej, wielowymiarowej oceny, a nie samodzielne rozpoznanie etiologii.",
+    "id": 50
+  },
+  {
+    "question": "Wzorzec ciężkich trudności w uczeniu się nowego materiału przy względnie zachowanej pamięci odległej najbardziej sugeruje:",
+    "options": [
+      "Uszkodzenie przyśrodkowych struktur skroniowych",
+      "Izolowaną neuropatię obwodową",
+      "Uszkodzenie móżdżku bez wpływu na pamięć",
+      "Pierwotną afazję motoryczną"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Profil ten jest typowy dla dysfunkcji układu hipokampalnego odpowiedzialnego za kodowanie nowych śladów pamięci deklaratywnej.",
+    "id": 51
+  },
+  {
+    "question": "Objaw anozognozji po udarze prawej półkuli oznacza najczęściej:",
+    "options": [
+      "Nasilony lęk przed badaniem neuropsychologicznym",
+      "Brak świadomości własnych deficytów neurologicznych",
+      "Utratę zdolności pisania przy zachowanym czytaniu",
+      "Przemijające zawroty głowy"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Anozognozja to zaburzenie wglądu, w którym pacjent nie rozpoznaje lub zaniża własne ograniczenia wynikające z uszkodzenia mózgu.",
+    "id": 52
+  },
+  {
+    "question": "W chorobie Alzheimera najbardziej typowy wczesny profil poznawczy obejmuje:",
+    "options": [
+      "Dominujące zaburzenia praksji przy zachowanej pamięci epizodycznej",
+      "Deficyty świeżej pamięci epizodycznej i uczenia się nowych informacji",
+      "Izolowane trudności motoryczne bez zmian pamięci",
+      "Głównie zaburzenia pola widzenia"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "We wczesnym AD zwykle dominują trudności kodowania i wydobycia nowego materiału epizodycznego związane z patologią przyśrodkowych płatów skroniowych.",
+    "id": 53
+  },
+  {
+    "question": "W podejrzeniu symulacji deficytów poznawczych testy trafności wykonania (PVT) służą do:",
+    "options": [
+      "Oceny ciśnienia śródczaszkowego",
+      "Sprawdzenia wiarygodności zaangażowania i wysiłku podczas badania",
+      "Diagnozy rodzaju afazji na podstawie EEG",
+      "Pomiaru szybkości przewodnictwa nerwowego"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "PVT pomagają ocenić, czy wynik odzwierciedla rzeczywiste możliwości, czy jest zniekształcony przez niski wysiłek lub celowe zaniżanie.",
+    "id": 54
+  },
+  {
+    "question": "Uszkodzenie pęczka łukowatego (arcuate fasciculus) klasycznie wiąże się z:",
+    "options": [
+      "Afazją przewodzenia i nasilonymi trudnościami powtarzania",
+      "Ślepotą korową",
+      "Mutyzmem akinetycznym",
+      "Zespołem Balinta"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Pęczek łukowaty łączy obszary językowe tylne i przednie, a jego uszkodzenie często skutkuje afazją przewodzenia z zaburzeniem powtarzania.",
+    "id": 55
+  },
+  {
+    "question": "W urazowym uszkodzeniu mózgu (TBI) z uszkodzeniem aksonalnym częsty profil obejmuje:",
+    "options": [
+      "Wyłącznie zaburzenia słuchu obwodowego",
+      "Spowolnienie przetwarzania, osłabienie uwagi i funkcji wykonawczych",
+      "Izolowaną utratę rozpoznawania twarzy",
+      "Brak jakichkolwiek zmian poznawczych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Rozlane uszkodzenie aksonalne często zakłóca integrację sieci mózgowych, co przekłada się na wolniejsze tempo przetwarzania i trudności wykonawcze.",
+    "id": 56
+  },
+  {
+    "question": "Który zestaw objawów najbardziej odpowiada triadzie wodogłowia normotensyjnego (NPH)?",
+    "options": [
+      "Afazja, apraksja, agnozja",
+      "Zaburzenia chodu, pogorszenie funkcji poznawczych, nietrzymanie moczu",
+      "Drżenie spoczynkowe, sztywność, dyskinezy",
+      "Bóle głowy, fotofobia, sztywność karku"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Klasyczna triada NPH obejmuje zaburzenia chodu, objawy poznawcze o profilu podkorowym oraz problemy mikcyjne.",
+    "id": 57
+  },
+  {
+    "question": "W próbach fluencji słownej (fonemicznej i semantycznej) spadek wyników może wskazywać m.in. na:",
+    "options": [
+      "Deficyty funkcji językowych i wykonawczych",
+      "Wyłącznie zaburzenia słuchu",
+      "Wyłącznie uszkodzenie rdzenia kręgowego",
+      "Brak znaczenia klinicznego"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Fluencja wymaga zarówno dostępu leksykalnego, jak i strategii przeszukiwania oraz monitorowania odpowiedzi, dlatego jest czuła na dysfunkcje czołowo-skroniowe.",
+    "id": 58
+  },
+  {
+    "question": "Apraksja konstrukcyjna najczęściej ujawnia się jako:",
+    "options": [
+      "Trudność odwzorowywania figur i relacji przestrzennych",
+      "Niemożność rozpoznawania twarzy",
+      "Całkowita utrata rozumienia mowy",
+      "Wyłącznie spadek siły mięśniowej"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "W apraksji konstrukcyjnej pacjent ma problem z organizacją przestrzenną podczas rysowania lub składania wzorów mimo braku ciężkiego niedowładu.",
+    "id": 59
+  },
+  {
+    "question": "W monitorowaniu zmian poznawczych po neurorehabilitacji najbardziej trafne podejście to:",
+    "options": [
+      "Ocena wyłącznie jednego wyniku globalnego bez kontekstu",
+      "Łączenie powtarzanych pomiarów testowych, obserwacji funkcjonalnej i danych od bliskich",
+      "Poleganie tylko na subiektywnym wrażeniu klinicysty",
+      "Rezygnacja z oceny przy pierwszej poprawie"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Rzetelna ewaluacja efektów rehabilitacji wymaga triangulacji danych: testów, funkcjonowania codziennego oraz informacji środowiskowych.",
+    "id": 60
   }
 ]
