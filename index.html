@@ -324,6 +324,11 @@ em{color:var(--goldl)}
 .ttest-section{margin-bottom:1.6rem}
 .ttest-section-title{font-size:.7rem;text-transform:uppercase;letter-spacing:.14em;color:var(--t3);font-weight:700;margin-bottom:.75rem}
 .ttest-topic-list{display:grid;gap:.55rem}
+.ttest-category-block{margin-bottom:1rem;padding:1rem 1rem .9rem;border:1px solid var(--border);border-radius:var(--r);background:var(--bg2)}
+.ttest-category-block:last-child{margin-bottom:0}
+.ttest-category-block.active{border-color:var(--gold);box-shadow:0 0 0 1px rgba(201,162,39,.2) inset}
+.ttest-category-title{font-size:.8rem;font-weight:700;color:var(--t1);margin-bottom:.25rem}
+.ttest-category-desc{font-size:.78rem;color:var(--t3);line-height:1.45;margin-bottom:.7rem}
 .ttest-topic-btn{background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);color:var(--t2);text-align:left;padding:.75rem 1rem;cursor:pointer;transition:all var(--ease);display:flex;align-items:center;gap:.65rem;font-size:.9rem}
 .ttest-topic-btn:hover{border-color:var(--gold);color:var(--t1)}
 .ttest-topic-btn.active{border-color:var(--gold);background:var(--goldt);color:var(--goldl)}
@@ -1179,6 +1184,56 @@ function isTheoreticalTestPageActive() {
   return Boolean(activeItem && activeItem.custom === 'theoretical_test');
 }
 
+/*
+ * Buduje zunifikowany katalog tematów niezależnie od tego,
+ * czy konfiguracja używa nowego podziału na kategorie, czy starego cfg.topics.
+ */
+function ttBuildTopicCatalog(cfg) {
+  const defaultMeta = {
+    theoretical: { label: 'Testy teoretyczne', description: 'Klasyczne testy przekrojowe z głównych obszarów psychologii.' },
+    specialization: { label: 'Specjalizacje i moduły rozszerzone', description: 'Zestawy przygotowujące do pracy w obszarach specjalistycznych.' },
+    clinical_vignettes: { label: 'Winiety kliniczne', description: 'Ćwiczenia na analizie przypadków i decyzjach diagnostycznych.' },
+    diploma_mock: { label: 'Egzamin dyplomowy — mock', description: 'Próbne testy sprawdzające gotowość do egzaminu dyplomowego.' }
+  };
+
+  const categoryMeta = Object.assign({}, defaultMeta, cfg.categoryMeta || {});
+  let categories = [];
+
+  if (cfg.categories && typeof cfg.categories === 'object') {
+    const preferredOrder = ['theoretical', 'specialization', 'clinical_vignettes', 'diploma_mock'];
+    const dynamicKeys = Object.keys(cfg.categories).filter(k => !preferredOrder.includes(k));
+    const orderedKeys = preferredOrder.filter(k => Array.isArray(cfg.categories[k])).concat(dynamicKeys);
+    categories = orderedKeys.map(key => {
+      const topics = Array.isArray(cfg.categories[key]) ? cfg.categories[key] : [];
+      return { key, meta: categoryMeta[key] || { label: key, description: '' }, topics };
+    }).filter(c => c.topics.length > 0);
+  }
+
+  /* Fallback kompatybilności wstecznej dla historycznej struktury cfg.topics. */
+  if (!categories.length && Array.isArray(cfg.topics) && cfg.topics.length > 0) {
+    categories = [{
+      key: 'theoretical',
+      meta: categoryMeta.theoretical || { label: 'Testy teoretyczne', description: '' },
+      topics: cfg.topics
+    }];
+  }
+
+  const topicByKey = new Map();
+  categories.forEach(cat => cat.topics.forEach(topic => topicByKey.set(topic.key, topic)));
+
+  const firstTopicKey = categories[0] && categories[0].topics[0] ? categories[0].topics[0].key : null;
+  return { categories, topicByKey, firstTopicKey };
+}
+
+/* Wyznacza kategorię dla presetTopic na podstawie mapowania lub realnej pozycji tematu. */
+function ttResolvePresetCategory(cfg, catalog, presetTopic) {
+  if (!presetTopic) return null;
+  const mappedCategory = cfg.presetTopicCategoryMap && cfg.presetTopicCategoryMap[presetTopic];
+  if (mappedCategory) return mappedCategory;
+  const owner = catalog.categories.find(cat => cat.topics.some(topic => topic.key === presetTopic));
+  return owner ? owner.key : null;
+}
+
 function renderTheoreticalTest(id, item) {
   const area = document.getElementById('content');
   setBreadcrumb(item);
@@ -1187,11 +1242,18 @@ function renderTheoreticalTest(id, item) {
     area.innerHTML = '<div class="error-box"><h2>Błąd ładowania modułu</h2><p>Nie udało się wczytać konfiguracji testów teoretycznych.</p></div>';
     return;
   }
+  const catalog = ttBuildTopicCatalog(cfg);
+  if (!catalog.firstTopicKey) {
+    area.innerHTML = '<div class="error-box"><h2>Brak dostępnych tematów</h2><p>Konfiguracja testów nie zawiera żadnych aktywnych zestawów pytań.</p></div>';
+    return;
+  }
+  const presetCategory = ttResolvePresetCategory(cfg, catalog, item.presetTopic);
   if (!theoreticalTestState) {
     theoreticalTestState = {
       phase: 'setup',
       /* Dla skrótów w menu "Dla studentów" ustawiamy domyślny temat modułu. */
-      topicKey: item.presetTopic || cfg.topics[0].key,
+      topicKey: item.presetTopic || catalog.firstTopicKey,
+      activeCategoryKey: presetCategory || (catalog.categories[0] && catalog.categories[0].key),
       length: 30,
       difficulty: 'normal',
       questions: [],
@@ -1206,14 +1268,33 @@ function renderTheoreticalTest(id, item) {
   if (st.phase === 'setup' && item.presetTopic && st.topicKey !== item.presetTopic) {
     st.topicKey = item.presetTopic;
   }
+  /* Podczas konfiguracji utrzymujemy aktywny blok kategorii zgodny z presetem. */
+  if (st.phase === 'setup' && presetCategory) {
+    st.activeCategoryKey = presetCategory;
+  }
   const heroTitle = item.label || 'Testy Teoretyczne';
   const heroLead = item.presetTopic
     ? 'Uruchom dedykowany test dla wybranego modułu i sprawdź wynik wraz z uzasadnieniami odpowiedzi.'
     : 'Sprawdź swoją wiedzę z wybranego zakresu psychologii. Odpowiedz na pytania zamknięte i sprawdź wynik.';
   if (st.phase === 'setup') {
-    const topicsHtml = cfg.topics.map(t => {
-      const active = t.key === st.topicKey ? ' active' : '';
-      return `<button class="ttest-topic-btn${active}" onclick="ttSetTopic('${t.key}')"><span class="ttest-topic-icon">${t.icon}</span>${t.label}</button>`;
+    /* Przenosi aktywną kategorię na początek listy, aby skróty prowadziły od razu do właściwej sekcji. */
+    const orderedCategories = [...catalog.categories].sort((a, b) => {
+      if (a.key === st.activeCategoryKey) return -1;
+      if (b.key === st.activeCategoryKey) return 1;
+      return 0;
+    });
+    const topicsHtml = orderedCategories.map(category => {
+      const meta = category.meta || {};
+      const categoryActive = category.key === st.activeCategoryKey ? ' active' : '';
+      const topicButtons = category.topics.map(topic => {
+        const active = topic.key === st.topicKey ? ' active' : '';
+        return `<button class="ttest-topic-btn${active}" onclick="ttSetTopic('${topic.key}')"><span class="ttest-topic-icon">${topic.icon || '📘'}</span>${topic.label}</button>`;
+      }).join('');
+      return `<section class="ttest-category-block${categoryActive}" data-category-key="${category.key}">
+        <div class="ttest-category-title">${meta.label || category.key}</div>
+        <div class="ttest-category-desc">${meta.description || ''}</div>
+        <div class="ttest-topic-list">${topicButtons}</div>
+      </section>`;
     }).join('');
     const lenOpts = [
       { v: 15, label: 'Krótki — 15 pytań' },
@@ -1233,7 +1314,7 @@ function renderTheoreticalTest(id, item) {
         <p class="lead">${heroLead}</p>
       </div>
       <div class="ttest-section">
-        <div class="ttest-section-title">Wybierz temat</div>
+        <div class="ttest-section-title">Wybierz temat i kategorię</div>
         <div class="ttest-topic-list">${topicsHtml}</div>
       </div>
       <div class="ttest-section">
@@ -1339,6 +1420,13 @@ function renderTheoreticalTest(id, item) {
 window.ttSetTopic = function(key) {
   if (!theoreticalTestState) return;
   theoreticalTestState.topicKey = key;
+  /* Aktualizuje aktywną kategorię, aby skróty i kliknięcia utrzymywały właściwy kontekst sekcji. */
+  const cfg = window.THEORETICAL_TEST;
+  if (cfg) {
+    const catalog = ttBuildTopicCatalog(cfg);
+    const ownerCategory = catalog.categories.find(category => category.topics.some(topic => topic.key === key));
+    if (ownerCategory) theoreticalTestState.activeCategoryKey = ownerCategory.key;
+  }
   if (isTheoreticalTestPageActive()) renderTheoreticalTest(current, pageMap.get(current));
 };
 
@@ -1358,7 +1446,8 @@ window.ttStart = async function() {
   const st = theoreticalTestState;
   if (!st) return;
   const cfg = window.THEORETICAL_TEST;
-  const topic = cfg && cfg.topics.find(t => t.key === st.topicKey);
+  const catalog = cfg ? ttBuildTopicCatalog(cfg) : null;
+  const topic = catalog ? catalog.topicByKey.get(st.topicKey) : null;
   if (!topic) return;
   try {
     const r = await fetch(topic.file);
