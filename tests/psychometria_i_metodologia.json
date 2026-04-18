@@ -596,5 +596,70 @@
     "difficulty": 2,
     "justification": "Przy silnej skośności średnia bywa mało reprezentatywna. Raportowanie mediany i miar odpornych zwiększa adekwatność interpretacji wyników.",
     "id": 46
+  },
+  {
+    "id": 47,
+    "question": "W analizie regresji wielokrotnej wysoki VIF dla predyktora najczęściej oznacza:",
+    "options": [
+      "problem współliniowości, który destabilizuje estymacje współczynników",
+      "silną trafność zbieżną narzędzia i brak potrzeby dalszej diagnostyki",
+      "naruszenie normalności reszt, ale bez wpływu na interpretację beta",
+      "automatycznie zbyt małą moc statystyczną całego modelu"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Wysoki VIF sygnalizuje nakładanie się informacji między predyktorami. Skutkiem może być duża niestabilność estymacji i trudna interpretacja wpływu pojedynczych zmiennych."
+  },
+  {
+    "id": 48,
+    "question": "Jeśli badacz porównuje 12 hipotez jednocześnie, najbardziej adekwatnym działaniem ograniczającym błąd I rodzaju będzie:",
+    "options": [
+      "ignorowanie korekt, jeśli każda hipoteza wynika z innej teorii",
+      "zastosowanie procedur kontroli wielokrotnych porównań (np. Holm, Benjamini–Hochberg)",
+      "obniżenie liczebności próby, aby zmniejszyć szansę wyników istotnych",
+      "raportowanie tylko trzech najmocniejszych efektów"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Wielokrotne testowanie zwiększa ryzyko fałszywie dodatnich wyników. Korekty pomagają kontrolować FWER lub FDR przy zachowaniu przejrzystości analiz."
+  },
+  {
+    "id": 49,
+    "question": "W badaniu randomizowanym największą wartością randomizacji jest to, że:",
+    "options": [
+      "gwarantuje identyczność wszystkich cech uczestników między grupami",
+      "eliminuje konieczność raportowania kryteriów włączenia i wyłączenia",
+      "zmniejsza ryzyko systematycznych różnic wyjściowych i wspiera wnioskowanie przyczynowe",
+      "zastępuje potrzebę analizy braków danych i dropoutów"
+    ],
+    "correct": 2,
+    "difficulty": 1,
+    "justification": "Randomizacja nie daje idealnej równowagi w każdym badaniu, ale statystycznie ogranicza bias selekcyjny i wzmacnia interpretację przyczynową efektu interwencji."
+  },
+  {
+    "id": 50,
+    "question": "Który opis najlepiej oddaje sens przedziału ufności 95% dla średniej?",
+    "options": [
+      "W konkretnym badaniu istnieje 95% szans, że prawdziwa średnia jest w tym przedziale",
+      "Gdyby powtarzać procedurę wielokrotnie, około 95% tak konstruowanych przedziałów obejmie parametr",
+      "Przedział obejmuje 95% indywidualnych wyników uczestników",
+      "Im węższy przedział, tym większa wartość p"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Klasyczna interpretacja CI odnosi się do własności procedury w długiej serii powtórzeń, a nie do probabilistycznej „szansy parametru” dla pojedynczego, już obliczonego przedziału."
+  },
+  {
+    "id": 51,
+    "question": "W raporcie efektu Cohen d = 0,55 najtrafniejsze uzupełnienie metodologiczne to:",
+    "options": [
+      "stwierdzenie, że efekt jest „duży” niezależnie od dziedziny i kontekstu praktycznego",
+      "podanie przedziału ufności dla wielkości efektu oraz odniesienie do znaczenia klinicznego/praktycznego",
+      "zastąpienie wielkości efektu samą wartością p, bo jest bardziej intuicyjna",
+      "pominięcie opisu mocy, bo wielkość efektu ją automatycznie implikuje"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Sama etykieta „mały/średni/duży” bywa niewystarczająca. Potrzebny jest kontekst dziedzinowy, niepewność oszacowania i odniesienie do znaczenia praktycznego."
   }
 ]

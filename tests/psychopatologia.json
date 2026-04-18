@@ -596,5 +596,70 @@
     "difficulty": 1,
     "justification": "Model zakłada współdziałanie predyspozycji i stresorów, a nie prostą, jednoczynnikową przyczynowość zaburzeń.",
     "id": 46
+  },
+  {
+    "id": 47,
+    "question": "Który opis najlepiej oddaje różnicę między lękiem uogólnionym (GAD) a napadami paniki?",
+    "options": [
+      "GAD to krótkie epizody intensywnego lęku szczytujące w kilka minut, a panika to przewlekłe zamartwianie",
+      "GAD wiąże się z przewlekłym, trudnym do kontrolowania zamartwianiem, a panika z nagłymi epizodami silnego lęku i objawami somatycznymi",
+      "Oba obrazy kliniczne różnią się wyłącznie obecnością bezsenności",
+      "Napady paniki zawsze wymagają obecności agorafobii"
+    ],
+    "correct": 1,
+    "difficulty": 1,
+    "justification": "W GAD dominuje długotrwałe, rozlane zamartwianie, natomiast napad paniki ma charakter nagły i epizodyczny z nasilonym pobudzeniem fizjologicznym."
+  },
+  {
+    "id": 48,
+    "question": "W depresji nawracającej czynnik „ruminacji” jest klinicznie istotny, ponieważ:",
+    "options": [
+      "zawsze poprawia samoregulację emocjonalną przez pogłębioną analizę problemu",
+      "zwiększa koncentrację na negatywnych treściach i może podtrzymywać obniżony nastrój",
+      "jest równoznaczny z psychotyczną dezorganizacją myślenia",
+      "występuje wyłącznie przy współchorobowości z OCD"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Ruminacje utrwalają negatywne schematy i utrudniają przejście do aktywnego rozwiązywania problemów, co zwiększa ryzyko przedłużania epizodu depresyjnego."
+  },
+  {
+    "id": 49,
+    "question": "Który przykład najlepiej odpowiada mechanizmowi „safety behaviors” w zaburzeniach lękowych?",
+    "options": [
+      "Osoba stopniowo konfrontuje się z sytuacją lękową, pozostając w niej do spadku napięcia",
+      "Osoba unika kontaktu wzrokowego i stale trzyma butelkę wody, wierząc, że bez tego „na pewno zemdleje”",
+      "Osoba prowadzi dziennik emocji i monitoruje myśli automatyczne",
+      "Osoba zwiększa aktywność fizyczną, by poprawić rytm snu"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Zachowania zabezpieczające chwilowo obniżają lęk, ale utrwalają przekonanie o zagrożeniu i hamują korektywne uczenie w ekspozycji."
+  },
+  {
+    "id": 50,
+    "question": "W diagnostyce różnicowej objawów psychotycznych „wgląd” kliniczny jest ważny, bo:",
+    "options": [
+      "jego obecność automatycznie wyklucza jakiekolwiek zaburzenie psychiczne",
+      "pozwala ocenić stopień krytycyzmu wobec doświadczeń i wspiera planowanie interwencji",
+      "dotyczy tylko oceny funkcji intelektualnych i nie ma znaczenia terapeutycznego",
+      "jest wskaźnikiem stałym, niezależnym od fazy choroby"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Poziom wglądu wpływa na współpracę terapeutyczną, adherencję i wybór technik pracy. Nie jest to cecha stała i może się zmieniać w czasie."
+  },
+  {
+    "id": 51,
+    "question": "Które stwierdzenie najlepiej opisuje dysocjację w ujęciu klinicznym?",
+    "options": [
+      "To zawsze świadoma strategia manipulacyjna pacjenta w sytuacji stresu",
+      "To zjawisko obejmujące zakłócenia integracji świadomości, pamięci, tożsamości lub percepcji",
+      "To wyłącznie krótkotrwała utrata przytomności na tle neurologicznym",
+      "To objaw patognomoniczny schizofrenii"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Dysocjacja dotyczy przerwania integracji procesów psychicznych i może mieć różne nasilenie oraz manifestacje kliniczne, nie ograniczając się do jednego rozpoznania."
   }
 ]

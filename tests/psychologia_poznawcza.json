@@ -856,5 +856,70 @@
     "difficulty": 3,
     "justification": "Kontrola SOA i struktury bodźców pozwala osłabić automatyczne torowanie i lepiej rozdzielić komponenty strategiczne od automatycznych.",
     "id": 66
+  },
+  {
+    "id": 67,
+    "question": "Który wynik najlepiej wspiera tezę, że uczestnicy stosowali strategię „chunkingu” w zadaniu pamięci sekwencji?",
+    "options": [
+      "Spadek liczby błędów wyłącznie przy materiałach, które można grupować w znaczące jednostki",
+      "Jednakowy poziom wykonania dla sekwencji losowych i silnie zorganizowanych",
+      "Wzrost czasu reakcji bez zmian liczby poprawnych odtworzeń",
+      "Lepsze wyniki tylko u osób o wyższym nastroju w dniu badania"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Chunking zwiększa efektywność pamięci roboczej przez grupowanie elementów w większe, znaczące jednostki. Najsilniejszym wskaźnikiem jest przewaga dla materiału dającego się sensownie pogrupować."
+  },
+  {
+    "id": 68,
+    "question": "W modelach hamowania poznawczego efekt „negative priming” sugeruje, że bodziec wcześniej ignorowany:",
+    "options": [
+      "zostaje trwale usunięty z systemu i nie może już wpływać na kolejne decyzje",
+      "jest później przetwarzany szybciej, bo był już ekspozycyjnie oswojony",
+      "może wywołać koszt czasowy, gdy staje się celem reakcji w kolejnym kroku",
+      "działa wyłącznie w modalności wzrokowej, a nie słuchowej"
+    ],
+    "correct": 2,
+    "difficulty": 3,
+    "justification": "Negative priming interpretuje się jako ślad wcześniejszego hamowania dystraktora. Gdy dystraktor staje się celem, obserwujemy koszt przełączenia i opóźnienie reakcji."
+  },
+  {
+    "id": 69,
+    "question": "Najbardziej trafna interpretacja prawa Hicka-Hymana to stwierdzenie, że czas decyzji:",
+    "options": [
+      "rośnie wraz ze wzrostem niepewności wyboru i liczby sensownych alternatyw",
+      "zależy tylko od szybkości przewodzenia neuronalnego i jest niezależny od zadania",
+      "pozostaje stały, jeśli odpowiedzi mają identyczną długość ruchu",
+      "maleje liniowo wraz z każdą dodatkową opcją, bo rośnie pobudzenie"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Prawo Hicka-Hymana łączy czas reakcji z ilością informacji i liczbą możliwych decyzji. Im większa niepewność wyboru, tym dłuższe przetwarzanie decyzyjne."
+  },
+  {
+    "id": 70,
+    "question": "W zadaniach oceny wiarygodności wspomnień źródłowych (source monitoring) błąd monitorowania źródła polega na:",
+    "options": [
+      "niezdolności do przypominania treści epizodycznej przy zachowanej identyfikacji źródła",
+      "mylnym przypisaniu pochodzenia informacji, np. „czytałem” zamiast „sam pomyślałem”",
+      "zawyżaniu pewności tylko dla wspomnień emocjonalnie obojętnych",
+      "występowaniu wyłącznie po urazach neurologicznych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Source monitoring dotyczy rozróżniania, skąd pochodzi reprezentacja pamięciowa. Błąd pojawia się, gdy poprawna treść zostaje powiązana z niewłaściwym źródłem."
+  },
+  {
+    "id": 71,
+    "question": "Który wynik najlepiej świadczy o kompromisie szybkość–dokładność (speed–accuracy trade-off)?",
+    "options": [
+      "W warunku „odpowiadaj szybko” reakcje są krótsze, ale rośnie odsetek błędów",
+      "W obu warunkach czas reakcji i liczba błędów pozostają identyczne",
+      "W warunku „odpowiadaj dokładnie” maleje i czas reakcji, i liczba błędów",
+      "Wyniki różnią się wyłącznie między osobami, nie między instrukcjami"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Klasyczny kompromis oznacza, że priorytet szybkości zwykle pogarsza trafność odpowiedzi, a nacisk na dokładność podnosi koszt czasowy."
   }
 ]
