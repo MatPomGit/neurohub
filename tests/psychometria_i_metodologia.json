@@ -518,5 +518,83 @@
     "correct": 0,
     "difficulty": 3,
     "justification": "W obszarze psychometrii i metodologii rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+  },
+  {
+    "question": "Wysoka rzetelność testu (np. α = 0,92) przy niskiej trafności kryterialnej najlepiej sugeruje, że narzędzie:",
+    "options": [
+      "mierzy konstrukty w sposób spójny, ale prawdopodobnie nie ten konstrukt, który deklaruje",
+      "jest bezużyteczne, bo każda wartość alfa powyżej 0,90 oznacza redundancję pozycji",
+      "na pewno zyska trafność po zwiększeniu liczebności próby walidacyjnej",
+      "jest trafne treściowo, nawet jeśli nie koreluje z kryterium zewnętrznym"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Rzetelność odnosi się do spójności pomiaru, a trafność do adekwatności interpretacji. Test może konsekwentnie mierzyć coś innego niż zakładany konstrukt.",
+    "id": 41
+  },
+  {
+    "question": "Który opis najlepiej oddaje sens inwariancji pomiaru w analizie wielogrupowej CFA?",
+    "options": [
+      "To warunek, by wynik testu był niezależny od liczby osób badanych w każdej grupie",
+      "To założenie, że wszystkie grupy mają identyczne średnie na każdym wskaźniku",
+      "To wymóg porównywalności znaczenia pozycji i parametrów modelu między grupami",
+      "To technika usuwania pozycji o największej wariancji resztowej"
+    ],
+    "correct": 2,
+    "difficulty": 3,
+    "justification": "Inwariancja pomiaru pozwala interpretować różnice między grupami jako różnice konstruktu, a nie artefakty działania pozycji testowych.",
+    "id": 42
+  },
+  {
+    "question": "W badaniu podłużnym największym zagrożeniem dla trafności wewnętrznej przy braku grupy kontrolnej jest:",
+    "options": [
+      "efekt historii i dojrzewania, które mogą wyjaśniać zmianę niezależnie od interwencji",
+      "zbyt wysoka moc testu statystycznego, utrudniająca wykrywanie efektu",
+      "losowy brak danych, który zawsze zawyża wielkość efektu",
+      "stosowanie skali Likerta zamiast pytań otwartych"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Bez kontroli trudno oddzielić wpływ interwencji od zmian wynikających z czasu, wydarzeń zewnętrznych i naturalnego rozwoju badanych.",
+    "id": 43
+  },
+  {
+    "question": "W kontekście mocy statystycznej (power) najbardziej trafne jest stwierdzenie, że:",
+    "options": [
+      "moc rośnie wraz ze wzrostem poziomu alfa i spadkiem wielkości próby",
+      "moc to prawdopodobieństwo nieodrzucenia H0, gdy H0 jest prawdziwa",
+      "moc to prawdopodobieństwo wykrycia efektu, jeśli efekt rzeczywiście istnieje",
+      "moc zależy wyłącznie od rodzaju testu, a nie od wariancji i wielkości efektu"
+    ],
+    "correct": 2,
+    "difficulty": 1,
+    "justification": "Moc statystyczna opisuje szansę wykrycia realnego efektu i zależy m.in. od liczebności próby, wielkości efektu, wariancji oraz poziomu istotności.",
+    "id": 44
+  },
+  {
+    "question": "Które działanie najskuteczniej ogranicza p-hacking na etapie planowania badania?",
+    "options": [
+      "pre-rejestracja hipotez, planu analiz i kryteriów wykluczeń przed zebraniem danych",
+      "analizowanie danych partiami i zatrzymywanie zbierania po pierwszym istotnym wyniku",
+      "dodawanie wielu zmiennych kontrolnych bez uzasadnienia teoretycznego",
+      "raportowanie wyłącznie modeli, które osiągnęły poziom p < 0,05"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Pre-rejestracja ogranicza elastyczność decyzyjną po zobaczeniu danych i zwiększa przejrzystość procesu analitycznego.",
+    "id": 45
+  },
+  {
+    "question": "Jeśli rozkład wyników jest silnie skośny prawostronnie, a badacz raportuje średnią bez mediany, najtrafniejsza uwaga metodologiczna brzmi:",
+    "options": [
+      "to poprawne, bo średnia zawsze najlepiej reprezentuje tendencję centralną",
+      "warto uzupełnić raport o medianę i miary odporne, bo średnia może być zawyżana przez obserwacje skrajne",
+      "należy automatycznie usunąć 10% najwyższych wyników niezależnie od kontekstu",
+      "skośność rozkładu nie ma znaczenia, jeśli liczebność próby przekracza 30 osób"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Przy silnej skośności średnia bywa mało reprezentatywna. Raportowanie mediany i miar odpornych zwiększa adekwatność interpretacji wyników.",
+    "id": 46
   }
 ]

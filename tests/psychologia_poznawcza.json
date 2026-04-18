@@ -778,5 +778,83 @@
     "difficulty": 2,
     "justification": "N-back wymaga ciągłego monitorowania sekwencji oraz aktualizowania reprezentacji, dlatego obciąża pamięć roboczą i procesy wykonawcze.",
     "id": 60
+  },
+  {
+    "question": "Który scenariusz najlepiej ilustruje iluzję wiedzy (illusion of explanatory depth)?",
+    "options": [
+      "Student jest pewien, że rozumie działanie toalety ze spłuczką, ale przy próbie szczegółowego wyjaśnienia szybko odkrywa luki w rozumowaniu",
+      "Student myli pojęcia, bo pierwszy raz spotyka temat i od początku deklaruje, że go nie zna",
+      "Student popełnia literówki w notatkach mimo dobrej znajomości materiału",
+      "Student pamięta definicję słowa, ale nie pamięta nazwiska autora teorii"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Iluzja wiedzy polega na zawyżonej ocenie własnego rozumienia mechanizmów. Ujawnia się szczególnie wtedy, gdy trzeba przejść od intuicyjnego „wiem” do precyzyjnego wyjaśnienia krok po kroku.",
+    "id": 61
+  },
+  {
+    "question": "W badaniach nad metapamięcią zjawisko JOL (judgment of learning) pokazuje, że ludzie:",
+    "options": [
+      "trafnie przewidują przypominanie tylko wtedy, gdy uczą się materiału całkowicie nowego",
+      "często przeceniają trwałość pamięci, gdy materiał wydaje się płynny podczas nauki",
+      "nie potrafią formułować żadnych ocen dotyczących własnego uczenia się",
+      "zawsze zaniżają wyniki, jeśli uczą się metodą aktywnego odtwarzania"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "JOL bywa zniekształcone przez płynność przetwarzania: łatwość w chwili nauki może być błędnie interpretowana jako gwarancja trwałego zapamiętania.",
+    "id": 62
+  },
+  {
+    "question": "Która interpretacja najlepiej oddaje sens efektu testowania (testing effect)?",
+    "options": [
+      "Samo wielokrotne czytanie tej samej notatki jest zwykle równie skuteczne jak aktywne odtwarzanie",
+      "Krótki test po nauce obniża pamięć długotrwałą, bo zwiększa stres wykonaniowy",
+      "Aktywne wydobywanie informacji z pamięci wzmacnia późniejsze przypominanie bardziej niż bierna ekspozycja",
+      "Efekt działa wyłącznie dla pytań zamkniętych i zanika przy pytaniach otwartych"
+    ],
+    "correct": 2,
+    "difficulty": 2,
+    "justification": "Efekt testowania wskazuje, że sam akt odtwarzania jest procesem uczącym — poprawia dostępność śladu pamięciowego i organizację wiedzy.",
+    "id": 63
+  },
+  {
+    "question": "W paradygmacie dual-task najbardziej wiarygodnym wskaźnikiem współdzielenia zasobów poznawczych jest:",
+    "options": [
+      "brak jakiejkolwiek zmiany w jednym zadaniu przy jednoczesnym wzroście motywacji",
+      "spadek wykonania w obu zadaniach, gdy wymagają podobnych kodów lub procesów kontrolnych",
+      "lepszy wynik w zadaniu wtórnym dzięki efektowi rozgrzewki poznawczej",
+      "subiektywne poczucie trudności bez zmian w czasie reakcji i błędach"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Jeżeli dwa zadania konkurują o te same zasoby (np. werbalne lub wykonawcze), równoczesne wykonywanie zwykle generuje koszt podwójnego zadania.",
+    "id": 64
+  },
+  {
+    "question": "Czym w praktyce różni się ślepota na zmianę (change blindness) od ślepoty nieuwagowej (inattentional blindness)?",
+    "options": [
+      "Ślepota na zmianę dotyczy trudności wykrycia modyfikacji sceny, a ślepota nieuwagowa — przeoczenia nieoczekiwanego bodźca przy skupieniu na innym zadaniu",
+      "To dwa określenia dokładnie tego samego efektu, używane zamiennie w zależności od laboratorium",
+      "Ślepota na zmianę występuje tylko u osób starszych, a ślepota nieuwagowa tylko u dzieci",
+      "Ślepota nieuwagowa opisuje wyłącznie zaburzenia okulistyczne, niezwiązane z uwagą selektywną"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Oba zjawiska dotyczą ograniczeń uwagi, ale odnoszą się do różnych sytuacji eksperymentalnych: wykrywania zmian versus dostrzegania niespodziewanych obiektów.",
+    "id": 65
+  },
+  {
+    "question": "Jeśli badacz chce ograniczyć wpływ torowania semantycznego w zadaniu decyzji leksykalnej, najbardziej sensowne będzie:",
+    "options": [
+      "wydłużenie czasu między bodźcem torującym a docelowym oraz mieszanie relacji semantycznych i niesemantycznych",
+      "zastąpienie słów obrazkami bez zmiany instrukcji i wskaźników reakcji",
+      "użycie wyłącznie słów bardzo częstych, aby zwiększyć automatyzację odpowiedzi",
+      "prośba do uczestników, aby świadomie ignorowali znaczenie słów torujących"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Kontrola SOA i struktury bodźców pozwala osłabić automatyczne torowanie i lepiej rozdzielić komponenty strategiczne od automatycznych.",
+    "id": 66
   }
 ]

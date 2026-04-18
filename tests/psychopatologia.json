@@ -518,5 +518,83 @@
     "correct": 0,
     "difficulty": 2,
     "justification": "W obszarze psychopatologii rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+  },
+  {
+    "question": "Który opis najlepiej różnicuje urojenia od natrętnych myśli (obsesji)?",
+    "options": [
+      "Urojenia są zwykle ego-dystoniczne i rozpoznawane jako przesadne, a obsesje traktowane jako bezdyskusyjny fakt",
+      "Obsesje często są przeżywane jako własne, niechciane myśli, natomiast urojenia mają charakter sztywnego przekonania o wysokiej pewności",
+      "Oba zjawiska są klinicznie tożsame i różnią się tylko nasileniem lęku",
+      "Urojenia pojawiają się wyłącznie w schizofrenii, a obsesje wyłącznie w depresji"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Kluczowa jest relacja do treści: obsesje są intruzywne i zwykle częściowo krytycznie oceniane, a urojenia przyjmowane jako prawdziwe mimo dowodów przeciwnych.",
+    "id": 41
+  },
+  {
+    "question": "W diagnozie różnicowej epizodu maniakalnego najważniejsze jest uwzględnienie, czy objawy:",
+    "options": [
+      "utrzymują się przez minimum 24 godziny i zawsze przebiegają z omamami",
+      "są wtórne do substancji, choroby somatycznej lub leczenia farmakologicznego",
+      "występują wyłącznie rano i słabną po południu",
+      "dotyczą jedynie wzrostu energii bez zmian zachowania społecznego"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Objawy maniakalne mogą mieć etiologię wtórną (np. substancje, steroidy, schorzenia neurologiczne), co zmienia rozpoznanie i plan leczenia.",
+    "id": 42
+  },
+  {
+    "question": "Który wzorzec najbardziej pasuje do anhedonii jako objawu depresyjnego?",
+    "options": [
+      "Spadek odczuwania przyjemności i zainteresowania aktywnościami wcześniej satysfakcjonującymi",
+      "Nasilona potrzeba poszukiwania nowych bodźców i ryzyka",
+      "Wzrost reaktywności nagrody przy zachowanym nastroju podstawowym",
+      "Przemijające znudzenie po długim dniu pracy bez innych objawów"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Anhedonia to utrata zdolności czerpania przyjemności lub motywacji do aktywności, które wcześniej dawały satysfakcję.",
+    "id": 43
+  },
+  {
+    "question": "W PTSD zjawisko unikania poznawczo-behawioralnego pełni często funkcję:",
+    "options": [
+      "długoterminowego wygaszania lęku przez regularną ekspozycję na wspomnienia",
+      "krótkoterminowej redukcji napięcia, która paradoksalnie podtrzymuje objawy w dłuższej perspektywie",
+      "specyficznego markera uszkodzenia hipokampa, niezależnego od procesu uczenia",
+      "mechanizmu poprawiającego integrację autobiograficzną traumatycznych wspomnień"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Unikanie chwilowo obniża lęk, ale ogranicza korektywne uczenie i utrwala przekonanie o stałym zagrożeniu.",
+    "id": 44
+  },
+  {
+    "question": "Które stwierdzenie o objawach negatywnych w schizofrenii jest najbardziej trafne?",
+    "options": [
+      "To głównie objawy wytwórcze, takie jak omamy i urojenia",
+      "Obejmują m.in. spłycenie afektu, awolicję i alogię, wpływając na funkcjonowanie społeczne",
+      "Są zawsze skutkiem działań niepożądanych leków przeciwpsychotycznych",
+      "Nie mają znaczenia prognostycznego, bo z czasem samoistnie ustępują"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Objawy negatywne dotyczą ograniczenia ekspresji i motywacji oraz są silnie powiązane z długoterminowym funkcjonowaniem społecznym.",
+    "id": 45
+  },
+  {
+    "question": "W modelu podatność–stres (diathesis-stress) kluczowa teza brzmi, że zaburzenie psychiczne:",
+    "options": [
+      "wynika wyłącznie z predyspozycji genetycznej, a środowisko pełni rolę marginalną",
+      "pojawia się tylko po silnej traumie, niezależnie od indywidualnej podatności",
+      "jest efektem interakcji podatności biologiczno-psychologicznej i obciążeń środowiskowych",
+      "najlepiej wyjaśnia się pojedynczym czynnikiem dominującym"
+    ],
+    "correct": 2,
+    "difficulty": 1,
+    "justification": "Model zakłada współdziałanie predyspozycji i stresorów, a nie prostą, jednoczynnikową przyczynowość zaburzeń.",
+    "id": 46
   }
 ]
