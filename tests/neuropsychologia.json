@@ -778,5 +778,161 @@
     "difficulty": 2,
     "justification": "Rzetelna ewaluacja efektów rehabilitacji wymaga triangulacji danych: testów, funkcjonowania codziennego oraz informacji środowiskowych.",
     "id": 60
+  },
+  {
+    "id": 61,
+    "question": "Który profil deficytów najbardziej sugeruje uszkodzenie grzbietowo-bocznej kory przedczołowej (DLPFC)?",
+    "options": [
+      "Względnie zachowana pamięć rozpoznawcza przy wyraźnych trudnościach w planowaniu, przełączaniu reguł i monitorowaniu błędów",
+      "Izolowana utrata ostrości wzroku bez zmian w kontroli poznawczej",
+      "Dominujące zaburzenia rozpoznawania twarzy przy prawidłowym wykonaniu zadań wykonawczych",
+      "Pogorszenie węchu jako jedyny objaw neurokognitywny"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "DLPFC jest kluczowa dla kontroli wykonawczej: planowania, elastyczności poznawczej i monitorowania działań. Taki profil częściej wskazuje na dysfunkcję czołową niż deficyty percepcyjne."
+  },
+  {
+    "id": 62,
+    "question": "W teście Stroopa pacjent ma wyjątkowo dużo błędów intruzyjnych przy relatywnie dobrym tempie czytania słów. Najtrafniejsza interpretacja to:",
+    "options": [
+      "Przewaga deficytu hamowania reakcji automatycznej nad prostym spowolnieniem przetwarzania",
+      "Wyłącznie obniżona ostrość widzenia barw, bez komponentu wykonawczego",
+      "Prawdopodobny efekt symulacji, bo szybkie czytanie wyklucza deficyty czołowe",
+      "Czysty deficyt pamięci epizodycznej niezależny od uwagi selektywnej"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Wysoka liczba błędów konfliktowych przy zachowanym tempie podstawowym częściej sugeruje problem kontroli hamowania i selekcji odpowiedzi niż globalne spowolnienie."
+  },
+  {
+    "id": 63,
+    "question": "Który objaw najlepiej pasuje do zespołu pomijania stronnego (hemispatial neglect) po uszkodzeniu prawego płata ciemieniowego?",
+    "options": [
+      "Pacjent czyta tylko prawą połowę wyrazu i pomija elementy po lewej stronie kartki",
+      "Pacjent nie rozumie zdań złożonych gramatycznie przy prawidłowym skanowaniu przestrzeni",
+      "Pacjent myli dźwięki mowy, ale poprawnie odtwarza układ bodźców wzrokowych w przestrzeni",
+      "Pacjent zgłasza podwójne widzenie wyłącznie podczas szybkich ruchów gałek ocznych"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Neglect dotyczy zaburzonej alokacji uwagi przestrzennej, najczęściej dla strony przeciwnej do uszkodzenia. Klasyczne są pominięcia po lewej stronie."
+  },
+  {
+    "id": 64,
+    "question": "W różnicowaniu afazji Broki i Wernickego najbardziej charakterystyczna para cech to:",
+    "options": [
+      "Afazja Broki: mowa niepłynna z relatywnie lepszym rozumieniem; afazja Wernickego: mowa płynna z wyraźnie zaburzonym rozumieniem",
+      "Afazja Broki: mowa płynna z neologizmami; afazja Wernickego: mowa skandowana z dobrą autorefleksją błędów",
+      "Obie postacie afazji różnią się wyłącznie nasileniem anomii, bez różnic w rozumieniu",
+      "Afazja Broki i Wernickego są klinicznie nierozróżnialne bez badania EEG"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Klasyczny obraz obejmuje niepłynną, wysiłkową mowę przy afazji Broki oraz płynną, lecz często mało adekwatną mowę z deficytem rozumienia przy afazji Wernickego."
+  },
+  {
+    "id": 65,
+    "question": "Pacjent po urazie czołowym dobrze wykonuje pojedyncze polecenia, ale „gubi cel” w zadaniach wieloetapowych. Najbardziej trafne wyjaśnienie to:",
+    "options": [
+      "Deficyt pamięci prospektywnej i monitorowania sekwencji działań",
+      "Izolowany niedosłuch przewodzeniowy utrudniający odbiór instrukcji",
+      "Pierwotna agnozja wzrokowa dotycząca identyfikacji obiektów",
+      "Zaburzenie czucia głębokiego bez związku z funkcjami wykonawczymi"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "W zadaniach złożonych kluczowe są procesy wykonawcze: utrzymanie celu, aktualizacja planu i kontrola postępu. Ich osłabienie często ujawnia się po urazach czołowych."
+  },
+  {
+    "id": 66,
+    "question": "W baterii neuropsychologicznej istotna rozbieżność między słabym odtwarzaniem swobodnym a dobrym rozpoznawaniem materiału najczęściej wskazuje na:",
+    "options": [
+      "Trudności wydobywania informacji (retrieval) przy względnie zachowanym śladzie pamięciowym",
+      "Globalną amnezję z uszkodzeniem konsolidacji, w której rozpoznawanie też powinno być skrajnie niskie",
+      "Brak współpracy badanego, bo taki wzorzec jest neuropsychologicznie niemożliwy",
+      "Pierwotny deficyt praksji ideomotorycznej"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Lepsze rozpoznawanie niż odtwarzanie bywa typowe dla problemu z dostępem do informacji, a niekoniecznie z jej pierwotnym zakodowaniem."
+  },
+  {
+    "id": 67,
+    "question": "Który wynik najbardziej wspiera hipotezę spowolnienia psychomotorycznego, a nie wybiórczego deficytu hamowania?",
+    "options": [
+      "Podobne wydłużenie czasu reakcji w warunkach prostych i konfliktowych, przy umiarkowanie zachowanej dokładności",
+      "Prawidłowy czas reakcji w zadaniu prostym i gwałtowny wzrost błędów tylko w warunku konfliktowym",
+      "Lepsze wyniki w zadaniach z interferencją niż bez interferencji",
+      "Wysoka zmienność wyników wyłącznie między sesjami poranną i wieczorną"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Jeśli koszt dotyczy ogólnego tempa także w prostych warunkach, bardziej prawdopodobne jest globalne spowolnienie niż specyficzny deficyt hamowania."
+  },
+  {
+    "id": 68,
+    "question": "W ocenie funkcji poznawczych pacjenta dwujęzycznego najbardziej rzetelna praktyka to:",
+    "options": [
+      "Interpretacja wyników z uwzględnieniem historii językowej, dominacji języka i adekwatnych norm kulturowo-językowych",
+      "Użycie wyłącznie testów w języku klinicysty, bo tłumaczenie obniża standaryzację",
+      "Pomijanie testów językowych i opieranie się tylko na skali depresji",
+      "Przyjęcie, że dwujęzyczność automatycznie kompensuje każdy deficyt neurokognitywny"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Bez kontroli czynników językowo-kulturowych łatwo o fałszywe rozpoznania. Kontekst bilingwizmu jest kluczowy dla trafnej interpretacji profilu."
+  },
+  {
+    "id": 69,
+    "question": "Który opis najlepiej oddaje różnicę między apraksją ideacyjną a ideomotoryczną?",
+    "options": [
+      "Apraksja ideacyjna: zaburzona koncepcja sekwencji użycia przedmiotów; ideomotoryczna: trudność wykonania gestu na polecenie przy zachowanej idei działania",
+      "Apraksja ideacyjna dotyczy wyłącznie lewej ręki, a ideomotoryczna wyłącznie prawej",
+      "Obie apraksje wynikają wyłącznie z osłabienia siły mięśniowej",
+      "Apraksja ideomotoryczna oznacza utratę rozumienia mowy przy zachowanej motoryce"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Ideacyjna dotyczy organizacji samego aktu i sekwencji, ideomotoryczna — translacji intencji na poprawny wzorzec ruchu, zwłaszcza w naśladowaniu lub na polecenie."
+  },
+  {
+    "id": 70,
+    "question": "Pacjent po urazie twierdzi, że „wszystko widzi dobrze”, ale regularnie wpada na przedmioty po lewej stronie i neguje problem. Taki obraz najbardziej sugeruje:",
+    "options": [
+      "Współwystępowanie zaburzeń uwagi przestrzennej z anozognozją",
+      "Izolowaną krótkowzroczność niekorygowaną okularami",
+      "Wczesny etap otępienia czołowo-skroniowego bez komponentu przestrzennego",
+      "Wyłącznie zaburzenia lękowe związane z ruchem w przestrzeni"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Negowanie deficytu przy jednoczesnych objawach neglectu jest typowe dla anozognozji poudarowej i wymaga specyficznego planu rehabilitacji."
+  },
+  {
+    "id": 71,
+    "question": "W monitorowaniu neurorehabilitacji najbardziej wiarygodną oznaką realnej poprawy funkcjonalnej jest:",
+    "options": [
+      "Zbieżna poprawa w testach poznawczych, obserwacji zachowania i wskaźnikach codziennej samodzielności",
+      "Poprawa wyłącznie w jednym teście, który pacjent wykonywał już wielokrotnie",
+      "Spadek liczby skarg rodziny bez zmian w obiektywnych pomiarach",
+      "Przejściowy wzrost motywacji podczas jednej sesji treningowej"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Ocena efektu rehabilitacji powinna być wieloźródłowa i funkcjonalna. Sama poprawa test-retest nie zawsze oznacza transfer do codziennego funkcjonowania."
+  },
+  {
+    "id": 72,
+    "question": "Która sytuacja najlepiej ilustruje dyseksekutywny „capture error” w codziennym funkcjonowaniu?",
+    "options": [
+      "Osoba automatycznie wykonuje nawykową sekwencję (np. jedzie do dawnej pracy), mimo że zamierzała pojechać w nowe miejsce",
+      "Osoba zapomina nazwiska nowo poznanej osoby po kilku sekundach rozmowy",
+      "Osoba błędnie odczytuje pojedyncze słowo z powodu niedokorygowanej wady wzroku",
+      "Osoba odczuwa napięcie przed wystąpieniem publicznym"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Capture error to przejęcie kontroli przez silny nawyk przy osłabionym nadzorze wykonawczym nad bieżącym celem działania."
   }
 ]
