@@ -518,5 +518,135 @@
     "correct": 0,
     "difficulty": 2,
     "justification": "W obszarze neuropsychologii rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+  },
+  {
+    "question": "W teście Wisconsin Card Sorting Test (WCST) wzrost liczby błędów perseweracyjnych najczęściej wskazuje na:",
+    "options": [
+      "Izolowany deficyt pamięci epizodycznej",
+      "Trudność zmiany reguły i osłabienie elastyczności poznawczej związane z dysfunkcją czołową",
+      "Pierwotne zaburzenie ostrości wzroku",
+      "Uszkodzenie móżdżku bez wpływu na funkcje wykonawcze"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Perseweracje w WCST odzwierciedlają trudność porzucenia nieaktualnej zasady i są klasycznie łączone z dysfunkcją obwodów czołowo-prążkowiowych.",
+    "id": 41
+  },
+  {
+    "question": "Profil: płynna mowa, liczne parafazje, słabe rozumienie i brak świadomości błędów sugeruje przede wszystkim:",
+    "options": [
+      "Afazję Broki",
+      "Afazję Wernickego",
+      "Dyzartrię opuszkową",
+      "Mutyzm akinetyczny"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Afazja Wernickego zwykle przebiega z płynną, ale mało informacyjną mową i wyraźnie osłabionym rozumieniem języka.",
+    "id": 42
+  },
+  {
+    "question": "Zespół Balinta po obustronnym uszkodzeniu okolic ciemieniowo-potylicznych obejmuje typowo:",
+    "options": [
+      "Apraksję ideomotoryczną i echolalię",
+      "Ataksję wzrokową, symultagnozję i apraksję spojrzenia",
+      "Amnezję następczą i konfabulacje",
+      "Afonię i agrafię"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Triada Balinta to trudność kierowania spojrzenia, zaburzenie sięgania pod kontrolą wzroku i niemożność jednoczesnego ujmowania wielu elementów sceny.",
+    "id": 43
+  },
+  {
+    "question": "W teście Rey-Osterrieth Complex Figure opóźnione odtwarzanie ocenia głównie:",
+    "options": [
+      "Pamięć wzrokowo-przestrzenną i organizację materiału",
+      "Wyłącznie praksję oralną",
+      "Przetwarzanie słuchowo-werbalne",
+      "Nasilenie objawów depresyjnych"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Figura Reya pozwala ocenić strategię kopiowania oraz późniejsze odtwarzanie, co dostarcza danych o pamięci niewerbalnej i funkcjach wykonawczych.",
+    "id": 44
+  },
+  {
+    "question": "Podwójna dysocjacja w neuropsychologii poznawczej jest szczególnie cenna, ponieważ:",
+    "options": [
+      "Eliminuje potrzebę badań obrazowych",
+      "Wspiera wniosek o względnej niezależności dwóch procesów/funkcji",
+      "Dowodzi, że wszystkie funkcje są rozproszone",
+      "Potwierdza brak plastyczności mózgu"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Gdy pacjent A ma deficyt funkcji X przy zachowanej Y, a pacjent B odwrotnie, zwiększa to siłę argumentu o odrębnych mechanizmach funkcjonalnych.",
+    "id": 45
+  },
+  {
+    "question": "W chorobie Parkinsona dominujące trudności poznawcze dotyczą zwykle:",
+    "options": [
+      "Wczesnej ciężkiej afazji czuciowej",
+      "Spowolnienia przetwarzania i funkcji wykonawczych (fronto-subcortical profile)",
+      "Izolowanej utraty pamięci semantycznej",
+      "Pierwotnych agnozji wzrokowych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Profil poznawczy PD często obejmuje bradyfrenię, osłabienie set-shiftingu i hamowania, co wiąże się z dysfunkcją obwodów czołowo-podkorowych.",
+    "id": 46
+  },
+  {
+    "question": "Który objaw najlepiej odpowiada apraksji ideomotorycznej?",
+    "options": [
+      "Niemożność rozpoznawania przedmiotów wzrokiem",
+      "Trudność wykonania wyuczonego gestu na polecenie mimo zachowanej siły i rozumienia",
+      "Całkowity brak ruchu dowolnego kończyny",
+      "Utrata czucia bólu i temperatury"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "W apraksji ideomotorycznej pacjent rozumie zadanie i ma zachowaną sprawność ruchową, ale nie potrafi prawidłowo zorganizować gestu celowego.",
+    "id": 47
+  },
+  {
+    "question": "Wariant behawioralny otępienia czołowo-skroniowego (bvFTD) najczęściej rozpoczyna się od:",
+    "options": [
+      "Dominującej amnezji epizodycznej jak w typowym AD",
+      "Wczesnych zmian osobowości, odhamowania i osłabienia kontroli społecznej",
+      "Nagłej ślepoty korowej",
+      "Drgawek uogólnionych jako głównego objawu"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "W bvFTD wcześnie pojawiają się zmiany zachowania i funkcji wykonawczych, podczas gdy pamięć epizodyczna bywa relatywnie lepiej zachowana na początku choroby.",
+    "id": 48
+  },
+  {
+    "question": "Konfabulacje po uszkodzeniu struktur czołowo-podstawnych są rozumiane jako:",
+    "options": [
+      "Świadome kłamstwo w celu manipulacji",
+      "Niezamierzone, błędne wypełnianie luk pamięciowych przy osłabionej kontroli źródła informacji",
+      "Typowy objaw izolowanej agnozji słuchowej",
+      "Skutek wyłącznie zaburzeń widzenia"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Konfabulacje zwykle wynikają z deficytu monitorowania źródła wspomnień i kontroli wykonawczej, a nie z intencjonalnego wprowadzania w błąd.",
+    "id": 49
+  },
+  {
+    "question": "Najbardziej trafna interpretacja wyniku MoCA poniżej punktu odcięcia to:",
+    "options": [
+      "Pewne rozpoznanie konkretnej choroby neurodegeneracyjnej",
+      "Sygnał przesiewowy wymagający pogłębionej diagnozy klinicznej i neuropsychologicznej",
+      "Dowód wyłącznie zaburzeń nastroju",
+      "Brak znaczenia diagnostycznego"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "MoCA jest narzędziem przesiewowym; wynik obniżony wskazuje na potrzebę dalszej, wielowymiarowej oceny, a nie samodzielne rozpoznanie etiologii.",
+    "id": 50
   }
 ]

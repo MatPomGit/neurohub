@@ -518,5 +518,135 @@
     "correct": 0,
     "difficulty": 2,
     "justification": "W obszarze psychologii poznawczej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+  },
+  {
+    "question": "W paradygmacie Posnera (cueing) krótszy czas reakcji po trafnej wskazówce pojawia się głównie dlatego, że:",
+    "options": [
+      "Wskazówka zwiększa pojemność pamięci roboczej",
+      "Uwaga jest wcześniej skierowana do oczekiwanej lokalizacji bodźca",
+      "Bodziec docelowy staje się fizycznie silniejszy",
+      "Uczestnik uczy się na pamięć kolejności prób"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "W zadaniu Posnera trafna wskazówka uprzednio orientuje zasoby uwagi przestrzennej, co skraca czas detekcji bodźca w danej lokalizacji.",
+    "id": 41
+  },
+  {
+    "question": "W modelu zasobów uwagi Kahnemana (1973) spadek wykonania przy dual-task wynika przede wszystkim z:",
+    "options": [
+      "Uszkodzenia pętli fonologicznej",
+      "Niezgodności modalności bodźców",
+      "Ograniczonej puli zasobów przetwarzania dzielonych między zadania",
+      "Braku motywacji badanych"
+    ],
+    "correct": 2,
+    "difficulty": 2,
+    "justification": "Model zasobowy zakłada jedną, ograniczoną pulę zasobów mentalnych; gdy dwa zadania konkurują o tę samą pulę, pojawia się koszt wykonania.",
+    "id": 42
+  },
+  {
+    "question": "Zgodnie z teorią obciążenia poznawczego (Sweller), aby ułatwić uczenie się nowej procedury, najlepiej:",
+    "options": [
+      "Prezentować jak najwięcej informacji jednocześnie",
+      "Redukować obciążenie zewnętrzne i segmentować materiał na mniejsze kroki",
+      "Usunąć przykłady i pozostawić wyłącznie zadania transferowe",
+      "Skupić się wyłącznie na pamięci mechanicznej"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Sweller odróżnia obciążenie istotne od zewnętrznego; ograniczanie obciążenia zewnętrznego i porcjowanie treści wspiera kodowanie schematów.",
+    "id": 43
+  },
+  {
+    "question": "Paradoks wiedzy eksperckiej (expertise reversal effect) oznacza, że:",
+    "options": [
+      "Eksperci zawsze uczą się wolniej od nowicjuszy",
+      "Techniki pomocne dla początkujących mogą być nieefektywne lub zbędne dla ekspertów",
+      "Eksperci mają gorszą pamięć długotrwałą",
+      "Poziom wiedzy nie wpływa na skuteczność instrukcji"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Efekt odwrócenia ekspertyzy pokazuje, że silne prowadzenie instruktażowe pomaga nowicjuszom, ale u ekspertów może zwiększać nadmiarowość i obciążenie.",
+    "id": 44
+  },
+  {
+    "question": "W teorii ACT-R produkcje (productions) pełnią funkcję:",
+    "options": [
+      "Magazynu pamięci epizodycznej",
+      "Reguł warunek–działanie sterujących wyborem operacji poznawczych",
+      "Mechanizmu tłumienia emocji",
+      "Sieci percepcji głębi"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "W ACT-R wiedza proceduralna ma formę reguł produkcyjnych typu if-then, które uruchamiają kolejne kroki przetwarzania.",
+    "id": 45
+  },
+  {
+    "question": "Który przykład najlepiej ilustruje błąd konfirmacji (confirmation bias)?",
+    "options": [
+      "Sprawdzanie zarówno argumentów za, jak i przeciw hipotezie",
+      "Wybieranie informacji potwierdzających własne przekonanie i pomijanie danych sprzecznych",
+      "Losowe generowanie hipotez alternatywnych",
+      "Wstrzymywanie oceny do czasu zebrania pełnych danych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Błąd konfirmacji polega na selektywnym wyszukiwaniu i interpretowaniu danych zgodnych z początkowym przekonaniem.",
+    "id": 46
+  },
+  {
+    "question": "W badaniach nad pamięcią prospektywną zadanie typu event-based polega na:",
+    "options": [
+      "Wykonaniu intencji o określonej godzinie",
+      "Wykonaniu intencji po pojawieniu się konkretnego bodźca/zdarzenia",
+      "Zapamiętaniu listy słów bez kontekstu",
+      "Odroczeniu działania do zakończenia dnia"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Pamięć prospektywna event-based jest wyzwalana przez sygnał środowiskowy, a nie przez sam upływ czasu.",
+    "id": 47
+  },
+  {
+    "question": "Efekt testowania (testing effect) oznacza, że:",
+    "options": [
+      "Samo ponowne czytanie materiału jest skuteczniejsze niż odtwarzanie",
+      "Aktywne wydobywanie informacji wzmacnia długoterminowe utrwalanie lepiej niż bierna ekspozycja",
+      "Testy działają tylko przy materiale obrazowym",
+      "Najlepsze efekty daje nauka bez przerw"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Regularne odtwarzanie treści (retrieval practice) wzmacnia ślad pamięciowy i ułatwia późniejsze przypominanie.",
+    "id": 48
+  },
+  {
+    "question": "W hipotezie znacznika somatycznego Damasio sygnały cielesne:",
+    "options": [
+      "Nie wpływają na decyzje poznawcze",
+      "Pełnią funkcję heurystycznych wskazówek, zawężając przestrzeń wyboru",
+      "Są istotne wyłącznie w decyzjach matematycznych",
+      "Dotyczą tylko pamięci proceduralnej"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Damasio postulował, że reakcje somatyczne sprzężone z wcześniejszym doświadczeniem wspierają szybkie szacowanie opłacalności opcji.",
+    "id": 49
+  },
+  {
+    "question": "Metapoznanie w uczeniu się najtrafniej opisuje:",
+    "options": [
+      "Automatyczne kodowanie bodźców sensorycznych",
+      "Monitorowanie i regulację własnych procesów poznawczych, np. planowanie strategii",
+      "Wyłącznie pamięć autobiograficzną",
+      "Zdolność do tłumienia odruchów pniowych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Metapoznanie obejmuje wiedzę o własnym poznaniu oraz kontrolę przebiegu uczenia się, np. dobór strategii i ocenę postępu.",
+    "id": 50
   }
 ]
