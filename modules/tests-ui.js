@@ -44,7 +44,7 @@ function renderSpecializationTest(id, item) {
     </div>
   `).join('');
   const options = question.options.map((opt, oIdx) => {
-    const selected = testAnswers[testCurrentIndex] === oIdx ? 'sel' : '';
+    const selected = testAnswers[testCurrentIndex] === oIdx ? 'is-active' : '';
     return `<button class="test-opt ${selected}" aria-pressed="${selected ? 'true' : 'false'}" onclick="selectTestAnswer(${testCurrentIndex},${oIdx})">
       <span class="test-opt-id">${oIdx + 1}.</span>
       <span>${opt.text}</span>
@@ -305,8 +305,8 @@ function renderTestZoneBanner() {
 function renderQuestionPager(total, currentIndex, answers, onClickName) {
   return `<div class="ttest-pager">${
     Array.from({ length: total }, (_, idx) => {
-      const isActive = idx === currentIndex ? ' active' : '';
-      const answeredCls = answers[idx] === null || answers[idx] === undefined ? ' unanswered' : ' answered';
+      const isActive = idx === currentIndex ? ' is-active' : '';
+      const answeredCls = answers[idx] === null || answers[idx] === undefined ? ' is-unanswered' : ' is-answered';
       return `<button class="ttest-page-btn${isActive}${answeredCls}" onclick="${onClickName}(${idx})">${idx + 1}</button>`;
     }).join('')
   }</div>`;
@@ -366,9 +366,9 @@ function renderTheoreticalTest(id, item) {
     });
     const topicsHtml = orderedCategories.map(category => {
       const meta = category.meta || {};
-      const categoryActive = category.key === st.activeCategoryKey ? ' active' : '';
+      const categoryActive = category.key === st.activeCategoryKey ? ' is-active' : '';
       const topicButtons = category.topics.map(topic => {
-        const active = topic.key === st.topicKey ? ' active' : '';
+        const active = topic.key === st.topicKey ? ' is-active' : '';
         return `<button class="ttest-topic-btn${active}" onclick="ttSetTopic('${topic.key}')"><span class="ttest-topic-icon">${topic.icon || '📘'}</span>${topic.label}</button>`;
       }).join('');
       return `<section class="ttest-category-block${categoryActive}" data-category-key="${category.key}">
@@ -381,12 +381,12 @@ function renderTheoreticalTest(id, item) {
       { v: 15, label: 'Krótki — 15 pytań' },
       { v: 30, label: 'Domyślny — 30 pytań' },
       { v: 60, label: 'Długi — 60 pytań' }
-    ].map(o => `<button class="ttest-opt-btn${st.length === o.v ? ' active' : ''}" onclick="ttSetLength(${o.v})">${o.label}</button>`).join('');
+    ].map(o => `<button class="ttest-opt-btn${st.length === o.v ? ' is-active' : ''}" onclick="ttSetLength(${o.v})">${o.label}</button>`).join('');
     const diffOpts = [
       { v: 'easy',   label: 'Łatwy',    desc: '60% łatwych, 30% średnich, 10% trudnych' },
       { v: 'normal', label: 'Normalny', desc: '33% łatwych, 33% średnich, 33% trudnych' },
       { v: 'hard',   label: 'Trudny',   desc: '10% łatwych, 30% średnich, 60% trudnych' }
-    ].map(o => `<button class="ttest-opt-btn${st.difficulty === o.v ? ' active' : ''}" onclick="ttSetDiff('${o.v}')" title="${o.desc}">${o.label}</button>`).join('');
+    ].map(o => `<button class="ttest-opt-btn${st.difficulty === o.v ? ' is-active' : ''}" onclick="ttSetDiff('${o.v}')" title="${o.desc}">${o.label}</button>`).join('');
     const selDiffDesc = { easy: '60% łatwych pytań, 30% średnich, 10% trudnych', normal: '33% łatwych, 33% średnich, 33% trudnych', hard: '10% łatwych, 30% średnich, 60% trudnych' }[st.difficulty];
     area.innerHTML = `<div class="rendered ttest-wrap">
       <div class="page-hero">
@@ -422,7 +422,7 @@ function renderTheoreticalTest(id, item) {
     const q = st.questions[st.currentIndex];
     const letters = ['A', 'B', 'C', 'D'];
     const optHtml = q.options.map((opt, i) => {
-      const sel = st.answers[st.currentIndex] === i ? ' sel' : '';
+      const sel = st.answers[st.currentIndex] === i ? ' is-active' : '';
       return `<button class="ttest-ans-btn${sel}" onclick="ttSelectAnswer(${i})"><span class="ttest-ans-letter">${letters[i]}</span><span>${opt}</span></button>`;
     }).join('');
     const answered = st.answers.filter(a => a !== null).length;
@@ -482,12 +482,12 @@ function renderTheoreticalTest(id, item) {
     const reviewItems = st.questions.map((q, i) => {
       const userAns = st.answers[i];
       const isCorrect = userAns === q.correct;
-      const cls = isCorrect ? 'correct' : 'wrong';
+      const cls = isCorrect ? 'is-correct' : 'is-wrong';
       const userLabel = userAns !== null && userAns !== undefined ? `${letters[userAns]}. ${q.options[userAns]}` : '(brak odpowiedzi)';
       const corrLabel = `${letters[q.correct]}. ${q.options[q.correct]}`;
       const ansHtml = isCorrect
-        ? `<span class="correct-ans">✓ ${userLabel}</span>`
-        : `<span class="wrong-ans">${userLabel}</span> → <span class="correct-ans">✓ ${corrLabel}</span>`;
+        ? `<span class="is-correct-ans">✓ ${userLabel}</span>`
+        : `<span class="is-wrong-ans">${userLabel}</span> → <span class="is-correct-ans">✓ ${corrLabel}</span>`;
       const justHtml = q.justification ? `<div class="ttest-review-just">${q.justification}</div>` : '';
       return { isCorrect, html: `<div class="ttest-review-item ${cls}">
         <div class="ttest-review-q">${i + 1}. ${q.question}</div>
