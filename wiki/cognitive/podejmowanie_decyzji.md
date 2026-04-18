@@ -62,3 +62,39 @@ Dawno odrzucono ideę, że emocje "zakłócają" racjonalne decyzje. Damasio's H
 **Efekt Bandwagon** — tendencja do dołączania do większości; wpływa na wybory polityczne, inwestycyjne, mody.
 
 > **Implikacja dla terapii i poradnictwa:** Świadomość błędów decyzyjnych jest pierwszym krokiem do ich mitygacji. CBT i terapia zorientowana na rozwiązania często angażują techniki dekonstrukcji błędnych heurystyk i pracy z mechanizmami emocjonalnego przetwarzania decyzji.
+
+## Neurokognitywne podłoże decyzji
+
+Współczesne badania neurokognitywne pokazują, że decyzje powstają w dynamicznej współpracy kilku sieci mózgowych:
+
+- **vmPFC/OFC** — integracja wartości i konsekwencji emocjonalnych,
+- **dlPFC** — kontrola poznawcza, planowanie i hamowanie impulsywności,
+- **ACC** — monitorowanie konfliktu i kosztu wysiłku,
+- **prążkowie** — uczenie przez nagrody i przewidywanie błędu nagrody.
+
+To tłumaczy, dlaczego decyzje są jednocześnie "racjonalne" i "emocjonalne" — oba systemy współtworzą ocenę opcji.
+
+## Kiedy intuicja pomaga, a kiedy szkodzi?
+
+**Intuicja** bywa bardzo skuteczna, gdy:
+- środowisko dostarcza szybkiej, wiarygodnej informacji zwrotnej,
+- osoba ma duże doświadczenie w podobnych zadaniach,
+- decyzja dotyczy rozpoznawania znanych wzorców.
+
+Intuicja częściej zawodzi, gdy:
+- problem jest nowy i wieloczynnikowy,
+- informacja zwrotna jest opóźniona lub niejednoznaczna,
+- sytuacja jest silnie nacechowana emocjonalnie i presją czasu.
+
+## Protokół "de-biasingu" (odstronnicowania) decyzji
+
+Krótka lista kontrolna przed ważną decyzją:
+
+1. **Jaka jest hipoteza alternatywna?**
+2. **Jakie są częstości bazowe dla podobnych przypadków?**
+3. **Co musiałoby się stać, żebym uznał(a), że się mylę?**
+4. **Czy zmiana ramy (zysk/strata) zmienia mój wybór?**
+5. **Czy niezależna osoba doszłaby do tego samego wniosku na tych samych danych?**
+
+> **Wniosek praktyczny:** Celem nie jest "wyłączenie" emocji, ale stworzenie procedury, która ogranicza wpływ przewidywalnych błędów poznawczych w decyzjach wysokiej stawki.
+
