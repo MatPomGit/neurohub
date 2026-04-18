@@ -3,10 +3,10 @@
     "id": 1,
     "question": "Które pytanie najlepiej oddaje zakres ontologii?",
     "options": [
-      "Jakie metody statystyczne są najbardziej trafne?",
+      "Jakie metody statystyczne są najbardziej trafne? rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Co istnieje i jakie są podstawowe kategorie bytu?",
-      "Jak mierzyć natężenie emocji w skali Likerta?",
-      "Jakie techniki relaksacyjne są najskuteczniejsze?"
+      "Jak mierzyć natężenie emocji w skali Likerta? w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Jakie techniki relaksacyjne są najskuteczniejsze? w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -16,10 +16,10 @@
     "id": 2,
     "question": "Klasyczna definicja wiedzy jako 'uzasadnionego prawdziwego przekonania' została zakwestionowana przez:",
     "options": [
-      "Immanuela Kanta",
-      "Arystotelesa",
+      "Immanuela Kanta w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Arystotelesa ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Edmunda Gettiera",
-      "Jeana Piageta"
+      "Jeana Piageta stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -29,10 +29,10 @@
     "id": 3,
     "question": "Racjonalizm w epistemologii zakłada przede wszystkim, że:",
     "options": [
-      "Cała wiedza pochodzi głównie z doświadczenia zmysłowego",
+      "Cała wiedza pochodzi głównie z doświadczenia zmysłowego stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Źródłem wiedzy jest przede wszystkim rozum, a część wiedzy ma charakter aprioryczny",
-      "Nie istnieje żadna pewna wiedza",
-      "Wiedza jest głównie konstruktem językowym"
+      "Nie istnieje żadna pewna wiedza ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Wiedza jest głównie konstruktem językowym stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -43,9 +43,9 @@
     "question": "Które stanowisko wiąże się z tezą, że wiedza pochodzi z doświadczenia zmysłowego?",
     "options": [
       "Empiryzm",
-      "Idealizm obiektywny",
-      "Egzystencjalizm",
-      "Stoicyzm"
+      "Idealizm obiektywny w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Egzystencjalizm traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Stoicyzm w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -55,10 +55,10 @@
     "id": 5,
     "question": "Sceptycyzm filozoficzny najtrafniej opisuje stanowisko, które:",
     "options": [
-      "Bezwarunkowo akceptuje autorytet ekspertów",
+      "Bezwarunkowo akceptuje autorytet ekspertów traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Kwestionuje możliwość pewnej wiedzy lub zakres uzasadnienia przekonań",
-      "Redukuje etykę do biologii",
-      "Uznaje głównie dane ilościowe za sensowne"
+      "Redukuje etykę do biologii ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Uznaje głównie dane ilościowe za sensowne stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -69,9 +69,9 @@
     "question": "W filozofii nauki Popper wiąże naukowość teorii przede wszystkim z:",
     "options": [
       "Falsyfikowalnością",
-      "Liczbą cytowań",
-      "Popularnością społeczną",
-      "Zgodnością z intuicją badacza"
+      "Liczbą cytowań rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Popularnością społeczną w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Zgodnością z intuicją badacza rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -81,10 +81,10 @@
     "id": 7,
     "question": "Problem demarkacji dotyczy pytania:",
     "options": [
-      "Jak podzielić budżet grantowy między zespoły?",
+      "Jak podzielić budżet grantowy między zespoły? traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Jak odróżnić naukę od pseudonauki?",
-      "Jakie są etapy rozwoju moralnego?",
-      "Jak konstruować kwestionariusze osobowości?"
+      "Jakie są etapy rozwoju moralnego? w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Jak konstruować kwestionariusze osobowości? w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -94,10 +94,10 @@
     "id": 8,
     "question": "Które z poniższych najlepiej opisuje redukcjonizm w filozofii umysłu?",
     "options": [
-      "Tezę, że umysł jest w dużej mierze niezależny od mózgu",
+      "Tezę, że umysł jest w dużej mierze niezależny od mózgu w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Pogląd, że zjawiska psychiczne można wyjaśniać przez procesy niższego poziomu, np. neurobiologiczne",
-      "Założenie, że emocje są głównie społecznym konstruktem",
-      "Twierdzenie, że świadomość jest iluzją językową"
+      "Założenie, że emocje są głównie społecznym konstruktem w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Twierdzenie, że świadomość jest iluzją językową w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -108,9 +108,9 @@
     "question": "Dualizm Kartezjusza zakłada, że:",
     "options": [
       "Umysł i ciało są dwiema różnymi substancjami",
-      "Umysł to głównie funkcja języka",
-      "Wolna wola jest niemożliwa",
-      "Nie istnieją stany mentalne"
+      "Umysł to głównie funkcja języka ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Wolna wola jest niemożliwa w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Nie istnieją stany mentalne traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -120,10 +120,10 @@
     "id": 10,
     "question": "Która teza jest bliska kompatybilizmowi?",
     "options": [
-      "Determinizm i wolność są logicznie nie do pogodzenia",
+      "Determinizm i wolność są logicznie nie do pogodzenia stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Wolność jest możliwa nawet jeśli świat jest deterministyczny",
-      "Wolność wymaga losowości zdarzeń",
-      "Odpowiedzialność moralna jest często iluzją"
+      "Wolność wymaga losowości zdarzeń w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Odpowiedzialność moralna jest często iluzją traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -133,10 +133,10 @@
     "id": 11,
     "question": "Utylitaryzm w etyce ocenia działanie głównie przez:",
     "options": [
-      "Zgodność z obowiązkiem niezależnie od skutków",
+      "Zgodność z obowiązkiem niezależnie od skutków traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Skutki dla dobrostanu i bilansu korzyści/szkód",
-      "Intencję moralną podmiotu głównie",
-      "Zgodność z tradycją kulturową"
+      "Intencję moralną podmiotu głównie w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Zgodność z tradycją kulturową stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -146,10 +146,10 @@
     "id": 12,
     "question": "Deontologia Kanta akcentuje przede wszystkim:",
     "options": [
-      "Maksymalizację szczęścia większości",
+      "Maksymalizację szczęścia większości w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Obowiązek moralny i uniwersalizowalne zasady działania",
-      "Przystosowanie do norm lokalnej wspólnoty",
-      "Efektywność ekonomiczną decyzji"
+      "Przystosowanie do norm lokalnej wspólnoty traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Efektywność ekonomiczną decyzji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -160,9 +160,9 @@
     "question": "Etyka cnót koncentruje się głównie na:",
     "options": [
       "Charakterze i dyspozycjach moralnych osoby",
-      "Formalnych procedurach prawnych",
-      "Algorytmach podejmowania decyzji",
-      "Głównie konsekwencjach ekonomicznych"
+      "Formalnych procedurach prawnych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Algorytmach podejmowania decyzji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Głównie konsekwencjach ekonomicznych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -172,10 +172,10 @@
     "id": 14,
     "question": "W kontekście praktyki psychologicznej odpowiedzialność epistemiczna oznacza m.in.:",
     "options": [
-      "Utrzymywanie stałej diagnozy niezależnie od nowych danych",
+      "Utrzymywanie stałej diagnozy niezależnie od nowych danych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Dopasowywanie przekonań do jakości dowodów i jawne komunikowanie niepewności",
-      "Unikanie superwizji, by zachować autonomię",
-      "Stawianie mocnych tez na podstawie pojedynczego przypadku"
+      "Unikanie superwizji, by zachować autonomię w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Stawianie mocnych tez na podstawie pojedynczego przypadku w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -185,10 +185,10 @@
     "id": 15,
     "question": "Epistemiczna niesprawiedliwość (Fricker) dotyczy sytuacji, gdy:",
     "options": [
-      "Narzędzia diagnostyczne mają zbyt wiele pytań",
+      "Narzędzia diagnostyczne mają zbyt wiele pytań stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Niektórym osobom systematycznie odmawia się wiarygodności jako świadkom poznawczym",
-      "Badania nie przechodzą procedury prerejestracji",
-      "Psycholog nie publikuje wyników null"
+      "Badania nie przechodzą procedury prerejestracji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Psycholog nie publikuje wyników null w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -198,10 +198,10 @@
     "id": 16,
     "question": "Który przykład najlepiej ilustruje błąd konfirmacji?",
     "options": [
-      "Psycholog aktywnie szuka danych przeczących wstępnej hipotezie",
+      "Psycholog aktywnie szuka danych przeczących wstępnej hipotezie w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Badacz analizuje tylko wyniki zgodne z własną tezą i pomija dane sprzeczne",
-      "Terapeuta konsultuje przypadek na superwizji",
-      "Zespół wykonuje replikację badania"
+      "Terapeuta konsultuje przypadek na superwizji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Zespół wykonuje replikację badania traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -211,10 +211,10 @@
     "id": 17,
     "question": "Hermeneutyka jako nurt filozoficzny skupia się przede wszystkim na:",
     "options": [
-      "Pomiarze EEG i fMRI",
+      "Pomiarze EEG i fMRI w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Interpretacji znaczeń, tekstu i kontekstu rozumienia",
-      "Matematycznej formalizacji logiki modalnej",
-      "Eksperymentalnej analizie percepcji wzrokowej"
+      "Matematycznej formalizacji logiki modalnej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Eksperymentalnej analizie percepcji wzrokowej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -225,9 +225,9 @@
     "question": "Fenomenologia w najprostszym ujęciu koncentruje się na:",
     "options": [
       "Opisie struktury przeżywanego doświadczenia z perspektywy pierwszoosobowej",
-      "Weryfikacji hipotez głównie metodą randomizowanych badań klinicznych",
-      "Budowie modeli neuronowych świadomości bez odniesienia do doświadczenia",
-      "Normatywnych kodeksach zachowania zawodowego"
+      "Weryfikacji hipotez głównie metodą randomizowanych badań klinicznych stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Budowie modeli neuronowych świadomości bez odniesienia do doświadczenia ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Normatywnych kodeksach zachowania zawodowego stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -237,10 +237,10 @@
     "id": 19,
     "question": "Egzystencjalizm podkreśla, że człowiek:",
     "options": [
-      "Jest w dużej mierze wyznaczony przez biologiczne popędy",
+      "Jest w dużej mierze wyznaczony przez biologiczne popędy stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Jest wolny i współodpowiedzialny za nadawanie sensu własnemu życiu",
-      "Nie ma żadnej możliwości zmiany siebie",
-      "Powinien często podporządkować się autorytetowi"
+      "Nie ma żadnej możliwości zmiany siebie traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Powinien często podporządkować się autorytetowi rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -250,10 +250,10 @@
     "id": 20,
     "question": "Które stwierdzenie najlepiej oddaje sens kryzysu replikacji w psychologii z perspektywy filozofii nauki?",
     "options": [
-      "To dowód, że psychologia nie jest nauką",
+      "To dowód, że psychologia nie jest nauką w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "To sygnał potrzeby poprawy metodologii, transparentności i kontroli jakości dowodów",
-      "To głównie problem statystyczny bez konsekwencji teoretycznych",
-      "To efekt zbyt małej liczby teorii filozoficznych"
+      "To głównie problem statystyczny bez konsekwencji teoretycznych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "To efekt zbyt małej liczby teorii filozoficznych rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,

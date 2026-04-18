@@ -3,10 +3,10 @@
     "id": 1,
     "question": "Kora mózgowa jest podzielona na cztery główne płaty. Który z nich odpowiada za ruch dowolny?",
     "options": [
-      "Płat skroniowy",
-      "Płat ciemieniowy",
+      "Płat skroniowy w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Płat ciemieniowy stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Płat czołowy",
-      "Płat potyliczny"
+      "Płat potyliczny stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -16,10 +16,10 @@
     "id": 2,
     "question": "Hipokamp jest strukturą kluczową przede wszystkim dla:",
     "options": [
-      "Regulacji emocji i reakcji strachu",
+      "Regulacji emocji i reakcji strachu w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Konsolidacji pamięci deklaratywnej i nawigacji przestrzennej",
-      "Koordynacji ruchów precyzyjnych",
-      "Regulacji rytmów dobowych"
+      "Koordynacji ruchów precyzyjnych stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Regulacji rytmów dobowych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -29,10 +29,10 @@
     "id": 3,
     "question": "Ciało migdałowate (amygdala) pełni kluczową rolę w:",
     "options": [
-      "Planowaniu i podejmowaniu decyzji",
+      "Planowaniu i podejmowaniu decyzji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Przetwarzaniu emocji, szczególnie strachu i reagowaniu na zagrożenie",
-      "Integracji informacji sensorycznych",
-      "Regulacji rytmu dobowego"
+      "Integracji informacji sensorycznych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Regulacji rytmu dobowego w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -42,10 +42,10 @@
     "id": 4,
     "question": "Uszkodzenie obszaru Broki prowadzi do:",
     "options": [
-      "Afazji recepcyjnej (trudności w rozumieniu mowy)",
+      "Afazji recepcyjnej (trudności w rozumieniu mowy) ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Afazji ekspresyjnej (trudności w produkcji mowy przy zachowanym rozumieniu)",
-      "Całkowitej niemożności mówienia i rozumienia",
-      "Zaburzeń pamięci semantycznej"
+      "Całkowitej niemożności mówienia i rozumienia traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Zaburzeń pamięci semantycznej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -55,10 +55,10 @@
     "id": 5,
     "question": "Dopamina jest neuroprzekaźnikiem szczególnie ważnym dla:",
     "options": [
-      "Regulacji snu i czuwania przez jądra szwu",
+      "Regulacji snu i czuwania przez jądra szwu ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Układu nagrody, motywacji i kontroli ruchów",
-      "Hamowania pobudzenia w korze mózgowej",
-      "Przewodzenia bólu w rdzeniu kręgowym"
+      "Hamowania pobudzenia w korze mózgowej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Przewodzenia bólu w rdzeniu kręgowym w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -68,10 +68,10 @@
     "id": 6,
     "question": "Test Trailmaking (TMT) część B ocenia przede wszystkim:",
     "options": [
-      "Pamięć roboczą werbalną",
+      "Pamięć roboczą werbalną traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Elastyczność poznawczą i kontrolę uwagi (przełączanie między zestawami)",
-      "Prędkość przetwarzania informacji wzrokowo-przestrzennych",
-      "Pamięć epizodyczną długoterminową"
+      "Prędkość przetwarzania informacji wzrokowo-przestrzennych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pamięć epizodyczną długoterminową traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -81,10 +81,10 @@
     "id": 7,
     "question": "Uszkodzenie kory wzrokowej pierwszorzędowej (V1) w płacie potylicznym powoduje:",
     "options": [
-      "Prozopagnozję (niemożność rozpoznawania twarzy)",
+      "Prozopagnozję (niemożność rozpoznawania twarzy) ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Ślepotę korową w przeciwległym polu widzenia",
-      "Zaburzenia rozumienia języka pisanego",
-      "Nieuwagę przestrzenną po stronie przeciwnej do uszkodzenia"
+      "Zaburzenia rozumienia języka pisanego ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Nieuwagę przestrzenną po stronie przeciwnej do uszkodzenia w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -94,10 +94,10 @@
     "id": 8,
     "question": "Który neuroprzekaźnik jest głównym mediatorem hamującym w ośrodkowym układzie nerwowym?",
     "options": [
-      "Glutaminian",
-      "Dopamina",
+      "Glutaminian w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Dopamina ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "GABA (kwas gamma-aminomasłowy)",
-      "Acetylocholina"
+      "Acetylocholina rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -107,10 +107,10 @@
     "id": 9,
     "question": "Skrzyżowanie wzrokowe (chiazma opticum) sprawia, że:",
     "options": [
-      "Informacje z lewego oka trafiają głównie do lewej półkuli",
+      "Informacje z lewego oka trafiają głównie do lewej półkuli w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Informacje z lewej połowy pola widzenia obu oczu trafiają do prawej półkuli wzrokowej",
-      "Każde oko przesyła informacje głównie do tej samej półkuli",
-      "Prawa połowa siatkówki obu oczu przetwarza lewa stronę pola widzenia"
+      "Każde oko przesyła informacje głównie do tej samej półkuli w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Prawa połowa siatkówki obu oczu przetwarza lewa stronę pola widzenia w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -120,10 +120,10 @@
     "id": 10,
     "question": "Nieuwaga stronna (neglect przestrzenny) po uszkodzeniu prawego płata ciemieniowego objawia się:",
     "options": [
-      "Ignorowaniem bodźców po prawej stronie",
+      "Ignorowaniem bodźców po prawej stronie w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Ignorowaniem bodźców po lewej stronie",
-      "Utratą rozumienia mowy",
-      "Zaburzeniami pamięci prospektywnej"
+      "Utratą rozumienia mowy traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Zaburzeniami pamięci prospektywnej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -133,10 +133,10 @@
     "id": 11,
     "question": "Pamięć procedualna (implicit) jest przechowywana przede wszystkim w:",
     "options": [
-      "Hipokampie i korze śródwęchowej",
+      "Hipokampie i korze śródwęchowej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Móżdżku, jądrach podstawy i korze motorycznej",
-      "Ciele migdałowatym i korze oczodołowo-czołowej",
-      "Wzgórzu i podwzgórzu"
+      "Ciele migdałowatym i korze oczodołowo-czołowej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Wzgórzu i podwzgórzu w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -146,10 +146,10 @@
     "id": 12,
     "question": "Zespół dysegzekutywny po uszkodzeniu kory przedczołowej obejmuje:",
     "options": [
-      "Zaburzenia mowy ekspresyjnej i rozumienia",
+      "Zaburzenia mowy ekspresyjnej i rozumienia traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Deficyty planowania, inicjowania, monitorowania i elastycznego przełączania działań",
-      "Głęboką amnezję dla nowych informacji",
-      "Zaburzenia percepcji wzrokowo-przestrzennej"
+      "Głęboką amnezję dla nowych informacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Zaburzenia percepcji wzrokowo-przestrzennej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -159,10 +159,10 @@
     "id": 13,
     "question": "Uszkodzenie kory skroniowej dolnej prawej prowadzi do:",
     "options": [
-      "Afazji sensorycznej Wernickego",
+      "Afazji sensorycznej Wernickego w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Prozopagnozji – niemożności rozpoznawania znanych twarzy przy zachowanej percepcji innych wzorców",
-      "Astereognozji – niemożności rozpoznawania przedmiotów przez dotyk",
-      "Akalkulii – niemożności wykonywania obliczeń"
+      "Astereognozji – niemożności rozpoznawania przedmiotów przez dotyk rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Akalkulii – niemożności wykonywania obliczeń rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -172,10 +172,10 @@
     "id": 14,
     "question": "Plastyczność synaptyczna (LTP – long-term potentiation) jest uważana za kluczowy mechanizm:",
     "options": [
-      "Regulacji rytmu dobowego",
+      "Regulacji rytmu dobowego traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Komórkowe podłoże uczenia się i pamięci",
-      "Hamowania bólu w rdzeniu kręgowym",
-      "Dojrzewania aksonów podczas rozwoju prenatalnego"
+      "Hamowania bólu w rdzeniu kręgowym traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Dojrzewania aksonów podczas rozwoju prenatalnego ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -185,10 +185,10 @@
     "id": 15,
     "question": "Bateria LURIA-Nebraska służy w neuropsychologii do:",
     "options": [
-      "Oceny głównie pamięci i funkcji wykonawczych",
+      "Oceny głównie pamięci i funkcji wykonawczych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Kompleksowej oceny funkcji neuropsychologicznych: motoryki, rytmu, dotykowych, wzrokowych, mowy, pamięci i inteligencji",
-      "Diagnozy zaburzeń osobowości u pacjentów z urazami mózgu",
-      "Pomiaru szybkości przewodnictwa nerwowego"
+      "Diagnozy zaburzeń osobowości u pacjentów z urazami mózgu stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomiaru szybkości przewodnictwa nerwowego ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -198,10 +198,10 @@
     "id": 16,
     "question": "Amnezja Korsakowska wiąże się przede wszystkim z niedoborem:",
     "options": [
-      "Witaminy B12 i uszkodzeniem kory skroniowej przyśrodkowej",
+      "Witaminy B12 i uszkodzeniem kory skroniowej przyśrodkowej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Tiaminy (witamina B1) i uszkodzeniem ciał suteczkowatych oraz wzgórza – typowo u osób uzależnionych od alkoholu",
-      "Kwasu foliowego i uszkodzeniem płatów czołowych",
-      "Dopaminy i uszkodzeniem jąder podstawy"
+      "Kwasu foliowego i uszkodzeniem płatów czołowych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Dopaminy i uszkodzeniem jąder podstawy stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -212,9 +212,9 @@
     "question": "Teoria lokalizacji funkcji a holizmu w neuropsychologii dotyczy sporu o:",
     "options": [
       "To, czy funkcje psychiczne są dokładnie zlokalizowane w określonych obszarach mózgu, czy też stanowią własność całego mózgu",
-      "Pierwszeństwo metod neuroobrazowania nad testami neuropsychologicznymi",
-      "Dziedziczność zdolności intelektualnych",
-      "Wpływ środowiska na plastyczność mózgu"
+      "Pierwszeństwo metod neuroobrazowania nad testami neuropsychologicznymi rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Dziedziczność zdolności intelektualnych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Wpływ środowiska na plastyczność mózgu w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -224,10 +224,10 @@
     "id": 18,
     "question": "Neuropsychologia rehabilitacyjna zakłada, że po uszkodzeniu mózgu poprawa funkcji jest możliwa m.in. dzięki:",
     "options": [
-      "Głównie spontanicznemu zrostowi neuronów w miejscu uszkodzenia",
+      "Głównie spontanicznemu zrostowi neuronów w miejscu uszkodzenia w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Neuroplastyczności – reorganizacji połączeń mózgowych i kompensacji przez niezajęte obszary",
-      "Głównie farmakoterapii neuroprotekcyjnej",
-      "Braku aktywności umysłowej w celu regeneracji"
+      "Głównie farmakoterapii neuroprotekcyjnej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Braku aktywności umysłowej w celu regeneracji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -237,10 +237,10 @@
     "id": 19,
     "question": "Objaw \"anterograde amnesia\" (amnezja następcza) oznacza:",
     "options": [
-      "Niemożność przypomnienia sobie zdarzeń sprzed urazu",
+      "Niemożność przypomnienia sobie zdarzeń sprzed urazu ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Niemożność tworzenia nowych wspomnień po epizodzie uszkadzającym",
-      "Zaburzenie rozpoznawania znanych twarzy",
-      "Niemożność przypomnienia sobie procedur i umiejętności"
+      "Zaburzenie rozpoznawania znanych twarzy rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Niemożność przypomnienia sobie procedur i umiejętności traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -250,10 +250,10 @@
     "id": 20,
     "question": "Badania split-brain (rozdzielony mózg, Sperry i Gazzaniga) wykazały, że:",
     "options": [
-      "Prawa półkula odpowiada za mowę u większości praworęcznych",
+      "Prawa półkula odpowiada za mowę u większości praworęcznych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Po przecięciu spoidła wielkiego każda półkula przetwarza informacje niezależnie, ujawniając lateralizację funkcji",
-      "Obie półkule mają identyczne funkcje i mogą wzajemnie się zastępować",
-      "Spoidło wielkie nie odgrywa roli w komunikacji międzypółkulowej"
+      "Obie półkule mają identyczne funkcje i mogą wzajemnie się zastępować w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Spoidło wielkie nie odgrywa roli w komunikacji międzypółkulowej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -263,10 +263,10 @@
     "id": 21,
     "question": "Koncepcja \"ekwipotelności\" Lashleya w historii neuropsychologii zakładała, że:",
     "options": [
-      "Różne obszary kory mają ściśle wyspecjalizowane funkcje, które nie mogą być przejęte przez inne regiony",
+      "Różne obszary kory mają ściśle wyspecjalizowane funkcje, które nie mogą być przejęte przez inne regiony traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Kora mózgowa ma równorzędny potencjał funkcjonalny – pamięć zależy od masy uszkodzonego obszaru, a nie jego lokalizacji (prawo masy)",
-      "Lewa półkula dominuje we wszystkich funkcjach poznawczych",
-      "Mózgowie działa głównie jako homogeniczna całość bez modułowej organizacji"
+      "Lewa półkula dominuje we wszystkich funkcjach poznawczych stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Mózgowie działa głównie jako homogeniczna całość bez modułowej organizacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -276,10 +276,10 @@
     "id": 22,
     "question": "Efekt \"crowding\" (tłoczenia) w neuropsychologii rozwojowej oznacza, że:",
     "options": [
-      "Im więcej neuronów w danym obszarze, tym lepsza funkcja z nim związana",
+      "Im więcej neuronów w danym obszarze, tym lepsza funkcja z nim związana rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Wczesne uszkodzenie jednej półkuli może spowodować przeniesienie funkcji do drugiej, lecz kosztem jej normalnych funkcji (pogorszona lateralizacja)",
-      "Stymulacja sensoryczna w środowisku wzbogaconym przyspiesza mielinizację",
-      "Gęstość połączeń synaptycznych maleje po przycięciu synaptycznym (synaptic pruning)"
+      "Stymulacja sensoryczna w środowisku wzbogaconym przyspiesza mielinizację ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Gęstość połączeń synaptycznych maleje po przycięciu synaptycznym (synaptic pruning) rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -289,10 +289,10 @@
     "id": 23,
     "question": "Sieć wykonawcza (executive network, frontoparietal network) w spoczynkowej fMRI wykazuje aktywację antykorelacyjną z DMN, co oznacza, że:",
     "options": [
-      "Obie sieci działają synchronicznie podczas zadań wymagających uwagi",
+      "Obie sieci działają synchronicznie podczas zadań wymagających uwagi ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Gdy sieć wykonawcza jest aktywna podczas koncentracji na zadaniu, sieć domyślna ulega supresji, i odwrotnie",
-      "Aktywność sieci wykonawczej nie zależy od wymagań zadania",
-      "Sieci spoczynkowe nie mają związku z funkcjami poznawczymi"
+      "Aktywność sieci wykonawczej nie zależy od wymagań zadania stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Sieci spoczynkowe nie mają związku z funkcjami poznawczymi rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -302,10 +302,10 @@
     "id": 24,
     "question": "Hipoteza znacznika somatycznego (somatic marker hypothesis) Damasio zakłada, że:",
     "options": [
-      "Emocje zaburzają racjonalne podejmowanie decyzji i powinny być eliminowane",
+      "Emocje zaburzają racjonalne podejmowanie decyzji i powinny być eliminowane w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Sygnały somatyczne (emocjonalne) z przeszłych doświadczeń są konieczne do efektywnego podejmowania decyzji – ich brak prowadzi do złych wyborów",
-      "Pamięć ciała (somatyczna) jest niezależna od procesów korowych",
-      "Kora somatosensoryczna odpowiada głównie za percepcję bólu"
+      "Pamięć ciała (somatyczna) jest niezależna od procesów korowych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Kora somatosensoryczna odpowiada głównie za percepcję bólu stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -315,10 +315,10 @@
     "id": 25,
     "question": "Technika TMS (przezczaszkowa stymulacja magnetyczna) w neuropsychologii eksperymentalnej pozwala na:",
     "options": [
-      "Trwałe uszkodzenie badanego obszaru kory w celach terapeutycznych",
+      "Trwałe uszkodzenie badanego obszaru kory w celach terapeutycznych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Chwilowe zakłócenie lub pobudzenie aktywności konkretnego obszaru kory, umożliwiając wnioskowanie o przyczynowości funkcji",
-      "Rejestrację aktywności elektrycznej pojedynczych neuronów",
-      "Obrazowanie metabolizmu glukozy z rozdzielczością milisekundową"
+      "Rejestrację aktywności elektrycznej pojedynczych neuronów rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Obrazowanie metabolizmu glukozy z rozdzielczością milisekundową traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -328,10 +328,10 @@
     "id": 26,
     "question": "Zjawisko \"blindsight\" (ślepowidzenie) po uszkodzeniu kory V1 polega na:",
     "options": [
-      "Halucynacjach wzrokowych przy braku bodźców zewnętrznych",
+      "Halucynacjach wzrokowych przy braku bodźców zewnętrznych stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Zdolności do reagowania na bodźce wzrokowe bez świadomego ich widzenia – za pośrednictwem podkorowych dróg wzrokowych",
-      "Nierozpoznawaniu kolorów przy zachowanej percepcji kształtów",
-      "Nadwrażliwości wzrokowej na poruszające się bodźce"
+      "Nierozpoznawaniu kolorów przy zachowanej percepcji kształtów ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Nadwrażliwości wzrokowej na poruszające się bodźce w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -341,10 +341,10 @@
     "id": 27,
     "question": "W kontekście neuropsychologii klinicznej, \"dysocjacja\" między testem a codziennym funkcjonowaniem (ecological validity) oznacza, że:",
     "options": [
-      "Wyniki testów laboratoryjnych często odzwierciedlają codzienne trudności",
+      "Wyniki testów laboratoryjnych często odzwierciedlają codzienne trudności w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Wyniki testów neuropsychologicznych mogą nie odpowiadać stopniowi trudności w naturalnych warunkach – testy mierzą izolowane zdolności, a życie wymaga ich integracji",
-      "Testy neuropsychologiczne są zbyt trudne dla klinicznych grup pacjentów",
-      "Środowisko testowe lepiej odzwierciedla możliwości pacjenta niż środowisko domowe"
+      "Testy neuropsychologiczne są zbyt trudne dla klinicznych grup pacjentów ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Środowisko testowe lepiej odzwierciedla możliwości pacjenta niż środowisko domowe w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -354,10 +354,10 @@
     "id": 28,
     "question": "Oksytocyna jako neuropeptyd jest szczególnie powiązana z:",
     "options": [
-      "Agresją i rywalizacją w grupie własnej",
+      "Agresją i rywalizacją w grupie własnej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Bondem społecznym, zaufaniem i zachowaniami opiekuńczymi, ale też z etnocentryzmem i wrogością wobec outgrupy",
-      "Głównie reakcją stresową osi HPA",
-      "Procesami uczenia się motorycznego w móżdżku"
+      "Głównie reakcją stresową osi HPA traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Procesami uczenia się motorycznego w móżdżku w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -367,10 +367,10 @@
     "id": 29,
     "question": "Podejście \"sieciowe\" (network approach) do psychopatologii Borsboom i Cramer różni się od modelu biomedycznego tym, że:",
     "options": [
-      "Zakłada, że objawy są głównie wskaźnikami ukrytej choroby mózgu",
+      "Zakłada, że objawy są głównie wskaźnikami ukrytej choroby mózgu traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Traktuje objawy jako wzajemnie powiązane węzły sieci – aktywacja jednego objawu wzmacnia inne, a zaburzenie wyłania się z dynamiki całej sieci, nie z jednej przyczyny",
-      "Skupia się głównie na genetycznych podstawach zaburzeń",
-      "Neguje rolę czynników środowiskowych w powstawaniu zaburzeń"
+      "Skupia się głównie na genetycznych podstawach zaburzeń w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Neguje rolę czynników środowiskowych w powstawaniu zaburzeń w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -380,10 +380,10 @@
     "id": 30,
     "question": "Triada Hackera w neuropsychologii (uszkodzenie, upośledzenie, niepełnosprawność) odpowiada klasyfikacji WHO:",
     "options": [
-      "Patologia → diagnoza → rokowanie",
+      "Patologia → diagnoza → rokowanie w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Impairment (zmiana biologiczna) → disability (ograniczenie funkcjonalne) → handicap (ograniczenie społeczne)",
-      "Objawy → syndrom → zaburzenie",
-      "Diagnoza → interwencja → rehabilitacja"
+      "Objawy → syndrom → zaburzenie traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Diagnoza → interwencja → rehabilitacja rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -394,9 +394,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze neuropsychologii? (pytanie uzupełniające 1)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -407,9 +407,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze neuropsychologii? (pytanie uzupełniające 2)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -420,9 +420,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze neuropsychologii? (pytanie uzupełniające 3)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -433,9 +433,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze neuropsychologii? (pytanie uzupełniające 4)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -446,9 +446,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze neuropsychologii? (pytanie uzupełniające 5)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -459,9 +459,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze neuropsychologii? (pytanie uzupełniające 6)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -472,9 +472,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze neuropsychologii? (pytanie uzupełniające 7)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -485,9 +485,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze neuropsychologii? (pytanie uzupełniające 8)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -498,9 +498,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze neuropsychologii? (pytanie uzupełniające 9)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -511,9 +511,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze neuropsychologii? (pytanie uzupełniające 10)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -522,10 +522,10 @@
   {
     "question": "W teście Wisconsin Card Sorting Test (WCST) wzrost liczby błędów perseweracyjnych najczęściej wskazuje na:",
     "options": [
-      "Izolowany deficyt pamięci epizodycznej",
+      "Izolowany deficyt pamięci epizodycznej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Trudność zmiany reguły i osłabienie elastyczności poznawczej związane z dysfunkcją czołową",
-      "Pierwotne zaburzenie ostrości wzroku",
-      "Uszkodzenie móżdżku bez wpływu na funkcje wykonawcze"
+      "Pierwotne zaburzenie ostrości wzroku stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Uszkodzenie móżdżku bez wpływu na funkcje wykonawcze rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -535,10 +535,10 @@
   {
     "question": "Profil: płynna mowa, liczne parafazje, słabe rozumienie i brak świadomości błędów sugeruje przede wszystkim:",
     "options": [
-      "Afazję Broki",
+      "Afazję Broki traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Afazję Wernickego",
-      "Dyzartrię opuszkową",
-      "Mutyzm akinetyczny"
+      "Dyzartrię opuszkową stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Mutyzm akinetyczny rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -548,10 +548,10 @@
   {
     "question": "Zespół Balinta po obustronnym uszkodzeniu okolic ciemieniowo-potylicznych obejmuje typowo:",
     "options": [
-      "Apraksję ideomotoryczną i echolalię",
+      "Apraksję ideomotoryczną i echolalię ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Ataksję wzrokową, symultagnozję i apraksję spojrzenia",
-      "Amnezję następczą i konfabulacje",
-      "Afonię i agrafię"
+      "Amnezję następczą i konfabulacje rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Afonię i agrafię w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -562,9 +562,9 @@
     "question": "W teście Rey-Osterrieth Complex Figure opóźnione odtwarzanie ocenia głównie:",
     "options": [
       "Pamięć wzrokowo-przestrzenną i organizację materiału",
-      "Głównie praksję oralną",
-      "Przetwarzanie słuchowo-werbalne",
-      "Nasilenie objawów depresyjnych"
+      "Głównie praksję oralną ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Przetwarzanie słuchowo-werbalne w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Nasilenie objawów depresyjnych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -574,10 +574,10 @@
   {
     "question": "Podwójna dysocjacja w neuropsychologii poznawczej jest szczególnie cenna, ponieważ:",
     "options": [
-      "Eliminuje potrzebę badań obrazowych",
+      "Eliminuje potrzebę badań obrazowych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Wspiera wniosek o względnej niezależności dwóch procesów/funkcji",
-      "Dowodzi, że wszystkie funkcje są rozproszone",
-      "Potwierdza brak plastyczności mózgu"
+      "Dowodzi, że wszystkie funkcje są rozproszone w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Potwierdza brak plastyczności mózgu rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -587,10 +587,10 @@
   {
     "question": "W chorobie Parkinsona dominujące trudności poznawcze dotyczą zwykle:",
     "options": [
-      "Wczesnej ciężkiej afazji czuciowej",
+      "Wczesnej ciężkiej afazji czuciowej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Spowolnienia przetwarzania i funkcji wykonawczych (fronto-subcortical profile)",
-      "Izolowanej utraty pamięci semantycznej",
-      "Pierwotnych agnozji wzrokowych"
+      "Izolowanej utraty pamięci semantycznej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pierwotnych agnozji wzrokowych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -600,10 +600,10 @@
   {
     "question": "Który objaw najlepiej odpowiada apraksji ideomotorycznej?",
     "options": [
-      "Niemożność rozpoznawania przedmiotów wzrokiem",
+      "Niemożność rozpoznawania przedmiotów wzrokiem traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Trudność wykonania wyuczonego gestu na polecenie mimo zachowanej siły i rozumienia",
-      "Całkowity brak ruchu dowolnego kończyny",
-      "Utrata czucia bólu i temperatury"
+      "Całkowity brak ruchu dowolnego kończyny traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Utrata czucia bólu i temperatury w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -613,10 +613,10 @@
   {
     "question": "Wariant behawioralny otępienia czołowo-skroniowego (bvFTD) najczęściej rozpoczyna się od:",
     "options": [
-      "Dominującej amnezji epizodycznej jak w typowym AD",
+      "Dominującej amnezji epizodycznej jak w typowym AD w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Wczesnych zmian osobowości, odhamowania i osłabienia kontroli społecznej",
-      "Nagłej ślepoty korowej",
-      "Drgawek uogólnionych jako głównego objawu"
+      "Nagłej ślepoty korowej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Drgawek uogólnionych jako głównego objawu ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -626,10 +626,10 @@
   {
     "question": "Konfabulacje po uszkodzeniu struktur czołowo-podstawnych są rozumiane jako:",
     "options": [
-      "Świadome kłamstwo w celu manipulacji",
+      "Świadome kłamstwo w celu manipulacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Niezamierzone, błędne wypełnianie luk pamięciowych przy osłabionej kontroli źródła informacji",
-      "Typowy objaw izolowanej agnozji słuchowej",
-      "Skutek głównie zaburzeń widzenia"
+      "Typowy objaw izolowanej agnozji słuchowej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Skutek głównie zaburzeń widzenia w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -639,10 +639,10 @@
   {
     "question": "Najbardziej trafna interpretacja wyniku MoCA poniżej punktu odcięcia to:",
     "options": [
-      "Pewne rozpoznanie konkretnej choroby neurodegeneracyjnej",
+      "Pewne rozpoznanie konkretnej choroby neurodegeneracyjnej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Sygnał przesiewowy wymagający pogłębionej diagnozy klinicznej i neuropsychologicznej",
-      "Dowód głównie zaburzeń nastroju",
-      "Brak znaczenia diagnostycznego"
+      "Dowód głównie zaburzeń nastroju w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Brak znaczenia diagnostycznego stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -653,9 +653,9 @@
     "question": "Wzorzec ciężkich trudności w uczeniu się nowego materiału przy względnie zachowanej pamięci odległej najbardziej sugeruje:",
     "options": [
       "Uszkodzenie przyśrodkowych struktur skroniowych",
-      "Izolowaną neuropatię obwodową",
-      "Uszkodzenie móżdżku bez wpływu na pamięć",
-      "Pierwotną afazję motoryczną"
+      "Izolowaną neuropatię obwodową traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Uszkodzenie móżdżku bez wpływu na pamięć rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pierwotną afazję motoryczną stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -665,10 +665,10 @@
   {
     "question": "Objaw anozognozji po udarze prawej półkuli oznacza najczęściej:",
     "options": [
-      "Nasilony lęk przed badaniem neuropsychologicznym",
+      "Nasilony lęk przed badaniem neuropsychologicznym w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Brak świadomości własnych deficytów neurologicznych",
-      "Utratę zdolności pisania przy zachowanym czytaniu",
-      "Przemijające zawroty głowy"
+      "Utratę zdolności pisania przy zachowanym czytaniu rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Przemijające zawroty głowy rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -678,10 +678,10 @@
   {
     "question": "W chorobie Alzheimera najbardziej typowy wczesny profil poznawczy obejmuje:",
     "options": [
-      "Dominujące zaburzenia praksji przy zachowanej pamięci epizodycznej",
+      "Dominujące zaburzenia praksji przy zachowanej pamięci epizodycznej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Deficyty świeżej pamięci epizodycznej i uczenia się nowych informacji",
-      "Izolowane trudności motoryczne bez zmian pamięci",
-      "Głównie zaburzenia pola widzenia"
+      "Izolowane trudności motoryczne bez zmian pamięci w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Głównie zaburzenia pola widzenia traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -691,10 +691,10 @@
   {
     "question": "W podejrzeniu symulacji deficytów poznawczych testy trafności wykonania (PVT) służą do:",
     "options": [
-      "Oceny ciśnienia śródczaszkowego",
+      "Oceny ciśnienia śródczaszkowego rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Sprawdzenia wiarygodności zaangażowania i wysiłku podczas badania",
-      "Diagnozy rodzaju afazji na podstawie EEG",
-      "Pomiaru szybkości przewodnictwa nerwowego"
+      "Diagnozy rodzaju afazji na podstawie EEG stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomiaru szybkości przewodnictwa nerwowego stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -705,9 +705,9 @@
     "question": "Uszkodzenie pęczka łukowatego (arcuate fasciculus) klasycznie wiąże się z:",
     "options": [
       "Afazją przewodzenia i nasilonymi trudnościami powtarzania",
-      "Ślepotą korową",
-      "Mutyzmem akinetycznym",
-      "Zespołem Balinta"
+      "Ślepotą korową traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Mutyzmem akinetycznym w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Zespołem Balinta stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -717,10 +717,10 @@
   {
     "question": "W urazowym uszkodzeniu mózgu (TBI) z uszkodzeniem aksonalnym częsty profil obejmuje:",
     "options": [
-      "Głównie zaburzenia słuchu obwodowego",
+      "Głównie zaburzenia słuchu obwodowego stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Spowolnienie przetwarzania, osłabienie uwagi i funkcji wykonawczych",
-      "Izolowaną utratę rozpoznawania twarzy",
-      "Brak jakichkolwiek zmian poznawczych"
+      "Izolowaną utratę rozpoznawania twarzy stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Brak jakichkolwiek zmian poznawczych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -730,10 +730,10 @@
   {
     "question": "Który zestaw objawów najbardziej odpowiada triadzie wodogłowia normotensyjnego (NPH)?",
     "options": [
-      "Afazja, apraksja, agnozja",
+      "Afazja, apraksja, agnozja ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Zaburzenia chodu, pogorszenie funkcji poznawczych, nietrzymanie moczu",
-      "Drżenie spoczynkowe, sztywność, dyskinezy",
-      "Bóle głowy, fotofobia, sztywność karku"
+      "Drżenie spoczynkowe, sztywność, dyskinezy traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Bóle głowy, fotofobia, sztywność karku w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -744,9 +744,9 @@
     "question": "W próbach fluencji słownej (fonemicznej i semantycznej) spadek wyników może wskazywać m.in. na:",
     "options": [
       "Deficyty funkcji językowych i wykonawczych",
-      "Głównie zaburzenia słuchu",
-      "Głównie uszkodzenie rdzenia kręgowego",
-      "Brak znaczenia klinicznego"
+      "Głównie zaburzenia słuchu stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Głównie uszkodzenie rdzenia kręgowego ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Brak znaczenia klinicznego traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -757,9 +757,9 @@
     "question": "Apraksja konstrukcyjna najczęściej ujawnia się jako:",
     "options": [
       "Trudność odwzorowywania figur i relacji przestrzennych",
-      "Niemożność rozpoznawania twarzy",
-      "Całkowita utrata rozumienia mowy",
-      "Głównie spadek siły mięśniowej"
+      "Niemożność rozpoznawania twarzy rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Całkowita utrata rozumienia mowy traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Głównie spadek siły mięśniowej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -769,10 +769,10 @@
   {
     "question": "W monitorowaniu zmian poznawczych po neurorehabilitacji najbardziej trafne podejście to:",
     "options": [
-      "Ocena głównie jednego wyniku globalnego bez kontekstu",
+      "Ocena głównie jednego wyniku globalnego bez kontekstu w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Łączenie powtarzanych pomiarów testowych, obserwacji funkcjonalnej i danych od bliskich",
-      "Poleganie tylko na subiektywnym wrażeniu klinicysty",
-      "Rezygnacja z oceny przy pierwszej poprawie"
+      "Poleganie tylko na subiektywnym wrażeniu klinicysty w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Rezygnacja z oceny przy pierwszej poprawie traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,

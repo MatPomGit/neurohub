@@ -3,10 +3,10 @@
     "id": 1,
     "question": "Pacjentka od 4 tygodni zgłasza obniżony nastrój, anhedonię i wczesne wybudzenia. Jaki jest najlepszy kolejny krok?",
     "options": [
-      "Rozpocząć terapię bez wywiadu",
+      "Rozpocząć terapię bez wywiadu traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Pogłębić wywiad i ocenić ryzyko samobójcze",
-      "Zalecić tylko suplementację",
-      "Odroczyć diagnozę o 6 miesięcy"
+      "Zalecić tylko suplementację w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Odroczyć diagnozę o 6 miesięcy ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -16,10 +16,10 @@
     "id": 2,
     "question": "Mężczyzna po napadzie ma natrętne wspomnienia, koszmary i unikanie miejsca zdarzenia. Najbardziej prawdopodobny obszar diagnostyczny to:",
     "options": [
-      "Fobia specyficzna",
+      "Fobia specyficzna rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Spektrum PTSD",
-      "Zaburzenie opozycyjno-buntownicze",
-      "Otępienie"
+      "Zaburzenie opozycyjno-buntownicze w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Otępienie w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -29,10 +29,10 @@
     "id": 3,
     "question": "Pacjent opisuje natrętne myśli o zakażeniu i wielokrotne mycie rąk. Najtrafniejsza hipoteza:",
     "options": [
-      "ADHD",
+      "ADHD traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "OCD",
-      "Zaburzenie konwersyjne",
-      "Zaburzenie schizoafektywne"
+      "Zaburzenie konwersyjne w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Zaburzenie schizoafektywne w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -43,9 +43,9 @@
     "question": "Studentka doświadcza napadów lęku z dusznością i lękiem przed śmiercią. Wstępne rozpoznanie robocze:",
     "options": [
       "Napady paniki",
-      "Dysleksja",
-      "Anoreksja",
-      "Autyzm"
+      "Dysleksja traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Anoreksja w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Autyzm stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -55,10 +55,10 @@
     "id": 5,
     "question": "Dziecko ma od lat trudności z koncentracją i impulsywność zarówno w domu, jak i w szkole. Kluczowe diagnostycznie będzie:",
     "options": [
-      "Głównie samoopis dziecka",
+      "Głównie samoopis dziecka stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Ocena wieloźródłowa i wywiad rozwojowy",
-      "Jednorazowy test internetowy",
-      "Pominięcie danych od nauczycieli"
+      "Jednorazowy test internetowy stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pominięcie danych od nauczycieli traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -68,10 +68,10 @@
     "id": 6,
     "question": "Pacjent mówi: „nie widzę sensu życia”, ale zaprzecza planowi samobójczemu. Najbardziej adekwatna reakcja:",
     "options": [
-      "Zamknąć temat",
+      "Zamknąć temat ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Ustrukturyzowana ocena ryzyka i plan bezpieczeństwa",
-      "Poczekać do kolejnej wizyty",
-      "Tylko techniki oddechowe"
+      "Poczekać do kolejnej wizyty ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Tylko techniki oddechowe traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -81,10 +81,10 @@
     "id": 7,
     "question": "Pacjentka po porodzie od 3 tygodni zgłasza przygnębienie, lęk i poczucie winy. Priorytet:",
     "options": [
-      "Ignorować jako normę",
+      "Ignorować jako normę rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Ocenić depresję poporodową i bezpieczeństwo",
-      "Zalecić głównie odpoczynek",
-      "Skupić się tylko na diecie"
+      "Zalecić głównie odpoczynek w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Skupić się tylko na diecie rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -94,10 +94,10 @@
     "id": 8,
     "question": "Pacjent z lękiem społecznym unika prezentacji i spotkań zespołowych. Interwencja pierwszego wyboru:",
     "options": [
-      "Brak interwencji",
+      "Brak interwencji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "CBT z ekspozycją",
-      "Głównie hipnoza",
-      "Głównie psychoanaliza"
+      "Głównie hipnoza traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Głównie psychoanaliza ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -108,9 +108,9 @@
     "question": "U pacjenta po urazie głowy występuje spowolnienie i trudności wykonawcze. Najbardziej zasadny kierunek:",
     "options": [
       "Badanie neuropsychologiczne i rehabilitacja",
-      "Głównie medytacja",
-      "Tylko konsultacja dietetyczna",
-      "Brak dalszej diagnostyki"
+      "Głównie medytacja w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Tylko konsultacja dietetyczna w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Brak dalszej diagnostyki w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -120,10 +120,10 @@
     "id": 10,
     "question": "Pacjent opisuje okresy zmniejszonej potrzeby snu, gonitwy myśli i wzmożonej aktywności. Co pilnie różnicować?",
     "options": [
-      "Fobię społeczną",
+      "Fobię społeczną ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Spektrum ChAD",
-      "Zaburzenia odżywiania",
-      "Zaburzenia dysocjacyjne"
+      "Zaburzenia odżywiania w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Zaburzenia dysocjacyjne w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -133,10 +133,10 @@
     "id": 11,
     "question": "Pacjent po konflikcie w pracy pije codziennie alkohol „dla uspokojenia”. Najbardziej użyteczne klinicznie:",
     "options": [
-      "Pominięcie tematu",
+      "Pominięcie tematu w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Krótka interwencja motywująca i ocena wzorca używania",
-      "Natychmiastowa diagnoza osobowości",
-      "Zalecenie całkowitego odstawienia bez rozmowy"
+      "Natychmiastowa diagnoza osobowości traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Zalecenie całkowitego odstawienia bez rozmowy stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -146,10 +146,10 @@
     "id": 12,
     "question": "W wywiadzie nastolatki pojawia się samouszkadzanie bez intencji śmierci. Pierwszy krok:",
     "options": [
-      "Zignorować incydenty",
+      "Zignorować incydenty ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Ocena funkcji zachowania i ryzyka suicydalnego",
-      "Skoncentrować się tylko na ocenach szkolnych",
-      "Szybkie wypisanie z terapii"
+      "Skoncentrować się tylko na ocenach szkolnych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Szybkie wypisanie z terapii stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -160,9 +160,9 @@
     "question": "Pacjent zgłasza przewlekły lęk, napięcie mięśniowe i zamartwianie się przez większość dni od ponad 6 miesięcy. Najbliższe rozpoznanie:",
     "options": [
       "GAD",
-      "ChAD I",
-      "Zespół Tourette’a",
-      "Bulimia"
+      "ChAD I rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Zespół Tourette’a rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Bulimia ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -172,10 +172,10 @@
     "id": 14,
     "question": "Osoba zgłasza utratę zainteresowań i spadek energii po śmierci bliskiej osoby. Najważniejsze na etapie pierwszej konsultacji:",
     "options": [
-      "Automatycznie rozpoznać MDD",
+      "Automatycznie rozpoznać MDD stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Różnicować żałobę normatywną i epizod depresyjny",
-      "Zakazać rozmów o zmarłym",
-      "Skierować bez wywiadu do szpitala"
+      "Zakazać rozmów o zmarłym stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Skierować bez wywiadu do szpitala w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -186,9 +186,9 @@
     "question": "Pacjent z bezsennością i drażliwością stosuje kofeinę do późna i korzysta z telefonu w łóżku. Najbardziej adekwatna interwencja początkowa:",
     "options": [
       "Psychoedukacja higieny snu",
-      "Głównie farmakoterapia",
-      "Rezygnacja z diagnozy",
-      "Głównie techniki projekcyjne"
+      "Głównie farmakoterapia traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Rezygnacja z diagnozy rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Głównie techniki projekcyjne rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -198,10 +198,10 @@
     "id": 16,
     "question": "Pacjentka prezentuje niestabilne relacje, impulsywność i silny lęk przed porzuceniem. Najbardziej prawdopodobne:",
     "options": [
-      "Osobowość schizoidalna",
+      "Osobowość schizoidalna w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Osobowość borderline",
-      "Osobowość zależna",
-      "Otępienie"
+      "Osobowość zależna w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Otępienie rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -211,10 +211,10 @@
     "id": 17,
     "question": "Pacjent ujawnia przemoc domową i prosi o pełną tajemnicę. Najlepsza odpowiedź kliniczna:",
     "options": [
-      "Obiecać całkowitą tajemnicę bez wyjątków",
+      "Obiecać całkowitą tajemnicę bez wyjątków w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Wyjaśnić granice poufności i wspólnie zaplanować bezpieczeństwo",
-      "Natychmiast zakończyć terapię",
-      "Zmienić temat"
+      "Natychmiast zakończyć terapię stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Zmienić temat w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -224,10 +224,10 @@
     "id": 18,
     "question": "W przypadku objawów psychotycznych i równoczesnego używania amfetaminy najbardziej adekwatne podejście to:",
     "options": [
-      "Natychmiastowa diagnoza schizofrenii",
+      "Natychmiastowa diagnoza schizofrenii ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Różnicowanie psychozy pierwotnej i indukowanej substancjami",
-      "Głównie interwencja rodzinna",
-      "Pominięcie badania używek"
+      "Głównie interwencja rodzinna stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pominięcie badania używek w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -237,10 +237,10 @@
     "id": 19,
     "question": "Pacjentka z historią traumy silnie dysocjuje podczas sesji. Co najpierw?",
     "options": [
-      "Pogłębić ekspozycję",
+      "Pogłębić ekspozycję traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Stabilizacja i techniki ugruntowania",
-      "Wymagać szczegółów traumy",
-      "Przerwać terapię"
+      "Wymagać szczegółów traumy w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Przerwać terapię traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -250,10 +250,10 @@
     "id": 20,
     "question": "Senior z pogorszeniem pamięci ma też objawy depresyjne i infekcję dróg moczowych. Najbardziej profesjonalne postępowanie:",
     "options": [
-      "Rozpoznać otępienie po krótkiej rozmowie",
+      "Rozpoznać otępienie po krótkiej rozmowie stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Pełna diagnostyka różnicowa: depresja, delirium, otępienie",
-      "Skupić się głównie na wieku",
-      "Pominąć badania laboratoryjne"
+      "Skupić się głównie na wieku traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pominąć badania laboratoryjne w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -263,10 +263,10 @@
     "id": 21,
     "question": "Pacjent z OCD pyta, dlaczego ekspozycja z powstrzymaniem reakcji działa. Najtrafniejsze wyjaśnienie:",
     "options": [
-      "Wzmacnia rytuały",
+      "Wzmacnia rytuały ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Uczy tolerancji lęku i wygaszania kompulsji",
-      "Działa tylko przez relaksację",
-      "To forma farmakoterapii"
+      "Działa tylko przez relaksację traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "To forma farmakoterapii stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -276,10 +276,10 @@
     "id": 22,
     "question": "Młoda osoba LGBTQ+ doświadcza odrzucenia rodzinnego i nasilonego lęku. Co jest szczególnie ważne?",
     "options": [
-      "Unikać kontekstu tożsamości",
+      "Unikać kontekstu tożsamości stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Podejście afirmatywne i ocena stresu mniejszościowego",
-      "Konfrontować tożsamość",
-      "Skupić się głównie na farmakologii"
+      "Konfrontować tożsamość rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Skupić się głównie na farmakologii traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -289,10 +289,10 @@
     "id": 23,
     "question": "Pacjent zgłasza ból, zmęczenie i kołatania serca mimo licznych prawidłowych badań. Najlepszy kierunek kliniczny:",
     "options": [
-      "Oskarżyć o symulację",
+      "Oskarżyć o symulację w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Ocena pod kątem zaburzenia lękowego i objawów somatycznych",
-      "Przerwać diagnostykę",
-      "Skierować głównie do chirurga"
+      "Przerwać diagnostykę w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Skierować głównie do chirurga rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -303,9 +303,9 @@
     "question": "Nastolatek po cyberprzemocy unika szkoły i ma objawy depresyjne. Pierwszy etap interwencji:",
     "options": [
       "Ocena bezpieczeństwa, wsparcia i planu działania ze szkołą/rodziną",
-      "Głównie kara dla sprawców",
-      "Szybkie rozpoznanie osobowości",
-      "Brak kontaktu z opiekunami"
+      "Głównie kara dla sprawców traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Szybkie rozpoznanie osobowości w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Brak kontaktu z opiekunami w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -316,9 +316,9 @@
     "question": "Pacjent z historią napadów paniki unika wysiłku fizycznego, bo boi się objawów somatycznych. Najbardziej adekwatna technika CBT:",
     "options": [
       "Ekspozycja interoceptywna",
-      "Głównie dziennik snu",
-      "Interpretacja snów",
-      "Brak psychoedukacji"
+      "Głównie dziennik snu rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Interpretacja snów stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Brak psychoedukacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -328,10 +328,10 @@
     "id": 26,
     "question": "Pacjentka z depresją przerywa terapię po 2 spotkaniach, mówiąc „to nie działa”. Co najpierw?",
     "options": [
-      "Uznanie oporu i zamknięcie procesu",
+      "Uznanie oporu i zamknięcie procesu w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Walidacja trudności, renegocjacja celów i kontraktu",
-      "Nacisk na kontynuację bez rozmowy",
-      "Zmiana diagnozy bez danych"
+      "Nacisk na kontynuację bez rozmowy traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Zmiana diagnozy bez danych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -341,10 +341,10 @@
     "id": 27,
     "question": "W wywiadzie pojawiają się okresy drażliwości, impulsywnych zakupów i wzmożonej towarzyskości po SSRI. Co rozważyć?",
     "options": [
-      "Głównie poprawę nastroju",
+      "Głównie poprawę nastroju w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Ryzyko przełączenia w hipomanię",
-      "Objawy autyzmu",
-      "Głównie bezsenność pierwotną"
+      "Objawy autyzmu w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Głównie bezsenność pierwotną w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -355,9 +355,9 @@
     "question": "Pacjent po nagłej stracie partnera ma natrętne obrazy i unika mieszkania. Najlepsza sekwencja pracy:",
     "options": [
       "Najpierw stabilizacja i rytm dnia, potem interwencje ukierunkowane na traumę/żałobę",
-      "Natychmiastowa ekspozycja bez przygotowania",
-      "Głównie farmakoterapia",
-      "Brak pracy z unikaniem"
+      "Natychmiastowa ekspozycja bez przygotowania stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Głównie farmakoterapia w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Brak pracy z unikaniem ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -367,10 +367,10 @@
     "id": 29,
     "question": "Pacjentka zgłasza restrykcje jedzenia, lęk przed przytyciem i zanik miesiączki. Co jest kluczowe na starcie?",
     "options": [
-      "Skupić się głównie na obrazie ciała",
+      "Skupić się głównie na obrazie ciała stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Pilna ocena medyczna ryzyka somatycznego",
-      "Praca tylko nad relacją",
-      "Przerwanie diagnozy"
+      "Praca tylko nad relacją w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Przerwanie diagnozy w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -381,9 +381,9 @@
     "question": "W wywiadzie osoby uzależnionej od opioidów pojawia się wielokrotne przedawkowanie. Priorytet interwencji:",
     "options": [
       "Ocena ryzyka zgonu i plan redukcji szkód",
-      "Głównie praca nad motywacją",
-      "Szybkie wypisanie",
-      "Brak edukacji o naloksonie"
+      "Głównie praca nad motywacją w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Szybkie wypisanie stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Brak edukacji o naloksonie stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -393,10 +393,10 @@
     "id": 31,
     "question": "Pacjent z PTSD i nadużywaniem alkoholu deklaruje gotowość do pracy nad traumą, ale codziennie pije. Najbardziej adekwatna strategia:",
     "options": [
-      "Rozdzielić leczenie na lata i nie łączyć tematów",
+      "Rozdzielić leczenie na lata i nie łączyć tematów stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Zintegrowany plan: stabilizacja używania + etapowa praca nad traumą",
-      "Natychmiastowa intensywna ekspozycja",
-      "Skupić się tylko na abstynencji bez PTSD"
+      "Natychmiastowa intensywna ekspozycja rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Skupić się tylko na abstynencji bez PTSD traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -406,10 +406,10 @@
     "id": 32,
     "question": "Pacjentka z BPD grozi samobójstwem po konflikcie relacyjnym i żąda codziennych sesji poza kontraktem. Najlepsza odpowiedź:",
     "options": [
-      "Natychmiast spełnić żądania bez granic",
+      "Natychmiast spełnić żądania bez granic rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Ocenić ryzyko, uruchomić plan kryzysowy i utrzymać jasne granice",
-      "Zignorować groźby",
-      "Zakończyć terapię bez przekazania opieki"
+      "Zignorować groźby ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Zakończyć terapię bez przekazania opieki stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -419,10 +419,10 @@
     "id": 33,
     "question": "Osoba z podejrzeniem psychozy odmawia leczenia, ale rodzina zgłasza narastające ryzyko agresji. Priorytet diagnostyczno-prawny:",
     "options": [
-      "Uszanować odmowę bez oceny",
+      "Uszanować odmowę bez oceny traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Ocena zdolności do świadomej decyzji i bezpośredniego ryzyka",
-      "Skupić się tylko na wywiadzie rodziny",
-      "Pominąć dokumentację"
+      "Skupić się tylko na wywiadzie rodziny stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pominąć dokumentację traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -432,10 +432,10 @@
     "id": 34,
     "question": "Pacjent z przewlekłą depresją po wielu niepowodzeniach terapeutycznych zgłasza „terapia nic nie zmieni”. Najbardziej adekwatna formuła pracy:",
     "options": [
-      "Konfrontacja i nacisk",
+      "Konfrontacja i nacisk w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Formulacja oparta na czynnikach podtrzymujących + cele behawioralne małych kroków",
-      "Zawieszenie terapii",
-      "Głównie testy osobowości"
+      "Zawieszenie terapii ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Głównie testy osobowości traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -445,10 +445,10 @@
     "id": 35,
     "question": "Pacjentka po traumie seksualnej doświadcza flashbacków w relacji intymnej. Najlepszy plan:",
     "options": [
-      "Pominięcie tematu seksualności",
+      "Pominięcie tematu seksualności ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Psychoedukacja traumowa, stabilizacja i stopniowa ekspozycja z kontrolą pacjentki",
-      "Wymaganie szybkiej konfrontacji",
-      "Głównie farmakoterapia"
+      "Wymaganie szybkiej konfrontacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Głównie farmakoterapia stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -458,10 +458,10 @@
     "id": 36,
     "question": "W diagnostyce różnicowej CHAD II vs. osobowości borderline najbardziej użyteczne klinicznie jest:",
     "options": [
-      "Jedno badanie kwestionariuszowe",
+      "Jedno badanie kwestionariuszowe w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Analiza epizodyczności objawów nastroju, czasu trwania i czynników wyzwalających",
-      "Pominięcie wywiadu rodzinnego",
-      "Ocena tylko na podstawie impulsywności"
+      "Pominięcie wywiadu rodzinnego w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Ocena tylko na podstawie impulsywności traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -471,10 +471,10 @@
     "id": 37,
     "question": "Pacjent z OCD i silnym lękiem moralnym odmawia ERP z obawy „utraty wartości”. Najbardziej adekwatna interwencja:",
     "options": [
-      "Wymuszenie ERP",
+      "Wymuszenie ERP rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Motywacyjne wyjaśnienie modelu OCD i wspólna hierarchia zgodna z wartościami",
-      "Rezygnacja z leczenia",
-      "Głównie ćwiczenia relaksacyjne"
+      "Rezygnacja z leczenia traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Głównie ćwiczenia relaksacyjne stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -484,10 +484,10 @@
     "id": 38,
     "question": "Pacjentka z anoreksją, BMI 15,5 i bradykardią chce kontynuować wyłącznie terapię ambulatoryjną. Najwłaściwsze postępowanie:",
     "options": [
-      "Pozostawić decyzję bez komentarza",
+      "Pozostawić decyzję bez komentarza traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Pilna konsultacja internistyczna/psychiatryczna i ocena wskazań do hospitalizacji",
-      "Skupić się tylko na technikach poznawczych",
-      "Odroczyć decyzję o miesiąc"
+      "Skupić się tylko na technikach poznawczych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Odroczyć decyzję o miesiąc traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -497,10 +497,10 @@
     "id": 39,
     "question": "U pacjenta z nawracającą depresją i bezsennością mimo terapii pojawia się podejrzenie obturacyjnego bezdechu sennego. Co dalej?",
     "options": [
-      "Ignorować, bo to temat medyczny",
+      "Ignorować, bo to temat medyczny stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Skierować na diagnostykę snu i zintegrować wyniki z planem psychologicznym",
-      "Zwiększyć tylko liczbę sesji",
-      "Zakończyć psychoterapię"
+      "Zwiększyć tylko liczbę sesji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Zakończyć psychoterapię rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -510,10 +510,10 @@
     "id": 40,
     "question": "Pacjent ujawnia myśli samobójcze, dostęp do broni i świeżą utratę pracy, ale prosi o pełną poufność. Priorytet:",
     "options": [
-      "Zachować pełną poufność",
+      "Zachować pełną poufność w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Ocena bezpośredniego ryzyka i działania ochronne zgodnie z prawem oraz etyką",
-      "Umówić kolejną wizytę za miesiąc",
-      "Skupić się na technikach relaksacyjnych"
+      "Umówić kolejną wizytę za miesiąc w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Skupić się na technikach relaksacyjnych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -523,10 +523,10 @@
     "id": 41,
     "question": "Pacjentka doświadcza epizodów derealizacji po użyciu konopi, a także wcześniej miała napady paniki. Najlepsze podejście różnicowe:",
     "options": [
-      "Rozpoznać od razu psychozę",
+      "Rozpoznać od razu psychozę w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Różnicować objawy dysocjacyjne, lękowe i indukowane substancją",
-      "Skupić się tylko na derealizacji",
-      "Pominąć historię używek"
+      "Skupić się tylko na derealizacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pominąć historię używek w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -536,10 +536,10 @@
     "id": 42,
     "question": "W terapii par pojawia się przemoc psychiczna i kontrola ekonomiczna. Najbardziej adekwatna decyzja kliniczna:",
     "options": [
-      "Kontynuować standardową terapię komunikacji",
+      "Kontynuować standardową terapię komunikacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Priorytet bezpieczeństwa, ocena przemocy i modyfikacja formatu pracy",
-      "Wymusić pojednanie",
-      "Pominąć temat, by nie eskalować"
+      "Wymusić pojednanie rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pominąć temat, by nie eskalować stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -549,10 +549,10 @@
     "id": 43,
     "question": "Pacjent z ADHD i uzależnieniem od stymulantów prosi o natychmiastowe leki psychostymulujące. Najlepsze postępowanie:",
     "options": [
-      "Natychmiast przepisać wysoką dawkę",
+      "Natychmiast przepisać wysoką dawkę w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Ocena ryzyka nadużywania, plan monitoringu i rozważenie alternatyw terapeutycznych",
-      "Odmówić leczenia ADHD",
-      "Skupić się tylko na psychoedukacji"
+      "Odmówić leczenia ADHD traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Skupić się tylko na psychoedukacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -562,10 +562,10 @@
     "id": 44,
     "question": "Pacjentka z depresją poporodową zgłasza intruzywne myśli skrzywdzenia dziecka, które ją przerażają. Co najważniejsze?",
     "options": [
-      "Automatycznie uznać, że jest zagrożeniem",
+      "Automatycznie uznać, że jest zagrożeniem w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Różnicować intruzje ego-dystoniczne, ocenić ryzyko i wdrożyć plan bezpieczeństwa",
-      "Zakazać kontaktu z dzieckiem bez oceny",
-      "Pominąć temat z obawy przed stygmatyzacją"
+      "Zakazać kontaktu z dzieckiem bez oceny rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pominąć temat z obawy przed stygmatyzacją traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -575,10 +575,10 @@
     "id": 45,
     "question": "Pacjent z wieloletnią traumą rozwojową idealizuje i dewaluuje terapeutę między sesjami. Najbardziej użyteczna konceptualizacja:",
     "options": [
-      "Brak motywacji do terapii",
+      "Brak motywacji do terapii w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Niestabilność przywiązaniowa i przeniesienie wymagające pracy nad mentalizacją",
-      "Symulacja objawów",
-      "Głównie problem poznawczy"
+      "Symulacja objawów w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Głównie problem poznawczy traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -588,10 +588,10 @@
     "id": 46,
     "question": "Pacjent zgłasza nasilony stres przed egzaminami, ale funkcjonuje dobrze społecznie i zawodowo. Najlepszy pierwszy krok kliniczny:",
     "options": [
-      "Diagnoza ciężkiego zaburzenia lękowego",
+      "Diagnoza ciężkiego zaburzenia lękowego rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Psychoedukacja stresu i ocena strategii radzenia sobie",
-      "Szybkie leczenie szpitalne",
-      "Pominięcie objawów"
+      "Szybkie leczenie szpitalne ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pominięcie objawów rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -601,10 +601,10 @@
     "id": 47,
     "question": "Osoba po rozstaniu ma trudności ze snem od 10 dni, bez istotnego upośledzenia funkcjonowania. Najbardziej adekwatne rozpoznanie robocze:",
     "options": [
-      "Bezsenność przewlekła",
+      "Bezsenność przewlekła w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Reakcja adaptacyjna na stresor",
-      "Otępienie",
-      "Psychoza"
+      "Otępienie rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Psychoza traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -614,10 +614,10 @@
     "id": 48,
     "question": "Pacjentka zgłasza napady objadania się bez zachowań kompensacyjnych. Najbardziej prawdopodobny obszar diagnostyczny:",
     "options": [
-      "Jadłowstręt psychiczny",
+      "Jadłowstręt psychiczny stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Zaburzenie z napadami objadania się",
-      "Bulimia z kompensacją",
-      "Zaburzenie psychotyczne"
+      "Bulimia z kompensacją ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Zaburzenie psychotyczne rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -628,9 +628,9 @@
     "question": "Dziecko po zmianie szkoły zaczęło moczyć się nocą mimo wcześniejszej kontroli mikcji. Najbardziej zasadny kierunek:",
     "options": [
       "Ocena stresu adaptacyjnego i konsultacja pediatryczna",
-      "Natychmiastowa diagnoza zaburzenia osobowości",
-      "Głównie kara behawioralna",
-      "Brak reakcji"
+      "Natychmiastowa diagnoza zaburzenia osobowości ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Głównie kara behawioralna ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Brak reakcji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -641,9 +641,9 @@
     "question": "Pacjent doświadcza lęku i napięcia w ciągu dnia oraz pije 6 kaw dziennie. Najbardziej użyteczny element wywiadu:",
     "options": [
       "Ocena roli kofeiny i higieny pobudzenia",
-      "Skupienie głównie na dzieciństwie",
-      "Pominięcie stylu życia",
-      "Szybkie testy projekcyjne"
+      "Skupienie głównie na dzieciństwie rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pominięcie stylu życia w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Szybkie testy projekcyjne rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -653,10 +653,10 @@
     "id": 51,
     "question": "Pacjent po 3 miesiącach abstynencji od alkoholu ma silne objawy anhedonii i bezsenności. Najbardziej adekwatne postępowanie:",
     "options": [
-      "Uznać to za brak motywacji",
+      "Uznać to za brak motywacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Różnicować protrakcyjny zespół abstynencyjny i epizod depresyjny",
-      "Natychmiast zakończyć terapię",
-      "Głównie trening relaksacji"
+      "Natychmiast zakończyć terapię w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Głównie trening relaksacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -666,10 +666,10 @@
     "id": 52,
     "question": "Pacjentka zgłasza przewlekłe zmęczenie i „mgłę poznawczą”, a badania somatyczne są graniczne. Najlepszy kierunek:",
     "options": [
-      "Pominięcie objawów jako somatyzacji",
+      "Pominięcie objawów jako somatyzacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Model biopsychospołeczny: dalsza diagnostyka i ocena obciążenia psychicznego",
-      "Skierowanie głównie na psychoterapię bez konsultacji",
-      "Głównie suplementacja"
+      "Skierowanie głównie na psychoterapię bez konsultacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Głównie suplementacja w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -679,10 +679,10 @@
     "id": 53,
     "question": "W terapii adolescenta rodzice wzajemnie podważają zalecenia terapeuty. Najbardziej adekwatna interwencja:",
     "options": [
-      "Praca tylko indywidualna z nastolatkiem",
+      "Praca tylko indywidualna z nastolatkiem ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Kontrakt systemowy i ujednolicenie komunikatów opiekuńczych",
-      "Wstrzymanie leczenia do porozumienia rodziców",
-      "Pominięcie konfliktu"
+      "Wstrzymanie leczenia do porozumienia rodziców traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pominięcie konfliktu w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -692,10 +692,10 @@
     "id": 54,
     "question": "Pacjent z lękiem zdrowotnym wielokrotnie korzysta z SOR mimo prawidłowych wyników. Co jest kluczowe terapeutycznie?",
     "options": [
-      "Nasilenie diagnostyki doraźnej",
+      "Nasilenie diagnostyki doraźnej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Plan ograniczania zachowań upewniających i praca poznawcza",
-      "Zakaz kontaktu z lekarzami",
-      "Brak psychoedukacji"
+      "Zakaz kontaktu z lekarzami rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Brak psychoedukacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -705,10 +705,10 @@
     "id": 55,
     "question": "Osoba po epizodzie psychotycznym wraca do pracy i zgłasza przeciążenie bodźcami. Najlepsze zalecenie:",
     "options": [
-      "Natychmiastowy pełen etat",
+      "Natychmiastowy pełen etat ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Stopniowany powrót i trening rozpoznawania sygnałów nawrotu",
-      "Całkowita izolacja społeczna",
-      "Głównie farmakoterapia bez psychoedukacji"
+      "Całkowita izolacja społeczna rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Głównie farmakoterapia bez psychoedukacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -718,10 +718,10 @@
     "id": 56,
     "question": "Pacjentka z rozpoznaniem BPD i PTSD doświadcza częstych kryzysów po ekspozycjach traumowych. Najbardziej adekwatna modyfikacja planu:",
     "options": [
-      "Zwiększyć intensywność ekspozycji",
+      "Zwiększyć intensywność ekspozycji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Wrócić do fazy stabilizacji, regulacji emocji i dopiero potem kontynuować przetwarzanie",
-      "Przerwać terapię definitywnie",
-      "Skupić się głównie na farmakologii"
+      "Przerwać terapię definitywnie w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Skupić się głównie na farmakologii w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -731,10 +731,10 @@
     "id": 57,
     "question": "Pacjent z OCD i depresją ma wysoką bierność oraz unika ERP przez perfekcjonizm. Co najlepiej wdrożyć na starcie?",
     "options": [
-      "Samo ERP bez przygotowania",
+      "Samo ERP bez przygotowania rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Interwencje aktywizujące i praca motywacyjna jako pomost do ERP",
-      "Zamknięcie terapii",
-      "Głównie monitoring nastroju"
+      "Zamknięcie terapii w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Głównie monitoring nastroju w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -744,10 +744,10 @@
     "id": 58,
     "question": "U pacjentki po porodzie występuje bezsenność, pobudzenie, gonitwa myśli i drażliwość. Najpilniejsze różnicowanie:",
     "options": [
-      "Depresja jednobiegunowa",
+      "Depresja jednobiegunowa rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Epizod maniakalny/hipomaniakalny w okresie poporodowym",
-      "Głównie zaburzenie lękowe",
-      "Reakcja adaptacyjna"
+      "Głównie zaburzenie lękowe ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Reakcja adaptacyjna rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -757,10 +757,10 @@
     "id": 59,
     "question": "Pacjent z historią urazów dziecięcych ujawnia wspomnienia fragmentaryczne i silny wstyd. Najbardziej adekwatna postawa terapeuty:",
     "options": [
-      "Nacisk na pełną rekonstrukcję wspomnień",
+      "Nacisk na pełną rekonstrukcję wspomnień w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Praca na tolerancji afektu, stabilizacji i ostrożnym znaczeniu narracyjnym",
-      "Podważanie wiarygodności relacji",
-      "Unikanie tematu traumy"
+      "Podważanie wiarygodności relacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Unikanie tematu traumy stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -770,10 +770,10 @@
     "id": 60,
     "question": "Pacjent z chorobą afektywną dwubiegunową planuje odstawić leki po poprawie. Najbardziej efektywna interwencja psychologiczna:",
     "options": [
-      "Akceptacja decyzji bez rozmowy",
+      "Akceptacja decyzji bez rozmowy traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Decyzja wspólna: psychoedukacja nawrotów, plan wczesnych sygnałów i konsultacja z psychiatrą",
-      "Straszenie konsekwencjami",
-      "Zakończenie terapii"
+      "Straszenie konsekwencjami ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Zakończenie terapii w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,

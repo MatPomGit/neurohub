@@ -3,10 +3,10 @@
     "id": 1,
     "question": "Który model motywacji zakłada, że autonomia, kompetencja i relacyjność są podstawowymi potrzebami psychologicznymi?",
     "options": [
-      "Teoria oczekiwań Vrooma",
+      "Teoria oczekiwań Vrooma rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Teoria autodeterminacji (SDT)",
-      "Dwuczynnikowa teoria Herzberga",
-      "Teoria sprawiedliwości Adamsa"
+      "Dwuczynnikowa teoria Herzberga traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Teoria sprawiedliwości Adamsa w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -16,10 +16,10 @@
     "id": 2,
     "question": "Wypalenie zawodowe najczęściej obejmuje triadę:",
     "options": [
-      "Nuda, bezsenność, nadmierna aktywność",
+      "Nuda, bezsenność, nadmierna aktywność stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Wyczerpanie emocjonalne, depersonalizacja/cynizm, obniżone poczucie dokonań",
-      "Lęk, mania, amnezja",
-      "Spadek IQ, anhedonia, bezsenność"
+      "Lęk, mania, amnezja w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Spadek IQ, anhedonia, bezsenność rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -29,10 +29,10 @@
     "id": 3,
     "question": "Ocena 360° w organizacji polega na:",
     "options": [
-      "Ocena pracownika tylko przez przełożonego",
+      "Ocena pracownika tylko przez przełożonego stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Zbieraniu informacji zwrotnej z wielu źródeł (przełożeni, współpracownicy, podwładni, samoocena)",
-      "Losowym przydziale awansów",
-      "Badaniu satysfakcji klientów głównie ankietą online"
+      "Losowym przydziale awansów w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Badaniu satysfakcji klientów głównie ankietą online traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -42,10 +42,10 @@
     "id": 4,
     "question": "Psychologiczne bezpieczeństwo w zespole oznacza, że:",
     "options": [
-      "Nie wolno krytykować pomysłów",
+      "Nie wolno krytykować pomysłów w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Członkowie mogą zgłaszać wątpliwości i błędy bez lęku przed upokorzeniem",
-      "Wszystkie decyzje podejmuje lider",
-      "Unika się konfliktów za wszelką cenę"
+      "Wszystkie decyzje podejmuje lider rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Unika się konfliktów za wszelką cenę stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -55,10 +55,10 @@
     "id": 5,
     "question": "Który wskaźnik najlepiej opisuje rotację pracowników?",
     "options": [
-      "Absencja chorobowa",
+      "Absencja chorobowa traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Odsetek osób opuszczających organizację w określonym czasie",
-      "Średnia wieku zespołu",
-      "Liczba szkoleń rocznych"
+      "Średnia wieku zespołu traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Liczba szkoleń rocznych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -68,10 +68,10 @@
     "id": 6,
     "question": "Job crafting to:",
     "options": [
-      "Formalna zmiana stanowiska przez dział HR",
+      "Formalna zmiana stanowiska przez dział HR traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Aktywne modyfikowanie sposobu wykonywania pracy przez pracownika, aby zwiększyć sens i dopasowanie",
-      "Redukcja etatu przez pracodawcę",
-      "Automatyzacja wszystkich procesów"
+      "Redukcja etatu przez pracodawcę w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Automatyzacja wszystkich procesów traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -81,10 +81,10 @@
     "id": 7,
     "question": "W modelu JD-R wysokie wymagania pracy bez zasobów zwykle prowadzą do:",
     "options": [
-      "Wzrostu zaangażowania",
+      "Wzrostu zaangażowania ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Przeciążenia i ryzyka wypalenia",
-      "Natychmiastowej poprawy efektywności",
-      "Spadku odpowiedzialności zawodowej"
+      "Natychmiastowej poprawy efektywności traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Spadku odpowiedzialności zawodowej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -94,10 +94,10 @@
     "id": 8,
     "question": "Która praktyka najczęściej zwiększa trafność selekcji kandydatów?",
     "options": [
-      "Niestrukturalizowana rozmowa rekrutacyjna",
+      "Niestrukturalizowana rozmowa rekrutacyjna ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Strukturalny wywiad kompetencyjny i standaryzowane kryteria",
-      "Decyzja oparta na pierwszym wrażeniu",
-      "Testowanie tylko umiejętności technicznych"
+      "Decyzja oparta na pierwszym wrażeniu stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Testowanie tylko umiejętności technicznych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -107,10 +107,10 @@
     "id": 9,
     "question": "Konflikt zadaniowy w zespole może być konstruktywny, jeśli:",
     "options": [
-      "Przeradza się w konflikt personalny",
+      "Przeradza się w konflikt personalny ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Dotyczy sposobu realizacji celu i jest moderowany komunikacyjnie",
-      "Jest tłumiony przez lidera",
-      "Eliminuje różnice zdań"
+      "Jest tłumiony przez lidera rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Eliminuje różnice zdań stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -120,10 +120,10 @@
     "id": 10,
     "question": "Który styl przywództwa koncentruje się na rozwijaniu autonomii i sensu pracy pracowników?",
     "options": [
-      "Autokratyczny",
+      "Autokratyczny traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Transformacyjny",
-      "Laissez-faire bez wsparcia",
-      "Transakcyjny oparty głównie na karach"
+      "Laissez-faire bez wsparcia w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Transakcyjny oparty głównie na karach ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -133,10 +133,10 @@
     "id": 11,
     "question": "Który wskaźnik najlepiej odzwierciedla zaangażowanie pracowników?",
     "options": [
-      "Liczba e-maili dziennie",
+      "Liczba e-maili dziennie stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Połączenie energii, oddania i absorpcji zadaniowej",
-      "Średnia długość spotkań",
-      "Liczba raportów kwartalnych"
+      "Średnia długość spotkań stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Liczba raportów kwartalnych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -146,10 +146,10 @@
     "id": 12,
     "question": "W onboarding'u najbardziej efektywne jest:",
     "options": [
-      "Brak opiekuna wdrożenia",
+      "Brak opiekuna wdrożenia w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Plan 30-60-90 dni z celami i feedbackiem",
-      "Głównie przekazanie regulaminu",
-      "Ocena nowej osoby po pierwszym dniu"
+      "Głównie przekazanie regulaminu w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Ocena nowej osoby po pierwszym dniu w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -159,10 +159,10 @@
     "id": 13,
     "question": "Efekt halo w ocenie pracowniczej polega na:",
     "options": [
-      "Losowym przypisywaniu ocen",
+      "Losowym przypisywaniu ocen w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Uogólnianiu jednego silnego wrażenia na całą ocenę",
-      "Nadmiernej surowości wszystkich ocen",
-      "Braku pamięci o wynikach"
+      "Nadmiernej surowości wszystkich ocen rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Braku pamięci o wynikach stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -172,10 +172,10 @@
     "id": 14,
     "question": "Które działanie najlepiej wspiera dobrostan psychiczny zespołu?",
     "options": [
-      "Stała dostępność po godzinach",
+      "Stała dostępność po godzinach rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Jasne granice pracy, odpoczynek i kultura wsparcia",
-      "Unikanie feedbacku",
-      "Rywalizacja bez zasad"
+      "Unikanie feedbacku rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Rywalizacja bez zasad stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -185,10 +185,10 @@
     "id": 15,
     "question": "W analizie stanowiska pracy kluczowe jest:",
     "options": [
-      "Ocena preferencji kierownika",
+      "Ocena preferencji kierownika w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Opis zadań, kompetencji i warunków wykonywania pracy",
-      "Głównie analiza płac",
-      "Ograniczenie do historii firmy"
+      "Głównie analiza płac stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Ograniczenie do historii firmy w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -198,10 +198,10 @@
     "id": 16,
     "question": "Koncepcja person-job fit odnosi się do:",
     "options": [
-      "Dopasowania koloru biura do marki",
+      "Dopasowania koloru biura do marki stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Dopasowania kompetencji i potrzeb osoby do wymagań stanowiska",
-      "Liczby godzin pracy",
-      "Stylu ubioru"
+      "Liczby godzin pracy traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Stylu ubioru stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -211,10 +211,10 @@
     "id": 17,
     "question": "Który typ celu wg teorii goal-setting zwykle zwiększa wykonanie?",
     "options": [
-      "Cel niejasny i odległy",
+      "Cel niejasny i odległy ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Cel konkretny, ambitny i akceptowany",
-      "Cel narzucony bez informacji zwrotnej",
-      "Cel bez mierników"
+      "Cel narzucony bez informacji zwrotnej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Cel bez mierników ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -224,10 +224,10 @@
     "id": 18,
     "question": "W pracy zdalnej ryzyko technostresu ogranicza:",
     "options": [
-      "Stałe powiadomienia 24/7",
+      "Stałe powiadomienia 24/7 w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Jasna polityka komunikacji i higiena cyfrowa",
-      "Brak przerw ekranowych",
-      "Nieograniczona liczba narzędzi"
+      "Brak przerw ekranowych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Nieograniczona liczba narzędzi traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -237,10 +237,10 @@
     "id": 19,
     "question": "Sprawiedliwość organizacyjna proceduralna dotyczy:",
     "options": [
-      "Wysokości premii",
+      "Wysokości premii traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Postrzeganej uczciwości procesu podejmowania decyzji",
-      "Głównie relacji koleżeńskich",
-      "Estetyki miejsca pracy"
+      "Głównie relacji koleżeńskich traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Estetyki miejsca pracy w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -250,10 +250,10 @@
     "id": 20,
     "question": "Który styl feedbacku najczęściej sprzyja rozwojowi?",
     "options": [
-      "Ocena globalna bez przykładów",
+      "Ocena globalna bez przykładów rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Feedback oparty na konkretnych zachowaniach, skutkach i planie poprawy",
-      "Krytyka personalna",
-      "Brak informacji zwrotnej"
+      "Krytyka personalna stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Brak informacji zwrotnej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -264,9 +264,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 1)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -277,9 +277,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 2)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -290,9 +290,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 3)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -303,9 +303,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 4)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -316,9 +316,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 5)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -329,9 +329,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 6)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -342,9 +342,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 7)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -355,9 +355,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 8)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -368,9 +368,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 9)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -381,9 +381,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 10)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Podejmowanie działań bez dokumentacji i ewaluacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -394,9 +394,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 11)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -407,9 +407,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 12)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -420,9 +420,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 13)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -433,9 +433,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 14)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -446,9 +446,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 15)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -459,9 +459,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 16)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -472,9 +472,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 17)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -485,9 +485,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 18)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Podejmowanie działań bez dokumentacji i ewaluacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -498,9 +498,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 19)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -511,9 +511,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii pracy i organizacji? (pytanie uzupełniające 20)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 3,

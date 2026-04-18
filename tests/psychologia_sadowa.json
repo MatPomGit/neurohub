@@ -3,10 +3,10 @@
     "id": 1,
     "question": "Głównym zadaniem opinii psychologicznej w sprawach sądowych jest:",
     "options": [
-      "Prowadzenie terapii długoterminowej",
+      "Prowadzenie terapii długoterminowej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Dostarczenie sądowi rzetelnej oceny psychologicznej odpowiadającej na pytania procesowe",
-      "Zastąpienie decyzji sędziego",
-      "Rozstrzygnięcie sporu mediacyjnego"
+      "Zastąpienie decyzji sędziego ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Rozstrzygnięcie sporu mediacyjnego traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -16,10 +16,10 @@
     "id": 2,
     "question": "W psychologii zeznań największe ryzyko zniekształceń pamięci zwiększa:",
     "options": [
-      "Neutralne pytanie otwarte",
+      "Neutralne pytanie otwarte ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Sugestywne pytanie z presupozycją",
-      "Czas reakcji poniżej 1 sekundy",
-      "Badanie w obecności adwokata"
+      "Czas reakcji poniżej 1 sekundy traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Badanie w obecności adwokata traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -29,10 +29,10 @@
     "id": 3,
     "question": "Kompetencja biegłego wymaga przede wszystkim:",
     "options": [
-      "Głównie ukończenia studiów psychologicznych",
+      "Głównie ukończenia studiów psychologicznych rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Aktualnej wiedzy specjalistycznej, metodologicznej i etycznej adekwatnej do sprawy",
-      "Doświadczenia życiowego bez dokumentacji",
-      "Zgody stron postępowania"
+      "Doświadczenia życiowego bez dokumentacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Zgody stron postępowania w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -42,10 +42,10 @@
     "id": 4,
     "question": "W ocenie wiarygodności zeznań dziecka należy szczególnie unikać:",
     "options": [
-      "Pytań otwartych",
+      "Pytań otwartych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Powtarzania pytań sugerujących jedną wersję zdarzeń",
-      "Rejestracji audiowideo wywiadu",
-      "Dostosowania języka do wieku"
+      "Rejestracji audiowideo wywiadu w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Dostosowania języka do wieku w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -55,10 +55,10 @@
     "id": 5,
     "question": "Pojęcie poczytalności w kontekście psychologicznym odnosi się do:",
     "options": [
-      "Poziomu wykształcenia oskarżonego",
+      "Poziomu wykształcenia oskarżonego w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Zdolności rozpoznania znaczenia czynu i pokierowania swoim postępowaniem",
-      "Skłonności do kłamstwa",
-      "Stylu przywiązania"
+      "Skłonności do kłamstwa stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Stylu przywiązania w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -68,10 +68,10 @@
     "id": 6,
     "question": "Który błąd jest częsty w interpretacji testów w opiniowaniu sądowym?",
     "options": [
-      "Opis ograniczeń metod",
+      "Opis ograniczeń metod w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Nadmierna pewność wniosków przy niejednoznacznych danych",
-      "Triangulacja źródeł",
-      "Wskazanie alternatywnych hipotez"
+      "Triangulacja źródeł w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Wskazanie alternatywnych hipotez traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -81,10 +81,10 @@
     "id": 7,
     "question": "W pracy biegłego konflikt ról pojawia się, gdy psycholog:",
     "options": [
-      "Stosuje więcej niż jedną metodę diagnostyczną",
+      "Stosuje więcej niż jedną metodę diagnostyczną ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Łączy rolę terapeuty i biegłego wobec tej samej osoby",
-      "Konsultuje opinię z superwizorem",
-      "Korzysta z literatury naukowej"
+      "Konsultuje opinię z superwizorem stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Korzysta z literatury naukowej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -94,10 +94,10 @@
     "id": 8,
     "question": "Ocena ryzyka przemocy oparta na narzędziach aktuarialnych i klinicznych ma na celu:",
     "options": [
-      "Przewidzenie zachowania ze wysoką pewnością",
+      "Przewidzenie zachowania ze wysoką pewnością stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Oszacowanie prawdopodobieństwa i czynników ryzyka/protekcyjnych",
-      "Zastąpienie decyzji organu procesowego",
-      "Ustalenie kary"
+      "Zastąpienie decyzji organu procesowego traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Ustalenie kary stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -107,10 +107,10 @@
     "id": 9,
     "question": "Dlaczego dokumentowanie przebiegu badania biegłego jest kluczowe?",
     "options": [
-      "Ponieważ skraca czas rozprawy",
+      "Ponieważ skraca czas rozprawy stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Zapewnia przejrzystość, możliwość kontroli metod i odtwarzalność wnioskowania",
-      "Zastępuje wywiad",
-      "Umożliwia rezygnację z uzasadnienia opinii"
+      "Zastępuje wywiad w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Umożliwia rezygnację z uzasadnienia opinii traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -120,10 +120,10 @@
     "id": 10,
     "question": "W przypadku ograniczeń danych biegły powinien:",
     "options": [
-      "Ukryć niepewność, by nie osłabiać opinii",
+      "Ukryć niepewność, by nie osłabiać opinii w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Jawnie opisać ograniczenia i zakres możliwych wniosków",
-      "Odmówić każdej opinii niezależnie od kontekstu",
-      "Przeprowadzić głównie test samoopisowy"
+      "Odmówić każdej opinii niezależnie od kontekstu ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Przeprowadzić głównie test samoopisowy ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -133,10 +133,10 @@
     "id": 11,
     "question": "W kontekście przesłuchań dzieci standard NICHD promuje przede wszystkim:",
     "options": [
-      "Pytania sugerujące i zamknięte",
+      "Pytania sugerujące i zamknięte ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Pytania otwarte i minimalizację sugestii",
-      "Konfrontację ze sprawcą",
-      "Głównie pytania o daty"
+      "Konfrontację ze sprawcą ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Głównie pytania o daty w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -146,10 +146,10 @@
     "id": 12,
     "question": "Która praktyka najlepiej wspiera bezstronność biegłego?",
     "options": [
-      "Przyjmowanie jednej hipotezy od początku",
+      "Przyjmowanie jednej hipotezy od początku ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Formułowanie hipotez alternatywnych i ich systematyczna weryfikacja",
-      "Konsultacja tylko ze stroną zlecającą",
-      "Pomijanie danych niespójnych"
+      "Konsultacja tylko ze stroną zlecającą traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie danych niespójnych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -159,10 +159,10 @@
     "id": 13,
     "question": "W opiniowaniu rodzinnym pojęcie dobro dziecka oznacza:",
     "options": [
-      "Głównie preferencję jednego z rodziców",
+      "Głównie preferencję jednego z rodziców stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Wielowymiarową ocenę bezpieczeństwa, więzi i potrzeb rozwojowych",
-      "Szybkie zakończenie postępowania",
-      "Brak kontaktu z otoczeniem dziecka"
+      "Szybkie zakończenie postępowania w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Brak kontaktu z otoczeniem dziecka rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -172,10 +172,10 @@
     "id": 14,
     "question": "Fałszywe przyznanie się do winy może być nasilane przez:",
     "options": [
-      "Neutralny styl przesłuchania",
+      "Neutralny styl przesłuchania ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Długotrwały nacisk i dezinformację",
-      "Wysoką jakość obrońcy",
-      "Dokładne pouczenie prawne"
+      "Wysoką jakość obrońcy rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Dokładne pouczenie prawne rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -185,10 +185,10 @@
     "id": 15,
     "question": "W psychologii świadków pamięć epizodyczna jest:",
     "options": [
-      "Dosłownym zapisem jak kamera",
+      "Dosłownym zapisem jak kamera rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Podatna na rekonstrukcję i wpływ kontekstu",
-      "Niezależna od emocji",
-      "Stała w czasie"
+      "Niezależna od emocji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Stała w czasie traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -198,10 +198,10 @@
     "id": 16,
     "question": "Dlaczego ważne jest oddzielenie faktów od interpretacji w opinii?",
     "options": [
-      "By skrócić dokument",
+      "By skrócić dokument ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "By umożliwić sądowi ocenę podstaw wnioskowania",
-      "By ukryć niepewność",
-      "By zastąpić uzasadnienie"
+      "By ukryć niepewność w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "By zastąpić uzasadnienie stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -211,10 +211,10 @@
     "id": 17,
     "question": "Wysoka zgodność międzybiegłych (inter-rater reliability) oznacza:",
     "options": [
-      "Identyczne poglądy etyczne",
+      "Identyczne poglądy etyczne traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Spójność ocen niezależnych ekspertów",
-      "Brak potrzeby danych empirycznych",
-      "Często trafność kliniczną"
+      "Brak potrzeby danych empirycznych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Często trafność kliniczną traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -224,10 +224,10 @@
     "id": 18,
     "question": "W opinii dotyczącej przemocy domowej istotne jest:",
     "options": [
-      "Koncentrowanie się na pojedynczym incydencie",
+      "Koncentrowanie się na pojedynczym incydencie ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Analiza wzorca zachowań, dynamiki kontroli i czynników ryzyka",
-      "Głównie analiza dokumentów sądowych",
-      "Pomijanie perspektywy ofiary"
+      "Głównie analiza dokumentów sądowych stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie perspektywy ofiary rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -237,10 +237,10 @@
     "id": 19,
     "question": "Które działanie zmniejsza ryzyko wtórnej wiktymizacji?",
     "options": [
-      "Wielokrotne przesłuchania bez potrzeby",
+      "Wielokrotne przesłuchania bez potrzeby stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Koordynacja procedur i ograniczenie powtórnych ekspozycji na traumę",
-      "Brak informacji o prawach osoby",
-      "Konfrontacyjne pytania"
+      "Brak informacji o prawach osoby stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Konfrontacyjne pytania ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -250,10 +250,10 @@
     "id": 20,
     "question": "Granice kompetencji biegłego wymagają, aby:",
     "options": [
-      "Wypowiadał się o każdej dziedzinie sprawy",
+      "Wypowiadał się o każdej dziedzinie sprawy rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Ograniczał wnioski do obszaru własnej specjalizacji i danych",
-      "Decydował o wyroku",
-      "Pomijał literaturę"
+      "Decydował o wyroku rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pomijał literaturę w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -264,9 +264,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 1)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -277,9 +277,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 2)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -290,9 +290,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 3)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -303,9 +303,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 4)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -316,9 +316,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 5)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -329,9 +329,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 6)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -342,9 +342,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 7)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -355,9 +355,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 8)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -368,9 +368,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 9)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -381,9 +381,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 10)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -394,9 +394,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 11)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -407,9 +407,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 12)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pomijanie informacji zwrotnych od osoby badanej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Podejmowanie działań bez dokumentacji i ewaluacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -420,9 +420,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 13)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -433,9 +433,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 14)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -446,9 +446,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 15)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -459,9 +459,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 16)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -472,9 +472,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 17)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -485,9 +485,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 18)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -498,9 +498,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 19)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -511,9 +511,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii sądowej? (pytanie uzupełniające 20)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 3,

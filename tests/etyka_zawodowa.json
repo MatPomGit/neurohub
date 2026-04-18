@@ -3,9 +3,9 @@
     "id": 1,
     "question": "Kodeks Etyczno-Zawodowy Psychologa PTP (Polskie Towarzystwo Psychologiczne) dzieli się na cztery obszary regulacji. Który z poniższych NIE jest jednym z nich?",
     "options": [
-      "Relacja z klientem",
-      "Kompetencje zawodowe",
-      "Badania i diagnostyka",
+      "Relacja z klientem w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Kompetencje zawodowe rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Badania i diagnostyka rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Wynagrodzenie i warunki pracy"
     ],
     "correct": 3,
@@ -16,10 +16,10 @@
     "id": 2,
     "question": "Zasada 'non nocere' (nieszkodzenia) w etyce psychologicznej oznacza:",
     "options": [
-      "Obowiązek działania głównie na rzecz dobra klienta z pominięciem własnych interesów",
+      "Obowiązek działania głównie na rzecz dobra klienta z pominięciem własnych interesów w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Zobowiązanie do unikania działań, które mogłyby wyrządzić szkodę klientowi lub innym osobom",
-      "Zakaz stosowania metod niepotwierdzonych empirycznie",
-      "Konieczność ujawniania tajemnicy zawodowej w przypadku zagrożenia"
+      "Zakaz stosowania metod niepotwierdzonych empirycznie ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Konieczność ujawniania tajemnicy zawodowej w przypadku zagrożenia rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -29,10 +29,10 @@
     "id": 3,
     "question": "Świadoma zgoda (informed consent) wymaga, aby klient był poinformowany o:",
     "options": [
-      "Głównie czasie trwania i koszcie terapii",
-      "Głównie diagnozie, bez planu terapii",
+      "Głównie czasie trwania i koszcie terapii ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Głównie diagnozie, bez planu terapii w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Celu, metodach, ryzyku, korzyściach i warunkach poufności przed rozpoczęciem interwencji",
-      "Zarobkach i kwalifikacjach psychologa"
+      "Zarobkach i kwalifikacjach psychologa ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -42,10 +42,10 @@
     "id": 4,
     "question": "Tajemnica zawodowa psychologa ma granice. Zgodnie z zasadami etycznymi, należy ją złamać, gdy:",
     "options": [
-      "Klient prosi psychologa o kontakt z jego rodziną",
-      "Rodzina klienta żąda informacji o przebiegu terapii",
+      "Klient prosi psychologa o kontakt z jego rodziną rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Rodzina klienta żąda informacji o przebiegu terapii ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Istnieje bezpośrednie i poważne zagrożenie życia — klienta lub innych osób",
-      "Ubezpieczyciel żąda pełnej dokumentacji terapeutycznej"
+      "Ubezpieczyciel żąda pełnej dokumentacji terapeutycznej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -55,10 +55,10 @@
     "id": 5,
     "question": "Podwójna rola (dual relationship) w praktyce psychologicznej oznacza sytuację, gdy:",
     "options": [
-      "Psycholog pracuje z dwoma terapeutami jednocześnie w superwizji",
-      "Psycholog prowadzi terapię indywidualną i grupową z tym samym klientem",
+      "Psycholog pracuje z dwoma terapeutami jednocześnie w superwizji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Psycholog prowadzi terapię indywidualną i grupową z tym samym klientem w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Psycholog ma z klientem zarówno relację profesjonalną, jak i prywatną (np. przyjacielską, biznesową)",
-      "Klient uczestniczy w dwóch różnych podejściach terapeutycznych"
+      "Klient uczestniczy w dwóch różnych podejściach terapeutycznych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -68,10 +68,10 @@
     "id": 6,
     "question": "Zasada autonomii klienta w etyce psychologicznej głosi, że:",
     "options": [
-      "Psycholog samodzielnie decyduje o metodach terapii bez informowania klienta",
+      "Psycholog samodzielnie decyduje o metodach terapii bez informowania klienta rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Klient ma prawo do samookreślenia i decydowania o własnym życiu; psycholog szanuje jego decyzje",
-      "Psycholog może narzucić klientowi plan terapii dla jego dobra",
-      "Klient nie powinien przerywać terapii bez zgody psychologa"
+      "Psycholog może narzucić klientowi plan terapii dla jego dobra w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Klient nie powinien przerywać terapii bez zgody psychologa rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -81,10 +81,10 @@
     "id": 7,
     "question": "Superwizja w psychoterapii i pracy psychologicznej służy przede wszystkim:",
     "options": [
-      "Kontroli czasu pracy i efektywności psychologa przez pracodawcę",
+      "Kontroli czasu pracy i efektywności psychologa przez pracodawcę rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Wsparciu zawodowemu, refleksji nad pracą z klientami, zapewnieniu jakości terapii i ochronie klienta",
-      "Administracyjnemu nadzorowi nad wydatkami gabinetu",
-      "Głównie szkoleniu psychologów stażystów"
+      "Administracyjnemu nadzorowi nad wydatkami gabinetu ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Głównie szkoleniu psychologów stażystów rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -94,10 +94,10 @@
     "id": 8,
     "question": "Które z poniższych stwierdzeń dotyczących kompetencji zawodowych psychologa jest prawidłowe?",
     "options": [
-      "Posiadanie dyplomu magistra psychologii uprawnia do pracy w wielu obszarze psychologii bez ograniczeń",
+      "Posiadanie dyplomu magistra psychologii uprawnia do pracy w wielu obszarze psychologii bez ograniczeń ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Psycholog powinien pracować wyłącznie w obszarach, w których posiada odpowiednie przeszkolenie i kompetencje",
-      "Psycholog nie musi aktualizować wiedzy po ukończeniu studiów",
-      "Kompetencje są stałe i nie wymagają regularnej weryfikacji"
+      "Psycholog nie musi aktualizować wiedzy po ukończeniu studiów w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Kompetencje są stałe i nie wymagają regularnej weryfikacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -107,10 +107,10 @@
     "id": 9,
     "question": "Etyczny zakaz relacji seksualnych z klientem obowiązuje:",
     "options": [
-      "Tylko w czasie aktywnej terapii; po zakończeniu relacja jest dozwolona",
-      "Głównie w terapii psychodynamicznej",
+      "Tylko w czasie aktywnej terapii; po zakończeniu relacja jest dozwolona rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Głównie w terapii psychodynamicznej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Zawsze — zarówno w trakcie terapii, jak i po jej zakończeniu (choć standardy dotyczące okresu po zakończeniu mogą się różnić w kodeksach)",
-      "Tylko gdy klient jest osobą małoletnią"
+      "Tylko gdy klient jest osobą małoletnią rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -120,10 +120,10 @@
     "id": 10,
     "question": "Zasada 'dobroczynności' (beneficence) w etyce psychologicznej oznacza:",
     "options": [
-      "Nieuczestniczenie w działaniach mogących zaszkodzić klientowi",
+      "Nieuczestniczenie w działaniach mogących zaszkodzić klientowi stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Aktywne działanie na rzecz dobra i poprawy dobrostanu klienta",
-      "Zachowanie poufności w każdych okolicznościach",
-      "Świadczenie usług psychologicznych bez wynagrodzenia dla potrzebujących"
+      "Zachowanie poufności w każdych okolicznościach stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Świadczenie usług psychologicznych bez wynagrodzenia dla potrzebujących w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -133,10 +133,10 @@
     "id": 11,
     "question": "Kodeks etyczny APA (American Psychological Association) reguluje obszary takie jak: kompetencje, relacje ludzkie, prywatność, badania i diagnostyka. Ile standardów etycznych egzekwowanych (Enforceable Standards) zawiera kodeks APA?",
     "options": [
-      "5",
+      "5 traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "10",
-      "15",
-      "20"
+      "15 traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "20 stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -146,10 +146,10 @@
     "id": 12,
     "question": "Obligacja 'pro bono' w psychologii oznacza:",
     "options": [
-      "Obowiązek rejestrowania wszystkich sesji wideo",
+      "Obowiązek rejestrowania wszystkich sesji wideo w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Przeznaczanie części czasu zawodowego na pomoc osobom nieposiadającym środków na leczenie",
-      "Zakaz reklamy usług psychologicznych",
-      "Konieczność superwizji dla wszystkich psychologów klinicznych"
+      "Zakaz reklamy usług psychologicznych stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Konieczność superwizji dla wszystkich psychologów klinicznych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -159,10 +159,10 @@
     "id": 13,
     "question": "Psycholog otrzymuje prośbę sądu o ujawnienie akt terapeutycznych klienta. Według zasad etycznych powinien:",
     "options": [
-      "Natychmiast przekazać wszystkie dokumenty bez informowania klienta",
-      "Odmówić w każdych okolicznościach, powołując się na tajemnicę zawodową",
+      "Natychmiast przekazać wszystkie dokumenty bez informowania klienta w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Odmówić w każdych okolicznościach, powołując się na tajemnicę zawodową traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Poinformować klienta, omówić kwestię z prawnikiem i ujawnić tylko to, co jest prawnie wymagane",
-      "Zaprzestać pracy z klientem, aby uniknąć konfliktu interesów"
+      "Zaprzestać pracy z klientem, aby uniknąć konfliktu interesów traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 2,
     "difficulty": 2,
@@ -172,10 +172,10 @@
     "id": 14,
     "question": "Zasada 'sprawiedliwości' (justice) w etyce psychologicznej oznacza:",
     "options": [
-      "Obowiązek zeznawania w sądzie jako biegły",
+      "Obowiązek zeznawania w sądzie jako biegły stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Równe traktowanie wszystkich klientów bez dyskryminacji i uczciwy dostęp do pomocy psychologicznej",
-      "Stosowanie głównie metod opartych na dowodach naukowych",
-      "Ujawnianie informacji o klientach organom sprawiedliwości"
+      "Stosowanie głównie metod opartych na dowodach naukowych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Ujawnianie informacji o klientach organom sprawiedliwości stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -185,10 +185,10 @@
     "id": 15,
     "question": "Granice relacji terapeutycznej (therapeutic boundaries) chronią przede wszystkim:",
     "options": [
-      "Reputację zawodową psychologa",
+      "Reputację zawodową psychologa ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Bezpieczeństwo, zaufanie i dobro klienta, zapewniając ochronę przed nadużyciami władzy",
-      "Zyski finansowe gabinetu psychologicznego",
-      "Prawa pracodawcy psychologa"
+      "Zyski finansowe gabinetu psychologicznego ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Prawa pracodawcy psychologa w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -198,10 +198,10 @@
     "id": 16,
     "question": "Wypalenie zawodowe (burnout) u psychologów i terapeutów etycznie zobowiązuje ich do:",
     "options": [
-      "Zwiększenia liczby klientów, aby nadrobić zaległości",
-      "Utrzymywania pozorów sprawności zawodowej dla dobra klientów",
+      "Zwiększenia liczby klientów, aby nadrobić zaległości rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Utrzymywania pozorów sprawności zawodowej dla dobra klientów rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Dbania o własne zdrowie psychiczne, szukania pomocy i ograniczenia pracy jeśli wypalenie zagraża jakości świadczonych usług",
-      "Natychmiastowego zakończenia wszystkich terapii"
+      "Natychmiastowego zakończenia wszystkich terapii ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -211,10 +211,10 @@
     "id": 17,
     "question": "Kodeks EFPA (European Federation of Psychologists' Associations) jest:",
     "options": [
-      "Prawnie wiążącym dokumentem we wszystkich krajach UE",
+      "Prawnie wiążącym dokumentem we wszystkich krajach UE ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Meta-kodeksem stanowiącym wspólne ramy etyczne dla organizacji psychologicznych w Europie",
-      "Głównie kodeksem dotyczącym badań naukowych",
-      "Kodeksem opracowanym dla psychologów sądowych"
+      "Głównie kodeksem dotyczącym badań naukowych rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Kodeksem opracowanym dla psychologów sądowych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -224,10 +224,10 @@
     "id": 18,
     "question": "Konflikt interesów w pracy psychologa pojawia się, gdy:",
     "options": [
-      "Psycholog pracuje z klientem dłużej niż rok",
+      "Psycholog pracuje z klientem dłużej niż rok rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Osobiste, finansowe lub inne interesy psychologa mogą wpływać na jego obiektywność i działanie na rzecz dobra klienta",
-      "Klient i psycholog są tego samego wieku",
-      "Psycholog nie podziela wartości religijnych klienta"
+      "Klient i psycholog są tego samego wieku stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Psycholog nie podziela wartości religijnych klienta w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -238,9 +238,9 @@
     "question": "Etyczna zasada 'minimalnego naruszenia prywatności' przy diagnozowaniu oznacza:",
     "options": [
       "Zbieranie jak najmniejszej ilości danych osobowych koniecznych do celu diagnostycznego",
-      "Stosowanie głównie nieinwazyjnych metod obserwacyjnych",
-      "Unikanie pytań dotyczących historii rodzinnej",
-      "Prowadzenie diagnostyki głównie w środowisku klienta"
+      "Stosowanie głównie nieinwazyjnych metod obserwacyjnych stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Unikanie pytań dotyczących historii rodzinnej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Prowadzenie diagnostyki głównie w środowisku klienta w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -250,10 +250,10 @@
     "id": 20,
     "question": "Reklama usług psychologicznych w świetle kodeksów etycznych powinna być:",
     "options": [
-      "Zakazana we wszelkich formach",
+      "Zakazana we wszelkich formach stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Rzetelna i nieudzielająca fałszywych obietnic; nie może wprowadzać klientów w błąd co do kompetencji lub wyników",
-      "Dozwolona bez żadnych ograniczeń jako forma wolności gospodarczej",
-      "Obowiązkowa dla każdego praktykującego psychologa"
+      "Dozwolona bez żadnych ograniczeń jako forma wolności gospodarczej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Obowiązkowa dla każdego praktykującego psychologa w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -263,10 +263,10 @@
     "id": 21,
     "question": "Zasada 'integralności' (integrity) w etyce psychologicznej odnosi się do:",
     "options": [
-      "Fizycznej integralności klienta podczas badania",
+      "Fizycznej integralności klienta podczas badania w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Uczciwości, prawdomówności i unikania oszustwa, fałszerstwa i manipulacji w praktyce zawodowej",
-      "Integralności danych w bazach diagnostycznych",
-      "Niełączenia różnych podejść teoretycznych"
+      "Integralności danych w bazach diagnostycznych rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Niełączenia różnych podejść teoretycznych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -276,10 +276,10 @@
     "id": 22,
     "question": "Terapeuta ma klienta, który wyraźnie grozi śmiercią konkretnej osobie. Według reguły Tarasoffa psycholog ma obowiązek:",
     "options": [
-      "Utrzymać poufność i omówić zagrożenie na kolejnej sesji",
-      "Natychmiast zakończyć terapię z tym klientem",
+      "Utrzymać poufność i omówić zagrożenie na kolejnej sesji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Natychmiast zakończyć terapię z tym klientem rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Ostrzec osobę zagrożoną i/lub powiadomić właściwe organy",
-      "Skonsultować się z superwizorem i poczekać na jego decyzję"
+      "Skonsultować się z superwizorem i poczekać na jego decyzję traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 2,
     "difficulty": 2,
@@ -289,10 +289,10 @@
     "id": 23,
     "question": "Etyczne poszanowanie różnorodności kulturowej w pracy psychologa obejmuje:",
     "options": [
-      "Stosowanie standardowych procedur bez uwzględnienia kontekstu kulturowego",
+      "Stosowanie standardowych procedur bez uwzględnienia kontekstu kulturowego rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Świadomość własnych uprzedzeń kulturowych i dostosowywanie podejścia do kontekstu kulturowego klienta",
-      "Unikanie pracy z klientami z innych grup kulturowych",
-      "Tłumaczenie narzędzi diagnostycznych bez oceny ich trafności kulturowej"
+      "Unikanie pracy z klientami z innych grup kulturowych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Tłumaczenie narzędzi diagnostycznych bez oceny ich trafności kulturowej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -302,10 +302,10 @@
     "id": 24,
     "question": "Granice kompetencji (scope of practice) oznaczają, że psycholog:",
     "options": [
-      "Może pracować z wielu klientem niezależnie od specjalizacji",
+      "Może pracować z wielu klientem niezależnie od specjalizacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Powinien odsyłać klientów, których problemy wykraczają poza jego wykształcenie i kompetencje",
-      "Musi posiadać certyfikat we wszystkich podejściach psychoterapeutycznych",
-      "Jest zobowiązany do odmówienia pracy z klientami z zaburzeniami psychotycznymi"
+      "Musi posiadać certyfikat we wszystkich podejściach psychoterapeutycznych stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Jest zobowiązany do odmówienia pracy z klientami z zaburzeniami psychotycznymi traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -315,10 +315,10 @@
     "id": 25,
     "question": "Dokumentacja terapeutyczna (notatki, nagrania) należy do:",
     "options": [
-      "Głównie pracodawcy gabinetu",
-      "Zarówno klienta, jak i terapeuty na równych prawach",
+      "Głównie pracodawcy gabinetu ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Zarówno klienta, jak i terapeuty na równych prawach w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Klienta mającego prawo wglądu i ewentualnie terapeuty; dostęp osób trzecich wymaga zgody lub nakazu sądowego",
-      "Instytucji ubezpieczeniowej, która finansuje leczenie"
+      "Instytucji ubezpieczeniowej, która finansuje leczenie stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 2,
     "difficulty": 2,
@@ -328,10 +328,10 @@
     "id": 26,
     "question": "Psycholog prowadzący badania naukowe z udziałem ludzi ma obowiązek uzyskania zgody:",
     "options": [
-      "Głównie dyrektora instytucji zatrudniającej",
+      "Głównie dyrektora instytucji zatrudniającej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Komisji etycznej (IRB/KEP) oraz świadomej zgody uczestników",
-      "Ministerstwa Zdrowia",
-      "Tylko uczestników badania; komisja etyczna jest opcjonalna"
+      "Ministerstwa Zdrowia ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Tylko uczestników badania; komisja etyczna jest opcjonalna traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -341,10 +341,10 @@
     "id": 27,
     "question": "Pojęcie 'Autonomia terapeutyczna' (therapeutic autonomy) jest najlepiej rozumiane jako:",
     "options": [
-      "Prawo terapeuty do decydowania o metodach bez konsultacji z klientem",
+      "Prawo terapeuty do decydowania o metodach bez konsultacji z klientem rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Zdolność i prawo klienta do samodzielnego decydowania w sprawach dotyczących jego terapii i życia",
-      "Niezależność terapeuty od instytucji zatrudniającej",
-      "Prawo do prowadzenia prywatnej praktyki"
+      "Niezależność terapeuty od instytucji zatrudniającej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Prawo do prowadzenia prywatnej praktyki stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -354,10 +354,10 @@
     "id": 28,
     "question": "Terapeuta odkrywa, że czuje silną antypatię do klienta, co utrudnia terapię. Etycznie powinien:",
     "options": [
-      "Ukrywać swoje emocje i kontynuować terapię bez zmian",
-      "Natychmiast zakończyć terapię bez wyjaśnienia",
+      "Ukrywać swoje emocje i kontynuować terapię bez zmian stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Natychmiast zakończyć terapię bez wyjaśnienia rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Omówić temat w superwizji, a jeśli to konieczne — przenieść klienta do innego specjalisty",
-      "Ujawnić klientowi pełen zakres swoich negatywnych emocji"
+      "Ujawnić klientowi pełen zakres swoich negatywnych emocji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -367,10 +367,10 @@
     "id": 29,
     "question": "Zakończenie terapii (termination) jest procesem etycznym, który powinien obejmować:",
     "options": [
-      "Szybkie zaprzestanie kontaktu bez uprzedzenia",
+      "Szybkie zaprzestanie kontaktu bez uprzedzenia traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Planowe podsumowanie postępów, omówienie dalszego wsparcia i upewnienie się, że klient nie jest w kryzysie",
-      "Głównie wystawienie rachunku końcowego",
-      "Prośbę klienta o rekomendację"
+      "Głównie wystawienie rachunku końcowego stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Prośbę klienta o rekomendację w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -380,10 +380,10 @@
     "id": 30,
     "question": "Metaanaliza Wampolda (2001) wykazała, że efektywność psychoterapii zależy w dużej mierze od 'czynników wspólnych'. Które etyczne implikacje wynikają z tego odkrycia?",
     "options": [
-      "Terapeuci powinni stosować głównie terapię poznawczo-behawioralną",
+      "Terapeuci powinni stosować głównie terapię poznawczo-behawioralną traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Relacja terapeutyczna, empatia i sojusz terapeutyczny są etycznie niezbędnymi elementami praktyki",
-      "Wszyscy terapeuci osiągają identyczne wyniki niezależnie od kompetencji",
-      "Metody oparte na dowodach są zbędne wobec znaczenia relacji"
+      "Wszyscy terapeuci osiągają identyczne wyniki niezależnie od kompetencji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Metody oparte na dowodach są zbędne wobec znaczenia relacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -394,9 +394,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze etyki zawodowej psychologa? (pytanie uzupełniające 1)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -407,9 +407,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze etyki zawodowej psychologa? (pytanie uzupełniające 2)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -420,9 +420,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze etyki zawodowej psychologa? (pytanie uzupełniające 3)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -433,9 +433,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze etyki zawodowej psychologa? (pytanie uzupełniające 4)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -446,9 +446,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze etyki zawodowej psychologa? (pytanie uzupełniające 5)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -459,9 +459,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze etyki zawodowej psychologa? (pytanie uzupełniające 6)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -472,9 +472,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze etyki zawodowej psychologa? (pytanie uzupełniające 7)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -485,9 +485,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze etyki zawodowej psychologa? (pytanie uzupełniające 8)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -498,9 +498,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze etyki zawodowej psychologa? (pytanie uzupełniające 9)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -511,9 +511,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze etyki zawodowej psychologa? (pytanie uzupełniające 10)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 2,

@@ -4,9 +4,9 @@
     "question": "Która miara opisuje siłę liniowego związku między dwiema zmiennymi ilościowymi?",
     "options": [
       "Współczynnik korelacji Pearsona r",
-      "Test chi-kwadrat",
-      "Mediana",
-      "Wariancja wewnątrzgrupowa"
+      "Test chi-kwadrat traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Mediana traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Wariancja wewnątrzgrupowa traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -16,10 +16,10 @@
     "id": 2,
     "question": "Co oznacza poziom istotności α = 0,05?",
     "options": [
-      "Że hipoteza zerowa jest prawdziwa w 95%",
+      "Że hipoteza zerowa jest prawdziwa w 95% rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Dopuszczalne ryzyko błędu I rodzaju wynosi 5%",
-      "Że wynik jest klinicznie ważny",
-      "Że moc testu wynosi 95%"
+      "Że wynik jest klinicznie ważny ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Że moc testu wynosi 95% traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -29,10 +29,10 @@
     "id": 3,
     "question": "Wysoka moc testu statystycznego oznacza przede wszystkim:",
     "options": [
-      "Duże ryzyko błędu I rodzaju",
+      "Duże ryzyko błędu I rodzaju traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Dużą zdolność wykrycia efektu, gdy efekt istnieje",
-      "Brak potrzeby losowania próby",
-      "Brak znaczenia wielkości próby"
+      "Brak potrzeby losowania próby w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Brak znaczenia wielkości próby rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -42,10 +42,10 @@
     "id": 4,
     "question": "Które badanie najlepiej wspiera wnioskowanie przyczynowe?",
     "options": [
-      "Badanie przekrojowe",
-      "Studium przypadku",
+      "Badanie przekrojowe stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Studium przypadku ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Eksperyment z randomizacją",
-      "Analiza archiwalna"
+      "Analiza archiwalna stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -55,10 +55,10 @@
     "id": 5,
     "question": "Czym jest efekt wielkości (effect size)?",
     "options": [
-      "Liczbą uczestników badania",
+      "Liczbą uczestników badania stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Miara praktycznej siły zjawiska",
-      "Miara rzetelności kwestionariusza",
-      "Rodzajem rozkładu danych"
+      "Miara rzetelności kwestionariusza w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Rodzajem rozkładu danych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -68,10 +68,10 @@
     "id": 6,
     "question": "Który wskaźnik jest najczęściej używany do oceny zgodności między sędziami dla danych kategorialnych?",
     "options": [
-      "Alpha Cronbacha",
+      "Alpha Cronbacha stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Kappa Cohena",
-      "Test t-Studenta",
-      "R Pearsona"
+      "Test t-Studenta w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "R Pearsona w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -81,10 +81,10 @@
     "id": 7,
     "question": "W badaniu podłużnym największą trudnością metodologiczną bywa:",
     "options": [
-      "Brak możliwości pomiaru zmian w czasie",
+      "Brak możliwości pomiaru zmian w czasie w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Attrition, czyli odpływ uczestników",
-      "Zbyt duża liczba eksperymentatorów",
-      "Niemożność stosowania statystyki"
+      "Zbyt duża liczba eksperymentatorów w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Niemożność stosowania statystyki w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -94,10 +94,10 @@
     "id": 8,
     "question": "Które twierdzenie o rzetelności i trafności jest poprawne?",
     "options": [
-      "Test może być trafny mimo bardzo niskiej rzetelności",
+      "Test może być trafny mimo bardzo niskiej rzetelności ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Rzetelność jest warunkiem koniecznym, ale niewystarczającym trafności",
-      "Trafność i rzetelność to pojęcia tożsame",
-      "Rzetelność dotyczy głównie testów projekcyjnych"
+      "Trafność i rzetelność to pojęcia tożsame stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Rzetelność dotyczy głównie testów projekcyjnych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -107,10 +107,10 @@
     "id": 9,
     "question": "Co najtrafniej opisuje prerejestrację badania?",
     "options": [
-      "Publikację wyników po recenzji",
+      "Publikację wyników po recenzji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Wcześniejsze udokumentowanie hipotez i planu analiz",
-      "Usunięcie danych odstających",
-      "Losowe przypisanie badanych do grup"
+      "Usunięcie danych odstających rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Losowe przypisanie badanych do grup traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -120,10 +120,10 @@
     "id": 10,
     "question": "W metaanalizie heterogeniczność wyników badań oznacza:",
     "options": [
-      "Że wszystkie badania dają identyczny wynik",
+      "Że wszystkie badania dają identyczny wynik rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Zróżnicowanie efektów między badaniami",
-      "Brak istotności statystycznej",
-      "Błąd kodowania danych"
+      "Brak istotności statystycznej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Błąd kodowania danych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -133,10 +133,10 @@
     "id": 11,
     "question": "W badaniu korelacyjnym stwierdzono r = 0,00. Najtrafniejszy wniosek to:",
     "options": [
-      "Nie ma żadnej zależności między zmiennymi",
+      "Nie ma żadnej zależności między zmiennymi stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Brak zależności liniowej, ale możliwa zależność nieliniowa",
-      "Pomiar był nierzetelny",
-      "Hipoteza alternatywna jest potwierdzona"
+      "Pomiar był nierzetelny rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Hipoteza alternatywna jest potwierdzona w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -146,10 +146,10 @@
     "id": 12,
     "question": "Który schemat zwiększa trafność zewnętrzną badań interwencyjnych?",
     "options": [
-      "Głównie studenci jednego roku jako próba",
+      "Głównie studenci jednego roku jako próba rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Replikacje na różnych populacjach i kontekstach",
-      "Brak kryteriów wykluczenia",
-      "Analiza tylko jednej podgrupy"
+      "Brak kryteriów wykluczenia w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Analiza tylko jednej podgrupy w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -159,10 +159,10 @@
     "id": 13,
     "question": "Błąd II rodzaju (β) oznacza:",
     "options": [
-      "Odrzucenie prawdziwej hipotezy zerowej",
+      "Odrzucenie prawdziwej hipotezy zerowej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Nieodrzucenie fałszywej hipotezy zerowej",
-      "Naruszenie normalności rozkładu",
-      "Brak randomizacji"
+      "Naruszenie normalności rozkładu w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Brak randomizacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -172,10 +172,10 @@
     "id": 14,
     "question": "Która technika ogranicza ryzyko p-hackingu?",
     "options": [
-      "Wielokrotne testowanie aż do istotności",
+      "Wielokrotne testowanie aż do istotności rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Prerejestracja i jawny plan analiz",
-      "Usuwanie obserwacji odstających bez uzasadnienia",
-      "Zmiana hipotezy po analizie bez adnotacji"
+      "Usuwanie obserwacji odstających bez uzasadnienia w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Zmiana hipotezy po analizie bez adnotacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -185,10 +185,10 @@
     "id": 15,
     "question": "Wskaźnik IQR jest miarą:",
     "options": [
-      "Tendencji centralnej",
+      "Tendencji centralnej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Rozstępu międzykwartylowego i zmienności",
-      "Siły korelacji",
-      "Mocy statystycznej"
+      "Siły korelacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Mocy statystycznej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -198,10 +198,10 @@
     "id": 16,
     "question": "W badaniu kwestionariuszowym efekt wspólnej metody (common method bias) oznacza:",
     "options": [
-      "Błąd wynikający z losowania próby",
+      "Błąd wynikający z losowania próby stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Sztuczne zawyżenie zależności przez wspólne źródło pomiaru",
-      "Brak normalizacji narzędzia",
-      "Niski poziom alfa Cronbacha"
+      "Brak normalizacji narzędzia traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Niski poziom alfa Cronbacha traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -211,10 +211,10 @@
     "id": 17,
     "question": "Analiza czynnikowa eksploracyjna (EFA) służy głównie do:",
     "options": [
-      "Testowania gotowego modelu struktury",
+      "Testowania gotowego modelu struktury w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Odkrywania potencjalnej struktury latentnej pozycji",
-      "Porównania średnich grup",
-      "Oceny trafności kryterialnej"
+      "Porównania średnich grup w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Oceny trafności kryterialnej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -224,10 +224,10 @@
     "id": 18,
     "question": "Który indeks najlepiej sygnalizuje problem wielokrotnego porównywania hipotez?",
     "options": [
-      "Średnia arytmetyczna",
+      "Średnia arytmetyczna stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Skumulowane ryzyko błędu I rodzaju",
-      "Odchylenie standardowe",
-      "Współczynnik determinacji"
+      "Odchylenie standardowe traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Współczynnik determinacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -237,10 +237,10 @@
     "id": 19,
     "question": "Podejście intention-to-treat w badaniach interwencyjnych oznacza:",
     "options": [
-      "Analizę głównie osób, które ukończyły interwencję",
+      "Analizę głównie osób, które ukończyły interwencję w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Analizę wszystkich randomizowanych uczestników zgodnie z pierwotnym przydziałem",
-      "Usunięcie braków danych",
-      "Analizę jedynie przypadków skrajnych"
+      "Usunięcie braków danych rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Analizę jedynie przypadków skrajnych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -250,10 +250,10 @@
     "id": 20,
     "question": "Dobra operacjonalizacja konstruktu psychologicznego powinna:",
     "options": [
-      "Być możliwie ogólna i niejednoznaczna",
+      "Być możliwie ogólna i niejednoznaczna stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Być jednoznaczna, mierzalna i zgodna z teorią",
-      "Pomijać definicje teoretyczne",
-      "Unikać wskaźników obserwowalnych"
+      "Pomijać definicje teoretyczne w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Unikać wskaźników obserwowalnych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -264,9 +264,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 1)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -277,9 +277,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 2)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -290,9 +290,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 3)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -303,9 +303,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 4)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -316,9 +316,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 5)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -329,9 +329,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 6)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -342,9 +342,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 7)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -355,9 +355,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 8)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -368,9 +368,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 9)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -381,9 +381,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 10)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -394,9 +394,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 11)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -407,9 +407,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 12)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -420,9 +420,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 13)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -433,9 +433,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 14)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -446,9 +446,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 15)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -459,9 +459,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 16)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -472,9 +472,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 17)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -485,9 +485,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 18)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -498,9 +498,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 19)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -511,9 +511,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychometrii i metodologii? (pytanie uzupełniające 20)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 3,

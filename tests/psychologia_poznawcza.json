@@ -3,10 +3,10 @@
     "id": 1,
     "question": "Pamięć robocza (working memory) według modelu Baddeleya składa się z:",
     "options": [
-      "Pamięci epizodycznej, semantycznej i proceduralnej",
+      "Pamięci epizodycznej, semantycznej i proceduralnej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Centralnego systemu wykonawczego, pętli fonologicznej, szkicownika wzrokowo-przestrzennego i bufora epizodycznego",
-      "Pamięci sensorycznej, krótkotrwałej i długotrwałej",
-      "Pamięci jawnej i utajonej"
+      "Pamięci sensorycznej, krótkotrwałej i długotrwałej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pamięci jawnej i utajonej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -16,10 +16,10 @@
     "id": 2,
     "question": "Efekt pierwszeństwa (primacy effect) w zapamiętywaniu listy słów polega na:",
     "options": [
-      "Lepszym zapamiętywaniu słów z końca listy",
+      "Lepszym zapamiętywaniu słów z końca listy w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Lepszym zapamiętywaniu słów z początku listy",
-      "Lepszym zapamiętywaniu słów ze środka listy",
-      "Jednakowym zapamiętywaniu wszystkich elementów listy"
+      "Lepszym zapamiętywaniu słów ze środka listy w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Jednakowym zapamiętywaniu wszystkich elementów listy rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -29,10 +29,10 @@
     "id": 3,
     "question": "Selektywna uwaga odnosi się do zdolności do:",
     "options": [
-      "Utrzymywania skupienia przez długi czas",
-      "Jednoczesnego wykonywania dwóch zadań",
+      "Utrzymywania skupienia przez długi czas w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Jednoczesnego wykonywania dwóch zadań w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Skupiania się na wybranych bodźcach przy jednoczesnym ignorowaniu innych",
-      "Przenoszenia uwagi między różnymi źródłami informacji"
+      "Przenoszenia uwagi między różnymi źródłami informacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -42,10 +42,10 @@
     "id": 4,
     "question": "Warunkowanie klasyczne Pawłowa polega na:",
     "options": [
-      "Uczeniu się poprzez obserwację modela",
+      "Uczeniu się poprzez obserwację modela rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Skojarzeniu bodźca neutralnego z bodźcem bezwarunkowym, co prowadzi do wywoływania reakcji warunkowej",
-      "Wzmacnianiu pożądanego zachowania nagrodą",
-      "Karaniu niepożądanego zachowania bodźcem awersyjnym"
+      "Wzmacnianiu pożądanego zachowania nagrodą rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Karaniu niepożądanego zachowania bodźcem awersyjnym traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -55,10 +55,10 @@
     "id": 5,
     "question": "Złudzenie Müllera-Lyera ilustruje, że:",
     "options": [
-      "Pamięć wzrokowa jest często dokładna",
+      "Pamięć wzrokowa jest często dokładna w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Percepcja może być niezgodna z fizyczną rzeczywistością – mózg interpretuje bodźce, a nie tylko je rejestruje",
-      "Uwaga selektywna ogranicza przetwarzanie bodźców wzrokowych",
-      "Percepcja głębi wymaga obu oczu"
+      "Uwaga selektywna ogranicza przetwarzanie bodźców wzrokowych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Percepcja głębi wymaga obu oczu stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -68,10 +68,10 @@
     "id": 6,
     "question": "Heurystyka reprezentatywności (Tversky i Kahneman) polega na:",
     "options": [
-      "Ocenie prawdopodobieństwa na podstawie łatwości przypominania sobie przykładów",
+      "Ocenie prawdopodobieństwa na podstawie łatwości przypominania sobie przykładów w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Ocenie prawdopodobieństwa na podstawie podobieństwa do prototypu lub stereotypu kategorii",
-      "Dostosowywaniu ocen do punktu startowego i korygowaniu w stopniu niewystarczającym",
-      "Preferowaniu informacji potwierdzających wcześniejsze przekonania"
+      "Dostosowywaniu ocen do punktu startowego i korygowaniu w stopniu niewystarczającym stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Preferowaniu informacji potwierdzających wcześniejsze przekonania rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -81,10 +81,10 @@
     "id": 7,
     "question": "Teoria wykrywania sygnałów (SDT) rozdziela percepcję na:",
     "options": [
-      "Pamięć sensoryczną i sensoryczną krótkotrwałą",
+      "Pamięć sensoryczną i sensoryczną krótkotrwałą stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Czułość sensoryczną (d') i kryterium decyzyjne (β) – oddzielając zdolność percepcji od skłonności do odpowiedzi",
-      "Percepcję świadomą i podprogową",
-      "Percepcję wzrokową i słuchową"
+      "Percepcję świadomą i podprogową ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Percepcję wzrokową i słuchową stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -95,9 +95,9 @@
     "question": "Efekt kontekstu w pamięci (encoding specificity principle, Tulving i Thomson) oznacza, że:",
     "options": [
       "Materiał zapamiętany w jednym kontekście jest trudniej przypomnieć w innym – kontekst kodowania ułatwia przypomnienie",
-      "Najlepiej zapamiętujemy materiał nowy i zaskakujący",
-      "Emocje często pogarszają zapamiętywanie faktów",
-      "Powtarzanie wystarczy do trwałego zapamiętania"
+      "Najlepiej zapamiętujemy materiał nowy i zaskakujący traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Emocje często pogarszają zapamiętywanie faktów stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Powtarzanie wystarczy do trwałego zapamiętania rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -107,10 +107,10 @@
     "id": 9,
     "question": "Model dwóch systemów poznawczych Kahnemana (System 1 i System 2) zakłada, że System 1 jest:",
     "options": [
-      "Wolny, analityczny i wymagający wysiłku",
+      "Wolny, analityczny i wymagający wysiłku rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Szybki, automatyczny, intuicyjny i podatny na błędy heurystyczne",
-      "Odpowiedzialny za rozwiązywanie złożonych problemów matematycznych",
-      "Aktywny głównie podczas snu i konsolidacji pamięci"
+      "Odpowiedzialny za rozwiązywanie złożonych problemów matematycznych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Aktywny głównie podczas snu i konsolidacji pamięci w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -120,10 +120,10 @@
     "id": 10,
     "question": "Schemat poznawczy w teorii Piageta i psychologii poznawczej to:",
     "options": [
-      "Plan terapii opracowany przez psychologa",
+      "Plan terapii opracowany przez psychologa w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Zorganizowana struktura wiedzy ułatwiająca interpretację nowych informacji",
-      "Wzorzec reakcji emocjonalnych na stres",
-      "Schematy graficzne stosowane w terapii"
+      "Wzorzec reakcji emocjonalnych na stres w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Schematy graficzne stosowane w terapii rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -133,10 +133,10 @@
     "id": 11,
     "question": "Zjawisko \"cocktail party effect\" (efekt przyjęcia koktajlowego) ilustruje:",
     "options": [
-      "Interferencję proaktywną w pamięci słuchowej",
+      "Interferencję proaktywną w pamięci słuchowej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Zdolność do wychwytywania własnego imienia lub istotnych informacji z ignorowanego kanału słuchowego",
-      "Pogorszenie percepcji mowy w hałasie u osób po 50. roku życia",
-      "Efekt pierwszeństwa w przetwarzaniu dźwięków mowy"
+      "Pogorszenie percepcji mowy w hałasie u osób po 50. roku życia stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Efekt pierwszeństwa w przetwarzaniu dźwięków mowy stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -146,10 +146,10 @@
     "id": 12,
     "question": "Paradoks Simona (Simon effect) w psychologii poznawczej dotyczy:",
     "options": [
-      "Interferencji między słowem a kolorem w zadaniu Stroopa",
+      "Interferencji między słowem a kolorem w zadaniu Stroopa rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Wpływu lokalizacji przestrzennej bodźca na czas reakcji, nawet jeśli lokalizacja jest nieistotna dla zadania",
-      "Efektu pierwszeństwa i świeżości na liście słów",
-      "Tendencji do porównywania się z osobami podobnymi do nas"
+      "Efektu pierwszeństwa i świeżości na liście słów rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Tendencji do porównywania się z osobami podobnymi do nas w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -159,10 +159,10 @@
     "id": 13,
     "question": "Teoria poziomów przetwarzania (Craik i Lockhart) zakłada, że trwałość pamięci zależy od:",
     "options": [
-      "Liczby powtórzeń materiału w pamięci roboczej",
+      "Liczby powtórzeń materiału w pamięci roboczej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Głębokości przetwarzania – głębsze, semantyczne przetwarzanie prowadzi do trwalszych śladów pamięciowych niż płytkie, strukturalne",
-      "Długości materiału do zapamiętania",
-      "Czasu, jaki upłynął od pierwszego zapoznania się z materiałem"
+      "Długości materiału do zapamiętania stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Czasu, jaki upłynął od pierwszego zapoznania się z materiałem w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -172,10 +172,10 @@
     "id": 14,
     "question": "Efekt Stroopa polega na tym, że:",
     "options": [
-      "Kontekst narracyjny ułatwia czytanie nieznanych słów",
+      "Kontekst narracyjny ułatwia czytanie nieznanych słów traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Niezgodność między znaczeniem słowa a kolorem druku spowalnia czas reakcji przy nazywaniu koloru",
-      "Seryjne zapamiętywanie jest wolniejsze niż zapamiętywanie swobodne",
-      "Rozproszenie uwagi przez muzykę utrudnia przetwarzanie werbalne"
+      "Seryjne zapamiętywanie jest wolniejsze niż zapamiętywanie swobodne w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Rozproszenie uwagi przez muzykę utrudnia przetwarzanie werbalne rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -185,10 +185,10 @@
     "id": 15,
     "question": "Interferencja retroaktywna w pamięci polega na tym, że:",
     "options": [
-      "Wcześniej wyuczone informacje utrudniają zapamiętywanie nowych",
+      "Wcześniej wyuczone informacje utrudniają zapamiętywanie nowych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Nowo wyuczone informacje utrudniają przypomnienie sobie wcześniej zapamiętanego materiału",
-      "Przypomniane informacje stają się podatne na zniekształcenia",
-      "Emocjonalnie neutralny materiał jest gorzej pamiętany niż emocjonalny"
+      "Przypomniane informacje stają się podatne na zniekształcenia w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Emocjonalnie neutralny materiał jest gorzej pamiętany niż emocjonalny w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -198,10 +198,10 @@
     "id": 16,
     "question": "Efekt Zeigarnik polega na:",
     "options": [
-      "Lepszym zapamiętywaniu materiału powtarzanego metodą rozłożoną w czasie",
+      "Lepszym zapamiętywaniu materiału powtarzanego metodą rozłożoną w czasie ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Lepszym pamiętaniu zadań przerwanych (niedokończonych) niż ukończonych",
-      "Tendencji do zapamiętywania bodźców emocjonalnych lepiej niż neutralnych",
-      "Poprawie przypominania po przerwie (efekt inkubacji)"
+      "Tendencji do zapamiętywania bodźców emocjonalnych lepiej niż neutralnych stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Poprawie przypominania po przerwie (efekt inkubacji) traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -211,10 +211,10 @@
     "id": 17,
     "question": "Pojęcie \"inhibicji latentnej\" w psychologii poznawczej odnosi się do:",
     "options": [
-      "Hamowania powtarzających się ruchów w uczeniu się motorycznym",
+      "Hamowania powtarzających się ruchów w uczeniu się motorycznym w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Spowalniania warunkowania bodźca, który wcześniej był prezentowany bez konsekwencji",
-      "Supresji nieistotnych wspomnień w pamięci roboczej",
-      "Hamowania reakcji automatycznych w zadaniach wymagających kontroli wykonawczej"
+      "Supresji nieistotnych wspomnień w pamięci roboczej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Hamowania reakcji automatycznych w zadaniach wymagających kontroli wykonawczej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -224,10 +224,10 @@
     "id": 18,
     "question": "Teoria zasobów uwagi (Kahneman) zakłada, że:",
     "options": [
-      "Uwaga jest podzielona na niezależne moduły, każdy z własną pojemnością",
+      "Uwaga jest podzielona na niezależne moduły, każdy z własną pojemnością w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Istnieje ogólna pula zasobów uwagi, które są przydzielane do zadań w zależności od trudności i motywacji",
-      "Pojemność uwagi jest stała i niezależna od trudności zadania",
-      "Uwaga działa głównie w sposób selekcji wczesnej (filtru Broadbenta)"
+      "Pojemność uwagi jest stała i niezależna od trudności zadania traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Uwaga działa głównie w sposób selekcji wczesnej (filtru Broadbenta) traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -237,10 +237,10 @@
     "id": 19,
     "question": "W modelu pamięci długoterminowej, różnica między pamięcią epizodyczną a semantyczną polega na tym, że:",
     "options": [
-      "Pamięć semantyczna przechowuje konkretne zdarzenia z życia, a epizodyczna – ogólną wiedzę",
+      "Pamięć semantyczna przechowuje konkretne zdarzenia z życia, a epizodyczna – ogólną wiedzę w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Pamięć epizodyczna przechowuje autobiograficzne zdarzenia z kontekstem czasowo-przestrzennym, a semantyczna – wiedzę ogólną bez kontekstu",
-      "Pamięć semantyczna jest podtypem pamięci proceduralnej",
-      "Obie przechowują te same informacje, różnią się jedynie szybkością dostępu"
+      "Pamięć semantyczna jest podtypem pamięci proceduralnej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Obie przechowują te same informacje, różnią się jedynie szybkością dostępu ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -250,10 +250,10 @@
     "id": 20,
     "question": "Efekt \"rozproszenia końcówki języka\" (tip-of-the-tongue state, TOT) ilustruje:",
     "options": [
-      "Całkowite usunięcie informacji z pamięci długoterminowej",
+      "Całkowite usunięcie informacji z pamięci długoterminowej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Częściową dostępność informacji – wiadomo, że coś się wie, ale nie można w danej chwili w pełni odtworzyć",
-      "Interferencję retroaktywną uniemożliwiającą dostęp do wspomnień",
-      "Efekt pierwszeństwa przy odtwarzaniu listy słów"
+      "Interferencję retroaktywną uniemożliwiającą dostęp do wspomnień rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Efekt pierwszeństwa przy odtwarzaniu listy słów rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -263,10 +263,10 @@
     "id": 21,
     "question": "Teoria reprezentacji dwukodowej Paivio (dual coding theory) zakłada, że:",
     "options": [
-      "Informacje werbalne i obrazowe są przechowywane w tym samym systemie pamięciowym",
+      "Informacje werbalne i obrazowe są przechowywane w tym samym systemie pamięciowym stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Istnieją dwa niezależne systemy kodowania – werbalny i wyobrażeniowy – a ich jednoczesna aktywacja wzmacnia zapamiętywanie",
-      "Obrazy są często lepiej pamiętane niż słowa niezależnie od kontekstu",
-      "Kodowanie werbalne jest dominującym i wystarczającym trybem przechowywania informacji"
+      "Obrazy są często lepiej pamiętane niż słowa niezależnie od kontekstu ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Kodowanie werbalne jest dominującym i wystarczającym trybem przechowywania informacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -276,10 +276,10 @@
     "id": 22,
     "question": "Rola \"predykcyjnego kodowania\" (predictive coding, Friston) w percepcji i poznaniu polega na:",
     "options": [
-      "Mózg pasywnie rejestruje bodźce sensoryczne i przesyła je do wyższych obszarów",
+      "Mózg pasywnie rejestruje bodźce sensoryczne i przesyła je do wyższych obszarów ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Mózg generuje predykcje top-down i porównuje je z sygnałami sensorycznymi – percepcja to minimalizacja błędów predykcji",
-      "Percepcja jest głównie procesem bottom-up, zależnym od intensywności bodźca",
-      "Kodowanie informacji odbywa się sekwencyjnie od zmysłów do kory kojarzeniowej"
+      "Percepcja jest głównie procesem bottom-up, zależnym od intensywności bodźca rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Kodowanie informacji odbywa się sekwencyjnie od zmysłów do kory kojarzeniowej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -289,10 +289,10 @@
     "id": 23,
     "question": "Koncepcja \"rozszerzonego umysłu\" (extended mind, Clark i Chalmers) zakłada, że:",
     "options": [
-      "Procesy poznawcze są głównie wewnętrznymi procesami mózgu",
+      "Procesy poznawcze są głównie wewnętrznymi procesami mózgu ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Procesy poznawcze mogą obejmować narzędzia i środowisko zewnętrzne, gdy spełniają te same funkcje co procesy wewnętrzne",
-      "Inteligencja sztuczna jest tożsama z ludzkim poznaniem",
-      "Pamięć externa (np. notatniki) jest często mniej wiarygodna niż wewnętrzna"
+      "Inteligencja sztuczna jest tożsama z ludzkim poznaniem traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pamięć externa (np. notatniki) jest często mniej wiarygodna niż wewnętrzna w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -302,9 +302,9 @@
     "id": 24,
     "question": "Efekt \"desensytyzacji habitualnej\" w poznaniu opartym na schematach (schema theory) oznacza, że:",
     "options": [
-      "Schematy poznawcze ulegają osłabieniu przy braku aktywacji",
-      "Powtarzające się ekspozycje na niezgodne z schematem informacje prowadzą do stopniowej zmiany schematów",
-      "Schematy często uniemożliwiają przetwarzanie nowych informacji",
+      "Schematy poznawcze ulegają osłabieniu przy braku aktywacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Powtarzające się ekspozycje na niezgodne z schematem informacje prowadzą do stopniowej zmiany schematów traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Schematy często uniemożliwiają przetwarzanie nowych informacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Aktywacja schematów powoduje zniekształcenia pamięciowe w kierunku zgodności ze schematem"
     ],
     "correct": 3,
@@ -315,10 +315,10 @@
     "id": 25,
     "question": "Teoria ACT-R (Anderson) to architektura kognitywna, która integruje:",
     "options": [
-      "Głównie modele pamięci deklaratywnej",
+      "Głównie modele pamięci deklaratywnej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Moduły deklaratywne, proceduralne, wzrokowe i motoryczne w zunifikowanej teorii poznania z biologicznymi odpowiednikami w mózgu",
-      "Głównie teorie uczenia się przez wzmocnienie",
-      "Modele sieci neuronowych bez odpowiedników w psychologii poznawczej"
+      "Głównie teorie uczenia się przez wzmocnienie w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Modele sieci neuronowych bez odpowiedników w psychologii poznawczej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -328,10 +328,10 @@
     "id": 26,
     "question": "Zjawisko \"przechylenia ku teraźniejszości\" (present bias) w poznaniu i podejmowaniu decyzji oznacza:",
     "options": [
-      "Tendencję do lepszego zapamiętywania zdarzeń bieżących niż przeszłych",
+      "Tendencję do lepszego zapamiętywania zdarzeń bieżących niż przeszłych stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Przecenianie nagród dostępnych w teraźniejszości kosztem przyszłych – niespójna dyskontowanie czasowe",
-      "Stronniczość percepcji wynikającą z aktualnego nastroju",
-      "Efekt świeżości w pamięci roboczej"
+      "Stronniczość percepcji wynikającą z aktualnego nastroju rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Efekt świeżości w pamięci roboczej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -341,10 +341,10 @@
     "id": 27,
     "question": "Koncepcja \"metacognition\" (metapoznania) Flawella obejmuje:",
     "options": [
-      "Głównie wiedzę o własnej pamięci",
+      "Głównie wiedzę o własnej pamięci w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Wiedzę o własnych procesach poznawczych oraz monitorowanie i regulowanie tych procesów podczas wykonywania zadań",
-      "Głównie procesy kontroli wykonawczej w korze przedczołowej",
-      "Automatyczne procesy nieobjęte świadomą kontrolą"
+      "Głównie procesy kontroli wykonawczej w korze przedczołowej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Automatyczne procesy nieobjęte świadomą kontrolą ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -354,10 +354,10 @@
     "id": 28,
     "question": "Teoria prototypów w kategoryzacji (Rosch) zakłada, że:",
     "options": [
-      "Kategorie mają sztywne, binarne granice oparte na koniecznych i wystarczających cechach",
+      "Kategorie mają sztywne, binarne granice oparte na koniecznych i wystarczających cechach stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Kategorie są zorganizowane wokół najlepszych przykładów (prototypów), a przynależność do kategorii jest stopniowalna",
-      "Kategoryzacja jest głównie wynikiem warunkowania kulturowego",
-      "Każdy element kategorii jest równoważny i żaden nie jest bardziej \"centralny\""
+      "Kategoryzacja jest głównie wynikiem warunkowania kulturowego traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Każdy element kategorii jest równoważny i żaden nie jest bardziej \"centralny\" rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -367,10 +367,10 @@
     "id": 29,
     "question": "Model MINERVA 2 (Hintzman) jest przykładem teorii pamięci opartej na:",
     "options": [
-      "Skryptach i schematach poznawczych",
+      "Skryptach i schematach poznawczych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Wielu śladach pamięciowych (instance-based) – wydobycie jest efektem jednoczesnej aktywacji wszystkich śladów podobnych do wskazówki",
-      "Hierarchicznej sieci semantycznej",
-      "Modelu jednokomponentowej pamięci roboczej"
+      "Hierarchicznej sieci semantycznej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Modelu jednokomponentowej pamięci roboczej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -380,10 +380,10 @@
     "id": 30,
     "question": "Efekt \"roaming spotlight\" w teoriach uwagi przestrzennej (Posner) pokazuje, że:",
     "options": [
-      "Uwaga przestrzenna jest nierozerwalnie związana z ruchami gałek ocznych",
+      "Uwaga przestrzenna jest nierozerwalnie związana z ruchami gałek ocznych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Uwaga może być przesuwana w przestrzeni bez ruchu gałek ocznych (covert attention), przyspieszając przetwarzanie bodźców w ogniskowanym obszarze",
-      "Percepcja przestrzenna jest głównie zależna od kory wzrokowej pierwszorzędowej",
-      "Ruchy gałek ocznych często wyprzedzają przesunięcia uwagi"
+      "Percepcja przestrzenna jest głównie zależna od kory wzrokowej pierwszorzędowej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Ruchy gałek ocznych często wyprzedzają przesunięcia uwagi rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -394,9 +394,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii poznawczej? (pytanie uzupełniające 1)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -407,9 +407,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii poznawczej? (pytanie uzupełniające 2)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -420,9 +420,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii poznawczej? (pytanie uzupełniające 3)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -433,9 +433,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii poznawczej? (pytanie uzupełniające 4)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -446,9 +446,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii poznawczej? (pytanie uzupełniające 5)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -459,9 +459,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii poznawczej? (pytanie uzupełniające 6)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -472,9 +472,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii poznawczej? (pytanie uzupełniające 7)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -485,9 +485,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii poznawczej? (pytanie uzupełniające 8)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -498,9 +498,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii poznawczej? (pytanie uzupełniające 9)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -511,9 +511,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii poznawczej? (pytanie uzupełniające 10)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -522,10 +522,10 @@
   {
     "question": "W paradygmacie Posnera (cueing) krótszy czas reakcji po trafnej wskazówce pojawia się głównie dlatego, że:",
     "options": [
-      "Wskazówka zwiększa pojemność pamięci roboczej",
+      "Wskazówka zwiększa pojemność pamięci roboczej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Uwaga jest wcześniej skierowana do oczekiwanej lokalizacji bodźca",
-      "Bodziec docelowy staje się fizycznie silniejszy",
-      "Uczestnik uczy się na pamięć kolejności prób"
+      "Bodziec docelowy staje się fizycznie silniejszy rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Uczestnik uczy się na pamięć kolejności prób traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -535,10 +535,10 @@
   {
     "question": "W modelu zasobów uwagi Kahnemana (1973) spadek wykonania przy dual-task wynika przede wszystkim z:",
     "options": [
-      "Uszkodzenia pętli fonologicznej",
-      "Niezgodności modalności bodźców",
+      "Uszkodzenia pętli fonologicznej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Niezgodności modalności bodźców w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Ograniczonej puli zasobów przetwarzania dzielonych między zadania",
-      "Braku motywacji badanych"
+      "Braku motywacji badanych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 2,
     "difficulty": 2,
@@ -548,10 +548,10 @@
   {
     "question": "Zgodnie z teorią obciążenia poznawczego (Sweller), aby ułatwić uczenie się nowej procedury, najlepiej:",
     "options": [
-      "Prezentować jak najwięcej informacji jednocześnie",
+      "Prezentować jak najwięcej informacji jednocześnie ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Redukować obciążenie zewnętrzne i segmentować materiał na mniejsze kroki",
-      "Usunąć przykłady i pozostawić głównie zadania transferowe",
-      "Skupić się głównie na pamięci mechanicznej"
+      "Usunąć przykłady i pozostawić głównie zadania transferowe rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Skupić się głównie na pamięci mechanicznej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -561,10 +561,10 @@
   {
     "question": "Paradoks wiedzy eksperckiej (expertise reversal effect) oznacza, że:",
     "options": [
-      "Eksperci często uczą się wolniej od nowicjuszy",
+      "Eksperci często uczą się wolniej od nowicjuszy rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Techniki pomocne dla początkujących mogą być nieefektywne lub zbędne dla ekspertów",
-      "Eksperci mają gorszą pamięć długotrwałą",
-      "Poziom wiedzy nie wpływa na skuteczność instrukcji"
+      "Eksperci mają gorszą pamięć długotrwałą traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Poziom wiedzy nie wpływa na skuteczność instrukcji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -574,10 +574,10 @@
   {
     "question": "W teorii ACT-R produkcje (productions) pełnią funkcję:",
     "options": [
-      "Magazynu pamięci epizodycznej",
+      "Magazynu pamięci epizodycznej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Reguł warunek–działanie sterujących wyborem operacji poznawczych",
-      "Mechanizmu tłumienia emocji",
-      "Sieci percepcji głębi"
+      "Mechanizmu tłumienia emocji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Sieci percepcji głębi w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -587,10 +587,10 @@
   {
     "question": "Który przykład najlepiej ilustruje błąd konfirmacji (confirmation bias)?",
     "options": [
-      "Sprawdzanie zarówno argumentów za, jak i przeciw hipotezie",
+      "Sprawdzanie zarówno argumentów za, jak i przeciw hipotezie w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Wybieranie informacji potwierdzających własne przekonanie i pomijanie danych sprzecznych",
-      "Losowe generowanie hipotez alternatywnych",
-      "Wstrzymywanie oceny do czasu zebrania pełnych danych"
+      "Losowe generowanie hipotez alternatywnych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Wstrzymywanie oceny do czasu zebrania pełnych danych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -600,10 +600,10 @@
   {
     "question": "W badaniach nad pamięcią prospektywną zadanie typu event-based polega na:",
     "options": [
-      "Wykonaniu intencji o określonej godzinie",
+      "Wykonaniu intencji o określonej godzinie stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Wykonaniu intencji po pojawieniu się konkretnego bodźca/zdarzenia",
-      "Zapamiętaniu listy słów bez kontekstu",
-      "Odroczeniu działania do zakończenia dnia"
+      "Zapamiętaniu listy słów bez kontekstu w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Odroczeniu działania do zakończenia dnia stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -613,10 +613,10 @@
   {
     "question": "Efekt testowania (testing effect) oznacza, że:",
     "options": [
-      "Samo ponowne czytanie materiału jest skuteczniejsze niż odtwarzanie",
+      "Samo ponowne czytanie materiału jest skuteczniejsze niż odtwarzanie traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Aktywne wydobywanie informacji wzmacnia długoterminowe utrwalanie lepiej niż bierna ekspozycja",
-      "Testy działają tylko przy materiale obrazowym",
-      "Najlepsze efekty daje nauka bez przerw"
+      "Testy działają tylko przy materiale obrazowym ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Najlepsze efekty daje nauka bez przerw w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -626,10 +626,10 @@
   {
     "question": "W hipotezie znacznika somatycznego Damasio sygnały cielesne:",
     "options": [
-      "Nie wpływają na decyzje poznawcze",
+      "Nie wpływają na decyzje poznawcze stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Pełnią funkcję heurystycznych wskazówek, zawężając przestrzeń wyboru",
-      "Są istotne głównie w decyzjach matematycznych",
-      "Dotyczą tylko pamięci proceduralnej"
+      "Są istotne głównie w decyzjach matematycznych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Dotyczą tylko pamięci proceduralnej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -639,10 +639,10 @@
   {
     "question": "Metapoznanie w uczeniu się najtrafniej opisuje:",
     "options": [
-      "Automatyczne kodowanie bodźców sensorycznych",
+      "Automatyczne kodowanie bodźców sensorycznych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Monitorowanie i regulację własnych procesów poznawczych, np. planowanie strategii",
-      "Głównie pamięć autobiograficzną",
-      "Zdolność do tłumienia odruchów pniowych"
+      "Głównie pamięć autobiograficzną ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Zdolność do tłumienia odruchów pniowych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -652,10 +652,10 @@
   {
     "question": "W klasycznym modelu Atkinsona i Shiffrina transfer informacji z pamięci krótkotrwałej do długotrwałej jest wspierany głównie przez:",
     "options": [
-      "Habituację sensoryczną",
+      "Habituację sensoryczną stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Powtarzanie i elaborację materiału",
-      "Hamowanie lateralne",
-      "Samo upływanie czasu"
+      "Hamowanie lateralne rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Samo upływanie czasu stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -666,9 +666,9 @@
     "question": "Zjawisko attentional blink oznacza, że:",
     "options": [
       "Po wykryciu pierwszego celu drugi cel prezentowany krótko po nim bywa pomijany",
-      "Uwaga wzrokowa stale rośnie wraz z tempem prezentacji bodźców",
-      "Błyski światła poprawiają pamięć deklaratywną",
-      "Odruch mrugania często zakłóca percepcję słuchową"
+      "Uwaga wzrokowa stale rośnie wraz z tempem prezentacji bodźców traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Błyski światła poprawiają pamięć deklaratywną w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Odruch mrugania często zakłóca percepcję słuchową traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -678,10 +678,10 @@
   {
     "question": "W badaniach nad rozwiązywaniem problemów efekt nastawienia (Einstellung effect) polega na:",
     "options": [
-      "Ułatwieniu znalezienia nowej strategii po wielu niepowodzeniach",
+      "Ułatwieniu znalezienia nowej strategii po wielu niepowodzeniach stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Skłonności do używania znanego schematu nawet gdy lepsze rozwiązanie jest dostępne",
-      "Losowym wyborze strategii niezależnie od doświadczenia",
-      "Braku wpływu wcześniejszej wiedzy na rozwiązanie zadania"
+      "Losowym wyborze strategii niezależnie od doświadczenia w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Braku wpływu wcześniejszej wiedzy na rozwiązanie zadania stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -691,10 +691,10 @@
   {
     "question": "W teorii kodowania podwójnego Paivio materiał jest lepiej pamiętany, gdy:",
     "options": [
-      "Kodowany jest tylko fonologicznie",
+      "Kodowany jest tylko fonologicznie w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Jest reprezentowany zarówno werbalnie, jak i obrazowo",
-      "Prezentowany jest głównie podprogowo",
-      "Zawiera jak najmniej skojarzeń"
+      "Prezentowany jest głównie podprogowo w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Zawiera jak najmniej skojarzeń w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -704,10 +704,10 @@
   {
     "question": "Błąd hazardzisty (gambler's fallacy) to przekonanie, że:",
     "options": [
-      "Wyniki losowe są od siebie niezależne",
+      "Wyniki losowe są od siebie niezależne ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Po serii jednego wyniku inny wynik jest należny",
-      "Prawdopodobieństwo nie zmienia się przy małych próbach",
-      "Dane statystyczne są bardziej wiarygodne niż intuicja"
+      "Prawdopodobieństwo nie zmienia się przy małych próbach w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Dane statystyczne są bardziej wiarygodne niż intuicja w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -718,9 +718,9 @@
     "question": "W zadaniu flankerów Eriksenów wydłużenie czasu reakcji w warunku niezgodnym odzwierciedla głównie:",
     "options": [
       "Konflikt odpowiedzi i potrzebę hamowania dystraktorów",
-      "Deficyt percepcji barw",
-      "Utratę pamięci epizodycznej",
-      "Głównie spadek motywacji"
+      "Deficyt percepcji barw rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Utratę pamięci epizodycznej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Głównie spadek motywacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -730,10 +730,10 @@
   {
     "question": "Hipoteza desirable difficulties Bjorka sugeruje, że skuteczne uczenie długoterminowe wspiera:",
     "options": [
-      "Usuwanie wszystkich trudności i maksymalna płynność przetwarzania",
+      "Usuwanie wszystkich trudności i maksymalna płynność przetwarzania stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Wprowadzanie umiarkowanych utrudnień, np. przeplatania i odroczonego odtwarzania",
-      "Nauka głównie tuż przed testem",
-      "Głównie bierne słuchanie wykładu"
+      "Nauka głównie tuż przed testem traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Głównie bierne słuchanie wykładu stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -743,10 +743,10 @@
   {
     "question": "W modelu pamięci roboczej zakłócenie artykulacyjne (articulatory suppression) najbardziej obniża wykonanie zadań zależnych od:",
     "options": [
-      "Szkicownika wzrokowo-przestrzennego",
+      "Szkicownika wzrokowo-przestrzennego ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Pętli fonologicznej",
-      "Bufora epizodycznego",
-      "Systemu limbicznego"
+      "Bufora epizodycznego traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Systemu limbicznego w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -757,9 +757,9 @@
     "question": "W teorii predykcyjnego przetwarzania (predictive processing) błąd predykcji to:",
     "options": [
       "Różnica między oczekiwanym sygnałem a napływającym wejściem sensorycznym",
-      "Każdy błąd poznawczy wynikający ze zmęczenia",
-      "Niezdolność do tworzenia pamięci autobiograficznej",
-      "Zakłócenie przewodnictwa w nerwach obwodowych"
+      "Każdy błąd poznawczy wynikający ze zmęczenia stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Niezdolność do tworzenia pamięci autobiograficznej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Zakłócenie przewodnictwa w nerwach obwodowych rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -769,10 +769,10 @@
   {
     "question": "Zadania N-back są najczęściej wykorzystywane do oceny:",
     "options": [
-      "Pamięci proceduralnej",
+      "Pamięci proceduralnej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Aktualizacji informacji w pamięci roboczej i kontroli wykonawczej",
-      "Głównie inteligencji krystalicznej",
-      "Percepcji bólu"
+      "Głównie inteligencji krystalicznej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Percepcji bólu ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
