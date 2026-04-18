@@ -518,5 +518,200 @@
     "correct": 0,
     "difficulty": 3,
     "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+  },
+  {
+    "id": 41,
+    "question": "W pierwszym kontakcie kryzysowym priorytetem interwenta jest przede wszystkim:",
+    "options": [
+      "ocena bieżącego bezpieczeństwa (ryzyko samouszkodzenia, przemocy, zaniedbania) i stabilizacja sytuacji",
+      "natychmiastowe prowadzenie pogłębionej psychoterapii schematów z pełną analizą historii życia",
+      "wyjaśnienie klientowi wszystkich modeli teoretycznych kryzysu przed zadaniem pytań",
+      "skierowanie rozmowy wyłącznie na odległe doświadczenia z dzieciństwa"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "W interwencji kryzysowej najpierw zabezpiecza się życie i podstawowe funkcjonowanie. Dopiero potem planuje się dalsze etapy pomocy."
+  },
+  {
+    "id": 42,
+    "question": "Który sygnał najbardziej wskazuje na potrzebę pilnej eskalacji interwencji?",
+    "options": [
+      "konkretny plan samobójczy, dostęp do środków i wzrastająca determinacja w krótkim czasie",
+      "wahania nastroju po trudnej rozmowie bez treści autoagresywnych",
+      "zmęczenie po nieprzespanej nocy i obniżona koncentracja",
+      "deklaracja chęci konsultacji i gotowość do współpracy z bliskimi"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Najwyższe ryzyko wiąże się z połączeniem intencji, planu i możliwości wykonania. Taki obraz wymaga natychmiastowych działań ochronnych."
+  },
+  {
+    "id": 43,
+    "question": "W modelu RAPID (Psychological First Aid) element „stabilization” oznacza zwykle:",
+    "options": [
+      "obniżenie ostrego pobudzenia i przywrócenie minimalnej regulacji emocjonalno-fizjologicznej",
+      "zbieranie pełnej historii rozwojowej i rodzinnej z kilku pokoleń",
+      "diagnozę osobowości przy użyciu narzędzi projekcyjnych",
+      "konfrontowanie klienta z błędnymi przekonaniami metodą debaty poznawczej"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Stabilizacja ma charakter doraźny: pomaga odzyskać kontrolę i zdolność do podejmowania podstawowych decyzji w kryzysie."
+  },
+  {
+    "id": 44,
+    "question": "Które sformułowanie najlepiej oddaje zasadę „nie szkodzić” w pomocy doraźnej po traumie?",
+    "options": [
+      "unikać wymuszania szczegółowej relacji traumatycznej, jeśli nie służy to bieżącemu bezpieczeństwu i stabilizacji",
+      "nakłaniać każdą osobę do natychmiastowego „odreagowania” wszystkich emocji w grupie",
+      "zapewniać, że silne objawy na pewno utrzymają się przez wiele miesięcy",
+      "ograniczać kontakt do formalnego przekazania ulotki bez rozmowy"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Wczesna pomoc powinna być wspierająca i bezpieczna. Presja na szczegółowe ujawnianie treści traumatycznych może nasilać destabilizację."
+  },
+  {
+    "id": 45,
+    "question": "Najtrafniejszym celem krótkoterminowym w interwencji kryzysowej jest:",
+    "options": [
+      "przywrócenie podstawowego poziomu bezpieczeństwa, orientacji i sprawczości w najbliższych dniach",
+      "pełna przebudowa schematów poznawczych odpowiedzialnych za całe dotychczasowe funkcjonowanie",
+      "zakończenie wszystkich objawów lękowych po jednej sesji",
+      "ustalenie ostatecznej diagnozy nozologicznej bez dalszej obserwacji"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Interwencja kryzysowa skupia się na stabilizacji i redukcji ostrego ryzyka, a nie na długoterminowej rekonstrukcji osobowości."
+  },
+  {
+    "id": 46,
+    "question": "W rozmowie z osobą po świeżej stracie najbardziej pomocna postawa interwenta to:",
+    "options": [
+      "empatyczne towarzyszenie, normalizacja części reakcji żałoby i monitorowanie sygnałów ryzyka",
+      "szybkie przekonywanie, że „czas leczy rany”, bez eksploracji aktualnych potrzeb",
+      "minimalizowanie emocji, aby nie „utrwalać cierpienia”",
+      "udzielanie rad życiowych bez pytania o zasoby i wsparcie społeczne"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "W kryzysie po stracie ważne jest uznanie emocji i wzmacnianie zasobów, przy jednoczesnej ocenie bezpieczeństwa i funkcjonowania."
+  },
+  {
+    "id": 47,
+    "question": "Który element planu bezpieczeństwa jest kluczowy przy podwyższonym ryzyku samobójczym?",
+    "options": [
+      "konkretna sekwencja kroków: sygnały ostrzegawcze, strategie samopomocowe, kontakty alarmowe i ograniczenie dostępu do środków",
+      "ogólne zalecenie „proszę myśleć pozytywnie” bez zapisanych działań",
+      "jednorazowa obietnica pacjenta, że „nic sobie nie zrobi”, bez dalszego monitoringu",
+      "przekazanie numeru telefonu bez omówienia, kiedy i jak go użyć"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Skuteczny plan bezpieczeństwa powinien być operacyjny i możliwy do wdrożenia w krytycznym momencie, a nie wyłącznie deklaratywny."
+  },
+  {
+    "id": 48,
+    "question": "W interwencji z dzieckiem po zdarzeniu nagłym najbardziej adekwatne jest:",
+    "options": [
+      "dostosowanie języka do wieku, praca z opiekunem i obserwacja zmian snu, zachowania oraz regulacji emocji",
+      "stosowanie identycznych technik narracyjnych jak u dorosłych, bez modyfikacji",
+      "pomijanie kontaktu z opiekunami, aby zwiększyć autonomię dziecka",
+      "wymaganie szczegółowej relacji zdarzenia na pierwszym spotkaniu"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "U dzieci kluczowe jest podejście rozwojowe i współpraca z opiekunami, którzy współtworzą środowisko bezpieczeństwa."
+  },
+  {
+    "id": 49,
+    "question": "Który wskaźnik najlepiej odróżnia ostrą reakcję kryzysową od utrwalonego zaburzenia?",
+    "options": [
+      "dynamika objawów w czasie oraz stopień odzyskiwania funkcjonowania przy wsparciu",
+      "sam fakt wystąpienia silnego lęku w pierwszych 24 godzinach",
+      "obecność płaczu podczas pierwszej konsultacji",
+      "pojedynczy wynik kwestionariusza bez danych longitudinalnych"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Rozpoznanie wymaga oceny przebiegu i trwałości objawów. W ostrym kryzysie wiele reakcji ma charakter przemijający."
+  },
+  {
+    "id": 50,
+    "question": "W pracy telefonicznej lub online z osobą w kryzysie najważniejsze jest:",
+    "options": [
+      "ustalenie lokalizacji, dostępnych zasobów i procedury awaryjnej na wypadek zerwania kontaktu",
+      "prowadzenie wyłącznie psychoedukacji bez pytań o ryzyko",
+      "zakładanie, że brak sygnałów niewerbalnych uniemożliwia jakąkolwiek ocenę",
+      "rezygnacja z dokumentacji, bo kontakt zdalny jest „mniej formalny”"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "W kontakcie zdalnym konieczne jest wczesne zabezpieczenie ścieżki interwencyjnej i danych potrzebnych do szybkiego działania."
+  },
+  {
+    "id": 51,
+    "question": "Który błąd interwenta najczęściej nasila opór osoby w kryzysie?",
+    "options": [
+      "przedwczesne udzielanie rad i ocen bez zrozumienia perspektywy klienta",
+      "parafraza i podsumowanie kluczowych treści wypowiedzi",
+      "uzgadnianie małych, realnych kroków na najbliższe 24 godziny",
+      "sprawdzanie, czy klient poprawnie rozumie plan bezpieczeństwa"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Nadmierna dyrektywność na początku rozmowy może obniżać poczucie sprawczości i przymierze pomocowe."
+  },
+  {
+    "id": 52,
+    "question": "W sytuacji przemocy domowej priorytetem w interwencji psychologicznej jest:",
+    "options": [
+      "opracowanie planu bezpieczeństwa i aktywacja dostępnych ścieżek ochrony prawnej oraz społecznej",
+      "mediacja między stronami niezależnie od poziomu zagrożenia",
+      "koncentracja wyłącznie na pracy nad „komunikacją w związku”",
+      "wstrzymanie działań do czasu pełnej diagnozy osobowości sprawcy"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Przy przemocy kluczowe jest bezpieczeństwo i ochrona osoby krzywdzonej. Działania relacyjne nie mogą wyprzedzać oceny ryzyka."
+  },
+  {
+    "id": 53,
+    "question": "Które działanie najlepiej wspiera utrzymanie efektów po zakończeniu interwencji kryzysowej?",
+    "options": [
+      "ustalenie planu kontynuacji: punkty kontrolne, sieć wsparcia i jasne kryteria ponownego zgłoszenia",
+      "zamknięcie sprawy po subiektywnej poprawie nastroju na jednej sesji",
+      "przekazanie wyłącznie ogólnych zaleceń bez konkretów czasowych",
+      "rezygnacja z omówienia sygnałów nawrotu, aby nie zwiększać lęku"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Plan follow-up zmniejsza ryzyko nawrotu destabilizacji i wzmacnia samodzielne korzystanie z zasobów po kryzysie."
+  },
+  {
+    "id": 54,
+    "question": "W ocenie gotowości do samopomocy po kryzysie najbardziej użyteczne pytanie brzmi:",
+    "options": [
+      "„Co konkretnie możesz zrobić dziś wieczorem, jeśli napięcie znów wzrośnie?”",
+      "„Dlaczego po prostu nie przestaniesz się martwić?”",
+      "„Czy obiecujesz, że od jutra wszystko będzie dobrze?”",
+      "„Czy możemy pominąć temat wsparcia, skoro dziś jest trochę lepiej?”"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Pytania operacyjne pomagają przełożyć ogólne cele na konkretne zachowania ochronne, które można wdrożyć natychmiast."
+  },
+  {
+    "id": 55,
+    "question": "Która praktyka dokumentacyjna jest najbardziej adekwatna w interwencji kryzysowej?",
+    "options": [
+      "zwięzły zapis: ocena ryzyka, podjęte działania, uzgodniony plan bezpieczeństwa i dalsze kroki",
+      "ograniczenie dokumentacji do diagnozy roboczej bez opisu decyzji",
+      "brak notatki, jeśli rozmowa była krótka i „nie wydarzyło się nic poważnego”",
+      "zapisywanie wyłącznie dosłownych cytatów bez interpretacji klinicznej"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Dokumentacja powinna pokazywać tok decyzji i działania ochronne, co wspiera ciągłość opieki oraz bezpieczeństwo prawno-etyczne."
   }
 ]
