@@ -261,263 +261,263 @@
   },
   {
     "id": 21,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 1)",
+    "question": "W pierwszych 15 minutach interwencji kryzysowej najbardziej adekwatna kolejność działań to:",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
-      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
-      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
+      "kontakt i deeskalacja → ocena ryzyka → ustalenie najbliższych kroków bezpieczeństwa",
+      "diagnoza osobowości → interpretacja testów → zalecenie terapii długoterminowej",
+      "wyłącznie psychoedukacja o stresie bez pytań o zagrożenie",
+      "ustalenie celów rocznych zanim omówi się aktualny kryzys"
     ],
     "correct": 0,
-    "difficulty": 2,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "difficulty": 1,
+    "justification": "Wczesna interwencja ma charakter operacyjny: najpierw regulacja i bezpieczeństwo, potem plan działania na najbliższy czas."
   },
   {
     "id": 22,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 2)",
+    "question": "Który komunikat najlepiej wspiera deeskalację silnego pobudzenia?",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
-      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
-      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
+      "„Jestem z Tobą, oddychajmy przez chwilę wolniej i sprawdźmy, co teraz najbardziej zagraża bezpieczeństwu.”",
+      "„Jeśli się nie uspokoisz, nie będę kontynuować rozmowy.”",
+      "„To tylko kwestia silnej woli, postaraj się nad sobą zapanować.”",
+      "„Musisz natychmiast opowiedzieć wszystkie szczegóły, inaczej nie pomogę.”"
     ],
     "correct": 0,
-    "difficulty": 3,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "difficulty": 1,
+    "justification": "Walidacja i konkretna regulacja fizjologiczna zwykle obniżają napięcie skuteczniej niż presja i ocena."
   },
   {
     "id": 23,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 3)",
+    "question": "W kryzysie po gwałtownym zdarzeniu pytanie o „tu i teraz” jest ważne, ponieważ:",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
-      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
-      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
+      "pomaga ocenić orientację, bieżące zasoby i gotowość do podjęcia działań ochronnych",
+      "zastępuje potrzebę oceny ryzyka samobójczego",
+      "eliminuje konieczność kontaktu z bliskimi",
+      "pozwala automatycznie rozpoznać PTSD już na pierwszej sesji"
     ],
     "correct": 0,
-    "difficulty": 1,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "difficulty": 2,
+    "justification": "Orientacja na „tu i teraz” stabilizuje i dostarcza danych niezbędnych do bezpiecznego planu krótkoterminowego."
   },
   {
     "id": 24,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 4)",
+    "question": "Które działanie jest najbardziej właściwe, gdy klient zgłasza myśli samobójcze bez planu, ale z narastającą beznadzieją?",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
-      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
-      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
+      "pogłębiona ocena dynamicznego ryzyka, plan bezpieczeństwa i szybki follow-up",
+      "zakończenie rozmowy po krótkim uspokojeniu emocji",
+      "uznanie, że brak planu wyklucza realne ryzyko",
+      "przekazanie ogólnej ulotki bez dalszych ustaleń"
     ],
     "correct": 0,
     "difficulty": 2,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "justification": "Brak planu nie oznacza braku ryzyka. Wymagane są działania monitorujące i konkretne zabezpieczenia."
   },
   {
     "id": 25,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 5)",
+    "question": "W interwencji kryzysowej „walidacja emocji” oznacza przede wszystkim:",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
-      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
-      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
+      "uznanie, że reakcja emocjonalna jest zrozumiała w danym kontekście, bez wzmacniania zachowań ryzykownych",
+      "potwierdzenie, że wszystkie przekonania klienta są obiektywnie prawdziwe",
+      "przyjęcie pełnej odpowiedzialności za decyzje klienta",
+      "rezygnację z granic i struktury rozmowy"
     ],
     "correct": 0,
-    "difficulty": 3,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "difficulty": 1,
+    "justification": "Walidacja dotyczy uznania doświadczenia emocjonalnego, a nie bezkrytycznej zgody na treść wszystkich sądów."
   },
   {
     "id": 26,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 6)",
+    "question": "Który sygnał najbardziej przemawia za potrzebą intensywniejszego monitorowania po interwencji?",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
-      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
-      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
+      "szybkie wahania stanu, izolacja społeczna i malejąca zdolność do korzystania z planu bezpieczeństwa",
+      "jednorazowy płacz przy zachowanym wsparciu i współpracy",
+      "chwilowe zmęczenie po trudnym dniu",
+      "niskie zainteresowanie technikami relaksacji przy stabilnym bezpieczeństwie"
     ],
     "correct": 0,
-    "difficulty": 1,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "difficulty": 2,
+    "justification": "Połączenie wielu dynamicznych czynników ryzyka zwykle wymaga gęstszego kontaktu i aktywnego monitorowania."
   },
   {
     "id": 27,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 7)",
+    "question": "W pracy z osobą po napadzie paniki najbardziej adekwatne jest:",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
-      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
-      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
+      "normalizacja reakcji fizjologicznych, ćwiczenie regulacji oddechu i plan postępowania przy nawrocie",
+      "natychmiastowe etykietowanie objawów jako trwałego zaburzenia psychotycznego",
+      "przekonywanie, że objawy są „wyłącznie w głowie” i nie wymagają planu",
+      "zmuszanie do natychmiastowej ekspozycji na najsilniejsze bodźce bez przygotowania"
     ],
     "correct": 0,
     "difficulty": 2,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "justification": "Interwencja doraźna ma przywrócić poczucie kontroli i zmniejszyć katastroficzną interpretację objawów."
   },
   {
     "id": 28,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 8)",
+    "question": "Który element rozmowy najskuteczniej wzmacnia sprawczość osoby w kryzysie?",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
-      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
-      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
+      "wspólne ustalenie jednego małego, wykonalnego kroku na najbliższe godziny",
+      "przekazanie długiej listy ogólnych porad bez priorytetów",
+      "pozostawienie decyzji wyłącznie specjalistom i wycofanie klienta z procesu",
+      "skupienie rozmowy wyłącznie na błędach klienta"
     ],
     "correct": 0,
-    "difficulty": 3,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "difficulty": 1,
+    "justification": "Małe, realistyczne cele redukują przeciążenie i pomagają odbudować poczucie wpływu."
   },
   {
     "id": 29,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 9)",
+    "question": "W przypadku podejrzenia symulacji lub agrawacji objawów właściwe postępowanie to:",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
-      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
-      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
+      "użycie wskaźników wiarygodności i neutralna interpretacja oparta na danych z wielu źródeł",
+      "konfrontacja oskarżająca już po pierwszej niespójności wypowiedzi",
+      "automatyczne unieważnienie całego procesu pomocy",
+      "rezygnacja z dokumentacji, aby uniknąć konfliktu"
     ],
     "correct": 0,
-    "difficulty": 1,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "difficulty": 3,
+    "justification": "Ocena wiarygodności wymaga ostrożności metodologicznej i unikania przedwczesnych sądów."
   },
   {
     "id": 30,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 10)",
+    "question": "Które działanie najlepiej wspiera jakość decyzji diagnostycznych w zespole interdyscyplinarnym?",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
-      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
-      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
+      "integracja danych psychologicznych, medycznych i środowiskowych przy wspólnym planie bezpieczeństwa",
+      "hierarchia jednego źródła danych niezależnie od kontekstu",
+      "pomijanie rozbieżności między specjalistami, by przyspieszyć decyzję",
+      "oddzielenie działań każdego specjalisty bez wymiany informacji"
     ],
     "correct": 0,
     "difficulty": 2,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "justification": "W kryzysie decyzje są trafniejsze, gdy uwzględniają wieloperspektywiczny obraz funkcjonowania i zagrożeń."
   },
   {
     "id": 31,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 11)",
+    "question": "Które stwierdzenie najlepiej opisuje zasadę poufności w interwencji kryzysowej?",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
-      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
-      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
+      "poufność obowiązuje, ale może być ograniczona przy bezpośrednim zagrożeniu życia lub zdrowia",
+      "poufność jest absolutna nawet przy wysokim ryzyku samobójczym",
+      "interwent może dowolnie przekazywać informacje rodzinie bez zgody klienta",
+      "poufność dotyczy tylko rozmów stacjonarnych, nie online"
     ],
     "correct": 0,
-    "difficulty": 3,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "difficulty": 2,
+    "justification": "Granice poufności powinny być jasno komunikowane, szczególnie gdy bezpieczeństwo wymaga uruchomienia procedur ochronnych."
   },
   {
     "id": 32,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 12)",
+    "question": "W interwencji po przemocy seksualnej w pierwszej kolejności należy:",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
-      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
-      "Podejmowanie działań bez dokumentacji i ewaluacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
+      "zapewnić bezpieczeństwo, kontrolę nad tempem rozmowy i informację o dostępnych ścieżkach medyczno-prawnych",
+      "wymusić szczegółową relację zdarzenia niezależnie od stanu osoby",
+      "zminimalizować znaczenie zdarzenia, by obniżyć napięcie",
+      "odroczyć wszelką pomoc do czasu pełnego badania osobowości"
     ],
     "correct": 0,
-    "difficulty": 1,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "difficulty": 3,
+    "justification": "Podejście trauma-informed opiera się na bezpieczeństwie, podmiotowości i unikaniu wtórnej wiktymizacji."
   },
   {
     "id": 33,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 13)",
+    "question": "Który wskaźnik najlepiej sugeruje, że aktualny poziom wsparcia społecznego jest niewystarczający?",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
-      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
-      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
+      "brak dostępnych osób kontaktowych i trudność w uruchomieniu pomocy nawet przy jasnych instrukcjach",
+      "obecność jednej zaufanej osoby i gotowość do jej powiadomienia",
+      "korzystanie z wcześniej skutecznych strategii samoregulacji",
+      "regularny kontakt z placówką wsparcia i realizowanie ustaleń"
     ],
     "correct": 0,
     "difficulty": 2,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "justification": "Deficyt realnie dostępnego wsparcia zwiększa ryzyko nawrotu destabilizacji i wymaga aktywnego wzmacniania sieci pomocy."
   },
   {
     "id": 34,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 14)",
+    "question": "W pracy z osobą w silnym poczuciu winy po zdarzeniu kryzysowym najbardziej adekwatne jest:",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
-      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
-      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
+      "oddzielenie odpowiedzialności realistycznej od zniekształceń poznawczych oraz stabilizacja emocjonalna",
+      "natychmiastowe podważanie wszystkich emocji jako „nieracjonalnych”",
+      "pominięcie tematu winy, aby nie wzmacniać cierpienia",
+      "nakłanianie do szybkich deklaracji przebaczenia sobie"
     ],
     "correct": 0,
-    "difficulty": 3,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "difficulty": 2,
+    "justification": "Uregulowanie emocji i poznawcze porządkowanie odpowiedzialności pomaga zmniejszać obciążającą samokrytykę."
   },
   {
     "id": 35,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 15)",
+    "question": "Które stwierdzenie najlepiej opisuje użycie psychoedukacji w kryzysie?",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
-      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
-      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
+      "powinna być krótka, praktyczna i dopasowana do bieżącej zdolności koncentracji osoby",
+      "powinna zastąpić ocenę ryzyka i plan bezpieczeństwa",
+      "powinna zawierać pełny wykład teoretyczny niezależnie od stanu klienta",
+      "powinna unikać informacji o objawach, by nie „sugerować” reakcji"
     ],
     "correct": 0,
     "difficulty": 1,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "justification": "W kryzysie skuteczna psychoedukacja jest konkretna i wspiera działania możliwe do wdrożenia od razu."
   },
   {
     "id": 36,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 16)",
+    "question": "Jeśli klient przerywa kontakt podczas sesji online i wcześniej zgłaszał myśli samobójcze, najbardziej właściwe jest:",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
-      "Pomijanie informacji zwrotnych od osoby badanej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
-      "Podejmowanie działań bez dokumentacji i ewaluacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
+      "uruchomienie wcześniej ustalonej procedury awaryjnej i podjęcie prób kontaktu zgodnie z planem bezpieczeństwa",
+      "poczekać do następnej zaplanowanej wizyty bez żadnych działań",
+      "założyć, że przerwanie połączenia oznacza poprawę samopoczucia",
+      "zrezygnować z dalszego dokumentowania sytuacji"
     ],
     "correct": 0,
-    "difficulty": 2,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "difficulty": 3,
+    "justification": "W pracy zdalnej przygotowany protokół awaryjny jest kluczowy dla ciągłości bezpieczeństwa."
   },
   {
     "id": 37,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 17)",
+    "question": "Które zachowanie interwenta najlepiej wspiera przymierze pomocowe?",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
-      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
-      "Podejmowanie działań bez dokumentacji i ewaluacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
-    ],
-    "correct": 0,
-    "difficulty": 3,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
-  },
-  {
-    "id": 38,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 18)",
-    "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
-      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
-      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
+      "jasne podsumowywanie ustaleń i wspólne sprawdzanie, czy plan jest dla klienta realny",
+      "narzucanie planu bez pytania o możliwości wykonania",
+      "unikanie rozmowy o trudnościach, aby utrzymać „pozytywny ton”",
+      "skracanie sesji przy każdym przejawie silnych emocji"
     ],
     "correct": 0,
     "difficulty": 1,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "justification": "Przymierze rośnie, gdy plan jest współtworzony i osadzony w realnych zasobach osoby."
   },
   {
-    "id": 39,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 19)",
+    "id": 38,
+    "question": "W kryzysie migracyjnym lub uchodźczym szczególnie ważne jest:",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
-      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
-      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
+      "uwzględnienie barier językowych, statusu prawnego i dostępności lokalnych zasobów wsparcia",
+      "stosowanie identycznych procedur bez adaptacji kulturowej",
+      "koncentracja wyłącznie na objawach bez kontekstu społecznego",
+      "odkładanie interwencji do czasu pełnej stabilizacji formalnej osoby"
     ],
     "correct": 0,
     "difficulty": 2,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "justification": "Kontekst prawno-społeczny i kulturowy silnie wpływa na bezpieczeństwo i skuteczność pomocy kryzysowej."
+  },
+  {
+    "id": 39,
+    "question": "Który element najlepiej wskazuje na gotowość do przekazania klienta z interwencji kryzysowej do dalszej opieki?",
+    "options": [
+      "ustabilizowany poziom ryzyka, zrozumiały plan dalszego leczenia i potwierdzone punkty kontaktu",
+      "całkowity brak jakichkolwiek objawów emocjonalnych",
+      "jednorazowe zapewnienie, że „będzie dobrze” bez planu",
+      "zakończenie kontaktu wyłącznie z powodu ograniczeń czasowych zespołu"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Bezpieczne przekazanie wymaga nie tylko poprawy objawowej, ale też ciągłości wsparcia i jasnej ścieżki postępowania."
   },
   {
     "id": 40,
-    "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze interwencji kryzysowej? (pytanie uzupełniające 20)",
+    "question": "W ocenie skuteczności interwencji kryzysowej najbardziej wiarygodne jest:",
     "options": [
-      "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
-      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
-      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
+      "połączenie wskaźników: redukcja ryzyka, poprawa funkcjonowania i realizacja uzgodnionych działań",
+      "ocena oparta wyłącznie na subiektywnym wrażeniu interwenta",
+      "liczba sesji jako jedyny miernik jakości pomocy",
+      "brak ponownego kontaktu automatycznie interpretowany jako pełna poprawa"
     ],
     "correct": 0,
-    "difficulty": 3,
-    "justification": "W obszarze interwencji kryzysowej rekomendowane jest łączenie wiedzy empirycznej, analizy kontekstu oraz bieżącej oceny efektów oddziaływań."
+    "difficulty": 2,
+    "justification": "Ewaluacja powinna obejmować bezpieczeństwo, funkcjonowanie i trwałość wdrożonego planu, nie pojedynczy wskaźnik."
   },
   {
     "id": 41,
