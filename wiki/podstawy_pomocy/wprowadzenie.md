@@ -59,3 +59,4 @@ Pomoc psychologiczna działa zarówno w obszarze **prewencji** (zapobieganie pro
 - Empatia w pomocy psychologicznej
 - Etyka pomocy psychologicznej
 - Kryzys psychologiczny i interwencja
+- Facylitacja w pracy pomocowej
