@@ -1129,5 +1129,161 @@
     "correct": 0,
     "difficulty": 2,
     "justification": "Pojedynczy wynik skrajny może wynikać z wielu czynników (zmęczenie, motywacja, kontekst zadania). Dlatego interpretacja powinna być profilowa i wieloźródłowa."
+  },
+  {
+    "id": 88,
+    "question": "Które działanie najlepiej zwiększa trafność decyzji diagnostycznej przy rozbieżnych źródłach danych?",
+    "options": [
+      "jawne porównanie hipotez konkurencyjnych i wskazanie, które dane wspierają każdą z nich",
+      "wybór źródła danych najbardziej zgodnego z pierwszym wrażeniem diagnosty",
+      "pominięcie danych od informatorów zewnętrznych, by uniknąć „szumu”",
+      "uznanie wyniku najwyższej skali za wystarczający do rozpoznania"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Przy niespójnych danych kluczowe jest testowanie hipotez konkurencyjnych i transparentne uzasadnienie, dlaczego jedna interpretacja jest bardziej prawdopodobna."
+  },
+  {
+    "id": 89,
+    "question": "W opisie wyniku testowego „percentyl 16” najtrafniejsza interpretacja brzmi:",
+    "options": [
+      "osoba uzyskała wynik lepszy niż 16% grupy odniesienia i słabszy niż 84%",
+      "osoba odpowiedziała poprawnie na 16% pozycji testowych",
+      "wynik jest klinicznie nieistotny, bo nie przekracza 50. percentyla",
+      "wynik oznacza 16 punktów standaryzowanych w skali stenowej"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Percentyl opisuje pozycję wyniku w rozkładzie normatywnym, a nie odsetek poprawnych odpowiedzi czy punktację stenową."
+  },
+  {
+    "id": 90,
+    "question": "Który przykład najlepiej ilustruje trafność ekologiczną narzędzia diagnostycznego?",
+    "options": [
+      "wynik testu wiąże się z rzeczywistym funkcjonowaniem osoby w codziennych zadaniach",
+      "narzędzie ma wysoką zgodność wewnętrzną i długi podręcznik",
+      "badani deklarują, że test był interesujący i łatwy",
+      "wynik testu dobrze różnicuje grupy w warunkach laboratoryjnych, ale nie w praktyce"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Trafność ekologiczna odnosi się do tego, na ile wynik przekłada się na realne funkcjonowanie poza sytuacją testową."
+  },
+  {
+    "id": 91,
+    "question": "W diagnostyce klinicznej „przedwczesne domknięcie” (premature closure) oznacza najczęściej:",
+    "options": [
+      "zakończenie procesu wnioskowania po pierwszej pozornie pasującej hipotezie bez pełnego sprawdzenia alternatyw",
+      "odroczenie rozpoznania do czasu uzyskania dodatkowych danych",
+      "powtórne badanie po wykryciu niejednoznacznych wskaźników",
+      "opisanie ograniczeń i niepewności opinii"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Premature closure zwiększa ryzyko błędu, bo blokuje dalsze różnicowanie i aktywne poszukiwanie danych falsyfikujących."
+  },
+  {
+    "id": 92,
+    "question": "Które podejście najlepiej odpowiada standardowi „least restrictive interpretation” w opiniowaniu?",
+    "options": [
+      "formułowanie wniosków możliwie oszczędnych, adekwatnych do danych i bez nadmiernych uogólnień",
+      "wybieranie najbardziej dramatycznej interpretacji, by zminimalizować ryzyko przeoczenia",
+      "stosowanie języka kategorycznego niezależnie od jakości pomiaru",
+      "zastępowanie danych testowych intuicją kliniczną w sytuacjach granicznych"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Interpretacja „least restrictive” ogranicza nadmierne wnioskowanie i chroni przed przypisywaniem cech wykraczających poza materiał dowodowy."
+  },
+  {
+    "id": 93,
+    "question": "Jeśli badany uzyskuje skrajnie niski wynik w jednym podteście przy dobrym profilu globalnym, pierwszym krokiem powinno być:",
+    "options": [
+      "sprawdzenie jakości wykonania, warunków badania i spójności z innymi wskaźnikami przed stawianiem daleko idących tez",
+      "natychmiastowe rozpoznanie trwałego deficytu specyficznego",
+      "pominięcie wyniku jako „przypadkowego” bez dalszej analizy",
+      "automatyczne przeliczenie wszystkich wyników na średnią globalną"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Pojedyncza anomalia może wynikać z czynników sytuacyjnych lub błędu pomiaru, dlatego wymaga weryfikacji i osadzenia w całym profilu."
+  },
+  {
+    "id": 94,
+    "question": "Która praktyka najlepiej wspiera rzetelność międzydiagnostyczną (inter-rater reliability)?",
+    "options": [
+      "stosowanie jasno zdefiniowanych kryteriów kodowania i wspólnych procedur oceny",
+      "opieranie się na swobodnej narracji bez operacjonalizacji kategorii",
+      "przyjmowanie, że doświadczenie kliniczne eliminuje potrzebę kalibracji zespołu",
+      "modyfikowanie kryteriów w trakcie badania zależnie od przypadku"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Rzetelność między oceniającymi rośnie, gdy kryteria są jednoznaczne, a procedura standaryzowana i regularnie kalibrowana."
+  },
+  {
+    "id": 95,
+    "question": "W ocenie funkcjonowania psychospołecznego po leczeniu najbardziej trafne jest:",
+    "options": [
+      "porównanie wyników przed–po wraz z oceną zmiany w realnych rolach życiowych (praca, relacje, samodzielność)",
+      "interpretowanie poprawy wyłącznie na podstawie subiektywnego nastroju z jednej wizyty",
+      "wnioskowanie o skuteczności tylko z pojedynczego wskaźnika testowego",
+      "pomijanie danych od bliskich, aby zachować „czystość pomiaru”"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Ocena efektu leczenia powinna łączyć wskaźniki psychometryczne z funkcjonalnym transferem do codziennego życia."
+  },
+  {
+    "id": 96,
+    "question": "Które stwierdzenie najlepiej opisuje znaczenie częstości bazowej (base rate) w diagnozie?",
+    "options": [
+      "prawdopodobieństwo rozpoznania zależy nie tylko od wyniku testu, ale też od rozpowszechnienia problemu w populacji badanej",
+      "wysoka czułość testu całkowicie neutralizuje wpływ częstości bazowej",
+      "częstość bazowa ma znaczenie wyłącznie w badaniach naukowych, nie w praktyce klinicznej",
+      "wynik dodatni zawsze ma tę samą wartość diagnostyczną niezależnie od kontekstu populacyjnego"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Ignorowanie base rate prowadzi do błędów predykcji, zwłaszcza przy niskiej prewalencji i interpretacji wyników dodatnich."
+  },
+  {
+    "id": 97,
+    "question": "W modelu case formulation najbardziej adekwatne jest traktowanie diagnozy jako:",
+    "options": [
+      "dynamicznej hipotezy roboczej łączącej mechanizmy, czynniki podtrzymujące i cele interwencji",
+      "jednorazowej etykiety nozologicznej niezależnej od kontekstu i przebiegu",
+      "wyłącznie podsumowania wyników testowych bez opisu procesów",
+      "formalności administracyjnej niewpływającej na plan pomocy"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Formulacja przypadku ma charakter funkcjonalny i pomaga łączyć dane diagnostyczne z planem leczenia oraz monitorowaniem zmiany."
+  },
+  {
+    "id": 98,
+    "question": "Który przykład najlepiej pokazuje poprawne użycie danych normatywnych?",
+    "options": [
+      "porównanie wyniku osoby z adekwatną grupą odniesienia (wiek, edukacja, kontekst kulturowy) przed wnioskowaniem klinicznym",
+      "stosowanie jednej normy populacyjnej do wszystkich badanych niezależnie od charakterystyki",
+      "zastąpienie normy oceną „na oko” przez diagnostę",
+      "wybór normy, która najbardziej potwierdza wstępną hipotezę"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Adekwatna norma redukuje błąd interpretacyjny i zwiększa sprawiedliwość porównań międzyosobniczych."
+  },
+  {
+    "id": 99,
+    "question": "W sytuacji wysokiej stawki decyzji (np. orzecznictwo) najbardziej właściwe jest:",
+    "options": [
+      "zwiększenie rygoru metodologicznego: wieloźródłowe dane, jawne ograniczenia i ostrożny język wniosków",
+      "upraszczanie opisu, by szybciej wydać rozstrzygnięcie bez analizy niepewności",
+      "rezygnacja z danych niepasujących do głównej hipotezy",
+      "stosowanie jednoznacznych twierdzeń przy niepełnych informacjach"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Im większa stawka decyzji, tym wyższy standard dowodowy i potrzeba transparentności granic wnioskowania."
   }
 ]
