@@ -788,6 +788,23 @@ window.SITE_CONFIG = {
         { id: 'ppd/dobre_praktyki',           label: 'Dobre praktyki w pisaniu pracy',        file: 'wiki/ppd/dobre_praktyki.md'           },
       ]
     },
+    {
+      section: 'Eksperyment psychologiczny',
+      items: [
+        { id: 'eksperyment_psychologiczny/wprowadzenie',              label: 'Wprowadzenie do metod eksperymentalnych',   file: 'wiki/eksperyment_psychologiczny/wprowadzenie.md'              },
+        { id: 'eksperyment_psychologiczny/problemy_i_hipotezy',       label: 'Problem badawczy i hipotezy',                file: 'wiki/eksperyment_psychologiczny/problemy_i_hipotezy.md'       },
+        { id: 'eksperyment_psychologiczny/operacjonalizacja',         label: 'Operacjonalizacja zmiennych',                file: 'wiki/eksperyment_psychologiczny/operacjonalizacja.md'         },
+        { id: 'eksperyment_psychologiczny/proby_i_rekrutacja',        label: 'Dobór próby i rekrutacja',                   file: 'wiki/eksperyment_psychologiczny/proby_i_rekrutacja.md'        },
+        { id: 'eksperyment_psychologiczny/etyka_i_zgoda',             label: 'Etyka badania i świadoma zgoda',             file: 'wiki/eksperyment_psychologiczny/etyka_i_zgoda.md'             },
+        { id: 'eksperyment_psychologiczny/obserwacja_psychologiczna', label: 'Obserwacja psychologiczna w praktyce',       file: 'wiki/eksperyment_psychologiczny/obserwacja_psychologiczna.md' },
+        { id: 'eksperyment_psychologiczny/protokol_i_pilotaz',        label: 'Protokół badania i pilotaż',                 file: 'wiki/eksperyment_psychologiczny/protokol_i_pilotaz.md'        },
+        { id: 'eksperyment_psychologiczny/prowadzenie_eksperymentu',  label: 'Prowadzenie sesji eksperymentalnej',         file: 'wiki/eksperyment_psychologiczny/prowadzenie_eksperymentu.md'  },
+        { id: 'eksperyment_psychologiczny/jakosc_danych',             label: 'Kontrola jakości i zarządzanie danymi',      file: 'wiki/eksperyment_psychologiczny/jakosc_danych.md'             },
+        { id: 'eksperyment_psychologiczny/analiza_i_wnioskowanie',    label: 'Analiza danych i wnioskowanie',              file: 'wiki/eksperyment_psychologiczny/analiza_i_wnioskowanie.md'    },
+        { id: 'eksperyment_psychologiczny/replikacja_i_otwarta_nauka',label: 'Replikacja i otwarta nauka',                 file: 'wiki/eksperyment_psychologiczny/replikacja_i_otwarta_nauka.md'},
+        { id: 'eksperyment_psychologiczny/raportowanie_wynikow',      label: 'Raportowanie wyników i ograniczeń',          file: 'wiki/eksperyment_psychologiczny/raportowanie_wynikow.md'      },
+      ]
+    },
     
     {
       section: 'Encyklopedie',
@@ -1477,6 +1494,20 @@ window.SITE_CONFIG = {
       { file: 'wiki/rozwojowa/rodzicielstwo.md',                 label: 'Style rodzicielskie',                     status: 'live' },
       { file: 'wiki/rozwojowa/trauma_rozwojowa.md',              label: 'Trauma rozwojowa',                        status: 'live' },
       { file: 'wiki/rozwojowa/tozsamosc.md',                     label: 'Kształtowanie tożsamości',                status: 'live' },
+    ],
+    eksperyment_psychologiczny: [
+      { file: 'wiki/eksperyment_psychologiczny/wprowadzenie.md',               label: 'Wprowadzenie do metod eksperymentalnych', status: 'live' },
+      { file: 'wiki/eksperyment_psychologiczny/problemy_i_hipotezy.md',        label: 'Problem badawczy i hipotezy',              status: 'live' },
+      { file: 'wiki/eksperyment_psychologiczny/operacjonalizacja.md',          label: 'Operacjonalizacja zmiennych',              status: 'live' },
+      { file: 'wiki/eksperyment_psychologiczny/proby_i_rekrutacja.md',         label: 'Dobór próby i rekrutacja',                 status: 'live' },
+      { file: 'wiki/eksperyment_psychologiczny/etyka_i_zgoda.md',              label: 'Etyka badania i świadoma zgoda',           status: 'live' },
+      { file: 'wiki/eksperyment_psychologiczny/obserwacja_psychologiczna.md',  label: 'Obserwacja psychologiczna w praktyce',     status: 'live' },
+      { file: 'wiki/eksperyment_psychologiczny/protokol_i_pilotaz.md',         label: 'Protokół badania i pilotaż',               status: 'live' },
+      { file: 'wiki/eksperyment_psychologiczny/prowadzenie_eksperymentu.md',   label: 'Prowadzenie sesji eksperymentalnej',       status: 'live' },
+      { file: 'wiki/eksperyment_psychologiczny/jakosc_danych.md',              label: 'Kontrola jakości i zarządzanie danymi',    status: 'live' },
+      { file: 'wiki/eksperyment_psychologiczny/analiza_i_wnioskowanie.md',     label: 'Analiza danych i wnioskowanie',            status: 'live' },
+      { file: 'wiki/eksperyment_psychologiczny/replikacja_i_otwarta_nauka.md', label: 'Replikacja i otwarta nauka',               status: 'live' },
+      { file: 'wiki/eksperyment_psychologiczny/raportowanie_wynikow.md',       label: 'Raportowanie wyników i ograniczeń',        status: 'live' },
     ],
   },
 
