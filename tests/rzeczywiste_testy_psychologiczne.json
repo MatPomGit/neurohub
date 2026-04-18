@@ -388,5 +388,161 @@
     "correct": 1,
     "difficulty": 3,
     "justification": "Współpraca interdyscyplinarna zwiększa trafność i praktyczną wartość rozpoznań."
+  },
+  {
+    "id": 31,
+    "question": "Który opis najlepiej oddaje sens wskaźników wiarygodności odpowiedzi w MMPI-2?",
+    "options": [
+      "Służą do oceny stylu odpowiadania (np. defensywność, przesadna symptomatyzacja), co wpływa na interpretowalność profilu klinicznego",
+      "Są to skale nasilenia objawów psychotycznych i zastępują pełny wywiad",
+      "Oceniają wyłącznie poziom inteligencji werbalnej badanego",
+      "Ich podwyższenie automatycznie oznacza symulację i unieważnia całe badanie"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Skale wiarygodności pomagają ocenić jakość danych i styl autoprezentacji. Nie służą do prostego „etykietowania” badanego, lecz do ostrożniejszej interpretacji profilu."
+  },
+  {
+    "id": 32,
+    "question": "W diagnostyce ADHD u dorosłych najbardziej trafne metodologicznie jest:",
+    "options": [
+      "integracja aktualnych objawów z wywiadem rozwojowym, danymi funkcjonalnymi i źródłami zewnętrznymi",
+      "postawienie rozpoznania na podstawie jednego kwestionariusza samoopisowego",
+      "uznanie, że brak dokumentacji szkolnej wyklucza diagnozę niezależnie od pozostałych danych",
+      "oparcie się wyłącznie na wyniku CPT bez wywiadu klinicznego"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Rzetelna diagnoza ADHD wymaga podejścia wieloźródłowego i oceny przebiegu objawów w czasie, a nie pojedynczego wskaźnika testowego."
+  },
+  {
+    "id": 33,
+    "question": "Które działanie najlepiej ogranicza ryzyko nadinterpretacji pojedynczego wyniku testowego?",
+    "options": [
+      "sprawdzenie zgodności wyniku z danymi z wywiadu, obserwacji i innymi narzędziami",
+      "zastosowanie ostrzejszego języka w opisie, aby zwiększyć siłę rekomendacji",
+      "pominięcie informacji niezgodnych z hipotezą roboczą",
+      "uznanie, że wynik statystycznie rzadki zawsze oznacza patologię"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Triangulacja danych pozwala odróżnić stabilny wzorzec kliniczny od artefaktu pomiarowego lub wpływu sytuacyjnego."
+  },
+  {
+    "id": 34,
+    "question": "W interpretacji wyników WAIS istotna różnica między indeksami najczęściej oznacza, że:",
+    "options": [
+      "profil poznawczy może być niejednorodny i wymaga analizy jakościowej zamiast wyłącznie globalnego IQ",
+      "globalny wynik IQ staje się automatycznie nieważny prawnie",
+      "badany celowo zaniżał odpowiedzi we wszystkich podtestach",
+      "normy testowe nie mają zastosowania do osób dorosłych"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Rozbieżności między indeksami mogą wskazywać na specyficzne mocne i słabe strony. Wtedy potrzebna jest interpretacja profilowa i funkcjonalna."
+  },
+  {
+    "id": 35,
+    "question": "Który przykład najlepiej ilustruje trafność kryterialną narzędzia selekcyjnego?",
+    "options": [
+      "wyniki testu istotnie przewidują późniejszą efektywność pracy mierzoną obiektywnymi wskaźnikami",
+      "test ma estetyczny interfejs i krótki czas wypełniania",
+      "pozycje testowe są subiektywnie oceniane jako „ciekawe” przez kandydatów",
+      "narzędzie zawiera więcej pytań niż poprzednia wersja"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Trafność kryterialna dotyczy związku wyniku testu z istotnym kryterium zewnętrznym, np. przyszłymi osiągnięciami."
+  },
+  {
+    "id": 36,
+    "question": "W ocenie ryzyka samobójczego najpoważniejszym błędem diagnostycznym jest:",
+    "options": [
+      "zastąpienie oceny klinicznej samym wynikiem skali i pominięcie bezpośredniego pytania o zamiar oraz plan",
+      "uwzględnienie czynników ochronnych i historii prób",
+      "monitorowanie dynamicznych zmian ryzyka między wizytami",
+      "dokumentowanie przesłanek decyzji i planu bezpieczeństwa"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Skale są narzędziem pomocniczym. Ocena ryzyka wymaga wywiadu klinicznego, analizy kontekstu i planu interwencji."
+  },
+  {
+    "id": 37,
+    "question": "Który sygnał najbardziej wskazuje na efekt uczenia się (practice effect) przy ponownym teście neurokognitywnym?",
+    "options": [
+      "wyraźna poprawa w zadaniach identycznych proceduralnie przy braku równoległej poprawy funkcjonowania codziennego",
+      "spadek wykonania po wydłużonej deprywacji snu",
+      "stabilny wynik w wersji alternatywnej testu przy długim odstępie czasu",
+      "pogorszenie pamięci po incydencie neurologicznym potwierdzonym obrazowo"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Practice effect może zawyżać pozorną poprawę testową bez realnego transferu funkcjonalnego. Warto stosować wersje równoległe i analizę wieloźródłową."
+  },
+  {
+    "id": 38,
+    "question": "W badaniu dzieci szkolnych przy podejrzeniu specyficznych trudności uczenia się najbardziej trafne jest:",
+    "options": [
+      "połączenie danych z testów osiągnięć, funkcji poznawczych, wywiadu rozwojowego oraz informacji od szkoły",
+      "postawienie rozpoznania wyłącznie na podstawie opinii nauczyciela",
+      "rezygnacja z analizy czynników środowiskowych i językowych",
+      "użycie tylko jednego testu inteligencji jako podstawy diagnozy"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Diagnoza trudności uczenia się wymaga różnicowania przyczyn i oceny funkcjonowania w środowisku edukacyjnym, nie tylko wyniku pojedynczego testu."
+  },
+  {
+    "id": 39,
+    "question": "Które sformułowanie w opinii psychologicznej jest najbardziej poprawne metodologicznie?",
+    "options": [
+      "„Wyniki sugerują podwyższone prawdopodobieństwo trudności regulacji emocji; zalecana jest dalsza pogłębiona obserwacja kliniczna.”",
+      "„Na podstawie jednej skali stwierdzam trwałe zaburzenie osobowości bez potrzeby dalszej diagnostyki.”",
+      "„Wynik testu dowodzi przyczyny objawów, dlatego dane z wywiadu są zbędne.”",
+      "„Interpretacja jest pewna, mimo że badanie odbyło się w niestandaryzowanych warunkach.”"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Dobra praktyka wymaga języka probabilistycznego, wskazania ograniczeń i rekomendacji dalszych kroków diagnostycznych."
+  },
+  {
+    "id": 40,
+    "question": "W praktyce sądowo-psychologicznej neutralność biegłego oznacza przede wszystkim:",
+    "options": [
+      "opieranie opinii na danych i metodologii, niezależnie od oczekiwań stron postępowania",
+      "formułowanie tez zgodnych z interesem strony zlecającej opinię",
+      "rezygnację z opisu niepewności, aby ułatwić sądowi decyzję",
+      "przyjmowanie założeń organu procesowego bez ich weryfikacji"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Biegły odpowiada przed sądem jako ekspert, a nie rzecznik którejkolwiek strony. Kluczowe są bezstronność, transparentność i adekwatność wniosków do danych."
+  },
+  {
+    "id": 41,
+    "question": "Która decyzja najbardziej zwiększa jakość informacji zwrotnej dla pacjenta po badaniu?",
+    "options": [
+      "przełożenie wyników na konkretne rekomendacje funkcjonalne i omówienie ich zrozumiałym językiem",
+      "przekazanie wyłącznie tabeli wyników standaryzowanych bez komentarza",
+      "zakończenie spotkania bez możliwości zadawania pytań przez pacjenta",
+      "ograniczenie informacji do nazwy rozpoznania bez omówienia planu wsparcia"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Informacja zwrotna jest użyteczna, gdy łączy wynik testu z codziennym funkcjonowaniem i możliwymi interwencjami."
+  },
+  {
+    "id": 42,
+    "question": "W badaniach przesiewowych przy niskiej częstości zaburzenia w populacji należy pamiętać, że:",
+    "options": [
+      "nawet test o dobrej czułości i swoistości może mieć umiarkowaną dodatnią wartość predykcyjną",
+      "dodatnia wartość predykcyjna zawsze rośnie wraz ze spadkiem prewalencji",
+      "fałszywie dodatnie wyniki praktycznie znikają przy dużej próbie",
+      "prewalencja nie wpływa na interpretację wyniku dodatniego"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Dodatnia wartość predykcyjna silnie zależy od prewalencji. Przy niskiej częstości zjawiska rośnie odsetek wyników fałszywie dodatnich wśród wyników dodatnich."
   }
 ]
