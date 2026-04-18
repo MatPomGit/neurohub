@@ -33,12 +33,12 @@ window.SITE_CONFIG = {
       items: [
         { id: 'students/wybor_specjalnosci', label: 'Wybór specjalności', file: 'wiki/students/wybor_specjalnosci.md' },
         { id: 'students/sciezki_kariery', label: 'Ścieżki kariery po psychologii', file: 'wiki/students/sciezki_kariery.md' },
-        { id: 'students/test_specjalnosci',  label: 'Test wyboru specjalności', custom: 'specialization_test' },
+        { id: 'students/test_specjalnosci',  label: 'Test wyboru specjalności', custom: 'specialization_test', kind: 'test' },
         { id: 'students/etyka_studenta',     label: 'Etyka studenta psychologii', file: 'wiki/students/etyka_studenta.md' },
         { id: 'students/psychologia_codziennej', label: 'Psychologia codzienna',    custom: 'daily_psychology' },
-        { id: 'students/testy_teoretyczne',      label: 'Testy teoretyczne',         custom: 'theoretical_test' },
-        { id: 'students/winietki_kliniczne',     label: 'Winietki kliniczne',        custom: 'theoretical_test', presetTopic: 'winiety_kliniczne' },
-        { id: 'students/testy_dyplomowe',        label: 'Testy dyplomowe',           custom: 'theoretical_test', presetTopic: 'egzamin_dyplomowy' },
+        { id: 'students/testy_teoretyczne',      label: 'Testy teoretyczne',         custom: 'theoretical_test', kind: 'test' },
+        { id: 'students/winietki_kliniczne',     label: 'Winietki kliniczne',        custom: 'theoretical_test', presetTopic: 'winiety_kliniczne', kind: 'test' },
+        { id: 'students/testy_dyplomowe',        label: 'Testy dyplomowe',           custom: 'theoretical_test', presetTopic: 'egzamin_dyplomowy', kind: 'test' },
         /**{ id: 'students/monopoly_psychologiczne', href: 'https://matpomgit.github.io/Psychopoly/', label: 'Monopoly Psychologiczne' },*/
       ]
     },
