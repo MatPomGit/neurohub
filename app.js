@@ -118,22 +118,22 @@ function isBodyEmpty(text) {
 function updateEmptyIndicators() {
   emptyArticles.forEach(id => {
     document.querySelectorAll(`.art-card[data-artid="${id}"]`).forEach(el => {
-      if (el.classList.contains('empty')) return;
+      if (el.classList.contains('is-empty')) return;
       el.classList.remove('live','xlink','wiki','planned');
-      el.classList.add('empty');
+      el.classList.add('is-empty');
       const dot = el.querySelector('.art-dot');
-      if (dot) dot.className = 'art-dot empty';
+      if (dot) dot.className = 'art-dot is-empty';
       const badge = el.querySelector('.art-badge');
-      if (badge) { badge.className = 'art-badge empty'; badge.textContent = 'pusty'; }
+      if (badge) { badge.className = 'art-badge is-empty'; badge.textContent = 'pusty'; }
     });
     document.querySelectorAll(`.plan-item[data-artid="${id}"]`).forEach(el => {
-      if (el.classList.contains('empty')) return;
+      if (el.classList.contains('is-empty')) return;
       el.classList.remove('live','planned');
-      el.classList.add('empty');
+      el.classList.add('is-empty');
       const dot = el.querySelector('.plan-dot');
-      if (dot) dot.className = 'plan-dot empty';
+      if (dot) dot.className = 'plan-dot is-empty';
       const badge = el.querySelector('.plan-badge');
-      if (badge) { badge.className = 'plan-badge empty'; badge.textContent = 'pusty'; }
+      if (badge) { badge.className = 'plan-badge is-empty'; badge.textContent = 'pusty'; }
     });
   });
 }
@@ -156,7 +156,7 @@ function renderSidebar() {
       if (item.href) {
         html += `<a class="nav-item nav-item-external" href="${q(item.href)}" target="_blank" rel="noopener noreferrer">${item.label} ↗</a>`;
       } else {
-        const cls = ['nav-item', item.wiki?'is-wiki':'', item.kind === 'test' ? 'nav-item-test' : '', item.id===active?'active':''].filter(Boolean).join(' ');
+        const cls = ['nav-item', item.wiki?'is-wiki':'', item.kind === 'test' ? 'nav-item-test' : '', item.id===active?'is-active':''].filter(Boolean).join(' ');
         html += `<div class="${cls}" data-id="${item.id}" onclick="navigate('${item.id}')">${item.label}</div>`;
       }
     }
@@ -175,7 +175,7 @@ function toggleGroup(hdr) {
 
 function setActive(id) {
   document.querySelectorAll('.nav-item').forEach(el =>
-    el.classList.toggle('active', el.dataset.id === id)
+    el.classList.toggle('is-active', el.dataset.id === id)
   );
   const el = document.querySelector(`.nav-item[data-id="${id}"]`);
   if (el) {
@@ -305,27 +305,42 @@ function renderDailyPsychology(id, item) {
     area.innerHTML = '<div class="error-box"><h2>Błąd ładowania modułu</h2><p>Nie udało się wczytać danych psychologii codziennej.</p></div>';
     return;
   }
-  const today = new Date().getDay(); /* 0=Sun … 6=Sat */
+  /* Porządek tygodnia w UI zaczynamy od poniedziałku niezależnie od lokalizacji. */
+  const WEEK_ORDER_MONDAY_FIRST = [1, 2, 3, 4, 5, 6, 0];
+  const sortByMondayFirst = (entries) =>
+    [...entries].sort((a, b) => WEEK_ORDER_MONDAY_FIRST.indexOf(a.day) - WEEK_ORDER_MONDAY_FIRST.indexOf(b.day));
+  /* Stabilny wybór wariantu na podstawie aktualnej daty i numeru dnia. */
+  const pickDailyVariant = (variants, dayNumber) => {
+    if (!Array.isArray(variants) || variants.length === 0) return null;
+    const dateKey = new Date().toISOString().slice(0, 10).replace(/-/g, '');
+    const seed = Number(dateKey) + (dayNumber * 37);
+    return variants[Math.abs(seed) % variants.length];
+  };
+
+  const today = new Date().getDay(); /* 0=niedziela … 6=sobota */
+  const orderedData = sortByMondayFirst(data);
   const displayDay = (dailySelectedDay !== null) ? dailySelectedDay : today;
-  const entry = data.find(e => e.day === displayDay) || data[0];
+  const entry = orderedData.find(e => e.day === displayDay) || orderedData[0];
+  const curiosity = pickDailyVariant(entry.curiosityVariants, entry.day) || entry.curiosity;
+  const exercise = pickDailyVariant(entry.exerciseVariants, entry.day) || entry.exercise;
 
   const typeLabels = {
     reflection: 'Refleksja', challenge: 'Wyzwanie', bodyscan: 'Skan ciała',
     writing: 'Pisanie', mindfulness: 'Uważność', social: 'Wyzwanie społeczne', creative: 'Kreatywność'
   };
 
-  const navBtns = data.map(e => {
+  const navBtns = orderedData.map(e => {
     const isToday = e.day === today;
     const isActive = e.day === displayDay;
     const todayMark = isToday ? `<span class="daily-today-label">dziś</span>` : '';
-    return `<button class="daily-day-btn${isActive ? ' active' : ''}" onclick="selectDailyDay(${e.day})">${e.emoji} ${e.dayName}${todayMark}</button>`;
+    return `<button class="daily-day-btn${isActive ? ' is-active' : ''}" onclick="selectDailyDay(${e.day})">${e.emoji} ${e.dayName}${todayMark}</button>`;
   }).join('');
 
-  const stepsHtml = entry.exercise.steps.map((step, i) =>
+  const stepsHtml = exercise.steps.map((step, i) =>
     `<li><span class="daily-step-num">${i + 1}</span><span>${step}</span></li>`
   ).join('');
 
-  const bodyParas = entry.curiosity.body.map(p => `<p>${p}</p>`).join('');
+  const bodyParas = curiosity.body.map(p => `<p>${p}</p>`).join('');
 
   area.innerHTML = `<div class="rendered daily-wrap">
     <div class="page-hero">
@@ -342,8 +357,8 @@ function renderDailyPsychology(id, item) {
         <span class="daily-card-icon">🧠</span>
         <span class="daily-card-label curiosity">Ciekawostka psychologiczna</span>
       </div>
-      <div class="daily-card-title">${entry.curiosity.title}</div>
-      <div class="daily-card-lead">${entry.curiosity.lead}</div>
+      <div class="daily-card-title">${curiosity.title}</div>
+      <div class="daily-card-lead">${curiosity.lead}</div>
       <div class="daily-card-body">${bodyParas}</div>
     </div>
 
@@ -352,9 +367,9 @@ function renderDailyPsychology(id, item) {
         <span class="daily-card-icon">✏️</span>
         <span class="daily-card-label exercise">Praca nad sobą</span>
       </div>
-      <div class="daily-card-title">${entry.exercise.title}</div>
-      <span class="daily-exercise-type ${entry.exercise.type}">${typeLabels[entry.exercise.type] || entry.exercise.type}</span>
-      <div class="daily-card-lead">${entry.exercise.intro}</div>
+      <div class="daily-card-title">${exercise.title}</div>
+      <span class="daily-exercise-type ${exercise.type}">${typeLabels[exercise.type] || exercise.type}</span>
+      <div class="daily-card-lead">${exercise.intro}</div>
       <ol class="daily-steps">${stepsHtml}</ol>
     </div>
   </div>`;
@@ -385,12 +400,12 @@ function renderPlans(items, currentId) {
   const rows = items.map(it => {
     const fileId = it.file ? it.file.replace('wiki/','').replace('.md','') : null;
     const isEmpty = fileId && emptyArticles.has(fileId);
-    const effectiveStatus = isEmpty ? 'empty' : it.status;
+    const effectiveStatus = isEmpty ? 'is-empty' : (it.status === 'planned' ? 'is-disabled' : it.status);
     const cls    = ['plan-item', effectiveStatus].join(' ');
     const navTo  = fileId ? `onclick="navigate('${fileId}')"` : '';
     const artid  = fileId ? `data-artid="${fileId}"` : '';
     const badge  = isEmpty ? 'pusty' : (it.status==='live' ? 'dostępny' : 'planowany');
-    return `<div class="${cls}" ${artid} ${effectiveStatus==='live'||effectiveStatus==='empty' ? navTo : ''}>
+    return `<div class="${cls}" ${artid} ${effectiveStatus==='live'||effectiveStatus==='is-empty' ? navTo : ''}>
       <div class="plan-dot ${effectiveStatus}"></div>
       <span class="plan-label">${it.label}</span>
       <span class="plan-badge ${effectiveStatus}">${badge}</span>
@@ -449,8 +464,8 @@ function renderWiki(id, wikiKey) {
 
 function artCard(art) {
   const isEmpty = art.id && emptyArticles.has(art.id);
-  const effectiveStatus = isEmpty ? 'empty' : art.status;
-  const lbl = {live:'dostępny',planned:'planowany',wiki:'wiki',xlink:'wspólny ↗',empty:'pusty'};
+  const effectiveStatus = isEmpty ? 'is-empty' : (art.status === 'planned' ? 'is-disabled' : art.status);
+  const lbl = {live:'dostępny','is-disabled':'planowany',wiki:'wiki',xlink:'wspólny ↗','is-empty':'pusty'};
   const clickable = (isEmpty || art.status==='live'||art.status==='wiki'||art.status==='xlink') && art.id;
   const click = clickable ? `onclick="navigate('${art.id}')"` : '';
   const artid = art.id ? `data-artid="${art.id}"` : '';
@@ -468,7 +483,7 @@ function renderGlossHTML(entries) {
   for (const e of entries) { const l=e.term[0].toUpperCase(); (groups[l]=groups[l]||[]).push(e); }
   const letters = Object.keys(groups).sort();
   const btns = ['Wszystkie',...letters].map(l=>
-    `<button class="gloss-btn${l==='Wszystkie'?' active':''}" onclick="filterGloss('${l}')">${l}</button>`
+    `<button class="gloss-btn${l==='Wszystkie'?' is-active':''}" onclick="filterGloss('${l}')">${l}</button>`
   ).join('');
   const content = letters.map(l=>`
     <div class="gloss-group" data-letter="${l}">
@@ -482,7 +497,7 @@ function renderGlossHTML(entries) {
   return `<div class="gloss-filter">${btns}</div><div id="glossGroups">${content}</div>`;
 }
 window.filterGloss = function(l){
-  document.querySelectorAll('.gloss-btn').forEach(b=>b.classList.toggle('active',b.textContent===l));
+  document.querySelectorAll('.gloss-btn').forEach(b=>b.classList.toggle('is-active',b.textContent===l));
   document.querySelectorAll('.gloss-group').forEach(g=>{ g.style.display=(l==='Wszystkie'||g.dataset.letter===l)?'':'none'; });
 };
 
@@ -558,7 +573,7 @@ document.getElementById('searchInput').addEventListener('input', function(){
     const any = [...g.querySelectorAll('.nav-item')].some(i=>i.style.display!=='none');
     g.style.display = any ? '' : 'none';
     if (q && any) g.classList.add('open');
-    if (!q && !g.querySelector('.nav-item.active')) g.classList.remove('open');
+    if (!q && !g.querySelector('.nav-item.is-active')) g.classList.remove('open');
   });
 });
 
@@ -686,7 +701,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
   function applyTheme(theme) {
     document.documentElement.dataset.theme = themeAttr(theme);
     document.querySelectorAll('.theme-btn').forEach(btn => {
-      btn.classList.toggle('active', btn.dataset.theme === theme);
+      btn.classList.toggle('is-active', btn.dataset.theme === theme);
     });
     localStorage.setItem('psyhub-theme', theme);
   }
@@ -697,7 +712,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
   window.addEventListener('DOMContentLoaded', () => {
     // Sync button states
     document.querySelectorAll('.theme-btn').forEach(btn => {
-      btn.classList.toggle('active', btn.dataset.theme === active);
+      btn.classList.toggle('is-active', btn.dataset.theme === active);
       btn.addEventListener('click', () => applyTheme(btn.dataset.theme));
     });
   });
