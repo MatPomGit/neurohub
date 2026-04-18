@@ -1,19 +1,32 @@
 # Prowadzenie sesji eksperymentalnej
 
-W trakcie zbierania danych najważniejsze są standaryzacja i kontrola jakości przebiegu sesji.
+W tej fazie liczy się dyscyplina proceduralna. Nawet dobry projekt może utracić wartość, jeśli sesje są realizowane niespójnie.
 
-## Standard sesji
+## Przed sesją
 
-- identyczne instrukcje dla wszystkich grup,
-- stałe warunki środowiskowe (hałas, oświetlenie, sprzęt),
-- kontrola czasu i kolejności bodźców,
-- rejestrowanie odstępstw od procedury.
+- sprawdź sprzęt i oprogramowanie,
+- potwierdź komplet dokumentów zgody,
+- przygotuj środowisko (cisza, oświetlenie, ergonomia),
+- uruchom checklistę startową.
+
+## W trakcie sesji
+
+- czytaj instrukcje w standaryzowany sposób,
+- nie dopowiadaj dodatkowych wyjaśnień poza protokołem,
+- rejestruj odstępstwa i incydenty,
+- monitoruj dobrostan uczestnika.
 
 ## Randomizacja i zaślepienie
 
-- randomizacja ogranicza wpływ czynników ubocznych,
-- zaślepienie uczestnika i/lub badacza redukuje efekt oczekiwań.
+Randomizacja i zaślepienie powinny być wdrożone technicznie (np. automatyczny przydział warunku), a nie „ręcznie”, aby ograniczyć ryzyko błędu.
 
-## Bezpieczeństwo uczestnika
+## Po sesji
 
-Badacz powinien monitorować oznaki przeciążenia, przypominać o prawie do przerwania udziału i stosować wcześniej przygotowany protokół interwencji.
+- wykonaj debriefing,
+- sprawdź integralność zapisu,
+- zanonimizuj i zarchiwizuj rekord,
+- uzupełnij dziennik sesji.
+
+## Minimalny log sesji
+
+Każda sesja powinna zostawić ślad: identyfikator, warunek badania, czas rozpoczęcia/zakończenia, odstępstwa, decyzje badacza.

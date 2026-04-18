@@ -1,24 +1,38 @@
 # Kontrola jakości i zarządzanie danymi
 
-Dane powinny być kompletne, spójne i możliwe do odtworzenia w analizie.
+Jakość danych to osobny strumień pracy, który powinien być planowany tak samo szczegółowo jak metodologia eksperymentu.
 
-## Plan zarządzania danymi
+## Plan zarządzania danymi (Data Management Plan)
 
-W praktyce warto określić:
+Plan powinien obejmować:
 
-- strukturę katalogów i nazewnictwo plików,
-- zasady wersjonowania,
-- sposób anonimizacji,
+- strukturę katalogów i konwencję nazw,
+- słownik zmiennych,
 - harmonogram backupów,
-- poziomy dostępu dla członków zespołu.
+- role i uprawnienia,
+- procedurę archiwizacji.
 
-## Kontrola jakości
+## Walidacja danych
 
-- wykrywanie braków danych,
-- identyfikacja wartości odstających,
-- oznaczanie naruszeń procedury,
-- dokumentowanie decyzji o wykluczeniu rekordów.
+Wprowadź automatyczne reguły walidacji:
 
-## Transparentność
+- zakresy dopuszczalnych wartości,
+- wykrywanie duplikatów,
+- kontrola braków,
+- flagowanie nietypowych sekwencji odpowiedzi.
 
-Każda decyzja czyszcząca dane powinna być zapisana w dzienniku analitycznym, tak aby inny badacz mógł odtworzyć proces krok po kroku.
+## Obsługa braków i outlierów
+
+Jeszcze przed analizą ustal:
+
+- jak identyfikujesz outliery,
+- kiedy rekord jest wykluczany,
+- jak traktujesz brakujące dane (np. imputacja/analiza pełnych przypadków).
+
+## Reprodukowalność pipeline’u
+
+Każda transformacja danych powinna być zapisana i możliwa do odtworzenia. Unikaj ręcznej edycji „w arkuszu bez historii”.
+
+## Audytowalność
+
+Dobra praktyka: utrzymuj dziennik decyzji danych z datą, autorem i uzasadnieniem. To znacząco ułatwia przegląd metodologiczny i replikację.

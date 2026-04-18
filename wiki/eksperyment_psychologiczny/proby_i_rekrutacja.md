@@ -1,26 +1,51 @@
 # Dobór próby i rekrutacja
 
-Jakość próby decyduje o tym, czy wyniki można uogólnić poza grupę badaną.
+Dobór próby decyduje o jakości wnioskowania i możliwości generalizacji wyników.
 
-## Kryteria włączenia i wyłączenia
+## Krok 1: populacja docelowa
 
-Przed rekrutacją określ:
+Najpierw określ, do kogo mają odnosić się wnioski:
 
-- wiek, język, poziom wykształcenia,
-- status kliniczny / brak przeciwwskazań,
-- warunki techniczne (np. dostęp do komputera).
+- studenci, pracownicy, populacja kliniczna,
+- określony przedział wieku,
+- konkretne kryteria funkcjonalne.
 
-## Strategie doboru próby
+## Krok 2: kryteria włączenia i wyłączenia
 
-- losowy,
-- warstwowy,
-- celowy,
-- wygodny (najczęściej stosowany, ale najbardziej ograniczający).
+Przykładowe kryteria:
 
-## Wielkość próby
+- znajomość języka badania,
+- brak przeciwwskazań neurologicznych/psychiatrycznych (jeśli wymagane),
+- brak równoległego udziału w podobnym eksperymencie.
 
-Wielkość próby warto uzasadnić analizą mocy statystycznej, aby ograniczyć ryzyko wyników fałszywie negatywnych i niestabilnych efektów.
+Kryteria muszą być zapisane **przed** rekrutacją.
 
-## Rekrutacja etyczna
+## Krok 3: wielkość próby
 
-Komunikat rekrutacyjny powinien być neutralny, bez obietnic korzyści terapeutycznych, jeśli badanie nie ma charakteru interwencji klinicznej.
+Wielkość próby uzasadnij analizą mocy. Jeśli nie masz danych do estymacji efektu, użyj:
+
+- pilotażu,
+- metaanaliz,
+- konserwatywnych założeń.
+
+W raporcie podaj, jakie parametry przyjęto (alfa, moc, efekt).
+
+## Krok 4: strategia rekrutacji
+
+- uczelnia i mailingi,
+- media społecznościowe,
+- partnerzy instytucjonalni,
+- panele badawcze.
+
+W komunikacji unikaj języka, który może wprowadzać oczekiwania co do „właściwego” wyniku.
+
+## Reprezentatywność i ograniczenia
+
+Każda próba ma ograniczenia. Ważne, by je jawnie raportować, zamiast ukrywać.
+
+## Checklist rekrutacyjny
+
+- [ ] Kryteria są publiczne i spójne.
+- [ ] Plan liczebności jest uzasadniony.
+- [ ] Proces doboru jest udokumentowany.
+- [ ] Zespół monitoruje dropout i non-response.

@@ -1,22 +1,38 @@
 # Protokół badania i pilotaż
 
-Protokół badania to szczegółowa instrukcja całej procedury, dzięki której każdy członek zespołu pracuje w ten sam sposób.
+Protokół badania to operacyjna instrukcja wykonania eksperymentu. Dobrze napisany protokół zmniejsza różnice między badaczami i zwiększa powtarzalność.
 
-## Co powinien zawierać protokół?
+## Elementy pełnego protokołu
 
-- harmonogram sesji,
-- instrukcje dla uczestnika i badacza,
-- kolejność zadań,
-- zasady reagowania na sytuacje niestandardowe,
-- plan zapisu danych i kopii zapasowych.
+- cel i hipotezy,
+- schemat badania,
+- instrukcje krok po kroku,
+- materiały i konfiguracja techniczna,
+- procedury awaryjne,
+- zasady logowania zdarzeń,
+- plan jakości danych.
 
-## Dlaczego pilotaż jest konieczny?
+## Pilotaż – po co go robić?
 
-Pilotaż pozwala wykryć:
+Pilotaż jest testem całego systemu badania, a nie tylko testem narzędzia. Pozwala wykryć:
 
 - niejasne instrukcje,
-- błędy techniczne,
-- zbyt długą procedurę,
-- nieoczekiwane reakcje uczestników.
+- błędy interfejsu/sprzętu,
+- nietrafiony czas trwania,
+- punkty przeciążające uczestnika.
 
-Po pilotażu należy wprowadzić poprawki i udokumentować każdą zmianę w wersjonowaniu protokołu.
+## Co mierzyć podczas pilotażu?
+
+- czas każdego etapu,
+- liczbę pytań uczestników,
+- częstość błędów proceduralnych,
+- dropout,
+- jakość pierwszych rekordów danych.
+
+## Zarządzanie zmianą
+
+Po pilotażu wprowadź poprawki i zapisz je w logu zmian (wersja protokołu, data, uzasadnienie). Dzięki temu kolejne iteracje są audytowalne.
+
+## Kryterium gotowości do badania głównego
+
+Badanie uruchamiasz dopiero, gdy protokół spełnia wcześniej zdefiniowane minima jakościowe (np. brak krytycznych błędów technicznych i stabilny czas sesji).

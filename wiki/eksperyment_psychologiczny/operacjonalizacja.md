@@ -1,28 +1,46 @@
 # Operacjonalizacja zmiennych
 
-Operacjonalizacja to przekład pojęć teoretycznych na obserwowalne i mierzalne wskaźniki.
+Operacjonalizacja to przejście od poziomu teorii do poziomu pomiaru. Jej celem jest takie zdefiniowanie zmiennych, aby różni badacze mogli je mierzyć w porównywalny sposób.
 
-## Kluczowe typy zmiennych
+## Typy zmiennych w projekcie
 
-- **Zmienna niezależna (ZN)**: czynnik manipulowany.
-- **Zmienna zależna (ZZ)**: wynik pomiaru.
-- **Zmienne zakłócające**: czynniki, które mogą zafałszować relację ZN–ZZ.
+- **ZN (manipulowana)** – np. rodzaj instrukcji, interwencja, ekspozycja na bodziec.
+- **ZZ (mierzona)** – np. czas reakcji, wynik testu, skala subiektywna.
+- **Współzmienne** – zmienne kontrolne (wiek, płeć, poziom bazowy).
+- **Zakłócające** – czynniki niepożądane (zmęczenie, hałas, efekt badacza).
 
-## Dobre wskaźniki pomiaru
+## Definicja teoretyczna vs operacyjna
 
-Wskaźniki powinny być:
+Przykład:
 
-- trafne (mierzą to, co deklarują),
-- rzetelne (dają stabilne wyniki),
-- czułe (wykrywają różnice),
-- adekwatne kulturowo i językowo.
+- Teoretycznie: „stres sytuacyjny”.
+- Operacyjnie: „wynik w skali VAS 0–100 po zadaniu + tętno średnie w trakcie zadania”.
 
-## Praktyczna zasada
+Dobrą praktyką jest stosowanie minimum dwóch wskaźników dla kluczowej konstrukcji (np. deklaratywnego i behawioralnego/fizjologicznego).
 
-Dla każdej zmiennej przygotuj tabelę:
+## Trafność i rzetelność narzędzi
 
-- definicja teoretyczna,
-- definicja operacyjna,
-- narzędzie pomiaru,
-- skala wyniku,
-- plan analizy.
+Przed wyborem narzędzia sprawdź:
+
+- jakość psychometryczną,
+- adaptację językową/kulturową,
+- czułość na zmianę,
+- czas i obciążenie dla uczestnika.
+
+## Tabela operacjonalizacji (zalecana)
+
+Dla każdej zmiennej opisz:
+
+1. definicję teoretyczną,
+2. definicję operacyjną,
+3. narzędzie,
+4. skalę wyniku,
+5. potencjalne błędy pomiaru,
+6. plan analizy.
+
+## Częste pułapki
+
+- „Mierzenie wszystkiego” bez priorytetów.
+- Zbyt długie baterie testowe.
+- Narzędzia bez lokalnej walidacji.
+- Zmiana wskaźników po obejrzeniu wyników.

@@ -1,21 +1,31 @@
 # Replikacja i otwarta nauka
 
-Nowoczesna metodologia psychologii podkreśla znaczenie replikowalności i transparentności.
+Replikacja i transparentność to fundament wiarygodnej psychologii eksperymentalnej.
 
-## Replikacja
+## Dlaczego replikacja jest kluczowa?
 
-- **bezpośrednia**: odtwarza możliwie wiernie oryginalny protokół,
-- **konceptualna**: testuje ten sam mechanizm inną metodą.
+Pojedyncze badanie może być obciążone przypadkowym błędem, specyfiką próby lub kontekstu. Replikacje pozwalają ocenić, czy efekt jest stabilny i powtarzalny.
 
-Obie formy są potrzebne do oceny stabilności efektu.
+## Typy replikacji
 
-## Praktyki otwartej nauki
+- **Bezpośrednia** – możliwie wierne odtworzenie oryginału.
+- **Konceptualna** – testowanie tego samego mechanizmu inną metodą.
+- **Wieloośrodkowa** – równoległe badanie w wielu laboratoriach.
 
-- prerejestracja hipotez i planu analizy,
-- udostępnianie zanonimizowanych danych,
-- publikacja materiałów i skryptów analitycznych,
+## Praktyki open science
+
+- prerejestracja hipotez i analiz,
+- udostępnienie materiałów badawczych,
+- publikacja zanonimizowanych danych,
+- publikacja skryptów analitycznych,
 - jawne raportowanie odstępstw od planu.
 
-## Korzyści
+## Kiedy prerejestracja jest szczególnie ważna?
 
-Otwarte praktyki zwiększają wiarygodność wyników, przyspieszają rozwój wiedzy i ułatwiają uczenie metodologii kolejnym zespołom badawczym.
+- przy wielu możliwych analizach,
+- przy nowych paradygmatach,
+- przy wysokim ryzyku „researcher degrees of freedom”.
+
+## Korzyści zespołowe
+
+Otwarta metodologia ułatwia onboarding nowych badaczy, poprawia komunikację w zespole i skraca czas od wyników do publikacji.

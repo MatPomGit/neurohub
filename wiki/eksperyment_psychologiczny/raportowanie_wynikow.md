@@ -1,22 +1,34 @@
 # Raportowanie wyników i ograniczeń
 
-Końcowym etapem eksperymentu jest rzetelny raport, który umożliwia krytyczną ocenę badania i jego replikację.
+Raport końcowy powinien umożliwiać czytelnikowi odtworzenie logiki projektu: od pytania badawczego, przez procedurę, aż po interpretację wyników.
 
-## Struktura raportu
+## Struktura rekomendowanego raportu
 
-- wstęp teoretyczny i cele,
-- opis metody (próba, narzędzia, procedura),
-- plan analizy,
-- wyniki,
-- dyskusja i ograniczenia,
-- implikacje praktyczne i kierunki dalszych badań.
+1. **Wstęp** – problem, teoria, hipotezy.
+2. **Metoda** – próba, narzędzia, procedura, etyka.
+3. **Analiza** – plan i uzasadnienie metod.
+4. **Wyniki** – pełne, bez selekcji pod tezę.
+5. **Dyskusja** – znaczenie, ograniczenia, implikacje.
 
-## Czego unikać?
+## Ograniczenia – jak je opisywać?
 
-- selektywnego raportowania tylko „pozytywnych” wyników,
-- mieszania analiz eksploracyjnych z konfirmacyjnymi bez oznaczenia,
-- nadmiernie przyczynowych wniosków przy ograniczonym projekcie.
+Opisuj ograniczenia konkretnie:
 
-## Dobra praktyka końcowa
+- struktura próby,
+- warunki pomiaru,
+- potencjalne biasy,
+- ograniczona moc dla analiz dodatkowych.
 
-Raport powinien zawierać sekcję „co zrobilibyśmy inaczej”, która porządkuje wnioski metodologiczne i podnosi jakość kolejnych iteracji badania.
+Nie osłabia to pracy – przeciwnie, zwiększa jej wiarygodność.
+
+## Transparentność raportu
+
+Dobra praktyka obejmuje:
+
+- jawne oddzielenie analiz konfirmacyjnych i eksploracyjnych,
+- raportowanie wyników nieistotnych,
+- podanie wszystkich odstępstw od prerejestracji/protokołu.
+
+## Sekcja „lessons learned”
+
+W projektach R&D warto kończyć raport sekcją usprawnień metodologicznych na kolejną iterację badania. To zamyka pętlę uczenia zespołowego.

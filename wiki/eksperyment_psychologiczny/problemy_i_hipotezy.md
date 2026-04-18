@@ -1,29 +1,47 @@
 # Problem badawczy i hipotezy
 
-Dobre badanie zaczyna się od jasno zdefiniowanego problemu badawczego, który wynika z luki w literaturze lub potrzeby praktycznej.
+Precyzyjne sformułowanie problemu badawczego decyduje o jakości całego eksperymentu. Jeśli pytanie jest niejasne, żaden etap downstream (pomiar, analiza, raport) nie naprawi projektu.
 
-## Jak formułować problem badawczy?
+## Jak zbudować dobry problem badawczy?
 
-- Opisz zjawisko i jego kontekst.
-- Zidentyfikuj, czego jeszcze nie wiemy.
-- Ustal populację i warunki, których dotyczy pytanie.
+Skorzystaj z sekwencji:
 
-## Hipotezy badawcze
+1. **Kontekst** – jakie zjawisko chcesz wyjaśnić?
+2. **Luka** – czego brakuje w istniejącej literaturze?
+3. **Zakres** – jaka populacja, sytuacja, czas?
+4. **Znaczenie praktyczne** – po co to badać?
 
-Hipoteza powinna być:
+Przykład pytania:
 
-- testowalna,
-- falsyfikowalna,
-- precyzyjna,
-- osadzona w teorii.
+> Czy 10-minutowy trening oddechowy przed zadaniem poznawczym obniża deklarowany stres i poprawia trafność odpowiedzi?
 
-Przykład:
+## Hipotezy konfirmacyjne i eksploracyjne
 
-> Uczestnicy poddani krótkiej interwencji oddechowej uzyskają niższy poziom subiektywnego stresu niż grupa kontrolna.
+- **Konfirmacyjne**: ustalone przed analizą, bez modyfikacji po obejrzeniu danych.
+- **Eksploracyjne**: dodatkowe, służące generowaniu kolejnych pytań.
 
-## Hipotezy alternatywne i zerowe
+Obie są wartościowe, ale muszą być jednoznacznie rozdzielone w raporcie.
 
-- **H0**: brak różnicy lub brak efektu.
-- **H1**: oczekiwana różnica lub efekt.
+## Struktura poprawnej hipotezy
 
-Warto też określić hipotezy eksploracyjne, ale wyraźnie odróżnić je od potwierdzających.
+Hipoteza powinna zawierać:
+
+- kierunek efektu (np. „wyższy/niższy”),
+- porównywane warunki,
+- operacyjny wskaźnik wyniku,
+- kontekst (dla kogo i kiedy).
+
+## H0 i H1 w praktyce
+
+- **H0**: brak różnic / brak efektu.
+- **H1**: efekt zgodny z przewidywaniem.
+
+Dodatkowo warto z góry określić minimalny efekt istotny praktycznie (np. różnica o co najmniej 0,3 SD).
+
+## Checklist przed startem badania
+
+- [ ] Hipotezy są testowalne i falsyfikowalne.
+- [ ] Definicje zmiennych są operacyjne.
+- [ ] Plan analizy jest gotowy.
+- [ ] Kryteria wykluczeń są zapisane.
+- [ ] Rozróżniono analizy konfirmacyjne i eksploracyjne.

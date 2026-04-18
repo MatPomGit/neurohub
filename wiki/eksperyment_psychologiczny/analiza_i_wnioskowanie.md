@@ -1,22 +1,36 @@
 # Analiza danych i wnioskowanie
 
-Analiza powinna wynikać z hipotez i planu analitycznego ustalonego przed obejrzeniem wyników.
+Analiza danych zaczyna się na etapie planowania badania. Jeśli plan analityczny powstaje dopiero po zobaczeniu wyników, rośnie ryzyko stronniczości i błędów interpretacyjnych.
 
-## Etapy analizy
+## Plan analizy – co musi zawierać?
 
-1. Statystyki opisowe i kontrola jakości danych.
-2. Weryfikacja założeń testów.
-3. Analiza główna (np. testy różnic, modele regresyjne, modele mieszane).
-4. Analizy dodatkowe i wrażliwościowe.
+- zmienną główną i wtórne punkty końcowe,
+- testy/statystyki dla każdej hipotezy,
+- kryteria wykluczeń,
+- obsługę braków danych,
+- analizy dodatkowe i korekty wielokrotności.
 
-## Wielkość efektu i niepewność
+## Rekomendowana kolejność analiz
 
-Poza wartością *p* raportuj:
+1. Kontrola jakości danych.
+2. Statystyki opisowe i wizualizacje.
+3. Testy założeń modeli.
+4. Analizy główne (konfirmacyjne).
+5. Analizy eksploracyjne (oznaczone jako eksploracyjne).
+
+## Co raportować oprócz p-value?
 
 - wielkość efektu,
 - przedziały ufności,
-- moc testów (jeśli dotyczy).
+- miary dopasowania modelu,
+- analizę wrażliwości (sensitivity).
 
-## Ostrożność interpretacyjna
+## Wnioskowanie przyczynowe
 
-Wnioski powinny być proporcjonalne do jakości projektu. Eksperyment dobrze wspiera wnioskowanie przyczynowe, ale nie eliminuje wszystkich ograniczeń (np. trafności zewnętrznej).
+Wnioski przyczynowe są uzasadnione, gdy projekt ma wysoką trafność wewnętrzną. Nawet wtedy ostrożnie podchodź do generalizacji na inne populacje i konteksty.
+
+## Czerwone flagi interpretacyjne
+
+- „istotne statystycznie” = „ważne klinicznie” (to nie to samo),
+- selektywne raportowanie tylko korzystnych wyników,
+- ignorowanie efektów ubocznych i niezgodnych z hipotezą.

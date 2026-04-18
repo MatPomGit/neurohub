@@ -1,27 +1,48 @@
 # Obserwacja psychologiczna w praktyce
 
-Obserwacja to systematyczne rejestrowanie zachowania w celu opisu wzorców i testowania hipotez o mechanizmach psychologicznych.
+Obserwacja jest jedną z podstawowych metod zbierania danych o zachowaniu. Może pełnić rolę samodzielnej metody lub komponentu eksperymentu.
 
-## Typy obserwacji
+## Rodzaje obserwacji
 
-- naturalna (w realnym środowisku),
-- ustrukturyzowana (wg protokołu),
-- uczestnicząca,
-- nieuczestnicząca.
+- **Naturalna** – w środowisku codziennym.
+- **Ustrukturyzowana** – według ścisłego protokołu.
+- **Uczestnicząca** – badacz częściowo uczestniczy w sytuacji.
+- **Nieuczestnicząca** – badacz pozostaje poza interakcją.
 
-## Arkusz obserwacyjny
+Wybór formy zależy od celu: ekologiczności vs. kontroli.
 
-Dobry arkusz powinien zawierać:
+## Jak zbudować system kodowania?
 
-- precyzyjne kategorie zachowania,
-- kryteria kodowania,
-- jednostkę czasu (np. interwały 30-sekundowe),
-- pole na kontekst sytuacyjny.
+1. Zdefiniuj zachowania docelowe.
+2. Określ jednostkę obserwacji (czas, epizod, zdarzenie).
+3. Ustal reguły kodowania.
+4. Przeszkol obserwatorów.
+5. Zweryfikuj zgodność kodowania.
 
-## Rzetelność obserwatorów
+## Zgodność międzyobserwatorska
 
-Przed startem właściwego badania należy:
+Najczęściej raportuje się:
 
-- przeszkolić zespół koderów,
-- przetestować zgodność międzyobserwatorską,
-- ustalić minimalny próg akceptacji zgodności.
+- procent zgodności,
+- kappa Cohena,
+- ICC (dla danych ciągłych).
+
+Przed badaniem właściwym warto ustalić próg akceptacji (np. κ ≥ 0,70).
+
+## Błędy obserwacyjne
+
+- efekt halo,
+- błąd potwierdzenia,
+- dryf kryteriów kodowania,
+- selektywna uwaga.
+
+Aby je ograniczyć, stosuj regularne kalibracje i ślepe kodowanie fragmentów materiału.
+
+## Dokumentacja
+
+W raporcie opisz:
+
+- środowisko obserwacji,
+- protokół i definicje kategorii,
+- szkolenie koderów,
+- wskaźniki rzetelności.

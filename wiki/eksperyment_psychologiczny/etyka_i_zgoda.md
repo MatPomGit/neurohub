@@ -1,24 +1,41 @@
 # Etyka badania i świadoma zgoda
 
-Eksperyment psychologiczny musi chronić dobrostan uczestników i respektować ich autonomię.
+Etyka nie jest formalnością administracyjną, tylko warunkiem rzetelnej nauki. Uczestnik badania ma prawo do informacji, autonomii i bezpieczeństwa.
 
-## Elementy świadomej zgody
+## Filary etyczne
 
-Uczestnik powinien otrzymać informację o:
+1. **Autonomia** – uczestnik podejmuje świadomą decyzję.
+2. **Nieszkodzenie** – minimalizacja ryzyka i obciążenia.
+3. **Sprawiedliwość** – uczciwe zasady rekrutacji i traktowania.
+4. **Poufność** – ochrona danych i tożsamości.
 
-- celu i przebiegu badania,
-- możliwych obciążeniach,
-- prawie do rezygnacji na każdym etapie,
-- zasadach poufności i anonimizacji,
-- sposobie kontaktu z badaczem.
+## Formularz świadomej zgody powinien zawierać
 
-## Trudne obszary etyczne
+- cel badania (w zakresie możliwym przed debriefingiem),
+- opis procedury i czasu trwania,
+- ryzyka i potencjalne korzyści,
+- informację o dobrowolności i prawie wycofania,
+- zasady przetwarzania danych,
+- kontakt do badacza i komisji etycznej.
 
-- stosowanie elementów ukrycia celu,
-- badania z udziałem osób niepełnoletnich,
-- procedury wywołujące stres lub dyskomfort,
-- przechowywanie danych wrażliwych.
+## Użycie elementu ukrycia celu
 
-## Debriefing
+W psychologii bywa uzasadnione, ale tylko gdy:
 
-Po badaniu należy przeprowadzić debriefing: wyjaśnić rzeczywisty cel, odpowiedzieć na pytania i przekazać materiały wspierające, jeśli temat mógł wywołać napięcie emocjonalne.
+- nie ma alternatywy metodologicznej,
+- ryzyko jest minimalne,
+- przewidziano pełny debriefing,
+- komisja etyczna zatwierdziła procedurę.
+
+## Debriefing – standard minimalny
+
+Po badaniu uczestnik powinien otrzymać:
+
+- wyjaśnienie rzeczywistego celu,
+- informację o zastosowanym ukryciu,
+- możliwość wycofania danych,
+- materiały wsparcia, jeśli badanie było obciążające.
+
+## Etyka danych
+
+W praktyce R&D warto wdrożyć zasadę „privacy by design”: minimalizacja zbieranych danych, pseudonimizacja i kontrola dostępu od pierwszego dnia projektu.
