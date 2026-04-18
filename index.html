@@ -175,6 +175,33 @@ em{color:var(--goldl)}
 }
 .nav-item:hover{color:var(--t1);background:var(--hover-subtle)}
 .nav-item.active{color:var(--gold);border-left-color:var(--gold);background:var(--goldt)}
+.nav-item-test{
+  position:relative;
+  background:linear-gradient(90deg,rgba(91,140,184,.14),rgba(91,140,184,.02));
+  border-left-color:rgba(91,140,184,.45);
+}
+.nav-item-test::after{
+  content:'TESTY';
+  margin-left:auto;
+  font-size:.58rem;
+  letter-spacing:.08em;
+  font-weight:700;
+  color:var(--blue);
+  background:rgba(91,140,184,.18);
+  border:1px solid rgba(91,140,184,.35);
+  border-radius:999px;
+  padding:.06rem .42rem;
+}
+.nav-item-test.active{
+  color:var(--t1);
+  border-left-color:var(--gold);
+  background:linear-gradient(90deg,rgba(201,162,39,.2),rgba(91,140,184,.08));
+}
+.nav-item-test.active::after{
+  color:#fff;
+  background:rgba(201,162,39,.36);
+  border-color:rgba(201,162,39,.5);
+}
 .nav-item.is-wiki{font-size:.76rem;color:var(--t3);padding-left:1.65rem}
 .nav-item.is-wiki:hover{color:var(--goldl)}
 .nav-item.is-wiki.active{color:var(--gold);border-left-color:var(--gold)}
@@ -504,6 +531,16 @@ em{color:var(--goldl)}
 }
 .empty-banner-icon{font-size:1.15rem;flex-shrink:0}
 .empty-banner-text{font-size:.9rem;color:var(--rose);line-height:1.5}
+.test-zone-banner{
+  display:flex;align-items:center;gap:.65rem;flex-wrap:wrap;
+  margin:.85rem 0 1rem;padding:.62rem .82rem;
+  border:1px solid rgba(91,140,184,.36);border-radius:999px;
+  background:linear-gradient(90deg,rgba(91,140,184,.2),rgba(91,140,184,.06));
+  color:var(--t1);
+}
+.test-zone-icon{font-size:.95rem;line-height:1}
+.test-zone-title{font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.test-zone-desc{font-size:.78rem;color:var(--t2)}
 .art-dot.empty{background:var(--rose)}
 .art-badge.empty{background:rgba(184,107,123,.15);color:var(--rose);border-color:rgba(184,107,123,.3)}
 .art-card.empty{border-color:rgba(184,107,123,.22)}
@@ -539,6 +576,18 @@ em{color:var(--goldl)}
   .nav-item.is-wiki{
     font-size:.84rem;
     padding-left:1.7rem;
+  }
+  .nav-item-test{
+    border-left-width:3px;
+    box-shadow:inset 0 0 0 1px rgba(91,140,184,.25);
+  }
+  .nav-item-test.active{
+    border-left-width:4px;
+    box-shadow:inset 0 0 0 1px rgba(201,162,39,.35),0 0 0 1px rgba(201,162,39,.18);
+  }
+  .nav-item-test::after{
+    font-size:.55rem;
+    padding:.08rem .4rem;
   }
 
   /* Spis artykułów: poprawa czytelności kart na mniejszych ekranach. */
@@ -798,7 +847,7 @@ function renderSidebar() {
       if (item.href) {
         html += `<a class="nav-item nav-item-external" href="${q(item.href)}" target="_blank" rel="noopener noreferrer">${item.label} ↗</a>`;
       } else {
-        const cls = ['nav-item', item.wiki?'is-wiki':'', item.id===active?'active':''].filter(Boolean).join(' ');
+        const cls = ['nav-item', item.wiki?'is-wiki':'', item.kind === 'test' ? 'nav-item-test' : '', item.id===active?'active':''].filter(Boolean).join(' ');
         html += `<div class="${cls}" data-id="${item.id}" onclick="navigate('${item.id}')">${item.label}</div>`;
       }
     }
@@ -959,6 +1008,7 @@ function renderSpecializationTest(id, item) {
       <h1>Test wyboru specjalności</h1>
       <p class="lead">Odpowiedz na 20 pytań, aby uzyskać rekomendację specjalności, poziom dopasowania do pozostałych obszarów oraz profil na sześciu osiach decyzyjnych.</p>
     </div>
+    ${renderTestZoneBanner()}
     <p class="test-intro">Pytania są celowo nieoczywiste i zawierają scenki oraz dylematy etyczno-praktyczne (m.in. medycyna, farmakologia, diagnostyka, statystyka, neurologia i kompetencje miękkie).</p>
     <div class="test-meta">Udzielone odpowiedzi: <strong>${answered}/${total}</strong></div>
     <div class="test-meta">Wypełnione podejścia łącznie: <strong>${counter.totalCompleted}</strong> · Dzisiaj: <strong>${todayCount}</strong></div>
@@ -1234,6 +1284,15 @@ function ttResolvePresetCategory(cfg, catalog, presetTopic) {
   return owner ? owner.key : null;
 }
 
+/* Renderuje spójny pasek informacyjny dla wszystkich widoków testowych. */
+function renderTestZoneBanner() {
+  return `<div class="test-zone-banner" role="status" aria-label="Strefa testów">
+    <span class="test-zone-icon" aria-hidden="true">🧪</span>
+    <span class="test-zone-title">Strefa testów</span>
+    <span class="test-zone-desc">Tryb ćwiczeniowy z natychmiastową informacją zwrotną.</span>
+  </div>`;
+}
+
 function renderTheoreticalTest(id, item) {
   const area = document.getElementById('content');
   setBreadcrumb(item);
@@ -1313,6 +1372,7 @@ function renderTheoreticalTest(id, item) {
         <h1>${heroTitle}</h1>
         <p class="lead">${heroLead}</p>
       </div>
+      ${renderTestZoneBanner()}
       <div class="ttest-section">
         <div class="ttest-section-title">Wybierz temat i kategorię</div>
         <div class="ttest-topic-list">${topicsHtml}</div>
@@ -1344,6 +1404,7 @@ function renderTheoreticalTest(id, item) {
         <span class="chapter-lbl">${item.section || ''}</span>
         <h1>${heroTitle}</h1>
       </div>
+      ${renderTestZoneBanner()}
       <div class="ttest-progress-bar"><div class="ttest-progress-fill" style="width:${pct}%"></div></div>
       <div class="ttest-q-card">
         <div class="ttest-q-num">Pytanie ${st.currentIndex + 1} / ${total} &nbsp;·&nbsp; Udzielone: ${answered}/${total}</div>
@@ -1397,6 +1458,7 @@ function renderTheoreticalTest(id, item) {
         <span class="chapter-lbl">${item.section || ''}</span>
         <h1>Wynik testu — ${heroTitle}</h1>
       </div>
+      ${renderTestZoneBanner()}
       <div class="ttest-result-box">
         <div class="ttest-result-score">${correct} / ${total}</div>
         <div class="ttest-result-pct">${pct}% poprawnych odpowiedzi</div>
