@@ -258,5 +258,200 @@
     "correct": 1,
     "difficulty": 3,
     "justification": "Kryzys replikacji wskazuje na konieczność wzmacniania standardów metodologicznych i epistemicznych, a nie automatyczne odrzucenie całej dyscypliny."
+  },
+  {
+    "id": 21,
+    "question": "Który opis najlepiej oddaje stanowisko koherentyzmu w epistemologii?",
+    "options": [
+      "Przekonanie jest uzasadnione, gdy dobrze współgra z siecią innych przekonań i wzajemnie się z nimi wspiera",
+      "Przekonanie jest uzasadnione wyłącznie wtedy, gdy opiera się na jednym nieomylnym fundamencie zmysłowym",
+      "Uzasadnienie nie ma znaczenia, jeśli przekonanie okazuje się praktycznie użyteczne",
+      "Każde przekonanie codzienne jest równie dobrze uzasadnione niezależnie od dowodów"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Koherentyzm traktuje uzasadnienie jako własność całego systemu przekonań. Liczy się spójność i wzajemne wsparcie, a nie pojedynczy „punkt absolutny”."
+  },
+  {
+    "id": 22,
+    "question": "W debacie o realizmie naukowym najtrafniejsze stwierdzenie brzmi:",
+    "options": [
+      "Sukces predykcyjny teorii jest jedynie przypadkową zbieżnością i nic nie mówi o strukturze świata",
+      "Dojrzałe teorie naukowe prawdopodobnie trafnie opisują przynajmniej część nieobserwowalnej struktury rzeczywistości",
+      "Nauka powinna opisywać wyłącznie dane zmysłowe, a pojęcia teoretyczne należy usunąć jako bezsensowne",
+      "Realizm naukowy zakłada niezmienność wszystkich teorii na przestrzeni historii nauki"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Realizm naukowy wiąże sukcesy wyjaśniające i predykcyjne teorii z ich przybliżoną prawdziwością, także wobec bytów nieobserwowalnych."
+  },
+  {
+    "id": 23,
+    "question": "Instrumentalizm w filozofii nauki najczęściej przyjmuje, że teorie naukowe:",
+    "options": [
+      "powinny być oceniane głównie przez skuteczność przewidywania i organizowania obserwacji, nie przez dosłowną prawdziwość ontologiczną",
+      "muszą dokładnie odzwierciedlać „istotę rzeczy” niezależnie od ich użyteczności empirycznej",
+      "są wartościowe tylko wtedy, gdy wykluczają wszelkie modele statystyczne",
+      "tracą sens, jeśli zawierają byty teoretyczne jak geny czy elektrony"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Instrumentalizm akcentuje funkcję narzędziową teorii: liczy się skuteczność operacyjna, a nie zobowiązania metafizyczne."
+  },
+  {
+    "id": 24,
+    "question": "Który przykład najlepiej ilustruje błąd naturalistyczny („is-ought fallacy”)?",
+    "options": [
+      "Ponieważ w naturze występuje rywalizacja, to rywalizacja jest moralnie słuszna",
+      "Jeżeli interwencja redukuje cierpienie i ryzyko szkody, warto ją rozważyć etycznie",
+      "Normy zawodowe powinny uwzględniać zarówno dane empiryczne, jak i wartości",
+      "Zachowanie częste statystycznie nie musi być automatycznie pożądane moralnie"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Błąd naturalistyczny polega na przechodzeniu od opisu faktów do wniosków normatywnych bez dodatkowego uzasadnienia etycznego."
+  },
+  {
+    "id": 25,
+    "question": "W logice modalnej twierdzenie „możliwe, że p” oznacza, że:",
+    "options": [
+      "p jest prawdziwe we wszystkich możliwych światach",
+      "p jest prawdziwe przynajmniej w jednym świecie możliwym",
+      "p jest fałszywe w świecie aktualnym",
+      "p nie podlega ocenie logicznej"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Operator możliwości (◇p) wskazuje, że istnieje co najmniej jeden świat możliwy, w którym p zachodzi."
+  },
+  {
+    "id": 26,
+    "question": "W etyce dyskursu Habermasa normę można uznać za uprawnioną, gdy:",
+    "options": [
+      "mogłaby zostać zaakceptowana przez wszystkich dotkniętych jej skutkami w warunkach wolnej i nieskrępowanej argumentacji",
+      "została ustanowiona przez większość, niezależnie od jakości debaty",
+      "chroni interes najsilniejszej grupy instytucjonalnej",
+      "jest zgodna z tradycją, nawet jeśli wyklucza część uczestników dialogu"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Etyka dyskursu wiąże legitymizację norm z warunkami równego udziału i racjonalnej argumentacji osób, których norma dotyczy."
+  },
+  {
+    "id": 27,
+    "question": "Który opis najlepiej pasuje do eksternalizmu epistemicznego?",
+    "options": [
+      "Uzasadnienie przekonań zależy wyłącznie od świadomie dostępnych powodów podmiotu",
+      "Wiedza może zależeć od niezawodności procesów poznawczych nawet wtedy, gdy podmiot nie potrafi ich explicite uzasadnić",
+      "Każde przekonanie intuicyjne jest wiedzą, jeśli podmiot jest pewny swojego sądu",
+      "Uzasadnienie jest całkowicie niezależne od relacji przekonania do świata"
+    ],
+    "correct": 1,
+    "difficulty": 3,
+    "justification": "Eksternalizm dopuszcza, że status poznawczy przekonania zależy od czynników zewnętrznych wobec introspekcyjnej dostępności, np. niezawodności procesu."
+  },
+  {
+    "id": 28,
+    "question": "Argument „chińskiego pokoju” Searle’a ma przede wszystkim podważać tezę, że:",
+    "options": [
+      "symulacja reguł symbolicznych sama z siebie wystarcza do rozumienia semantycznego",
+      "umysł nie może wykonywać operacji formalnych",
+      "komputery nie mogą rozwiązywać zadań logicznych",
+      "język naturalny nie ma żadnego związku z intencjonalnością"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Searle rozróżnia manipulację symbolami od rozumienia znaczenia i krytykuje silną wersję funkcjonalizmu obliczeniowego."
+  },
+  {
+    "id": 29,
+    "question": "W metaetyce nonkognitywizm zakłada, że sądy moralne:",
+    "options": [
+      "opisują obiektywne fakty moralne podobnie jak zdania fizyki",
+      "wyrażają postawy, emocje lub preskrypcje, a nie klasyczne twierdzenia prawdziwościowe",
+      "są prawdziwe tylko wtedy, gdy większość społeczeństwa je akceptuje",
+      "mają sens wyłącznie w obrębie religii objawionej"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Nonnkognitywizm interpretuje wypowiedzi moralne jako akty ekspresji lub nakazu, a nie jako zdania opisowe o faktach."
+  },
+  {
+    "id": 30,
+    "question": "Który scenariusz najlepiej oddaje problem underdetermination teorii przez dane?",
+    "options": [
+      "Dwa modele konkurencyjne równie dobrze wyjaśniają te same obserwacje, ale różnią się założeniami teoretycznymi",
+      "Jedna teoria jest wielokrotnie obalana nowymi danymi i zostaje odrzucona",
+      "Hipoteza nie daje żadnych przewidywań obserwowalnych",
+      "Model statystyczny ma zbyt małą próbę do estymacji parametrów"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Underdetermination wskazuje, że identyczny zbiór danych może być zgodny z więcej niż jedną teorią, więc wybór wymaga dodatkowych kryteriów."
+  },
+  {
+    "id": 31,
+    "question": "W kontekście psychologii pojęcie „cnoty epistemicznej” najbliżej oznacza:",
+    "options": [
+      "trwałą dyspozycję poznawczą, np. intelektualną uczciwość, otwartość na korektę i proporcjonalność wniosków do dowodów",
+      "umiejętność szybkiego argumentowania bez potrzeby sprawdzania źródeł",
+      "preferowanie danych zgodnych z intuicją kliniczną nad wynikami badań",
+      "bezwzględną pewność diagnostyczną w sytuacjach niejednoznacznych"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Cnoty epistemiczne odnoszą się do jakości praktyk poznawczych podmiotu, zwłaszcza tam, gdzie dane są niepełne i decyzje obarczone ryzykiem błędu."
+  },
+  {
+    "id": 32,
+    "question": "Paradygmaty naukowe u Kuhna najlepiej rozumieć jako:",
+    "options": [
+      "wyłącznie zestaw równań matematycznych niezależnych od praktyki badawczej",
+      "historycznie osadzone ramy problemów, metod i standardów, które organizują „normalną naukę”",
+      "dowolne opinie badaczy, które nie wpływają na sposób prowadzenia badań",
+      "formalny odpowiednik kryterium falsyfikowalności Poppera"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "U Kuhna paradygmat obejmuje wspólnotowo podzielane wzorce badania, które kierują doborem pytań i akceptowalnych rozwiązań."
+  },
+  {
+    "id": 33,
+    "question": "Które zdanie najlepiej oddaje stanowisko pragmatyzmu (Peirce/James/Dewey) wobec prawdy?",
+    "options": [
+      "Prawda to wyłącznie zgodność z niezmiennym bytem metafizycznym, niezależna od praktyki badawczej",
+      "Wartość twierdzenia wiąże się z jego konsekwencjami praktycznymi i rolą w skutecznym rozwiązywaniu problemów",
+      "Prawda jest całkowicie subiektywna i nie podlega żadnym ograniczeniom intersubiektywnym",
+      "Prawdziwe jest to, co zostało zapisane w klasycznych autorytetach filozoficznych"
+    ],
+    "correct": 1,
+    "difficulty": 2,
+    "justification": "Pragmatyzm łączy sens i prawdziwość twierdzeń z ich funkcją w praktyce poznawczej oraz skutkami działania."
+  },
+  {
+    "id": 34,
+    "question": "W sporze realizm–antyrealizm „argument z cudu” (no miracles argument) głosi, że:",
+    "options": [
+      "sukces nauki byłby trudny do wyjaśnienia, gdyby teorie nie były przynajmniej częściowo trafne poznawczo",
+      "sukces nauki dowodzi, że każda aktualna teoria jest dosłownie prawdziwa we wszystkich szczegółach",
+      "nauka działa wyłącznie dlatego, że badacze stosują poprawną logikę formalną",
+      "trafność teorii można oceniać tylko przez popularność cytowań"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Argument z cudu wspiera realizm przez tezę, że skuteczność nauki nie jest najlepiej wyjaśniana czystym przypadkiem."
+  },
+  {
+    "id": 35,
+    "question": "Który przykład najlepiej pokazuje różnicę między relatywizmem poznawczym a pluralizmem metodologicznym?",
+    "options": [
+      "Uznanie wielu metod badawczych przy jednoczesnym wymaganiu intersubiektywnego uzasadniania wniosków",
+      "Twierdzenie, że każda opinia jest równie trafna niezależnie od jakości dowodów",
+      "Odrzucenie wszelkich standardów argumentacji jako „opresyjnych”",
+      "Uznanie, że tylko jedna metoda jest naukowa i wszystkie inne są bezwartościowe"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Pluralizm metodologiczny dopuszcza różnorodne narzędzia, ale nie rezygnuje z kryteriów jakości dowodu. Relatywizm poznawczy osłabia te kryteria znacznie mocniej."
   }
 ]
