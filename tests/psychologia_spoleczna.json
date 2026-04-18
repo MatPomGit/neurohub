@@ -3,10 +3,10 @@
     "id": 1,
     "question": "Efekt konformizmu badany przez Ascha (1951) polegał na tym, że badani:",
     "options": [
-      "Odmawiali wykonywania poleceń autorytetu",
+      "Odmawiali wykonywania poleceń autorytetu w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Dopasowywali swoje odpowiedzi do jawnie błędnych odpowiedzi większości grupy",
-      "Pomagali nieznajomym w sytuacji zagrożenia",
-      "Wykazywali agresję wobec słabszych uczestników"
+      "Pomagali nieznajomym w sytuacji zagrożenia rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Wykazywali agresję wobec słabszych uczestników ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -16,10 +16,10 @@
     "id": 2,
     "question": "Eksperyment Milgrama (1963) dotyczył:",
     "options": [
-      "Wpływu grupy na spostrzeganie",
+      "Wpływu grupy na spostrzeganie traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Posłuszeństwa wobec autorytetu i gotowości do zadawania bólu na polecenie",
-      "Pomagania w sytuacji zagrożenia życia",
-      "Kategoryzacji społecznej i faworyzowania grupy własnej"
+      "Pomagania w sytuacji zagrożenia życia ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Kategoryzacji społecznej i faworyzowania grupy własnej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -29,10 +29,10 @@
     "id": 3,
     "question": "Teoria atrybucji Kelvina (i Weinera) zajmuje się przede wszystkim:",
     "options": [
-      "Procesami percepcji społecznej i rozpoznawania twarzy",
+      "Procesami percepcji społecznej i rozpoznawania twarzy w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Sposobami, w jakie ludzie wyjaśniają przyczyny zdarzeń i zachowań – własnych i innych osób",
-      "Formowaniem się postaw i ich zmianą",
-      "Procesami grupowymi i przywództwem"
+      "Formowaniem się postaw i ich zmianą traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Procesami grupowymi i przywództwem w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -42,10 +42,10 @@
     "id": 4,
     "question": "Dysonans poznawczy (Festinger) pojawia się, gdy:",
     "options": [
-      "Człowiek działa automatycznie bez refleksji",
+      "Człowiek działa automatycznie bez refleksji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Dwa lub więcej przekonań, postaw lub zachowań są ze sobą niezgodne, wywołując napięcie motywacyjne do redukcji niezgodności",
-      "Osoba jest świadkiem krzywdy innego człowieka",
-      "Człowiek naśladuje zachowania modela"
+      "Osoba jest świadkiem krzywdy innego człowieka rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Człowiek naśladuje zachowania modela w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -55,10 +55,10 @@
     "id": 5,
     "question": "Zjawisko \"efektu widza\" (bystander effect) polega na tym, że:",
     "options": [
-      "Obecność widowni poprawia wykonanie prostych zadań",
+      "Obecność widowni poprawia wykonanie prostych zadań w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Im więcej osób jest świadkiem sytuacji wymagającej pomocy, tym mniejsze prawdopodobieństwo interwencji każdej z nich",
-      "Osoby w grupach są bardziej agresywne niż osoby samotne",
-      "Większe grupy podejmują bardziej ryzykowne decyzje"
+      "Osoby w grupach są bardziej agresywne niż osoby samotne stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Większe grupy podejmują bardziej ryzykowne decyzje w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -68,10 +68,10 @@
     "id": 6,
     "question": "Stereotypy w psychologii społecznej są definiowane jako:",
     "options": [
-      "Emocjonalne, negatywne nastawienie do grupy społecznej",
+      "Emocjonalne, negatywne nastawienie do grupy społecznej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Poznawcze, uogólnione przekonania o cechach członków danej grupy społecznej",
-      "Zachowania dyskryminacyjne wobec mniejszości",
-      "Silne, negatywne emocje kierowane wobec outgrupy"
+      "Zachowania dyskryminacyjne wobec mniejszości ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Silne, negatywne emocje kierowane wobec outgrupy stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -81,10 +81,10 @@
     "id": 7,
     "question": "Podstawowy błąd atrybucji (fundamental attribution error) polega na:",
     "options": [
-      "Przypisywaniu własnych sukcesów czynnikom zewnętrznym",
+      "Przypisywaniu własnych sukcesów czynnikom zewnętrznym w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Przecenianiu roli czynników dyspozycyjnych (osobowościowych), a niedocenianiu sytuacyjnych przy wyjaśnianiu zachowań innych osób",
-      "Przypisywaniu własnych porażek czynnikom wewnętrznym",
-      "Niedocenianiu roli osobowości w wyjaśnianiu własnych zachowań"
+      "Przypisywaniu własnych porażek czynnikom wewnętrznym ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Niedocenianiu roli osobowości w wyjaśnianiu własnych zachowań stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -94,10 +94,10 @@
     "id": 8,
     "question": "Teoria społeczno-poznawcza Bandury zakłada, że uczenie się zachowań agresywnych odbywa się poprzez:",
     "options": [
-      "Głównie warunkowanie instrumentalne",
+      "Głównie warunkowanie instrumentalne traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Obserwację i naśladownictwo modeli (uczenie się przez obserwację)",
-      "Wrodzone instynkty agresywne wyzwalane przez frustrację",
-      "Głównie bezpośrednie wzmocnienie negatywne"
+      "Wrodzone instynkty agresywne wyzwalane przez frustrację traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Głównie bezpośrednie wzmocnienie negatywne rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -107,10 +107,10 @@
     "id": 9,
     "question": "Polaryzacja grupowa (group polarization) oznacza, że:",
     "options": [
-      "Grupy często podejmują bardziej konserwatywne decyzje niż jednostki",
+      "Grupy często podejmują bardziej konserwatywne decyzje niż jednostki w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Po dyskusji grupowej postawy członków przesuwają się ku bardziej ekstremalnym wersjom dominującego przed dyskusją stanowiska",
-      "Grupy dzielą się na wyraźnie antagonistyczne podgrupy",
-      "Jednostki rezygnują z własnych opinii pod wpływem autorytetu lidera"
+      "Grupy dzielą się na wyraźnie antagonistyczne podgrupy rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Jednostki rezygnują z własnych opinii pod wpływem autorytetu lidera traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -120,10 +120,10 @@
     "id": 10,
     "question": "Samospełniające się proroctwo w kontekście edukacyjnym (efekt Pygmaliona, Rosenthal i Jacobson) polega na:",
     "options": [
-      "Uczniach, którzy osiągają wyniki zgodne z własnym obrazem siebie",
+      "Uczniach, którzy osiągają wyniki zgodne z własnym obrazem siebie stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Oczekiwaniach nauczyciela wobec ucznia, które wpływają na jego faktyczne osiągnięcia",
-      "Efekcie porównywania się uczniów z rówieśnikami",
-      "Wzroście motywacji przy publicznej ocenie wyników"
+      "Efekcie porównywania się uczniów z rówieśnikami ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Wzroście motywacji przy publicznej ocenie wyników w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -133,10 +133,10 @@
     "id": 11,
     "question": "Teoria tożsamości społecznej (SIT) Tajfela i Turnera zakłada, że:",
     "options": [
-      "Tożsamość jednostki opiera się głównie na cechach osobowości",
+      "Tożsamość jednostki opiera się głównie na cechach osobowości w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Przynależność do grup społecznych dostarcza elementu tożsamości, a motywacja do pozytywnej oceny własnej grupy prowadzi do faworyzowania ingrupy",
-      "Konflikty między grupami wynikają głównie z rywalizacji o zasoby",
-      "Procesy kategoryzacji nie mają wpływu na uprzedzenia"
+      "Konflikty między grupami wynikają głównie z rywalizacji o zasoby rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Procesy kategoryzacji nie mają wpływu na uprzedzenia ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -146,10 +146,10 @@
     "id": 12,
     "question": "Hipoteza kontaktu Allporta (1954) wskazuje, że uprzedzenia zmniejszają się pod warunkiem kontaktu:",
     "options": [
-      "Każdego rodzaju – wystarczy samo zetknięcie się grup",
+      "Każdego rodzaju – wystarczy samo zetknięcie się grup ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Równego statusu, opartego na współpracy, z poparciem instytucjonalnym i wspólnymi celami",
-      "Głównie w warunkach rywalizacji, bo wzmacnia wzajemny szacunek",
-      "Ograniczonego i pośredniego (medialnego), by unikać konfliktów"
+      "Głównie w warunkach rywalizacji, bo wzmacnia wzajemny szacunek w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Ograniczonego i pośredniego (medialnego), by unikać konfliktów stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -159,10 +159,10 @@
     "id": 13,
     "question": "Teoria reaktancji (Brehm) w kontekście perswazji i zgodności oznacza, że:",
     "options": [
-      "Ludzie często ulegają perswazji, gdy przekaz pochodzi od autorytetu",
+      "Ludzie często ulegają perswazji, gdy przekaz pochodzi od autorytetu w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Gdy ludzie spostrzegają zagrożenie wolności wyboru, reagują oporem i wzrostem atrakcyjności zakazanej opcji",
-      "Im silniejszy nacisk społeczny, tym wyższy poziom konformizmu",
-      "Efekty perswazji znikają po usunięciu źródła nacisku"
+      "Im silniejszy nacisk społeczny, tym wyższy poziom konformizmu w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Efekty perswazji znikają po usunięciu źródła nacisku stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -172,10 +172,10 @@
     "id": 14,
     "question": "Heurystyka dostępności (Tversky i Kahneman) polega na tym, że:",
     "options": [
-      "Oceniamy prawdopodobieństwo zdarzenia na podstawie jego podobieństwa do prototypu",
+      "Oceniamy prawdopodobieństwo zdarzenia na podstawie jego podobieństwa do prototypu stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Oceniamy prawdopodobieństwo zdarzenia na podstawie łatwości, z jaką przykłady przychodzą na myśl",
-      "Dostosowujemy oceny do punktu startowego (kotwicy)",
-      "Preferujemy informacje potwierdzające nasze wcześniejsze przekonania"
+      "Dostosowujemy oceny do punktu startowego (kotwicy) stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Preferujemy informacje potwierdzające nasze wcześniejsze przekonania ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -185,10 +185,10 @@
     "id": 15,
     "question": "Model perswazji ELM (Elaboration Likelihood Model, Petty i Cacioppo) wyróżnia dwie trasy przetwarzania perswazji:",
     "options": [
-      "Świadomą i nieświadomą",
+      "Świadomą i nieświadomą ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Centralną (analiza argumentów) i peryferyjną (wskazówki heurystyczne)",
-      "Emocjonalną i racjonalną",
-      "Indywidualną i grupową"
+      "Emocjonalną i racjonalną w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Indywidualną i grupową traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -198,10 +198,10 @@
     "id": 16,
     "question": "Syndrom grupowego myślenia (groupthink, Janis) charakteryzuje się:",
     "options": [
-      "Nadmierną krytyką i konfliktem wewnętrznym w grupie",
+      "Nadmierną krytyką i konfliktem wewnętrznym w grupie w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Przecenianiem spójności grupy, iluzją nieomylności i autocenzurą, prowadzącymi do złych decyzji",
-      "Zróżnicowaniem perspektyw i kreatywnością grupową",
-      "Faworyzowaniem mniejszości kosztem większości"
+      "Zróżnicowaniem perspektyw i kreatywnością grupową w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Faworyzowaniem mniejszości kosztem większości w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -211,10 +211,10 @@
     "id": 17,
     "question": "Efekt Lucyfera (Zimbardo) odnosi się do:",
     "options": [
-      "Skłonności jednostek wybitnie inteligentnych do działań antyspołecznych",
+      "Skłonności jednostek wybitnie inteligentnych do działań antyspołecznych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Możliwości, że zwykłe osoby w określonych warunkach sytuacyjnych mogą zachowywać się w skrajnie okrutny sposób",
-      "Wpływu mediów na wzrost agresji u dzieci",
-      "Tendencji grup do dehumanizacji swoich liderów"
+      "Wpływu mediów na wzrost agresji u dzieci rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Tendencji grup do dehumanizacji swoich liderów traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -225,9 +225,9 @@
     "question": "Teoria atrybucji Weinera dotycząca osiągnięć szkolnych zakłada, że kluczowy wymiar odpowiedzialny za motywację to:",
     "options": [
       "Wewnętrzne–zewnętrzne i stabilne–niestabilne",
-      "Globalne–specyficzne i chwilowe–stałe",
-      "Świadome–nieświadome i zamierzone–niezamierzone",
-      "Biologiczne–środowiskowe i wrodzone–nabyte"
+      "Globalne–specyficzne i chwilowe–stałe w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Świadome–nieświadome i zamierzone–niezamierzone rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Biologiczne–środowiskowe i wrodzone–nabyte rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -237,10 +237,10 @@
     "id": 19,
     "question": "Technika \"stopy w drzwiach\" (foot-in-the-door) opiera się na mechanizmie:",
     "options": [
-      "Wzajemności – osoba spełnia małą przysługę, oczekując wzajemności",
+      "Wzajemności – osoba spełnia małą przysługę, oczekując wzajemności traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Konsekwencji – po spełnieniu małej prośby ludzie są bardziej skłonni spełnić większą, by być konsekwentnymi",
-      "Niedoboru – ograniczona dostępność zwiększa chęć posiadania",
-      "Społecznego dowodu słuszności – inni też to robią"
+      "Niedoboru – ograniczona dostępność zwiększa chęć posiadania stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Społecznego dowodu słuszności – inni też to robią ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -250,10 +250,10 @@
     "id": 20,
     "question": "Deindywiduacja w tłumie (Zimbardo, Festinger) wiąże się z:",
     "options": [
-      "Wzrostem odpowiedzialności jednostkowej w dużej grupie",
+      "Wzrostem odpowiedzialności jednostkowej w dużej grupie w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Zmniejszeniem samoświadomości i zahamowań, co może prowadzić do antyspołecznych zachowań",
-      "Większą refleksyjnością decyzji podejmowanych w anonimowości",
-      "Wzrostem empatii wobec ofiar w dużej grupie"
+      "Większą refleksyjnością decyzji podejmowanych w anonimowości traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Wzrostem empatii wobec ofiar w dużej grupie ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -263,10 +263,10 @@
     "id": 21,
     "question": "Teoria interpersonalna samobójstwa Joinera zakłada, że ryzyko samobójcze jest najwyższe przy jednoczesnym występowaniu:",
     "options": [
-      "Depresji, impulsywności i historii traumy",
+      "Depresji, impulsywności i historii traumy w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Poczucia bycia ciężarem, sfrustrowanej przynależności i nabytej zdolności do skrzywdzenia siebie",
-      "Izolacji społecznej, bezrobocia i chorób somatycznych",
-      "Zaburzeń osobowości, nadużywania substancji i braku wsparcia"
+      "Izolacji społecznej, bezrobocia i chorób somatycznych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Zaburzeń osobowości, nadużywania substancji i braku wsparcia w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -276,10 +276,10 @@
     "id": 22,
     "question": "Model Steele'a dotyczący zagrożenia stereotypem (stereotype threat) wykazał, że:",
     "options": [
-      "Stereotypy nie mają wpływu na wyniki testów, jeśli badani mają wysoką samoocenę",
+      "Stereotypy nie mają wpływu na wyniki testów, jeśli badani mają wysoką samoocenę ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Świadomość negatywnego stereotypu dotyczącego własnej grupy w sytuacji oceny pogarsza wyniki, potwierdzając stereotyp",
-      "Zagrożenie stereotypem dotyczy głównie grup mniejszościowych",
-      "Efekt pojawia się tylko wtedy, gdy badani podzielają stereotyp"
+      "Zagrożenie stereotypem dotyczy głównie grup mniejszościowych stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Efekt pojawia się tylko wtedy, gdy badani podzielają stereotyp rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -289,10 +289,10 @@
     "id": 23,
     "question": "Teoria zarządzania trwogą (Terror Management Theory, Greenberg, Solomon, Pyszczynski) zakłada, że:",
     "options": [
-      "Strach przed śmiercią redukuje się głównie przez unikanie myśli o śmiertelności",
+      "Strach przed śmiercią redukuje się głównie przez unikanie myśli o śmiertelności w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Świadomość własnej śmiertelności motywuje do podtrzymywania światopoglądów i poczucia własnej wartości, które symbolicznie transcendują śmierć",
-      "Kultury różnią się głównie w zakresie rytuałów żałobnych, nie w psychologicznych reakcjach na śmierć",
-      "Tylko osoby z zaburzeniami lękowymi doświadczają egzystencjalnego lęku przed śmiercią"
+      "Kultury różnią się głównie w zakresie rytuałów żałobnych, nie w psychologicznych reakcjach na śmierć rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Tylko osoby z zaburzeniami lękowymi doświadczają egzystencjalnego lęku przed śmiercią w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -302,10 +302,10 @@
     "id": 24,
     "question": "Socjometryczny model sieci społecznych wskazuje, że centralne osoby w sieci (\"hubs\"):",
     "options": [
-      "Często odczuwają silniejsze wsparcie społeczne niż osoby peryferyjne",
+      "Często odczuwają silniejsze wsparcie społeczne niż osoby peryferyjne traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Mają większy wpływ na dyfuzję informacji i norm, lecz są też bardziej narażone na przeciążenie relacyjne",
-      "Charakteryzują się głównie wysokim statusem socjoekonomicznym",
-      "Wykazują typowo niższy poziom empatii niż osoby na peryferiach sieci"
+      "Charakteryzują się głównie wysokim statusem socjoekonomicznym traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Wykazują typowo niższy poziom empatii niż osoby na peryferiach sieci w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -315,10 +315,10 @@
     "id": 25,
     "question": "Teoria autodeterminacji (SDT, Deci i Ryan) wyróżnia trzy podstawowe potrzeby psychologiczne:",
     "options": [
-      "Bezpieczeństwo, przynależność i szacunek",
+      "Bezpieczeństwo, przynależność i szacunek stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Autonomię, kompetencję i związek z innymi",
-      "Wolność, sprawiedliwość i wzajemność",
-      "Przyjemność, unikanie bólu i reprodukcję"
+      "Wolność, sprawiedliwość i wzajemność ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Przyjemność, unikanie bólu i reprodukcję w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -328,10 +328,10 @@
     "id": 26,
     "question": "Model Latané'a dotyczący wpływu społecznego zakłada, że siła wpływu grupy zależy od:",
     "options": [
-      "Głównie liczby źródeł wpływu",
+      "Głównie liczby źródeł wpływu ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Liczby, bezpośredniości (bliskości) i siły (statusu) źródeł wpływu",
-      "Głównie statusu osoby wywierającej wpływ",
-      "Relacji między nadawcą a odbiorcą"
+      "Głównie statusu osoby wywierającej wpływ stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Relacji między nadawcą a odbiorcą w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -341,10 +341,10 @@
     "id": 27,
     "question": "Zjawisko \"kaskad informacyjnych\" (information cascades) w psychologii społecznej oznacza, że:",
     "options": [
-      "Informacje przekazywane ustnie ulegają systematycznym zniekształceniom",
+      "Informacje przekazywane ustnie ulegają systematycznym zniekształceniom rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Jednostki ignorują własną wiedzę na rzecz obserwacji zachowań innych, prowadząc do masowego podążania za trendem mimo prywatnych wątpliwości",
-      "Media społecznościowe pogłębiają konflikty grupowe",
-      "Grupowe podejmowanie decyzji często jest bardziej racjonalne niż indywidualne"
+      "Media społecznościowe pogłębiają konflikty grupowe w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Grupowe podejmowanie decyzji często jest bardziej racjonalne niż indywidualne traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -354,10 +354,10 @@
     "id": 28,
     "question": "Teoria ram interpretacyjnych (framing theory) Tversky'ego i Kahnemana wykazuje, że:",
     "options": [
-      "Ludzie często podejmują racjonalne decyzje przy wystarczającej ilości informacji",
+      "Ludzie często podejmują racjonalne decyzje przy wystarczającej ilości informacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Sposób prezentacji tej samej informacji (zysk vs. strata) wpływa na wybory, co jest sprzeczne z założeniami teorii użyteczności oczekiwanej",
-      "Efekty framing dotyczą głównie decyzji finansowych",
-      "Emocje nie mają wpływu na framing, gdy decyzja dotyczy kwestii etycznych"
+      "Efekty framing dotyczą głównie decyzji finansowych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Emocje nie mają wpływu na framing, gdy decyzja dotyczy kwestii etycznych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -367,10 +367,10 @@
     "id": 29,
     "question": "Efekt fałszywego konsensusu (false consensus effect) Rossa polega na:",
     "options": [
-      "Przekonaniu, że własne poglądy są mniej powszechne niż poglądy innych",
+      "Przekonaniu, że własne poglądy są mniej powszechne niż poglądy innych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Przecenianiu stopnia, w jakim inni ludzie podzielają nasze przekonania i zachowania",
-      "Tendencji do przypisywania sukcesów własnym zdolnościom, a porażek czynnikom zewnętrznym",
-      "Dostosowywaniu ocen do oczekiwań grupy bez wewnętrznej zmiany przekonań"
+      "Tendencji do przypisywania sukcesów własnym zdolnościom, a porażek czynnikom zewnętrznym w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Dostosowywaniu ocen do oczekiwań grupy bez wewnętrznej zmiany przekonań w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -380,10 +380,10 @@
     "id": 30,
     "question": "W kontekście badań nad altruizmem, \"hipoteza empatia-altruizm\" Batsona zakłada, że:",
     "options": [
-      "Ludzie pomagają innym głównie z powodów egoistycznych (redukcja własnego dyskomfortu)",
+      "Ludzie pomagają innym głównie z powodów egoistycznych (redukcja własnego dyskomfortu) rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Empatia emocjonalna wywołuje prawdziwie altruistyczną motywację do pomocy niezależnie od osobistych korzyści",
-      "Pomoc innym jest często warunkowana sposobnością do wzajemności",
-      "Altruizm ewoluował głównie w kontekście doboru krewniaczy"
+      "Pomoc innym jest często warunkowana sposobnością do wzajemności w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Altruizm ewoluował głównie w kontekście doboru krewniaczy rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -394,9 +394,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii społecznej? (pytanie uzupełniające 1)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -407,9 +407,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii społecznej? (pytanie uzupełniające 2)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -420,9 +420,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii społecznej? (pytanie uzupełniające 3)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -433,9 +433,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii społecznej? (pytanie uzupełniające 4)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -446,9 +446,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii społecznej? (pytanie uzupełniające 5)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pomijanie informacji zwrotnych od osoby badanej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -459,9 +459,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii społecznej? (pytanie uzupełniające 6)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -472,9 +472,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii społecznej? (pytanie uzupełniające 7)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -485,9 +485,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii społecznej? (pytanie uzupełniające 8)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -498,9 +498,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii społecznej? (pytanie uzupełniające 9)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -511,9 +511,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii społecznej? (pytanie uzupełniające 10)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 2,

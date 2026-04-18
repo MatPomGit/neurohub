@@ -3,10 +3,10 @@
     "id": 1,
     "question": "Które z poniższych stadiów Piageta odpowiada wiekowi 7–11 lat i charakteryzuje się zdolnością do myślenia logicznego na temat konkretnych obiektów?",
     "options": [
-      "Stadium sensomotoryczne",
-      "Stadium przedoperacyjne",
+      "Stadium sensomotoryczne rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Stadium przedoperacyjne w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Stadium operacji konkretnych",
-      "Stadium operacji formalnych"
+      "Stadium operacji formalnych stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -16,10 +16,10 @@
     "id": 2,
     "question": "Pojęcie 'Strefy Najbliższego Rozwoju' (ZNR) zostało wprowadzone przez:",
     "options": [
-      "Jeana Piageta",
-      "Erika Eriksona",
+      "Jeana Piageta ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Erika Eriksona traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Lwa Wygotskiego",
-      "Uriego Bronfenbrennera"
+      "Uriego Bronfenbrennera stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -29,10 +29,10 @@
     "id": 3,
     "question": "Według teorii Eriksona, kryzys 'tożsamość vs. rozproszenie ról' jest charakterystyczny dla okresu:",
     "options": [
-      "Wczesnego dzieciństwa (1–3 lata)",
-      "Wieku szkolnego (6–12 lat)",
+      "Wczesnego dzieciństwa (1–3 lata) w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Wieku szkolnego (6–12 lat) w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Dorastania (adolescencja)",
-      "Wczesnej dorosłości"
+      "Wczesnej dorosłości w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -42,10 +42,10 @@
     "id": 4,
     "question": "Eksperymentalna procedura 'Sytuacja Obca' opracowana przez Mary Ainsworth służy do badania:",
     "options": [
-      "Inteligencji niemowląt",
+      "Inteligencji niemowląt w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Stylów przywiązania u dzieci",
-      "Rozwoju mowy we wczesnym dzieciństwie",
-      "Teorii umysłu u dzieci w wieku przedszkolnym"
+      "Rozwoju mowy we wczesnym dzieciństwie stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Teorii umysłu u dzieci w wieku przedszkolnym ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -55,10 +55,10 @@
     "id": 5,
     "question": "Styl przywiązania 'unikający' (typ A) w klasyfikacji Ainsworth charakteryzuje się tym, że dziecko:",
     "options": [
-      "Aktywnie eksploruje otoczenie i szuka kontaktu przy powrocie matki",
-      "Wykazuje silny dystres i jest trudne do uspokojenia",
+      "Aktywnie eksploruje otoczenie i szuka kontaktu przy powrocie matki traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Wykazuje silny dystres i jest trudne do uspokojenia stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Pozornie nie reaguje na odejście i powrót matki, deaktywując system przywiązania",
-      "Przejawia chaotyczne zachowania bez spójnej strategii"
+      "Przejawia chaotyczne zachowania bez spójnej strategii rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -68,10 +68,10 @@
     "id": 6,
     "question": "Który badacz wskazał na ekologiczny model systemów, obejmujący mikrosystem, mezosystem, egzosystem i makrosystem?",
     "options": [
-      "Lew Wygotski",
-      "Erik Erikson",
+      "Lew Wygotski traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Erik Erikson stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Urie Bronfenbrenner",
-      "Jean Piaget"
+      "Jean Piaget ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -81,10 +81,10 @@
     "id": 7,
     "question": "Według teorii Piageta, 'egocentryzm' w stadium przedoperacyjnym oznacza:",
     "options": [
-      "Egoizm i brak troski o innych",
+      "Egoizm i brak troski o innych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Trudność w przyjmowaniu perspektywy innej niż własna",
-      "Skupianie się głównie na własnych potrzebach fizycznych",
-      "Nieumiejętność rozumienia symboli i języka"
+      "Skupianie się głównie na własnych potrzebach fizycznych stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Nieumiejętność rozumienia symboli i języka w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -94,10 +94,10 @@
     "id": 8,
     "question": "Teoria rozwoju moralnego Kohlberga wyróżnia trzy poziomy moralności. Poziom konwencjonalny obejmuje orientację na:",
     "options": [
-      "Unikanie kary i nagrody",
+      "Unikanie kary i nagrody ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Przestrzeganie przepisów dla zachowania porządku i aprobaty społecznej",
-      "Zasady etyczne niezależne od norm społecznych",
-      "Zaspokajanie własnych interesów"
+      "Zasady etyczne niezależne od norm społecznych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Zaspokajanie własnych interesów ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -107,10 +107,10 @@
     "id": 9,
     "question": "Adolescencja jako 'burza i napór' (Sturm und Drang) została opisana przez:",
     "options": [
-      "Jeana Piageta",
+      "Jeana Piageta traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "G. Stanleya Halla",
-      "Eriksona",
-      "Bowlby'ego"
+      "Eriksona w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Bowlby'ego traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -120,10 +120,10 @@
     "id": 10,
     "question": "Teoria stałości przedmiotu Piageta zakłada, że dziecko nabywa świadomość, że przedmioty istnieją niezależnie od percepcji, pod koniec stadium:",
     "options": [
-      "Przedoperacyjnego",
+      "Przedoperacyjnego traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Sensomotorycznego",
-      "Operacji konkretnych",
-      "Operacji formalnych"
+      "Operacji konkretnych rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Operacji formalnych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -133,10 +133,10 @@
     "id": 11,
     "question": "Pojęcie 'scaffolding' (rusztowanie) opisuje:",
     "options": [
-      "Biologiczne dojrzewanie układu nerwowego",
+      "Biologiczne dojrzewanie układu nerwowego ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Tymczasowe wsparcie udzielane uczniowi dopasowane do jego aktualnego poziomu",
-      "Stałe środowisko wychowawcze tworzone przez rodziców",
-      "Strukturę hierarchii potrzeb Maslowa"
+      "Stałe środowisko wychowawcze tworzone przez rodziców stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Strukturę hierarchii potrzeb Maslowa w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -146,10 +146,10 @@
     "id": 12,
     "question": "Według teorii przywiązania Bowlby'ego, wewnętrzne modele operacyjne (IWM) to:",
     "options": [
-      "Biologiczne wzorce regulacji snu niemowlęcia",
+      "Biologiczne wzorce regulacji snu niemowlęcia w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Mentalne reprezentacje siebie i innych kształtujące relacje przez całe życie",
-      "Schematy adaptacji do nowych środowisk szkolnych",
-      "Modele przetwarzania informacji w pamięci roboczej"
+      "Schematy adaptacji do nowych środowisk szkolnych rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Modele przetwarzania informacji w pamięci roboczej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -159,10 +159,10 @@
     "id": 13,
     "question": "Metoda podłużna w badaniach rozwojowych polega na:",
     "options": [
-      "Badaniu wielu grup wiekowych w tym samym momencie",
+      "Badaniu wielu grup wiekowych w tym samym momencie ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Obserwowaniu tych samych osób przez dłuższy czas",
-      "Porównywaniu dzieci z różnych kultur",
-      "Eksperymentalnym manipulowaniu zmiennymi w warunkach laboratoryjnych"
+      "Porównywaniu dzieci z różnych kultur rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Eksperymentalnym manipulowaniu zmiennymi w warunkach laboratoryjnych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -172,10 +172,10 @@
     "id": 14,
     "question": "Pojęcie 'teoria umysłu' (Theory of Mind) oznacza zdolność do:",
     "options": [
-      "Rozumienia praw fizyki przez dzieci",
+      "Rozumienia praw fizyki przez dzieci rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Przypisywania innym osobom stanów mentalnych (przekonań, pragnień, intencji)",
-      "Rozwiązywania problemów matematycznych",
-      "Rozumienia własnych emocji"
+      "Rozwiązywania problemów matematycznych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Rozumienia własnych emocji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -185,10 +185,10 @@
     "id": 15,
     "question": "Zadanie 'fałszywego przekonania' (false-belief task) bada:",
     "options": [
-      "Egocentryzm poznawczy dzieci w stadium sensomotorycznym",
+      "Egocentryzm poznawczy dzieci w stadium sensomotorycznym stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Teorię umysłu — zdolność rozumienia, że inni mogą mieć przekonania różne od rzeczywistości",
-      "Pamięć roboczą u dzieci w wieku szkolnym",
-      "Poczucie moralności w adolescencji"
+      "Pamięć roboczą u dzieci w wieku szkolnym w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Poczucie moralności w adolescencji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -198,10 +198,10 @@
     "id": 16,
     "question": "Według Eriksona, pomyślne rozwiązanie kryzysu 'generatywność vs. stagnacja' w środkowej dorosłości przejawia się:",
     "options": [
-      "Osiągnięciem intymności w relacji partnerskiej",
+      "Osiągnięciem intymności w relacji partnerskiej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Troską o kolejne pokolenia i wkładem w społeczeństwo",
-      "Integracją doświadczeń życiowych w spójną całość",
-      "Ukształtowaniem stabilnej tożsamości zawodowej"
+      "Integracją doświadczeń życiowych w spójną całość stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Ukształtowaniem stabilnej tożsamości zawodowej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -211,10 +211,10 @@
     "id": 17,
     "question": "Plastyczność mózgu (neuroplastyczność) jest największa:",
     "options": [
-      "W adolescencji",
-      "W dorosłości",
+      "W adolescencji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "W dorosłości rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "We wczesnym dzieciństwie (okresy krytyczne i wrażliwe)",
-      "W starszym wieku"
+      "W starszym wieku stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -224,10 +224,10 @@
     "id": 18,
     "question": "Style rodzicielskie Baumrind obejmują cztery typy. Styl autorytatywny charakteryzuje się:",
     "options": [
-      "Wysoką kontrolą i niskim ciepłem",
-      "Niską kontrolą i wysokim ciepłem",
+      "Wysoką kontrolą i niskim ciepłem w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Niską kontrolą i wysokim ciepłem ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Wysoką kontrolą i wysokim ciepłem, z uzasadnianiem wymagań",
-      "Niską kontrolą i niskim ciepłem"
+      "Niską kontrolą i niskim ciepłem traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -237,10 +237,10 @@
     "id": 19,
     "question": "Trauma rozwojowa (developmental trauma) różni się od jednorazowej traumy przede wszystkim:",
     "options": [
-      "Mniejszą intensywnością doświadczeń stresowych",
+      "Mniejszą intensywnością doświadczeń stresowych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Powtarzającym się lub chronicznym charakterem urazów we wczesnodziecięcym środowisku opiekuńczym",
-      "Tym, że dotyczy głównie dorosłych",
-      "Brakiem wpływu na system nerwowy"
+      "Tym, że dotyczy głównie dorosłych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Brakiem wpływu na system nerwowy ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -250,10 +250,10 @@
     "id": 20,
     "question": "Model tożsamości Marcii wyróżnia cztery statusy tożsamości. Moratorium oznacza:",
     "options": [
-      "Przyjęcie tożsamości bez eksploracji (przejęcie gotowych wartości)",
-      "Brak zarówno eksploracji, jak i zaangażowania",
+      "Przyjęcie tożsamości bez eksploracji (przejęcie gotowych wartości) stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Brak zarówno eksploracji, jak i zaangażowania w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Aktywną eksplorację bez jeszcze podjętego zobowiązania",
-      "Ukończoną eksplorację i podjęte zobowiązanie"
+      "Ukończoną eksplorację i podjęte zobowiązanie rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 2,
     "difficulty": 2,
@@ -263,10 +263,10 @@
     "id": 21,
     "question": "Oksytocyna jest neuropeptydem szczególnie związanym z:",
     "options": [
-      "Regulacją lęku przez układ limbiczny",
+      "Regulacją lęku przez układ limbiczny stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Tworzeniem więzi i zachowaniami prospołecznymi",
-      "Procesami motorycznymi w móżdżku",
-      "Przetwarzaniem informacji wzrokowych w korze"
+      "Procesami motorycznymi w móżdżku ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Przetwarzaniem informacji wzrokowych w korze w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -276,10 +276,10 @@
     "id": 22,
     "question": "Zgodnie z modelem Bronfenbrennera, mezosystem tworzą:",
     "options": [
-      "Wartości kulturowe i prawo",
+      "Wartości kulturowe i prawo stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Powiązania między różnymi mikrosystemami dziecka (np. rodzina–szkoła)",
-      "Instytucje rządowe, media i pracodawcy",
-      "Środowisko, w którym dziecko bezpośrednio funkcjonuje"
+      "Instytucje rządowe, media i pracodawcy ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Środowisko, w którym dziecko bezpośrednio funkcjonuje w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -289,10 +289,10 @@
     "id": 23,
     "question": "Badania metodą przekrojową w psychologii rozwojowej polegają na:",
     "options": [
-      "Śledzeniu tej samej grupy przez wiele lat",
+      "Śledzeniu tej samej grupy przez wiele lat traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Jednoczesnym badaniu grup osób w różnym wieku",
-      "Łączeniu obserwacji z eksperymentem naturalnym",
-      "Analizowaniu danych retrospektywnych z wywiadów"
+      "Łączeniu obserwacji z eksperymentem naturalnym w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Analizowaniu danych retrospektywnych z wywiadów rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -302,10 +302,10 @@
     "id": 24,
     "question": "Teoria ekologiczna Bronfenbrennera podkreśla rolę chronosystemu jako:",
     "options": [
-      "Systemu biologicznych zegarów dojrzewania",
+      "Systemu biologicznych zegarów dojrzewania ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Wymiaru czasu — zmian historycznych i biegu życia wpływających na rozwój",
-      "Sieci relacji rówieśniczych w środowisku szkolnym",
-      "Układu norm kulturowych przekazywanych przez pokolenia"
+      "Sieci relacji rówieśniczych w środowisku szkolnym traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Układu norm kulturowych przekazywanych przez pokolenia ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -315,10 +315,10 @@
     "id": 25,
     "question": "Asynchronia rozwojowa w adolescencji oznacza:",
     "options": [
-      "Cofanie się do wcześniejszych stadiów rozwojowych",
+      "Cofanie się do wcześniejszych stadiów rozwojowych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Nierównomierne tempo zmian biologicznych, poznawczych i społecznych",
-      "Brak zmiany tożsamości w porównaniu z dzieciństwem",
-      "Synchronizowanie rytmu dobowego z potrzebami rówieśników"
+      "Brak zmiany tożsamości w porównaniu z dzieciństwem w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Synchronizowanie rytmu dobowego z potrzebami rówieśników stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -329,9 +329,9 @@
     "question": "Efekt 'klifu wzrokowego' (visual cliff) w badaniach Gibsonów dotyczył:",
     "options": [
       "Percepcji głębi u niemowląt",
-      "Zdolności niemowląt do naśladowania wyrazu twarzy",
-      "Preferencji wzrokowych noworodków",
-      "Teorii umysłu u dzieci 2-letnich"
+      "Zdolności niemowląt do naśladowania wyrazu twarzy rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Preferencji wzrokowych noworodków rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Teorii umysłu u dzieci 2-letnich ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -342,9 +342,9 @@
     "question": "Rozwój języka u dzieci przebiega w kolejności:",
     "options": [
       "Gaworzenie → holofaza → telegraficzna mowa → zdania złożone",
-      "Telegraficzna mowa → holofaza → gaworzenie → zdania złożone",
-      "Zdania złożone → gaworzenie → holofaza → telegraficzna mowa",
-      "Holofaza → telegraficzna mowa → gaworzenie → zdania złożone"
+      "Telegraficzna mowa → holofaza → gaworzenie → zdania złożone w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Zdania złożone → gaworzenie → holofaza → telegraficzna mowa rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Holofaza → telegraficzna mowa → gaworzenie → zdania złożone w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -354,10 +354,10 @@
     "id": 28,
     "question": "Pojęcie 'bezpieczna baza' (secure base) w teorii przywiązania oznacza:",
     "options": [
-      "Stałe miejsce zamieszkania dziecka",
+      "Stałe miejsce zamieszkania dziecka rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Dostępny i responsywny opiekun umożliwiający dziecku eksplorację",
-      "Grupę rówieśniczą stanowiącą wsparcie w adolescencji",
-      "Pozytywne doświadczenia szkolne budujące poczucie kompetencji"
+      "Grupę rówieśniczą stanowiącą wsparcie w adolescencji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pozytywne doświadczenia szkolne budujące poczucie kompetencji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -367,10 +367,10 @@
     "id": 29,
     "question": "Zgodnie z teorią rozwoju psychospołecznego Eriksona, cnota 'mądrość' wykształca się pomyślnie w ostatnim stadium życia pod warunkiem:",
     "options": [
-      "Utrzymania aktywności zawodowej do późnej starości",
+      "Utrzymania aktywności zawodowej do późnej starości traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Rozwiązania kryzysu integralności vs. rozpaczy",
-      "Utrzymania bliskich relacji intymnych z partnerem",
-      "Przekazania wartości religijnych kolejnym pokoleniom"
+      "Utrzymania bliskich relacji intymnych z partnerem rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Przekazania wartości religijnych kolejnym pokoleniom stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -381,9 +381,9 @@
     "question": "Które z poniższych zjawisk jest przykładem 'regresji do wcześniejszego stadium' w rozumieniu psychodynamicznym?",
     "options": [
       "Nastolatek zaczyna moczyć łóżko po urodzeniu się rodzeństwa",
-      "Dziecko uczy się pierwszych słów przez imitację",
-      "Dorosły przechodzi na wegetarianizm po obejrzeniu dokumentu",
-      "Uczeń rozwiązuje zadania logiczne metodą prób i błędów"
+      "Dziecko uczy się pierwszych słów przez imitację w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Dorosły przechodzi na wegetarianizm po obejrzeniu dokumentu traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Uczeń rozwiązuje zadania logiczne metodą prób i błędów ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -392,10 +392,10 @@
   {
     "question": "Które twierdzenie najlepiej opisuje pojęcie strefy najbliższego rozwoju Wygotskiego?",
     "options": [
-      "To zakres umiejętności w dużej mierze niedostępnych dziecku",
+      "To zakres umiejętności w dużej mierze niedostępnych dziecku ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "To różnica między tym, co dziecko potrafi samo a tym, co osiąga przy wsparciu",
-      "To etap rozwoju fizycznego w okresie dojrzewania",
-      "To miara temperamentu dziecka"
+      "To etap rozwoju fizycznego w okresie dojrzewania w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "To miara temperamentu dziecka w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -405,10 +405,10 @@
   {
     "question": "W teorii przywiązania Ainsworth wzorzec lękowo-ambiwalentny u dziecka zwykle wiąże się z:",
     "options": [
-      "Stałą, przewidywalną dostępnością opiekuna",
+      "Stałą, przewidywalną dostępnością opiekuna w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Niespójnością responsywności opiekuna",
-      "Brakiem reakcji na rozstanie i powrót opiekuna",
-      "Głównie czynnikami genetycznymi"
+      "Brakiem reakcji na rozstanie i powrót opiekuna traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Głównie czynnikami genetycznymi ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -418,10 +418,10 @@
   {
     "question": "Co najtrafniej odróżnia dojrzewanie od uczenia się w rozwoju człowieka?",
     "options": [
-      "Dojrzewanie dotyczy tylko emocji, a uczenie tylko poznania",
+      "Dojrzewanie dotyczy tylko emocji, a uczenie tylko poznania w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Dojrzewanie wynika głównie z procesów biologicznych, a uczenie z doświadczenia",
-      "Uczenie się zachodzi głównie w dzieciństwie",
-      "Dojrzewanie jest w dużej mierze niezależne od środowiska"
+      "Uczenie się zachodzi głównie w dzieciństwie traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Dojrzewanie jest w dużej mierze niezależne od środowiska w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -431,10 +431,10 @@
   {
     "question": "W okresie adolescencji wzrost znaczenia grupy rówieśniczej najczęściej wspiera:",
     "options": [
-      "Głównie zachowania ryzykowne",
+      "Głównie zachowania ryzykowne ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Proces kształtowania tożsamości i autonomii",
-      "Całkowite odrzucenie wpływu rodziny",
-      "Spadek wrażliwości na ocenę społeczną"
+      "Całkowite odrzucenie wpływu rodziny ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Spadek wrażliwości na ocenę społeczną stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -444,10 +444,10 @@
   {
     "question": "Który wskaźnik najlepiej charakteryzuje funkcje wykonawcze u dzieci w wieku szkolnym?",
     "options": [
-      "Tempo wzrostu ciała",
+      "Tempo wzrostu ciała rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Kontrola hamowania, pamięć robocza i elastyczność poznawcza",
-      "Liczba rodzeństwa",
-      "Preferencje smakowe"
+      "Liczba rodzeństwa w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Preferencje smakowe ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -459,9 +459,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii rozwojowej? (pytanie uzupełniające 1)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -472,9 +472,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii rozwojowej? (pytanie uzupełniające 2)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -485,9 +485,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii rozwojowej? (pytanie uzupełniające 3)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -498,9 +498,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii rozwojowej? (pytanie uzupełniające 4)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pomijanie informacji zwrotnych od osoby badanej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -511,9 +511,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychologii rozwojowej? (pytanie uzupełniające 5)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 3,

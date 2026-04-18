@@ -3,10 +3,10 @@
     "id": 1,
     "question": "Według DSM-5 do rozpoznania epizodu depresyjnego wymagane jest utrzymywanie się co najmniej 5 objawów przez minimum:",
     "options": [
-      "1 tydzień",
+      "1 tydzień traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "2 tygodnie",
-      "1 miesiąc",
-      "6 miesięcy"
+      "1 miesiąc w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "6 miesięcy w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -16,10 +16,10 @@
     "id": 2,
     "question": "Która z poniższych cech jest kluczowym objawem zaburzeń ze spektrum autyzmu (ASD)?",
     "options": [
-      "Omamy słuchowe",
+      "Omamy słuchowe rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Deficyty w komunikacji społecznej i ograniczone, powtarzające się wzorce zachowań",
-      "Silny lęk separacyjny głównie u dorosłych",
-      "Epizody manii naprzemiennie z depresją"
+      "Silny lęk separacyjny głównie u dorosłych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Epizody manii naprzemiennie z depresją ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -29,10 +29,10 @@
     "id": 3,
     "question": "Fobie specyficzne należą w DSM-5 do grupy:",
     "options": [
-      "Zaburzeń obsesyjno-kompulsywnych",
+      "Zaburzeń obsesyjno-kompulsywnych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Zaburzeń lękowych",
-      "Zaburzeń traumatycznych i stresowych",
-      "Zaburzeń dysocjacyjnych"
+      "Zaburzeń traumatycznych i stresowych stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Zaburzeń dysocjacyjnych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -42,10 +42,10 @@
     "id": 4,
     "question": "Objawem osiowym schizofrenii, zaliczanym do objawów pozytywnych, jest:",
     "options": [
-      "Spłycenie afektu",
-      "Wycofanie społeczne",
+      "Spłycenie afektu w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Wycofanie społeczne rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Omamy i urojenia",
-      "Alogia"
+      "Alogia traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -55,10 +55,10 @@
     "id": 5,
     "question": "Zaburzenie dwubiegunowe typu I charakteryzuje się:",
     "options": [
-      "Głównie epizodami depresyjnymi",
+      "Głównie epizodami depresyjnymi rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Co najmniej jednym epizodem maniakalnym",
-      "Głównie epizodami hipomaniakalnym i depresyjnymi",
-      "Przewlekłym obniżeniem nastroju bez epizodów maniakalnych"
+      "Głównie epizodami hipomaniakalnym i depresyjnymi rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Przewlekłym obniżeniem nastroju bez epizodów maniakalnych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -68,10 +68,10 @@
     "id": 6,
     "question": "Zaburzenie obsesyjno-kompulsywne (OCD) charakteryzuje się:",
     "options": [
-      "Nagłymi atakami paniki bez wyraźnej przyczyny",
+      "Nagłymi atakami paniki bez wyraźnej przyczyny ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Intruzywymi myślami (obsesjami) i powtarzającymi się czynnościami redukującymi lęk (kompulsjami)",
-      "Trwałymi zmianami osobowości po traumatycznym zdarzeniu",
-      "Nawracającymi epizodami dysocjacji"
+      "Trwałymi zmianami osobowości po traumatycznym zdarzeniu stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Nawracającymi epizodami dysocjacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -81,10 +81,10 @@
     "id": 7,
     "question": "Jadłowstręt psychiczny (anorexia nervosa) wyróżnia się spośród bulimii przede wszystkim:",
     "options": [
-      "Obecnością zachowań kompensacyjnych",
+      "Obecnością zachowań kompensacyjnych stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Wyraźnie obniżoną masą ciała",
-      "Brakiem zaburzeń obrazu ciała",
-      "Napadowym objadaniem się"
+      "Brakiem zaburzeń obrazu ciała ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Napadowym objadaniem się ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -94,10 +94,10 @@
     "id": 8,
     "question": "Kryterium czasu dla diagnozy GAD (uogólnione zaburzenie lękowe) według DSM-5 wynosi:",
     "options": [
-      "Co najmniej 2 tygodnie",
-      "Co najmniej 1 miesiąc",
+      "Co najmniej 2 tygodnie w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Co najmniej 1 miesiąc w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Co najmniej 6 miesięcy",
-      "Co najmniej 1 rok"
+      "Co najmniej 1 rok traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -107,10 +107,10 @@
     "id": 9,
     "question": "Który typ zaburzeń osobowości charakteryzuje się niestabilnością emocjonalną, lękiem przed porzuceniem i niestabilnym poczuciem tożsamości?",
     "options": [
-      "Paranoidalne zaburzenie osobowości",
+      "Paranoidalne zaburzenie osobowości rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Borderline (chwiejne emocjonalnie) zaburzenie osobowości",
-      "Narcystyczne zaburzenie osobowości",
-      "Obsesyjno-kompulsywne zaburzenie osobowości"
+      "Narcystyczne zaburzenie osobowości w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Obsesyjno-kompulsywne zaburzenie osobowości ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -120,10 +120,10 @@
     "id": 10,
     "question": "PTSD (zespół stresu pourazowego) może rozwinąć się po:",
     "options": [
-      "Głównie bezpośrednim doświadczeniu zagrożenia życia",
+      "Głównie bezpośrednim doświadczeniu zagrożenia życia ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Bezpośrednim doświadczeniu, świadkowaniu lub dowiedzeniu się o traumatycznym zdarzeniu",
-      "Głównie zagrożeniu życia własnego",
-      "Wielu stresującym wydarzeniu dnia codziennego"
+      "Głównie zagrożeniu życia własnego w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Wielu stresującym wydarzeniu dnia codziennego rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -133,10 +133,10 @@
     "id": 11,
     "question": "Dystymia (trwałe zaburzenie depresyjne) różni się od epizodu depresji tym, że:",
     "options": [
-      "Objawy są intensywniejsze, ale krótsze",
+      "Objawy są intensywniejsze, ale krótsze rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Objawy są mniej nasilone, lecz utrzymują się co najmniej 2 lata",
-      "Rzadko nie towarzyszą jej myśli samobójcze",
-      "Dotyczy głównie dzieci i młodzieży"
+      "Rzadko nie towarzyszą jej myśli samobójcze ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Dotyczy głównie dzieci i młodzieży traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -146,10 +146,10 @@
     "id": 12,
     "question": "Choroba afektywna sezonowa (SAD) jest podtypem:",
     "options": [
-      "Zaburzeń lękowych",
-      "Zaburzenia dwubiegunowego typu II",
+      "Zaburzeń lękowych rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Zaburzenia dwubiegunowego typu II rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Dużej depresji (MDD) z sezonowym wzorcem",
-      "Zaburzeń osobowości"
+      "Zaburzeń osobowości w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -159,10 +159,10 @@
     "id": 13,
     "question": "Objawy negatywne schizofrenii obejmują:",
     "options": [
-      "Urojenia i omamy",
-      "Zdezorganizowaną mowę",
+      "Urojenia i omamy traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Zdezorganizowaną mowę w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Spłycenie afektu, abulię, aloję i anhedonię",
-      "Katatonię i pobudzenie"
+      "Katatonię i pobudzenie stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -172,10 +172,10 @@
     "id": 14,
     "question": "Koncepcja \"kontinuum\" zaburzeń psychicznych zakłada, że:",
     "options": [
-      "Zaburzenia psychiczne są często dziedziczne",
+      "Zaburzenia psychiczne są często dziedziczne w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Między zdrowiem a zaburzeniem psychicznym istnieje płynne spectrum, a nie wyraźna granica kategorialna",
-      "Zaburzenia psychiczne mają często tło biologiczne",
-      "Każde zaburzenie jest odrębną jednostką chorobową niepowiązaną z innymi"
+      "Zaburzenia psychiczne mają często tło biologiczne ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Każde zaburzenie jest odrębną jednostką chorobową niepowiązaną z innymi rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -185,10 +185,10 @@
     "id": 15,
     "question": "Endofenotywy w psychiatrii to:",
     "options": [
-      "Objawy biologiczne widoczne głównie w badaniach neuroobrazowania",
+      "Objawy biologiczne widoczne głównie w badaniach neuroobrazowania stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Mierzalne cechy pośrednie (biologiczne, psychologiczne) powiązane genetycznie z zaburzeniem, niewidoczne gołym okiem",
-      "Biomarkery stosowane głównie do oceny efektów farmakoterapii",
-      "Zewnętrzne objawy choroby różniące grupę chorą od zdrowej"
+      "Biomarkery stosowane głównie do oceny efektów farmakoterapii w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Zewnętrzne objawy choroby różniące grupę chorą od zdrowej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -198,10 +198,10 @@
     "id": 16,
     "question": "Model diateza–stres w psychopatologii wyjaśnia, że:",
     "options": [
-      "Zaburzenia psychiczne są głównie skutkiem stresu środowiskowego",
+      "Zaburzenia psychiczne są głównie skutkiem stresu środowiskowego w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Zaburzenia rozwijają się, gdy biologiczna lub psychologiczna podatność spotka się z wystarczającym czynnikiem stresowym",
-      "Genetyczne predyspozycje nieuchronnie prowadzą do zaburzenia",
-      "Stres może wywołać zaburzenie tylko u osób bez predyspozycji genetycznych"
+      "Genetyczne predyspozycje nieuchronnie prowadzą do zaburzenia w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Stres może wywołać zaburzenie tylko u osób bez predyspozycji genetycznych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -211,10 +211,10 @@
     "id": 17,
     "question": "Zaburzenie osobowości z pogranicza (BPD) według modelu Linehan wynika przede wszystkim z:",
     "options": [
-      "Zaburzeń funkcji płatów czołowych",
+      "Zaburzeń funkcji płatów czołowych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Dysregulacji emocjonalnej rozwijającej się w środowisku unieważniającym",
-      "Wczesnodziecięcego doświadczenia traumy seksualnej",
-      "Dziedzicznej nieprawidłowości neuroprzekaźnictwa dopaminergicznego"
+      "Wczesnodziecięcego doświadczenia traumy seksualnej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Dziedzicznej nieprawidłowości neuroprzekaźnictwa dopaminergicznego rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -224,10 +224,10 @@
     "id": 18,
     "question": "Hipoteza dopaminowa schizofrenii zakłada, że objawy pozytywne wiążą się z:",
     "options": [
-      "Niedoborem dopaminy w układzie mezolimbicznym",
+      "Niedoborem dopaminy w układzie mezolimbicznym stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Nadmiernością dopaminy w szlaku mezolimbicznym",
-      "Niedoborem dopaminy w korze przedczołowej",
-      "Nadmiarem serotoniny w układzie limbicznym"
+      "Niedoborem dopaminy w korze przedczołowej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Nadmiarem serotoniny w układzie limbicznym rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -238,9 +238,9 @@
     "question": "Termin \"anosognozja\" w kontekście zaburzeń psychicznych oznacza:",
     "options": [
       "Brak wglądu w chorobę – pacjent nie rozpoznaje swoich objawów jako patologicznych",
-      "Nadmierne skupienie się pacjenta na własnych objawach",
-      "Zaburzenie pamięci autobiograficznej",
-      "Omamy dotykowe towarzyszące psychozie"
+      "Nadmierne skupienie się pacjenta na własnych objawach rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Zaburzenie pamięci autobiograficznej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Omamy dotykowe towarzyszące psychozie rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -250,10 +250,10 @@
     "id": 20,
     "question": "Zjawisko \"kindlingu\" w kontekście zaburzeń afektywnych oznacza:",
     "options": [
-      "Nasilanie się skuteczności leków przy kolejnych epizodach",
+      "Nasilanie się skuteczności leków przy kolejnych epizodach rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Tendencję do spontanicznego nawrotu kolejnych epizodów bez wyraźnego stresora po ich powtarzaniu się",
-      "Poszerzanie się epizodów depresyjnych na nowe obszary funkcjonowania",
-      "Zwiększanie wrażliwości receptorów po długotrwałej farmakoterapii"
+      "Poszerzanie się epizodów depresyjnych na nowe obszary funkcjonowania ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Zwiększanie wrażliwości receptorów po długotrwałej farmakoterapii w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -263,10 +263,10 @@
     "id": 21,
     "question": "Zaburzenia dysmorfofobiczne (BDD – Body Dysmorphic Disorder) polegają na:",
     "options": [
-      "Celowym wywoływaniu objawów somatycznych w celu uzyskania opieki medycznej",
+      "Celowym wywoływaniu objawów somatycznych w celu uzyskania opieki medycznej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Nadmiernym skupieniu na wyobrażonym lub minimalnym defekcie wyglądu fizycznego, powodującym znaczące cierpienie",
-      "Urojeniowym przekonaniu o posiadaniu ciężkiej choroby somatycznej",
-      "Zaburzeniu odżywiania prowadzącym do kacheksji"
+      "Urojeniowym przekonaniu o posiadaniu ciężkiej choroby somatycznej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Zaburzeniu odżywiania prowadzącym do kacheksji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -276,10 +276,10 @@
     "id": 22,
     "question": "Która z poniższych jest cechą diagnostyczną ADHD w DSM-5 u dorosłych?",
     "options": [
-      "Wymagany jest głównie podtyp z przewagą nadruchliwości",
+      "Wymagany jest głównie podtyp z przewagą nadruchliwości w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Objawy muszą być obecne przed 12. rokiem życia",
-      "Zaburzenie nie może współwystępować z zaburzeniami lękowymi",
-      "Do diagnozy wymagane jest minimum 8 objawów nieuważności"
+      "Zaburzenie nie może współwystępować z zaburzeniami lękowymi stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Do diagnozy wymagane jest minimum 8 objawów nieuważności stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -289,10 +289,10 @@
     "id": 23,
     "question": "Jaki jest kluczowy mechanizm psychologiczny w zaburzeniu panicznym?",
     "options": [
-      "Unikanie bodźców przypominających traumę",
+      "Unikanie bodźców przypominających traumę traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Katastroficzna interpretacja doznań somatycznych podczas ataku paniki, podtrzymująca lęk",
-      "Obsesyjne ruminacje na temat własnego zdrowia",
-      "Dewaluacja i idealizacja w relacjach interpersonalnych"
+      "Obsesyjne ruminacje na temat własnego zdrowia ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Dewaluacja i idealizacja w relacjach interpersonalnych stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -302,10 +302,10 @@
     "id": 24,
     "question": "Kryteria diagnostyczne PTSD kompleksowego (C-PTSD) według ICD-11 dodają do klasycznych objawów PTSD:",
     "options": [
-      "Omamy i urojenia",
+      "Omamy i urojenia ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Zaburzenia dysregulacji emocjonalnej, negatywny obraz siebie i trudności w relacjach interpersonalnych",
-      "Objawy maniakalne i grandiozję",
-      "Zaburzenia pamięci o charakterze amnezji dysocjacyjnej"
+      "Objawy maniakalne i grandiozję stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Zaburzenia pamięci o charakterze amnezji dysocjacyjnej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -315,10 +315,10 @@
     "id": 25,
     "question": "Spektrum obsesyjno-kompulsywne w DSM-5 obejmuje m.in.:",
     "options": [
-      "Fobie specyficzne i agorafobię",
+      "Fobie specyficzne i agorafobię traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Trichotillomanię, dermatillomanię i dysmorfofobię",
-      "Zaburzenia dysocjacyjne i konwersyjne",
-      "Zaburzenia żywienia i wydalania"
+      "Zaburzenia dysocjacyjne i konwersyjne traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Zaburzenia żywienia i wydalania traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -328,10 +328,10 @@
     "id": 26,
     "question": "Koncepcja \"staged model\" w psychiatrii zakłada, że zaburzenia psychiczne:",
     "options": [
-      "Są niezmienne i od początku mają pełen obraz kliniczny",
+      "Są niezmienne i od początku mają pełen obraz kliniczny ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Rozwijają się etapami od stanu ryzyka przez prodrom do pełnoobjawowego zaburzenia, a interwencja wcześniejsza jest skuteczniejsza",
-      "Wymagają do rozpoznania głównie neuroobrazowania",
-      "Często mają podłoże traumatyczne"
+      "Wymagają do rozpoznania głównie neuroobrazowania rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Często mają podłoże traumatyczne traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -341,10 +341,10 @@
     "id": 27,
     "question": "Hipoteza glutaminianergiczna schizofrenii zakłada, że objawy wynikają z:",
     "options": [
-      "Nadmiaru glutaminianu w szlaku mezokortykalnym",
+      "Nadmiaru glutaminianu w szlaku mezokortykalnym stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Hipoaktywności receptorów NMDA, co prowadzi do wtórnego rozregulowania układów dopaminergicznych i GABAergicznych",
-      "Niedoboru glutaminianu w hipokampie",
-      "Nadmiaru GABA w układzie limbicznym"
+      "Niedoboru glutaminianu w hipokampie w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Nadmiaru GABA w układzie limbicznym ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -354,10 +354,10 @@
     "id": 28,
     "question": "Termin \"allostaza\" w kontekście psychopatologii oznacza:",
     "options": [
-      "Powrót do wyjściowego stanu równowagi po stresie",
+      "Powrót do wyjściowego stanu równowagi po stresie stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Aktywne dostosowywanie progów homeostatycznych do przewidywanego zapotrzebowania, co przy przeciążeniu prowadzi do obciążenia allostatycznego",
-      "Trwałą odporność biologiczną na stres",
-      "Brak adaptacji neuroendokrynnej na chroniczny stres"
+      "Trwałą odporność biologiczną na stres rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Brak adaptacji neuroendokrynnej na chroniczny stres stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -367,10 +367,10 @@
     "id": 29,
     "question": "Model RDoC (Research Domain Criteria) NIMH różni się od klasyfikacji DSM/ICD tym, że:",
     "options": [
-      "Diagnozuje głównie na podstawie biomarkerów genetycznych",
+      "Diagnozuje głównie na podstawie biomarkerów genetycznych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Organizuje badania według wymiarów biologicznych i behawioralnych (domeny) zamiast kategorii objawowych",
-      "Zastępuje wywiad kliniczny neuroobrazowaniem",
-      "Koncentruje się głównie na zaburzeniach neuropsychiatrycznych u dzieci"
+      "Zastępuje wywiad kliniczny neuroobrazowaniem w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Koncentruje się głównie na zaburzeniach neuropsychiatrycznych u dzieci traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -380,10 +380,10 @@
     "id": 30,
     "question": "\"Sieć domyślna\" (default mode network, DMN) jest powiązana z psychopatologią depresji i schizofrenii, ponieważ:",
     "options": [
-      "Jest odpowiedzialna za procesy uwagi selektywnej i kontroli hamowania",
+      "Jest odpowiedzialna za procesy uwagi selektywnej i kontroli hamowania w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Nadaktywność DMN w spoczynku wiąże się z ruminacjami w depresji; zaburzenia jej łączności – z halucynacjami w schizofrenii",
-      "Niedobór aktywacji DMN powoduje anhedonię",
-      "DMN kontroluje głównie procesy pamięci proceduralnej"
+      "Niedobór aktywacji DMN powoduje anhedonię traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "DMN kontroluje głównie procesy pamięci proceduralnej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -394,9 +394,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychopatologii? (pytanie uzupełniające 1)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -407,9 +407,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychopatologii? (pytanie uzupełniające 2)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -420,9 +420,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychopatologii? (pytanie uzupełniające 3)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -433,9 +433,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychopatologii? (pytanie uzupełniające 4)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podejmowanie działań bez dokumentacji i ewaluacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -446,9 +446,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychopatologii? (pytanie uzupełniające 5)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -459,9 +459,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychopatologii? (pytanie uzupełniające 6)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Pomijanie informacji zwrotnych od osoby badanej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Podejmowanie działań bez dokumentacji i ewaluacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -472,9 +472,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychopatologii? (pytanie uzupełniające 7)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -485,9 +485,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychopatologii? (pytanie uzupełniające 8)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pomijanie informacji zwrotnych od osoby badanej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -498,9 +498,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychopatologii? (pytanie uzupełniające 9)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Pomijanie informacji zwrotnych od osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -511,9 +511,9 @@
     "question": "Które stwierdzenie najlepiej opisuje dobrą praktykę w obszarze psychopatologii? (pytanie uzupełniające 10)",
     "options": [
       "Oparcie decyzji na dowodach naukowych i kontekście klienta",
-      "Stosowanie jednej techniki niezależnie od sytuacji",
-      "Pomijanie informacji zwrotnych od osoby badanej",
-      "Podejmowanie działań bez dokumentacji i ewaluacji"
+      "Stosowanie jednej techniki niezależnie od sytuacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Pomijanie informacji zwrotnych od osoby badanej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Podejmowanie działań bez dokumentacji i ewaluacji stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 0,
     "difficulty": 2,

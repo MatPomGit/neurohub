@@ -3,10 +3,10 @@
     "id": 1,
     "question": "Który test najczęściej wykorzystuje się do przesiewowej oceny funkcji poznawczych u osób starszych w praktyce ambulatoryjnej?",
     "options": [
-      "MMPI-2",
+      "MMPI-2 traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "MoCA",
-      "Rorschach",
-      "ADOS-2"
+      "Rorschach stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "ADOS-2 w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -17,9 +17,9 @@
     "question": "W badaniu inteligencji osoby dorosłej narzędziem pierwszego wyboru jest zazwyczaj:",
     "options": [
       "WAIS",
-      "WISC-V",
-      "CBCL",
-      "SCID-5"
+      "WISC-V stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "CBCL ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "SCID-5 w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -29,10 +29,10 @@
     "id": 3,
     "question": "Które twierdzenie najlepiej opisuje rzetelność testu?",
     "options": [
-      "Czy test mierzy to, co powinien mierzyć",
+      "Czy test mierzy to, co powinien mierzyć ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Czy wynik testu jest stabilny i powtarzalny",
-      "Czy test ma normy międzynarodowe",
-      "Czy test jest krótki"
+      "Czy test ma normy międzynarodowe rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Czy test jest krótki rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -42,10 +42,10 @@
     "id": 4,
     "question": "Wynik stenowy 9 w skali osobowości oznacza najczęściej:",
     "options": [
-      "Wynik niski",
-      "Wynik przeciętny",
+      "Wynik niski w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Wynik przeciętny stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Wynik wysoki",
-      "Wynik nieważny"
+      "Wynik nieważny rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 2,
     "difficulty": 1,
@@ -55,10 +55,10 @@
     "id": 5,
     "question": "Który element powinien pojawić się w informacji zwrotnej po badaniu psychologicznym?",
     "options": [
-      "Tylko surowe wyniki punktowe",
+      "Tylko surowe wyniki punktowe stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Opis ograniczeń badania i kontekstu interpretacji",
-      "Głównie rozpoznanie ICD",
-      "Brak rekomendacji"
+      "Głównie rozpoznanie ICD ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Brak rekomendacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -68,10 +68,10 @@
     "id": 6,
     "question": "W teście BDI-II wysokie nasilenie objawów najczęściej sugeruje:",
     "options": [
-      "Objawy psychotyczne",
+      "Objawy psychotyczne rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Nasilone objawy depresyjne wymagające pogłębionej oceny",
-      "Zaburzenie osobowości",
-      "Symulację"
+      "Zaburzenie osobowości w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Symulację rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -82,9 +82,9 @@
     "question": "Który wskaźnik najlepiej odzwierciedla zgodność wewnętrzną pozycji testowych?",
     "options": [
       "Alfa Cronbacha",
-      "Współczynnik V Craméra",
-      "Test t-Studenta",
-      "R2"
+      "Współczynnik V Craméra stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Test t-Studenta rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "R2 traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -94,10 +94,10 @@
     "id": 8,
     "question": "Wynik istotnie poniżej średniej w teście uwagi selektywnej należy interpretować przede wszystkim:",
     "options": [
-      "Jako pewny dowód ADHD",
+      "Jako pewny dowód ADHD rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "W kontekście całego wywiadu, obserwacji i innych testów",
-      "Jako błąd aparatury",
-      "Jako podstawę do natychmiastowej hospitalizacji"
+      "Jako błąd aparatury ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Jako podstawę do natychmiastowej hospitalizacji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -107,10 +107,10 @@
     "id": 9,
     "question": "W badaniach przesiewowych fałszywie dodatni wynik oznacza, że:",
     "options": [
-      "Test nie wykrył zaburzenia mimo jego obecności",
+      "Test nie wykrył zaburzenia mimo jego obecności ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Test wskazał zaburzenie mimo jego braku",
-      "Wynik jest często nieważny",
-      "Badany odmówił odpowiedzi"
+      "Wynik jest często nieważny w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Badany odmówił odpowiedzi stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -120,10 +120,10 @@
     "id": 10,
     "question": "Która praktyka zwiększa trafność oceny psychologicznej w środowisku klinicznym?",
     "options": [
-      "Opieranie się głównie na jednym teście",
+      "Opieranie się głównie na jednym teście stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Triangulacja danych: testy, wywiad i obserwacja",
-      "Pomijanie danych od rodziny",
-      "Interpretowanie bez norm"
+      "Pomijanie danych od rodziny rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Interpretowanie bez norm stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -133,10 +133,10 @@
     "id": 11,
     "question": "Który czynnik najczęściej obniża porównywalność wyniku testu między osobami?",
     "options": [
-      "Standaryzowana instrukcja",
+      "Standaryzowana instrukcja w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Różne warunki badania i zakłócenia środowiskowe",
-      "Normy wiekowe",
-      "Podręcznik testowy"
+      "Normy wiekowe w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podręcznik testowy rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -146,10 +146,10 @@
     "id": 12,
     "question": "Wynik wysoki w skali kłamstwa (L) w inwentarzu osobowości może sugerować:",
     "options": [
-      "Skrajną impulsywność",
+      "Skrajną impulsywność rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Tendencję do prezentowania się w nadmiernie korzystnym świetle",
-      "Zaburzenia pamięci świeżej",
-      "Objawy maniakalne"
+      "Zaburzenia pamięci świeżej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Objawy maniakalne rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -159,10 +159,10 @@
     "id": 13,
     "question": "W opinii psychologicznej dla sądu najbardziej kluczowa jest:",
     "options": [
-      "Użycie specjalistycznego żargonu",
+      "Użycie specjalistycznego żargonu ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Jasna odpowiedź na pytanie sądu i transparentny tok wnioskowania",
-      "Maksymalna objętość opisu",
-      "Brak odniesienia do danych"
+      "Maksymalna objętość opisu ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Brak odniesienia do danych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -172,10 +172,10 @@
     "id": 14,
     "question": "Jeżeli osoba badana ma istotne ograniczenia językowe, najwłaściwszym działaniem diagnosty jest:",
     "options": [
-      "Kontynuowanie standardowej procedury bez zmian",
+      "Kontynuowanie standardowej procedury bez zmian w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Dostosowanie narzędzi i opisanie wpływu ograniczeń na interpretację",
-      "Zrezygnowanie z dokumentowania badania",
-      "Zgadywanie odpowiedzi na podstawie zachowania"
+      "Zrezygnowanie z dokumentowania badania traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Zgadywanie odpowiedzi na podstawie zachowania stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -185,10 +185,10 @@
     "id": 15,
     "question": "Który scenariusz najlepiej uzasadnia wykonanie ponownego badania testowego?",
     "options": [
-      "Gdy wynik jest zgodny z obrazem klinicznym",
+      "Gdy wynik jest zgodny z obrazem klinicznym w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Gdy w trakcie pierwszego badania wystąpiły silne zakłócenia i brak współpracy",
-      "Często po 24 godzinach",
-      "Rzadko"
+      "Często po 24 godzinach rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Rzadko w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -198,10 +198,10 @@
     "id": 16,
     "question": "W podejściu evidence-based assessment psycholog powinien przede wszystkim:",
     "options": [
-      "Polegać na intuicji",
+      "Polegać na intuicji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Łączyć dane empiryczne, kompetencje kliniczne i preferencje klienta",
-      "Unikać narzędzi standaryzowanych",
-      "Interpretować wynik bez norm"
+      "Unikać narzędzi standaryzowanych rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Interpretować wynik bez norm rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -211,10 +211,10 @@
     "id": 17,
     "question": "Najbardziej etyczny sposób przekazania trudnej informacji po badaniu to:",
     "options": [
-      "Suchy odczyt wyników bez pytań",
+      "Suchy odczyt wyników bez pytań w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Komunikacja zrozumiała, empatyczna i oparta na zaleceniach",
-      "Przekazanie wyników głównie rodzinie",
-      "Zatajenie niepewności interpretacyjnej"
+      "Przekazanie wyników głównie rodzinie stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Zatajenie niepewności interpretacyjnej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -224,10 +224,10 @@
     "id": 18,
     "question": "Który błąd poznawczy jest szczególnie ryzykowny przy interpretacji testów?",
     "options": [
-      "Efekt świeżości",
+      "Efekt świeżości stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Błąd konfirmacji",
-      "Heurystyka zakotwiczenia czasowego",
-      "Efekt halo pozytywnego nastroju"
+      "Heurystyka zakotwiczenia czasowego w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Efekt halo pozytywnego nastroju w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -237,10 +237,10 @@
     "id": 19,
     "question": "W skali MMSE wynik graniczny powinien być interpretowany przede wszystkim:",
     "options": [
-      "Głównie na podstawie jednego punktu odcięcia",
+      "Głównie na podstawie jednego punktu odcięcia rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Z uwzględnieniem wieku, wykształcenia i danych klinicznych",
-      "Jako pewna diagnoza otępienia",
-      "Bez odniesienia do funkcjonowania codziennego"
+      "Jako pewna diagnoza otępienia traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Bez odniesienia do funkcjonowania codziennego stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -250,10 +250,10 @@
     "id": 20,
     "question": "Który scenariusz najlepiej opisuje użycie testu projekcyjnego zgodnie z dobrymi praktykami?",
     "options": [
-      "Stawianie diagnozy głównie na podstawie testu projekcyjnego",
+      "Stawianie diagnozy głównie na podstawie testu projekcyjnego rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Traktowanie wyników jako danych pomocniczych w szerszej integracji",
-      "Rezygnacja z wywiadu klinicznego",
-      "Interpretacja bez standaryzowanego systemu"
+      "Rezygnacja z wywiadu klinicznego stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Interpretacja bez standaryzowanego systemu rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -263,10 +263,10 @@
     "id": 21,
     "question": "W badaniu funkcji wykonawczych najważniejsze jest, aby:",
     "options": [
-      "Ograniczyć się do jednego zadania poznawczego",
+      "Ograniczyć się do jednego zadania poznawczego rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Uwzględnić profil wyników i wpływ czynników pozapoznawczych",
-      "Ignorować zmęczenie badanego",
-      "Pomijać dane z obserwacji zachowania"
+      "Ignorować zmęczenie badanego rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Pomijać dane z obserwacji zachowania w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -276,10 +276,10 @@
     "id": 22,
     "question": "W praktyce opiniodawczej zgodność między diagnozą a rekomendacjami zwiększa:",
     "options": [
-      "Używanie ogólnych zaleceń dla wszystkich",
+      "Używanie ogólnych zaleceń dla wszystkich traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Powiązanie rekomendacji z konkretnymi danymi z badania",
-      "Unikanie opisu ograniczeń",
-      "Zastąpienie wniosków cytatami z podręcznika"
+      "Unikanie opisu ograniczeń rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Zastąpienie wniosków cytatami z podręcznika stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -289,10 +289,10 @@
     "id": 23,
     "question": "Wysoka rozbieżność między samoopisem a obserwacją kliniczną sugeruje konieczność:",
     "options": [
-      "Natychmiastowego odrzucenia samoopisu",
+      "Natychmiastowego odrzucenia samoopisu w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Pogłębionej weryfikacji źródeł i hipotez alternatywnych",
-      "Przyjęcia obserwacji jako jedynego źródła prawdy",
-      "Zakończenia diagnozy bez dalszych działań"
+      "Przyjęcia obserwacji jako jedynego źródła prawdy ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Zakończenia diagnozy bez dalszych działań stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -302,10 +302,10 @@
     "id": 24,
     "question": "Która decyzja najlepiej realizuje zasadę \"najmniejszej koniecznej inwazyjności\" w diagnostyce?",
     "options": [
-      "Zbieranie maksymalnej liczby danych wrażliwych bez celu",
+      "Zbieranie maksymalnej liczby danych wrażliwych bez celu stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Dobór tylko tych narzędzi, które są potrzebne do odpowiedzi na pytanie diagnostyczne",
-      "Stosowanie pełnej baterii testów u każdej osoby",
-      "Pomijanie zgody na dodatkowe narzędzia"
+      "Stosowanie pełnej baterii testów u każdej osoby traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pomijanie zgody na dodatkowe narzędzia ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -315,10 +315,10 @@
     "id": 25,
     "question": "W badaniu dziecka z trudnościami szkolnymi szczególnie ważne jest:",
     "options": [
-      "Interpretowanie wyniku bez danych od nauczycieli i rodziców",
+      "Interpretowanie wyniku bez danych od nauczycieli i rodziców w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Uwzględnienie informacji wieloźródłowych oraz norm rozwojowych",
-      "Pomijanie funkcjonowania emocjonalnego",
-      "Użycie głównie narzędzi dla dorosłych"
+      "Pomijanie funkcjonowania emocjonalnego rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Użycie głównie narzędzi dla dorosłych stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -328,10 +328,10 @@
     "id": 26,
     "question": "Który zapis w opinii zwiększa jej użyteczność kliniczną?",
     "options": [
-      "Ogólne etykiety bez wskazówek",
+      "Ogólne etykiety bez wskazówek traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Konkretne, mierzalne rekomendacje i priorytety interwencji",
-      "Brak odniesienia do zasobów osoby badanej",
-      "Lista wyników bez interpretacji"
+      "Brak odniesienia do zasobów osoby badanej traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Lista wyników bez interpretacji traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -341,10 +341,10 @@
     "id": 27,
     "question": "Jeżeli wynik testu jest niezgodny z obserwowanym funkcjonowaniem codziennym, diagnosta powinien:",
     "options": [
-      "Przyjąć wynik testowy jako ostateczny",
+      "Przyjąć wynik testowy jako ostateczny ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Sprawdzić trafność sytuacyjną i rozważyć dodatkowe metody oceny",
-      "Usunąć wynik z dokumentacji",
-      "Automatycznie zmienić diagnozę nozologiczną"
+      "Usunąć wynik z dokumentacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Automatycznie zmienić diagnozę nozologiczną w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -354,10 +354,10 @@
     "id": 28,
     "question": "W procedurze badania neuropsychologicznego przerwy w trakcie testów służą głównie:",
     "options": [
-      "Wydłużeniu czasu badania bez celu",
+      "Wydłużeniu czasu badania bez celu stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Ograniczeniu wpływu zmęczenia i utrzymaniu jakości pomiaru",
-      "Zmniejszeniu liczby zadań",
-      "Zwiększeniu trudności testu"
+      "Zmniejszeniu liczby zadań traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Zwiększeniu trudności testu rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -367,10 +367,10 @@
     "id": 29,
     "question": "W przypadku podejrzenia symulacji lub agrawacji objawów właściwe postępowanie to:",
     "options": [
-      "Formułowanie oskarżeń bez danych",
+      "Formułowanie oskarżeń bez danych rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Użycie wskaźników trafności wykonania i ostrożna interpretacja",
-      "Szybkie zakończenie badania bez raportu",
-      "Pominięcie tematu w opinii"
+      "Szybkie zakończenie badania bez raportu w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Pominięcie tematu w opinii traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -380,10 +380,10 @@
     "id": 30,
     "question": "Które działanie najlepiej wspiera jakość decyzji diagnostycznych w zespole interdyscyplinarnym?",
     "options": [
-      "Praca bez konsultacji z innymi specjalistami",
+      "Praca bez konsultacji z innymi specjalistami ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Integracja danych psychologicznych z informacjami medycznymi i pedagogicznymi",
-      "Priorytet pojedynczego testu nad całym obrazem",
-      "Ignorowanie różnic między źródłami danych"
+      "Priorytet pojedynczego testu nad całym obrazem rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Ignorowanie różnic między źródłami danych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,

@@ -3,10 +3,10 @@
     "id": 1,
     "question": "W projekcie badawczym hipoteza główna powinna być przede wszystkim:",
     "options": [
-      "Niefalsyfikowalna",
+      "Niefalsyfikowalna stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Operacjonalizowalna i możliwa do empirycznego testowania",
-      "Bardzo ogólna",
-      "Głównie opisowa"
+      "Bardzo ogólna w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Głównie opisowa traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -16,10 +16,10 @@
     "id": 2,
     "question": "Największą zaletą randomizacji w badaniu eksperymentalnym jest:",
     "options": [
-      "Zwiększenie liczby pytań",
+      "Zwiększenie liczby pytań traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Redukcja wpływu zmiennych zakłócających",
-      "Eliminacja potrzeby analizy statystycznej",
-      "Ułatwienie publikacji"
+      "Eliminacja potrzeby analizy statystycznej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Ułatwienie publikacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -30,9 +30,9 @@
     "question": "Współczynnik korelacji Pearsona r = 0,00 oznacza, że:",
     "options": [
       "Nie ma związku liniowego",
-      "Nie ma żadnego związku",
-      "Związek jest bardzo silny",
-      "Dane są błędne"
+      "Nie ma żadnego związku rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Związek jest bardzo silny w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Dane są błędne ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -42,10 +42,10 @@
     "id": 4,
     "question": "W modelu biopsychospołecznym etiologia zaburzeń psychicznych jest rozumiana jako:",
     "options": [
-      "Głównie biologiczna",
+      "Głównie biologiczna w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Interakcja czynników biologicznych, psychologicznych i społecznych",
-      "Głównie kulturowa",
-      "Głównie rodzinna"
+      "Głównie kulturowa w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Głównie rodzinna ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -56,9 +56,9 @@
     "question": "Która zasada etyczna jest podstawą uzyskania świadomej zgody?",
     "options": [
       "Autonomia osoby badanej",
-      "Sprawiedliwość proceduralna",
-      "Lojalność instytucjonalna",
-      "Priorytet publikacji"
+      "Sprawiedliwość proceduralna stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Lojalność instytucjonalna ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Priorytet publikacji rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -69,9 +69,9 @@
     "question": "W psychometrii trafność kryterialna dotyczy przede wszystkim:",
     "options": [
       "Zgodności testu z wynikiem zewnętrznym",
-      "Powtarzalności wyników",
-      "Liczby pozycji",
-      "Rozkładu normalnego"
+      "Powtarzalności wyników rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Liczby pozycji w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Rozkładu normalnego rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 0,
     "difficulty": 1,
@@ -81,10 +81,10 @@
     "id": 7,
     "question": "W analizie regresji wielorakiej kolinearność predyktorów jest problemem, ponieważ:",
     "options": [
-      "Zwiększa stabilność oszacowań",
+      "Zwiększa stabilność oszacowań w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Utrudnia interpretację unikalnego wkładu zmiennych",
-      "Często podnosi R2",
-      "Uniemożliwia obliczenie średniej"
+      "Często podnosi R2 ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Uniemożliwia obliczenie średniej ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -94,10 +94,10 @@
     "id": 8,
     "question": "W metaanalizie efekt publikacyjny oznacza, że:",
     "options": [
-      "Publikuje się tylko badania jakościowe",
+      "Publikuje się tylko badania jakościowe traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
       "Częściej publikowane są wyniki istotne statystycznie",
-      "Nie da się łączyć badań",
-      "Wszystkie badania są równoważne"
+      "Nie da się łączyć badań traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Wszystkie badania są równoważne ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -107,10 +107,10 @@
     "id": 9,
     "question": "Który argument najlepiej uzasadnia użycie podejścia mixed-methods w pracy dyplomowej?",
     "options": [
-      "Skrócenie czasu analizy",
+      "Skrócenie czasu analizy w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Połączenie głębokości danych jakościowych z możliwością uogólniania danych ilościowych",
-      "Rezygnacja z hipotez",
-      "Brak konieczności doboru próby"
+      "Rezygnacja z hipotez ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Brak konieczności doboru próby ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -120,10 +120,10 @@
     "id": 10,
     "question": "W terapii poznawczo-behawioralnej konceptualizacja przypadku służy głównie do:",
     "options": [
-      "Zastąpienia diagnozy",
+      "Zastąpienia diagnozy stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Zrozumienia mechanizmów podtrzymujących problem i planowania interwencji",
-      "Oceny IQ",
-      "Głównie dokumentacji formalnej"
+      "Oceny IQ ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Głównie dokumentacji formalnej rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -133,10 +133,10 @@
     "id": 11,
     "question": "W badaniu longitudinalnym największym zagrożeniem dla trafności jest często:",
     "options": [
-      "Zbyt duża liczba pytań",
+      "Zbyt duża liczba pytań w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Odpływ uczestników (attrition)",
-      "Brak normalności rozkładu",
-      "Nadmiar zmiennych zależnych"
+      "Brak normalności rozkładu stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Nadmiar zmiennych zależnych traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -146,10 +146,10 @@
     "id": 12,
     "question": "Który wskaźnik najlepiej raportować obok wartości p w pracy dyplomowej?",
     "options": [
-      "Numer strony",
+      "Numer strony w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Wielkość efektu",
-      "Datę zbierania danych",
-      "Typ czcionki"
+      "Datę zbierania danych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Typ czcionki rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -159,10 +159,10 @@
     "id": 13,
     "question": "Jeśli promotor sygnalizuje ryzyko plagiatu fragmentu pracy, autor powinien przede wszystkim:",
     "options": [
-      "Usunąć bibliografię",
+      "Usunąć bibliografię w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Przeprowadzić pełną rewizję cytowań i parafraz zgodnie ze standardem APA",
-      "Zignorować uwagę",
-      "Zmienić tylko tytuł rozdziału"
+      "Zignorować uwagę traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Zmienić tylko tytuł rozdziału rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -172,10 +172,10 @@
     "id": 14,
     "question": "W obronie pracy student otrzymuje pytanie o ograniczenia badania. Najlepsza strategia odpowiedzi to:",
     "options": [
-      "Zaprzeczyć istnieniu ograniczeń",
+      "Zaprzeczyć istnieniu ograniczeń rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Wskazać ograniczenia i zaproponować konkretne kierunki dalszych badań",
-      "Zmienić temat",
-      "Powołać się głównie na autorytet promotora"
+      "Zmienić temat w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Powołać się głównie na autorytet promotora w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -185,10 +185,10 @@
     "id": 15,
     "question": "W projekcie interwencyjnym najlepszym sposobem oceny skuteczności jest:",
     "options": [
-      "Głównie opinia prowadzącego",
+      "Głównie opinia prowadzącego w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Pomiar pre-post z adekwatnym planem analitycznym i kontrolą zakłóceń",
-      "Jednorazowa ankieta satysfakcji",
-      "Brak pomiaru bazowego"
+      "Jednorazowa ankieta satysfakcji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Brak pomiaru bazowego w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -198,10 +198,10 @@
     "id": 16,
     "question": "Podczas obrony student myli korelację z przyczynowością. Poprawne doprecyzowanie brzmi:",
     "options": [
-      "Korelacja często dowodzi przyczyny",
+      "Korelacja często dowodzi przyczyny ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Korelacja nie przesądza o przyczynowości bez odpowiedniego planu badania",
-      "Przyczynowość jest nieistotna",
-      "Wystarczy duża próba"
+      "Przyczynowość jest nieistotna ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Wystarczy duża próba traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -211,10 +211,10 @@
     "id": 17,
     "question": "Komisja pyta o implikacje praktyczne wyników. Najlepiej odpowiedzieć:",
     "options": [
-      "Wyniki nie mają zastosowania",
+      "Wyniki nie mają zastosowania w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Wskazać konkretne zastosowania kliniczne/edukacyjne oraz warunki ich ograniczeń",
-      "To zależy od recenzenta",
-      "Nie omawiać wdrożeń"
+      "To zależy od recenzenta stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
+      "Nie omawiać wdrożeń w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -224,10 +224,10 @@
     "id": 18,
     "question": "W standardzie otwartej nauki (open science) w pracy dyplomowej warto uwzględnić:",
     "options": [
-      "Głównie slajdy z obrony",
+      "Głównie slajdy z obrony w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Pre-rejestrację, udostępnienie danych/kodu (gdy możliwe) i transparentny opis analizy",
-      "Brak opisu procedury",
-      "Anonimowe źródła bez bibliografii"
+      "Brak opisu procedury w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Anonimowe źródła bez bibliografii traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -237,10 +237,10 @@
     "id": 19,
     "question": "W projekcie z małą próbą badawczą najlepszą praktyką raportowania jest:",
     "options": [
-      "Pomijanie przedziałów ufności",
+      "Pomijanie przedziałów ufności ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Podanie wielkości efektu i przedziałów ufności",
-      "Raportowanie głównie wartości p",
-      "Ukrycie liczebności grup"
+      "Raportowanie głównie wartości p traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Ukrycie liczebności grup traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -251,9 +251,9 @@
     "question": "Która procedura najlepiej ogranicza ryzyko HARKing (dopasowywania hipotez po wynikach)?",
     "options": [
       "Pre-rejestracja pytań i planu analizy",
-      "Analiza tylko istotnych wyników",
-      "Zmiana hipotez bez adnotacji",
-      "Usunięcie danych odstających bez uzasadnienia"
+      "Analiza tylko istotnych wyników traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Zmiana hipotez bez adnotacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Usunięcie danych odstających bez uzasadnienia ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 0,
     "difficulty": 2,
@@ -263,10 +263,10 @@
     "id": 21,
     "question": "W analizie jakościowej wiarygodność interpretacji zwiększa przede wszystkim:",
     "options": [
-      "Brak kodera pomocniczego",
+      "Brak kodera pomocniczego w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Triangulacja badaczy lub źródeł danych",
-      "Dobór tylko potwierdzających cytatów",
-      "Rezygnacja z opisu procedury kodowania"
+      "Dobór tylko potwierdzających cytatów traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Rezygnacja z opisu procedury kodowania stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -276,10 +276,10 @@
     "id": 22,
     "question": "Jeżeli wyniki badania nie potwierdzają hipotezy, w dyskusji pracy należy:",
     "options": [
-      "Ukryć wynik i zmienić hipotezę",
+      "Ukryć wynik i zmienić hipotezę ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Rzetelnie omówić możliwe wyjaśnienia i ograniczenia",
-      "Usunąć analizę z pracy",
-      "Raportować jedynie wyniki pomocnicze"
+      "Usunąć analizę z pracy w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Raportować jedynie wyniki pomocnicze w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -289,10 +289,10 @@
     "id": 23,
     "question": "Wybierając narzędzie pomiarowe do pracy dyplomowej, priorytetem metodologicznym jest:",
     "options": [
-      "Popularność testu w mediach",
+      "Popularność testu w mediach w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Dostępność danych o trafności i rzetelności w danej populacji",
-      "Najkrótsza możliwa skala",
-      "Brak kosztu licencji niezależnie od jakości"
+      "Najkrótsza możliwa skala rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Brak kosztu licencji niezależnie od jakości w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -302,10 +302,10 @@
     "id": 24,
     "question": "W etycznym badaniu online konieczne jest przede wszystkim:",
     "options": [
-      "Brak informacji o administratorze danych",
+      "Brak informacji o administratorze danych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Jasne poinformowanie o poufności i sposobie przetwarzania danych",
-      "Wymuszenie ujawnienia danych wrażliwych",
-      "Ukrycie celu badania bez debriefingu"
+      "Wymuszenie ujawnienia danych wrażliwych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Ukrycie celu badania bez debriefingu w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -315,10 +315,10 @@
     "id": 25,
     "question": "Podczas obrony pracy pytanie o dobór próby najlepiej adresować przez:",
     "options": [
-      "Stwierdzenie, że próba nie ma znaczenia",
+      "Stwierdzenie, że próba nie ma znaczenia stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Opis kryteriów włączenia/wykluczenia i ich konsekwencji dla uogólniania",
-      "Unikanie odpowiedzi metodologicznej",
-      "Powołanie się na zwyczaj wydziału"
+      "Unikanie odpowiedzi metodologicznej w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Powołanie się na zwyczaj wydziału w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -328,10 +328,10 @@
     "id": 26,
     "question": "Które działanie najlepiej wspiera replikowalność projektu badawczego?",
     "options": [
-      "Opis ogólny bez szczegółów procedury",
+      "Opis ogólny bez szczegółów procedury ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Udostępnienie materiałów, kodu i szczegółowego protokołu",
-      "Brak informacji o czyszczeniu danych",
-      "Raportowanie głównie wyników końcowych"
+      "Brak informacji o czyszczeniu danych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Raportowanie głównie wyników końcowych rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -341,10 +341,10 @@
     "id": 27,
     "question": "W przypadku testowania wielu hipotez jednocześnie należy rozważyć:",
     "options": [
-      "Podwyższenie poziomu alfa",
+      "Podwyższenie poziomu alfa ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Korektę na wielokrotne porównania",
-      "Pominięcie wyników nieistotnych",
-      "Łączenie zmiennych bez uzasadnienia"
+      "Pominięcie wyników nieistotnych ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Łączenie zmiennych bez uzasadnienia traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -354,10 +354,10 @@
     "id": 28,
     "question": "W badaniu quasi-eksperymentalnym kluczowe jest raportowanie:",
     "options": [
-      "Głównie średnich końcowych",
+      "Głównie średnich końcowych rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Potencjalnych źródeł stronniczości i sposobów ich kontroli",
-      "Braku grupy porównawczej jako zalety",
-      "Jedynie narracyjnych opisów wyników"
+      "Braku grupy porównawczej jako zalety ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Jedynie narracyjnych opisów wyników ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -367,10 +367,10 @@
     "id": 29,
     "question": "Najlepszą odpowiedzią na pytanie komisji o znaczenie praktyczne efektu małego (np. d=0,2) jest:",
     "options": [
-      "Efekt mały jest często bezwartościowy",
+      "Efekt mały jest często bezwartościowy w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
       "Omówienie kontekstu klinicznego i kosztów wdrożenia interwencji",
-      "Ignorowanie wielkości efektu",
-      "Deklaracja, że p<0,05 wystarcza"
+      "Ignorowanie wielkości efektu w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Deklaracja, że p<0,05 wystarcza w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -380,10 +380,10 @@
     "id": 30,
     "question": "Jeśli recenzent wskazuje niespójność między celem badania a analizą, autor powinien:",
     "options": [
-      "Pozostawić pracę bez zmian",
+      "Pozostawić pracę bez zmian w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Doprecyzować pytania badawcze i dostosować plan analizy",
-      "Usunąć sekcję metod",
-      "Zmienić głównie streszczenie"
+      "Usunąć sekcję metod w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Zmienić głównie streszczenie w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -393,10 +393,10 @@
     "id": 31,
     "question": "W projekcie przekrojowym dotyczącym stresu studentów najtrafniejsza interpretacja korelacji stres–sen to:",
     "options": [
-      "Stres na pewno powoduje bezsenność",
+      "Stres na pewno powoduje bezsenność w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Między zmiennymi istnieje związek, ale kierunek przyczynowy wymaga innych planów badania",
-      "Brak sensu raportowania korelacji",
-      "Wynik jest nieważny bez grupy klinicznej"
+      "Brak sensu raportowania korelacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Wynik jest nieważny bez grupy klinicznej w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -406,10 +406,10 @@
     "id": 32,
     "question": "Która praktyka najlepiej wzmacnia jakość rozdziału metodologicznego pracy dyplomowej?",
     "options": [
-      "Pomijanie definicji operacyjnych",
+      "Pomijanie definicji operacyjnych w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Precyzyjne opisanie procedury zbierania danych krok po kroku",
-      "Zastąpienie metod ogólną refleksją teoretyczną",
-      "Ograniczenie opisu do jednego akapitu"
+      "Zastąpienie metod ogólną refleksją teoretyczną ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Ograniczenie opisu do jednego akapitu w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -419,10 +419,10 @@
     "id": 33,
     "question": "Jeżeli rozkład zmiennej istotnie odbiega od normalności i próba jest mała, najbezpieczniej rozważyć:",
     "options": [
-      "Głównie testy parametryczne bez diagnostyki założeń",
+      "Głównie testy parametryczne bez diagnostyki założeń stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Testy nieparametryczne lub transformację danych z uzasadnieniem",
-      "Usunięcie połowy obserwacji",
-      "Raportowanie tylko średniej"
+      "Usunięcie połowy obserwacji w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
+      "Raportowanie tylko średniej stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -432,10 +432,10 @@
     "id": 34,
     "question": "W badaniu z udziałem osób w kryzysie psychicznym priorytetem etycznym jest:",
     "options": [
-      "Maksymalizacja liczby kwestionariuszy",
+      "Maksymalizacja liczby kwestionariuszy w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Procedura bezpieczeństwa i jasna ścieżka interwencji w razie ryzyka",
-      "Ograniczenie kontaktu z uczestnikiem do minimum",
-      "Rezygnacja z informacji o możliwości wycofania zgody"
+      "Ograniczenie kontaktu z uczestnikiem do minimum traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Rezygnacja z informacji o możliwości wycofania zgody traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -446,9 +446,9 @@
     "question": "Komisja pyta, dlaczego wybrano analizę regresji zamiast ANOVA. Najlepsza odpowiedź to:",
     "options": [
       "Regresja lepiej modeluje zależność od predyktorów ciągłych i pozwala kontrolować współzmienne",
-      "ANOVA jest często błędna",
-      "Regresja daje niższe wartości p",
-      "To przypadkowy wybór programu statystycznego"
+      "ANOVA jest często błędna rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
+      "Regresja daje niższe wartości p traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "To przypadkowy wybór programu statystycznego traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie"
     ],
     "correct": 0,
     "difficulty": 3,
@@ -458,10 +458,10 @@
     "id": 36,
     "question": "W sekcji ograniczeń badania warto dodać analizę mocy (power), ponieważ:",
     "options": [
-      "Zastępuje ona całą interpretację wyników",
+      "Zastępuje ona całą interpretację wyników w wersji zakładającej, że obserwowana zależność automatycznie ma charakter przyczynowy",
       "Pomaga ocenić ryzyko błędu II rodzaju i adekwatność liczebności próby",
-      "Dotyczy głównie badań jakościowych",
-      "Nie ma związku z planowaniem próby"
+      "Dotyczy głównie badań jakościowych w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Nie ma związku z planowaniem próby w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -471,10 +471,10 @@
     "id": 37,
     "question": "Który zapis najlepiej realizuje zasadę transparentności raportowania?",
     "options": [
-      "Przeprowadzono analizy statystyczne",
+      "Przeprowadzono analizy statystyczne stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne",
       "Wcześniej zdefiniowano kryteria wykluczeń, a wszystkie decyzje analityczne opisano w dodatku",
-      "Usunięto dane odstające bez podania kryteriów",
-      "Podano tylko wyniki istotne statystycznie"
+      "Usunięto dane odstające bez podania kryteriów w interpretacji, w której pojedynczy wynik traktuje się jako wystarczający dowód mechanizmu",
+      "Podano tylko wyniki istotne statystycznie ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji"
     ],
     "correct": 1,
     "difficulty": 2,
@@ -484,10 +484,10 @@
     "id": 38,
     "question": "W prezentacji na obronie najbardziej profesjonalne jest:",
     "options": [
-      "Skupienie głównie na tle teoretycznym",
+      "Skupienie głównie na tle teoretycznym rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych",
       "Zwięzłe przedstawienie celu, metody, kluczowych wyników i ich ograniczeń",
-      "Pomijanie tabel oraz wskaźników efektu",
-      "Czytanie slajdów słowo w słowo"
+      "Pomijanie tabel oraz wskaźników efektu traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Czytanie slajdów słowo w słowo rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 1,
@@ -497,10 +497,10 @@
     "id": 39,
     "question": "Jeśli badanie obejmuje adaptację narzędzia na język polski, konieczne jest przede wszystkim:",
     "options": [
-      "Użycie tłumaczenia maszynowego bez weryfikacji",
+      "Użycie tłumaczenia maszynowego bez weryfikacji ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Procedura tłumaczenia i back-translation oraz ocena właściwości psychometrycznych",
-      "Skrócenie skali o połowę bez testów",
-      "Pominięcie walidacji, jeśli narzędzie jest znane"
+      "Skrócenie skali o połowę bez testów traktowany jako najlepszy wybór także w sytuacjach granicznych i niejednoznacznych klinicznie",
+      "Pominięcie walidacji, jeśli narzędzie jest znane stosowany priorytetowo nawet wtedy, gdy pomija się kluczowe założenia metodologiczne"
     ],
     "correct": 1,
     "difficulty": 3,
@@ -510,10 +510,10 @@
     "id": 40,
     "question": "Najlepsza odpowiedź na pytanie o dalsze kierunki badań po obronie to:",
     "options": [
-      "Brak potrzeby dalszych badań",
+      "Brak potrzeby dalszych badań ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
       "Propozycja konkretnych replikacji i rozszerzeń na innych populacjach z lepszą kontrolą zakłóceń",
-      "Powtórzenie identycznego badania bez zmian",
-      "Zamknięcie tematu niezależnie od wyników"
+      "Powtórzenie identycznego badania bez zmian ujmowany jako podejście uniwersalne, niezależnie od typu danych i kontekstu decyzji",
+      "Zamknięcie tematu niezależnie od wyników rozumiany jako wskaźnik dominujący, bez potrzeby łączenia go z innymi źródłami danych"
     ],
     "correct": 1,
     "difficulty": 2,
