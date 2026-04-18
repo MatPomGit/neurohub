@@ -921,5 +921,161 @@
     "correct": 0,
     "difficulty": 1,
     "justification": "Klasyczny kompromis oznacza, że priorytet szybkości zwykle pogarsza trafność odpowiedzi, a nacisk na dokładność podnosi koszt czasowy."
+  },
+  {
+    "id": 72,
+    "question": "Który wynik eksperymentu najlepiej wspiera tezę o ograniczonej pojemności uwagi centralnej?",
+    "options": [
+      "Wyraźny koszt podwójnego zadania, gdy oba zadania wymagają jednoczesnej selekcji odpowiedzi i monitorowania błędów",
+      "Brak różnic między warunkiem pojedynczym i podwójnym mimo wzrostu złożoności zadań",
+      "Lepsza dokładność w dual-task niż single-task przy tym samym czasie reakcji",
+      "Poprawa wyników tylko w zadaniu percepcji barw niezależnie od obciążenia wykonawczego"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Jeśli oba zadania konkurują o wspólne zasoby wykonawcze, pojawia się koszt dual-task, co wspiera modele ograniczonej pojemności centralnej."
+  },
+  {
+    "id": 73,
+    "question": "W badaniu fałszywych wspomnień paradygmat DRM pokazuje, że uczestnicy często:",
+    "options": [
+      "rozpoznają słowo krytyczne semantycznie powiązane z listą mimo jego braku na liście",
+      "zapamiętują wyłącznie pierwsze i ostatnie słowo listy bez efektów semantycznych",
+      "nie popełniają błędów rozpoznawania, jeśli czas ekspozycji był długi",
+      "mylą tylko słowa rymujące się fonologicznie, ale nie semantycznie"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "W DRM aktywacja sieci semantycznej sprzyja fałszywemu rozpoznaniu słowa krytycznego, mimo że nie było prezentowane."
+  },
+  {
+    "id": 74,
+    "question": "Które stwierdzenie najlepiej opisuje różnicę między pamięcią epizodyczną a semantyczną?",
+    "options": [
+      "Epizodyczna dotyczy osobistych zdarzeń osadzonych w czasie i miejscu, a semantyczna wiedzy ogólnej niezależnej od kontekstu przeżycia",
+      "Epizodyczna przechowuje wyłącznie nawyki ruchowe, a semantyczna reguły gramatyczne",
+      "Obie są tożsame funkcjonalnie, różnią się tylko długością retencji",
+      "Semantyczna występuje tylko u ekspertów, epizodyczna u laików"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Klasyczny podział Tulvinga rozróżnia pamięć „co i kiedy mi się zdarzyło” od wiedzy o świecie niezwiązanej z konkretnym epizodem."
+  },
+  {
+    "id": 75,
+    "question": "W badaniach nad uwagą wzrokową efekt „attentional blink” oznacza, że:",
+    "options": [
+      "po wykryciu pierwszego celu w szybkiej sekwencji bodźców wykrycie drugiego celu bywa chwilowo osłabione",
+      "uwaga automatycznie przełącza się na bodźce emocjonalne i stale ignoruje cele neutralne",
+      "czas reakcji skraca się liniowo wraz z każdym kolejnym bodźcem docelowym",
+      "efekt występuje wyłącznie u osób z zaburzeniami lękowymi"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Attentional blink to przejściowe „okno niewrażliwości” po identyfikacji pierwszego celu, interpretowane jako ograniczenie czasowych zasobów selekcji."
+  },
+  {
+    "id": 76,
+    "question": "Który przykład najlepiej ilustruje monitorowanie metapoznawcze podczas nauki?",
+    "options": [
+      "Student po każdym bloku materiału ocenia, co rozumie słabo, i modyfikuje strategię (np. przechodzi z czytania na aktywne odtwarzanie)",
+      "Student czyta notatki wielokrotnie bez sprawdzania, co faktycznie pamięta",
+      "Student wybiera tylko najłatwiejsze zadania, by utrzymać wysokie poczucie pewności",
+      "Student kończy naukę po pierwszym płynnym przeczytaniu tekstu"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Metapoznanie obejmuje ocenę stanu wiedzy i świadome regulowanie strategii, a nie jedynie ekspozycję na materiał."
+  },
+  {
+    "id": 77,
+    "question": "W zadaniu Go/No-Go wzrost liczby fałszywych alarmów przy stabilnym tempie reakcji najczęściej sugeruje:",
+    "options": [
+      "osłabienie kontroli hamowania reakcji automatycznej",
+      "globalne spowolnienie psychomotoryczne bez komponentu wykonawczego",
+      "wyłącznie problem z rozpoznawaniem bodźców barwnych",
+      "nadmierną ostrożność decyzyjną i zawyżony próg odpowiedzi"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Fałszywe alarmy w Go/No-Go są klasycznym wskaźnikiem trudności hamowania reakcji dominującej."
+  },
+  {
+    "id": 78,
+    "question": "Który wynik najlepiej wspiera hipotezę kodowania specyficznego kontekstu (encoding specificity)?",
+    "options": [
+      "Lepsze przypominanie, gdy warunki odtwarzania są zbliżone do warunków kodowania materiału",
+      "Jednakowe przypominanie niezależnie od zgodności kontekstu",
+      "Najlepsze przypominanie wyłącznie przy wysokim pobudzeniu emocjonalnym",
+      "Lepsze przypominanie tylko wtedy, gdy materiał był kodowany wzrokowo"
+    ],
+    "correct": 0,
+    "difficulty": 1,
+    "justification": "Zgodność wskazówek odtwarzania z warunkami kodowania zwiększa dostępność śladu pamięciowego."
+  },
+  {
+    "id": 79,
+    "question": "W interpretacji efektu framingu najtrafniejsze jest stwierdzenie, że decyzje:",
+    "options": [
+      "mogą się systematycznie zmieniać zależnie od sposobu sformułowania równoważnej informacji (zysk vs strata)",
+      "są całkowicie odporne na kontekst językowy, jeśli dane liczbowe pozostają te same",
+      "są determinowane wyłącznie poziomem inteligencji krystalicznej",
+      "ulegają ramowaniu tylko u osób bez wykształcenia statystycznego"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Framing ujawnia wrażliwość decyzji na reprezentację problemu, mimo logicznej równoważności treści."
+  },
+  {
+    "id": 80,
+    "question": "Który scenariusz najlepiej odróżnia interferencję proaktywną od retroaktywnej?",
+    "options": [
+      "Stare listy utrudniają uczenie nowej listy (proaktywna), a nowa lista utrudnia przypominanie starej (retroaktywna)",
+      "Nowe listy zawsze poprawiają pamięć starych list dzięki konsolidacji",
+      "Oba typy interferencji dotyczą wyłącznie pamięci proceduralnej",
+      "Interferencja pojawia się tylko przy materiałach emocjonalnych"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Kierunek zakłócania jest kluczowy: wcześniejsze treści wpływają na późniejsze (proaktywna) lub odwrotnie (retroaktywna)."
+  },
+  {
+    "id": 81,
+    "question": "W modelach uczenia statystycznego języka niemowlęta uczą się segmentacji mowy głównie dzięki:",
+    "options": [
+      "wykrywaniu regularności przejść między sylabami i prawdopodobieństw współwystępowania",
+      "znajomości reguł gramatycznych przekazywanych jawnie przez dorosłych",
+      "przede wszystkim analizie znaczenia słów abstrakcyjnych",
+      "identyfikacji pauz akustycznych, które zawsze odpowiadają granicom słów"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Badania nad uczeniem statystycznym pokazują, że niemowlęta wykorzystują probabilistyczne regularności sygnału mowy do wyodrębniania jednostek."
+  },
+  {
+    "id": 82,
+    "question": "Która obserwacja najbardziej wspierałaby teorię poziomów przetwarzania Craika i Lockharta?",
+    "options": [
+      "Materiał opracowany semantycznie jest lepiej pamiętany po opóźnieniu niż materiał przetwarzany powierzchownie",
+      "Liczba powtórzeń mechanicznych całkowicie eliminuje różnice między płytkim i głębokim kodowaniem",
+      "Trwałość śladu zależy wyłącznie od długości ekspozycji bodźca",
+      "Pamięć długotrwała rośnie tylko wraz z pojemnością pamięci sensorycznej"
+    ],
+    "correct": 0,
+    "difficulty": 2,
+    "justification": "Głębokie, znaczeniowe opracowanie informacji zwykle zwiększa trwałość pamięci bardziej niż płytkie kodowanie cech formalnych."
+  },
+  {
+    "id": 83,
+    "question": "W badaniu eye-trackingu podczas czytania najtrafniejszym wskaźnikiem zwiększonego obciążenia poznawczego jest:",
+    "options": [
+      "wydłużenie czasu fiksacji i częstsze regresje do wcześniejszych fragmentów tekstu",
+      "skrót czasu fiksacji przy jednoczesnym wzroście płynności rozumienia",
+      "brak sakkad i całkowite unieruchomienie spojrzenia",
+      "wyłącznie wzrost liczby mrugnięć przy niezmienionych parametrach fiksacji"
+    ],
+    "correct": 0,
+    "difficulty": 3,
+    "justification": "Dłuższe fiksacje i regresje często wskazują na trudności integracji informacji i większe zapotrzebowanie na zasoby przetwarzania."
   }
 ]
