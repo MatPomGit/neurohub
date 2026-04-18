@@ -2,7 +2,11 @@
 
 Funkcjonalne organizacje mózgu — od układów neuroprzekaźnikowych po wielkoskalowe sieci kory, które współpracują w realizacji złożonych funkcji poznawczych.
 
+![Cztery kluczowe neuroprzekaźniki w mózgu](/assets/4-neurotrasmitery.jpg)
+*Grafika: dopamina, serotonina, noradrenalina i acetylocholina w kontekście działania układów mózgowych.*
+
 ## Układy neuroprzekaźnikowe
+
 
 Neurony wytwarzające dany neuroprzekaźnik tworzą rozległe układy projektujące na różne obszary mózgu.
 

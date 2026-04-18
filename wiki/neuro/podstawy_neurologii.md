@@ -2,7 +2,11 @@
 
 Neurologia to dziedzina medycyny i neuronauki zajmująca się budową, funkcją oraz chorobami układu nerwowego. Zrozumienie jej podstaw jest niezbędne zarówno dla klinicystów, jak i badaczy psychologii i neuronauki.
 
+![Schemat układu nerwowego człowieka](/assets/Mapa-Systemu-nerwowego.jpg)
+*Schemat: organizacja ośrodkowego i obwodowego układu nerwowego.*
+
 ## Organizacja układu nerwowego
+
 
 Układ nerwowy człowieka dzieli się na dwa główne działy:
 

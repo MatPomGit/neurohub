@@ -2,7 +2,11 @@
 
 Układ limbiczny to "emocjonalne centrum" mózgu — sieć struktur, które łączą instynkty przetrwania z wyuczonymi reakcjami emocjonalnymi i pamięcią, tworząc biologiczną podstawę naszego życia afektywnego.
 
+![Anatomiczne elementy układu limbicznego](/assets/uklad-limbiczny.jpg)
+*Schemat struktur limbicznych: m.in. hipokamp, ciało migdałowate i zakręt obręczy.*
+
 ## Historia i koncepcja
+
 
 Pojęcie "limbicznego" (od łac. *limbus* — brzeg, rąbek) wprowadził Pierre Paul Broca w 1878 roku, opisując pierścieniowaty pas kory otaczający pień mózgu. Paul MacLean rozwinął tę ideę w **teorię trójjedynego mózgu** (1990): ewolucyjnie najstarszy "gadzi" pień mózgu (przetrwanie, odruchy), "ssaczy" układ limbiczny (emocje, pamięć, więzi społeczne) i "ludzki" neokorteks (myślenie abstrakcyjne). 
 
