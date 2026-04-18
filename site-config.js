@@ -48,6 +48,7 @@ window.SITE_CONFIG = {
         { id: 'philosophy/wprowadzenie',                 label: 'Filozofia — wprowadzenie',                   file: 'wiki/philosophy/wprowadzenie.md'        },
         { id: 'philosophy/ontologia',                    label: 'Ontologia i metafizyka',                     file: 'wiki/philosophy/ontologia.md'           },
         { id: 'philosophy/epistemologia',                label: 'Epistemologia i teoria poznania',            file: 'wiki/philosophy/epistemologia.md'       },
+        { id: 'philosophy/egocentryczny_dylemat',         label: 'Egocentryczny dylemat poznania',             file: 'wiki/philosophy/egocentryczny_dylemat.md' },
         { id: 'philosophy/odpowiedzialnosc_epistemiczna',label: 'Odpowiedzialność epistemiczna',              file: 'wiki/philosophy/odpowiedzialnosc_epistemiczna.md' },
         { id: 'philosophy/etyka',                        label: 'Etyka i filozofia moralna',                  file: 'wiki/philosophy/etyka.md'               },
         { id: 'philosophy/filozofia_umyslu',             label: 'Filozofia umysłu',                           file: 'wiki/philosophy/filozofia_umyslu.md'    },
@@ -1363,6 +1364,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/philosophy/wprowadzenie.md',        label: 'Filozofia — wprowadzenie',       status: 'live' },
       { file: 'wiki/philosophy/ontologia.md',           label: 'Ontologia i metafizyka',          status: 'live' },
       { file: 'wiki/philosophy/epistemologia.md',       label: 'Epistemologia i teoria poznania', status: 'live' },
+      { file: 'wiki/philosophy/egocentryczny_dylemat.md',label: 'Egocentryczny dylemat poznania',  status: 'live' },
       { file: 'wiki/philosophy/etyka.md',               label: 'Etyka i filozofia moralna',       status: 'live' },
       { file: 'wiki/philosophy/filozofia_umyslu.md',    label: 'Filozofia umysłu',                status: 'live' },
       { file: 'wiki/philosophy/filozofia_nauki.md',     label: 'Filozofia nauki',                 status: 'live' },
@@ -2780,6 +2782,7 @@ window.SITE_CONFIG = {
             { label: 'Filozofia — wprowadzenie',       id: 'philosophy/wprowadzenie',  status: 'live' },
             { label: 'Ontologia i metafizyka',          id: 'philosophy/ontologia',     status: 'live' },
             { label: 'Epistemologia i teoria poznania', id: 'philosophy/epistemologia', status: 'live' },
+            { label: 'Egocentryczny dylemat poznania',   id: 'philosophy/egocentryczny_dylemat', status: 'live' },
             { label: 'Etyka i filozofia moralna',       id: 'philosophy/etyka',         status: 'live' },
           ]
         },
