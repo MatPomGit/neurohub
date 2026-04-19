@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-19",
+  "domains": {
+    "diagnostics": {
+      "updatedAt": "2026-04-19",
+      "tools": [
+        "diagnostics/mmse.json",
+        "diagnostics/moca.json"
+      ]
+    },
+    "psychometrics": {
+      "updatedAt": "2026-04-19",
+      "tools": [
+        "psychometrics/bdi_ii.json",
+        "psychometrics/mmpi_2.json"
+      ]
+    },
+    "disorders": {
+      "updatedAt": "2026-04-19",
+      "tools": [
+        "disorders/diva_5.json",
+        "disorders/ados_2.json"
+      ]
+    },
+    "neuro": {
+      "updatedAt": "2026-04-19",
+      "tools": [
+        "neuro/stroop.json",
+        "neuro/tmt.json"
+      ]
+    },
+    "spoleczna": {
+      "updatedAt": "2026-04-19",
+      "tools": [
+        "spoleczna/iri.json",
+        "spoleczna/rosenberg_ses.json"
+      ]
+    }
+  }
+}

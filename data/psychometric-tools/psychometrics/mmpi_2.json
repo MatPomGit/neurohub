@@ -1,0 +1,36 @@
+{
+  "id": "mmpi_2",
+  "name": "Minnesota Multiphasic Personality Inventory-2 (MMPI-2)",
+  "type": "kwestionariusz",
+  "constructs": [
+    "psychopatologia",
+    "cechy osobowosci klinicznej",
+    "style odpowiedzi"
+  ],
+  "population": "Dorosli w diagnozie klinicznej i opiniodawczej",
+  "ageRange": "18+",
+  "administrationTime": "60-90 min",
+  "scoring": "Skale kliniczne i kontrolne, interpretacja wieloskalowa",
+  "evidenceLevel": "wysoki",
+  "license": "komercyjna",
+  "requiresPermissions": true,
+  "language": [
+    "pl",
+    "en"
+  ],
+  "articleLinks": [
+    "psychometrics/mmpi"
+  ],
+  "methodologyLinks": [
+    "psychometrics/rzetelnosc",
+    "psychometrics/trafnosc",
+    "psychometrics/normalizacja",
+    "diagnostics/testy_przeglad"
+  ],
+  "reliability": "Wysoka rzetelnosc dla skal glownych i kontrolnych.",
+  "validity": "Rozbudowany system skal trafnosci odpowiedzi i trafnosci kryterialnej.",
+  "normsInfo": "Wymaga odniesienia do norm wieku/plci zgodnie z podrecznikiem.",
+  "limitations": "Długi czas badania i wysokie wymagania interpretacyjne.",
+  "ethicalNotes": "Interpretacja powinna uwzgledniac kontekst kulturowy i kliniczny.",
+  "contraindications": "Niska motywacja i silna dekompensacja psychotyczna moga obnizac jakosc danych."
+}

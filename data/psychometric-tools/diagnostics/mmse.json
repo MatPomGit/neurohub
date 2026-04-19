@@ -1,0 +1,36 @@
+{
+  "id": "mmse",
+  "name": "Mini-Mental State Examination (MMSE)",
+  "type": "test",
+  "constructs": [
+    "globalne funkcjonowanie poznawcze",
+    "orientacja",
+    "pamiec"
+  ],
+  "population": "Dorosli i seniorzy z podejrzeniem zaburzen poznawczych",
+  "ageRange": "18+",
+  "administrationTime": "10-15 min",
+  "scoring": "Suma punktow; nizszy wynik wskazuje na wieksze nasilenie deficytow",
+  "evidenceLevel": "wysoki",
+  "license": "komercyjna",
+  "requiresPermissions": true,
+  "language": [
+    "pl",
+    "en"
+  ],
+  "articleLinks": [
+    "diagnostics/mmse_moca"
+  ],
+  "methodologyLinks": [
+    "psychometrics/rzetelnosc",
+    "psychometrics/trafnosc",
+    "psychometrics/normalizacja",
+    "diagnostics/testy_przeglad"
+  ],
+  "reliability": "Wysoka stabilnosc wynikow w badaniach przesiewowych seniorow.",
+  "validity": "Dobra trafnosc przesiewowa dla otępienia; ograniczona czułość dla MCI.",
+  "normsInfo": "Normy zalezne od wieku i wyksztalcenia; interpretacja wymaga tabel lokalnych.",
+  "limitations": "Wynik zalezy od edukacji, deficytow sensorycznych i kompetencji jezykowych.",
+  "ethicalNotes": "Nie powinien byc jedyną podstawą decyzji klinicznych lub prawnych.",
+  "contraindications": "Silne zaburzenia sluchu/wzroku i delirium utrudniaja rzetelny pomiar."
+}

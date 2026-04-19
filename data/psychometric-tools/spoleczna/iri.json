@@ -1,0 +1,34 @@
+{
+  "id": "iri",
+  "name": "Interpersonal Reactivity Index (IRI)",
+  "type": "kwestionariusz",
+  "constructs": [
+    "empatia poznawcza",
+    "empatia emocjonalna"
+  ],
+  "population": "Mlodziez i dorosli w badaniach spolecznych",
+  "ageRange": "14+",
+  "administrationTime": "10-15 min",
+  "scoring": "Wyniki w 4 podskalach, interpretacja profilowa",
+  "evidenceLevel": "umiarkowany",
+  "license": "do_ustalenia",
+  "requiresPermissions": false,
+  "language": [
+    "pl",
+    "en"
+  ],
+  "articleLinks": [
+    "spoleczna/percepcja_spoleczna",
+    "spoleczna/ja_i_samoocena"
+  ],
+  "methodologyLinks": [
+    "psychometrics/rzetelnosc",
+    "psychometrics/trafnosc"
+  ],
+  "reliability": "Zwykle umiarkowana-do-wysokiej dla podskal IRI.",
+  "validity": "Potwierdzona trafnosc konstruktu dla empatii poznawczej i emocjonalnej.",
+  "normsInfo": "Brak jednolitych norm klinicznych dla populacji polskiej.",
+  "limitations": "Samoopis sprzyja efektowi aprobaty społecznej.",
+  "ethicalNotes": "Wynik nie powinien sluzyc do etykietowania kompetencji moralnych.",
+  "contraindications": "Brak przeciwwskazan bezwzglednych."
+}

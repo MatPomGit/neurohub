@@ -1,0 +1,35 @@
+{
+  "id": "diva_5",
+  "name": "Diagnostic Interview for ADHD in Adults (DIVA-5)",
+  "type": "protokol",
+  "constructs": [
+    "objawy adhd",
+    "upośledzenie funkcjonowania"
+  ],
+  "population": "Dorosli z podejrzeniem ADHD",
+  "ageRange": "18+",
+  "administrationTime": "60-90 min",
+  "scoring": "Ocena kryteriow DSM i nasilenia w obszarach funkcjonowania",
+  "evidenceLevel": "umiarkowany",
+  "license": "instytucjonalna",
+  "requiresPermissions": true,
+  "language": [
+    "pl",
+    "en"
+  ],
+  "articleLinks": [
+    "psychometrics/diva",
+    "disorders/adhd"
+  ],
+  "methodologyLinks": [
+    "psychometrics/trafnosc",
+    "diagnostics/testy_przeglad",
+    "diagnostics/scid_v"
+  ],
+  "reliability": "Umiarkowana-do-wysokiej zgodnosc miedzyoceniajacych po szkoleniu.",
+  "validity": "Dobra trafnosc treściowa wobec kryteriow DSM dla ADHD dorosłych.",
+  "normsInfo": "Brak klasycznych norm stenowych; interpretacja kryterialna.",
+  "limitations": "Wynik zalezy od jakości wywiadu retrospektywnego i danych zewnętrznych.",
+  "ethicalNotes": "Wymaga triangulacji danych, by ograniczyć nadrozpoznawalnosc.",
+  "contraindications": "Ograniczona użytecznosc przy braku wiarygodnych danych z dzieciństwa."
+}

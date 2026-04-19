@@ -1,0 +1,33 @@
+{
+  "id": "bdi_ii",
+  "name": "Beck Depression Inventory-II (BDI-II)",
+  "type": "kwestionariusz",
+  "constructs": [
+    "nasilenie objawow depresyjnych"
+  ],
+  "population": "Mlodziez i dorosli",
+  "ageRange": "13+",
+  "administrationTime": "5-10 min",
+  "scoring": "Suma punktow i interpretacja wg norm/recznych przedzialow",
+  "evidenceLevel": "wysoki",
+  "license": "komercyjna",
+  "requiresPermissions": true,
+  "language": [
+    "pl",
+    "en"
+  ],
+  "articleLinks": [
+    "psychometrics/bdi_2"
+  ],
+  "methodologyLinks": [
+    "psychometrics/rzetelnosc",
+    "psychometrics/trafnosc",
+    "diagnostics/testy_przeglad"
+  ],
+  "reliability": "Wysoka spojnosc wewnetrzna i dobra stabilnosc czasowa.",
+  "validity": "Silna trafnosc zbiezna z innymi miarami depresji.",
+  "normsInfo": "Interpretacja oparta o progi nasilenia i normy dla populacji klinicznych.",
+  "limitations": "Narzędzie samoopisowe podatne na tendencyjność odpowiedzi.",
+  "ethicalNotes": "Wymaga reakcji klinicznej przy odpowiedziach sugerujących ryzyko samobojcze.",
+  "contraindications": "Nie zastępuje wywiadu diagnostycznego przy ostrych kryzysach."
+}

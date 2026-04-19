@@ -1,0 +1,32 @@
+{
+  "id": "rosenberg_ses",
+  "name": "Rosenberg Self-Esteem Scale (SES)",
+  "type": "skala",
+  "constructs": [
+    "globalna samoocena"
+  ],
+  "population": "Mlodziez i dorosli",
+  "ageRange": "13+",
+  "administrationTime": "3-5 min",
+  "scoring": "Suma 10 pozycji z pozycjami odwrotnie kodowanymi",
+  "evidenceLevel": "wysoki",
+  "license": "otwarta",
+  "requiresPermissions": false,
+  "language": [
+    "pl",
+    "en"
+  ],
+  "articleLinks": [
+    "spoleczna/ja_i_samoocena"
+  ],
+  "methodologyLinks": [
+    "psychometrics/rzetelnosc",
+    "psychometrics/trafnosc"
+  ],
+  "reliability": "Wysoka spojnosc wewnetrzna dla wyniku globalnego.",
+  "validity": "Dobra trafnosc zbiezna z miarami dobrostanu i depresji.",
+  "normsInfo": "",
+  "limitations": "Krótka skala nie rozroznia subtelnych profili samooceny.",
+  "ethicalNotes": "Wynik powinien byc omawiany kontekstowo, bez redukcji osoby do liczby.",
+  "contraindications": "Ostroznosc interpretacyjna przy aktualnym kryzysie emocjonalnym."
+}

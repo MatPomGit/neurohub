@@ -30,6 +30,9 @@ window.SITE_CONFIG = {
   //  2) Wartości pól type/evidenceLevel/license muszą pochodzić ze słownika.
   //  3) Dla domen bez opracowanych wpisów używamy listy TODO w todoDomains.
   // ─────────────────────────────────────────────────────────────
+  // Źródło plikowe katalogu narzędzi (nowy format: 1 narzędzie = 1 plik JSON).
+  measurementToolsDataPath: 'data/psychometric-tools/index.json',
+
   measurementToolsControlledVocabulary: {
     type: ['test', 'kwestionariusz', 'skala', 'protokol', 'obserwacja'],
     evidenceLevel: ['wysoki', 'umiarkowany', 'wstepny', 'niewystarczajacy'],
@@ -268,6 +271,18 @@ window.SITE_CONFIG = {
       },
     ],
   },
+
+
+  // Data ostatniej aktualizacji katalogu narzędzi per domena (ISO YYYY-MM-DD).
+  // Pole updatedAt jest używane przez UI do komunikatu "Ostatnia aktualizacja".
+  measurementToolsDomainUpdates: {
+    diagnostics: { updatedAt: '2026-04-19' },
+    psychometrics: { updatedAt: '2026-04-19' },
+    disorders: { updatedAt: '2026-04-19' },
+    neuro: { updatedAt: '2026-04-19' },
+    spoleczna: { updatedAt: '2026-04-19' },
+  },
+
 
   // Domeny obecne w serwisie, dla ktorych wpisy narzedzi pomiarowych sa jeszcze nieuzupelnione.
   measurementToolsTodoDomains: [

@@ -1,0 +1,37 @@
+{
+  "id": "moca",
+  "name": "Montreal Cognitive Assessment (MoCA)",
+  "type": "test",
+  "constructs": [
+    "funkcje wykonawcze",
+    "pamiec",
+    "uwaga",
+    "jezyk"
+  ],
+  "population": "Dorosli i seniorzy w diagnostyce lagodnych zaburzen poznawczych",
+  "ageRange": "18+",
+  "administrationTime": "10-15 min",
+  "scoring": "Suma punktow z korekta edukacyjna zgodnie z podrecznikiem",
+  "evidenceLevel": "wysoki",
+  "license": "instytucjonalna",
+  "requiresPermissions": true,
+  "language": [
+    "pl",
+    "en"
+  ],
+  "articleLinks": [
+    "diagnostics/mmse_moca"
+  ],
+  "methodologyLinks": [
+    "psychometrics/rzetelnosc",
+    "psychometrics/trafnosc",
+    "psychometrics/normalizacja",
+    "diagnostics/testy_przeglad"
+  ],
+  "reliability": "Wysoka rzetelnosc wewnetrzna i satysfakcjonujacy test-retest.",
+  "validity": "Wyższa czułość niż MMSE dla lagodnych zaburzen poznawczych.",
+  "normsInfo": "Wymaga korekty edukacyjnej i odniesienia do norm populacyjnych.",
+  "limitations": "Mozliwe efekty uczenia przy czestym powtarzaniu testu.",
+  "ethicalNotes": "Wyniki omawiac z pacjentem ostroznie, bez stygmatyzacji.",
+  "contraindications": "Brak przeciwwskazan bezwzglednych; ostroznosc przy afazji i ostrych objawach psychiatrycznych."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "stroop",
+  "name": "Stroop Color and Word Test",
+  "type": "test",
+  "constructs": [
+    "hamowanie reakcji",
+    "kontrola poznawcza",
+    "uwaga selektywna"
+  ],
+  "population": "Mlodziez i dorosli w diagnozie neuropsychologicznej",
+  "ageRange": "12+",
+  "administrationTime": "5-10 min",
+  "scoring": "Czas i bledy w warunkach zgodnych/niezgodnych",
+  "evidenceLevel": "umiarkowany",
+  "license": "komercyjna",
+  "requiresPermissions": true,
+  "language": [
+    "pl",
+    "en"
+  ],
+  "articleLinks": [
+    "diagnostics/testy_wykonawcze",
+    "neuro/neuronauka_poznawcza"
+  ],
+  "methodologyLinks": [
+    "psychometrics/rzetelnosc",
+    "diagnostics/testy_wykonawcze",
+    "psychometrics/normalizacja"
+  ],
+  "reliability": "Umiarkowana rzetelnosc zalezna od wersji i procedury.",
+  "validity": "",
+  "normsInfo": "Normy czasowe zalezne od wieku i wyksztalcenia.",
+  "limitations": "Silny wpływ motywacji, zmeczenia i zaburzen widzenia barw.",
+  "ethicalNotes": "Interpretowac lacznie z innymi testami funkcji wykonawczych.",
+  "contraindications": "Daltonizm i ostre stany neurologiczne mogą znieksztalcac wynik."
+}

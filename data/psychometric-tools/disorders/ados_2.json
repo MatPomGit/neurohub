@@ -1,0 +1,35 @@
+{
+  "id": "ados_2",
+  "name": "Autism Diagnostic Observation Schedule-2 (ADOS-2)",
+  "type": "obserwacja",
+  "constructs": [
+    "komunikacja spoleczna",
+    "zachowania powtarzalne i ograniczone"
+  ],
+  "population": "Dzieci, mlodziez i dorosli z podejrzeniem ASD",
+  "ageRange": "2+",
+  "administrationTime": "40-60 min",
+  "scoring": "Algorytm modulowy, klasyfikacja ryzyka i profilu objawowego",
+  "evidenceLevel": "wysoki",
+  "license": "komercyjna",
+  "requiresPermissions": true,
+  "language": [
+    "pl",
+    "en"
+  ],
+  "articleLinks": [
+    "psychometrics/ados",
+    "disorders/asd"
+  ],
+  "methodologyLinks": [
+    "psychometrics/trafnosc",
+    "psychometrics/rzetelnosc",
+    "diagnostics/testy_przeglad"
+  ],
+  "reliability": "Wysoka zgodnosc miedzydiagnostyczna po certyfikowanym szkoleniu.",
+  "validity": "Wysoka trafnosc diagnostyczna w polaczeniu z wywiadem rozwojowym.",
+  "normsInfo": "Algorytmy modulowe zamiast klasycznych norm populacyjnych.",
+  "limitations": "Wymaga kosztownego szkolenia i duzego doswiadczenia klinicznego.",
+  "ethicalNotes": "Nie nalezy formułować diagnozy ASD wyłącznie na podstawie ADOS-2.",
+  "contraindications": "Ostroznosc przy ciezkich deficytach sensorycznych i braku wspolpracy."
+}

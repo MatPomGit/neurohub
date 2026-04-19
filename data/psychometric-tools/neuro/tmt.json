@@ -1,0 +1,36 @@
+{
+  "id": "tmt",
+  "name": "Trail Making Test (TMT A/B)",
+  "type": "test",
+  "constructs": [
+    "predkosc przetwarzania",
+    "przelaczanie uwagi",
+    "funkcje wykonawcze"
+  ],
+  "population": "Dorosli i seniorzy w ocenie neurokognitywnej",
+  "ageRange": "18+",
+  "administrationTime": "5-10 min",
+  "scoring": "Czas wykonania czesci A i B oraz roznica B-A",
+  "evidenceLevel": "umiarkowany",
+  "license": "instytucjonalna",
+  "requiresPermissions": true,
+  "language": [
+    "pl",
+    "en"
+  ],
+  "articleLinks": [
+    "diagnostics/testy_uwagi",
+    "diagnostics/testy_wykonawcze"
+  ],
+  "methodologyLinks": [
+    "psychometrics/rzetelnosc",
+    "diagnostics/testy_uwagi",
+    "psychometrics/normalizacja"
+  ],
+  "reliability": "Umiarkowana stabilnosc; czesc B bardziej wrazliwa na czynniki sytuacyjne.",
+  "validity": "Dobra trafnosc do oceny przetwarzania i elastycznosci poznawczej.",
+  "normsInfo": "Wyniki należy odnosić do norm wieku i edukacji.",
+  "limitations": "Wynik zależy od sprawnosci motorycznej i umiejetnosci wzrokowo-przestrzennych.",
+  "ethicalNotes": "Unikac nadinterpretacji pojedynczego wskaznika B-A.",
+  "contraindications": "Przeciwwskazane przy istotnych zaburzeniach motoryki reki dominujacej."
+}

@@ -47,6 +47,24 @@
   **Priorytet:** P2  
   **Definition of Done:** Automatyczna walidacja wykazuje brak niespójności nav↔plans.
 
+
+## Roadmap — katalog narzędzi
+
+- [ ] **Etap 1: dziedziny z gotową bazą testową** (`diagnostics`, `psychometrics`, `disorders`, `neuro`, `spoleczna`).  
+  **Właściciel:** Content + Config  
+  **Priorytet:** P1  
+  **Definition of Done:** Każda z wymienionych dziedzin ma komplet wpisów spełniających DoD i uzupełnione `updatedAt`.
+
+- [ ] **Etap 2: pozostałe dziedziny** (uzupełnianie listy `measurementToolsTodoDomains`).  
+  **Właściciel:** Content + Config  
+  **Priorytet:** P2  
+  **Definition of Done:** Każda domena z listy TODO ma co najmniej startowy zestaw narzędzi + datę `updatedAt`.
+
+- [ ] **Etap 3: filtry i eksport** (UI/UX i operacje na danych katalogu).  
+  **Właściciel:** Frontend + Tooling  
+  **Priorytet:** P2  
+  **Definition of Done:** Dostępne filtrowanie po typie/licencji/evidence level oraz eksport danych (np. CSV/JSON).
+
 ## Planned
 
 - [ ] **Wyszukiwanie pełnotekstowe po treści artykułów (nie tylko po etykietach nawigacji).**  
