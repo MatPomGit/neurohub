@@ -1,0 +1,66 @@
+---
+lastReviewed: 2026-04-19
+reviewCycleMonths: 24
+evidenceCutoffDate: 2026-03-31
+---
+
+# Technologia a sen i regeneracja psychiczna
+
+## Wprowadzenie i kontekst
+
+Sen jest podstawowym mechanizmem regeneracji emocjonalnej i poznawczej. Współczesne technologie wpływają na sen wielotorowo: przez światło, pobudzenie poznawcze, dostępność społeczną i nieregularność rytmu dobowego. Dlatego analiza relacji technologia–sen wymaga perspektywy biopsychospołecznej.
+
+## Definicje kluczowych pojęć
+
+- **Higiena snu** — zespół zachowań i warunków środowiskowych sprzyjających zasypianiu i utrzymaniu snu.
+- **Opóźnienie fazy snu** — przesunięcie pory zasypiania i budzenia na późniejsze godziny.
+- **Arousal poznawczy** — podwyższona aktywacja mentalna (ruminacje, planowanie, bodźce informacyjne) utrudniająca wyciszenie.
+- **Social jetlag** — rozbieżność między biologicznym rytmem snu a harmonogramem społecznym.
+
+## Część analityczna: mechanizmy i zależności
+
+### 1. Mechanizm świetlny
+
+Wieczorna ekspozycja na światło o wysokiej energii (zwłaszcza krótkofalowe) może opóźniać wydzielanie melatoniny i utrudniać zasypianie. Efekt zależy od natężenia, czasu ekspozycji i indywidualnej wrażliwości.
+
+### 2. Mechanizm psychofizjologiczny
+
+Aktywności ekranowe o wysokim ładunku emocjonalnym (konflikty online, szybkie treści, gry rywalizacyjne) podnoszą pobudzenie autonomiczne. Mózg pozostaje w trybie czuwania, co wydłuża latencję snu.
+
+### 3. Mechanizm behawioralny
+
+„Revenge bedtime procrastination” — odkładanie snu w celu odzyskania czasu dla siebie po obciążającym dniu — bywa wzmacniane przez łatwą dostępność mediów. Krótkoterminowo daje ulgę, długoterminowo zwiększa deficyt snu.
+
+### 4. Zależności kliniczne
+
+Niedobór i fragmentacja snu zwiększają ryzyko trudności koncentracji, labilności emocjonalnej i objawów lękowo-depresyjnych. Powstaje błędne koło: gorszy sen nasila impulsywne używanie technologii, co dalej pogarsza sen.
+
+## Praktyczne przykłady
+
+### Dobra praktyka
+
+Osoba stosuje 60–90 minut „strefy wyciszenia” przed snem: brak mediów społecznościowych, przyciemnienie ekranu, stała pora snu, telefon ładowany poza sypialnią.
+
+**Konsekwencje:** szybsze zasypianie, mniej wybudzeń, lepsza regeneracja i stabilniejszy nastrój dzienny.
+
+### Zła praktyka (częsty błąd)
+
+Pracownik kończy dzień przeglądaniem maili służbowych i krótkich filmów w łóżku, traktując to jako „odpoczynek”.
+
+**Konsekwencje:** opóźnione zasypianie, płytszy sen, poranne zmęczenie i większa podatność na stres następnego dnia.
+
+## Perspektywa nieoczywista
+
+Nieoczywista perspektywa podkreśla, że technologia może także wspierać sen, jeśli używa się jej celowo: monitorowanie rytmu dobowego, interwencje CBT-I online, przypomnienia o porze snu i redukcja światła wieczornego. Kluczowe nie jest więc „czy technologia”, ale „w jakiej funkcji regulacyjnej”.
+
+## Podsumowanie
+
+Wpływ technologii na sen jest istotny, ale modyfikowalny. Najlepsze rezultaty przynosi łączenie higieny snu, kontroli bodźców cyfrowych i realistycznej organizacji dnia. Ochrona snu powinna być traktowana jako element profilaktyki zdrowia psychicznego i jakości pracy poznawczej.
+
+## Bibliografia
+
+1. Cain, N., & Gradisar, M. (2010). Electronic media use and sleep in school-aged children and adolescents: A review. *Sleep Medicine*, 11(8), 735–742.
+2. Exelmans, L., & Van den Bulck, J. (2016). Bedtime mobile phone use and sleep in adults. *Social Science & Medicine*, 148, 93–101.
+3. Hale, L., & Guan, S. (2015). Screen time and sleep among school-aged children and adolescents: A systematic review. *Sleep Medicine Reviews*, 21, 50–58.
+4. Levenson, J. C., Shensa, A., Sidani, J. E., et al. (2017). The association between social media use and sleep disturbance among young adults. *Preventive Medicine*, 85, 36–41.
+5. Scott, H., Biello, S. M., & Woods, H. C. (2019). Social media use and adolescent sleep patterns. *Sleep Medicine Reviews*, 44, 47–58.

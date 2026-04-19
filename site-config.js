@@ -1780,13 +1780,13 @@ window.SITE_CONFIG = {
     ],
     technology_psychology: [
       { file: 'wiki/technology_psychology/technostres.md',            label: 'Technostres — artykuł naukowy',                    status: 'live' },
-      { file: 'wiki/technology_psychology/zmeczenie_cyfrowe.md',      label: 'Zmęczenie cyfrowe i przeciążenie informacyjne',    status: 'planned' },
-      { file: 'wiki/technology_psychology/fomo_i_nomofobia.md',       label: 'FOMO i nomofobia',                                   status: 'planned' },
-      { file: 'wiki/technology_psychology/algorytmy_a_samoocena.md',  label: 'Algorytmy personalizacji a samoocena',              status: 'planned' },
-      { file: 'wiki/technology_psychology/higiena_cyfrowa.md',        label: 'Higiena cyfrowa i profilaktyka przeciążenia',       status: 'planned' },
-      { file: 'wiki/technology_psychology/technologia_w_pracy.md',    label: 'Technologia w pracy: granice, kontrola i autonomia',status: 'planned' },
-      { file: 'wiki/technology_psychology/technologia_a_sen.md',      label: 'Technologia a sen i regeneracja psychiczna',        status: 'planned' },
-      { file: 'wiki/technology_psychology/psychoedukacja_rodzinna.md',label: 'Psychoedukacja rodzinna w erze ekranów',            status: 'planned' },
+      { file: 'wiki/technology_psychology/zmeczenie_cyfrowe.md',      label: 'Zmęczenie cyfrowe i przeciążenie informacyjne',    status: 'live' },
+      { file: 'wiki/technology_psychology/fomo_i_nomofobia.md',       label: 'FOMO i nomofobia',                                   status: 'live' },
+      { file: 'wiki/technology_psychology/algorytmy_a_samoocena.md',  label: 'Algorytmy personalizacji a samoocena',              status: 'live' },
+      { file: 'wiki/technology_psychology/higiena_cyfrowa.md',        label: 'Higiena cyfrowa i profilaktyka przeciążenia',       status: 'live' },
+      { file: 'wiki/technology_psychology/technologia_w_pracy.md',    label: 'Technologia w pracy: granice, kontrola i autonomia',status: 'live' },
+      { file: 'wiki/technology_psychology/technologia_a_sen.md',      label: 'Technologia a sen i regeneracja psychiczna',        status: 'live' },
+      { file: 'wiki/technology_psychology/psychoedukacja_rodzinna.md',label: 'Psychoedukacja rodzinna w erze ekranów',            status: 'live' },
     ],
     affective_robotics: [
       { file: 'wiki/affective_robotics/wprowadzenie.md',                    label: 'Robotyka afektywna — wprowadzenie',         status: 'live' },
@@ -3103,13 +3103,13 @@ window.SITE_CONFIG = {
         {
           title: 'Plan redakcyjny: wpływ technologii na psychologię człowieka',
           articles: [
-            { label: 'Zmęczenie cyfrowe i przeciążenie informacyjne',    id: 'technology_psychology/zmeczenie_cyfrowe',     status: 'planned' },
-            { label: 'FOMO i nomofobia',                                  id: 'technology_psychology/fomo_i_nomofobia',      status: 'planned' },
-            { label: 'Algorytmy personalizacji a samoocena',              id: 'technology_psychology/algorytmy_a_samoocena', status: 'planned' },
-            { label: 'Higiena cyfrowa i profilaktyka przeciążenia',       id: 'technology_psychology/higiena_cyfrowa',       status: 'planned' },
-            { label: 'Technologia w pracy: granice, kontrola i autonomia',id: 'technology_psychology/technologia_w_pracy',   status: 'planned' },
-            { label: 'Technologia a sen i regeneracja psychiczna',        id: 'technology_psychology/technologia_a_sen',     status: 'planned' },
-            { label: 'Psychoedukacja rodzinna w erze ekranów',            id: 'technology_psychology/psychoedukacja_rodzinna', status: 'planned' },
+            { label: 'Zmęczenie cyfrowe i przeciążenie informacyjne',    id: 'technology_psychology/zmeczenie_cyfrowe',     status: 'live' },
+            { label: 'FOMO i nomofobia',                                  id: 'technology_psychology/fomo_i_nomofobia',      status: 'live' },
+            { label: 'Algorytmy personalizacji a samoocena',              id: 'technology_psychology/algorytmy_a_samoocena', status: 'live' },
+            { label: 'Higiena cyfrowa i profilaktyka przeciążenia',       id: 'technology_psychology/higiena_cyfrowa',       status: 'live' },
+            { label: 'Technologia w pracy: granice, kontrola i autonomia',id: 'technology_psychology/technologia_w_pracy',   status: 'live' },
+            { label: 'Technologia a sen i regeneracja psychiczna',        id: 'technology_psychology/technologia_a_sen',     status: 'live' },
+            { label: 'Psychoedukacja rodzinna w erze ekranów',            id: 'technology_psychology/psychoedukacja_rodzinna', status: 'live' },
           ]
         },
       ]
