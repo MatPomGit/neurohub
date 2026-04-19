@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Spektrum autyzmu i niepełnosprawność
 
 **Spektrum autyzmu (ASD)** to neurorozwojowe zróżnicowanie charakteryzujące się odmiennym wzorcem przetwarzania społecznego, komunikacji i sensoryki. Termin „spektrum" podkreśla ogromne zróżnicowanie — od osób wymagających intensywnego wsparcia po te żyjące w pełni samodzielnie. W kontekście niepełnosprawności autyzm jest rozumiany zarówno jako kondycja wymagająca wsparcia, jak i część neuroróżnorodności.

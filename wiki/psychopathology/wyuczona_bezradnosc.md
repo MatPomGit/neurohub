@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Wyuczona bezradność
 
 Wyuczona bezradność (*learned helplessness*) to stan psychologiczny, w którym organizm — na skutek powtarzającego się doświadczenia braku kontroli nad negatywnymi zdarzeniami — przestaje podejmować próby ucieczki lub zmiany sytuacji, nawet gdy stają się one obiektywnie możliwe. Koncepcja ta, sformułowana przez Martina Seligmana w latach 60. XX wieku, stała się jednym z kluczowych modeli wyjaśniających depresję, a także znalazła szerokie zastosowanie w psychologii klinicznej, edukacyjnej i organizacyjnej.

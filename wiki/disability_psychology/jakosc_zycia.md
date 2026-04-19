@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Jakość życia osób z niepełnosprawnością
 
 **Jakość życia** (QoL) to wielowymiarowe pojęcie obejmujące subiektywne poczucie dobrostanu, zdrowie fizyczne, relacje, autonomię, uczestnictwo społeczne i warunki materialne. W kontekście niepełnosprawności jest szczególnie ważna, bo rodzaj i stopień niepełnosprawności nie determinuje jej wartości wprost — liczy się to, jak osoba ocenia własne życie.

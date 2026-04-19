@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Aleksytymia
 
 Aleksytymia to neuropsychologiczna cecha opisująca trudność w rozumieniu własnych emocji — stan, który sprawia, że wewnętrzny świat emocji jest dla osoby równie nieprzenikniony jak dla otoczenia.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Ścieżki kariery po psychologii — przewodnik praktyczny
 
 Współczesny rynek pracy dla absolwentów psychologii jest zróżnicowany i wielosektorowy: obejmuje ochronę zdrowia, edukację, biznes, badania, technologie cyfrowe i sektor publiczny. Kluczowe znaczenie ma świadome planowanie ścieżki kompetencyjnej już na etapie studiów.

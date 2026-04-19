@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Wprowadzenie do metod eksperymentalnych
 
 Eksperyment psychologiczny to metoda badawcza, która umożliwia testowanie **zależności przyczynowo-skutkowych** między zjawiskami psychicznymi i zachowaniem. W odróżnieniu od badań czysto opisowych, eksperyment zakłada celową manipulację warunkami i kontrolę potencjalnych źródeł błędu.

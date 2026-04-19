@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Dorosłość i starzenie się
 
 Dorosłość obejmuje najdłuższy okres ludzkiego życia — od ok. 20. do 80. roku życia lub dłużej. Przez długi czas psychologia traktowała dorosłość jako czas „gotowego" człowieka, skupiając badania na dzieciństwie i adolescencji. Dopiero od lat 70. XX wieku, za sprawą Eriksona, Levinsona, Neugartena i Baltes'a, psychologia biegu życia (*life-span psychology*) ugruntowała pogląd, że **zmiana i rozwój trwają przez całe życie**.

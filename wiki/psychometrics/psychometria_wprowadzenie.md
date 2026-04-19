@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychometria — wprowadzenie
 
 Psychometria to dział metodologii psychologicznej zajmujący się teorią i techniką pomiaru psychologicznego. Jej zadaniem jest odpowiedź na fundamentalne pytanie: czy i w jaki sposób można zmierzyć zjawiska psychiczne tak, żeby wyniki były rzetelne, trafne i porównywalne między osobami.

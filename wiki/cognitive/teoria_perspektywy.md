@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Teoria perspektywy (Prospect Theory)
 
 Teoria perspektywy (ang. *Prospect Theory*) to deskryptywna teoria podejmowania decyzji w warunkach ryzyka, sformułowana przez Daniela Kahnemana i Amosa Tversky'ego w 1979 roku. Stanowi fundamentalne odejście od normatywnego modelu racjonalnego aktora — teorii oczekiwanej użyteczności — i jest jednym z kamieni węgielnych ekonomii behawioralnej.

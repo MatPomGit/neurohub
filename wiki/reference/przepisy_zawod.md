@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Przepisy i zasady pracy psychologa w Polsce i w NFZ
 
 Wykonywanie zawodów psychologicznych w Polsce regulują przepisy ustawowe, rozporządzenia ministrów oraz wewnętrzne standardy samorządu zawodowego. Poniżej omówiono ramy prawne i **praktyczne instrukcje krok po kroku** dla czterech kluczowych specjalności: **psychologa**, **psychologa klinicznego**, **neuropsychologa** oraz **psychoterapeuty**, a także zasady udzielania świadczeń w ramach Narodowego Funduszu Zdrowia (NFZ).

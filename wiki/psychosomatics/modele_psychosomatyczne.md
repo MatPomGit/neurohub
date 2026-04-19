@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Modele psychosomatyczne
 
 Zrozumienie, jak psychika wpływa na ciało, wymagało opracowania coraz bardziej złożonych modeli teoretycznych. Poniżej przedstawiono ewolucję głównych koncepcji — od psychoanalitycznych po współczesne, systemowe.

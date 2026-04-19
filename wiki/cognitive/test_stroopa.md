@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Test Stroopa
 
 Test Stroopa to klasyczne narzędzie psychologii poznawczej służące do oceny **kontroli hamowania**, **selektywnej uwagi** i **odporności na interferencję**. Najczęściej porównuje się szybkość oraz poprawność nazywania koloru atramentu, gdy znaczenie słowa jest zgodne lub niezgodne z kolorem.

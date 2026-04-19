@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Dysfunkcje seksualne
 
 Klasyfikacja, etiologia i leczenie zaburzeń reakcji seksualnej — od zaburzeń podniecenia po ból podczas stosunku.

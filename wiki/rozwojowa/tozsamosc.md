@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Kształtowanie tożsamości
 
 Tożsamość — odpowiedź na pytania „Kim jestem?", „Dokąd zmierzam?", „Co jest dla mnie ważne?" — należy do centralnych tematów psychologii rozwojowej. Jej kształtowanie to proces rozciągnięty na dziesiątki lat, wymagający aktywnej eksploracji, zaangażowania i gotowości do rewizji własnej narracji. Artykuł omawia najważniejsze teorie, mechanizmy i wyzwania związane z rozwojem tożsamości od adolescencji do dorosłości.

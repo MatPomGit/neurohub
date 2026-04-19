@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Etyka w psychologii cyfrowej i e-terapii
 
 Dynamiczny rozwój technologii cyfrowych zmienił oblicze praktyki psychologicznej. **E-terapia**, aplikacje zdrowia psychicznego, sztuczna inteligencja w diagnostyce i media społecznościowe tworzą nowe możliwości, ale też zupełnie nowe dylematy etyczne. Istniejące kodeksy etyczne były pisane w erze analogowej — ich zastosowanie do przestrzeni cyfrowej wymaga aktywnej interpretacji.

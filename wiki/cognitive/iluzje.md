@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Iluzje, błędy poznawcze i złudzenia optyczne
 
 Percepcja wzrokowa jest aktywnym procesem konstruowania rzeczywistości, nie pasywnym rejestrowaniem bodźców. Iluzje, złudzenia optyczne i błędy poznawcze ujawniają mechanizmy, heurystyki i ograniczenia, którymi posługuje się umysł podczas interpretacji informacji — szczególnie kanału wzrokowego.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychologiczny aspekt religijnie wrażliwej REBT
 
 Artykuł Johnsona, Ridleya i Nielsena analizuje przede wszystkim psychologiczne i etyczne podstawy stosowania racjonalno-emotywnej terapii behawioralnej (REBT) wobec pacjentów religijnych. Autorzy pokazują, że zasadniczym mechanizmem zmiany w REBT nie jest korekta treści światopoglądu jako takiej, lecz modyfikacja sztywnych, absolutystycznych i nadmiernie oceniających przekonań, które generują cierpienie emocjonalne. W tym ujęciu kluczowe staje się rozróżnienie między treścią przekonań religijnych a ich funkcją psychologiczną: ta sama wiara może być zasobem adaptacyjnym albo źródłem lęku, poczucia winy i obniżonego nastroju.

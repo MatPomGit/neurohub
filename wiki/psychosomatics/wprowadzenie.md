@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychosomatyka — wprowadzenie
 
 Psychosomatyka (gr. *psyche* — dusza, *soma* — ciało) to dziedzina nauki i praktyki klinicznej badająca wzajemne relacje między procesami psychicznymi a funkcjonowaniem ciała. Stanowi pomost między psychiatrią, psychologią kliniczną a medycyną wewnętrzną.

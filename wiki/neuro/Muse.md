@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Muse S Athena: technologia działania, możliwości kliniczne i praktyczne zastosowania w neuropsychologii, psychologii klinicznej oraz psychoterapii
 
 ## Streszczenie

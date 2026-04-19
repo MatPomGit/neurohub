@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Samookaleczenia (NSSI)
 
 Niesuicydalne samookaleczenia — definicja, funkcje, rozpowszechnienie, ocena i metody leczenia.

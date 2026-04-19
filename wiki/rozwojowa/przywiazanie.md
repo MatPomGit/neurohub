@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Teoria przywiązania — od kołyski po dorosłość
 
 Teoria przywiązania (*attachment theory*) jest jednym z najbardziej wpływowych i empirycznie potwierdzonych paradygmatów współczesnej psychologii. Wyjaśnia, w jaki sposób wczesnodziecięce relacje z opiekunami kształtują regulację emocjonalną, wzorce interpersonalne i podatność na zaburzenia psychiczne przez całe życie.

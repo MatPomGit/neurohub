@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Przymus powtarzania
 
 Przymus powtarzania (niem. *Wiederholungszwang*, ang. *repetition compulsion*) to zjawisko psychologiczne polegające na nieświadomym odtwarzaniu bolesnych, traumatycznych lub destrukcyjnych wzorców z przeszłości — w zachowaniach, relacjach lub sytuacjach życiowych. Osoba doświadczająca przymusu powtarzania powraca do tych samych schematów mimo ich oczywistej szkodliwości, nie rozumiejąc, dlaczego to robi. Pojęcie to wprowadził Zygmunt Freud w 1920 roku i do dziś pozostaje jednym z kluczowych konstruktów psychodynamicznych, szeroko używanym również w psychologii traumy i neurobiologii.

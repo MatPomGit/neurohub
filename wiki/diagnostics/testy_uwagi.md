@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Testy uwagi w neuropsychologii
 
 Uwaga to nie jeden proces — to rodzina zdolności obejmująca czujność, koncentrację, przełączanie i podzielność. Testy neuropsychologiczne mierzą każdy z tych komponentów osobno.

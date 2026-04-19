@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Adaptacja do starości
 
 Adaptacja do starości to proces psychologiczny, w którym człowiek stopniowo dostosowuje się do zmian biologicznych, społecznych i egzystencjalnych związanych z późną dorosłością. Nie jest to jednorazowe „pogodzenie się z wiekiem”, ale dynamiczny cykl strat, reorganizacji i odkrywania nowych źródeł sensu.

@@ -3505,3 +3505,47 @@ window.SITE_CONFIG = {
     });
   });
 })(window.SITE_CONFIG);
+
+/* Uzupełnia metadane recenzji źródeł dla każdego narzędzia pomiarowego. */
+(function enrichMeasurementToolsReviewMetadata(config) {
+  if (!config || typeof config !== 'object') return;
+  const byDomain = config.measurementToolsByDomain;
+  const domainUpdates = config.measurementToolsDomainUpdates || {};
+  if (!byDomain || typeof byDomain !== 'object') return;
+
+  /* Wydobywa najnowszy rok z listy źródeł narzędzia (np. "Autor (2021)"). */
+  const inferPrimarySourceYear = tool => {
+    if (Number.isFinite(tool?.primarySourceYear)) return Math.trunc(tool.primarySourceYear);
+    if (typeof tool?.primarySourceYear === 'string' && /^\d{4}$/.test(tool.primarySourceYear.trim())) {
+      return Number(tool.primarySourceYear.trim());
+    }
+    const years = (Array.isArray(tool?.sourceRefs) ? tool.sourceRefs : [])
+      .map(ref => {
+        const match = String(ref).match(/\b(19|20)\d{2}\b/g);
+        if (!match || !match.length) return null;
+        return Number(match[match.length - 1]);
+      })
+      .filter(Number.isFinite);
+    if (!years.length) return null;
+    return Math.max(...years);
+  };
+
+  Object.entries(byDomain).forEach(([domainKey, tools]) => {
+    if (!Array.isArray(tools)) return;
+    const domainUpdatedAt = domainUpdates?.[domainKey]?.updatedAt;
+    tools.forEach(tool => {
+      if (!tool || typeof tool !== 'object') return;
+      const inferredYear = inferPrimarySourceYear(tool);
+      if (!tool.lastReviewed && domainUpdatedAt) {
+        tool.lastReviewed = domainUpdatedAt;
+      } else if (!tool.lastReviewed) {
+        tool.lastReviewed = '2024-01-01';
+      }
+      if (!tool.primarySourceYear && inferredYear) {
+        tool.primarySourceYear = inferredYear;
+      } else if (!tool.primarySourceYear) {
+        tool.primarySourceYear = 'brak';
+      }
+    });
+  });
+})(window.SITE_CONFIG);

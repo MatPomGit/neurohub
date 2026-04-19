@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Podejmowanie decyzji
 
 Decyzje podejmujemy tysiące razy dziennie — od wyboru śniadania po życiowe wybory dotyczące kariery i związków. Psychologia decyzji ujawnia, jak dalecy jesteśmy od modelu "racjonalnego aktora" zakładanego przez ekonomię klasyczną.

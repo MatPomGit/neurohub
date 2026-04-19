@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # System 1 i System 2 — Kahneman
 
 Koncepcja dwóch systemów przetwarzania informacji jest jedną z najbardziej wpływowych idei w psychologii poznawczej i ekonomii behawioralnej. Spopularyzował ją **Daniel Kahneman** w przełomowej książce *Thinking, Fast and Slow* (2011), opartej na dekadach badań prowadzonych wspólnie z Amosem Tversky'm oraz psychologami Keitem Stanowichem i Richardem Westem (którzy ukuli samą terminologię „Systemu 1" i „Systemu 2"). Model ten dostarcza spójnych ram pojęciowych do rozumienia intuicji, heurystyk, błędów poznawczych i racjonalności ludzkiego myślenia.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Rodzina i opiekunowie
 
 Rodzina pełni kluczową rolę w życiu osób z niepełnosprawnościami — jest głównym źródłem wsparcia, codziennej opieki i emocjonalnego bezpieczeństwa. Jednocześnie rola opiekuna niesie poważne obciążenia psychiczne i fizyczne, które psychologia bada i stara się łagodzić.

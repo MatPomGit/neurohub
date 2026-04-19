@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Układ limbiczny
 
 Układ limbiczny to "emocjonalne centrum" mózgu — sieć struktur, które łączą instynkty przetrwania z wyuczonymi reakcjami emocjonalnymi i pamięcią, tworząc biologiczną podstawę naszego życia afektywnego.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Starzenie poznawcze
 
 Starzenie poznawcze (ang. *cognitive aging*) odnosi się do zmian w funkcjach psychicznych, które zachodzą wraz z wiekiem — w obszarach takich jak pamięć, uwaga, szybkość przetwarzania, język i funkcje wykonawcze. Zmiany te są zróżnicowane: część procesów ulega wyraźnemu osłabieniu, inne pozostają względnie stabilne, a niektóre właściwości umysłu mogą wręcz poprawiać się z wiekiem.

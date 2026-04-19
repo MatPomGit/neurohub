@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Modele niepełnosprawności
 
 Sposoby rozumienia niepełnosprawności zmieniały się wraz z rozwojem nauki i zmianami społecznymi. Każdy model niesie konsekwencje dla praktyki — kształtuje to, jak traktuje się osoby z niepełnosprawnościami, jakie interwencje się stosuje i kto bierze za nie odpowiedzialność.

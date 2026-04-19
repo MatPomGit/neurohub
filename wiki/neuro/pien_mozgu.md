@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Pień mózgu i móżdżek
 
 Pień mózgu (*truncus cerebri*) i móżdżek (*cerebellum*) to starożytne ewolucyjnie struktury śródmózgowia i tyłomózgowia, które stanowią centrum integracji życiowych funkcji wegetatywnych, modulacji motoryki oraz koordynacji ruchowej. Choć ich rola bywa przyćmiana przez korę mózgową, uszkodzenie pnia mózgu niemal zawsze zagraża życiu, a uszkodzenie móżdżku dramatycznie zaburza jakość ruchu i równowagę.

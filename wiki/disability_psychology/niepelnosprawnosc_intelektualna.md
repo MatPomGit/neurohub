@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Niepełnosprawność intelektualna
 
 **Niepełnosprawność intelektualna** (NI, dawniej: upośledzenie umysłowe) to stan charakteryzujący się istotnym ograniczeniem zarówno funkcjonowania intelektualnego, jak i zachowania przystosowawczego, który ujawnia się przed 18. rokiem życia. Według DSM-5 i ICD-11 diagnoza wymaga spełnienia trzech kryteriów: deficytów w rozumowaniu, uczeniu się i rozwiązywaniu problemów; ograniczeń w zachowaniach adaptacyjnych; oraz początku w okresie rozwojowym.

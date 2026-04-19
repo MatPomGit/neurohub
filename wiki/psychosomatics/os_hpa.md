@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Oś HPA i mechanizmy stresu psychosomatycznego
 
 Oś podwzgórze–przysadka–nadnercza (HPA, ang. *hypothalamic-pituitary-adrenal*) jest centralnym układem neuroendokrynnym pośredniczącym między doświadczeniami psychologicznymi a odpowiedzią biologiczną. Jest kluczem do rozumienia, jak przewlekły stres uszkadza ciało.

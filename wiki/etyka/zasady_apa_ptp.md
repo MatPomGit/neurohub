@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Zasady etyczne APA i PTP
 
 Etyka zawodowa psychologów opiera się na skodyfikowanych zasadach, które wyznaczają standardy postępowania wobec klientów, współpracowników i społeczeństwa. Dwa najważniejsze punkty odniesienia dla polskich psychologów to **Kodeks Etyczny Amerykańskiego Towarzystwa Psychologicznego** (APA Ethics Code, 2017) oraz **Kodeks Etyczno-Zawodowy Psychologa Polskiego Towarzystwa Psychologicznego** (PTP, 2018).

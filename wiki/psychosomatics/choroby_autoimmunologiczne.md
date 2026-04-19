@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychosomatyka w chorobach autoimmunologicznych
 
 Choroby autoimmunologiczne — w których układ odpornościowy atakuje własne tkanki — mają złożone, wieloczynnikowe podłoże. Czynniki psychologiczne, choć nie są bezpośrednią przyczyną autoimmunizacji, mają udokumentowany wpływ na podatność, wyzwolenie zaostrzeń i przebieg choroby.

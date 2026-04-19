@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Etyka studenta psychologii — zachowanie i dobre praktyki na studiach
 
 Studia na kierunku psychologia to nie tylko nauka teorii i metod badawczych — to również wejście w zawód, który wiąże się z odpowiedzialnością etyczną już od pierwszego roku. Przyszły psycholog kształtuje swoją tożsamość zawodową i nawyki etyczne na długo przed pierwszą pracą z klientem. To, jak zachowujesz się na zajęciach, jak traktujesz kolegów, jak korzystasz z wiedzy o psychologii — wszystko to jest częścią Twojego rozwoju etycznego.

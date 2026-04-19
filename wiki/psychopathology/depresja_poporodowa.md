@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Depresja poporodowa
 
 Depresja poporodowa (PPD — *postpartum depression*) to poważne zaburzenie nastroju pojawiające się po urodzeniu dziecka, znacząco upośledzające zdolność matki do funkcjonowania i opieki nad noworodkiem. Choć przez długi czas bagatelizowana i mylona ze zwykłym „baby blues", PPD jest uznanym zaburzeniem klinicznym wymagającym diagnozy i leczenia.

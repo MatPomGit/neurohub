@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Atrakcyjność interpersonalna
 
 Dlaczego jednych ludzi lubimy bardziej niż innych? Dlaczego zakochujemy się w określonych osobach? Psychologia społeczna od dziesięcioleci bada mechanizmy atrakcyjności interpersonalnej — zarówno w przyjaźni, jak i w miłości romantycznej. Wyniki badań obalają wiele potocznych przekonań i wskazują, że nasze wybory są w dużej mierze kształtowane przez czynniki, których jesteśmy zaledwie częściowo świadomi: bliskość fizyczną, podobieństwo, wzajemność sympatii i fizyczny wygląd.

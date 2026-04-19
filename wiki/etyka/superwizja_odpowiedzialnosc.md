@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Superwizja i odpowiedzialność zawodowa psychologa
 
 Superwizja jest kluczowym mechanizmem podtrzymywania jakości i bezpieczeństwa praktyki psychologicznej. Jednocześnie wpisuje się w szerszy system **odpowiedzialności zawodowej** — etycznej, dyscyplinarnej i prawnej — który chroni klientów i buduje zaufanie do profesji.

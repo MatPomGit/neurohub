@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Metody badań podłużnych w psychologii rozwojowej
 
 Psychologia rozwojowa stawia przed badaczami szczególne wyzwania metodologiczne: jak uchwycić zmianę w czasie, odróżnić efekty wieku od efektów pokolenia i zminimalizować zniekształcenia wynikające z upływu czasu? Odpowiedzią na te pytania są trzy główne strategie badań: **podłużna**, **poprzeczna** i **sekwencyjna**.

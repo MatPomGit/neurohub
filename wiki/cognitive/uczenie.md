@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Uczenie się
 
 Uczenie się to fundamentalny mechanizm adaptacji — biologiczny i poznawczy proces, przez który doświadczenie zmienia nasze zachowanie, wiedzę i strukturę mózgu.

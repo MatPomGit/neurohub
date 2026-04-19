@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # SCID-5 / SCID-V — ustrukturyzowany wywiad kliniczny DSM-5
 
 ## 1. Czym jest SCID-5?

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Zmęczenie poznawcze i przebodźcowanie
 
 Kiedy mózg traci zasoby — neuropsychologiczne podstawy zmęczenia umysłowego, przeciążenia sensorycznego i strategie przywracania pojemności poznawczej.

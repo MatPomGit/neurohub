@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Choroby układu krążenia a psychologia zdrowia
 
 **Choroby układu krążenia** (np. nadciśnienie, choroba wieńcowa, niewydolność serca) należą do najważniejszych wyzwań zdrowia publicznego. O rokowaniu decydują nie tylko czynniki biologiczne, lecz także zachowania zdrowotne i stan psychiczny pacjenta.

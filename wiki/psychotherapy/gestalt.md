@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Płodna pustka (fertile void) w terapii Gestalt
 
 Centralny paradoks terapii Gestalt: twórcza moc drzemie nie w działaniu, lecz w chwili świadomej niewiedzenia — w przestrzeni między rozwiązaniem jednej figury a narodzinami następnej.

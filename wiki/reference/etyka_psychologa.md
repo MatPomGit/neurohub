@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Etyka zawodowa psychologa i psychoterapeuty w Polsce
 
 Etyka zawodowa psychologa i psychoterapeuty w Polsce opiera się na trzech filarach: normach prawnych, wewnętrznych kodeksach zawodowych i filozoficznych zasadach etyki ogólnej. Choć pojęcia te bywają używane zamiennie, mają odrębny zakres: **prawo** określa minimalne standardy, **kodeks zawodowy** precyzuje powinności wobec klienta i środowiska, a **etyka osobista** wyraża głębię refleksji moralnej praktykanta.

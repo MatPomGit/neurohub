@@ -219,6 +219,99 @@ function getDomainKeyForItem(id, item) {
   return item?.domainKey || pageMap.get(id)?.domainKey || inferDomainKeyFromId(id);
 }
 
+/* Parsuje prosty frontmatter YAML (key: value) i zwraca metadane oraz treść bez nagłówka. */
+function parseArticleFrontmatter(rawText) {
+  if (typeof rawText !== 'string' || !rawText.startsWith('---\n')) {
+    return { metadata: {}, body: rawText };
+  }
+
+  const closingMarkerIndex = rawText.indexOf('\n---\n', 4);
+  if (closingMarkerIndex < 0) {
+    return { metadata: {}, body: rawText };
+  }
+
+  const header = rawText.slice(4, closingMarkerIndex);
+  const body = rawText.slice(closingMarkerIndex + 5);
+  const metadata = {};
+
+  header.split('\n').forEach(line => {
+    const separatorIndex = line.indexOf(':');
+    if (separatorIndex < 0) return;
+    const key = line.slice(0, separatorIndex).trim();
+    const value = line.slice(separatorIndex + 1).trim();
+    if (!key) return;
+    metadata[key] = value;
+  });
+
+  return { metadata, body };
+}
+
+/* Formatuje datę do postaci MM.RRRR; dla błędnych wartości zwraca null. */
+function formatMonthYear(value) {
+  if (!value) return null;
+  const parsed = new Date(`${value}T00:00:00Z`);
+  if (Number.isNaN(parsed.getTime())) return null;
+  const month = String(parsed.getUTCMonth() + 1).padStart(2, '0');
+  const year = parsed.getUTCFullYear();
+  return `${month}.${year}`;
+}
+
+/* Wyciąga rok z pełnej daty ISO albo liczby zapisanej jako tekst. */
+function extractYear(value) {
+  if (typeof value === 'number' && Number.isFinite(value)) return String(Math.trunc(value));
+  if (typeof value !== 'string') return null;
+  const trimmed = value.trim();
+  if (!trimmed) return null;
+  if (/^\d{4}$/.test(trimmed)) return trimmed;
+  const parsed = new Date(`${trimmed}T00:00:00Z`);
+  if (Number.isNaN(parsed.getTime())) return null;
+  return String(parsed.getUTCFullYear());
+}
+
+/* Oblicza liczbę pełnych miesięcy między datą referencyjną a podaną datą. */
+function monthsSince(value, referenceDate = new Date()) {
+  const parsed = new Date(`${value}T00:00:00Z`);
+  if (Number.isNaN(parsed.getTime())) return null;
+  const yearsDiff = referenceDate.getUTCFullYear() - parsed.getUTCFullYear();
+  const monthsDiff = referenceDate.getUTCMonth() - parsed.getUTCMonth();
+  return (yearsDiff * 12) + monthsDiff;
+}
+
+/* Buduje badge metadanych artykułu oraz neutralny komunikat o potrzebie przeglądu. */
+function renderArticleReviewMetaBadges(metadata) {
+  const lastReviewed = formatMonthYear(metadata?.lastReviewed);
+  const cutoffYear = extractYear(metadata?.evidenceCutoffDate);
+  const reviewCycleMonths = Number(metadata?.reviewCycleMonths) || 24;
+  const ageInMonths = monthsSince(metadata?.lastReviewed);
+  const isStale = ageInMonths !== null && ageInMonths > reviewCycleMonths;
+
+  if (!lastReviewed && !cutoffYear && !isStale) return '';
+
+  const badges = [];
+  if (lastReviewed) badges.push(`<span class="review-meta-badge">Zweryfikowano: ${q(lastReviewed)}</span>`);
+  if (cutoffYear) badges.push(`<span class="review-meta-badge">Przegląd źródeł do: ${q(cutoffYear)}</span>`);
+  if (isStale) badges.push('<span class="review-meta-badge is-stale">Wymaga przeglądu literatury</span>');
+
+  return `<div class="review-meta-badges">${badges.join('')}</div>`;
+}
+
+/* Buduje badge metadanych karty narzędzia pomiarowego wraz z flagą przeterminowania. */
+function renderToolReviewMetaBadges(tool) {
+  const lastReviewed = formatMonthYear(tool?.lastReviewed);
+  const sourceYear = extractYear(tool?.primarySourceYear);
+  const ageInMonths = monthsSince(tool?.lastReviewed);
+  const isStale = ageInMonths !== null && ageInMonths > 24;
+
+  if (!lastReviewed && !sourceYear && !isStale) return '';
+
+  const badges = [];
+  if (lastReviewed) badges.push(`<span class="review-meta-badge">Zweryfikowano: ${q(lastReviewed)}</span>`);
+  if (sourceYear) badges.push(`<span class="review-meta-badge">Przegląd źródeł do: ${q(sourceYear)}</span>`);
+  if (isStale) badges.push('<span class="review-meta-badge is-stale">Wymaga przeglądu literatury</span>');
+
+  return `<div class="review-meta-badges">${badges.join('')}</div>`;
+}
+
 /* Weryfikuje konfigurację nav i ostrzega o sekcjach bez jawnego domainKey. */
 function warnAboutMissingDomainKeys() {
   if (!Array.isArray(SITE_CONFIG?.nav)) return;
@@ -423,7 +516,8 @@ async function loadMd(id, item) {
     if (!r.ok) throw new Error('HTTP '+r.status);
     const t = await r.text();
     mdCache.set(item.file, t);
-    if (isBodyEmpty(t)) { emptyArticles.add(id); updateEmptyIndicators(); }
+    const parsed = parseArticleFrontmatter(t);
+    if (isBodyEmpty(parsed.body)) { emptyArticles.add(id); updateEmptyIndicators(); }
     renderMd(t, id, item);
     prefetch(id);
   } catch(e) {
@@ -457,10 +551,13 @@ async function loadMd(id, item) {
 
 function renderMd(text, id, item) {
   const area = document.getElementById('content');
+  const parsedArticle = parseArticleFrontmatter(text);
+  const metadata = parsedArticle.metadata || {};
+  const articleText = parsedArticle.body || '';
   // pull h1 out to hero
-  const h1m   = text.match(/^#\s+(.+)$/m);
+  const h1m   = articleText.match(/^#\s+(.+)$/m);
   const title = h1m ? h1m[1] : item.label;
-  const body  = h1m ? text.slice(text.indexOf(h1m[0])+h1m[0].length) : text;
+  const body  = h1m ? articleText.slice(articleText.indexOf(h1m[0])+h1m[0].length) : articleText;
   const {prev,next} = prevNext(id);
   const prevB = prev ? `<button class="pnav-btn" onclick="navigate('${prev.id}')"><span>← ${prev.label}</span></button>`
                      : `<button class="pnav-btn" disabled><span>←</span></button>`;
@@ -474,14 +571,16 @@ function renderMd(text, id, item) {
   const measurementToolsHtml = renderMeasurementTools(domainKey, id);
 
   // empty content detection
-  const isEmpty = isBodyEmpty(text);
+  const isEmpty = isBodyEmpty(articleText);
   if (isEmpty) emptyArticles.add(id);
   const emptyBanner = isEmpty ? EMPTY_BANNER_HTML : '';
+  const articleReviewMetaHtml = renderArticleReviewMetaBadges(metadata);
 
   area.innerHTML = `<div class="rendered">
     <div class="page-hero">
       <span class="chapter-lbl">${item.section||''}</span>
       <h1>${title}</h1>
+      ${articleReviewMetaHtml}
     </div>
     ${emptyBanner}
     <div class="md">${md2html(body)}</div>
@@ -735,11 +834,13 @@ function renderMeasurementTools(domainKey, currentId) {
       : '<span class="tool-link is-missing">Brak</span>';
 
     const warningsHtml = renderToolWarnings(tool);
+    const toolReviewMetaHtml = renderToolReviewMetaBadges(tool);
 
     return `<article class="plan-item live measurement-tool-card">
       <div class="plan-dot live"></div>
       <div class="measurement-tool-body">
         <h3 class="measurement-tool-name">${q(tool.name || 'Narzędzie bez nazwy')}</h3>
+        ${toolReviewMetaHtml}
         ${warningsHtml}
         <div class="measurement-tool-meta"><strong>Typ:</strong> ${q(tool.type || '—')}</div>
         <div class="measurement-tool-meta"><strong>Mierzone konstrukty:</strong> ${q((tool.constructs || []).join(', ') || '—')}</div>
@@ -773,7 +874,8 @@ function prefetch(id) {
     if (it?.file && !mdCache.has(it.file))
       fetch(it.file).then(r=>r.ok?r.text():Promise.reject()).then(t=>{
         mdCache.set(it.file,t);
-        if (isBodyEmpty(t)) { emptyArticles.add(it.id); updateEmptyIndicators(); }
+        const parsed = parseArticleFrontmatter(t);
+        if (isBodyEmpty(parsed.body)) { emptyArticles.add(it.id); updateEmptyIndicators(); }
       }).catch(()=>{ emptyArticles.add(it.id); updateEmptyIndicators(); });
   }
 }

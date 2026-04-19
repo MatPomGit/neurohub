@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Spektrum autyzmu (ASD)
 
 Autyzm nie jest "chorobą" do wyleczenia — to neurodywergentny sposób funkcjonowania mózgu, który wiąże się zarówno z wyzwaniami, jak i unikalnymi mocnymi stronami. Zrozumienie spektrum wymaga odejścia od stereotypów.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychokardiologia
 
 Serce jest organem o szczególnym miejscu w ludzkiej psychice — kulturowo kojarzone z miłością, odwagą i cierpieniem, biologicznie niezwykle wrażliwym na wpływ emocji i stresu. Psychokardiologia bada wzajemne relacje między układem sercowo-naczyniowym a stanem psychicznym.

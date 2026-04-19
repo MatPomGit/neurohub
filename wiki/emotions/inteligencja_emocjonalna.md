@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Inteligencja emocjonalna
 
 **Inteligencja emocjonalna** (IE) to zdolność do rozpoznawania, rozumienia, zarządzania i skutecznego wykorzystywania emocji — zarówno własnych, jak i innych ludzi. Od lat 90. XX wieku stała się jednym z najszerzej badanych konstruktów w psychologii różnic indywidualnych.

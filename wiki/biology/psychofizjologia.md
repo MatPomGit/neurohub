@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychofizjologia
 
 Psychofizjologia bada relacje między procesami psychologicznymi (myślami, emocjami, zachowaniami) a mierzonymi wskaźnikami fizjologicznymi. Pozwala "zajrzeć" do ciała podczas doświadczeń psychicznych, dostarczając obiektywnych danych uzupełniających subiektywne raporty.

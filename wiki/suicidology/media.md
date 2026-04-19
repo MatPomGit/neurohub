@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Efekt Wertera i Papageno — media a samobójstwa
 
 Medialne przedstawienie samobójstw może zarówno wywoływać kolejne zgony (efekt Wertera), jak i im zapobiegać (efekt Papageno) — zrozumienie tego mechanizmu to kwestia życia i śmierci.

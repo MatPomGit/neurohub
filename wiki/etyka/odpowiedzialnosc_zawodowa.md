@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Odpowiedzialność zawodowa i procedury skargowe
 
 Wykonywanie zawodu psychologa wiąże się z odpowiedzialnością — prawną, etyczną i zawodową. Znajomość ram odpowiedzialności zawodowej chroni zarówno klientów (gwarantując standardy jakości), jak i psychologów (jasne procedury w przypadku zarzutów i sporów).

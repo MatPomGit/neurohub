@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Neglect przestrzenny
 
 Neglect to zaburzenie, w którym połowa świata dosłownie przestaje istnieć dla pacjenta — nie dlatego, że jej nie widzi, lecz dlatego, że mózg nie przetwarza jej jako czegoś istniejącego.

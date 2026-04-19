@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Henry Molaison — H.M.
 
 Człowiek, który zapomniał wszystko, czego się nauczył po 1953 roku — i którego przypadek zrewolucjonizował naukę o pamięci.

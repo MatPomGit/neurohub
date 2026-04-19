@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychologiczne mechanizmy przebaczenia w procesie zdrowienia po przemocy emocjonalnej
 
 Długotrwała przemoc emocjonalna w relacji intymnej prowadzi do specyficznego wzorca konsekwencji psychologicznych, obejmujących utrwalone objawy depresyjne, lękowe oraz pourazowe, którym często towarzyszy obniżone poczucie własnej wartości i deficyty w zakresie sprawstwa. Kluczowym mechanizmem podtrzymującym te trudności jest chroniczna ruminacja wokół krzywdy oraz utrzymywanie wysokiego poziomu urazy wobec sprawcy. Uraza ta, choć początkowo adaptacyjna jako reakcja na naruszenie granic, z czasem przyjmuje charakter dysfunkcjonalny, wzmacniając negatywne schematy poznawcze i utrwalając stan pobudzenia emocjonalnego.

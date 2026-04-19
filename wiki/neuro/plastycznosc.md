@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Neuroplastyczność
 
 Mózg nie jest statyczną strukturą — przez całe życie reorganizuje swoje połączenia w odpowiedzi na doświadczenia, uczenie się i uszkodzenia. Neuroplastyczność to ta zdolność do zmiany, która czyni nas adaptowalnymi.

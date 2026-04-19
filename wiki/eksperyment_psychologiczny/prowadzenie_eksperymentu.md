@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Prowadzenie sesji eksperymentalnej
 
 W tej fazie liczy się dyscyplina proceduralna. Nawet dobry projekt może utracić wartość, jeśli sesje są realizowane niespójnie.

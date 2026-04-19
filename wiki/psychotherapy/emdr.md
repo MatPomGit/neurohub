@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # EMDR — Desensytyzacja i Reprocessing z Ruchami Oczu
 
 EMDR jest jedną z najbardziej skutecznych i jednocześnie najbardziej kontrowersyjnych metod terapii traumy — jej mechanizm nadal budzi debatę, lecz skuteczność kliniczna jest wyjątkowo dobrze udokumentowana.

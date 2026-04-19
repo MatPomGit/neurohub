@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Objawy ogólne — badanie stanu psychicznego (MSE)
 
 Systematyczna ocena funkcji psychicznych pacjenta — domeny MSE, metodologia i znaczenie kliniczne.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychologia bólu
 
 **Ból** jest doświadczeniem jednocześnie sensorycznym i emocjonalnym. Oznacza to, że na jego nasilenie wpływają nie tylko sygnały z ciała, ale też uwaga, znaczenie nadawane objawom, wcześniejsze doświadczenia i kontekst społeczny.

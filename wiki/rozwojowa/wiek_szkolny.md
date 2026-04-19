@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Wiek szkolny — rozwój psychiczny
 
 Wiek szkolny, obejmujący orientacyjnie lata 6–12, to okres względnej stabilizacji i systematycznego doskonalenia sprawności poznawczych, społecznych i emocjonalnych. Erikson określił to stadium jako kryzysu **pracowitości versus poczucia niższości** — dziecko mierzy swoje kompetencje z wymaganiami szkoły, rówieśników i kultury, budując pierwszą realistyczną samoocenę.

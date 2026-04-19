@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Terapia psychosomatyczna
 
 Terapia psychosomatyczna obejmuje spektrum interwencji — od psychoedukacji i technik samopomocowych po specjalistyczne psychoterapie i farmakoterapię — ukierunkowanych na leczenie chorób, w których czynniki psychologiczne odgrywają istotną rolę.

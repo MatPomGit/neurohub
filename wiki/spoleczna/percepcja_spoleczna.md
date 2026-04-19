@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Percepcja społeczna i atrybucje
 
 Kiedy spotykamy kogoś po raz pierwszy, w ułamkach sekund wyrabiamy sobie na jego temat pierwsze wrażenie: czy jest sympatyczny, inteligentny, godny zaufania? Jak to możliwe, że te błyskawiczne osądy są tak pewne — i dlaczego bywają tak błędne? Psychologia społeczna odpowiada na to pytanie, analizując **percepcję społeczną** — procesy, dzięki którym postrzegamy innych ludzi i wyjaśniamy ich zachowania.

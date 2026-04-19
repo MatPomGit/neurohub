@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Pozytywne emocje i broaden-and-build
 
 Przez większą część historii psychologii emocje pozytywne były traktowane jako przyjemny, lecz mało istotny dodatek do funkcjonowania psychicznego. **Barbara Fredrickson** zmieniła ten obraz, proponując teorię, która wyjaśnia ewolucyjną i psychologiczną funkcję emocji pozytywnych.

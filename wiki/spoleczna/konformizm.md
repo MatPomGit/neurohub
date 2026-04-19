@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Konformizm i posłuszeństwo
 
 Konformizm i posłuszeństwo to dwa zasadnicze zjawiska pokazujące, jak potężny jest wpływ społeczny na ludzkie zachowanie. Eksperymenty Ascha i Milgrama, przeprowadzone w połowie XX wieku, wstrząsnęły przekonaniem o niezależności jednostki i do dziś stanowią punkty odniesienia w dyskusjach o moralności, autorytecie i naturze ludzkiej. Zrozumienie tych mechanizmów jest kluczowe zarówno dla psychologów, jak i każdego, kto chce rozumieć, dlaczego „zwykli ludzie" mogą zachowywać się w sposób, który sami uznaliby za niemoralny.

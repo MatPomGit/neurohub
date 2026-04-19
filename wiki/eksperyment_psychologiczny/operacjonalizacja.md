@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Operacjonalizacja zmiennych
 
 Operacjonalizacja to przejście od poziomu teorii do poziomu pomiaru. Jej celem jest takie zdefiniowanie zmiennych, aby różni badacze mogli je mierzyć w porównywalny sposób.

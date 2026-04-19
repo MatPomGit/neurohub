@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Neuron i synapsa
 
 Podstawowe jednostki układu nerwowego — struktura neuronu, przekazywanie sygnałów, neuroprzekaźniki i mechanizmy plastyczności synaptycznej.

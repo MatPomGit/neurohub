@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Rehabilitacja psychologiczna
 
 **Rehabilitacja psychologiczna** w kontekście niepełnosprawności to kompleksowy, zindywidualizowany proces wspierania osoby w odzyskaniu lub rozwijaniu sprawności funkcjonalnej, autonomii i uczestnictwa społecznego — z uwzględnieniem jej ograniczeń wynikających z uszkodzenia lub choroby.

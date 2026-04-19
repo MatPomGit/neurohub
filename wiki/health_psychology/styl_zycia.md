@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Styl życia a zdrowie
 
 **Styl życia** to całokształt wyborów behawioralnych kształtujących codzienne funkcjonowanie człowieka. W psychologii zdrowia zakłada się, że duża część chorób i przedwczesnych zgonów ma związek z zachowaniami, które w zasadzie są modyfikowalne. Zrozumienie mechanizmów psychologicznych stojących za stylem życia jest kluczem do skutecznej profilaktyki i promocji zdrowia.

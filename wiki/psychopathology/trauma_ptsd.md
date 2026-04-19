@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Trauma i PTSD
 
 Zaburzenie stresowe pourazowe — kryteria diagnostyczne, złożone PTSD i metody leczenia oparte na dowodach.

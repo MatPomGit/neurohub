@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Uzależnienia – aspekty psychologiczne
 
 Uzależnienie nie jest kwestią słabej woli ani złego charakteru – to chroniczne zaburzenie mózgu z komponentem behawioralnym, emocjonalnym i biologicznym, wymagające kompleksowego leczenia.

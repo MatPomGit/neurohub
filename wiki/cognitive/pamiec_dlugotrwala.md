@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Pamięć długotrwała
 
 Pamięć długotrwała (PDT, ang. *long-term memory*, LTM) — wielopoziomowy system przechowywania informacji o praktycznie nieograniczonej pojemności i czasie trwania, obejmujący zarówno świadome wspomnienia i wiedzę, jak i nieświadome nawyki oraz umiejętności. Odróżnia się od pamięci roboczej (krótkotrwałej) ze względu na mechanizmy kodowania, struktury mózgowe i trwałość śladów pamięciowych.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Baterie neuropsychologiczne
 
 Kompleksowe baterie neuropsychologiczne pozwalają ocenić wiele funkcji poznawczych w jednym, standaryzowanym protokole — tworząc pełny profil poznawczy pacjenta.

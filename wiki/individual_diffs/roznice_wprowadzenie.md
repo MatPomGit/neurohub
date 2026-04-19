@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychologia różnic indywidualnych — wprowadzenie
 
 Psychologia różnic indywidualnych bada, dlaczego ludzie różnią się między sobą w zakresie cech psychologicznych — inteligencji, osobowości, zdolności, wartości i stylów poznawczych — oraz jak te różnice powstają, jak są mierzone i co znaczą dla funkcjonowania jednostki.

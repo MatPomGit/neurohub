@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychosomatyka układu oddechowego
 
 Oddychanie jest wyjątkową funkcją ciała — jedyną autonomiczną (niezależną od woli), która równocześnie podlega świadomej kontroli. Układ oddechowy jest niezwykle wrażliwym czujnikiem stanów emocjonalnych i jednym z głównych narządów wyrażających reakcje psychosomatyczne.

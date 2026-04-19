@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Historia psychosomatyki
 
 Psychosomatyka jako sformalizowana dyscyplina liczy niespełna sto lat, lecz jej korzenie sięgają antycznych koncepcji medycznych, które nigdy nie rozdzielały ciała od duszy.

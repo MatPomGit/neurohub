@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Świadomość i metapoznanie
 
 Świadomość to najtrudniejszy problem nauki — "twarda zagadka", którą filozofowie i neuronaukowcy próbują rozwiązać od stuleci, bez ostatecznej odpowiedzi.

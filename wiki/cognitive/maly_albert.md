@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Eksperyment Małego Alberta
 
 Jeden z najbardziej znanych i najbardziej kontrowersyjnych eksperymentów w historii psychologii — pionierski dowód na to, że ludzki lęk może być wyuczony przez warunkowanie klasyczne.

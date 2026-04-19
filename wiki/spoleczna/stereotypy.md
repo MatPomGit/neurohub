@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Stereotypy i uprzedzenia
 
 Stereotypy, uprzedzenia i dyskryminacja to trzy powiązane, lecz odrębne zjawiska leżące w centrum zainteresowania psychologii społecznej. Stereotypy to uogólnione przekonania o grupach społecznych; uprzedzenia — emocjonalne postawy wobec nich; dyskryminacja — zachowania wynikające z tych postaw. Zrozumienie mechanizmów ich powstawania i utrwalania ma kluczowe znaczenie dla przeciwdziałania wykluczeniu społecznemu i budowania otwartych, sprawiedliwych społeczeństw.

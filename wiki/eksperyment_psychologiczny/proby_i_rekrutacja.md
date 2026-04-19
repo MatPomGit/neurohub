@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Dobór próby i rekrutacja
 
 Dobór próby decyduje o jakości wnioskowania i możliwości generalizacji wyników.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychoonkologia
 
 Psychoonkologia to obszar na styku onkologii i psychologii zdrowia, koncentrujący się na funkcjonowaniu psychicznym pacjentów z chorobą nowotworową, ich rodzin oraz zespołu leczącego.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Epidemiologia samobójstw
 
 Globalne i polskie dane dotyczące samobójstw — statystyki, czynniki ryzyka i demograficzne wzorce.

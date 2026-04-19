@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychologia zdrowia — wprowadzenie
 
 Psychologia zdrowia to dziedzina badająca, jak **myśli, emocje, zachowania i relacje społeczne** wpływają na zdrowie fizyczne, przebieg choroby i proces leczenia. Łączy perspektywę psychologiczną z medyczną, dlatego jest kluczowa zarówno w profilaktyce, jak i opiece nad osobami przewlekle chorymi.

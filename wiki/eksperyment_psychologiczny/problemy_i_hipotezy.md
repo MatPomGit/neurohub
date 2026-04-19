@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Problem badawczy i hipotezy
 
 Precyzyjne sformułowanie problemu badawczego decyduje o jakości całego eksperymentu. Jeśli pytanie jest niejasne, żaden etap downstream (pomiar, analiza, raport) nie naprawi projektu.

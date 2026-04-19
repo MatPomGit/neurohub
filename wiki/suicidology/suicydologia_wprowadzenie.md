@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Suicydologia — wprowadzenie
 
 Suicydologia to interdyscyplinarna nauka zajmująca się badaniem, rozumieniem, profilaktyką i leczeniem zachowań samobójczych oraz samookaleczeń. Łączy perspektywy psychiatrii, psychologii klinicznej, epidemiologii, socjologii, neurobiologii, etyki i zdrowia publicznego.

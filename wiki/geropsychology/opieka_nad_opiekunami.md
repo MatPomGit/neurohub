@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Opieka nad opiekunami osób starszych
 
 Opiekunowie nieformalni (najczęściej członkowie rodziny) są kluczowym filarem wsparcia seniorów. Długotrwała opieka wiąże się jednak z wysokim obciążeniem psychicznym, fizycznym i finansowym. W geropsychologii coraz częściej mówi się, że jakość opieki nad seniorem zależy bezpośrednio od jakości wsparcia udzielanego opiekunowi.

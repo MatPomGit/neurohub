@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Przyszłość e-terapii — trendy i wyzwania
 
 ## E-terapia na skrzyżowaniu technologii i humanizmu

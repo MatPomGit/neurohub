@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Stres i zdrowie
 
 Stres to psychofizjologiczna reakcja organizmu na wymagania, które są oceniane jako przekraczające dostępne zasoby. Sam w sobie nie jest wyłącznie „zły” — krótkoterminowo mobilizuje do działania. Problemem staje się **stres przewlekły**, który utrzymuje organizm w stanie długotrwałej aktywacji.

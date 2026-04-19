@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Efekt ramowania (Framing Effect)
 
 Efekt ramowania to zjawisko poznawcze polegające na tym, że sposób sformułowania lub przedstawienia informacji — *rama* — wpływa na oceny, preferencje i decyzje, nawet gdy logiczna treść przekazu pozostaje niezmieniona. Stanowi jeden z centralnych przykładów ograniczonej racjonalności i stanowi przełom w psychologii decyzji, komunikacji i polityce publicznej.

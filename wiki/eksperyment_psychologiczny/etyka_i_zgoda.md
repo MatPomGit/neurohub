@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Etyka badania i świadoma zgoda
 
 Etyka nie jest formalnością administracyjną, tylko warunkiem rzetelnej nauki. Uczestnik badania ma prawo do informacji, autonomii i bezpieczeństwa.

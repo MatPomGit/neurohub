@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Oś jelita–mózg (microbiome–gut–brain axis)
 
 Brzuch jest dosłownie naszym "drugim mózgiem" — a mikrobiom jelitowy okazuje się jednym z najbardziej zaskakujących odkryć neurobiologii ostatnich dekad.

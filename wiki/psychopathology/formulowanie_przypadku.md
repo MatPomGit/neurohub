@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Formułowanie przypadku klinicznego
 
 Formułowanie przypadku klinicznego (*case formulation*) to proces integrowania informacji o pacjencie — jego historii życia, objawach, mocnych stronach i trudnościach — w **spójny model wyjaśniający**, który uzasadnia wybór interwencji terapeutycznych i wyznacza kierunek leczenia. W odróżnieniu od diagnozy, która klasyfikuje, formułowanie *wyjaśnia*: dlaczego ta konkretna osoba doświadcza tych konkretnych trudności w tym konkretnym momencie życia.

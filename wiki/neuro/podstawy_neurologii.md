@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Podstawy neurologii
 
 Neurologia to dziedzina medycyny i neuronauki zajmująca się budową, funkcją oraz chorobami układu nerwowego. Zrozumienie jej podstaw jest niezbędne zarówno dla klinicystów, jak i badaczy psychologii i neuronauki.

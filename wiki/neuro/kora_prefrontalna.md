@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Kora przedczołowa
 
 Kora przedczołowa to evolutionarily youngest part of the brain — neuronowy substrat naszego człowieczeństwa: planowania, moralności, kontroli impulsów i tożsamości.

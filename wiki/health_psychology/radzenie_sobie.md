@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Radzenie sobie ze stresem (coping)
 
 **Coping** (radzenie sobie) to zbiór poznawczych i behawioralnych wysiłków, jakie osoba podejmuje, by opanować, zmniejszyć lub tolerować wymagania oceniane jako przekraczające jej zasoby. Pojęcie pochodzi od Lazarusa i Folkman (1984) i stanowi centralny element transakcyjnego modelu stresu.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Hipoterapia
 
 Hipoterapia (equine-assisted therapy, EAT) to forma terapii wspomaganej przez zwierzęta z udziałem koni. Jest najdłużej stosowaną i jedną z najlepiej udokumentowanych form animaloterapii, z szczególnymi zastosowaniami w rehabilitacji motorycznej, neuropsychologicznej i psychologicznej.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Hormony i zachowanie
 
 Hormony to chemiczni posłańcy wydzielani przez gruczoły dokrewne, przenoszone przez krew i wywierający wpływ na odległe tkanki, w tym mózg. Odgrywają kluczową rolę w regulacji zachowania, emocji, poznania i zdrowia psychicznego.

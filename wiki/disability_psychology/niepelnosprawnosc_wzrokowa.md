@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Niepełnosprawność wzrokowa
 
 **Niepełnosprawność wzrokowa** obejmuje szerokie spektrum stanów — od poważnego niedowidzenia do całkowitej ślepoty — wpływających na zdolność odbierania informacji wzrokowych. Według WHO za słabowidzenie uznaje się ostrość wzroku poniżej 0,3 (6/18) w lepszym oku po korekcji, a za ślepotę — ostrość poniżej 0,05 (3/60) lub pole widzenia zawężone do 10 stopni.

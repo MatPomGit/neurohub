@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Predictive Processing — mózg jako maszyna przewidująca
 
 Predictive processing (PP), zwane też *przetwarzaniem predyktywnym* lub *aktywnym wnioskodawstwem* (active inference), to współczesna teoria funkcjonowania mózgu, która odwraca tradycyjny model percepcji. Zamiast traktować mózg jako pasywny odbiornik bodźców, PP opisuje go jako **generator stałych przewidywań** o tym, co zdarzy się w świecie zewnętrznym i we własnym ciele — a rzeczywiste sygnały zmysłowe służą jedynie do korygowania tych przewidywań.

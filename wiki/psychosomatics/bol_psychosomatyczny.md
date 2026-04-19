@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Ból psychosomatyczny
 
 Ból jest z natury doświadczeniem biopsychospołecznym — nigdy nie jest „czysto fizyczny" ani „czysto psychiczny". Psychosomatyczne rozumienie bólu jest kluczem do efektywnego leczenia, szczególnie w przypadku bólu chronicznego.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Niepełnosprawność słuchowa
 
 **Niepełnosprawność słuchowa** obejmuje całkowity lub częściowy brak słyszenia, który wpływa na komunikację, uczenie się i uczestnictwo społeczne. Wyróżnia się głuchotę (hearing loss ≥ 90 dB) i niedosłuch różnego stopnia (lekki, umiarkowany, znaczny). Pod względem psychospołecznym kluczowe jest nie tylko nasilenie ubytku, lecz czas jego wystąpienia i kontekst kulturowy.

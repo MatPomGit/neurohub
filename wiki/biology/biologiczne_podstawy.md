@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Biologiczne podstawy zachowania — wprowadzenie
 
 Biologiczne podstawy zachowania to dziedzina badająca, w jaki sposób procesy biologiczne — genetyczne, ewolucyjne, neurochemiczne, hormonalne i neuroanatomiczne — determinują, modulują i ograniczają ludzkie zachowanie, emocje i procesy psychiczne. Łączy neurobiologię, genetykę behawioralną, endokrynologię, psychofizjologię i psychologię ewolucyjną.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Somatyzacja i zaburzenia somatyczne
 
 Somatyzacja to proces, w którym cierpienie psychiczne wyraża się poprzez objawy cielesne, których nie tłumaczy w pełni znana choroba organiczna. Jest jednym z najczęstszych i najtrudniejszych wyzwań diagnostycznych w medycynie.

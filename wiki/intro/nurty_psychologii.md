@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Główne nurty psychologii — mapa paradygmatów
 
 Psychologia rozwijała się jako nauka wieloparadygmatyczna: kolejne nurty nie tyle całkowicie zastępowały poprzednie, ile przesuwały akcenty metodologiczne i teoretyczne. Współczesna praktyka kliniczna i badawcza najczęściej integruje elementy kilku podejść jednocześnie, zależnie od pytania badawczego, typu problemu pacjenta i dostępnych dowodów empirycznych.

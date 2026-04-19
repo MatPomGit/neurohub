@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Przegląd literatury naukowej
 
 Przegląd literatury jest fundamentem każdej pracy naukowej. Pokazuje, że student zna dorobek dziedziny, potrafi krytycznie oceniać źródła i budować na podstawie wiedzy innych. Słaby przegląd literatury to najczęstszy powód negatywnych ocen recenzentów.

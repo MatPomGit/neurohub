@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Etyka badań naukowych w psychologii
 
 Etyka badań naukowych reguluje sposób, w jaki psychologowie projektują i przeprowadzają badania. Jej naruszenia — od historycznych skandali po współczesne problemy z integralnością danych — ukształtowały szeroki zestaw norm, procedur i instytucji mających chronić uczestników i wiarygodność nauki.

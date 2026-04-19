@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Podejście humanistyczne w psychoterapii
 
 Terapia skoncentrowana na kliencie, Gestalt i podejście egzystencjalne — nacisk na autonomię, autentyczność i wzrost.

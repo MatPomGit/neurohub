@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Genetyka behawioralna
 
 Genetyka behawioralna bada dziedziczne podłoże zachowania, osobowości, zdolności poznawczych i zaburzeń psychicznych. Łączy genetykę, psychologię i statystykę w celu wyjaśnienia, w jakim stopniu różnice między ludźmi wynikają z genów, a w jakim — ze środowiska.

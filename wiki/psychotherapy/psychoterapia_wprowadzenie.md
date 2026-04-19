@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychoterapia — wprowadzenie
 
 Psychoterapia to systematyczne, oparte na relacji oddziaływanie psychologiczne ukierunkowane na zmniejszenie cierpienia psychicznego, poprawę funkcjonowania i wspomaganie osobistego wzrostu. Odróżnia ją od innych form pomocy psychologicznej (poradnictwa, psychoedukacji, wsparcia) wyraźna teoria zmiany, systematyczna praca z mechanizmami leżącymi u podłoża trudności i zazwyczaj dłuższy czas trwania.

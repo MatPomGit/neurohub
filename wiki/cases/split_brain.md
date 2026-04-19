@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Pacjenci z rozdzielonym mózgiem
 
 Roger Sperry, Michael Gazzaniga i pacjenci po callosotomii — eksperymenty, które ujawniły, że w jednej czaszce mogą mieszkać dwie odrębne świadomości.

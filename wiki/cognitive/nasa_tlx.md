@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # NASA Task Load Index (NASA-TLX)
 
 NASA Task Load Index (NASA-TLX) to wielowymiarowa skala do pomiaru subiektywnego obciążenia pracą umysłową, opracowana w latach 80. XX wieku przez Sandrego G. Harta i Lowell E. Staveland w Ames Research Center NASA. Jest jednym z najszerzej stosowanych narzędzi w ergonomii poznawczej, psychologii lotniczej i inżynierii czynników ludzkich.

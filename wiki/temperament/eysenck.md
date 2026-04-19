@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Model Eysencka — ekstrawersja, neurotyzm i psychotyzm
 
 Model PEN Hansa Eysencka jest jedną z najbardziej wpływowych biologicznych teorii osobowości i temperamentu XX wieku, łączącą psychologię różnicową z neuronauką.

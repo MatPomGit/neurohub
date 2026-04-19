@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Układ siatkowaty a procesy poznawcze
 
 **Układ siatkowaty** (twór siatkowaty, *reticular formation*) to rozległa sieć jąder i połączeń w pniu mózgu. Pełni kluczową rolę w regulacji pobudzenia, czuwania i gotowości do przetwarzania bodźców, dlatego ma bezpośredni związek z uwagą i sprawnością poznawczą.

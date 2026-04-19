@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Animaloterapia — wprowadzenie
 
 Animaloterapia (terapia wspomagana przez zwierzęta, ang. *Animal-Assisted Therapy*, AAT) to ustrukturyzowana, ukierunkowana na cel interwencja terapeutyczna, w której zwierzę — najczęściej pies, koń, kot lub inne — jest integralną częścią procesu leczenia prowadzonego przez wykwalifikowanego terapeutę. Jest dziedziną rozwijającą się dynamicznie, zyskującą coraz silniejsze podstawy empiryczne i coraz szersze zastosowania kliniczne.

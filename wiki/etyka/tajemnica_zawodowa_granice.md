@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Tajemnica zawodowa i jej granice
 
 Tajemnica zawodowa psychologa jest jednym z fundamentów relacji terapeutycznej — bez gwarancji poufności klienci nie byliby skłonni do szczerego dzielenia się swoimi problemami. Jednocześnie prawo i etyka przewidują sytuacje, w których obowiązek milczenia ustępuje innym wartościom: ochronie życia, bezpieczeństwu dzieci czy wymogom wymiaru sprawiedliwości.

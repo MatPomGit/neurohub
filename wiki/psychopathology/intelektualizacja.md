@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Intelektualizacja własnego stanu psychicznego i emocji
 
 Intelektualizacja (*intellectualization*) to mechanizm obronny, w którym osoba reaguje na emocjonalnie bolesne lub zagrażające treści poprzez nadmierny, abstrakcyjny namysł intelektualny, dystansując się w ten sposób od subiektywnego, cielesnego doświadczenia emocji. Zamiast odczuwać lęk, żal, złość czy wstyd — myśli o nich, analizuje je, kategoryzuje i omawia na poziomie pojęciowym, pozbawiając je afektywnego ładunku. Intelektualizacja bywa adaptacyjna w ograniczonym zakresie (np. umożliwia lekarzom wykonywanie pracy w kontakcie z cierpieniem), lecz stosowana chroniczne i sztywno staje się poważną przeszkodą zarówno w rozwoju osobistym, jak i w psychoterapii.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Style rodzicielskie i wychowanie
 
 Rodzicielstwo jest jednym z najbardziej złożonych i badanych obszarów psychologii rozwojowej. Styl wychowania — rozumiany jako wzorzec postaw i zachowań rodzica wobec dziecka — ma udokumentowany wpływ na jego funkcjonowanie poznawcze, emocjonalne i społeczne. Poniższy artykuł omawia główne modele rodzicielstwa, ich determinanty i implikacje kliniczne.

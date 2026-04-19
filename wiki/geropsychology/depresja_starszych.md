@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Depresja u osób starszych
 
 Depresja jest jednym z najczęstszych i jednocześnie najpoważniej niedodiagnozowanych zaburzeń psychicznych u osób w podeszłym wieku. Szacuje się, że dotyczy 10–20% seniorów, a jej konsekwencje — obniżona jakość życia, pogorszenie funkcjonowania poznawczego, wyższe ryzyko zgonu — czynią ją kluczowym wyzwaniem geropsychologii klinicznej.

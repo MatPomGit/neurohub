@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Seminarium dyplomowe — wprowadzenie
 
 Seminarium dyplomowe to kluczowy etap studiów psychologicznych drugiego stopnia, w trakcie którego student samodzielnie realizuje projekt badawczy i przygotowuje pracę magisterską pod opieką promotora. Stanowi ono syntezę całej wiedzy metodologicznej, empirycznej i klinicznej zdobytej w toku studiów.

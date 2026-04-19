@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Samotność i izolacja społeczna w starości
 
 Samotność i izolacja społeczna należą do najpoważniejszych zagrożeń dla zdrowia psychicznego i fizycznego seniorów. Mimo że starość bywa stereotypowo utożsamiana z osamotnieniem, zjawisko to jest złożone: nie każdy senior jest samotny, a samotność nie jest nieuchronnym skutkiem starzenia się. Zrozumienie jej mechanizmów ma kluczowe znaczenie dla prewencji i interwencji.

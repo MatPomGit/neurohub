@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Kreatywność
 
 Kreatywność to zdolność do tworzenia idei, rozwiązań lub produktów, które są zarazem **nowe** (oryginalne, nieoczekiwane) i **wartościowe** (użyteczne, trafne, estetyczne). Jest jedną z najbardziej pożądanych ludzkich właściwości, a zarazem jedną z najtrudniejszych do zdefiniowania i mierzenia.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Zachowania prospołeczne
 
 Zachowania prospołeczne — działania ukierunkowane na dobro innych osób lub grup — stanowią fascynujący kontrast dla agresji i egoizmu w naturze ludzkiej. Altruizm, wolontariat, empatia i niesienie pomocy w sytuacjach kryzysowych od dziesięcioleci przykuwają uwagę psychologów. Paradoks polega na tym, że gatunek zdolny do okrucieństwa (Milgram, Zimbardo) jest jednocześnie zdolny do niezwykłej bezinteresowności — pytanie brzmi: kiedy, dlaczego i co sprawia, że pomagamy?

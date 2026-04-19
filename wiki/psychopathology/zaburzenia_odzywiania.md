@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Zaburzenia odżywiania
 
 Anoreksja, bulimia, napadowe objadanie się i ARFID — kryteria DSM-5, etiopatogeneza i leczenie.

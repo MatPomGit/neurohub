@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychodeliki w terapii
 
 Substancje, które przez dekady były zakazane i stygmatyzowane, przeżywają renesans naukowy — badania kliniczne wykazują ich wyjątkowy potencjał terapeutyczny w depresji, uzależnieniach i lęku egzystencjalnym.

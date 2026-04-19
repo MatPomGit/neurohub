@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Przyjaźń — psychologia bliskich relacji nieromantycznych
 
 Przyjaźń jest jedną z fundamentalnych form bliskiej relacji ludzkiej, pełniącą kluczowe funkcje dla dobrostanu psychicznego i fizycznego przez całe życie.

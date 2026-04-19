@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Wsparcie społeczne
 
 Wsparcie społeczne to zasoby otrzymywane od innych ludzi, które pomagają radzić sobie ze stresem, chorobą i codziennymi wyzwaniami. W psychologii zdrowia jest jednym z najsilniejszych czynników ochronnych.

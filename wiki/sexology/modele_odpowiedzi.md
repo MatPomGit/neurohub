@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Modele odpowiedzi seksualnej
 
 Jak działa ludzkie podniecenie seksualne? Od klasycznego modelu liniowego Mastersa i Johnson przez rewolucyjny model Basson — rozumienie odpowiedzi seksualnej zrewolucjonizowało diagnozę i leczenie dysfunkcji seksualnych.

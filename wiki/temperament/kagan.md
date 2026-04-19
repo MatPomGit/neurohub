@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Temperament Kagana — zahamowanie behawioralne i inhibicja
 
 Jerome Kagan zidentyfikował **zahamowanie behawioralne** jako jeden z najstabilniejszych i najlepiej przebadanych wymiarów temperamentu wczesnodziecięcego, powiązany z biologiczną reaktywnością i długoterminowym ryzykiem lękowym.

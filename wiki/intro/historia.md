@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Historia neuropsychologii
 
 Od frenologii Galla przez odkrycia Broki i Wernickego po współczesne metody neuroobrazowania — jak zmieniało się rozumienie mózgu i umysłu.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Aleksytymia
 
 Aleksytymia (gr. *a* — brak, *lexis* — słowo, *thymos* — uczucie) to konstrukt opisujący trudność w rozpoznawaniu, nazywaniu i rozróżnianiu własnych emocji. Jest jednym z kluczowych pojęć psychosomatyki — stanowi pomost między doświadczeniem emocjonalnym a somatyzacją.

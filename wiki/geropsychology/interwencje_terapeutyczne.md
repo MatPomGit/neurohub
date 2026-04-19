@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Interwencje terapeutyczne w geropsychologii
 
 Interwencje terapeutyczne dla osób starszych obejmują działania psychologiczne i psychospołeczne, które mają poprawiać dobrostan, zmniejszać objawy zaburzeń psychicznych i wspierać codzienne funkcjonowanie. Kluczowa jest indywidualizacja: plan pomocy powinien uwzględniać stan zdrowia somatycznego, funkcje poznawcze, kontekst rodzinny i cele życiowe seniora.

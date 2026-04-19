@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Skale i akronimy diagnostyczne — szybka ściąga
 
 Ten materiał porządkuje najczęściej używane skróty testów i skal spotykanych w diagnozie psychologicznej, klinicznej i neuropsychologicznej.

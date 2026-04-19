@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Mechanizmy działania arteterapii
 
 Arteterapia to nie "malowanie jako relaks" — za jej skutecznością stoją konkretne neurobiologiczne i psychologiczne mechanizmy, które wyjaśniają, dlaczego tworzenie może leczyć.

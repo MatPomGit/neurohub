@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Pomiar temperamentu
 
 Kwestionariuszowe i obserwacyjne narzędzia do oceny temperamentu — od FCZ-KT po EAS-TS i DOTS.

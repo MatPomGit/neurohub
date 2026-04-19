@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Terapia seksualna
 
 Metody psychologicznej pomocy w problemach seksualnych — od Masters i Johnson po współczesne podejścia integracyjne.

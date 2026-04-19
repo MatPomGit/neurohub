@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Narzędzia kliniczne: PHQ-9, GAD-7, PCL-5
 
 Kwestionariusze przesiewowe i diagnostyczne stanowią nieodłączny element praktyki klinicznej. **PHQ-9**, **GAD-7** i **PCL-5** to trzy spośród najszerzej stosowanych, naukowo zwalidowanych narzędzi samooceny, służących odpowiednio do oceny nasilenia depresji, lęku uogólnionego i objawów PTSD. Łączą wysoką czułość i swoistość z krótkim czasem wypełnienia — co czyni je narzędziami możliwymi do zastosowania rutynowo w każdym kontakcie klinicznym.

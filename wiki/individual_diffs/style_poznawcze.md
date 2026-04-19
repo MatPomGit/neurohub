@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Style poznawcze
 
 Style poznawcze opisują indywidualne preferencje w przetwarzaniu informacji — nie zdolności (co ktoś może), lecz sposoby (jak ktoś to robi).

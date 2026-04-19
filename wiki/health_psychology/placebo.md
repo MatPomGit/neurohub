@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Efekt placebo w psychologii zdrowia
 
 **Efekt placebo** to korzystna zmiana objawów wynikająca nie z działania substancji czynnej, lecz z kontekstu leczenia: oczekiwań pacjenta, relacji terapeutycznej, rytuału medycznego i znaczenia nadawanego interwencji.

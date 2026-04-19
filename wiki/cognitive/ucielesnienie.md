@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Ucieleśnione poznanie (Embodied Cognition)
 
 Ucieleśnione poznanie (*embodied cognition*) to paradygmat badawczy w psychologii i naukach kognitywnych, który zakłada, że procesy poznawcze — myślenie, język, pamięć, emocje — są **zakorzenione w strukturze i działaniu ciała**, a nie jedynie w abstrakcyjnych reprezentacjach neuronalnych. Ciało nie jest biernym nośnikiem mózgu, lecz aktywnym uczestnikiem procesu poznania: stany motoryczne, percepcja zmysłowa i usytuowanie w środowisku fizycznym kształtują treść i przebieg myśli.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Phineas Gage
 
 Człowiek, który przeżył przebicie mózgu prętem żelaznym — i którego przypadek po raz pierwszy pokazał, że kora czołowa jest siedliskiem osobowości.

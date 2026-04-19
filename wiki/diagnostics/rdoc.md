@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Model RDoC w diagnozie psychologicznej i neuropsychologicznej
 
 Research Domain Criteria (RDoC) to oparty na neurobiologii i nauce o zachowaniu ramowy system klasyfikacji zaburzeń psychicznych, opracowany przez National Institute of Mental Health (NIMH) jako alternatywa wobec kategorycznych systemów DSM i ICD. Artykuł stanowi wyczerpujące omówienie modelu przeznaczone dla psychologów klinicznych, neuropsychologów, psychiatrów i badaczy zdrowia psychicznego.

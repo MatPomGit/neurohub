@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Demencja i choroby neurodegeneracyjne
 
 Demencja (otępienie) to zespół objawów charakteryzujący się postępującym pogorszeniem funkcji poznawczych, które zaburza codzienne funkcjonowanie. Jest jednym z najważniejszych wyzwań geropsychologii klinicznej i zdrowia publicznego — zarówno ze względu na skalę zjawiska, jak i wielowymiarowy wpływ na pacjentów i ich rodziny.
