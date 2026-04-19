@@ -566,6 +566,33 @@ function renderPlans(items, currentId) {
   </div>`;
 }
 
+/* Zwraca znormalizowaną etykietę tekstową dla pól, które mogą nie mieć danych. */
+function renderToolField(value, missingLabel) {
+  const cleanedValue = typeof value === 'string' ? value.trim() : value;
+  if (!cleanedValue) return `<span class="tool-missing">${q(missingLabel)}</span>`;
+  return q(cleanedValue);
+}
+
+/* Buduje zestaw ostrzeżeń dla narzędzia, jeśli wymaga licencji lub uprawnień. */
+function renderToolWarnings(tool) {
+  const warnings = [];
+  const license = (tool.license || '').trim();
+  const requiresPermissions = Boolean(tool.requiresPermissions);
+
+  if (!license || license === 'do_ustalenia') {
+    warnings.push('Licencja nieokreślona');
+  } else if (license === 'komercyjna' || license === 'instytucjonalna') {
+    warnings.push('Wymaga licencji');
+  }
+
+  if (requiresPermissions) {
+    warnings.push('Wymaga uprawnień');
+  }
+
+  if (warnings.length === 0) return '';
+  return `<div class="measurement-tool-alerts">${warnings.map(text => `<span class="tool-alert-badge">${q(text)}</span>`).join('')}</div>`;
+}
+
 /* Renderuje sekcję narzędzi pomiarowych dla aktualnej dziedziny wraz ze stanem pustym. */
 function renderMeasurementTools(domainKey, currentId) {
   const tools = (SITE_CONFIG.measurementToolsByDomain || {})[domainKey];
@@ -588,16 +615,37 @@ function renderMeasurementTools(domainKey, currentId) {
         }).join('')
       : '<span class="tool-link is-missing">Brak</span>';
 
+    const methodologyLinks = Array.isArray(tool.methodologyLinks)
+      ? tool.methodologyLinks.map(articleId => {
+          const article = pageMap.get(articleId);
+          const label = article?.label || articleId;
+          const isCurrent = articleId === currentId;
+          if (isCurrent) return `<span class="tool-link is-current">${q(label)}</span>`;
+          if (!article) return `<span class="tool-link is-missing">${q(label)}</span>`;
+          return `<button type="button" class="tool-link" onclick="navigate('${articleId}')">${q(label)}</button>`;
+        }).join('')
+      : '<span class="tool-link is-missing">Brak</span>';
+
+    const warningsHtml = renderToolWarnings(tool);
+
     return `<article class="plan-item live measurement-tool-card">
       <div class="plan-dot live"></div>
       <div class="measurement-tool-body">
         <h3 class="measurement-tool-name">${q(tool.name || 'Narzędzie bez nazwy')}</h3>
+        ${warningsHtml}
         <div class="measurement-tool-meta"><strong>Typ:</strong> ${q(tool.type || '—')}</div>
         <div class="measurement-tool-meta"><strong>Mierzone konstrukty:</strong> ${q((tool.constructs || []).join(', ') || '—')}</div>
         <div class="measurement-tool-meta"><strong>Czas badania:</strong> ${q(tool.administrationTime || '—')}</div>
         <div class="measurement-tool-meta"><strong>Grupa docelowa:</strong> ${q(tool.population || '—')}</div>
-        <div class="measurement-tool-meta"><strong>Status licencji:</strong> ${q(tool.license || '—')}</div>
+        <div class="measurement-tool-meta"><strong>Rzetelność:</strong> ${renderToolField(tool.reliability, 'brak danych o rzetelności')}</div>
+        <div class="measurement-tool-meta"><strong>Trafność:</strong> ${renderToolField(tool.validity, 'brak danych o trafności')}</div>
+        <div class="measurement-tool-meta"><strong>Normy:</strong> ${renderToolField(tool.normsInfo, 'brak danych o normach')}</div>
+        <div class="measurement-tool-meta"><strong>Ograniczenia:</strong> ${renderToolField(tool.limitations, 'brak danych o ograniczeniach')}</div>
+        <div class="measurement-tool-meta"><strong>Uwagi etyczne:</strong> ${renderToolField(tool.ethicalNotes, 'brak danych etycznych')}</div>
+        <div class="measurement-tool-meta"><strong>Przeciwwskazania:</strong> ${renderToolField(tool.contraindications, 'brak danych o przeciwwskazaniach')}</div>
+        <div class="measurement-tool-meta"><strong>Status licencji:</strong> ${renderToolField(tool.license === 'do_ustalenia' ? '' : tool.license, 'licencja nieokreślona')}</div>
         <div class="measurement-tool-links"><strong>Powiązane artykuły:</strong> ${relatedLinks}</div>
+        <div class="measurement-tool-links"><strong>Artykuły metodologiczne:</strong> ${methodologyLinks}</div>
       </div>
     </article>`;
   }).join('');
@@ -605,6 +653,7 @@ function renderMeasurementTools(domainKey, currentId) {
   return `<div class="plans-section measurement-tools-section">
     <h2>Narzędzia pomiarowe</h2>
     <div class="plans-grid measurement-tools-grid">${rows}</div>
+    <p class="measurement-tools-footer">Materiał edukacyjny, nie instrukcja samodzielnej diagnozy.</p>
   </div>`;
 }
 

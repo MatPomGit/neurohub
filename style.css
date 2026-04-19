@@ -713,6 +713,25 @@ em{color:var(--goldl)}
 .plan-badge:is(.is-empty,.empty){background:rgba(184,107,123,.15);color:var(--rose);border-color:rgba(184,107,123,.3)}
 .plan-item:is(.is-empty,.empty) .plan-label{color:var(--t2)}
 
+/* KOMPONENTY: sekcja narzędzi pomiarowych i ostrzeżeń jakości danych. */
+.measurement-tool-alerts{display:flex;flex-wrap:wrap;gap:.4rem;margin:.2rem 0 .55rem}
+.tool-alert-badge{
+  display:inline-flex;align-items:center;
+  font-size:.66rem;font-weight:700;letter-spacing:.02em;text-transform:uppercase;
+  color:#ffd8b0;background:rgba(184,107,20,.22);border:1px solid rgba(184,107,20,.46);
+  border-radius:999px;padding:.12rem .5rem;
+}
+.tool-missing{color:var(--rose);font-style:italic}
+.measurement-tools-footer{
+  margin-top:1rem;
+  padding:.7rem .85rem;
+  border:1px dashed rgba(184,107,123,.35);
+  border-radius:10px;
+  font-size:.82rem;
+  color:var(--t2);
+  background:rgba(184,107,123,.08);
+}
+
 /* ═══════════════════════════════════════════
    RESPONSIVE
 ═══════════════════════════════════════════ */
