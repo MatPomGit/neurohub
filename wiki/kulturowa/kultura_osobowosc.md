@@ -120,3 +120,16 @@ Osobowość jest zarówno biologicznie zakorzeniona, jak i kulturowo ukształtow
 - Nisbett, R. E., & Cohen, D. (1996). *Culture of Honor: The Psychology of Violence in the South*. Westview Press.
 - Benet-Martínez, V., & Haritatos, J. (2005). Bicultural Identity Integration (BII): Components and psychosocial antecedents. *Journal of Personality, 73*(4), 1015–1050.
 - Triandis, H. C. (1995). *Individualism and Collectivism*. Westview Press.
+
+---
+
+## Co to oznacza dla testów osobowości?
+
+W praktyce diagnostycznej różnice kulturowe wymagają ostrożności w interpretacji wyników kwestionariuszy. Ten sam wynik surowy może mieć odmienne znaczenie adaptacyjne zależnie od norm społecznych, stylu komunikacji i kontekstu roli.
+
+Rekomendowane działania:
+- używanie lokalnych norm, gdy są dostępne,
+- raportowanie ograniczeń trafności kulturowej narzędzia,
+- łączenie samoopisu z danymi jakościowymi (wywiad, obserwacja, narracja biograficzna).
+
+Takie podejście wzmacnia trafność kliniczną i ogranicza ryzyko nadmiernej patologizacji odmienności kulturowej.

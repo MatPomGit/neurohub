@@ -116,3 +116,21 @@ Takie podejście minimalizuje ryzyko *imposed etic* przy zachowaniu możliwości
 - Henrich, J., Heine, S. J., & Norenzayan, A. (2010). The weirdest people in the world? *Behavioral and Brain Sciences, 33*(2–3), 61–83.
 - Pike, K. L. (1954). *Language in Relation to a Unified Theory of the Structure of Human Behavior*. Summer Institute of Linguistics.
 - Van de Vijver, F. J. R., & Leung, K. (1997). *Methods and Data Analysis for Cross-Cultural Research*. Sage.
+
+---
+
+## Dobre praktyki projektowania badań międzykulturowych
+
+Aby łączyć trafność kulturową z porównywalnością wyników, warto planować badania sekwencyjnie:
+
+1. **Etap emic (eksploracyjny):** identyfikacja lokalnych kategorii znaczeń, idiomów i norm.
+2. **Etap etic (porównawczy):** budowa części wspólnej pomiaru między grupami.
+3. **Etap integracyjny:** testowanie równoważności pomiarowej i jakościowa interpretacja różnic.
+
+W praktyce oznacza to również konieczność dokumentowania decyzji translatorskich (np. *forward-back translation*), konsultacji z ekspertami kulturowymi oraz pilotażu narzędzi przed badaniem właściwym.
+
+### Najczęstsze błędy metodologiczne
+
+- Traktowanie tłumaczenia jako pełnej adaptacji kulturowej.
+- Porównywanie średnich bez sprawdzenia inwariancji pomiaru.
+- Pomijanie zmiennych kontekstowych (migracja, status mniejszościowy, normy religijne).

@@ -128,3 +128,16 @@ Wyniki są jednak wrażliwe na skalę i kontekst badania — pojawia się kwesti
 - Markus, H. R., & Kitayama, S. (1991). Culture and the self: Implications for cognition, emotion, and motivation. *Psychological Review, 98*(2), 224–253.
 - Schmitt, D. P., & Allik, J. (2005). Simultaneous administration of the Rosenberg Self-Esteem Scale in 53 nations. *Journal of Personality and Social Psychology, 89*(4), 623–642.
 - Twenge, J. M., & Crocker, J. (2002). Race and self-esteem: Meta-analyses comparing White, Black, Hispanic, Asian, and American Indian and comment on Gray-Little and Hafdahl (2000). *Psychological Bulletin, 128*(3), 371–408.
+
+---
+
+## Implikacje kliniczne i psychoterapeutyczne
+
+Różnice w modelach Ja wpływają na to, jak klienci definiują problem i cele terapii. W kontekstach bardziej współzależnych trudność psychiczna bywa opisywana jako zaburzenie harmonii relacyjnej, nie zaś wyłącznie „problem wewnętrzny jednostki”.
+
+Dlatego użyteczne jest:
+- negocjowanie celów terapii z uwzględnieniem rodziny i sieci wsparcia,
+- elastyczne łączenie interwencji skoncentrowanych na autonomii z interwencjami relacyjnymi,
+- unikanie patologizowania stylów Ja odmiennych od normy zachodniej.
+
+Kulturowo świadoma praca nad tożsamością zwiększa przymierze terapeutyczne i skuteczność oddziaływań.

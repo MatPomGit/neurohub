@@ -106,3 +106,11 @@ Kultura kształtuje emocje na wielu poziomach jednocześnie: wpływa na to, któ
 - Matsumoto, D. (1990). Cultural similarities and differences in display rules. *Motivation and Emotion, 14*(3), 195–214.
 - Mesquita, B. (2021). *Between Us: How Cultures Create Emotions*. W. W. Norton.
 - Tracy, J. L., & Robins, R. W. (2008). The nonverbal expression of pride: Evidence for cross-cultural recognition. *Journal of Personality and Social Psychology, 94*(3), 516–530.
+
+---
+
+## Regulacja emocji a normy kulturowe
+
+Kultura wpływa nie tylko na to, **co** ludzie czują, ale też **jak** regulują emocje. W części kultur większą wartość ma kontrola i modulacja ekspresji (np. dla utrzymania harmonii), a w innych autentyczne ujawnianie stanu wewnętrznego traktowane jest jako wskaźnik szczerości i zdrowia psychicznego.
+
+Wniosek praktyczny dla psychologów: strategie regulacji należy oceniać kontekstowo. Ta sama strategia (np. tłumienie ekspresji) może być nieadaptacyjna w jednym środowisku, a funkcjonalna społecznie w innym.

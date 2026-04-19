@@ -122,3 +122,17 @@ Akulturacja jest wielowymiarowym, dynamicznym procesem, który nie przebiega lin
 - Phinney, J. S. (2003). Ethnic identity and acculturation. In K. M. Chun, P. B. Organista, & G. Marín (Eds.), *Acculturation: Advances in Theory, Measurement, and Applied Research* (pp. 63–81). APA.
 - Redfield, R., Linton, R., & Herskovits, M. J. (1936). Memorandum for the study of acculturation. *American Anthropologist, 38*(1), 149–152.
 - Sam, D. L., & Berry, J. W. (2010). Acculturation: When individuals and groups of different cultural backgrounds meet. *Perspectives on Psychological Science, 5*(4), 472–481.
+
+---
+
+## Czynniki ochronne i czynniki ryzyka w akulturacji
+
+Przebieg akulturacji zależy od interakcji cech jednostki i warunków społecznych. Do kluczowych **czynników ochronnych** należą:
+
+- stabilna sieć wsparcia (rodzina, diaspora, instytucje lokalne),
+- kompetencja językowa w języku kraju przyjmującego,
+- możliwość podtrzymywania tożsamości kultury pochodzenia bez stygmatyzacji.
+
+Do istotnych **czynników ryzyka** zalicza się natomiast przewlekłą dyskryminację, niepewność prawną, izolację społeczną i bariery dostępu do opieki psychicznej.
+
+W praktyce interwencje powinny łączyć wsparcie indywidualne z działaniami systemowymi (szkoła, miejsce pracy, polityka lokalna).

@@ -101,3 +101,16 @@ Hipoteza Sapira-Whorfa w swej słabej, empirycznie umiarkowanej wersji zyska trw
 - Sapir, E. (1929). The status of linguistics as a science. *Language, 5*(4), 207–214.
 - Winawer, J., Witthoft, N., Frank, M. C., Wu, L., Wade, A. R., & Boroditsky, L. (2007). Russian blues reveal effects of language on color discrimination. *PNAS, 104*(19), 7780–7785.
 - Whorf, B. L. (1956). *Language, Thought, and Reality: Selected Writings of Benjamin Lee Whorf*. MIT Press.
+
+---
+
+## Znaczenie dla komunikacji klinicznej
+
+Relatywizm językowy ma wymiar praktyczny: sposób zadawania pytań może zmieniać jakość danych klinicznych. Terminy emocjonalne, opisy cierpienia i metafory ciała nie zawsze mają pełne odpowiedniki między językami.
+
+Dlatego w diagnozie i terapii warto:
+- pytać o „własne słowa” klienta opisujące doświadczenie,
+- sprawdzać znaczenie kluczowych pojęć zamiast zakładać ich równoważność,
+- korzystać z tłumaczeń kontekstowych, a nie wyłącznie dosłownych.
+
+Redukuje to ryzyko błędnej konceptualizacji problemu i wzmacnia precyzję interwencji.
