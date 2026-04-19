@@ -1,57 +1,49 @@
 ---
-lastReviewed: 2026-04-01
+lastReviewed: 2026-04-19
 reviewCycleMonths: 24
 evidenceCutoffDate: 2025-12-31
 ---
 
 # Dobór próby i rekrutacja
 
-Dobór próby decyduje o jakości wnioskowania i możliwości generalizacji wyników.
+## Wprowadzenie i kontekst
+Dobór próby określa granice generalizacji wyników. Nawet metodologicznie poprawny eksperyment może mieć ograniczoną wartość, jeśli rekrutacja jest stronnicza lub niedostatecznie udokumentowana.
 
-## Krok 1: populacja docelowa
+## Definicje kluczowych pojęć
+- **Populacja docelowa** – grupa, do której odnosimy wnioski.
+- **Kryteria włączenia/wyłączenia** – jawne warunki kwalifikacji uczestnika.
+- **Moc statystyczna** – prawdopodobieństwo wykrycia rzeczywistego efektu.
+- **Dropout** – utrata uczestników w trakcie badania.
 
-Najpierw określ, do kogo mają odnosić się wnioski:
+## Mechanizmy i zależności
+Wielkość i skład próby zależą od:
+1. Hipotez oraz planowanego modelu analitycznego.
+2. Oczekiwanej wielkości efektu.
+3. Poziomu heterogeniczności populacji.
+4. Ryzyka dropout i non-response.
 
-- studenci, pracownicy, populacja kliniczna,
-- określony przedział wieku,
-- konkretne kryteria funkcjonalne.
+Zbyt mała próba obniża moc, a zbyt jednorodna próba ogranicza trafność zewnętrzną.
 
-## Krok 2: kryteria włączenia i wyłączenia
+## Dobra praktyka
+Przykład dobrej praktyki: zespół publikuje plan rekrutacji, uzasadnienie liczebności (analysis power), harmonogram monitorowania dropout oraz procedurę wyrównywania nierówności między grupami.
 
-Przykładowe kryteria:
+**Konsekwencje:** wyższa przejrzystość i większa wiarygodność generalizacji.
 
-- znajomość języka badania,
-- brak przeciwwskazań neurologicznych/psychiatrycznych (jeśli wymagane),
-- brak równoległego udziału w podobnym eksperymencie.
+## Zła praktyka (częsty błąd)
+Przykład złej praktyki: „dogodnościowa” rekrutacja bez opisu jej ograniczeń i kończenie zbierania danych po uzyskaniu pierwszych istotnych wyników.
 
-Kryteria muszą być zapisane **przed** rekrutacją.
+**Konsekwencje:** ryzyko stronniczości selekcyjnej i niestabilne estymacje efektu.
 
-## Krok 3: wielkość próby
+## Perspektywa nieoczywista
+Często uważa się, że reprezentatywność jest wyłącznie problemem badań populacyjnych. W eksperymentach mechanistycznych również ma znaczenie: różnorodność próby może ujawnić moderatory efektu, które w homogenicznej grupie pozostają niewidoczne.
 
-Wielkość próby uzasadnij analizą mocy. Jeśli nie masz danych do estymacji efektu, użyj:
+## Podsumowanie
+- Rekrutacja jest elementem metodologii, nie tylko logistyki.
+- Kluczowe są: jawne kryteria, plan mocy i monitoring utraty uczestników.
+- Transparentny opis ograniczeń próby zwiększa wartość interpretacyjną badania.
 
-- pilotażu,
-- metaanaliz,
-- konserwatywnych założeń.
-
-W raporcie podaj, jakie parametry przyjęto (alfa, moc, efekt).
-
-## Krok 4: strategia rekrutacji
-
-- uczelnia i mailingi,
-- media społecznościowe,
-- partnerzy instytucjonalni,
-- panele badawcze.
-
-W komunikacji unikaj języka, który może wprowadzać oczekiwania co do „właściwego” wyniku.
-
-## Reprezentatywność i ograniczenia
-
-Każda próba ma ograniczenia. Ważne, by je jawnie raportować, zamiast ukrywać.
-
-## Checklist rekrutacyjny
-
-- [ ] Kryteria są publiczne i spójne.
-- [ ] Plan liczebności jest uzasadniony.
-- [ ] Proces doboru jest udokumentowany.
-- [ ] Zespół monitoruje dropout i non-response.
+## Bibliografia
+1. Cohen, J. (1988). *Statistical Power Analysis for the Behavioral Sciences* (2nd ed.). Erlbaum.
+2. Lakens, D. (2022). Sample size justification. *Collabra: Psychology, 8*(1), 33267.
+3. Sim, J., & Lewis, M. (2012). The size of a pilot study. *Journal of Evaluation in Clinical Practice, 18*(4), 912–919.
+4. Westland, J. C. (2010). Lower bounds on sample size in structural equation modeling. *Electronic Commerce Research and Applications, 9*(6), 476–487.

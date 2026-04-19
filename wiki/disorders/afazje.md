@@ -1,31 +1,50 @@
 ---
-lastReviewed: 2026-04-01
+lastReviewed: 2026-04-19
 reviewCycleMonths: 24
 evidenceCutoffDate: 2025-12-31
 ---
 
 # Afazje
 
-Nabyte zaburzenia językowe po uszkodzeniu mózgu — klasyfikacja, objawy, lokalizacja i rehabilitacja.
+## Wprowadzenie i kontekst
+Afazja to nabyte zaburzenie języka wynikające z uszkodzenia mózgu, najczęściej po udarze lewej półkuli. Obraz kliniczny bywa niejednorodny, dlatego współczesna diagnoza łączy klasyczne typologie z podejściem sieciowym.
 
-## Czym jest afazja?
+## Definicje kluczowych pojęć
+- **Afazja** – zaburzenie rozumienia i/lub produkcji języka po uszkodzeniu OUN.
+- **Anomia** – trudność w nazywaniu obiektów i doborze słów.
+- **Agramatyzm** – uproszczenie struktury składniowej wypowiedzi.
+- **Powtarzanie** – zdolność reprodukcji usłyszanych słów i zdań.
 
-*Afazja* to nabyte zaburzenie zdolności językowych spowodowane uszkodzeniem mózgu (najczęściej udar, uraz, guz). Nie jest to zaburzenie inteligencji — pacjent zachowuje wcześniejszą wiedzę i umiejętności pozajęzykowe.
+## Mechanizmy i zależności
+Profil afazji zależy od lokalizacji i rozległości uszkodzenia oraz od stanu sieci połączeń istoty białej. Ocena powinna obejmować:
+1. Płynność mowy.
+2. Rozumienie.
+3. Powtarzanie.
+4. Nazywanie.
+5. Czytanie i pisanie.
 
-> Najczęstszą przyczyną afazji jest **udar niedokrwienny mózgu**. Lateralizacja języka do lewej półkuli oznacza, że afazja najczęściej występuje po uszkodzeniu lewej półkuli (prawa hemiplegia).
+Klasyczne podtypy (Broki, Wernickego, przewodzenia, globalna, anomiczna) są użyteczne, ale nie wyczerpują złożoności przypadków mieszanych.
 
-## Klasyfikacja afazji
+## Dobra praktyka
+Przykład dobrej praktyki: diagnoza oparta na standaryzowanej baterii językowej i regularnym monitoringu postępów terapii logopedycznej w pierwszych miesiącach po incydencie.
 
-**Afazja Broki (niepłynna, motoryczna, ekspresyjna)** — mowa niepłynna, telegraficzna, agramatyczna (opuszczanie spójników, przyimków), wysiłkowa, ale z zachowanym rozumieniem. Lokalizacja: obszar Broki (BA 44/45), lewy dolny zakręt czołowy.
+**Konsekwencje:** precyzyjniejsze cele rehabilitacji i lepsza prognoza funkcjonalna.
 
-**Afazja Wernickego (płynna, sensoryczna, receptywna)** — mowa płynna, ale nonsensowna (słowotok), głęboko zaburzone rozumienie, brak świadomości deficytu (anosognozja). Lokalizacja: obszar Wernickego (BA 22), lewy tylny zakręt skroniowy.
+## Zła praktyka (częsty błąd)
+Przykład złej praktyki: ograniczanie oceny do krótkiej rozmowy klinicznej bez testów rozumienia i powtarzania.
 
-**Afazja globalna** — najcięższa forma, zaburzone wszystkie funkcje językowe. Duże uszkodzenie obszarów językowych lewej półkuli.
+**Konsekwencje:** ryzyko mylnej klasyfikacji i niedopasowania terapii.
 
-**Afazja anomiczna** — dominujący deficyt to niemożność znalezienia słów (anomia). Mowa płynna z częstymi przerwami i opisami zastępczymi.
+## Perspektywa nieoczywista
+W praktyce często koncentruje się na deficytach językowych, pomijając czynniki psychospołeczne. Alternatywnie rehabilitacja powinna obejmować także funkcjonowanie komunikacyjne w codziennym środowisku, wsparcie rodziny i trening strategii kompensacyjnych.
 
-**Afazja przewodzenia** — zaburzone powtarzanie przy zachowanym mówieniu spontanicznym i rozumieniu. Lokalizacja: uszkodzenie *pęczka łukowatego* łączącego Brokę z Wernickego.
+## Podsumowanie
+- Afazja to zaburzenie sieci językowych, nie tylko pojedynczego „ośrodka mowy”.
+- Największe korzyści daje wczesna i intensywna rehabilitacja.
+- Ocena kliniczna powinna łączyć testy formalne z obserwacją komunikacji funkcjonalnej.
 
-## Rehabilitacja afazji
-
-Najlepsze efekty osiąga się w **pierwszych 3–6 miesiącach** po udarze, gdy plastyczność mózgu jest największa. Stosuje się terapię logopedyczną, *Melodic Intonation Therapy (MIT)*, terapię komputerową oraz stymulację mózgu (tDCS/TMS).
+## Bibliografia
+1. Brady, M. C., et al. (2016). Speech and language therapy for aphasia following stroke. *Cochrane Database of Systematic Reviews, 6*, CD000425.
+2. Damasio, A. R. (1992). Aphasia. *New England Journal of Medicine, 326*(8), 531–539.
+3. Fridriksson, J., et al. (2018). Anatomy of aphasia revisited. *Brain, 141*(3), 848–862.
+4. Kertesz, A. (2007). *Western Aphasia Battery – Revised*. Pearson.
