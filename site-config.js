@@ -185,12 +185,15 @@ window.SITE_CONFIG = {
 
   // Domeny obecne w serwisie, dla ktorych wpisy narzedzi pomiarowych sa jeszcze nieuzupelnione.
   measurementToolsTodoDomains: [
-    'intro', 'students', 'philosophy', 'biology', 'rozwojowa', 'kulturowa', 'uzaleznienia',
-    'relacje', 'etyka', 'diagnoza', 'emotions', 'podstawy_pomocy', 'temperament', 'personality',
-    'cognitive', 'learning', 'health_psychology', 'sport', 'forensic', 'work_psychology',
-    'education', 'clinical', 'psychopathology', 'therapy', 'methodology', 'stats', 'psychiatry',
-    'sexology', 'ai_psychology', 'history', 'nvc', 'ppd', 'disability_psychology', 'geropsychology',
-    'neurodiversity', 'crisis', 'psychoanalysis', 'mindfulness', 'zawod_psychologa', 'new_page'
+    'affective_robotics', 'ai_psychology', 'animaltherapy', 'artetherapy', 'biology', 'cases',
+    'cognitive', 'diagnoza', 'disability_psychology', 'e_therapy', 'eksperyment_psychologiczny',
+    'emotions', 'etyka', 'forensic_psychology', 'game_psychology', 'geropsychology',
+    'health_psychology', 'individual_diffs', 'intro', 'kulturowa', 'media_nature',
+    'neurodiversity', 'nvc', 'pharmacology', 'philosophy', 'podstawy_pomocy',
+    'positive_psychology', 'ppd', 'psychopathology', 'psychosomatics', 'psychotherapy',
+    'reference', 'relacje', 'resilience_mobbing', 'rozwojowa', 'school_psychology',
+    'sexology', 'students', 'suicidology', 'technology_psychology', 'temperament',
+    'uzaleznienia', 'wiki-index'
   ],
 
   // ─────────────────────────────────────────────────────────────
