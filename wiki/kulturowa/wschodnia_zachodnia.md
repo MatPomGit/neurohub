@@ -125,3 +125,16 @@ Porównanie psychologii Wschodu i Zachodu ujawnia, że sposób, w jaki postrzega
 - Nisbett, R. E. (2003). *The Geography of Thought: How Asians and Westerners Think Differently... and Why*. Free Press.
 - Purser, R. (2019). *McMindfulness: How Mindfulness Became the New Capitalist Spirituality*. Repeater Books.
 - Watkins, P. C., & McCurrach, D. (2021). Exploring positive psychology's contributions to mental health. In A. Bhugra & K. Bhui (Eds.), *Textbook of Cultural Psychiatry* (2nd ed.). Cambridge University Press.
+
+---
+
+## Krytyka podziału „Wschód–Zachód”
+
+Choć heurystyka Wschód–Zachód bywa użyteczna dydaktycznie, jest ona uproszczeniem i może prowadzić do esencjalizacji kultur. W obrębie każdego regionu istnieje duża zmienność związana z klasą społeczną, poziomem urbanizacji, historią kolonialną, edukacją i doświadczeniem migracyjnym.
+
+Współczesne badania rekomendują analizę:
+- różnic **wewnątrzkulturowych**,
+- wpływu instytucji i polityk społecznych,
+- dynamiki zmian pokoleniowych.
+
+Podejście to pozwala uniknąć stereotypizacji i lepiej wyjaśnia realne mechanizmy psychologiczne.

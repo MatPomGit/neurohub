@@ -130,3 +130,16 @@ Kultura przenika każdy aspekt relacji interpersonalnych — od tego, co rozumie
 - Levine, R., Sato, S., Hashimoto, T., & Verma, J. (1995). Love and marriage in eleven cultures. *Journal of Cross-Cultural Psychology, 26*(5), 554–571.
 - Triandis, H. C., & Suh, E. M. (2002). Cultural influences on personality. *Annual Review of Psychology, 53*, 133–160.
 - Ting-Toomey, S. (1999). *Communicating Across Cultures*. Guilford Press.
+
+---
+
+## Kompetencje międzykulturowe w relacji pomocowej
+
+W pracy psychologa i psychoterapeuty relacja pomocowa także podlega normom kulturowym. Dotyczy to m.in. dystansu interpersonalnego, oczekiwań wobec autorytetu specjalisty, sposobu ujawniania emocji czy roli rodziny w procesie decyzji.
+
+Dobre praktyki obejmują:
+- kontraktowanie zasad współpracy językiem zrozumiałym kulturowo,
+- monitorowanie własnych założeń normatywnych terapeuty,
+- elastyczne dopasowanie stylu komunikacji bez rezygnacji z granic etycznych.
+
+Tak rozumiana kompetencja kulturowa poprawia zaufanie, retencję w terapii i jakość efektów leczenia.

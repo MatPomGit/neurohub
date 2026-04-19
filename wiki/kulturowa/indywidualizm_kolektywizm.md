@@ -103,3 +103,15 @@ Wymiar indywidualizm–kolektywizm jest jednym z najlepiej udokumentowanych wymi
 - Triandis, H. C. (1995). *Individualism and Collectivism*. Westview Press.
 - Tsai, J. L. (2007). Ideal affect: Cultural causes and behavioral consequences. *Perspectives on Psychological Science, 2*(3), 242–259.
 - Grossmann, I., & Varnum, M. E. W. (2015). Social structure, infectious diseases, disasters, secularism, and cultural change in America. *Psychological Science, 26*(3), 311–324.
+
+---
+
+## Ograniczenia dychotomii i nowsze ujęcia
+
+Współczesna literatura podkreśla, że indywidualizm i kolektywizm nie są prostą osią „albo–albo”. Te same osoby mogą prezentować orientację indywidualistyczną w pracy, a kolektywistyczną w rodzinie. Coraz częściej stosuje się więc modele wielowymiarowe, uwzględniające m.in.:
+
+- **poziom analizy** (jednostka vs. instytucja),
+- **kontekst relacji** (wewnątrzgrupowe vs. międzygrupowe),
+- **typ normy** (opisowa vs. powinnościowa).
+
+Praktyczny wniosek: interpretując wyniki badań, należy unikać etykietowania całych społeczeństw jako jednolicie „indywidualistycznych” lub „kolektywistycznych” i analizować zmienność wewnątrzkulturową.

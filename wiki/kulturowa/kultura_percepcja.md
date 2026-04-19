@@ -99,3 +99,16 @@ Hong i in. (2000) wykazali, że **bikulturalne** osoby (Chińczycy urodzeni w Ho
 - Roberson, D., Davidoff, J., Davies, I. R. L., & Shapiro, L. R. (2005). Color categories: Evidence for the cultural relativity hypothesis. *Cognitive Psychology, 50*(4), 378–411.
 - Segall, M. H., Campbell, D. T., & Herskovits, M. J. (1966). *The Influence of Culture on Visual Perception*. Bobbs-Merrill.
 - Hong, Y., Morris, M. W., Chiu, C., & Benet-Martínez, V. (2000). Multicultural minds: A dynamic constructivist approach to culture and cognition. *American Psychologist, 55*(7), 709–720.
+
+---
+
+## Konsekwencje dla diagnostyki i edukacji
+
+Różnice kulturowe w uwadze i percepcji mają bezpośrednie znaczenie dla projektowania testów poznawczych. Zadania tworzone w środowisku zachodnim mogą premiować styl analityczny, a niedoszacowywać kompetencji osób preferujących przetwarzanie relacyjne i kontekstowe.
+
+W praktyce rekomenduje się:
+- stosowanie zróżnicowanych formatów zadań (obiektowych i kontekstowych),
+- interpretację wyników z uwzględnieniem historii edukacyjnej i językowej,
+- ostrożność przy przypisywaniu różnic percepcyjnych „deficytom”.
+
+To podejście zmniejsza ryzyko błędów diagnostycznych i zwiększa sprawiedliwość pomiaru.

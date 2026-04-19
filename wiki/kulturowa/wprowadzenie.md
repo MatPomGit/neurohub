@@ -95,3 +95,16 @@ Psychologia kulturowa przypomina, że umysł nie jest izolowanym mechanizmem —
 - Vygotsky, L. S. (1978). *Mind in Society: The Development of Higher Psychological Processes*. Harvard University Press.
 - Wundt, W. (1916). *Elements of Folk Psychology*. Macmillan.
 - Matsumoto, D., & Juang, L. (2016). *Culture and Psychology* (6th ed.). Cengage Learning.
+
+---
+
+## Zastosowania praktyczne w pracy psychologa
+
+W praktyce klinicznej i diagnostycznej perspektywa psychologii kulturowej pomaga ograniczać błędy wynikające z etnocentryzmu. Ta sama obserwowana trudność (np. wycofanie, unikanie kontaktu wzrokowego, ostrożność wobec autorytetu) może mieć odmienne znaczenie w różnych kontekstach normatywnych. Dlatego rekomenduje się łączenie danych testowych z wywiadem kulturowym oraz analizą języka, jakim klient opisuje własne doświadczenie.
+
+W edukacji i badaniach psychologia kulturowa wzmacnia trafność wniosków poprzez:
+- jawne opisywanie kontekstu kulturowego próby,
+- raportowanie adaptacji językowych narzędzi,
+- unikanie automatycznego uogólniania wyników WEIRD na populację globalną.
+
+Takie podejście zwiększa nie tylko rzetelność naukową, ale także użyteczność społeczną psychologii.

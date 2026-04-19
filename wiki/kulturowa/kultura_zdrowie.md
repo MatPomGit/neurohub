@@ -124,3 +124,20 @@ Zjawisko **podwójnej tożsamości kulturowej** może jednak być zasobem — bi
 - Kleinman, A. (1988). *The Illness Narratives: Suffering, Healing, and the Human Condition*. Basic Books.
 - Metzl, J. M. (2009). *The Protest Psychosis: How Schizophrenia Became a Black Disease*. Beacon Press.
 - Ventriglio, A., & Bhugra, D. (2015). Culture-bound syndromes: A re-examination. *Asian Journal of Psychiatry, 17*, 65–67.
+
+---
+
+## Wywiad kulturowy w praktyce klinicznej
+
+Coraz częściej zaleca się prowadzenie ustrukturyzowanego wywiadu kulturowego, który obejmuje:
+
+1. sposób rozumienia objawów przez pacjenta i rodzinę,
+2. lokalne wyjaśnienia przyczyn cierpienia,
+3. dotychczasowe formy pomocy (medyczne, religijne, tradycyjne),
+4. czynniki stresu związane z migracją, dyskryminacją i statusem społecznym.
+
+Takie dane pomagają odróżniać różnice kulturowe od zaburzeń wymagających intensywnej interwencji oraz poprawiają adherencję terapeutyczną.
+
+### Ryzyko uproszczeń
+
+Nadmierne skupienie na „egzotyce kulturowej” może zaciemniać obraz kliniczny. Ocena powinna integrować zarówno kontekst kulturowy, jak i klasyczne wskaźniki nasilenia objawów, ryzyka samouszkodzeń oraz funkcjonowania psychospołecznego.
