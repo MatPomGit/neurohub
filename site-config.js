@@ -763,6 +763,13 @@ window.SITE_CONFIG = {
       ]
     },
     {
+      section: 'Psychologia technologii i dobrostan cyfrowy',
+      items: [
+        { id: 'technology_psychology/technostres', label: 'Technostres — artykuł naukowy', file: 'wiki/technology_psychology/technostres.md' },
+        { id: 'wiki-index/psychologia_technologii', label: 'WIKI — Psychologia technologii', wiki: 'psychologia_technologii' },
+      ]
+    },
+    {
       section: 'Robotyka afektywna i kognitywistyka',
       items: [
         { id: 'affective_robotics/wprowadzenie',                   label: 'Robotyka afektywna — wprowadzenie',         file: 'wiki/affective_robotics/wprowadzenie.md'                    },
@@ -840,6 +847,7 @@ window.SITE_CONFIG = {
         { id: 'wiki-index/media_natura',         label: 'WIKI — Ekrany, książki i natura',           wiki: 'media_natura'         },
         { id: 'wiki-index/psych_pozytywna',      label: 'WIKI — Psychologia pozytywna',              wiki: 'psych_pozytywna'      },
         { id: 'wiki-index/psych_ai',             label: 'WIKI — Psychologia AI',                     wiki: 'psych_ai'             },
+        { id: 'wiki-index/psychologia_technologii', label: 'WIKI — Psychologia technologii',         wiki: 'psychologia_technologii' },
         { id: 'wiki-index/robotyka_afektywna',   label: 'WIKI — Robotyka afektywna',                 wiki: 'robotyka_afektywna'   },
         { id: 'wiki-index/psych_szkolna',        label: 'WIKI — Psych. szkolna i edukacyjna',        wiki: 'psych_szkolna'        },
         { id: 'wiki-index/neurozroznorodnosc',   label: 'WIKI — Neuroróżnorodność',                  wiki: 'neurozroznorodnosc'   },
@@ -1301,6 +1309,16 @@ window.SITE_CONFIG = {
       { file: 'wiki/ai_psychology/ai_poznawcze.md',          label: 'Poznawcze aspekty działania AI',            status: 'live' },
       { file: 'wiki/ai_psychology/antropomorfizacja_ai.md',  label: 'Antropomorfizacja AI',                      status: 'live' },
       { file: 'wiki/ai_psychology/przyszlosc_ai.md',         label: 'Przyszłość relacji człowiek-AI',            status: 'live' },
+    ],
+    technology_psychology: [
+      { file: 'wiki/technology_psychology/technostres.md',            label: 'Technostres — artykuł naukowy',                    status: 'live' },
+      { file: 'wiki/technology_psychology/zmeczenie_cyfrowe.md',      label: 'Zmęczenie cyfrowe i przeciążenie informacyjne',    status: 'planned' },
+      { file: 'wiki/technology_psychology/fomo_i_nomofobia.md',       label: 'FOMO i nomofobia',                                   status: 'planned' },
+      { file: 'wiki/technology_psychology/algorytmy_a_samoocena.md',  label: 'Algorytmy personalizacji a samoocena',              status: 'planned' },
+      { file: 'wiki/technology_psychology/higiena_cyfrowa.md',        label: 'Higiena cyfrowa i profilaktyka przeciążenia',       status: 'planned' },
+      { file: 'wiki/technology_psychology/technologia_w_pracy.md',    label: 'Technologia w pracy: granice, kontrola i autonomia',status: 'planned' },
+      { file: 'wiki/technology_psychology/technologia_a_sen.md',      label: 'Technologia a sen i regeneracja psychiczna',        status: 'planned' },
+      { file: 'wiki/technology_psychology/psychoedukacja_rodzinna.md',label: 'Psychoedukacja rodzinna w erze ekranów',            status: 'planned' },
     ],
     affective_robotics: [
       { file: 'wiki/affective_robotics/wprowadzenie.md',                    label: 'Robotyka afektywna — wprowadzenie',         status: 'live' },
@@ -2598,6 +2616,31 @@ window.SITE_CONFIG = {
             { label: 'Etyka AI z perspektywy psychologicznej',  id: 'ai_psychology/etyka_ai',       status: 'live' },
             { label: 'AI w psychoterapii i diagnostyce',        id: 'ai_psychology/ai_w_terapii',   status: 'live' },
             { label: 'Przyszłość relacji człowiek-AI',          id: 'ai_psychology/przyszlosc_ai',  status: 'live' },
+          ]
+        },
+      ]
+    },
+
+    psychologia_technologii: {
+      title: 'WIKI — Psychologia technologii i dobrostanu cyfrowego',
+      intro: 'Encyklopedia porządkuje wiedzę o wpływie technologii cyfrowych na funkcjonowanie psychiczne człowieka: stres, uwagę, sen, regulację emocji, relacje, poczucie sprawczości oraz dobrostan. Łączy perspektywę badawczą z praktyką psychoedukacyjną i profilaktyką zdrowia psychicznego.',
+      sections: [
+        {
+          title: 'Artykuły dostępne',
+          articles: [
+            { label: 'Technostres — artykuł naukowy', id: 'technology_psychology/technostres', status: 'live' },
+          ]
+        },
+        {
+          title: 'Plan redakcyjny: wpływ technologii na psychologię człowieka',
+          articles: [
+            { label: 'Zmęczenie cyfrowe i przeciążenie informacyjne',    id: 'technology_psychology/zmeczenie_cyfrowe',     status: 'planned' },
+            { label: 'FOMO i nomofobia',                                  id: 'technology_psychology/fomo_i_nomofobia',      status: 'planned' },
+            { label: 'Algorytmy personalizacji a samoocena',              id: 'technology_psychology/algorytmy_a_samoocena', status: 'planned' },
+            { label: 'Higiena cyfrowa i profilaktyka przeciążenia',       id: 'technology_psychology/higiena_cyfrowa',       status: 'planned' },
+            { label: 'Technologia w pracy: granice, kontrola i autonomia',id: 'technology_psychology/technologia_w_pracy',   status: 'planned' },
+            { label: 'Technologia a sen i regeneracja psychiczna',        id: 'technology_psychology/technologia_a_sen',     status: 'planned' },
+            { label: 'Psychoedukacja rodzinna w erze ekranów',            id: 'technology_psychology/psychoedukacja_rodzinna', status: 'planned' },
           ]
         },
       ]
