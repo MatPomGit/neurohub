@@ -51,17 +51,25 @@ Zestawienie ma charakter **praktyczny**: obejmuje źródła przydatne do nauki, 
 - EFPA (meta-code i wytyczne etyczne).  
 - Akty prawne RP dotyczące zawodu psychologa, ochrony zdrowia psychicznego i dokumentacji medycznej.
 
-## 7) Jak korzystać z bibliografii w PsyHub
+## 7) Wzorzec redakcyjny (APA 7)
 
-1. Do każdego nowego artykułu dodaj minimum 2 źródła podstawowe i 2 uzupełniające.  
-2. Preferuj podręczniki akademickie, oficjalne klasyfikacje i przeglądy systematyczne.  
-3. Oznaczaj datę publikacji i kontroluj aktualność (szczególnie dla prawa i standardów).  
-4. W treściach klinicznych oddzielaj dane oparte na dowodach od hipotez roboczych.
+Stosuj poniższy jeden szablon zapisu pozycji bibliograficznej w całym portalu:
 
-## 8) Minimalny standard cytowania (rekomendacja)
+`Nazwisko, I. I., & Nazwisko, I. I. (Rok). Tytuł artykułu lub rozdziału. *Tytuł czasopisma lub książki, tom*(numer), zakres stron. https://doi.org/xx.xxxx/xxxxx`  
 
-- Styl: APA 7.  
-- W tekście: (Nazwisko, rok).  
-- W bibliografii: Autor, A. A. (Rok). *Tytuł*. Wydawca / DOI / URL.
+Jeśli DOI nie istnieje, podaj stabilny URL do źródła. Dla książek podawaj wydawnictwo; dla wytycznych podawaj instytucję sprawczą i rok wersji.
+
+## 8) Checklista redakcyjna dla nowego artykułu
+
+- [ ] Minimum 2 źródła pierwotne lub przeglądowe (np. badania oryginalne, metaanalizy, przeglądy systematyczne).  
+- [ ] Każda pozycja zawiera pełny zapis bibliograficzny zgodny z APA 7.  
+- [ ] DOI lub URL jest podany, gdy istnieje.  
+- [ ] Każde źródło ma oznaczenie typu: `[Typ: podręcznik]`, `[Typ: przegląd systematyczny]`, `[Typ: wytyczne]` (lub równoważne).  
+
+## 9) Jak korzystać z bibliografii w PsyHub
+
+1. Preferuj podręczniki akademickie, oficjalne klasyfikacje i przeglądy systematyczne.  
+2. Oznaczaj datę publikacji i kontroluj aktualność (szczególnie dla prawa i standardów).  
+3. W treściach klinicznych oddzielaj dane oparte na dowodach od hipotez roboczych.
 
 > Uwaga redakcyjna: ta lista jest „rdzeniem” i powinna być systematycznie rozszerzana wraz z rozwojem nowych działów portalu.

@@ -153,7 +153,9 @@ Rozstanie to złożone doświadczenie, które angażuje całego człowieka — c
 
 ---
 
-## Literatura
+## Bibliografia (APA 7)
+Wpisy bibliograficzne zapisuj konsekwentnie w APA 7 oraz dodawaj DOI/URL i oznaczenie typu źródła (`[Typ: ...]`) tam, gdzie to możliwe.
+
 
 - Amato, P. R. (2010). Research on divorce: Continuing trends and new developments. *Journal of Marriage and Family, 72*(3), 650–666.
 - Boss, P. (1999). *Ambiguous Loss: Learning to Live with Unresolved Grief*. Harvard University Press.

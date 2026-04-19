@@ -412,7 +412,9 @@ Dla specjalistów zdrowia psychicznego model RDoC oferuje kilka praktycznych zys
 
 Wyzwaniem pozostaje translacja konstruktów badawczych do praktyki klinicznej oraz uwzględnienie czynników psychospołecznych i kulturowych, które tradycyjnie wykraczają poza model neuronaukowy. Integracja RDoC z wymiarowymi podejściami HiTOP i nowymi kryteriami ICD-11, a także rozwój neuropsychiatrii obliczeniowej, wyznaczają obiecującą perspektywę dla psychiatrii i psychologii klinicznej XXI wieku.
 
-## Literatura uzupełniająca
+## Bibliografia (APA 7)
+Wpisy bibliograficzne zapisuj konsekwentnie w APA 7 oraz dodawaj DOI/URL i oznaczenie typu źródła (`[Typ: ...]`) tam, gdzie to możliwe.
+
 
 ### Prace źródłowe i teoretyczne
 

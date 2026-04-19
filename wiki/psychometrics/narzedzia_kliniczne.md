@@ -156,7 +156,9 @@ PHQ-9, GAD-7 i PCL-5 tworzą zwarte, komplementarne narzędzie przesiewowe dla t
 
 ---
 
-## Literatura
+## Bibliografia (APA 7)
+Wpisy bibliograficzne zapisuj konsekwentnie w APA 7 oraz dodawaj DOI/URL i oznaczenie typu źródła (`[Typ: ...]`) tam, gdzie to możliwe.
+
 
 - Blevins, C. A., Weathers, F. W., Davis, M. T., Witte, T. K., & Domino, J. L. (2015). The Posttraumatic Stress Disorder Checklist for DSM‑5 (PCL‑5): Development and initial psychometric evaluation. *Journal of Traumatic Stress, 28*(6), 489–498.
 - Kroenke, K., Spitzer, R. L., & Williams, J. B. W. (2001). The PHQ‑9: Validity of a brief depression severity measure. *Journal of General Internal Medicine, 16*(9), 606–613.

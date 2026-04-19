@@ -141,7 +141,9 @@ Dla 69% problemów nierozwiązywalnych Gottman proponuje nie szukanie rozwiązan
 
 ---
 
-## Literatura
+## Bibliografia (APA 7)
+Wpisy bibliograficzne zapisuj konsekwentnie w APA 7 oraz dodawaj DOI/URL i oznaczenie typu źródła (`[Typ: ...]`) tam, gdzie to możliwe.
+
 
 - Christensen, A., & Heavey, C. L. (1990). Gender and social structure in the demand/withdraw pattern of marital conflict. *Journal of Personality and Social Psychology, 59*(1), 73–81.
 - Gottman, J. M. (1994). *What Predicts Divorce?* Erlbaum.
