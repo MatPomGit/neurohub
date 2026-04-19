@@ -162,7 +162,32 @@ function updateTopbarNextStep(id) {
 function buildPageMap() {
   for (const sec of SITE_CONFIG.nav)
     for (const item of sec.items)
-      pageMap.set(item.id, { ...item, section: sec.section });
+      pageMap.set(item.id, {
+        ...item,
+        section: sec.section,
+        /* Jawny domainKey z konfiguracji ma pierwszeństwo; fallback utrzymuje kompatybilność starszych wpisów. */
+        domainKey: item.domainKey || sec.domainKey || inferDomainKeyFromId(item.id),
+      });
+}
+
+/* Wyznacza klucz dziedziny z identyfikatora strony jako mechanizm zgodności wstecznej. */
+function inferDomainKeyFromId(id) {
+  return typeof id === 'string' ? (id.split('/')[0] || '') : '';
+}
+
+/* Zwraca klucz dziedziny wpisu z preferencją dla jawnego domainKey. */
+function getDomainKeyForItem(id, item) {
+  return item?.domainKey || pageMap.get(id)?.domainKey || inferDomainKeyFromId(id);
+}
+
+/* Weryfikuje konfigurację nav i ostrzega o sekcjach bez jawnego domainKey. */
+function warnAboutMissingDomainKeys() {
+  if (!Array.isArray(SITE_CONFIG?.nav)) return;
+  SITE_CONFIG.nav.forEach(section => {
+    if (!section?.domainKey) {
+      console.warn(`[PsyHub] Sekcja "${section?.section || 'bez nazwy'}" nie ma przypisanego domainKey.`);
+    }
+  });
 }
 
 /* ── Empty article indicator refresh ──────── */
@@ -347,7 +372,7 @@ async function loadMd(id, item) {
                        : `<button class="pnav-btn" disabled><span>←</span></button>`;
     const nextB = next ? `<button class="pnav-btn" onclick="navigate('${next.id}')"><span>${next.label} →</span></button>`
                        : `<button class="pnav-btn" disabled><span>→</span></button>`;
-    const domainKey = id.split('/')[0];
+    const domainKey = getDomainKeyForItem(id, item);
     const planItems = (SITE_CONFIG.plans || {})[domainKey] || [];
     const plansHtml = planItems.length ? renderPlans(planItems, id) : '';
     const measurementToolsHtml = renderMeasurementTools(domainKey, id);
@@ -379,7 +404,7 @@ function renderMd(text, id, item) {
                      : `<button class="pnav-btn" disabled><span>→</span></button>`;
 
   // domain plans block
-  const domainKey = id.split('/')[0];
+  const domainKey = getDomainKeyForItem(id, item);
   const planItems = (SITE_CONFIG.plans || {})[domainKey] || [];
   const plansHtml = planItems.length ? renderPlans(planItems, id) : '';
   const measurementToolsHtml = renderMeasurementTools(domainKey, id);
@@ -673,7 +698,8 @@ function renderHome() {
   setBreadcrumb(null);
   const totalMd   = SITE_CONFIG.nav.flatMap(s=>s.items).filter(i=>i.file).length;
   const totalWiki = Object.keys(SITE_CONFIG.wikis).length;
-  const domains   = SITE_CONFIG.nav.filter(s=>!['Encyklopedie','Referencje','Wprowadzenie'].includes(s.section));
+  const excludedSections = new Set(SITE_CONFIG.catalogExcludedSections || ['Encyklopedie', 'Referencje', 'Wprowadzenie']);
+  const domains   = SITE_CONFIG.nav.filter(s => !excludedSections.has(s.section));
   const totalPlan = Object.values(SITE_CONFIG.plans||{}).flat().filter(p=>p.status==='planned').length;
 
   const icons = {'Neurobiologia':'🧬','Funkcje Poznawcze':'🧩','Zaburzenia Kliniczne':'⚕️',
@@ -1173,6 +1199,8 @@ function animateSidebar() {
 
 /* ── Boot ──────────────────────────────────── */
 window.addEventListener('DOMContentLoaded', ()=>{
+  /* Wczesna walidacja konfiguracji ułatwia wychwycenie braków podczas uruchomienia aplikacji. */
+  warnAboutMissingDomainKeys();
   buildPageMap();
   pageMap.set('__home__',{id:'__home__',label:'Strona główna',section:''});
   loadSearchUiState();
