@@ -1,38 +1,48 @@
 ---
-lastReviewed: 2026-04-01
+lastReviewed: 2026-04-19
 reviewCycleMonths: 24
 evidenceCutoffDate: 2025-12-31
 ---
 
 # Prowadzenie sesji eksperymentalnej
 
-W tej fazie liczy się dyscyplina proceduralna. Nawet dobry projekt może utracić wartość, jeśli sesje są realizowane niespójnie.
+## Wprowadzenie i kontekst
+Prowadzenie sesji eksperymentalnej jest etapem, w którym założenia metodologiczne stają się realnym kontaktem z uczestnikiem. W tej fazie nawet drobne odstępstwa proceduralne mogą obniżyć trafność wewnętrzną i utrudnić replikację wyników.
 
-## Przed sesją
+## Definicje kluczowych pojęć
+- **Standaryzacja procedury** – realizowanie wszystkich sesji według tego samego protokołu.
+- **Randomizacja** – losowy przydział uczestników do warunków badawczych.
+- **Zaślepienie (blinding)** – ograniczenie wiedzy o warunku badawczym u uczestnika, badacza lub analityka.
+- **Debriefing** – końcowe wyjaśnienie celu badania, zwłaszcza gdy stosowano element ukrycia.
 
-- sprawdź sprzęt i oprogramowanie,
-- potwierdź komplet dokumentów zgody,
-- przygotuj środowisko (cisza, oświetlenie, ergonomia),
-- uruchom checklistę startową.
+## Mechanizmy i zależności
+Jakość sesji zależy od trzech równoległych strumieni:
+1. **Wierność protokołowi** – każde odejście zwiększa wariancję błędu.
+2. **Kontrola środowiska** – hałas, oświetlenie, zakłócenia technologiczne i zmęczenie wpływają na wyniki.
+3. **Dokumentowanie zdarzeń** – incydenty muszą być logowane, aby możliwa była analiza wrażliwości.
 
-## W trakcie sesji
+W praktyce R&D warto stosować checklisty pre-session, in-session i post-session, ponieważ redukują one błędy pominięcia.
 
-- czytaj instrukcje w standaryzowany sposób,
-- nie dopowiadaj dodatkowych wyjaśnień poza protokołem,
-- rejestruj odstępstwa i incydenty,
-- monitoruj dobrostan uczestnika.
+## Dobra praktyka
+Przykład dobrej praktyki: laboratorium korzysta z automatycznego systemu przydziału warunku, skryptu instrukcji odczytywanego słowo w słowo i dziennika incydentów z polem „decyzja badacza + uzasadnienie”.
 
-## Randomizacja i zaślepienie
+**Konsekwencje:** większa porównywalność sesji, niższe ryzyko biasu badacza, łatwiejsza replikacja.
 
-Randomizacja i zaślepienie powinny być wdrożone technicznie (np. automatyczny przydział warunku), a nie „ręcznie”, aby ograniczyć ryzyko błędu.
+## Zła praktyka (częsty błąd)
+Przykład złej praktyki: badacz dopowiada instrukcje „własnymi słowami”, pomija część pytań kontrolnych i nie zapisuje przerw technicznych.
 
-## Po sesji
+**Konsekwencje:** wzrost błędu pomiaru, trudność odtworzenia przebiegu badania, osłabienie wiarygodności raportu.
 
-- wykonaj debriefing,
-- sprawdź integralność zapisu,
-- zanonimizuj i zarchiwizuj rekord,
-- uzupełnij dziennik sesji.
+## Perspektywa nieoczywista
+Dominująca perspektywa traktuje standaryzację jako „usztywnienie” kontaktu z uczestnikiem. Alternatywne podejście zakłada, że wysoka standaryzacja może poprawiać dobrostan uczestnika, bo zwiększa przewidywalność i poczucie bezpieczeństwa. Dane z badań nad stresem proceduralnym pokazują, że niepewność instrukcji bywa dodatkowym obciążeniem poznawczym.
 
-## Minimalny log sesji
+## Podsumowanie
+- Sesja eksperymentalna wymaga takiej samej precyzji jak plan analizy.
+- Kluczowe są: randomizacja, zaślepienie, kontrola środowiska i pełne logowanie odstępstw.
+- Dobrze zaprojektowany workflow sesji zwiększa zarówno rzetelność naukową, jak i bezpieczeństwo uczestnika.
 
-Każda sesja powinna zostawić ślad: identyfikator, warunek badania, czas rozpoczęcia/zakończenia, odstępstwa, decyzje badacza.
+## Bibliografia
+1. American Psychological Association. (2023). *Publication Manual of the American Psychological Association* (7th ed.).
+2. Good Clinical Practice Network. (2016). *ICH Harmonised Guideline for Good Clinical Practice E6(R2)*.
+3. Kazdin, A. E. (2021). *Research Design in Clinical Psychology* (6th ed.). Pearson.
+4. Shadish, W. R., Cook, T. D., & Campbell, D. T. (2002). *Experimental and Quasi-Experimental Designs for Generalized Causal Inference*. Houghton Mifflin.

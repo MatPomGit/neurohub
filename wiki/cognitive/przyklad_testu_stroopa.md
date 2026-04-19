@@ -1,45 +1,47 @@
 ---
-lastReviewed: 2026-04-01
+lastReviewed: 2026-04-19
 reviewCycleMonths: 24
 evidenceCutoffDate: 2025-12-31
 ---
 
 # Przykład testu Stroopa (wersja tekstowa)
 
-Poniżej znajduje się uproszczony przykład edukacyjny ilustrujący logikę zadania Stroopa. Nie jest to pełna, standaryzowana wersja diagnostyczna.
+## Wprowadzenie i kontekst
+Test Stroopa jest klasycznym narzędziem badania hamowania poznawczego i kontroli uwagi. Wersja poniższa ma charakter dydaktyczny i nie zastępuje standaryzowanych narzędzi klinicznych.
 
-## Instrukcja dla osoby badanej
+## Definicje kluczowych pojęć
+- **Efekt Stroopa** – wydłużenie czasu reakcji i/lub wzrost błędów w warunku niezgodnym.
+- **Interferencja** – konflikt między automatycznym czytaniem słowa a zadaniem nazwania koloru atramentu.
+- **Hamowanie reakcji** – zdolność powstrzymania dominującej odpowiedzi.
+- **Warunek zgodny/niezgodny** – relacja między treścią słowa a kolorem bodźca.
 
-1. Czytaj kolejne pozycje od lewej do prawej.
-2. **Nie czytaj słowa** — podaj głośno kolor atramentu.
-3. Odpowiadaj możliwie szybko i poprawnie.
+## Mechanizmy i zależności
+Efekt Stroopa wynika z konkurencji dwóch procesów:
+1. Szybkiego, zautomatyzowanego czytania słowa.
+2. Wolniejszego, kontrolowanego nazywania koloru.
 
-## Przykładowe bodźce
+Im większa automatyzacja czytania i obciążenie wykonawcze, tym silniejsza interferencja.
 
-### Warunek zgodny (łatwiejszy)
+## Dobra praktyka
+Przykład dobrej praktyki: stosowanie standaryzowanej liczby prób, losowej kolejności bodźców, precyzyjnego pomiaru czasu reakcji i jawnych kryteriów błędów.
 
-- „CZERWONY” napisany kolorem czerwonym  
-- „ZIELONY” napisany kolorem zielonym  
-- „NIEBIESKI” napisany kolorem niebieskim
+**Konsekwencje:** wyższa trafność porównań międzyosobniczych oraz większa wartość diagnostyczna.
 
-### Warunek niezgodny (trudniejszy)
+## Zła praktyka (częsty błąd)
+Przykład złej praktyki: porównywanie wyników z różnych wersji testu (inne kolory, liczba prób, sposób odpowiedzi) bez uwzględnienia tych różnic.
 
-- „CZERWONY” napisany kolorem zielonym  
-- „ZIELONY” napisany kolorem niebieskim  
-- „NIEBIESKI” napisany kolorem czerwonym
+**Konsekwencje:** ryzyko błędnych wniosków o poziomie kontroli poznawczej.
 
-W warunku niezgodnym zwykle pojawia się więcej błędów i wolniejsze odpowiedzi — to klasyczny efekt Stroopa.
+## Perspektywa nieoczywista
+Efekt Stroopa bywa interpretowany wyłącznie jako miara „hamowania”. Coraz częściej podkreśla się, że odzwierciedla on także elastyczność uwagi, szybkość przetwarzania i strategie odpowiedzi, dlatego interpretacja jednowymiarowa może być zbyt uproszczona.
 
-## Jak policzyć prosty wynik?
+## Podsumowanie
+- Stroop jest użyteczny, gdy zachowana jest standaryzacja procedury.
+- Interpretacja powinna uwzględniać kontekst całego profilu poznawczego.
+- W diagnostyce klinicznej należy korzystać z wersji z normami populacyjnymi.
 
-W warunkach edukacyjnych można policzyć:
-
-- średni czas dla warunku zgodnego,
-- średni czas dla warunku niezgodnego,
-- **indeks interferencji** = czas niezgodny − czas zgodny.
-
-Im większa dodatnia różnica, tym silniejszy wpływ interferencji.
-
-## Wskazówka metodologiczna
-
-Do zastosowań naukowych lub klinicznych należy używać wersji standaryzowanych (z normami, kontrolą liczby prób, precyzyjnym pomiarem czasu i procedurą oceny błędów).
+## Bibliografia
+1. MacLeod, C. M. (1991). Half a century of research on the Stroop effect. *Psychological Bulletin, 109*(2), 163–203.
+2. Scarpina, F., & Tagini, S. (2017). The Stroop Color and Word Test. *Frontiers in Psychology, 8*, 557.
+3. Stroop, J. R. (1935). Studies of interference in serial verbal reactions. *Journal of Experimental Psychology, 18*(6), 643–662.
+4. Snyder, H. R., et al. (2015). A meta-analysis of executive function in depression. *Clinical Psychology Review, 40*, 65–82.

@@ -1,33 +1,48 @@
 ---
-lastReviewed: 2026-04-01
+lastReviewed: 2026-04-19
 reviewCycleMonths: 24
 evidenceCutoffDate: 2025-12-31
 ---
 
 # Testy neuropsychologiczne — przegląd
 
-Standardowe narzędzia oceny funkcji poznawczych — od testów przesiewowych po kompleksowe baterie diagnostyczne.
+## Wprowadzenie i kontekst
+Testy neuropsychologiczne służą do opisu profilu funkcji poznawczych, planowania rehabilitacji i monitorowania zmian w czasie. Ich interpretacja wymaga łączenia wyniku testowego z wywiadem, obserwacją kliniczną i danymi medycznymi.
 
-## Zasady badania neuropsychologicznego
+## Definicje kluczowych pojęć
+- **Standaryzacja** – jednolita procedura przeprowadzania i oceniania testu.
+- **Normalizacja** – opracowanie norm dla określonych grup populacyjnych.
+- **Rzetelność testu** – stabilność i powtarzalność wyniku.
+- **Trafność kliniczna** – użyteczność testu dla określonej decyzji diagnostycznej.
 
-Badanie neuropsychologiczne służy opisowi profilu funkcji poznawczych pacjenta, identyfikacji deficytów i zachowanych zdolności, lokalizacji uszkodzenia mózgu (w połączeniu z neuroobrazowaniem), planowaniu rehabilitacji oraz monitorowaniu postępów lub progresji choroby.
+## Mechanizmy i zależności
+W praktyce diagnostycznej kluczowe jest dopasowanie narzędzia do pytania klinicznego:
+1. Testy przesiewowe (np. MMSE, MoCA) – szybkie wykrywanie ryzyka deficytu.
+2. Testy domenowe – pogłębiona analiza pamięci, uwagi, języka, funkcji wykonawczych.
+3. Baterie kompleksowe – całościowy profil funkcjonowania.
 
-> Testy neuropsychologiczne są **standaryzowane** — mają normy dla określonych grup wiekowych i wykształcenia. Wyniki porównuje się z normą, a nie absolutnym standardem.
+Wynik surowy powinien być interpretowany względem norm demograficznych i kontekstu neurologicznego.
 
-## Typy testów
+## Dobra praktyka
+Przykład dobrej praktyki: budowanie „hipotez diagnostycznych” przed badaniem, dobór testów do tych hipotez i raportowanie zarówno deficytów, jak i zasobów pacjenta.
 
-**Testy przesiewowe** to krótkie narzędzia do szybkiej oceny (MMSE, MoCA, Mini-Cog). Wykrywają, czy istnieje deficyt wymagający dalszej diagnostyki.
+**Konsekwencje:** trafniejsze rekomendacje terapeutyczne i mniejsze ryzyko nadrozpoznawalności.
 
-**Testy pamięci** badają różne systemy pamięci — werbalnej, wzrokowej, roboczej, epizodycznej, proceduralnej.
+## Zła praktyka (częsty błąd)
+Przykład złej praktyki: traktowanie pojedynczego wyniku przesiewowego jako rozstrzygającej diagnozy neuropsychologicznej.
 
-**Testy funkcji wykonawczych** mierzą hamowanie, elastyczność, planowanie i rozwiązywanie problemów (TMT-B, WCST, Stroop, Wieża z Hanoi).
+**Konsekwencje:** uproszczona interpretacja i ryzyko błędnych decyzji klinicznych.
 
-**Testy językowe** obejmują Boston Naming Test, fluencję słowną (FAS), powtarzanie i rozumienie poleceń.
+## Perspektywa nieoczywista
+Wysoki wynik globalny bywa interpretowany jako „brak problemu”. Alternatywnie pacjent może mieć wyraźne deficyty wybiórcze (np. funkcje wykonawcze) maskowane przez dobre wyniki w innych domenach, dlatego profil domenowy jest ważniejszy niż jeden wskaźnik sumaryczny.
 
-**Testy uwagi** mierzą selektywną, podzieloną i podtrzymaną uwagę (CPT, d2-R, Test Stroopa).
+## Podsumowanie
+- Test jest narzędziem wspierającym diagnozę, a nie diagnozą samą w sobie.
+- Kluczowe są: standaryzacja, normy i integracja danych wieloźródłowych.
+- Największą wartość kliniczną daje profil funkcjonalny przekładalny na plan terapii.
 
-**Testy wzrokowo-przestrzenne** badają kopiowanie rysunku, Rey-Osterrieth, klocki Kohsa i orientację w przestrzeni.
-
-## Baterie testowe
-
-W praktyce klinicznej często stosuje się ustandaryzowane baterie: Halstead-Reitan Neuropsychological Battery (HRNB), Luria-Nebraska Neuropsychological Battery (LNNB), Wechsler Memory Scale (WMS-IV), Delis-Kaplan Executive Function System (D-KEFS) oraz NEPSY-II dla dzieci.
+## Bibliografia
+1. Lezak, M. D., et al. (2012). *Neuropsychological Assessment* (5th ed.). Oxford University Press.
+2. Strauss, E., Sherman, E. M. S., & Spreen, O. (2006). *A Compendium of Neuropsychological Tests* (3rd ed.). Oxford University Press.
+3. Mitrushina, M., Boone, K. B., Razani, J., & D’Elia, L. F. (2005). *Handbook of Normative Data for Neuropsychological Assessment* (2nd ed.). Oxford University Press.
+4. Petersen, R. C., et al. (2018). Practice guideline update summary: Mild cognitive impairment. *Neurology, 90*(3), 126–135.

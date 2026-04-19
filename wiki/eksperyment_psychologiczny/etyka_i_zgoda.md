@@ -1,47 +1,47 @@
 ---
-lastReviewed: 2026-04-01
+lastReviewed: 2026-04-19
 reviewCycleMonths: 24
 evidenceCutoffDate: 2025-12-31
 ---
 
 # Etyka badania i świadoma zgoda
 
-Etyka nie jest formalnością administracyjną, tylko warunkiem rzetelnej nauki. Uczestnik badania ma prawo do informacji, autonomii i bezpieczeństwa.
+## Wprowadzenie i kontekst
+Etyka w badaniach psychologicznych chroni uczestnika i jednocześnie wzmacnia jakość naukową projektu. Procedura etyczna nie jest dodatkiem administracyjnym, lecz warunkiem wiarygodnego gromadzenia danych.
 
-## Filary etyczne
+## Definicje kluczowych pojęć
+- **Świadoma zgoda** – dobrowolna decyzja uczestnika podjęta na podstawie zrozumiałej informacji.
+- **Minimalizacja ryzyka** – projektowanie procedur ograniczających szkody psychiczne i fizyczne.
+- **Poufność** – ochrona tożsamości i danych uczestnika.
+- **Element ukrycia celu (deception)** – celowe nieujawnienie części informacji ze względów metodologicznych.
 
-1. **Autonomia** – uczestnik podejmuje świadomą decyzję.
-2. **Nieszkodzenie** – minimalizacja ryzyka i obciążenia.
-3. **Sprawiedliwość** – uczciwe zasady rekrutacji i traktowania.
-4. **Poufność** – ochrona danych i tożsamości.
+## Mechanizmy i zależności
+Rzetelna etyka obejmuje:
+1. Jasny opis ryzyka i prawa do wycofania udziału.
+2. Proporcjonalność obciążenia do potencjalnej wartości naukowej.
+3. Debriefing oraz możliwość wycofania danych po ujawnieniu celu.
+4. Zabezpieczenia danych zgodne z zasadą privacy by design.
 
-## Formularz świadomej zgody powinien zawierać
+## Dobra praktyka
+Przykład dobrej praktyki: formularz zgody jest testowany pod kątem zrozumiałości, uczestnik dostaje czas na pytania, a debriefing zawiera kontakt do wsparcia psychologicznego, gdy procedura była obciążająca.
 
-- cel badania (w zakresie możliwym przed debriefingiem),
-- opis procedury i czasu trwania,
-- ryzyka i potencjalne korzyści,
-- informację o dobrowolności i prawie wycofania,
-- zasady przetwarzania danych,
-- kontakt do badacza i komisji etycznej.
+**Konsekwencje:** wyższe bezpieczeństwo uczestników i mniejsze ryzyko etycznych naruszeń.
 
-## Użycie elementu ukrycia celu
+## Zła praktyka (częsty błąd)
+Przykład złej praktyki: skrótowe, niezrozumiałe formularze i brak realnej możliwości wycofania danych po debriefingu.
 
-W psychologii bywa uzasadnione, ale tylko gdy:
+**Konsekwencje:** osłabienie autonomii uczestnika, ryzyko skarg etycznych i utrata zaufania do zespołu.
 
-- nie ma alternatywy metodologicznej,
-- ryzyko jest minimalne,
-- przewidziano pełny debriefing,
-- komisja etyczna zatwierdziła procedurę.
+## Perspektywa nieoczywista
+W debacie metodologicznej deception bywa oceniane wyłącznie negatywnie. Alternatywna perspektywa wskazuje, że przy ścisłych warunkach (brak alternatywy, niskie ryzyko, pełny debriefing, zgoda komisji) może ono zwiększać trafność pomiaru zachowań podatnych na efekt oczekiwań.
 
-## Debriefing – standard minimalny
+## Podsumowanie
+- Etyka i metodologia nie konkurują ze sobą, lecz wzajemnie się wzmacniają.
+- Świadoma zgoda musi być procesem komunikacyjnym, nie jednorazowym podpisem.
+- Najwyższy standard obejmuje jednocześnie ochronę uczestnika i transparentność danych.
 
-Po badaniu uczestnik powinien otrzymać:
-
-- wyjaśnienie rzeczywistego celu,
-- informację o zastosowanym ukryciu,
-- możliwość wycofania danych,
-- materiały wsparcia, jeśli badanie było obciążające.
-
-## Etyka danych
-
-W praktyce R&D warto wdrożyć zasadę „privacy by design”: minimalizacja zbieranych danych, pseudonimizacja i kontrola dostępu od pierwszego dnia projektu.
+## Bibliografia
+1. American Psychological Association. (2017). *Ethical Principles of Psychologists and Code of Conduct*.
+2. Beauchamp, T. L., & Childress, J. F. (2019). *Principles of Biomedical Ethics* (8th ed.). Oxford University Press.
+3. Resnik, D. B. (2020). *The Ethics of Research with Human Subjects*. Springer.
+4. World Medical Association. (2013). *Declaration of Helsinki*.
