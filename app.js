@@ -229,6 +229,31 @@ function warnAboutMissingDomainKeys() {
   });
 }
 
+/* Waliduje konfigurację narzędzi pomiarowych i raportuje problemy z poziomem error/warn. */
+function runMeasurementToolsConfigValidation(options = {}) {
+  const validator = window.MeasurementToolsConfigValidator?.validateMeasurementToolsConfig;
+  if (typeof validator !== 'function') {
+    console.warn('[PsyHub][measurement-tools][warn] validator/unavailable | Nie znaleziono modułu walidatora.');
+    return { allIssues: [], errors: [], warnings: [], isValid: true };
+  }
+
+  const report = validator(SITE_CONFIG, options);
+  report.allIssues.forEach(issue => {
+    const logMessage = `[PsyHub][measurement-tools][${issue.level}] ${issue.path} | ${issue.field} | ${issue.message}`;
+    if (issue.level === 'error') {
+      console.error(logMessage);
+    } else {
+      console.warn(logMessage);
+    }
+  });
+
+  if (report.errors.length === 0 && report.warnings.length === 0) {
+    console.info('[PsyHub][measurement-tools][ok] Walidacja konfiguracji zakończona bez uwag.');
+  }
+
+  return report;
+}
+
 /* ── Empty article indicator refresh ──────── */
 const EMPTY_BANNER_HTML = `<div class="empty-banner"><span class="empty-banner-icon">⚠</span><div class="empty-banner-text">Artykuł jeszcze nie zawiera treści — zostanie uzupełniony wkrótce.</div></div>`;
 
@@ -1329,6 +1354,7 @@ function animateSidebar() {
 window.addEventListener('DOMContentLoaded', ()=>{
   /* Wczesna walidacja konfiguracji ułatwia wychwycenie braków podczas uruchomienia aplikacji. */
   warnAboutMissingDomainKeys();
+  runMeasurementToolsConfigValidation({ strict: false });
   buildPageMap();
   pageMap.set('__home__',{id:'__home__',label:'Strona główna',section:''});
   loadSearchUiState();
