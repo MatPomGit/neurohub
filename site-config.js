@@ -13,6 +13,189 @@ window.SITE_CONFIG = {
 
   defaultPage: '__home__',
 
+
+  // ─────────────────────────────────────────────────────────────
+  //  NARZĘDZIA POMIAROWE WG DZIEDZIN
+  //  Struktura służy do katalogowania testów/skal/kwestionariuszy i ma być
+  //  aktualizowana wyłącznie przez dopisywanie nowych obiektów zgodnych ze
+  //  słownikiem wartości kontrolowanych poniżej.
+  //  Zasady aktualizacji:
+  //  1) Każdy wpis narzędzia musi zawierać kompletny minimalny schemat pól.
+  //  2) Wartości pól type/evidenceLevel/license muszą pochodzić ze słownika.
+  //  3) Dla domen bez opracowanych wpisów używamy listy TODO w todoDomains.
+  // ─────────────────────────────────────────────────────────────
+  measurementToolsControlledVocabulary: {
+    type: ['test', 'kwestionariusz', 'skala', 'protokol', 'obserwacja'],
+    evidenceLevel: ['wysoki', 'umiarkowany', 'wstepny', 'niewystarczajacy'],
+    license: ['komercyjna', 'otwarta', 'instytucjonalna', 'do_ustalenia'],
+  },
+
+  measurementToolsByDomain: {
+    diagnostics: [
+      {
+        id: 'mmse',
+        name: 'Mini-Mental State Examination (MMSE)',
+        type: 'test',
+        constructs: ['globalne funkcjonowanie poznawcze', 'orientacja', 'pamiec'],
+        population: 'Dorosli i seniorzy z podejrzeniem zaburzen poznawczych',
+        ageRange: '18+',
+        administrationTime: '10-15 min',
+        scoring: 'Suma punktow; nizszy wynik wskazuje na wieksze nasilenie deficytow',
+        evidenceLevel: 'wysoki',
+        license: 'komercyjna',
+        language: ['pl', 'en'],
+        articleLinks: ['diagnostics/mmse_moca'],
+      },
+      {
+        id: 'moca',
+        name: 'Montreal Cognitive Assessment (MoCA)',
+        type: 'test',
+        constructs: ['funkcje wykonawcze', 'pamiec', 'uwaga', 'jezyk'],
+        population: 'Dorosli i seniorzy w diagnostyce lagodnych zaburzen poznawczych',
+        ageRange: '18+',
+        administrationTime: '10-15 min',
+        scoring: 'Suma punktow z korekta edukacyjna zgodnie z podrecznikiem',
+        evidenceLevel: 'wysoki',
+        license: 'instytucjonalna',
+        language: ['pl', 'en'],
+        articleLinks: ['diagnostics/mmse_moca'],
+      },
+    ],
+    psychometrics: [
+      {
+        id: 'bdi_ii',
+        name: 'Beck Depression Inventory-II (BDI-II)',
+        type: 'kwestionariusz',
+        constructs: ['nasilenie objawow depresyjnych'],
+        population: 'Mlodziez i dorosli',
+        ageRange: '13+',
+        administrationTime: '5-10 min',
+        scoring: 'Suma punktow i interpretacja wg norm/recznych przedzialow',
+        evidenceLevel: 'wysoki',
+        license: 'komercyjna',
+        language: ['pl', 'en'],
+        articleLinks: ['psychometrics/bdi_2'],
+      },
+      {
+        id: 'mmpi_2',
+        name: 'Minnesota Multiphasic Personality Inventory-2 (MMPI-2)',
+        type: 'kwestionariusz',
+        constructs: ['psychopatologia', 'cechy osobowosci klinicznej', 'style odpowiedzi'],
+        population: 'Dorosli w diagnozie klinicznej i opiniodawczej',
+        ageRange: '18+',
+        administrationTime: '60-90 min',
+        scoring: 'Skale kliniczne i kontrolne, interpretacja wieloskalowa',
+        evidenceLevel: 'wysoki',
+        license: 'komercyjna',
+        language: ['pl', 'en'],
+        articleLinks: ['psychometrics/mmpi'],
+      },
+    ],
+    disorders: [
+      {
+        id: 'diva_5',
+        name: 'Diagnostic Interview for ADHD in Adults (DIVA-5)',
+        type: 'protokol',
+        constructs: ['objawy adhd', 'upośledzenie funkcjonowania'],
+        population: 'Dorosli z podejrzeniem ADHD',
+        ageRange: '18+',
+        administrationTime: '60-90 min',
+        scoring: 'Ocena kryteriow DSM i nasilenia w obszarach funkcjonowania',
+        evidenceLevel: 'umiarkowany',
+        license: 'instytucjonalna',
+        language: ['pl', 'en'],
+        articleLinks: ['psychometrics/diva', 'disorders/adhd'],
+      },
+      {
+        id: 'ados_2',
+        name: 'Autism Diagnostic Observation Schedule-2 (ADOS-2)',
+        type: 'obserwacja',
+        constructs: ['komunikacja spoleczna', 'zachowania powtarzalne i ograniczone'],
+        population: 'Dzieci, mlodziez i dorosli z podejrzeniem ASD',
+        ageRange: '2+',
+        administrationTime: '40-60 min',
+        scoring: 'Algorytm modulowy, klasyfikacja ryzyka i profilu objawowego',
+        evidenceLevel: 'wysoki',
+        license: 'komercyjna',
+        language: ['pl', 'en'],
+        articleLinks: ['psychometrics/ados', 'disorders/asd'],
+      },
+    ],
+    neuro: [
+      {
+        id: 'stroop',
+        name: 'Stroop Color and Word Test',
+        type: 'test',
+        constructs: ['hamowanie reakcji', 'kontrola poznawcza', 'uwaga selektywna'],
+        population: 'Mlodziez i dorosli w diagnozie neuropsychologicznej',
+        ageRange: '12+',
+        administrationTime: '5-10 min',
+        scoring: 'Czas i bledy w warunkach zgodnych/niezgodnych',
+        evidenceLevel: 'umiarkowany',
+        license: 'komercyjna',
+        language: ['pl', 'en'],
+        articleLinks: ['diagnostics/testy_wykonawcze', 'neuro/neuronauka_poznawcza'],
+      },
+      {
+        id: 'tmt',
+        name: 'Trail Making Test (TMT A/B)',
+        type: 'test',
+        constructs: ['predkosc przetwarzania', 'przelaczanie uwagi', 'funkcje wykonawcze'],
+        population: 'Dorosli i seniorzy w ocenie neurokognitywnej',
+        ageRange: '18+',
+        administrationTime: '5-10 min',
+        scoring: 'Czas wykonania czesci A i B oraz roznica B-A',
+        evidenceLevel: 'umiarkowany',
+        license: 'instytucjonalna',
+        language: ['pl', 'en'],
+        articleLinks: ['diagnostics/testy_uwagi', 'diagnostics/testy_wykonawcze'],
+      },
+    ],
+    spoleczna: [
+      {
+        id: 'iri',
+        name: 'Interpersonal Reactivity Index (IRI)',
+        type: 'kwestionariusz',
+        constructs: ['empatia poznawcza', 'empatia emocjonalna'],
+        population: 'Mlodziez i dorosli w badaniach spolecznych',
+        ageRange: '14+',
+        administrationTime: '10-15 min',
+        scoring: 'Wyniki w 4 podskalach, interpretacja profilowa',
+        evidenceLevel: 'umiarkowany',
+        license: 'otwarta',
+        language: ['pl', 'en'],
+        articleLinks: ['spoleczna/percepcja_spoleczna', 'spoleczna/ja_i_samoocena'],
+      },
+      {
+        id: 'rosenberg_ses',
+        name: 'Rosenberg Self-Esteem Scale (SES)',
+        type: 'skala',
+        constructs: ['globalna samoocena'],
+        population: 'Mlodziez i dorosli',
+        ageRange: '13+',
+        administrationTime: '3-5 min',
+        scoring: 'Suma 10 pozycji z pozycjami odwrotnie kodowanymi',
+        evidenceLevel: 'wysoki',
+        license: 'otwarta',
+        language: ['pl', 'en'],
+        articleLinks: ['spoleczna/ja_i_samoocena'],
+      },
+    ],
+  },
+
+  // Domeny obecne w serwisie, dla ktorych wpisy narzedzi pomiarowych sa jeszcze nieuzupelnione.
+  measurementToolsTodoDomains: [
+    'affective_robotics', 'ai_psychology', 'animaltherapy', 'artetherapy', 'biology', 'cases',
+    'cognitive', 'diagnoza', 'disability_psychology', 'e_therapy', 'eksperyment_psychologiczny',
+    'emotions', 'etyka', 'forensic_psychology', 'game_psychology', 'geropsychology',
+    'health_psychology', 'individual_diffs', 'intro', 'kulturowa', 'media_nature',
+    'neurodiversity', 'nvc', 'pharmacology', 'philosophy', 'podstawy_pomocy',
+    'positive_psychology', 'ppd', 'psychopathology', 'psychosomatics', 'psychotherapy',
+    'reference', 'relacje', 'resilience_mobbing', 'rozwojowa', 'school_psychology',
+    'sexology', 'students', 'suicidology', 'technology_psychology', 'temperament',
+    'uzaleznienia', 'wiki-index'
+  ],
+
   // ─────────────────────────────────────────────────────────────
   //  NAWIGACJA BOCZNA
   //  Każda sekcja to zwijany blok w sidebarze.
