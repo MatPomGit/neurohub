@@ -387,6 +387,14 @@ em{color:var(--goldl)}
 .md th{background:var(--bg3);font-weight:600;color:var(--t1);padding:.6rem .9rem;text-align:left;font-size:.76rem;text-transform:uppercase;letter-spacing:.05em;border-bottom:1px solid var(--border)}
 .md td{padding:.55rem .9rem;color:var(--t2);border-bottom:1px solid var(--border)}
 .md tr:hover td{background:rgba(255,255,255,.015)}
+.md .fn-ref{font-size:.7em;vertical-align:super;line-height:0;margin-left:.12em}
+.md .fn-ref a{text-decoration:none;color:var(--goldl)}
+.md .fn-ref a:hover{text-decoration:underline}
+.md .footnotes{margin-top:2rem;padding-top:1rem;border-top:1px solid var(--border)}
+.md .footnotes h2{margin-top:0}
+.md .footnotes ol{margin-left:1.25rem}
+.md .footnotes li{font-size:.92rem;line-height:1.65;margin-bottom:.5rem}
+.md .fn-back{margin-left:.4rem;text-decoration:none}
 
 /* test specjalności */
 .test-wrap{max-width:920px}

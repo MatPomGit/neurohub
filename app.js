@@ -3,13 +3,40 @@
 ══════════════════════════════════════════════════ */
 function md2html(src) {
   const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-  const inl = s => {
+  const footnoteDefs = new Map();
+  const footnoteOrder = [];
+  const footnoteIndex = new Map();
+
+  /* Wyodrębnia definicje przypisów z końca/środka dokumentu i usuwa je z treści głównej. */
+  src = src.replace(/^\[\^([^\]\s]+)\]:\s*(.+)$/gm, (_, id, content) => {
+    footnoteDefs.set(id, content.trim());
+    return '';
+  });
+
+  /* Rejestruje pierwsze użycie identyfikatora przypisu i zwraca jego numer porządkowy. */
+  const getFootnoteNumber = id => {
+    if (!footnoteIndex.has(id)) {
+      footnoteOrder.push(id);
+      footnoteIndex.set(id, footnoteOrder.length);
+    }
+    return footnoteIndex.get(id);
+  };
+
+  /* Renderuje inline markdown; opcjonalnie zamienia odwołania [^id] na superskrypty z kotwicami. */
+  const inl = (s, opts = { parseFootnotes: true }) => {
     s = esc(s);
-    return s
+    s = s
       .replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
       .replace(/\*(.+?)\*/g,'<em>$1</em>')
       .replace(/`(.+?)`/g,'<code>$1</code>')
       .replace(/\[([^\]]+)\]\(([^)]+)\)/g,'<a href="$2">$1</a>');
+    if (opts.parseFootnotes !== false) {
+      s = s.replace(/\[\^([^\]\s]+)\]/g, (_, id) => {
+        const no = getFootnoteNumber(id);
+        return `<sup class="fn-ref" id="fnref-${id}"><a href="#fn-${id}" aria-label="Przypis ${no}">${no}</a></sup>`;
+      });
+    }
+    return s;
   };
 
   // tables
@@ -44,6 +71,18 @@ function md2html(src) {
     if (/^<[a-z]/.test(blk)) return blk;
     return `<p>${inl(blk.replace(/\n/g,' '))}</p>`;
   }).join('\n');
+
+  /* Dodaje końcową sekcję przypisów w kolejności pierwszego cytowania wraz z linkiem powrotnym. */
+  if (footnoteOrder.length) {
+    const footnotesHtml = footnoteOrder.map(id => {
+      const no = footnoteIndex.get(id);
+      const rawContent = footnoteDefs.get(id) || 'Brak opisu źródła.';
+      const renderedContent = inl(rawContent, { parseFootnotes: false });
+      return `<li id="fn-${id}">${renderedContent} <a class="fn-back" href="#fnref-${id}" aria-label="Powrót do cytowania ${no}">↩</a></li>`;
+    }).join('');
+    src += `\n<section class="footnotes"><h2>Przypisy</h2><ol>${footnotesHtml}</ol></section>`;
+  }
+
   return src;
 }
 

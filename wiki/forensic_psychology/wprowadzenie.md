@@ -2,17 +2,17 @@
 
 ## Czym jest psychologia sądowa?
 
-Psychologia sądowa (*forensic psychology*) to dziedzina na pograniczu psychologii klinicznej i prawa, zajmująca się zastosowaniem wiedzy psychologicznej w kontekście wymiaru sprawiedliwości. Obejmuje zarówno ocenę psychologiczną na potrzeby sądu, jak i badania nad zachowaniami przestępczymi, wiktymologię, psychologię zeznań, profilowanie kryminalistyczne oraz interwencję terapeutyczną wobec sprawców i ofiar.
+Psychologia sądowa (*forensic psychology*) to dziedzina na pograniczu psychologii klinicznej i prawa, zajmująca się zastosowaniem wiedzy psychologicznej w kontekście wymiaru sprawiedliwości.[^otto2014] Obejmuje zarówno ocenę psychologiczną na potrzeby sądu, jak i badania nad zachowaniami przestępczymi, wiktymologię, psychologię zeznań, profilowanie kryminalistyczne oraz interwencję terapeutyczną wobec sprawców i ofiar.
 
-Psycholog sądowy funkcjonuje w dwóch głównych rolach: jako **biegły sądowy** (dostarczający sądowi ekspertyzę techniczną w postaci opinii psychologicznej) oraz jako **specjalista kliniczny** (prowadzący psychoterapię lub diagnozę kliniczną osób objętych postępowaniem prawnym). Obie role wymagają gruntownej wiedzy nie tylko z zakresu psychologii, ale również podstaw prawa procesowego, etyki zawodowej i metodologii badań.
+Psycholog sądowy funkcjonuje w dwóch głównych rolach: jako **biegły sądowy** (dostarczający sądowi ekspertyzę techniczną w postaci opinii psychologicznej) oraz jako **specjalista kliniczny** (prowadzący psychoterapię lub diagnozę kliniczną osób objętych postępowaniem prawnym).[^heilbrun2002] Obie role wymagają gruntownej wiedzy nie tylko z zakresu psychologii, ale również podstaw prawa procesowego, etyki zawodowej i metodologii badań.
 
-> **Fakt:** Według danych Ministerstwa Sprawiedliwości RP, co roku polskie sądy powołują kilkadziesiąt tysięcy biegłych — psycholodzy i psychiatrzy należą do najczęściej powoływanych specjalistów w sprawach karnych i rodzinnych.
+> **Fakt:** Według danych Ministerstwa Sprawiedliwości RP, co roku polskie sądy powołują kilkadziesiąt tysięcy biegłych — psycholodzy i psychiatrzy należą do najczęściej powoływanych specjalistów w sprawach karnych i rodzinnych.[^ms2022]
 
 ## Historia psychologii sądowej
 
-Początki psychologii sądowej sięgają przełomu XIX i XX wieku. Już w 1908 roku Hugo Münsterberg w swojej książce *On the Witness Stand* postulował, by psychologia naukowa była systematycznie stosowana w sali sądowej — oceniał m.in. rzetelność zeznań świadków i wpływ emocji na pamięć. W Europie kontynentalnej szczególną rolę odegrał Alfred Binet, który badał sugestywność dzieci jako świadków.
+Początki psychologii sądowej sięgają przełomu XIX i XX wieku. Już w 1908 roku Hugo Münsterberg w swojej książce *On the Witness Stand* postulował, by psychologia naukowa była systematycznie stosowana w sali sądowej — oceniał m.in. rzetelność zeznań świadków i wpływ emocji na pamięć.[^munsterberg1908] W Europie kontynentalnej szczególną rolę odegrał Alfred Binet, który badał sugestywność dzieci jako świadków.
 
-W Polsce instytucja biegłego sądowego wywodzi się z tradycji prawa kontynentalnego. Kodeks postępowania karnego z 1928 roku jako pierwszy usystematyzował warunki powoływania biegłych. Współcześnie regulacje zawarte są głównie w Kodeksie postępowania karnego (art. 193–206) i Kodeksie postępowania cywilnego.
+W Polsce instytucja biegłego sądowego wywodzi się z tradycji prawa kontynentalnego. Kodeks postępowania karnego z 1928 roku jako pierwszy usystematyzował warunki powoływania biegłych. Współcześnie regulacje zawarte są głównie w Kodeksie postępowania karnego (art. 193–206) i Kodeksie postępowania cywilnego.[^kpk][^kpc]
 
 Przez dekady rola psychologa w sądzie ograniczała się niemal wyłącznie do oceny stanu psychicznego oskarżonego. Współcześnie zakres opinii psychologicznych znacznie się poszerzył: obejmuje ocenę wiarygodności zeznań dzieci, diagnozę zdolności do czynności prawnych, opiniowanie w sprawach o prawa do opieki nad dzieckiem, ocenę stopnia uzależnienia czy psychologiczne profile sprawców.
 
@@ -22,9 +22,9 @@ Działalność biegłego sądowego w Polsce reguluje kilka kluczowych aktów pra
 
 Wpis na listę biegłych sądowych prowadzoną przez prezesa sądu okręgowego wymaga posiadania tytułu zawodowego magistra psychologii lub doktora nauk psychologicznych, co najmniej 5-letniego doświadczenia zawodowego w zakresie opiniowania, nienagannej opinii, zdolności do czynności prawnych i braku karalności.
 
-Biegły ma obowiązek złożenia przyrzeczenia, w którym zobowiązuje się wykonywać obowiązki rzetelnie i bezstronnie. Fałszywa opinia biegłego stanowi przestępstwo zagrożone karą pozbawienia wolności do lat 3 (art. 233 k.k.).
+Biegły ma obowiązek złożenia przyrzeczenia, w którym zobowiązuje się wykonywać obowiązki rzetelnie i bezstronnie. Fałszywa opinia biegłego stanowi przestępstwo zagrożone karą pozbawienia wolności do lat 3 (art. 233 k.k.).[^kk233]
 
-> **Fakt:** W Polsce psycholog może uzyskać status biegłego sądowego na liście prowadzonej przez prezesa sądu okręgowego — w 2022 roku na listach figurowało łącznie ponad 2400 biegłych psychologów w całym kraju.
+> **Fakt:** W Polsce psycholog może uzyskać status biegłego sądowego na liście prowadzonej przez prezesa sądu okręgowego — w 2022 roku na listach figurowało łącznie ponad 2400 biegłych psychologów w całym kraju.[^ms2022]
 
 ## Zakres i rodzaje opinii psychologicznych
 
@@ -66,3 +66,13 @@ Kolejnym wyzwaniem jest **ograniczona predyktywna trafność** niektórych metod
 Opinia psychologiczna ma status dowodu w postępowaniu sądowym, a sąd jest zobowiązany odnieść się do niej w uzasadnieniu wyroku. Nie jest ona jednak wiążąca — sąd ocenia ją na równi z innymi dowodami i może odejść od jej konkluzji, jeśli należycie to uzasadni.
 
 Rzetelna opinia psychologiczna może decydować o wolności człowieka, przyznaniu mu prawa opieki nad dzieckiem lub orzeczeniu o jego niepoczytalności. Ciężar odpowiedzialności, jaki spoczywa na biegłym, jest zatem wyjątkowo duży — i stanowi jeden z najpoważniejszych wyzwań w całej psychologii stosowanej.
+
+## Bibliografia (APA 7)
+
+[^otto2014]: Otto, R. K., & Heilbrun, K. (2014). *The practice of forensic psychology* (2nd ed.). Routledge. https://doi.org/10.4324/9780203108859
+[^heilbrun2002]: Heilbrun, K. (2002). *Principles of forensic mental health assessment*. Kluwer Academic/Plenum Publishers. https://doi.org/10.1007/978-1-4615-1167-5
+[^ms2022]: Ministerstwo Sprawiedliwości. (2022). *Biegli sądowi — dane statystyczne*. https://www.gov.pl/web/sprawiedliwosc
+[^munsterberg1908]: Münsterberg, H. (1908). *On the witness stand: Essays on psychology and crime*. Doubleday.
+[^kpk]: Ustawa z dnia 6 czerwca 1997 r. – Kodeks postępowania karnego (Dz.U. 1997 nr 89 poz. 555, z późn. zm.), art. 193–206. https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970890555
+[^kpc]: Ustawa z dnia 17 listopada 1964 r. – Kodeks postępowania cywilnego (Dz.U. 1964 nr 43 poz. 296, z późn. zm.), art. 278–291. https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19640430296
+[^kk233]: Ustawa z dnia 6 czerwca 1997 r. – Kodeks karny (Dz.U. 1997 nr 88 poz. 553, z późn. zm.), art. 233. https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19970880553
