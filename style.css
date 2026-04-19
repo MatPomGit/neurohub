@@ -113,8 +113,10 @@ em{color:var(--goldl)}
 
 /* logo */
 .s-logo{
+  background:none;border:none;color:inherit;text-align:left;
   flex-shrink:0;
   height:var(--hh);
+  width:100%;
   padding:0 var(--space-4);
   display:flex;align-items:center;gap:0.7rem;
   border-bottom:1px solid var(--border);
@@ -149,6 +151,10 @@ em{color:var(--goldl)}
 /* group */
 .nav-group{margin-bottom:.05rem}
 .nav-group-hdr{
+  width:100%;
+  background:none;
+  border:none;
+  color:inherit;
   display:flex;align-items:center;justify-content:space-between;
   padding:.45rem 1rem .25rem;cursor:pointer;user-select:none;
 }
@@ -167,6 +173,13 @@ em{color:var(--goldl)}
   color:var(--t2);font-size:.79rem;line-height:1.35;
   cursor:pointer;border-left:2px solid transparent;
   transition:all var(--ease);
+}
+.nav-item-btn{
+  width:100%;
+  background:none;
+  border:none;
+  text-align:left;
+  font:inherit;
 }
 .nav-item:hover{color:var(--t1);background:var(--hover-subtle)}
 .nav-item:is(.is-active,.active){color:var(--gold);border-left-color:var(--gold);background:var(--goldt)}

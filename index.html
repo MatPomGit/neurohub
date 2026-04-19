@@ -22,13 +22,13 @@
 
 <!-- ══ SIDEBAR ══════════════════════════════ -->
 <aside class="sidebar" id="sidebar">
-  <div class="s-logo" onclick="navigate(SITE_CONFIG.defaultPage)">
+  <button type="button" class="s-logo" id="sidebarLogo" aria-label="Przejdź do strony głównej">
     <div class="s-logo-mark">🧠</div>
     <div>
       <div class="s-logo-name">PsyHub</div>
       <div class="s-logo-sub">Portal Wiedzy</div>
     </div>
-  </div>
+  </button>
 
   <div class="s-search">
     <div class="s-search-wrap">
@@ -39,7 +39,7 @@
     </div>
   </div>
 
-  <nav class="s-nav" id="sidebarNav"></nav>
+  <nav class="s-nav" id="sidebarNav" aria-label="Nawigacja boczna"></nav>
 
   <div class="s-footer">
     <span>PsyHub v3.2</span>
@@ -52,30 +52,30 @@
   </div>
 </aside>
 
-<div class="overlay" id="overlay" onclick="closeSidebar()"></div>
+<div class="overlay" id="overlay"></div>
 
 <!-- ══ MAIN ═════════════════════════════════ -->
-<div class="main">
+<main class="main" id="mainContent">
   <div class="prog-bar"><div class="prog-fill" id="progFill"></div></div>
 
   <header class="topbar">
-    <button class="btn-menu" onclick="openSidebar()">
+    <button class="btn-menu" id="mobileMenuButton" type="button" aria-label="Otwórz menu nawigacyjne">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
         <line x1="3" y1="6"  x2="21" y2="6"/>
         <line x1="3" y1="12" x2="21" y2="12"/>
         <line x1="3" y1="18" x2="21" y2="18"/>
       </svg>
     </button>
-    <nav class="breadcrumb" id="breadcrumb">
+    <nav class="breadcrumb" id="breadcrumb" aria-label="Okruszki nawigacji">
       <a onclick="navigate(SITE_CONFIG.defaultPage)">PsyHub</a>
     </nav>
     <div></div>
   </header>
 
-  <div class="content" id="content">
+  <section class="content" id="content" aria-live="polite">
     <div class="loading"><div class="spinner"></div>Ładowanie…</div>
-  </div>
-</div>
+  </section>
+</main>
 
 
 </body>
