@@ -573,6 +573,37 @@ function renderToolField(value, missingLabel) {
   return q(cleanedValue);
 }
 
+/* Renderuje listę pozycji źródłowych dla danych metodologicznych narzędzia. */
+function renderToolListField(values, missingLabel) {
+  if (!Array.isArray(values) || values.length === 0) {
+    return `<span class="tool-missing">${q(missingLabel)}</span>`;
+  }
+
+  return `<ul class="measurement-tool-source-list">${values.map(value => `<li>${q(value)}</li>`).join('')}</ul>`;
+}
+
+/* Buduje zwijalny blok z rozszerzonymi informacjami metodologicznymi. */
+function renderMethodologyDetails(tool) {
+  return `<details class="measurement-methodology-details">
+    <summary class="measurement-methodology-summary">Pokaż metodologię</summary>
+    <div class="measurement-methodology-content">
+      <h4 class="measurement-methodology-title">Szczegóły metodologiczne</h4>
+      <div class="measurement-tool-meta"><strong>Typ dowodu:</strong> ${renderToolField(tool.evidenceType, 'brak danych o typie dowodu')}</div>
+      <div class="measurement-tool-meta"><strong>Informacje o próbie:</strong> ${renderToolField(tool.sampleInfo, 'brak danych o próbie')}</div>
+      <div class="measurement-tool-meta"><strong>Kraj norm:</strong> ${renderToolField(tool.normCountry, 'brak danych o kraju norm')}</div>
+      <div class="measurement-tool-meta"><strong>Rok norm:</strong> ${renderToolField(tool.normYear, 'brak danych o roku norm')}</div>
+      <div class="measurement-tool-meta"><strong>Informacja o wielkości efektu:</strong> ${renderToolField(tool.effectSizeInfo, 'brak danych o wielkości efektu')}</div>
+      <div class="measurement-tool-meta"><strong>Kluczowe publikacje:</strong> ${renderToolListField(tool.sourceRefs, 'brak wskazanych publikacji')}</div>
+      <div class="measurement-tool-meta"><strong>Rzetelność:</strong> ${renderToolField(tool.reliability, 'brak danych o rzetelności')}</div>
+      <div class="measurement-tool-meta"><strong>Trafność:</strong> ${renderToolField(tool.validity, 'brak danych o trafności')}</div>
+      <div class="measurement-tool-meta"><strong>Normy:</strong> ${renderToolField(tool.normsInfo, 'brak danych o normach')}</div>
+      <div class="measurement-tool-meta"><strong>Ograniczenia:</strong> ${renderToolField(tool.limitations, 'brak danych o ograniczeniach')}</div>
+      <div class="measurement-tool-meta"><strong>Uwagi etyczne:</strong> ${renderToolField(tool.ethicalNotes, 'brak danych etycznych')}</div>
+      <div class="measurement-tool-meta"><strong>Przeciwwskazania:</strong> ${renderToolField(tool.contraindications, 'brak danych o przeciwwskazaniach')}</div>
+    </div>
+  </details>`;
+}
+
 /* Buduje zestaw ostrzeżeń dla narzędzia, jeśli wymaga licencji lub uprawnień. */
 function renderToolWarnings(tool) {
   const warnings = [];
@@ -650,15 +681,10 @@ function renderMeasurementTools(domainKey, currentId) {
         <div class="measurement-tool-meta"><strong>Mierzone konstrukty:</strong> ${q((tool.constructs || []).join(', ') || '—')}</div>
         <div class="measurement-tool-meta"><strong>Czas badania:</strong> ${q(tool.administrationTime || '—')}</div>
         <div class="measurement-tool-meta"><strong>Grupa docelowa:</strong> ${q(tool.population || '—')}</div>
-        <div class="measurement-tool-meta"><strong>Rzetelność:</strong> ${renderToolField(tool.reliability, 'brak danych o rzetelności')}</div>
-        <div class="measurement-tool-meta"><strong>Trafność:</strong> ${renderToolField(tool.validity, 'brak danych o trafności')}</div>
-        <div class="measurement-tool-meta"><strong>Normy:</strong> ${renderToolField(tool.normsInfo, 'brak danych o normach')}</div>
-        <div class="measurement-tool-meta"><strong>Ograniczenia:</strong> ${renderToolField(tool.limitations, 'brak danych o ograniczeniach')}</div>
-        <div class="measurement-tool-meta"><strong>Uwagi etyczne:</strong> ${renderToolField(tool.ethicalNotes, 'brak danych etycznych')}</div>
-        <div class="measurement-tool-meta"><strong>Przeciwwskazania:</strong> ${renderToolField(tool.contraindications, 'brak danych o przeciwwskazaniach')}</div>
         <div class="measurement-tool-meta"><strong>Status licencji:</strong> ${renderToolField(tool.license === 'do_ustalenia' ? '' : tool.license, 'licencja nieokreślona')}</div>
         <div class="measurement-tool-links"><strong>Powiązane artykuły:</strong> ${relatedLinks}</div>
         <div class="measurement-tool-links"><strong>Artykuły metodologiczne:</strong> ${methodologyLinks}</div>
+        ${renderMethodologyDetails(tool)}
       </div>
     </article>`;
   }).join('');

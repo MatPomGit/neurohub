@@ -26,14 +26,20 @@ window.SITE_CONFIG = {
   //  Zasady aktualizacji:
   //  1) Każdy wpis narzędzia musi zawierać kompletny minimalny schemat pól,
   //     w tym: reliability, validity, normsInfo, limitations, ethicalNotes,
-  //     contraindications, requiresPermissions, methodologyLinks.
-  //  2) Wartości pól type/evidenceLevel/license muszą pochodzić ze słownika.
+  //     contraindications, requiresPermissions, methodologyLinks oraz pola
+  //     metodologiczne: evidenceType, sampleInfo, normCountry, normYear,
+  //     effectSizeInfo, sourceRefs.
+  //  2) Wartości pól type/evidenceLevel/license/evidenceType muszą pochodzić
+  //     ze słownika.
   //  3) Dla domen bez opracowanych wpisów używamy listy TODO w todoDomains.
   // ─────────────────────────────────────────────────────────────
   measurementToolsControlledVocabulary: {
     type: ['test', 'kwestionariusz', 'skala', 'protokol', 'obserwacja'],
     evidenceLevel: ['wysoki', 'umiarkowany', 'wstepny', 'niewystarczajacy'],
     license: ['komercyjna', 'otwarta', 'instytucjonalna', 'do_ustalenia'],
+    evidenceType: ['meta_analiza', 'rct', 'walidacja_lokalna', 'przeglad'],
+    normCountry: ['PL', 'USA', 'UK', 'EU', 'miedzynarodowe', 'brak_danych'],
+    effectSizeInfo: ['male', 'umiarkowane', 'duze', 'mieszane', 'nie_dotyczy', 'brak_danych'],
   },
 
   measurementToolsByDomain: {
@@ -59,6 +65,16 @@ window.SITE_CONFIG = {
         limitations: 'Wynik zalezy od edukacji, deficytow sensorycznych i kompetencji jezykowych.',
         ethicalNotes: 'Nie powinien byc jedyną podstawą decyzji klinicznych lub prawnych.',
         contraindications: 'Silne zaburzenia sluchu/wzroku i delirium utrudniaja rzetelny pomiar.',
+        evidenceType: 'meta_analiza',
+        sampleInfo: 'N laczny: >10 000; dorosli i seniorzy z populacji klinicznych oraz populacyjnych.',
+        normCountry: 'PL',
+        normYear: '2021',
+        effectSizeInfo: 'mieszane',
+        sourceRefs: [
+          'Folstein et al. (1975)',
+          'Arevalo-Rodriguez et al. (2021)',
+          'Strozik et al. (polska adaptacja, 2021)',
+        ],
       },
       {
         id: 'moca',
@@ -81,6 +97,16 @@ window.SITE_CONFIG = {
         limitations: 'Mozliwe efekty uczenia przy czestym powtarzaniu testu.',
         ethicalNotes: 'Wyniki omawiac z pacjentem ostroznie, bez stygmatyzacji.',
         contraindications: 'Brak przeciwwskazan bezwzglednych; ostroznosc przy afazji i ostrych objawach psychiatrycznych.',
+        evidenceType: 'meta_analiza',
+        sampleInfo: 'N laczny: >8 000; dorosli i seniorzy, szczegolnie grupy MCI.',
+        normCountry: 'PL',
+        normYear: '2022',
+        effectSizeInfo: 'umiarkowane',
+        sourceRefs: [
+          'Nasreddine et al. (2005)',
+          'Carson et al. (2018)',
+          'Wozniak et al. (polska normalizacja, 2022)',
+        ],
       },
     ],
     psychometrics: [
