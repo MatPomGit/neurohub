@@ -80,6 +80,7 @@ window.SITE_CONFIG = {
       items: [
         { id: 'biology/biologiczne_podstawy', label: 'Biologiczne podstawy — wprow.', file: 'wiki/biology/biologiczne_podstawy.md' },
         { id: 'biology/genetyka_beh',         label: 'Genetyka behawioralna',          file: 'wiki/biology/genetyka_beh.md'          },
+        { id: 'biology/epigenetyka',          label: 'Epigenetyka',                    file: 'wiki/biology/epigenetyka.md'           },
         { id: 'biology/hormony',              label: 'Hormony i zachowanie',           file: 'wiki/biology/hormony.md'               },
         { id: 'biology/ewolucja',             label: 'Ewolucja i psychologia ewol.',   file: 'wiki/biology/ewolucja.md'              },
         { id: 'biology/psychofizjologia',     label: 'Psychofizjologia',               file: 'wiki/biology/psychofizjologia.md'      },
@@ -1036,6 +1037,7 @@ window.SITE_CONFIG = {
     biology: [
       { file: 'wiki/biology/biologiczne_podstawy.md', label: 'Biologiczne podstawy — wprow.', status: 'live' },
       { file: 'wiki/biology/genetyka_beh.md',    label: 'Genetyka behawioralna',      status: 'live' },
+      { file: 'wiki/biology/epigenetyka.md',    label: 'Epigenetyka',                status: 'live' },
       { file: 'wiki/biology/hormony.md',          label: 'Hormony i zachowanie',       status: 'live' },
       { file: 'wiki/biology/ewolucja.md',         label: 'Ewolucja i psychologia ewol.',status: 'live' },
       { file: 'wiki/biology/psychofizjologia.md', label: 'Psychofizjologia',           status: 'live' },
@@ -2046,6 +2048,7 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Biologiczne podstawy zachowania', id: 'biology/biologiczne_podstawy', status: 'live' },
             { label: 'Genetyka zachowania', id: 'biology/genetyka_beh', status: 'live' },
+            { label: 'Epigenetyka', id: 'biology/epigenetyka', status: 'live' },
             { label: 'Psychofizjologia', id: 'biology/psychofizjologia', status: 'live' },
           ]
         },
