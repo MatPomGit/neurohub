@@ -338,6 +338,7 @@ function renderMd(text, id, item) {
   window.scrollTo(0,0);
   document.getElementById('progFill').style.width='0%';
   if (isEmpty) updateEmptyIndicators();
+  addKeywordLinksToRenderedArticle(area.querySelector('.md'), id);
   animateContentIn();
 }
 
@@ -622,18 +623,204 @@ function setBreadcrumb(item) {
 }
 
 /* ── Search ────────────────────────────────── */
-document.getElementById('searchInput').addEventListener('input', function(){
-  const q = this.value.trim().toLowerCase();
-  document.querySelectorAll('.nav-item').forEach(el=>{
-    el.style.display = (!q || el.textContent.toLowerCase().includes(q)) ? '' : 'none';
+const SEARCH_UI_STATE_KEY = 'psyhub-search-ui-state';
+let searchIndex = [];
+const searchUiState = { query: '', filters: { tests: false, wiki: false, beginner: false } };
+
+/* Standaryzuje tokeny tekstowe, żeby ranking działał stabilnie dla polskich znaków i wielkości liter. */
+function normalizeSearchText(value) {
+  return (value || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^\p{L}\p{N}\s]/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/* Buduje indeks wyszukiwania oparty o metadane sekcji i elementu nawigacji. */
+function rebuildSearchIndex() {
+  searchIndex = SITE_CONFIG.nav.flatMap(sec => sec.items)
+    .filter(item => !item.href)
+    .map(item => ({
+      ...item,
+      section: item.section || pageMap.get(item.id)?.section || '',
+      normalizedLabel: normalizeSearchText(item.label),
+      normalizedSection: normalizeSearchText(item.section || pageMap.get(item.id)?.section || ''),
+      normalizedKeywords: (item.keywords || []).map(normalizeSearchText),
+      normalizedType: normalizeSearchText(item.type || ''),
+      normalizedLevel: normalizeSearchText(item.level || ''),
+    }));
+}
+
+/* Ocenia wynik na podstawie dopasowań tytułu, sekcji i tagów słów kluczowych. */
+function scoreSearchItem(entry, queryTokens) {
+  let score = 0;
+  queryTokens.forEach(token => {
+    if (!token) return;
+    if (entry.normalizedLabel === token) score += 16;
+    else if (entry.normalizedLabel.startsWith(token)) score += 11;
+    else if (entry.normalizedLabel.includes(token)) score += 8;
+
+    if (entry.normalizedSection.includes(token)) score += 4;
+    if (entry.normalizedType.includes(token)) score += 3;
+    if (entry.normalizedKeywords.some(keyword => keyword.includes(token))) score += 7;
   });
-  document.querySelectorAll('.nav-group').forEach(g=>{
-    const any = [...g.querySelectorAll('.nav-item')].some(i=>i.style.display!=='none');
-    g.style.display = any ? '' : 'none';
-    if (q && any) g.classList.add('open');
-    if (!q && !g.querySelector('.nav-item.is-active')) g.classList.remove('open');
+  return score;
+}
+
+/* Filtruje wyniki według aktywnych skrótów, zachowując stan UI między odświeżeniami. */
+function matchesActiveFilters(entry) {
+  if (searchUiState.filters.tests && entry.type !== 'test') return false;
+  if (searchUiState.filters.wiki && entry.type !== 'wiki') return false;
+  if (searchUiState.filters.beginner && entry.level !== 'beginner') return false;
+  return true;
+}
+
+/* Renderuje etykiety kontekstowe przy wynikach, żeby użytkownik szybciej rozpoznał kontekst. */
+function renderSearchMetaTags(entry) {
+  const typeLabelMap = { article: 'artykuł', wiki: 'wiki', test: 'test' };
+  const safeSection = q(entry.section || 'Inne');
+  const safeType = q(typeLabelMap[entry.type] || entry.type || 'materiał');
+  const typeCls = entry.type ? `type-${entry.type}` : '';
+  return `<span class="s-search-item-meta">
+    <span class="s-search-tag">${safeSection}</span>
+    <span class="s-search-tag ${typeCls}">${safeType}</span>
+  </span>`;
+}
+
+/* Podpowiada tematy powiązane, gdy nie znaleziono dopasowań do zapytania. */
+function getRelatedSearchSuggestions(queryTokens) {
+  if (!queryTokens.length) return [];
+  const suggestions = searchIndex
+    .map(entry => ({ entry, score: scoreSearchItem(entry, queryTokens) }))
+    .filter(row => row.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 5)
+    .map(row => row.entry);
+  return suggestions;
+}
+
+/* Odtwarza i zapisuje stan wyszukiwania w localStorage. */
+function loadSearchUiState() {
+  try {
+    const raw = localStorage.getItem(SEARCH_UI_STATE_KEY);
+    if (!raw) return;
+    const parsed = JSON.parse(raw);
+    searchUiState.query = typeof parsed.query === 'string' ? parsed.query : '';
+    searchUiState.filters.tests = Boolean(parsed.filters?.tests);
+    searchUiState.filters.wiki = Boolean(parsed.filters?.wiki);
+    searchUiState.filters.beginner = Boolean(parsed.filters?.beginner);
+  } catch (_) {}
+}
+function saveSearchUiState() {
+  localStorage.setItem(SEARCH_UI_STATE_KEY, JSON.stringify(searchUiState));
+}
+
+/* Aktualizuje listę wyników i fallback "Nie znaleziono" wraz z podpowiedziami. */
+function applySearchUi() {
+  const input = document.getElementById('searchInput');
+  const nav = document.getElementById('sidebarNav');
+  const results = document.getElementById('searchResults');
+  const query = normalizeSearchText(searchUiState.query);
+  const queryTokens = query.split(' ').filter(Boolean);
+  const hasActiveFilters = Object.values(searchUiState.filters).some(Boolean);
+  const hasSearchContext = Boolean(queryTokens.length || hasActiveFilters);
+
+  document.querySelectorAll('.s-filter-btn').forEach(btn => {
+    btn.classList.toggle('is-active', searchUiState.filters[btn.dataset.filter]);
   });
-});
+  if (input && input.value !== searchUiState.query) input.value = searchUiState.query;
+
+  if (!hasSearchContext) {
+    results.classList.remove('is-visible');
+    results.innerHTML = '';
+    nav.style.display = '';
+    renderSidebar();
+    return;
+  }
+
+  nav.style.display = 'none';
+  const ranked = searchIndex
+    .filter(matchesActiveFilters)
+    .map(entry => ({ entry, score: scoreSearchItem(entry, queryTokens) }))
+    .filter(row => queryTokens.length ? row.score > 0 : true)
+    .sort((a, b) => b.score - a.score || a.entry.label.localeCompare(b.entry.label, 'pl'));
+
+  if (!ranked.length) {
+    const suggestions = getRelatedSearchSuggestions(queryTokens);
+    const suggestionHtml = suggestions.length
+      ? `<div class="s-empty-suggestions">${suggestions.map(s => `<button type="button" data-id="${q(s.id)}">${q(s.label)}</button>`).join('')}</div>`
+      : '';
+    results.innerHTML = `<div class="s-search-empty">
+      <strong>Nie znaleziono wyników.</strong>
+      <div>Spróbuj innej frazy lub skorzystaj z tematów powiązanych:</div>
+      ${suggestionHtml}
+    </div>`;
+    results.classList.add('is-visible');
+    return;
+  }
+
+  results.innerHTML = ranked.slice(0, 25).map(({ entry }) => `
+    <button type="button" class="nav-item nav-item-btn" data-id="${q(entry.id)}">
+      <span>${q(entry.label)}</span>
+      ${renderSearchMetaTags(entry)}
+    </button>
+  `).join('');
+  results.classList.add('is-visible');
+}
+
+/* Podmienia słowa kluczowe na odnośniki do powiązanych artykułów w treści aktualnej strony. */
+function addKeywordLinksToRenderedArticle(container, currentId) {
+  const currentItem = pageMap.get(currentId);
+  if (!currentItem || !container) return;
+  const keywords = currentItem.keywords || [];
+  if (!keywords.length) return;
+
+  const linkTargets = keywords
+    .map(keyword => {
+      const target = searchIndex.find(entry => entry.id !== currentId && (
+        normalizeSearchText(entry.label) === normalizeSearchText(keyword)
+        || entry.normalizedKeywords.includes(normalizeSearchText(keyword))
+      ));
+      return target ? { keyword, targetId: target.id } : null;
+    })
+    .filter(Boolean)
+    .slice(0, 6);
+  if (!linkTargets.length) return;
+
+  const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+  let linksLeft = 6;
+  while (walker.nextNode() && linksLeft > 0) {
+    const textNode = walker.currentNode;
+    const parentTag = textNode.parentElement?.tagName;
+    if (!textNode.nodeValue || ['A', 'CODE', 'PRE'].includes(parentTag)) continue;
+    const original = textNode.nodeValue;
+    let replaced = false;
+    let fragment = document.createDocumentFragment();
+    let remaining = original;
+
+    linkTargets.forEach(({ keyword, targetId }) => {
+      if (!remaining || linksLeft <= 0) return;
+      const pattern = new RegExp(`\\b(${keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})\\b`, 'i');
+      const match = remaining.match(pattern);
+      if (!match) return;
+      replaced = true;
+      const idx = match.index || 0;
+      fragment.appendChild(document.createTextNode(remaining.slice(0, idx)));
+      const link = document.createElement('a');
+      link.href = `#${targetId}`;
+      link.textContent = remaining.slice(idx, idx + match[0].length);
+      fragment.appendChild(link);
+      remaining = remaining.slice(idx + match[0].length);
+      linksLeft -= 1;
+    });
+    if (replaced) {
+      fragment.appendChild(document.createTextNode(remaining));
+      textNode.parentNode.replaceChild(fragment, textNode);
+    }
+  }
+}
 
 /* ── Sidebar mobile ────────────────────────── */
 function openSidebar()  { document.getElementById('sidebar').classList.add('open');  document.getElementById('overlay').classList.add('open'); }
@@ -651,6 +838,34 @@ function setupGlobalInteractions() {
 
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') closeSidebar();
+  });
+}
+
+/* Rejestruje obsługę wyszukiwania i skrótów filtrów, utrzymując stan w pamięci i localStorage. */
+function setupSearchInteractions() {
+  const input = document.getElementById('searchInput');
+  const results = document.getElementById('searchResults');
+  if (!input || !results) return;
+
+  input.addEventListener('input', (event) => {
+    searchUiState.query = event.target.value || '';
+    saveSearchUiState();
+    applySearchUi();
+  });
+
+  document.getElementById('searchFilterShortcuts')?.addEventListener('click', (event) => {
+    const btn = event.target.closest('.s-filter-btn');
+    if (!btn) return;
+    const key = btn.dataset.filter;
+    searchUiState.filters[key] = !searchUiState.filters[key];
+    saveSearchUiState();
+    applySearchUi();
+  });
+
+  results.addEventListener('click', (event) => {
+    const target = event.target.closest('[data-id]');
+    if (!target) return;
+    navigate(target.dataset.id);
   });
 }
 
@@ -753,8 +968,12 @@ function animateSidebar() {
 window.addEventListener('DOMContentLoaded', ()=>{
   buildPageMap();
   pageMap.set('__home__',{id:'__home__',label:'Strona główna',section:''});
+  loadSearchUiState();
+  rebuildSearchIndex();
   renderSidebar();
   setupSidebarInteractions();
+  setupSearchInteractions();
+  applySearchUi();
   setupGlobalInteractions();
   animateSidebar();
   const hash = window.location.hash.slice(1);
