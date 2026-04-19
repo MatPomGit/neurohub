@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Niepełnosprawność ruchowa
 
 **Niepełnosprawność ruchowa** obejmuje trwałe lub długotrwałe ograniczenie sprawności fizycznej, utrudniające lub uniemożliwiające samodzielne poruszanie się, wykonywanie czynności codziennych lub korzystanie z przestrzeni publicznej. Przyczyny są zróżnicowane — od wrodzonych wad układu nerwowego po nabyte urazy i choroby.

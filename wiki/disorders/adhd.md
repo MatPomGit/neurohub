@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # ADHD — zespół nadpobudliwości psychoruchowej z deficytem uwagi
 
 ADHD to jedno z najczęstszych zaburzeń neurorozwojowych — i jedno z najbardziej kontrowersyjnych, otoczonych mitami, stygmatyzacją i polityczną debatą, choć dowody naukowe są jasne: to realne, biologicznie uwarunkowane zaburzenie.

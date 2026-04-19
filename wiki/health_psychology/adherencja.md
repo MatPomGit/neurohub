@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Adherencja
 
 **Adherencja** oznacza stopień, w jakim zachowanie pacjenta jest zgodne z uzgodnionym planem leczenia: przyjmowaniem leków, dietą, aktywnością, kontrolami i zaleceniami rehabilitacyjnymi.

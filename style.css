@@ -741,6 +741,30 @@ em{color:var(--goldl)}
   background:rgba(184,107,123,.08);
 }
 
+/* KOMPONENTY: badge metadanych przeglądu treści i narzędzi. */
+.review-meta-badges{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.45rem;
+  margin:.25rem 0 .2rem;
+}
+.review-meta-badge{
+  display:inline-flex;
+  align-items:center;
+  font-size:.68rem;
+  letter-spacing:.02em;
+  color:var(--t2);
+  background:var(--bg3);
+  border:1px solid var(--border);
+  border-radius:999px;
+  padding:.12rem .52rem;
+}
+.review-meta-badge.is-stale{
+  color:#d4c9a5;
+  background:rgba(184,150,80,.16);
+  border-color:rgba(184,150,80,.42);
+}
+
 /* ═══════════════════════════════════════════
    RESPONSIVE
 ═══════════════════════════════════════════ */

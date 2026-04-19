@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Funkcje wykonawcze
 
 Najwyższe funkcje poznawcze — planowanie, hamowanie, elastyczność i kontrola, które czynią nas racjonalnymi agentami.

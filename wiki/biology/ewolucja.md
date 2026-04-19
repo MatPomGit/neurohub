@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Ewolucja i psychologia ewolucyjna
 
 Psychologia ewolucyjna traktuje ludzki umysł jako produkt doboru naturalnego — zestaw mechanizmów adaptacyjnych ukształtowanych przez miliony lat ewolucji w środowisku plejstoceńskim. Zrozumienie ewolucyjnych korzeni zachowania pozwala wyjaśnić, dlaczego pewne wzorce myślenia i działania są powszechne, a inne zaskakująco trudne do zmiany.

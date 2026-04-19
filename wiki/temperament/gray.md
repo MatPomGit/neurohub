@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Teoria systemów BIS/BAS Graya
 
 Teoria Jeffreya Graya opisuje dwa podstawowe systemy motywacyjne mózgu — Behawioralny System Hamowania (BIS) i Behawioralny System Aktywacji (BAS) — które regulują reakcje na nagrodę i karę.

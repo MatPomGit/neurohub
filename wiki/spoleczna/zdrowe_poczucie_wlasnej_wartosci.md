@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Zdrowe poczucie własnej wartości
 
 Zdrowe poczucie własnej wartości to realistyczne, stabilne i życzliwe podejście do siebie — oparte nie na „byciu idealnym”, lecz na akceptacji własnych mocnych stron, ograniczeń i prawa do popełniania błędów. W psychologii warto odróżniać je od chwilowej pewności siebie, narcyzmu czy zależności od zewnętrznej aprobaty.

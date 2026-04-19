@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Rozwój seksualny przez całe życie
 
 Seksualność nie jest stanem stałym — kształtuje się od poczęcia i zmienia przez całe życie, pod wpływem biologii, doświadczeń, kultury i relacji.

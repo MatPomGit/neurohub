@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Agresja
 
 Agresja — zachowanie ukierunkowane na zadanie szkody innej istocie żywej — jest jednym z najczęściej badanych i najbardziej kontrowersyjnych tematów w psychologii. Czy człowiek jest z natury agresywny? Czy agresja jest wyuczona? Czy media ją wzmacniają? Odpowiedzi udzielane przez psychologię ewolucyjną, biologię, teorię uczenia się i psychologię społeczną są różne — i komplementarne.

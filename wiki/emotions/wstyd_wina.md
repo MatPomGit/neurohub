@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Wstyd i wina — emocje samoświadome
 
 **Wstyd** i **wina** należą do grupy **emocji samoświadomych** (*self-conscious emotions*) — obok dumy, zmieszania i zazdrości. Wymagają zdolności do autorefleksji i oceny własnego zachowania lub wartości. Mimo pozornego podobieństwa — obie są reakcją na moralne potknięcia — różnią się fundamentalnie w swojej strukturze i konsekwencjach dla zdrowia psychicznego.

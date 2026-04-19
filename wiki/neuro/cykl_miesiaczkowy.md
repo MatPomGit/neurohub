@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Neuropsychologia cyklu miesiączkowego
 
 Cykl miesiączkowy to nie tylko zjawisko reprodukcyjne — to dynamicznie zmieniające się środowisko neurochemiczne, które wpływa na funkcje poznawcze, nastrój, reaktywność emocjonalną i aktywność mózgu kobiety. Neuropsychologia cyklu miesiączkowego bada, w jaki sposób wahania hormonalne modulują pracę mózgu przez całą dobę cyklu.

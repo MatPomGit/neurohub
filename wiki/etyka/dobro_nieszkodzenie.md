@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Dobro i nieszkodzenie w etyce psychologa
 
 Zasady dobroczynności (*beneficence*) i nieszkodzenia (*non-maleficence*) stanowią fundament bioetyki i etyki zawodowej psychologa. Sformułowane przez Beauchampa i Childressa w klasycznym dziele *Principles of Biomedical Ethics* (1979, wyd. 8: 2019), wyznaczają ramy odpowiedzialności klinicznej i badawczej.

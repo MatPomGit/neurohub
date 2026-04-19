@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Tożsamość płciowa
 
 Gender identity, transpłciowość i dysforia płciowa — koncepcje, klasyfikacje i podejście terapeutyczne.

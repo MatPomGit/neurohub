@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Etyka badań naukowych w psychologii
 
 Prowadzenie badań naukowych wiąże się z odpowiedzialnością wobec uczestników, nauki i społeczeństwa. Naruszenia etyki badań — od braku świadomej zgody po fabrykację danych — mogą wyrządzić realne krzywdy i podważyć zaufanie do całej dyscypliny.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Sen i zdrowie
 
 Sen jest podstawowym procesem regeneracyjnym organizmu. Wpływa na układ nerwowy, hormonalny, immunologiczny i metaboliczny, dlatego jego jakość przekłada się na zdrowie psychiczne i somatyczne.

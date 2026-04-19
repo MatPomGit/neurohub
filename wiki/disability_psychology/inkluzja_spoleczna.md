@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Inkluzja społeczna i prawa
 
 **Inkluzja społeczna** oznacza pełne i równoprawne uczestnictwo osób z niepełnosprawnościami we wszystkich sferach życia — edukacji, pracy, kulturze, polityce i życiu codziennym. To więcej niż integracja: chodzi nie o „wpuszczenie" do istniejącego systemu, lecz o zbudowanie takiego, który jest dostępny dla wszystkich od początku.

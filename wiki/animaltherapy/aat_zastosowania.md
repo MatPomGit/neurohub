@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # AAT — zastosowania kliniczne
 
 Terapia wspomagana przez zwierzęta (Animal-Assisted Therapy, AAT) ma szerokie i rosnące zastosowania w różnych obszarach klinicznych. Niniejszy artykuł omawia główne obszary zastosowań, stan dowodów i warunki skuteczności interwencji.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Metodologia badań psychologicznych
 
 Metodologia badań jest kręgosłupem pracy naukowej. Bez solidnego projektu nawet interesujące pytanie badawcze nie przyniesie wiarygodnych odpowiedzi. W tym artykule omówiono główne podejścia metodologiczne stosowane w psychologicznych pracach magisterskich.

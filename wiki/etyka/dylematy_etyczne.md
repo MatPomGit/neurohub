@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Dylematy etyczne w praktyce psychologa
 
 Praktyka psychologiczna rzadko przebiega według prostych reguł. **Dylemat etyczny** pojawia się, gdy dwie lub więcej ważnych wartości, obowiązków lub zasad wchodzi w konflikt, a wybranie jednej z nich nieuchronnie wiąże się z naruszeniem lub ograniczeniem innej. Umiejętność rozpoznawania i rozwiązywania dylematów etycznych jest jedną z kluczowych kompetencji każdego psychologa.

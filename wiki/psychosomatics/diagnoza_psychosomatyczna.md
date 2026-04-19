@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Diagnoza psychosomatyczna
 
 Diagnoza psychosomatyczna to wielowymiarowy proces oceny, który integruje perspektywę biologiczną, psychologiczną i społeczną. Jej celem jest nie tylko wykluczenie organicznej przyczyny objawów, lecz aktywne rozumienie, jak czynniki psychiczne i kontekst życiowy przyczyniają się do dolegliwości pacjenta.

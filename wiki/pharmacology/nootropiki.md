@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Nootropiki i substancje kognitywne
 
 Nootropiki obiecują lepszą pamięć, większą inteligencję i niezmordowany umysł — ale ile z tego to nauka, a ile marketing? Przegląd substancji z dobrze udokumentowanym profilem bezpieczeństwa i tych, które wciąż czekają na rzetelne dowody.

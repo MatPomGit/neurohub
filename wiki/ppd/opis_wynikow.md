@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Pisanie i interpretacja wyników
 
 Rozdział wyników i dyskusja to serce pracy magisterskiej. To tutaj dane zamieniają się w wiedzę, a liczby — w argumenty naukowe. Umiejętność przejrzystego i precyzyjnego pisania wyników jest kompetencją, którą warto rozwijać od początku pracy.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychopatologia — wprowadzenie
 
 Psychopatologia to nauka o zaburzeniach psychicznych — ich opisie, klasyfikacji, mechanizmach powstawania, przebiegu i konsekwencjach. Tworzy fundament całej psychologii klinicznej i psychiatrii: zanim można leczyć, trzeba rozumieć, co i dlaczego się zaburzyło.

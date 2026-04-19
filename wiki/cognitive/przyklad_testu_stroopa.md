@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Przykład testu Stroopa (wersja tekstowa)
 
 Poniżej znajduje się uproszczony przykład edukacyjny ilustrujący logikę zadania Stroopa. Nie jest to pełna, standaryzowana wersja diagnostyczna.

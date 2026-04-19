@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Klasyfikacje ICD-11 i DSM-5-TR
 
 Klasyfikacje chorób i zaburzeń psychicznych są podstawowym narzędziem diagnostyki klinicznej, badań naukowych i komunikacji między specjalistami. Dwa systemy dominują współczesną psychiatrię i psychologię kliniczną: **ICD-11** (Międzynarodowa Klasyfikacja Chorób, 11. rewizja) Światowej Organizacji Zdrowia (WHO) oraz **DSM-5-TR** (Diagnostyczny i Statystyczny Podręcznik Zaburzeń Psychicznych, wydanie 5, rewizja tekstu) Amerykańskiego Towarzystwa Psychiatrycznego (APA). Zrozumienie obu systemów, ich podobieństw i różnic, jest kluczowe dla klinicystów, badaczy i psychologów pracujących w systemach ochrony zdrowia.

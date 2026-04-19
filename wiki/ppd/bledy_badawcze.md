@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Typowe błędy badawcze — czego unikać
 
 Błędy w badaniach psychologicznych mogą pojawić się na każdym etapie — od sformułowania pytania badawczego, przez zbieranie i analizę danych, aż po interpretację wyników. Świadomość typowych pułapek to podstawa rzetelnej pracy naukowej.

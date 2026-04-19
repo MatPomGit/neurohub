@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # WISC-V — Wechsler Intelligence Scale for Children
 
 WISC-V (2014) to piąta edycja skali Wechslera dla dzieci — jedno z najczęściej stosowanych narzędzi oceny inteligencji u dzieci w wieku 6–16 lat.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Agnozja wzrokowa
 
 Agnozja to jeden z najbardziej intrygujących fenomenów neuropsychologii: pacjent widzi, lecz nie rozpoznaje. Jego oczy działają perfekcyjnie, ale mózg nie potrafi "zidentyfikować" tego, co widzą.

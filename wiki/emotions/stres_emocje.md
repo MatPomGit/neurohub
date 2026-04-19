@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Stres i emocje — wzajemne powiązania
 
 Stres i emocje są ze sobą ściśle splecione — nie tylko dlatego, że stres wywołuje emocje, ale dlatego, że sam stres jest w dużej mierze zjawiskiem emocjonalnym. Rozumienie wzajemnych zależności między tymi procesami ma kluczowe znaczenie dla psychologii klinicznej, zdrowia i interwencji terapeutycznych.

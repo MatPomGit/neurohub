@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Postawy i zmiana postaw
 
 Postawy są jednym z kluczowych pojęć psychologii społecznej. Definiowane są jako trwałe, ogólne oceny obiektów, osób, idei lub kwestii — oceny o walencji pozytywnej lub negatywnej. Badacze od dekad próbują zrozumieć, jak postawy się kształtują, jak wpływają na zachowanie i — co ma ogromne znaczenie praktyczne — jak można je skutecznie zmieniać.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Ja i samoocena
 
 Pojęcie „ja" (*self*) jest jednym z centralnych konstruktów psychologii. Obejmuje całość wiedzy, przekonań i ocen, jakie jednostka posiada na temat samej siebie — zarówno świadomych, jak i nieuświadomionych. Samoocena natomiast to emocjonalna, wartościująca strona obrazu siebie: stopień, w jakim jednostka siebie ceni i akceptuje. Badania nad „ja" sięgają Williama Jamesa (*The Principles of Psychology*, 1890), a ich współczesne rozwinięcia — od teorii Rosenberga po koncepcję Bandury — mają istotne zastosowania kliniczne i wychowawcze.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Stabilizatory nastroju
 
 Farmakoterapia choroby afektywnej dwubiegunowej i innych zaburzeń nastroju — lit, walproinian, lamotrygina i inne.

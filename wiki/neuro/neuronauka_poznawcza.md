@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Neuronauka poznawcza
 
 Przez wieki filozofowie pytali, jak umysł wyłania się z materii. Neuronauka poznawcza podjęła to pytanie metodami empirycznymi — łącząc precyzję nauk biologicznych z bogactwem psychologii, by zrozumieć, jak mózg myśli, percypuje i tworzy świadomość.

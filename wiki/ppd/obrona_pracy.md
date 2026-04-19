@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Obrona pracy magisterskiej
 
 Obrona pracy magisterskiej to formalne zakończenie studiów — moment, w którym student prezentuje swój projekt badawczy przed komisją egzaminacyjną i odpowiada na pytania. Dobrze przygotowana obrona jest przede wszystkim rozmową naukową, nie przesłuchaniem.

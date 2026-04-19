@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Mechanizmy terapeutyczne AAT
 
 Zrozumienie mechanizmów, przez które kontakt ze zwierzętami wywiera terapeutyczny efekt, jest kluczowe zarówno dla projektowania skutecznych interwencji, jak i dla odpowiedzi na pytanie: dlaczego zwierzęta działają jako terapeuci? Mechanizmy działają na poziomach biologicznym, psychologicznym i społecznym — wzajemnie się wzmacniając.

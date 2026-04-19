@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Emocje społeczne i moralne
 
 **Emocje społeczne** to emocje, których doświadczanie i wyrażanie jest uwarunkowane relacjami z innymi ludźmi — zarówno rzeczywistymi, jak i wyobrażonymi lub symbolicznymi. Podzbiorem emocji społecznych są **emocje moralne** — zaangażowane w ocenę i regulację zachowań moralnych. Razem tworzą jeden z najważniejszych systemów regulacyjnych życia społecznego.

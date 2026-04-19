@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Chronobiologia i sen
 
 Mózg i ciało działają według rytmu, którego nie widać, lecz którego zakłócenie natychmiast odczuwamy. Chronobiologia bada te wewnętrzne zegary — a badania snu ujawniają, że sen to nie pasywny odpoczynek, lecz aktywna praca mózgu kluczowa dla zdrowia i życia.

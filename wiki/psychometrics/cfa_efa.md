@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Analiza czynnikowa (EFA i CFA)
 
 Analiza czynnikowa to metoda statystyczna służąca do wykrywania ukrytych (latentnych) struktur w danych — grup zmiennych obserwowalnych, które korelują ze sobą, bo mają wspólne przyczyny (czynniki). Jest fundamentem tworzenia i walidacji testów psychologicznych.

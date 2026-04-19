@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Stres, adaptacja i radzenie sobie
 
 Osoby z niepełnosprawnościami doświadczają stresorów charakterystycznych dla swojej sytuacji, a ich adaptacja zależy od zasobów psychicznych, wsparcia środowiskowego i subiektywnego znaczenia nadanego niepełnosprawności. Zrozumienie tych procesów jest fundamentem skutecznego wsparcia psychologicznego.

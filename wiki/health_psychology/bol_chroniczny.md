@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Ból chroniczny
 
 **Ból chroniczny (przewlekły)** to ból utrzymujący się zwykle dłużej niż 3 miesiące lub ponad przewidywany czas gojenia. Może współwystępować ze zmianami somatycznymi, ale nie zawsze ich nasilenie tłumaczy skalę cierpienia.

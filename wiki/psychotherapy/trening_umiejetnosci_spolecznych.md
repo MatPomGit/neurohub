@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Trening Umiejętności Społecznych (SST)
 
 Trening Umiejętności Społecznych (*Social Skills Training*, SST) to ustrukturyzowana interwencja behawioralno-poznawcza, której celem jest rozwijanie kompetencji niezbędnych do efektywnego funkcjonowania w relacjach interpersonalnych — od podstawowej komunikacji po złożone zachowania asertywne i negocjacyjne.

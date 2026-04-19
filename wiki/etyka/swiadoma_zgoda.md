@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Świadoma zgoda (informed consent)
 
 Świadoma zgoda (*informed consent*) to jeden z fundamentalnych wymogów etycznych i prawnych w psychologii i psychoterapii. Jej celem jest zagwarantowanie, że klient podejmuje decyzję o udziale w terapii lub badaniach **dobrowolnie, z pełnym rozumieniem istotnych informacji i przy zachowanej zdolności do decydowania**.

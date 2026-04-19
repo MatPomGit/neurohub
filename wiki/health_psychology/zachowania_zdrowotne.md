@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Zachowania zdrowotne
 
 **Zachowania zdrowotne** to codzienne działania, które zwiększają lub zmniejszają prawdopodobieństwo zachowania zdrowia. Obejmują zarówno nawyki prozdrowotne (np. ruch, sen), jak i ryzykowne (np. palenie, nadmierne picie alkoholu).

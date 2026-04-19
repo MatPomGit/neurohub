@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Chronopsychologia
 
 Chronopsychologia bada, **jak rytmy biologiczne oraz subiektywne odczuwanie czasu wpływają na funkcjonowanie psychiczne**: uwagę, pamięć, emocje, motywację, podejmowanie decyzji i zachowanie społeczne. To obszar na styku chronobiologii, psychologii poznawczej, psychologii zdrowia i neuronauki.

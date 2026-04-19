@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Temperament a psychopatologia
 
 Temperament jest zarówno **czynnikiem ryzyka**, jak i **czynnikiem ochronnym** dla zaburzeń psychicznych. Zrozumienie relacji temperament–zaburzenie ma kluczowe znaczenie dla profilaktyki, diagnozy i planowania terapii.

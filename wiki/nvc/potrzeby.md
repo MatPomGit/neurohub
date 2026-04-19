@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Katalog potrzeb w NVC
 
 ## Czym są potrzeby w rozumieniu NVC?

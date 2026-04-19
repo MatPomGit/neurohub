@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Relacje rodzinne — dynamika systemu
 
 Rodzina to najważniejszy i najwcześniejszy system społeczny, w którym człowiek uczestniczy. Systemowe ujęcie rodziny traktuje ją nie jako zbiór jednostek, lecz jako **żywy organizm relacyjny**, w którym zmiana w jednym miejscu wpływa na cały system. Psychologia rodziny czerpie z teorii systemowej, psychoanalizy obiektów, teorii przywiązania i terapii narracyjnej.

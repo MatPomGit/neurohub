@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Neurobiologia człowieka w kontekście przesilenia wiosennego
 
 Przesilenie wiosenne to moment, gdy długość dnia zrównuje się z długością nocy i zaczyna rosnąć — dla układu nerwowego jest to sygnał inicjujący rozległą reorganizację neurohormonalną, której skutki odczuwamy jako zmianę nastroju, energii i rytmu dobowego.

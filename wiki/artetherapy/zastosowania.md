@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Arteterapia — zastosowania kliniczne
 
 Arteterapia z teorii przekłada się na praktykę w bardzo różnych kontekstach klinicznych — od psychiatrii przez onkologię po rehabilitację neurologiczną.

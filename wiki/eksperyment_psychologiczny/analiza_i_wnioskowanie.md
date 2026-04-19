@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Analiza danych i wnioskowanie
 
 Analiza danych zaczyna się na etapie planowania badania. Jeśli plan analityczny powstaje dopiero po zobaczeniu wyników, rośnie ryzyko stronniczości i błędów interpretacyjnych.

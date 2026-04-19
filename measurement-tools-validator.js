@@ -81,6 +81,16 @@
         if (!Array.isArray(tool?.methodologyLinks) || tool.methodologyLinks.length === 0) {
           pushIssue(report, strict, 'warn', path, 'methodologyLinks', 'Brak artykułów metodologicznych (methodologyLinks).');
         }
+
+        if (!hasNonEmptyText(tool?.lastReviewed)) {
+          pushIssue(report, strict, 'warn', path, 'lastReviewed', 'Brak pola lastReviewed (format YYYY-MM-DD).');
+        }
+
+        const hasPrimarySourceYear = Number.isFinite(tool?.primarySourceYear)
+          || (typeof tool?.primarySourceYear === 'string' && /^\d{4}$/.test(tool.primarySourceYear.trim()));
+        if (!hasPrimarySourceYear) {
+          pushIssue(report, strict, 'warn', path, 'primarySourceYear', 'Brak pola primarySourceYear (format YYYY).');
+        }
       });
     });
 

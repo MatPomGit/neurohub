@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Dieta i zdrowie psychiczne
 
 **Dieta** wpływa nie tylko na masę ciała i parametry metaboliczne, ale także na nastrój, poziom energii, koncentrację i regulację stresu. W psychologii zdrowia najważniejsze jest budowanie **trwałych nawyków żywieniowych**, a nie krótkich, restrykcyjnych planów.

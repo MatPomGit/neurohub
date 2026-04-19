@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Emocjonalne zaangażowanie podczas seksu — dlaczego u jednych jest konieczne, a u innych nie?
 
 ## Wprowadzenie

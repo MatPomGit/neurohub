@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Dezintegracja pozytywna
 
 Dezintegracja pozytywna (*positive disintegration*) to teoria rozwoju osobowości sformułowana przez polskiego psychiatrę i psychologa **Kazimierza Dąbrowskiego** (1902–1980). Dąbrowski postawił tezę odwrotną wobec dominujących w jego czasach przekonań: kryzysy psychiczne, stany lękowe, depresje, konflikty wewnętrzne i psychonerwice nie są jedynie objawami patologii, lecz mogą stanowić niezbędny warunek wznoszenia się osobowości ku wyższym poziomom funkcjonowania. Dezintegracja dotychczasowej, prymitywnej struktury psychicznej otwiera drogę do reintegracji na wyższym, bardziej zindywidualizowanym i wartościowym poziomie.

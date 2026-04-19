@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Uwaga mimowolna — wyrazista i niewyrazista
 
 Uwaga mimowolna (ang. *involuntary attention*, *stimulus-driven attention*) to mechanizm automatycznego, niekontrolowanego przesunięcia zasobów poznawczych w stronę określonego bodźca — bez intencji obserwatora i niezależnie od jego bieżących celów. W odróżnieniu od uwagi dobrowolnej (*voluntary / goal-driven attention*), która jest kontrolowana przez zamiary i oczekiwania, uwaga mimowolna jest uruchamiana przez właściwości samego bodźca: jego intensywność, nowość, kontrast sensoryczny lub emocjonalne znaczenie.

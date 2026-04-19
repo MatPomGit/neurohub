@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Plastyczność mózgu a okresy krytyczne
 
 Przez dziesięciolecia dominował pogląd, że dorosły mózg jest strukturą stałą, niezdolną do istotnych zmian po zakończeniu rozwoju. Odkrycia neuronauki z ostatnich trzydziestu lat radykalnie zmieniły ten obraz: **neuroplastyczność** — zdolność mózgu do reorganizacji strukturalnej i funkcjonalnej w odpowiedzi na doświadczenie — jest właściwością mózgu na każdym etapie życia, choć jej mechanizmy i zakres zmieniają się z wiekiem.

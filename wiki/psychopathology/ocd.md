@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # OCD i zaburzenia pokrewne
 
 Myśl natrętna o niezamkniętym gazie, sprawdzanie zamka drzwi dziesiątki razy dziennie, niemożność opuszczenia domu bez rytuałów trwających godzinami — OCD to zaburzenie, które dosłownie może skraść życie.

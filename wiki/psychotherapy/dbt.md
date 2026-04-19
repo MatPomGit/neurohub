@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Terapia dialektyczna (DBT)
 
 Kompleksowy program terapeutyczny Marshy Linehan dla osób z trudnościami w regulacji emocji i zachowaniami samobójczymi.

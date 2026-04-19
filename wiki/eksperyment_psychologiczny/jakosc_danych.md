@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Kontrola jakości i zarządzanie danymi
 
 Jakość danych to osobny strumień pracy, który powinien być planowany tak samo szczegółowo jak metodologia eksperymentu.

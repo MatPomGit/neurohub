@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Dogoterapia (canisterapia)
 
 Dogoterapia, zwana też canisterapią (od łac. *canis* — pies), to forma terapii wspomaganej przez zwierzęta (AAT) z udziałem psów. Jest najszerzej stosowaną i najlepiej zbadaną formą animaloterapii — ze względu na wyjątkową zdolność psów do nawiązywania więzi z człowiekiem, czytelność ich komunikacji i łatwość szkolenia.

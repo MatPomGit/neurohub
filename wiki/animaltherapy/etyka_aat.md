@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Etyka i dobrostan zwierząt w AAT
 
 Terapia wspomagana przez zwierzęta (AAT) rodzi unikalne pytania etyczne — zwierzę jest uczestnikiem terapii, który nie wyraził zgody i nie rozumie swojej roli. Odpowiedzialna AAT wymaga systematycznego podejścia do dobrostanu zwierząt jako warunku koniecznego, nie opcjonalnego.

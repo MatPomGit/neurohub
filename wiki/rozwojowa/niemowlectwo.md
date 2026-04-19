@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Niemowlęctwo i wczesne dzieciństwo
 
 Pierwsze lata życia to okres niezrównanej intensywności zmian biologicznych, poznawczych i społecznych. Mózg noworodka waży około 25% masy mózgu dorosłego, a w ciągu pierwszych trzech lat osiąga niemal 90% ostatecznej objętości. Żaden późniejszy etap życia nie charakteryzuje się tak dramatycznym tempem reorganizacji układu nerwowego.

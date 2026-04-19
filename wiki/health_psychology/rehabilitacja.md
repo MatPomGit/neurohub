@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Rehabilitacja psychologiczna
 
 **Rehabilitacja psychologiczna** to kompleksowy proces wspierania odzyskiwania lub kompensowania utraconych funkcji psychicznych, społecznych i zawodowych po chorobie, urazie lub długotrwałym stresie. Jej celem jest nie tylko leczenie objawów, ale przede wszystkim przywracanie osobie zdolności do samodzielnego i satysfakcjonującego funkcjonowania w codziennym życiu.

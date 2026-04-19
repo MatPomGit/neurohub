@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Architektury kognitywne, ACT-R, Soar, OpenCog oraz modele dla robotyki poznawczej
 
 ## Streszczenie

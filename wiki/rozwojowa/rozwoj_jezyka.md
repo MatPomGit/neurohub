@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Rozwój języka i komunikacji
 
 Mowa i język należą do najbardziej złożonych osiągnięć ludzkiego umysłu. Dziecko, które rodzi się bez zdolności do celowej komunikacji werbalnej, w ciągu kilku lat opanowuje system tysięcy słów i dziesiątek tysięcy reguł gramatycznych — niemal bez formalnego nauczania. Zrozumienie tego procesu jest kluczowe dla psychologii rozwojowej, lingwistyki, neurologii i kliniki.

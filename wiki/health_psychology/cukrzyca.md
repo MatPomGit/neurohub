@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Cukrzyca i psychologia zdrowia
 
 **Cukrzyca** to choroba przewlekła wymagająca codziennego samomonitorowania i wielu decyzji dotyczących leczenia, diety, aktywności oraz odpoczynku. To obciążenie poznawcze i emocjonalne sprawia, że wsparcie psychologiczne jest ważnym elementem opieki diabetologicznej.

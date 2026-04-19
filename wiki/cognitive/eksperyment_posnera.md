@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Eksperyment Posnera — paradygmat sterowania uwagą
 
 Klasyczny paradygmat wskazówkowania przestrzennego (spatial cueing), który zrewolucjonizował rozumienie mechanizmów orientacji uwagi, ujawnił fundamentalną różnicę między uwagą mimowolną (egzogenną) a dobrowolną (endogenną) oraz dostarczył narzędzi do pomiaru „kosztów" i „zysków" uwagi. Jest to jeden z najczęściej replikowanych i najszerzej cytowanych paradygmatów w historii psychologii eksperymentalnej.

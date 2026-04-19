@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Heksafleks ACT — model elastyczności psychologicznej
 
 Heksafleks to centralny model teoretyczno-kliniczny Terapii Akceptacji i Zaangażowania (ACT), opisujący sześć wzajemnie powiązanych procesów psychologicznych, których integracja prowadzi do elastyczności psychologicznej — fundamentu zdrowia psychicznego w ujęciu trzeciej fali terapii poznawczo-behawioralnych.

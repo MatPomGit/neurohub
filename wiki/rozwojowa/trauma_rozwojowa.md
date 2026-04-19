@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Trauma rozwojowa
 
 Trauma rozwojowa (*developmental trauma*, *complex developmental trauma*) to wzorzec chronicznych, powtarzalnych zranień relacyjnych we wczesnym dzieciństwie, który wywiera głęboki i długotrwały wpływ na biologię, psychikę i relacje jednostki. W odróżnieniu od urazu jednorazowego (*simple trauma*), trauma rozwojowa rozgrywa się w kontekście relacji z opiekunami — osobami, które powinny być źródłem bezpieczeństwa, a stają się źródłem zagrożenia.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Adolescencja — psychologia okresu dorastania
 
 Adolescencja to przejściowy etap między dzieciństwem a dorosłością, tradycyjnie definiowany jako okres od początku dojrzewania płciowego do osiągnięcia relatywnej samodzielności społecznej i ekonomicznej. Współczesne ujęcia wydłużają ten okres, wyróżniając **wczesną adolescencję** (10–14 lat), **średnią** (15–17 lat), **późną** (18–21 lat) oraz — w kontekście Zachodu — **wyłaniającą się dorosłość** (*emerging adulthood*, Arnett, 2000) sięgającą do ok. 25. roku życia.

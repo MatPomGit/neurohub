@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Umieranie i śmierć w geropsychologii
 
 Temat umierania i śmierci jest integralną częścią pracy z osobami starszymi. Geropsychologia koncentruje się na tym, jak wspierać seniora i jego bliskich w procesie akceptacji końca życia, łagodzeniu lęku oraz zachowaniu godności i sensu aż do ostatnich etapów.

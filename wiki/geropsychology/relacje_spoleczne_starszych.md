@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Relacje społeczne osób starszych
 
 Relacje społeczne są jednym z najsilniejszych predyktorów zdrowia psychicznego i jakości życia w późnej dorosłości. Dla wielu seniorów nie liczy się już liczba kontaktów, ale ich jakość: zaufanie, bliskość i poczucie bycia potrzebnym.

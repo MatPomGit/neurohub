@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychologia płci
 
 Różnice płciowe w psychologii — co jest wrodzone, co wyuczone, a co jest efektem stereotypów? Nauka stara się odpowiadać ostrożnie i z empiryczną rzetelnością.

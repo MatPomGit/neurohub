@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychodermatologia
 
 Psychodermatologia bada powiązania między układem nerwowym, psychiką a skórą. Skóra jest organem wyjątkowo podatnym na wpływ stresu i emocji — pochodzi z tej samej warstwy zarodkowej (ektoderma) co układ nerwowy, jest gęsto unerwiona i silnie połączona z układem immunologicznym.

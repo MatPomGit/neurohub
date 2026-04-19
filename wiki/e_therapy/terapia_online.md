@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Terapia online — sesje wideo, telefoniczne i przez czat
 
 ## Formy synchronicznej terapii na odległość

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Anksjolityki i leki nasenne
 
 Farmakologiczne leczenie lęku i bezsenności — benzodiazepiny, buspiron, leki z grupy Z i inne.

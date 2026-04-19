@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Rehabilitacja neuropsychologiczna
 
 Uszkodzenie mózgu zmienia człowieka — nie tylko jego zdolności poznawcze, lecz całą tożsamość, relacje i codzienne funkcjonowanie. Rehabilitacja neuropsychologiczna to systematyczny, oparty na nauce interwencji proces, który pomaga osobom po urazach i chorobach neurologicznych odzyskać sprawność lub nauczyć się żyć z trwałymi ograniczeniami.

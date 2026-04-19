@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Testy pamięci w neuropsychologii
 
 Pamięć jest wielosystemowa — testy neuropsychologiczne muszą rozróżniać jej komponenty, aby precyzyjnie lokalizować deficyt i planować rehabilitację.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Regulacyjna teoria temperamentu Strelaua
 
 *Regulacyjna Teoria Temperamentu* (RTT) Jana Strelaua to jedna z najbardziej rozbudowanych europejskich koncepcji temperamentu, łącząca tradycję pawłowską z współczesną psychologią różnicową.

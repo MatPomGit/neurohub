@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Jakość życia osób starszych
 
 Jakość życia w późnej dorosłości to subiektywna ocena własnego funkcjonowania fizycznego, psychicznego, społecznego i egzystencjalnego. W geropsychologii podkreśla się, że nawet przy chorobach przewlekłych możliwe jest utrzymanie wysokiej jakości życia, jeśli senior ma wpływ na codzienne decyzje i doświadcza wsparcia.

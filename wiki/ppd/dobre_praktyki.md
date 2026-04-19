@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Dobre praktyki w pisaniu pracy naukowej
 
 Pisanie pracy magisterskiej jest procesem — nie jednorazowym aktem. Dobre praktyki, nawyki i strategie organizacyjne mogą sprawić, że ten proces będzie mniej stresujący, bardziej produktywny i zakończony lepszym efektem końcowym.

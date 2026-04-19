@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychologia temperamentu — wprowadzenie
 
 Temperament to biologicznie zakorzeniony wymiar osobowości obejmujący wczesnopojawowe, względnie stabilne różnice indywidualne w reaktywności emocjonalnej, poziomie aktywności, regulacji własnego stanu i orientacji na otoczenie. W odróżnieniu od charakteru — kształtowanego przez wychowanie i doświadczenie — temperament ma wyraźne podłoże neurobiologiczne i ujawnia się już we wczesnym dzieciństwie, zanim środowisko zdąży na niego istotnie wpłynąć.

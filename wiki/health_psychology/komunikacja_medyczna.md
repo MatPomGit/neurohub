@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Komunikacja medyczna w psychologii zdrowia
 
 **Komunikacja medyczna** to sposób wymiany informacji między pacjentem a personelem medycznym, który wpływa na zrozumienie leczenia, poziom lęku, zaufanie i adherencję. Dobra komunikacja jest interwencją kliniczną sama w sobie.

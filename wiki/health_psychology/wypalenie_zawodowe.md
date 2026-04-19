@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Wypalenie zawodowe
 
 **Wypalenie zawodowe** (ang. *burnout*) to stan chronicznego wyczerpania emocjonalnego, depersonalizacji i obniżonego poczucia skuteczności zawodowej, wynikający z długotrwałego narażenia na stres w miejscu pracy. Termin spopularyzował Herbert Freudenberger (1974), a modelowe ujęcie trójosiowe stworzyli Christina Maslach i Susan Jackson.

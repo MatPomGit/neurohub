@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Kompetencje kulturowe w psychologii
 
 **Kompetencje kulturowe** (*cultural competence*) to zdolność psychologa do skutecznej i etycznej pracy z osobami z różnych środowisk kulturowych, etnicznych, rasowych, religijnych i społecznych. W coraz bardziej zróżnicowanym świecie kompetencja kulturowa przestała być opcjonalnym atutem — stała się **wymogiem etycznym i klinicznym**.

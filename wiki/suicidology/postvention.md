@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Postvention — interwencja po samobójstwie
 
 Każde samobójstwo pozostawia za sobą głęboko dotkniętych — rodzinę, przyjaciół, kolegów. Postvention to zorganizowana odpowiedź systemu, która może zapobiec kolejnym tragediom.

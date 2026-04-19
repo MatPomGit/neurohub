@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychoneuroimmunologia (PNI)
 
 **Psychoneuroimmunologia** bada związki między psychiką, układem nerwowym, hormonalnym i odpornościowym. Pokazuje, że stres, emocje i zachowania zdrowotne mogą wpływać na procesy zapalne, podatność na infekcje oraz przebieg części chorób przewlekłych.

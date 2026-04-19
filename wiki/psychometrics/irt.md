@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # IRT i model Rascha
 
 Teoria odpowiedzi na pozycje (Item Response Theory, IRT) to nowoczesne podejście do pomiaru psychologicznego, które modeluje relację między cechą latentną (nieobserwowalną) a prawdopodobieństwem odpowiedzi na każdą pozycję testową. Stanowi alternatywę dla klasycznej teorii testu (CTT), usuwając jej ograniczenia.

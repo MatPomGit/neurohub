@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Dynamika grupowa
 
 Grupy są podstawową formą organizacji życia społecznego. Psychologia grupowa bada, jak samo bycie w grupie zmienia myślenie, emocje i zachowania jednostek, jak grupy tworzą wewnętrzne normy i hierarchie, jak powstają konflikty między grupami i jak można je rozwiązywać. Badania Tuckmana, Latané'a i Darleya, Sherifa oraz Tajfela i Turnera fundują współczesne rozumienie dynamiki grupowej.

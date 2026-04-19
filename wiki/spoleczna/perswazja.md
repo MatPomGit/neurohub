@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Perswazja i propaganda
 
 Perswazja jest wszechobecnym elementem życia społecznego — od rozmów z przyjacielem, przez reklamy, po kampanie polityczne. Jest to celowy proces komunikacji zmierzający do zmiany przekonań, postaw lub zachowań odbiorcy. Propaganda natomiast to systematyczne, masowe stosowanie technik perswazji w służbie ideologii lub władzy — z reguły z pominięciem rzetelności informacyjnej. Zrozumienie mechanizmów perswazji i propagandy jest niezbędne zarówno do skutecznej komunikacji, jak i do obrony przed manipulacją.

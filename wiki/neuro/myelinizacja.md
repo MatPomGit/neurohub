@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Mielinizacja i istota biała
 
 Mielina otacza aksony niczym izolacja elektryczna kabel — przyspiesza przewodzenie impulsów nawet 100-krotnie i decyduje o sprawności sieci neuronowych przez całe życie.

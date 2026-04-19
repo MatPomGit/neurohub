@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Aktywność poznawcza w późnej dorosłości
 
 Aktywność poznawcza to celowe angażowanie uwagi, pamięci, myślenia i funkcji wykonawczych poprzez zadania umysłowe. W geropsychologii traktuje się ją jako jeden z najważniejszych czynników wspierających samodzielność, dobrostan i tzw. rezerwę poznawczą.

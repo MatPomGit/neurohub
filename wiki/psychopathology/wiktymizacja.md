@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Wiktymizacja
 
 Wiktymizacja (*victimization*) to proces stawania się ofiarą przestępstwa, przemocy, nadużycia lub innej krzywdy — zarówno w sensie zdarzenia pierwotnego, jak i jego psychologicznych, społecznych i biologicznych następstw. Psychologia kliniczna zajmuje się zarówno dynamiką samego zdarzenia, jak i rozległymi konsekwencjami dla zdrowia psychicznego ofiary oraz czynnikami chroniącymi przed wtórną wiktymizacją.

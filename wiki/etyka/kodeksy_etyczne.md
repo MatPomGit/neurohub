@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Kodeksy etyczne w psychologii — przegląd
 
 Kodeksy etyczne stanowią fundament profesjonalnej praktyki psychologicznej. Definiują zobowiązania moralne psychologów wobec klientów, współpracowników, nauki i całego społeczeństwa. Poniższy przegląd obejmuje najważniejsze kodeksy obowiązujące na poziomie międzynarodowym i krajowym.

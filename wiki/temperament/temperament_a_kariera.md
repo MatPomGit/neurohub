@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Temperament a wybory zawodowe i efektywność pracy
 
 Cechy temperamentalne wpływają na to, jakie środowiska pracy są dla nas optymalne, jak radzimy sobie ze stresem zawodowym i czy jesteśmy narażeni na wypalenie.

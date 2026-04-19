@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychologia niepełnosprawności — wprowadzenie
 
 **Psychologia niepełnosprawności** to dział psychologii zajmujący się funkcjonowaniem psychicznym, emocjonalnym i społecznym osób z różnego rodzaju niepełnosprawnościami. Bada, jak niepełnosprawność wpływa na tożsamość, relacje i jakość życia, oraz dostarcza narzędzi wspierania dobrostanu i autonomii tych osób.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Arteterapia — wprowadzenie
 
 Arteterapia to forma oddziaływania terapeutycznego, w której tworzenie lub odbiór sztuki — plastyki, muzyki, ruchu, teatru lub słowa pisanego — służy jako medium terapeutyczne, wspomagając wyражanie, przetwarzanie i integrację doświadczeń emocjonalnych, których nie da się łatwo wyrazić słowami. Nie jest ani nauką o sztuce, ani zwykłym kursem twórczości — jest systematyczną pracą kliniczną z osobą, w której wytwór artystyczny pełni rolę pośrednika między wnętrzem a relacją terapeutyczną.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Rozpad związku i żałoba relacyjna
 
 Zakończenie bliskiej relacji romantycznej należy do najbardziej bolesnych doświadczeń życiowych. Niezależnie od tego, czy inicjuje je jedna ze stron, czy jest to wspólna decyzja, rozstanie uruchamia złożone procesy emocjonalne, poznawcze i społeczne, które psychologia coraz dokładniej opisuje i rozumie.

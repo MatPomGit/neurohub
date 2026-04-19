@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Narzędzia badawcze i kwestionariusze
 
 Wybór narzędzia badawczego jest jedną z najważniejszych decyzji metodologicznych w pracy magisterskiej. Dobry kwestionariusz lub test psychologiczny nie tylko mierzy to, co zamierzamy — musi też być dostosowany do próby, celu badania i dostępnych zasobów.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Choroby przewlekłe w psychologii zdrowia
 
 **Choroby przewlekłe** to schorzenia utrzymujące się przez długi czas i wymagające stałego monitorowania, leczenia lub modyfikacji stylu życia. Należą do nich m.in. cukrzyca, choroby sercowo‑naczyniowe, POChP, choroby autoimmunologiczne i część chorób neurologicznych.

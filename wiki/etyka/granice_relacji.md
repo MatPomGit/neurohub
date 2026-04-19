@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Granice relacji terapeutycznej
 
 Granice relacji terapeutycznej (*therapeutic boundaries*) to ramy strukturalne i behawioralne, które definiują rolę terapeuty i chronią klienta przed szkodą wynikającą z nadużycia zaufania. Ich utrzymanie jest nie tylko wymogiem etycznym, ale kluczowym czynnikiem terapeutycznym — przejrzyste i przewidywalne granice tworzą przestrzeń bezpieczeństwa, w której możliwa jest zmiana.

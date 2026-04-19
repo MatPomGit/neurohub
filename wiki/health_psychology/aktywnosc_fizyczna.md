@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Aktywność fizyczna a zdrowie psychiczne
 
 **Aktywność fizyczna** to jedno z najlepiej przebadanych, niskokosztowych i uniwersalnych narzędzi wspierania zdrowia psychicznego. Działa profilaktycznie, wspomaga leczenie oraz poprawia codzienne funkcjonowanie.

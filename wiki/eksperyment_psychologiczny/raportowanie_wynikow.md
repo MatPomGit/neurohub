@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Raportowanie wyników i ograniczeń
 
 Raport końcowy powinien umożliwiać czytelnikowi odtworzenie logiki projektu: od pytania badawczego, przez procedurę, aż po interpretację wyników.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Wyobraźnia i reprezentacje mentalne
 
 Wyobraźnia pozwala nam "widzieć" to, czego nie ma przed oczami — symulować przyszłość, rozumieć innych, tworzyć sztukę i rozwiązywać problemy. To jeden z najbardziej tajemniczych aspektów umysłu.

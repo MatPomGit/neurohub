@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Interwencje zdrowotne w psychologii zdrowia
 
 **Interwencje zdrowotne** to działania ukierunkowane na zmianę zachowań, poprawę samokontroli choroby i zwiększenie dobrostanu. W psychologii zdrowia obejmują psychoedukację, techniki motywacyjne, trening umiejętności oraz modyfikację środowiska.

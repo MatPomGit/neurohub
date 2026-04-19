@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Myślenie i rozumowanie
 
 Myślenie to najbardziej abstrakcyjna z ludzkich zdolności — pozwala nam planować przyszłość, rozwiązywać problemy, tworzyć pojęcia i wnioskować o nieobserwowanej rzeczywistości.

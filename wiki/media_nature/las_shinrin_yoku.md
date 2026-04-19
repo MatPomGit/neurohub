@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Shinrin-yoku — kąpiel leśna a zdrowie psychiczne i funkcje poznawcze
 
 ## Czym jest shinrin-yoku?

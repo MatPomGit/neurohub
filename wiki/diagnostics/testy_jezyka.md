@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Testy językowe w neuropsychologii
 
 Język jest oknem do funkcjonowania półkuli dominującej — diagnostyka afazji, dyzartrii i językowych aspektów demencji wymaga specjalistycznych narzędzi.

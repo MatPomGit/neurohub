@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Seksuologia — wprowadzenie
 
 Seksuologia to nauka o ludzkiej seksualności — jej biologicznych podstawach, psychologicznych wymiarach, społeczno-kulturowym uwarunkowaniu, różnorodności i zaburzeniach. Jest dyscypliną z gruntu interdyscyplinarną: czerpie z medycyny, psychologii, socjologii, antropologii, etyki i nauk prawnych, łącząc je w spójny obraz ludzkiej płciowości.

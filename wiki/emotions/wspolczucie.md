@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Empatia i współczucie
 
 Empatia to zdolność rozumienia i odczuwania tego, co przeżywają inni — fundamentalna dla relacji międzyludzkich, moralności i psychoterapii. Współczucie idzie o krok dalej: chce pomóc.

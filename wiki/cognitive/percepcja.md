@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Percepcja i gnozja
 
 Przetwarzanie sensoryczne i rozpoznawanie — od szlaków wzrokowych What/Where po zaburzenia gnozji i apraksji.

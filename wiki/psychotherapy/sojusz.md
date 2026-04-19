@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Sojusz terapeutyczny
 
 Sojusz terapeutyczny jest prawdopodobnie najważniejszym czynnikiem leczącym w psychoterapii — silniejszym niż konkretna metoda czy technika.

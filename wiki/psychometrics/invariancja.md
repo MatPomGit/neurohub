@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Inwariancja pomiarowa
 
 Inwariancja pomiarowa (measurement invariance) to właściwość narzędzia psychologicznego, która oznacza, że mierzy ono ten sam konstrukt w ten sam sposób w różnych grupach (np. kobiet i mężczyzn, różnych kultur, grup wiekowych). Bez inwariancji porównywanie wyników między grupami może być błędne.

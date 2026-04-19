@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Apraksja
 
 Apraksja to zaburzenie ruchu, które nie wynika z osłabienia mięśni, drżenia ani zaburzeń czucia — pacjent *wie*, co chce zrobić, ale jego ręce "nie słuchają" w sposób, którego sam nie rozumie.

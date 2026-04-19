@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Jakość życia w psychologii zdrowia
 
 **Jakość życia** to subiektywna ocena funkcjonowania fizycznego, psychicznego i społecznego. W opiece nad osobami z chorobą przewlekłą stanowi kluczowy wskaźnik skuteczności leczenia obok parametrów biologicznych.

@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Wybór specjalności na psychologii
 
 W toku studiów psychologicznych często pojawiają się dwa podobnie brzmiące pojęcia: **specjalizacja** i **specjalność**. Choć bywają używane zamiennie, na uczelniach zazwyczaj oznaczają coś innego.

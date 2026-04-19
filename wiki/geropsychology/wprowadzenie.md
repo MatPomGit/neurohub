@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychologia starości — wprowadzenie
 
 Psychologia starzenia się (geropsychologia) to dziedzina psychologii zajmująca się procesami psychicznymi, zachowaniem i dobrostanem osób w późnym okresie życia. Bada zarówno biologiczne, jak i psychospołeczne aspekty starzenia się, ze szczególnym uwzględnieniem czynników chroniących i zagrożeń dla zdrowia psychicznego seniorów.

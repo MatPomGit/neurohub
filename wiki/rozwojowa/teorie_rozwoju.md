@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Główne teorie rozwoju psychicznego
 
 Psychologia rozwojowa poszukuje odpowiedzi na pytanie, w jaki sposób i dlaczego człowiek zmienia się na przestrzeni całego życia. Na przestrzeni XX wieku powstało kilka wielkich tradycji teoretycznych, z których każda akcentuje inne mechanizmy i czynniki sprawcze zmiany rozwojowej. Poniższy artykuł omawia sześć najbardziej wpływowych paradygmatów.

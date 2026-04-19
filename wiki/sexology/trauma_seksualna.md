@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Trauma seksualna
 
 Psychologiczne skutki nadużycia seksualnego — wpływ na seksualność, zdrowie psychiczne i podejście terapeutyczne.

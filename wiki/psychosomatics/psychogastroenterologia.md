@@ -1,3 +1,9 @@
+---
+lastReviewed: 2026-04-01
+reviewCycleMonths: 24
+evidenceCutoffDate: 2025-12-31
+---
+
 # Psychogastroenterologia
 
 Przewód pokarmowy jest jednym z najbardziej podatnych na wpływ psychiki narządów. Nie bez powodu mówi się, że jelita to „drugi mózg" — posiadają własny rozbudowany układ nerwowy (ENS) i są w stałym dialogu z ośrodkowym układem nerwowym poprzez oś jelito–mózg.
