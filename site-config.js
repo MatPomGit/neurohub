@@ -32,6 +32,9 @@ window.SITE_CONFIG = {
   //  2) Wartości pól type/evidenceLevel/license/evidenceType muszą pochodzić
   //     ze słownika.
   //  3) Dla domen bez opracowanych wpisów używamy listy TODO w todoDomains.
+  //  4) Pole primarySourceYear zapisujemy jako rok (YYYY) pierwszej publikacji
+  //     wersji bazowej narzędzia; jeśli w projekcie narzędzie jest definiowane
+  //     przez oficjalną rewizję (np. ADOS-2, DIVA-5), wpisujemy rok tej rewizji.
   // ─────────────────────────────────────────────────────────────
   measurementToolsControlledVocabulary: {
     type: ['test', 'kwestionariusz', 'skala', 'protokol', 'obserwacja'],
@@ -59,6 +62,7 @@ window.SITE_CONFIG = {
         language: ['pl', 'en'],
         articleLinks: ['diagnostics/mmse_moca'],
         methodologyLinks: ['psychometrics/rzetelnosc', 'psychometrics/trafnosc', 'psychometrics/normalizacja', 'diagnostics/testy_przeglad'],
+        primarySourceYear: 1975,
         reliability: 'Wysoka stabilnosc wynikow w badaniach przesiewowych seniorow.',
         validity: 'Dobra trafnosc przesiewowa dla otępienia; ograniczona czułość dla MCI.',
         normsInfo: 'Normy zalezne od wieku i wyksztalcenia; interpretacja wymaga tabel lokalnych.',
@@ -91,6 +95,7 @@ window.SITE_CONFIG = {
         language: ['pl', 'en'],
         articleLinks: ['diagnostics/mmse_moca'],
         methodologyLinks: ['psychometrics/rzetelnosc', 'psychometrics/trafnosc', 'psychometrics/normalizacja', 'diagnostics/testy_przeglad'],
+        primarySourceYear: 2005,
         reliability: 'Wysoka rzetelnosc wewnetrzna i satysfakcjonujacy test-retest.',
         validity: 'Wyższa czułość niż MMSE dla lagodnych zaburzen poznawczych.',
         normsInfo: 'Wymaga korekty edukacyjnej i odniesienia do norm populacyjnych.',
@@ -360,6 +365,7 @@ window.SITE_CONFIG = {
         language: ['pl', 'en'],
         articleLinks: ['diagnostics/testy_uwagi', 'diagnostics/testy_wykonawcze'],
         methodologyLinks: ['psychometrics/rzetelnosc', 'diagnostics/testy_uwagi', 'psychometrics/normalizacja'],
+        /* Wyjątek redakcyjny: dla TMT podawane są różne daty źródłowe (1944/1945); przyjmujemy 1944 jako rok wersji bazowej Army Individual Test Battery. */
         primarySourceYear: 1944,
         reliability: 'Umiarkowana stabilnosc; czesc B bardziej wrazliwa na czynniki sytuacyjne.',
         validity: 'Dobra trafnosc do oceny przetwarzania i elastycznosci poznawczej.',
@@ -3529,7 +3535,7 @@ window.SITE_CONFIG = {
   const domainUpdates = config.measurementToolsDomainUpdates || {};
   if (!byDomain || typeof byDomain !== 'object') return;
 
-  /* Wydobywa najnowszy rok z listy źródeł narzędzia (np. "Autor (2021)"). */
+  /* Wydobywa najwcześniejszy rok z listy źródeł narzędzia (np. "Autor (2021)"). */
   const inferPrimarySourceYear = tool => {
     if (Number.isFinite(tool?.primarySourceYear)) return Math.trunc(tool.primarySourceYear);
     if (typeof tool?.primarySourceYear === 'string' && /^\d{4}$/.test(tool.primarySourceYear.trim())) {
@@ -3543,7 +3549,7 @@ window.SITE_CONFIG = {
       })
       .filter(Number.isFinite);
     if (!years.length) return null;
-    return Math.max(...years);
+    return Math.min(...years);
   };
 
   Object.entries(byDomain).forEach(([domainKey, tools]) => {
