@@ -60,6 +60,8 @@ var theoreticalTestState = null;
 var current = null;
 const MOBILE_BREAKPOINT = 900; /* matches CSS @media(max-width:900px) */
 const SPECIALIZATION_TEST_COUNTER_KEY = 'psyhub-specialization-test-counter';
+const RECENT_PAGES_KEY = 'psyhub-recent-pages';
+const RECENT_PAGES_LIMIT = 5;
 
 /* Zwraca klucz daty (YYYY-MM-DD) w lokalnej strefie użytkownika do licznika dziennego. */
 function getTodayDateKey() {
@@ -98,6 +100,63 @@ function registerCompletedSpecializationAttempt() {
   counter.byDate[todayKey] = (counter.byDate[todayKey] || 0) + 1;
   writeSpecializationTestCounter(counter);
   testAttemptState.completed = true;
+}
+
+/* Odczytuje listę ostatnio odwiedzonych stron i filtruje niepoprawne wpisy. */
+function readRecentPages() {
+  try {
+    const raw = localStorage.getItem(RECENT_PAGES_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed
+      .filter(id => typeof id === 'string' && pageMap.has(id))
+      .slice(0, RECENT_PAGES_LIMIT);
+  } catch (_) {
+    return [];
+  }
+}
+
+/* Zapisuje listę ostatnio odwiedzonych stron w localStorage. */
+function writeRecentPages(ids) {
+  localStorage.setItem(RECENT_PAGES_KEY, JSON.stringify(ids.slice(0, RECENT_PAGES_LIMIT)));
+}
+
+/* Dodaje stronę do historii ostatnich wizyt, przenosząc ją na początek listy. */
+function addRecentPage(id) {
+  if (!id || !pageMap.has(id)) return;
+  const deduped = [id, ...readRecentPages().filter(existingId => existingId !== id)];
+  writeRecentPages(deduped);
+}
+
+/* Zwraca kolejną stronę w tym samym dziale jako proponowany „następny krok”. */
+function getNextStepItem(id) {
+  const activeId = id || SITE_CONFIG.defaultPage;
+  const activeItem = pageMap.get(activeId);
+  if (!activeItem) return null;
+  const section = SITE_CONFIG.nav.find(sec => sec.section === activeItem.section);
+  if (!section) return null;
+  const idx = section.items.findIndex(item => item.id === activeId);
+  if (idx < 0) return section.items[0] || null;
+  return section.items[idx + 1] || null;
+}
+
+/* Aktualizuje skrót „następny krok” w topbarze zależnie od bieżącej strony. */
+function updateTopbarNextStep(id) {
+  const host = document.getElementById('topbarNextStep');
+  if (!host) return;
+  const nextItem = getNextStepItem(id);
+  if (!nextItem) {
+    host.innerHTML = `<button type="button" class="next-step-btn" onclick="navigate('students/testy_teoretyczne')">
+      <span class="next-step-label">Następny krok</span>
+      <span class="next-step-title">Sprawdź się testem</span>
+    </button>`;
+    return;
+  }
+  host.innerHTML = `<button type="button" class="next-step-btn" onclick="navigate('${q(nextItem.id)}')">
+    <span class="next-step-label">Następny krok</span>
+    <span class="next-step-title">${q(nextItem.label)}</span>
+  </button>`;
 }
 
 function buildPageMap() {
@@ -250,9 +309,11 @@ function navigate(id, replaceHistory) {
   const item = pageMap.get(id);
   if (!item) return;
   current = id;
+  addRecentPage(id);
   if (replaceHistory) history.replaceState({id},'','#'+id);
   else                history.pushState({id},'','#'+id);
   setActive(id);
+  updateTopbarNextStep(id);
   closeSidebar();
   if (item.file)       loadMd(id, item);
   else if (item.custom === 'specialization_test') renderSpecializationTest(id, item);
@@ -585,11 +646,65 @@ function renderHome() {
     </div>`;
   }).join('');
 
+  /* Karty scenariuszy kierujące od razu do konkretnych modułów z SITE_CONFIG.nav. */
+  const startScenarios = [
+    {
+      title: 'Nauka od podstaw',
+      id: 'intro/definicja',
+      emoji: '📘',
+      goal: 'Zacznij od fundamentów psychologii.',
+      benefit: 'W 10 minut zbudujesz kontekst do dalszej nauki.'
+    },
+    {
+      title: 'Sprawdź się testem',
+      id: 'students/testy_teoretyczne',
+      emoji: '🧪',
+      goal: 'Zweryfikuj, co już pamiętasz.',
+      benefit: 'Szybko zobaczysz luki i priorytety nauki.'
+    },
+    {
+      title: 'Szybka powtórka',
+      id: 'students/psychologia_codziennej',
+      emoji: '⚡',
+      goal: 'Powtórz jedną małą porcję wiedzy.',
+      benefit: 'Utrzymasz regularność bez długiej sesji.'
+    },
+    {
+      title: 'Przejrzyj Wiki',
+      id: 'wiki-index/slownik',
+      emoji: '🧭',
+      goal: 'Znajdź temat lub termin w kilka sekund.',
+      benefit: 'Skrócisz czas szukania potrzebnej informacji.'
+    }
+  ];
+  const startCardsHtml = startScenarios
+    .filter(scenario => pageMap.has(scenario.id))
+    .map(scenario => `<button type="button" class="start-card" onclick="navigate('${scenario.id}')">
+      <span class="start-card-icon">${scenario.emoji}</span>
+      <span class="start-card-title">${scenario.title}</span>
+      <span class="start-card-goal">${scenario.goal}</span>
+      <span class="start-card-benefit">${scenario.benefit}</span>
+    </button>`)
+    .join('');
+
+  /* Renderuje komponent „Ostatnio odwiedzane” na podstawie localStorage. */
+  const recentItems = readRecentPages()
+    .filter(id => id !== '__home__')
+    .slice(0, RECENT_PAGES_LIMIT)
+    .map(id => pageMap.get(id))
+    .filter(Boolean);
+  const recentHtml = recentItems.length
+    ? `<div class="recent-list">${recentItems.map(item => `<button type="button" class="recent-link" onclick="navigate('${item.id}')">
+        <span class="recent-section">${item.section || 'PsyHub'}</span>
+        <span class="recent-title">${item.label}</span>
+      </button>`).join('')}</div>`
+    : `<p class="recent-empty">Tu pojawią się ostatnio otwierane strony. Zacznij od jednej karty „Start tutaj”.</p>`;
+
   area.innerHTML = `<div class="rendered">
     <div class="home-hero">
       <div class="home-eyebrow">Portal Wiedzy Psychologicznej</div>
       <h1>Witaj w <span>PsyHub</span></h1>
-      <p>Encyklopedia psychologii i neuropsychologii — każdy artykuł w osobnym pliku Markdown, każdy dział z pełnym planem rozbudowy.</p>
+      <p>Wybierz ścieżkę i zacznij od razu. Krótkie kroki pomogą Ci uczyć się szybciej i z mniejszym stresem.</p>
       <div class="home-stats">
         <div><div class="stat-val">${totalMd}</div><div class="stat-lbl">Artykułów</div></div>
         <div><div class="stat-val">${totalPlan}</div><div class="stat-lbl">Zaplanowanych</div></div>
@@ -597,6 +712,20 @@ function renderHome() {
         <div><div class="stat-val">${domains.length}</div><div class="stat-lbl">Działów</div></div>
       </div>
     </div>
+    <section class="home-block">
+      <div class="home-block-head">
+        <h2>Start tutaj</h2>
+        <p>Wybierz scenariusz dopasowany do celu na teraz.</p>
+      </div>
+      <div class="start-grid">${startCardsHtml}</div>
+    </section>
+    <section class="home-block">
+      <div class="home-block-head">
+        <h2>Ostatnio odwiedzane</h2>
+        <p>Wróć do materiałów, które już przeglądałeś.</p>
+      </div>
+      ${recentHtml}
+    </section>
     <div><div class="domains-h2">Działy tematyczne</div><div class="domain-grid">${cards}</div></div>
   </div>`;
   window.scrollTo(0,0);
@@ -606,7 +735,11 @@ function renderHome() {
 /* ── Breadcrumb ────────────────────────────── */
 function setBreadcrumb(item) {
   const bc = document.getElementById('breadcrumb');
-  if (!item) { bc.innerHTML = `<a onclick="navigate(SITE_CONFIG.defaultPage)">PsyHub</a>`; return; }
+  if (!item) {
+    bc.innerHTML = `<a onclick="navigate(SITE_CONFIG.defaultPage)">PsyHub</a>`;
+    updateTopbarNextStep(SITE_CONFIG.defaultPage);
+    return;
+  }
   const s  = item?.section||'';
   const l  = item?.label||'';
   let sHtml = '';
@@ -620,6 +753,7 @@ function setBreadcrumb(item) {
   bc.innerHTML = `<a onclick="navigate(SITE_CONFIG.defaultPage)">PsyHub</a>`
     + sHtml
     +(l?`<span class="bsep">/</span><span class="bcur">${l}</span>`:'');
+  updateTopbarNextStep(item.id);
 }
 
 /* ── Search ────────────────────────────────── */
