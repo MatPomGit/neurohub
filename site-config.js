@@ -280,6 +280,7 @@ window.SITE_CONFIG = {
         { id: 'psychometrics/irt',          label: 'IRT i Rasch',           file: 'wiki/psychometrics/irt.md'          },
         { id: 'psychometrics/cfa_efa',      label: 'Analiza czynnikowa',    file: 'wiki/psychometrics/cfa_efa.md'      },
         { id: 'psychometrics/invariancja',  label: 'Inwariancja pomiarowa', file: 'wiki/psychometrics/invariancja.md'  },
+        { id: 'psychometrics/test_matryc_ravena', label: 'Test Matryc Ravena', file: 'wiki/psychometrics/test_matryc_ravena.md' },
         { id: 'psychometrics/mmpi',         label: 'MMPI',                  file: 'wiki/psychometrics/mmpi.md'         },
         { id: 'psychometrics/bdi_2',        label: 'BDI-II (Inwentarz Depresji Becka)', file: 'wiki/psychometrics/bdi_2.md' },
         { id: 'psychometrics/ados',         label: 'ADOS-2',                file: 'wiki/psychometrics/ados.md'         },
@@ -959,6 +960,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/psychometrics/irt.md',          label: 'IRT i model Rascha',      status: 'live' },
       { file: 'wiki/psychometrics/cfa_efa.md',      label: 'Analiza czynnikowa',      status: 'live' },
       { file: 'wiki/psychometrics/invariancja.md',  label: 'Inwariancja pomiarowa',          status: 'live' },
+      { file: 'wiki/psychometrics/test_matryc_ravena.md', label: 'Test Matryc Ravena',       status: 'live' },
       { file: 'wiki/psychometrics/mmpi.md',         label: 'MMPI',                           status: 'live' },
       { file: 'wiki/psychometrics/bdi_2.md',        label: 'BDI-II (Inwentarz Depresji Becka)',status: 'live' },
       { file: 'wiki/psychometrics/ados.md',         label: 'ADOS-2',                         status: 'live' },
@@ -2006,6 +2008,7 @@ window.SITE_CONFIG = {
             { label: 'IRT i model Rascha', id: 'psychometrics/irt', status: 'live' },
             { label: 'Analiza czynnikowa', id: 'psychometrics/cfa_efa', status: 'live' },
             { label: 'Inwariancja pomiarowa', id: 'psychometrics/invariancja', status: 'live' },
+            { label: 'Test Matryc Ravena', id: 'psychometrics/test_matryc_ravena', status: 'live' },
           ]
         },
         {
