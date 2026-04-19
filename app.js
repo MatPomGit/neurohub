@@ -625,6 +625,7 @@ function setBreadcrumb(item) {
 /* ── Search ────────────────────────────────── */
 const SEARCH_UI_STATE_KEY = 'psyhub-search-ui-state';
 let searchIndex = [];
+let keywordLinkIndex = new Map();
 const searchUiState = { query: '', filters: { tests: false, wiki: false, beginner: false } };
 
 /* Standaryzuje tokeny tekstowe, żeby ranking działał stabilnie dla polskich znaków i wielkości liter. */
@@ -651,6 +652,19 @@ function rebuildSearchIndex() {
       normalizedType: normalizeSearchText(item.type || ''),
       normalizedLevel: normalizeSearchText(item.level || ''),
     }));
+
+  /* Tworzy indeks słów kluczowych -> ID artykułu dla szybkiego linkowania wewnątrz treści. */
+  keywordLinkIndex = new Map();
+  searchIndex.forEach(entry => {
+    const phrases = [entry.label, ...(entry.keywords || [])]
+      .map(value => String(value || '').trim())
+      .filter(value => value.length >= 4);
+    phrases.forEach(phrase => {
+      const normalized = normalizeSearchText(phrase);
+      if (!normalized || keywordLinkIndex.has(normalized)) return;
+      keywordLinkIndex.set(normalized, entry.id);
+    });
+  });
 }
 
 /* Ocenia wynik na podstawie dopasowań tytułu, sekcji i tagów słów kluczowych. */
@@ -774,43 +788,56 @@ function applySearchUi() {
 function addKeywordLinksToRenderedArticle(container, currentId) {
   const currentItem = pageMap.get(currentId);
   if (!currentItem || !container) return;
-  const keywords = currentItem.keywords || [];
+  const keywords = (currentItem.keywords || []).map(value => String(value || '').trim()).filter(Boolean);
   if (!keywords.length) return;
 
   const linkTargets = keywords
     .map(keyword => {
-      const target = searchIndex.find(entry => entry.id !== currentId && (
-        normalizeSearchText(entry.label) === normalizeSearchText(keyword)
-        || entry.normalizedKeywords.includes(normalizeSearchText(keyword))
-      ));
-      return target ? { keyword, targetId: target.id } : null;
+      const normalizedKeyword = normalizeSearchText(keyword);
+      const targetId = keywordLinkIndex.get(normalizedKeyword);
+      if (!targetId || targetId === currentId) return null;
+      return { keyword, targetId };
     })
     .filter(Boolean)
+    .sort((a, b) => b.keyword.length - a.keyword.length)
     .slice(0, 6);
   if (!linkTargets.length) return;
 
-  const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT);
+  /* Escapuje literały RegExp, aby bezpiecznie tworzyć wzorce dla fraz wielowyrazowych. */
+  const escapeRegExp = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+  const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      if (!node.nodeValue || !node.nodeValue.trim()) return NodeFilter.FILTER_REJECT;
+      const parentTag = node.parentElement?.tagName;
+      if (['A', 'CODE', 'PRE', 'H1', 'H2', 'H3', 'H4'].includes(parentTag)) return NodeFilter.FILTER_REJECT;
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+  const textNodes = [];
+  while (walker.nextNode()) textNodes.push(walker.currentNode);
+
   let linksLeft = 6;
-  while (walker.nextNode() && linksLeft > 0) {
-    const textNode = walker.currentNode;
-    const parentTag = textNode.parentElement?.tagName;
-    if (!textNode.nodeValue || ['A', 'CODE', 'PRE'].includes(parentTag)) continue;
+  textNodes.forEach(textNode => {
+    if (linksLeft <= 0) return;
     const original = textNode.nodeValue;
     let replaced = false;
-    let fragment = document.createDocumentFragment();
+    const fragment = document.createDocumentFragment();
     let remaining = original;
 
     linkTargets.forEach(({ keyword, targetId }) => {
       if (!remaining || linksLeft <= 0) return;
-      const pattern = new RegExp(`\\b(${keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})\\b`, 'i');
+      const pattern = new RegExp(`(^|[^\\p{L}\\p{N}])(${escapeRegExp(keyword)})(?=$|[^\\p{L}\\p{N}])`, 'iu');
       const match = remaining.match(pattern);
       if (!match) return;
       replaced = true;
       const idx = match.index || 0;
-      fragment.appendChild(document.createTextNode(remaining.slice(0, idx)));
+      const prefix = match[1] || '';
+      const phrase = match[2] || '';
+      fragment.appendChild(document.createTextNode(remaining.slice(0, idx) + prefix));
       const link = document.createElement('a');
       link.href = `#${targetId}`;
-      link.textContent = remaining.slice(idx, idx + match[0].length);
+      link.textContent = phrase;
       fragment.appendChild(link);
       remaining = remaining.slice(idx + match[0].length);
       linksLeft -= 1;
@@ -819,7 +846,7 @@ function addKeywordLinksToRenderedArticle(container, currentId) {
       fragment.appendChild(document.createTextNode(remaining));
       textNode.parentNode.replaceChild(fragment, textNode);
     }
-  }
+  });
 }
 
 /* ── Sidebar mobile ────────────────────────── */
