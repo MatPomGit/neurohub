@@ -80,6 +80,8 @@ window.SITE_CONFIG = {
       items: [
         { id: 'biology/biologiczne_podstawy', label: 'Biologiczne podstawy — wprow.', file: 'wiki/biology/biologiczne_podstawy.md' },
         { id: 'biology/genetyka_beh',         label: 'Genetyka behawioralna',          file: 'wiki/biology/genetyka_beh.md'          },
+        { id: 'biology/transmisja_genetyczna_zaburzen', label: 'Transmisja genetyczna zaburzeń', file: 'wiki/biology/transmisja_genetyczna_zaburzen_psychicznych.md' },
+        { id: 'biology/epigenetyka',          label: 'Epigenetyka',                    file: 'wiki/biology/epigenetyka.md'           },
         { id: 'biology/hormony',              label: 'Hormony i zachowanie',           file: 'wiki/biology/hormony.md'               },
         { id: 'biology/ewolucja',             label: 'Ewolucja i psychologia ewol.',   file: 'wiki/biology/ewolucja.md'              },
         { id: 'biology/psychofizjologia',     label: 'Psychofizjologia',               file: 'wiki/biology/psychofizjologia.md'      },
@@ -120,6 +122,7 @@ window.SITE_CONFIG = {
         { id: 'spoleczna/dynamika_grupowa', label: 'Dynamika grupowa', file: 'wiki/spoleczna/dynamika_grupowa.md' },
         { id: 'spoleczna/atrakcyjnosc', label: 'Atrakcyjność interpersonalna', file: 'wiki/spoleczna/atrakcyjnosc.md' },
         { id: 'spoleczna/agresja', label: 'Agresja', file: 'wiki/spoleczna/agresja.md' },
+        { id: 'spoleczna/hejt_w_sieci', label: 'Hejt w sieci', file: 'wiki/spoleczna/hejt_w_sieci.md' },
         { id: 'spoleczna/zachowania_prospoleczne', label: 'Zachowania prospołeczne', file: 'wiki/spoleczna/zachowania_prospoleczne.md' },
       ]
     },
@@ -527,6 +530,7 @@ window.SITE_CONFIG = {
         { id: 'school_psychology/adhd_w_szkole',                 label: 'ADHD w szkole',                            file: 'wiki/school_psychology/adhd_w_szkole.md'                 },
         { id: 'school_psychology/relacje_nauczyciel_uczen',      label: 'Relacje nauczyciel–uczeń',                file: 'wiki/school_psychology/relacje_nauczyciel_uczen.md'      },
         { id: 'school_psychology/klimat_szkolny',                label: 'Klimat szkolny',                           file: 'wiki/school_psychology/klimat_szkolny.md'                },
+        { id: 'school_psychology/bullying',                     label: 'Bullying w szkole',                        file: 'wiki/school_psychology/bullying.md'                      },
         { id: 'school_psychology/ocenianie_i_feedback',          label: 'Ocenianie i informacja zwrotna',           file: 'wiki/school_psychology/ocenianie_i_feedback.md'          },
         { id: 'school_psychology/stres_szkolny',                 label: 'Stres szkolny i lęk egzaminacyjny',       file: 'wiki/school_psychology/stres_szkolny.md'                 },
         { id: 'school_psychology/interwencje_szkolne',           label: 'Interwencje psychologiczne w szkole',      file: 'wiki/school_psychology/interwencje_szkolne.md'           },
@@ -929,6 +933,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/spoleczna/dynamika_grupowa.md', label: 'Dynamika grupowa', status: 'live' },
       { file: 'wiki/spoleczna/atrakcyjnosc.md', label: 'Atrakcyjność interpersonalna', status: 'live' },
       { file: 'wiki/spoleczna/agresja.md', label: 'Agresja', status: 'live' },
+      { file: 'wiki/spoleczna/hejt_w_sieci.md', label: 'Hejt w sieci', status: 'live' },
       { file: 'wiki/spoleczna/zachowania_prospoleczne.md', label: 'Zachowania prospołeczne', status: 'live' },
     ],
     disorders: [
@@ -1036,6 +1041,8 @@ window.SITE_CONFIG = {
     biology: [
       { file: 'wiki/biology/biologiczne_podstawy.md', label: 'Biologiczne podstawy — wprow.', status: 'live' },
       { file: 'wiki/biology/genetyka_beh.md',    label: 'Genetyka behawioralna',      status: 'live' },
+      { file: 'wiki/biology/transmisja_genetyczna_zaburzen_psychicznych.md', label: 'Transmisja genetyczna zaburzeń', status: 'live' },
+      { file: 'wiki/biology/epigenetyka.md',    label: 'Epigenetyka',                status: 'live' },
       { file: 'wiki/biology/hormony.md',          label: 'Hormony i zachowanie',       status: 'live' },
       { file: 'wiki/biology/ewolucja.md',         label: 'Ewolucja i psychologia ewol.',status: 'live' },
       { file: 'wiki/biology/psychofizjologia.md', label: 'Psychofizjologia',           status: 'live' },
@@ -1319,6 +1326,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/school_psychology/adhd_w_szkole.md',                label: 'ADHD w środowisku szkolnym',               status: 'live' },
       { file: 'wiki/school_psychology/relacje_nauczyciel_uczen.md',     label: 'Relacje nauczyciel–uczeń',                 status: 'live' },
       { file: 'wiki/school_psychology/klimat_szkolny.md',               label: 'Klimat szkolny',                            status: 'live' },
+      { file: 'wiki/school_psychology/bullying.md',                    label: 'Bullying w szkole',                         status: 'live' },
       { file: 'wiki/school_psychology/ocenianie_i_feedback.md',         label: 'Ocenianie i informacja zwrotna',            status: 'live' },
       { file: 'wiki/school_psychology/stres_szkolny.md',                label: 'Stres szkolny i lęk egzaminacyjny',        status: 'live' },
       { file: 'wiki/school_psychology/interwencje_szkolne.md',          label: 'Interwencje psychologiczne w szkole',       status: 'live' },
@@ -1759,6 +1767,7 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Atrakcyjność interpersonalna', id: 'spoleczna/atrakcyjnosc', status: 'live' },
             { label: 'Agresja', id: 'spoleczna/agresja', status: 'live' },
+            { label: 'Hejt w sieci', id: 'spoleczna/hejt_w_sieci', status: 'live' },
             { label: 'Zachowania prospołeczne', id: 'spoleczna/zachowania_prospoleczne', status: 'live' },
           ]
         },
@@ -2046,6 +2055,8 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Biologiczne podstawy zachowania', id: 'biology/biologiczne_podstawy', status: 'live' },
             { label: 'Genetyka zachowania', id: 'biology/genetyka_beh', status: 'live' },
+            { label: 'Transmisja genetyczna zaburzeń', id: 'biology/transmisja_genetyczna_zaburzen', status: 'live' },
+            { label: 'Epigenetyka', id: 'biology/epigenetyka', status: 'live' },
             { label: 'Psychofizjologia', id: 'biology/psychofizjologia', status: 'live' },
           ]
         },
@@ -2663,6 +2674,7 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Relacje nauczyciel–uczeń',           id: 'school_psychology/relacje_nauczyciel_uczen', status: 'live' },
             { label: 'Klimat szkolny',                      id: 'school_psychology/klimat_szkolny',           status: 'live' },
+            { label: 'Bullying w szkole',                 id: 'school_psychology/bullying',                 status: 'live' },
             { label: 'Ocenianie i informacja zwrotna',      id: 'school_psychology/ocenianie_i_feedback',     status: 'live' },
             { label: 'Interwencje psychologiczne w szkole', id: 'school_psychology/interwencje_szkolne',      status: 'live' },
           ]
