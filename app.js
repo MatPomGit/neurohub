@@ -596,9 +596,22 @@ function renderToolWarnings(tool) {
 /* Renderuje sekcję narzędzi pomiarowych dla aktualnej dziedziny wraz ze stanem pustym. */
 function renderMeasurementTools(domainKey, currentId) {
   const tools = (SITE_CONFIG.measurementToolsByDomain || {})[domainKey];
+  const domainUpdateMeta = (SITE_CONFIG.measurementToolsDomainUpdates || {})[domainKey] || {};
+
+  // Formatuje datę ISO do czytelnej postaci PL dla sekcji aktualizacji.
+  const formattedUpdatedAt = (() => {
+    if (!domainUpdateMeta.updatedAt) return null;
+    const parsed = new Date(`${domainUpdateMeta.updatedAt}T00:00:00Z`);
+    if (Number.isNaN(parsed.getTime())) return null;
+    return parsed.toLocaleDateString('pl-PL', { year: 'numeric', month: 'long', day: 'numeric' });
+  })();
+
+  const lastUpdatedHtml = `<p class="measurement-tools-updated"><strong>Ostatnia aktualizacja (dziedzina):</strong> ${q(formattedUpdatedAt || 'brak daty')}</p>`;
+
   if (!Array.isArray(tools) || tools.length === 0) {
     return `<div class="plans-section measurement-tools-section">
       <h2>Narzędzia pomiarowe</h2>
+      ${lastUpdatedHtml}
       <div class="plans-empty-state">Spis narzędzi w przygotowaniu</div>
     </div>`;
   }
@@ -652,6 +665,7 @@ function renderMeasurementTools(domainKey, currentId) {
 
   return `<div class="plans-section measurement-tools-section">
     <h2>Narzędzia pomiarowe</h2>
+    ${lastUpdatedHtml}
     <div class="plans-grid measurement-tools-grid">${rows}</div>
     <p class="measurement-tools-footer">Materiał edukacyjny, nie instrukcja samodzielnej diagnozy.</p>
   </div>`;
