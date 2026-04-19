@@ -37,6 +37,12 @@
       </svg>
       <input type="text" id="searchInput" placeholder="Szukaj artykułu…" autocomplete="off">
     </div>
+    <div class="s-filter-shortcuts" id="searchFilterShortcuts" aria-label="Skróty filtrów wyszukiwania">
+      <button type="button" class="s-filter-btn" data-filter="tests">Tylko testy</button>
+      <button type="button" class="s-filter-btn" data-filter="wiki">Tylko wiki</button>
+      <button type="button" class="s-filter-btn" data-filter="beginner">Początkujący</button>
+    </div>
+    <div class="s-search-results" id="searchResults" aria-live="polite"></div>
   </div>
 
   <nav class="s-nav" id="sidebarNav" aria-label="Nawigacja boczna"></nav>

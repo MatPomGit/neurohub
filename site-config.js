@@ -2941,3 +2941,37 @@ window.SITE_CONFIG = {
     },
   },
 };
+
+/* Uzupełnia metadane wyszukiwania (keywords, level, type) dla wszystkich wpisów nawigacji. */
+(function enrichNavigationMetadata(config) {
+  if (!config || !Array.isArray(config.nav)) return;
+
+  /* Mapuje działy na poziom trudności domyślnej ścieżki nauki. */
+  const sectionLevelMap = {
+    'Wprowadzenie': 'beginner',
+    'Dla studentów': 'beginner',
+    'Podstawy pomocy psychologicznej': 'beginner',
+    'Filozofia': 'intermediate',
+  };
+
+  config.nav.forEach(section => {
+    section.items.forEach(item => {
+      const inferredType = item.type || (item.kind === 'test' ? 'test' : (item.wiki ? 'wiki' : 'article'));
+      const inferredLevel = item.level || sectionLevelMap[section.section] || 'intermediate';
+      const baseKeywords = [
+        section.section,
+        item.label,
+        item.id.split('/')[0],
+        item.id.split('/')[1],
+        inferredType,
+      ];
+
+      item.type = inferredType;
+      item.level = inferredLevel;
+      item.keywords = Array.from(new Set([...(item.keywords || []), ...baseKeywords]
+        .filter(Boolean)
+        .map(value => String(value).trim())
+      ));
+    });
+  });
+})(window.SITE_CONFIG);
