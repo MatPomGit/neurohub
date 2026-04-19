@@ -122,6 +122,7 @@ window.SITE_CONFIG = {
         { id: 'spoleczna/dynamika_grupowa', label: 'Dynamika grupowa', file: 'wiki/spoleczna/dynamika_grupowa.md' },
         { id: 'spoleczna/atrakcyjnosc', label: 'Atrakcyjność interpersonalna', file: 'wiki/spoleczna/atrakcyjnosc.md' },
         { id: 'spoleczna/agresja', label: 'Agresja', file: 'wiki/spoleczna/agresja.md' },
+        { id: 'spoleczna/hejt_w_sieci', label: 'Hejt w sieci', file: 'wiki/spoleczna/hejt_w_sieci.md' },
         { id: 'spoleczna/zachowania_prospoleczne', label: 'Zachowania prospołeczne', file: 'wiki/spoleczna/zachowania_prospoleczne.md' },
       ]
     },
@@ -529,6 +530,7 @@ window.SITE_CONFIG = {
         { id: 'school_psychology/adhd_w_szkole',                 label: 'ADHD w szkole',                            file: 'wiki/school_psychology/adhd_w_szkole.md'                 },
         { id: 'school_psychology/relacje_nauczyciel_uczen',      label: 'Relacje nauczyciel–uczeń',                file: 'wiki/school_psychology/relacje_nauczyciel_uczen.md'      },
         { id: 'school_psychology/klimat_szkolny',                label: 'Klimat szkolny',                           file: 'wiki/school_psychology/klimat_szkolny.md'                },
+        { id: 'school_psychology/bullying',                     label: 'Bullying w szkole',                        file: 'wiki/school_psychology/bullying.md'                      },
         { id: 'school_psychology/ocenianie_i_feedback',          label: 'Ocenianie i informacja zwrotna',           file: 'wiki/school_psychology/ocenianie_i_feedback.md'          },
         { id: 'school_psychology/stres_szkolny',                 label: 'Stres szkolny i lęk egzaminacyjny',       file: 'wiki/school_psychology/stres_szkolny.md'                 },
         { id: 'school_psychology/interwencje_szkolne',           label: 'Interwencje psychologiczne w szkole',      file: 'wiki/school_psychology/interwencje_szkolne.md'           },
@@ -931,6 +933,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/spoleczna/dynamika_grupowa.md', label: 'Dynamika grupowa', status: 'live' },
       { file: 'wiki/spoleczna/atrakcyjnosc.md', label: 'Atrakcyjność interpersonalna', status: 'live' },
       { file: 'wiki/spoleczna/agresja.md', label: 'Agresja', status: 'live' },
+      { file: 'wiki/spoleczna/hejt_w_sieci.md', label: 'Hejt w sieci', status: 'live' },
       { file: 'wiki/spoleczna/zachowania_prospoleczne.md', label: 'Zachowania prospołeczne', status: 'live' },
     ],
     disorders: [
@@ -1323,6 +1326,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/school_psychology/adhd_w_szkole.md',                label: 'ADHD w środowisku szkolnym',               status: 'live' },
       { file: 'wiki/school_psychology/relacje_nauczyciel_uczen.md',     label: 'Relacje nauczyciel–uczeń',                 status: 'live' },
       { file: 'wiki/school_psychology/klimat_szkolny.md',               label: 'Klimat szkolny',                            status: 'live' },
+      { file: 'wiki/school_psychology/bullying.md',                    label: 'Bullying w szkole',                         status: 'live' },
       { file: 'wiki/school_psychology/ocenianie_i_feedback.md',         label: 'Ocenianie i informacja zwrotna',            status: 'live' },
       { file: 'wiki/school_psychology/stres_szkolny.md',                label: 'Stres szkolny i lęk egzaminacyjny',        status: 'live' },
       { file: 'wiki/school_psychology/interwencje_szkolne.md',          label: 'Interwencje psychologiczne w szkole',       status: 'live' },
@@ -1763,6 +1767,7 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Atrakcyjność interpersonalna', id: 'spoleczna/atrakcyjnosc', status: 'live' },
             { label: 'Agresja', id: 'spoleczna/agresja', status: 'live' },
+            { label: 'Hejt w sieci', id: 'spoleczna/hejt_w_sieci', status: 'live' },
             { label: 'Zachowania prospołeczne', id: 'spoleczna/zachowania_prospoleczne', status: 'live' },
           ]
         },
@@ -2669,6 +2674,7 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Relacje nauczyciel–uczeń',           id: 'school_psychology/relacje_nauczyciel_uczen', status: 'live' },
             { label: 'Klimat szkolny',                      id: 'school_psychology/klimat_szkolny',           status: 'live' },
+            { label: 'Bullying w szkole',                 id: 'school_psychology/bullying',                 status: 'live' },
             { label: 'Ocenianie i informacja zwrotna',      id: 'school_psychology/ocenianie_i_feedback',     status: 'live' },
             { label: 'Interwencje psychologiczne w szkole', id: 'school_psychology/interwencje_szkolne',      status: 'live' },
           ]
