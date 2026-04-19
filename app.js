@@ -145,32 +145,44 @@ function renderSidebar() {
   const activeItem = pageMap.get(active);
   const activeSec  = activeItem ? activeItem.section : null;
   let html = '';
-  for (const sec of SITE_CONFIG.nav) {
+  /* Buduje semantyczną strukturę nawigacji z poprawnymi atrybutami ARIA dla każdej grupy. */
+  SITE_CONFIG.nav.forEach((sec, secIndex) => {
     const open = sec.section === activeSec;
+    const panelId = `nav-group-panel-${secIndex}`;
+    const triggerId = `nav-group-trigger-${secIndex}`;
     html += `<div class="nav-group${open?' open':''}" data-sec="${q(sec.section)}">`;
-    html += `<div class="nav-group-hdr" onclick="toggleGroup(this)">`;
+    html += `<button type="button" id="${triggerId}" class="nav-group-hdr" data-action="toggle-group" aria-expanded="${open ? 'true' : 'false'}" aria-controls="${panelId}">`;
     html += `<span class="ng-label">${sec.section}</span>`;
     html += `<svg class="ng-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>`;
-    html += `</div><div class="nav-items">`;
+    html += `</button><div class="nav-items" id="${panelId}" role="group" aria-labelledby="${triggerId}">`;
     for (const item of sec.items) {
       if (item.href) {
         html += `<a class="nav-item nav-item-external" href="${q(item.href)}" target="_blank" rel="noopener noreferrer">${item.label} ↗</a>`;
       } else {
         const cls = ['nav-item', item.wiki?'is-wiki':'', item.kind === 'test' ? 'nav-item-test' : '', item.id===active?'is-active':''].filter(Boolean).join(' ');
-        html += `<div class="${cls}" data-id="${item.id}" onclick="navigate('${item.id}')">${item.label}</div>`;
+        html += `<button type="button" class="${cls} nav-item-btn" data-action="navigate" data-id="${item.id}">${item.label}</button>`;
       }
     }
     html += `</div></div>`;
-  }
+  });
   nav.innerHTML = html;
 }
 function q(s){ return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;') }
 
-function toggleGroup(hdr) {
-  const group = hdr.parentElement;
+function toggleGroup(group) {
+  /* Przełącza jedną grupę i synchronizuje stan aria-expanded wszystkich nagłówków. */
+  if (!group) return;
   const isOpen = group.classList.contains('open');
-  document.querySelectorAll('.nav-group').forEach(g => g.classList.remove('open'));
-  if (!isOpen) group.classList.add('open');
+  document.querySelectorAll('.nav-group').forEach(g => {
+    g.classList.remove('open');
+    const btn = g.querySelector('.nav-group-hdr');
+    if (btn) btn.setAttribute('aria-expanded', 'false');
+  });
+  if (!isOpen) {
+    group.classList.add('open');
+    const btn = group.querySelector('.nav-group-hdr');
+    if (btn) btn.setAttribute('aria-expanded', 'true');
+  }
 }
 
 function setActive(id) {
@@ -180,10 +192,56 @@ function setActive(id) {
   const el = document.querySelector(`.nav-item[data-id="${id}"]`);
   if (el) {
     const group = el.closest('.nav-group');
-    document.querySelectorAll('.nav-group').forEach(g => g.classList.remove('open'));
+    document.querySelectorAll('.nav-group').forEach(g => {
+      g.classList.remove('open');
+      const btn = g.querySelector('.nav-group-hdr');
+      if (btn) btn.setAttribute('aria-expanded', 'false');
+    });
     group?.classList.add('open');
+    const btn = group?.querySelector('.nav-group-hdr');
+    if (btn) btn.setAttribute('aria-expanded', 'true');
     el.scrollIntoView({ block:'nearest', behavior:'smooth' });
   }
+}
+
+/* Obsługuje kliknięcia i skróty klawiaturowe dla elementów sidebaru przez delegację zdarzeń. */
+function setupSidebarInteractions() {
+  const nav = document.getElementById('sidebarNav');
+  if (!nav) return;
+
+  nav.addEventListener('click', (event) => {
+    const control = event.target.closest('[data-action]');
+    if (!control || !nav.contains(control)) return;
+
+    if (control.dataset.action === 'toggle-group') {
+      const group = control.closest('.nav-group');
+      toggleGroup(group);
+      return;
+    }
+
+    if (control.dataset.action === 'navigate') {
+      navigate(control.dataset.id);
+    }
+  });
+
+  nav.addEventListener('keydown', (event) => {
+    const control = event.target.closest('[data-action], .nav-item-external');
+    if (!control || !nav.contains(control)) return;
+    if (event.key !== 'Enter' && event.key !== ' ') return;
+
+    event.preventDefault();
+    if (control.dataset.action === 'toggle-group') {
+      toggleGroup(control.closest('.nav-group'));
+      return;
+    }
+    if (control.dataset.action === 'navigate') {
+      navigate(control.dataset.id);
+      return;
+    }
+    if (control.matches('.nav-item-external')) {
+      control.click();
+    }
+  });
 }
 
 /* ── Navigate ──────────────────────────────── */
@@ -581,14 +639,26 @@ document.getElementById('searchInput').addEventListener('input', function(){
 function openSidebar()  { document.getElementById('sidebar').classList.add('open');  document.getElementById('overlay').classList.add('open'); }
 function closeSidebar() { document.getElementById('sidebar').classList.remove('open'); document.getElementById('overlay').classList.remove('open'); }
 
+/* Rejestruje globalne akcje UI bez inline handlerów, w tym skróty klawiaturowe. */
+function setupGlobalInteractions() {
+  const logo = document.getElementById('sidebarLogo');
+  const overlay = document.getElementById('overlay');
+  const menuBtn = document.getElementById('mobileMenuButton');
+
+  logo?.addEventListener('click', () => navigate(SITE_CONFIG.defaultPage));
+  menuBtn?.addEventListener('click', openSidebar);
+  overlay?.addEventListener('click', closeSidebar);
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') closeSidebar();
+  });
+}
+
 /* ── Progress bar ──────────────────────────── */
 window.addEventListener('scroll',()=>{
   const h=document.body.scrollHeight-window.innerHeight;
   document.getElementById('progFill').style.width=(h>0?Math.min(100,window.scrollY/h*100):0)+'%';
 });
-
-/* ── Keyboard ──────────────────────────────── */
-document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeSidebar(); });
 
 /* ── Anime.js Animations ───────────────────── */
 function animateContentIn() {
@@ -684,6 +754,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
   buildPageMap();
   pageMap.set('__home__',{id:'__home__',label:'Strona główna',section:''});
   renderSidebar();
+  setupSidebarInteractions();
+  setupGlobalInteractions();
   animateSidebar();
   const hash = window.location.hash.slice(1);
   navigate(hash && pageMap.has(hash) ? hash : SITE_CONFIG.defaultPage, true);
