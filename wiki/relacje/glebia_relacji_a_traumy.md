@@ -106,7 +106,9 @@ W psychoterapii ekspozycja na treści traumatyczne jest prowadzona w kontrolowan
 
 ---
 
-## Literatura
+## Bibliografia (APA 7)
+Wpisy bibliograficzne zapisuj konsekwentnie w APA 7 oraz dodawaj DOI/URL i oznaczenie typu źródła (`[Typ: ...]`) tam, gdzie to możliwe.
+
 
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Johnson, S. M. (2019). *Attachment Theory in Practice*. Guilford Press.

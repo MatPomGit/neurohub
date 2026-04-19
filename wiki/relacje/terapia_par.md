@@ -136,7 +136,9 @@ Sesje trwają zazwyczaj 50–90 minut; intensywne programy (np. „Couples Retre
 
 ---
 
-## Literatura
+## Bibliografia (APA 7)
+Wpisy bibliograficzne zapisuj konsekwentnie w APA 7 oraz dodawaj DOI/URL i oznaczenie typu źródła (`[Typ: ...]`) tam, gdzie to możliwe.
+
 
 - Christensen, A., Atkins, D. C., Berns, S., Wheeler, J., Baucom, D. H., & Simpson, L. E. (2004). Traditional versus integrative behavioral couple therapy. *Journal of Consulting and Clinical Psychology, 72*(2), 176–191.
 - Gottman, J. M., & Gottman, J. S. (2015). *Gottman Couple Therapy*. W: A. S. Gurman (red.), *Clinical Handbook of Couple Therapy* (wyd. 5). Guilford.

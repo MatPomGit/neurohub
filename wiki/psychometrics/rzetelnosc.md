@@ -35,6 +35,8 @@ Stopień, w jakim wyniki testu są powtarzalne, spójne i wolne od błędu pomia
 Rzetelność zwiększają: większa liczba pozycji testowych, mniejsza niejednoznaczność pytań, standaryzowane warunki badania i jednorodność próby. Obniżają ją: zgadywanie, zmęczenie, hałas, zmienne stany psychofizyczne badanego.[^nunnally1994]
 
 ## Bibliografia (APA 7)
+Wpisy bibliograficzne zapisuj konsekwentnie w APA 7 oraz dodawaj DOI/URL i oznaczenie typu źródła (`[Typ: ...]`) tam, gdzie to możliwe.
+
 
 [^ctt1994]: Nunnally, J. C., & Bernstein, I. H. (1994). *Psychometric theory* (3rd ed.). McGraw-Hill.
 [^cronbach1951]: Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. *Psychometrika, 16*(3), 297–334. https://doi.org/10.1007/BF02310555

@@ -149,7 +149,9 @@ Przebaczenie — odróżniane od pojednania — to **wewnętrzny proces uwalnian
 
 ---
 
-## Literatura
+## Bibliografia (APA 7)
+Wpisy bibliograficzne zapisuj konsekwentnie w APA 7 oraz dodawaj DOI/URL i oznaczenie typu źródła (`[Typ: ...]`) tam, gdzie to możliwe.
+
 
 - Buss, D. M., Larsen, R. J., Westen, D., & Semmelroth, J. (1992). Sex differences in jealousy. *Psychological Science, 3*(4), 251–255.
 - Cano, A., & O'Leary, K. D. (2000). Infidelity and separations precipitate major depressive episodes. *Journal of Consulting and Clinical Psychology, 68*(5), 774–781.

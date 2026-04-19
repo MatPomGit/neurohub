@@ -119,7 +119,9 @@ Finkel i współpracownicy (2012) w przeglądzie badań konkludują, że randkow
 
 ---
 
-## Literatura
+## Bibliografia (APA 7)
+Wpisy bibliograficzne zapisuj konsekwentnie w APA 7 oraz dodawaj DOI/URL i oznaczenie typu źródła (`[Typ: ...]`) tam, gdzie to możliwe.
+
 
 - Buss, D. M. (1989). Sex differences in human mate preferences. *Behavioral and Brain Sciences, 12*(1), 1–14.
 - Byrne, D. (1971). *The Attraction Paradigm*. Academic Press.

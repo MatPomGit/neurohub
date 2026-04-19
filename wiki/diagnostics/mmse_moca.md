@@ -25,6 +25,8 @@ MoCA jest bardziej wrażliwa na łagodne zaburzenia poznawcze (MCI) i lepiej wyk
 Bardzo krótki (3-minutowy) test składający się z zapamiętania 3 słów, rysowania zegara (wskazanie konkretnej godziny) i przypomnienia 3 słów.[^borson2003] Wynik 0–2 sugeruje deficyt. Test jest szczególnie użyteczny w sytuacjach ograniczonego czasu lub gdy pacjent nie mówi danym językiem.
 
 ## Bibliografia (APA 7)
+Wpisy bibliograficzne zapisuj konsekwentnie w APA 7 oraz dodawaj DOI/URL i oznaczenie typu źródła (`[Typ: ...]`) tam, gdzie to możliwe.
+
 
 [^folstein1975]: Folstein, M. F., Folstein, S. E., & McHugh, P. R. (1975). “Mini-mental state”. A practical method for grading the cognitive state of patients for the clinician. *Journal of Psychiatric Research, 12*(3), 189–198. https://doi.org/10.1016/0022-3956(75)90026-6
 [^tombaugh1992]: Tombaugh, T. N., & McIntyre, N. J. (1992). The Mini-Mental State Examination: A comprehensive review. *Journal of the American Geriatrics Society, 40*(9), 922–935. https://doi.org/10.1111/j.1532-5415.1992.tb01992.x

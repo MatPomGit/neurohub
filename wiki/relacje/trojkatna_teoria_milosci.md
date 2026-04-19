@@ -140,7 +140,9 @@ Triangularna teoria miłości ma praktyczne zastosowanie w terapii par:
 
 ---
 
-## Literatura
+## Bibliografia (APA 7)
+Wpisy bibliograficzne zapisuj konsekwentnie w APA 7 oraz dodawaj DOI/URL i oznaczenie typu źródła (`[Typ: ...]`) tam, gdzie to możliwe.
+
 
 - Acker, M., & Davis, M. H. (1992). Intimacy, passion and commitment in adult romantic relationships. *Journal of Social and Personal Relationships, 9*(1), 21–50.
 - Fisher, H. E., Aron, A., & Brown, L. L. (2005). Romantic love: An fMRI study of a neural mechanism for mate choice. *Journal of Comparative Neurology, 493*(1), 58–62.

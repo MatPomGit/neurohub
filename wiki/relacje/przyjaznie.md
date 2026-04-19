@@ -84,7 +84,9 @@ Silna sieć przyjaciół:
 - Wydłuża życie (meta-analiza Holt-Lunstad i in., 2010)
 - Działa jako bufor stresowy (*social support buffer*)
 
-## Literatura
+## Bibliografia (APA 7)
+Wpisy bibliograficzne zapisuj konsekwentnie w APA 7 oraz dodawaj DOI/URL i oznaczenie typu źródła (`[Typ: ...]`) tam, gdzie to możliwe.
+
 
 - Aristotle. *Nicomachean Ethics*, Books VIII–IX. (tłum. pol.: *Etyka Nikomachejska*, PWN).
 - Knapp, M. L. (1978). *Social Intercourse: From Greeting to Goodbye*. Allyn & Bacon.

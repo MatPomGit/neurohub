@@ -136,7 +136,9 @@ W Polsce przemoc domowa jest regulowana przez:
 
 ---
 
-## Literatura
+## Bibliografia (APA 7)
+Wpisy bibliograficzne zapisuj konsekwentnie w APA 7 oraz dodawaj DOI/URL i oznaczenie typu źródła (`[Typ: ...]`) tam, gdzie to możliwe.
+
 
 - Dutton, D., & Painter, S. L. (1981). Traumatic bonding: The development of emotional attachments in battered women. *Victimology, 6*(1–4), 139–155.
 - Freyd, J. J. (1994). Betrayal trauma: Traumatic amnesia as an adaptive response to childhood abuse. *Ethics & Behavior, 4*(4), 307–329.

@@ -85,7 +85,9 @@ Cacioppo i in. (2011) wykazali, że **CBT ukierunkowana na samotność** jest sk
 - Inicjatywy rządowe (np. UK: Minister ds. Samotności od 2018)
 - Programy sąsiedzkie i międzypokoleniowe
 
-## Literatura
+## Bibliografia (APA 7)
+Wpisy bibliograficzne zapisuj konsekwentnie w APA 7 oraz dodawaj DOI/URL i oznaczenie typu źródła (`[Typ: ...]`) tam, gdzie to możliwe.
+
 
 - Weiss, R. S. (1973). *Loneliness: The Experience of Emotional and Social Isolation*. MIT Press.
 - Cacioppo, J. T., & Patrick, W. (2008). *Loneliness: Human Nature and the Need for Social Connection*. Norton.

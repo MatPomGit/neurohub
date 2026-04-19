@@ -138,7 +138,9 @@ Rodzina to system dynamiczny, który rządzi się własnymi prawami — nie jest
 
 ---
 
-## Literatura
+## Bibliografia (APA 7)
+Wpisy bibliograficzne zapisuj konsekwentnie w APA 7 oraz dodawaj DOI/URL i oznaczenie typu źródła (`[Typ: ...]`) tam, gdzie to możliwe.
+
 
 - Bowen, M. (1978). *Family Therapy in Clinical Practice*. Jason Aronson.
 - Carter, B., & McGoldrick, M. (1989). *The Changing Family Life Cycle* (2nd ed.). Allyn & Bacon.
