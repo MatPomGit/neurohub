@@ -280,6 +280,7 @@ window.SITE_CONFIG = {
         { id: 'psychometrics/irt',          label: 'IRT i Rasch',           file: 'wiki/psychometrics/irt.md'          },
         { id: 'psychometrics/cfa_efa',      label: 'Analiza czynnikowa',    file: 'wiki/psychometrics/cfa_efa.md'      },
         { id: 'psychometrics/invariancja',  label: 'Inwariancja pomiarowa', file: 'wiki/psychometrics/invariancja.md'  },
+        { id: 'psychometrics/test_matryc_ravena', label: 'Test Matryc Ravena', file: 'wiki/psychometrics/test_matryc_ravena.md' },
         { id: 'psychometrics/mmpi',         label: 'MMPI',                  file: 'wiki/psychometrics/mmpi.md'         },
         { id: 'psychometrics/bdi_2',        label: 'BDI-II (Inwentarz Depresji Becka)', file: 'wiki/psychometrics/bdi_2.md' },
         { id: 'psychometrics/ados',         label: 'ADOS-2',                file: 'wiki/psychometrics/ados.md'         },
@@ -368,6 +369,7 @@ window.SITE_CONFIG = {
         { id: 'diagnostics/wisc_v',            label: 'WISC-V — opis testu',        file: 'wiki/diagnostics/wisc_v.md'            },
         { id: 'diagnostics/neuropsych_battery',label: 'Baterie neuropsychologiczne',file: 'wiki/diagnostics/neuropsych_battery.md'},
         { id: 'diagnostics/rdoc',              label: 'Model RDoC',                  file: 'wiki/diagnostics/rdoc.md'              },
+        { id: 'diagnostics/scid_v',            label: 'SCID-5 / SCID-V',             file: 'wiki/diagnostics/scid_v.md'            },
       ]
     },
     {
@@ -386,6 +388,7 @@ window.SITE_CONFIG = {
         { id: 'cognitive/wyobraznia',             label: 'Wyobraźnia i reprezentacje',      file: 'wiki/cognitive/wyobraznia.md'             },
         { id: 'cognitive/swiadomosc',             label: 'Świadomość i metapoznanie',       file: 'wiki/cognitive/swiadomosc.md'             },
         { id: 'cognitive/podejmowanie_decyzji',   label: 'Podejmowanie decyzji',            file: 'wiki/cognitive/podejmowanie_decyzji.md'   },
+        { id: 'cognitive/exploration_exploitation_dilemma', label: 'Dylemat eksploracja–eksploatacja', file: 'wiki/cognitive/exploration_exploitation_dilemma.md' },
         { id: 'cognitive/teoria_perspektywy',     label: 'Teoria perspektywy',              file: 'wiki/cognitive/teoria_perspektywy.md'     },
         { id: 'cognitive/efekt_ramowania',        label: 'Efekt ramowania',                 file: 'wiki/cognitive/efekt_ramowania.md'        },
         { id: 'cognitive/nasa_tlx',               label: 'NASA Task Load Index (TLX)',      file: 'wiki/cognitive/nasa_tlx.md'               },
@@ -895,6 +898,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/cognitive/wyobraznia.md',          label: 'Wyobraźnia i reprezentacje', status: 'live' },
       { file: 'wiki/cognitive/swiadomosc.md',          label: 'Świadomość i metapoznanie', status: 'live' },
       { file: 'wiki/cognitive/podejmowanie_decyzji.md',label: 'Podejmowanie decyzji', status: 'live' },
+      { file: 'wiki/cognitive/exploration_exploitation_dilemma.md', label: 'Dylemat eksploracja–eksploatacja', status: 'live' },
       { file: 'wiki/cognitive/teoria_perspektywy.md', label: 'Teoria perspektywy',    status: 'live' },
       { file: 'wiki/cognitive/efekt_ramowania.md',    label: 'Efekt ramowania',       status: 'live' },
       { file: 'wiki/cognitive/nasa_tlx.md',           label: 'NASA Task Load Index (TLX)', status: 'live' },
@@ -949,6 +953,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/diagnostics/wisc_v.md',           label: 'WISC-V — opis testu',         status: 'live' },
       { file: 'wiki/diagnostics/neuropsych_battery.md',label: 'Baterie neuropsychologiczne', status: 'live' },
       { file: 'wiki/diagnostics/rdoc.md',              label: 'Model RDoC',                  status: 'live' },
+      { file: 'wiki/diagnostics/scid_v.md',            label: 'SCID-5 / SCID-V',             status: 'live' },
     ],
     psychometrics: [
       { file: 'wiki/psychometrics/psychometria_wprowadzenie.md', label: 'Psychometria — wprowadzenie', status: 'live' },
@@ -959,6 +964,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/psychometrics/irt.md',          label: 'IRT i model Rascha',      status: 'live' },
       { file: 'wiki/psychometrics/cfa_efa.md',      label: 'Analiza czynnikowa',      status: 'live' },
       { file: 'wiki/psychometrics/invariancja.md',  label: 'Inwariancja pomiarowa',          status: 'live' },
+      { file: 'wiki/psychometrics/test_matryc_ravena.md', label: 'Test Matryc Ravena',       status: 'live' },
       { file: 'wiki/psychometrics/mmpi.md',         label: 'MMPI',                           status: 'live' },
       { file: 'wiki/psychometrics/bdi_2.md',        label: 'BDI-II (Inwentarz Depresji Becka)',status: 'live' },
       { file: 'wiki/psychometrics/ados.md',         label: 'ADOS-2',                         status: 'live' },
@@ -1565,6 +1571,7 @@ window.SITE_CONFIG = {
             { label: 'Skale Wechslera (WAIS/WISC)', id: 'diagnostics/wais', status: 'live' },
             { label: 'WISC-V — opis testu', id: 'diagnostics/wisc_v', status: 'live' },
             { label: 'Baterie neuropsychologiczne', id: 'diagnostics/neuropsych_battery', status: 'live', desc: 'LNNB, HRNB, D-KEFS.' },
+            { label: 'SCID-5 / SCID-V', id: 'diagnostics/scid_v', status: 'live' },
           ]
         },
         {
@@ -1696,6 +1703,7 @@ window.SITE_CONFIG = {
             { label: 'Funkcje wykonawcze', id: 'cognitive/funkcje_wykonawcze', status: 'live' },
             { label: 'Myślenie i rozumowanie', id: 'cognitive/myslenie', status: 'live' },
             { label: 'Podejmowanie decyzji', id: 'cognitive/podejmowanie_decyzji', status: 'live' },
+            { label: 'Dylemat eksploracja–eksploatacja', id: 'cognitive/exploration_exploitation_dilemma', status: 'live' },
             { label: 'Teoria perspektywy', id: 'cognitive/teoria_perspektywy', status: 'live' },
             { label: 'Efekt ramowania', id: 'cognitive/efekt_ramowania', status: 'live' },
             { label: 'NASA Task Load Index (TLX)', id: 'cognitive/nasa_tlx', status: 'live' },
@@ -2006,6 +2014,7 @@ window.SITE_CONFIG = {
             { label: 'IRT i model Rascha', id: 'psychometrics/irt', status: 'live' },
             { label: 'Analiza czynnikowa', id: 'psychometrics/cfa_efa', status: 'live' },
             { label: 'Inwariancja pomiarowa', id: 'psychometrics/invariancja', status: 'live' },
+            { label: 'Test Matryc Ravena', id: 'psychometrics/test_matryc_ravena', status: 'live' },
           ]
         },
         {
