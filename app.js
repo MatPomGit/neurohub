@@ -408,7 +408,12 @@ function renderSidebar() {
   });
   nav.innerHTML = html;
 }
-function q(s){ return s.replace(/&/g,'&amp;').replace(/"/g,'&quot;') }
+/* Bezpiecznie escapuje tekst do atrybutów HTML; akceptuje także wartości niebędące stringiem. */
+function q(value){
+  return String(value ?? '')
+    .replace(/&/g,'&amp;')
+    .replace(/"/g,'&quot;');
+}
 
 function toggleGroup(group) {
   /* Przełącza jedną grupę i synchronizuje stan aria-expanded wszystkich nagłówków. */
@@ -510,18 +515,27 @@ async function loadMd(id, item) {
   const area = document.getElementById('content');
   area.innerHTML = '<div class="loading"><div class="spinner"></div>Ładowanie…</div>';
   setBreadcrumb(item);
-  if (mdCache.has(item.file)) { renderMd(mdCache.get(item.file), id, item); prefetch(id); return; }
+  if (mdCache.has(item.file)) {
+    try {
+      renderMd(mdCache.get(item.file), id, item);
+      prefetch(id);
+    } catch (e) {
+      console.error('[PsyHub] Błąd renderowania artykułu z cache:', item.file, e);
+      area.innerHTML = '<div class="error-box"><h2>Błąd renderowania treści</h2><p>Artykuł istnieje, ale wystąpił błąd podczas wyświetlania. Sprawdź konsolę deweloperską.</p></div>';
+    }
+    return;
+  }
+
+  let markdownText = null;
   try {
     const r = await fetch(item.file);
     if (!r.ok) throw new Error('HTTP '+r.status);
-    const t = await r.text();
-    mdCache.set(item.file, t);
-    const parsed = parseArticleFrontmatter(t);
+    markdownText = await r.text();
+    mdCache.set(item.file, markdownText);
+    const parsed = parseArticleFrontmatter(markdownText);
     if (isBodyEmpty(parsed.body)) { emptyArticles.add(id); updateEmptyIndicators(); }
-    renderMd(t, id, item);
-    prefetch(id);
-  } catch(e) {
-    /* file missing — treat as empty stub rather than hard error */
+  } catch (e) {
+    /* Brak pliku/HTTP błąd — traktujemy jako artykuł w przygotowaniu. */
     emptyArticles.add(id);
     updateEmptyIndicators();
     const title = item.label;
@@ -546,6 +560,16 @@ async function loadMd(id, item) {
     </div>`;
     window.scrollTo(0,0);
     animateContentIn();
+    return;
+  }
+
+  try {
+    renderMd(markdownText, id, item);
+    prefetch(id);
+  } catch (e) {
+    /* Awaria renderowania nie oznacza braku pliku — pokazujemy precyzyjny komunikat. */
+    console.error('[PsyHub] Błąd renderowania artykułu:', item.file, e);
+    area.innerHTML = '<div class="error-box"><h2>Błąd renderowania treści</h2><p>Artykuł został wczytany, ale nie udało się go wyrenderować. Sprawdź konsolę deweloperską.</p></div>';
   }
 }
 
