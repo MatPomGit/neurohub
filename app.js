@@ -350,6 +350,7 @@ async function loadMd(id, item) {
     const domainKey = id.split('/')[0];
     const planItems = (SITE_CONFIG.plans || {})[domainKey] || [];
     const plansHtml = planItems.length ? renderPlans(planItems, id) : '';
+    const measurementToolsHtml = renderMeasurementTools(domainKey, id);
     area.innerHTML = `<div class="rendered">
       <div class="page-hero">
         <span class="chapter-lbl">${item.section||''}</span>
@@ -357,6 +358,7 @@ async function loadMd(id, item) {
       </div>
       ${EMPTY_BANNER_HTML}
       ${plansHtml}
+      ${measurementToolsHtml}
       <div class="page-nav">${prevB}${nextB}</div>
     </div>`;
     window.scrollTo(0,0);
@@ -380,6 +382,7 @@ function renderMd(text, id, item) {
   const domainKey = id.split('/')[0];
   const planItems = (SITE_CONFIG.plans || {})[domainKey] || [];
   const plansHtml = planItems.length ? renderPlans(planItems, id) : '';
+  const measurementToolsHtml = renderMeasurementTools(domainKey, id);
 
   // empty content detection
   const isEmpty = isBodyEmpty(text);
@@ -394,6 +397,7 @@ function renderMd(text, id, item) {
     ${emptyBanner}
     <div class="md">${md2html(body)}</div>
     ${plansHtml}
+    ${measurementToolsHtml}
     <div class="page-nav">${prevB}${nextB}</div>
   </div>`;
   window.scrollTo(0,0);
@@ -534,6 +538,48 @@ function renderPlans(items, currentId) {
   return `<div class="plans-section">
     <h2>Artykuły w tym dziale</h2>
     <div class="plans-grid">${rows}</div>
+  </div>`;
+}
+
+/* Renderuje sekcję narzędzi pomiarowych dla aktualnej dziedziny wraz ze stanem pustym. */
+function renderMeasurementTools(domainKey, currentId) {
+  const tools = (SITE_CONFIG.measurementToolsByDomain || {})[domainKey];
+  if (!Array.isArray(tools) || tools.length === 0) {
+    return `<div class="plans-section measurement-tools-section">
+      <h2>Narzędzia pomiarowe</h2>
+      <div class="plans-empty-state">Spis narzędzi w przygotowaniu</div>
+    </div>`;
+  }
+
+  const rows = tools.map(tool => {
+    const relatedLinks = Array.isArray(tool.articleLinks)
+      ? tool.articleLinks.map(articleId => {
+          const article = pageMap.get(articleId);
+          const label = article?.label || articleId;
+          const isCurrent = articleId === currentId;
+          if (isCurrent) return `<span class="tool-link is-current">${q(label)}</span>`;
+          if (!article) return `<span class="tool-link is-missing">${q(label)}</span>`;
+          return `<button type="button" class="tool-link" onclick="navigate('${articleId}')">${q(label)}</button>`;
+        }).join('')
+      : '<span class="tool-link is-missing">Brak</span>';
+
+    return `<article class="plan-item live measurement-tool-card">
+      <div class="plan-dot live"></div>
+      <div class="measurement-tool-body">
+        <h3 class="measurement-tool-name">${q(tool.name || 'Narzędzie bez nazwy')}</h3>
+        <div class="measurement-tool-meta"><strong>Typ:</strong> ${q(tool.type || '—')}</div>
+        <div class="measurement-tool-meta"><strong>Mierzone konstrukty:</strong> ${q((tool.constructs || []).join(', ') || '—')}</div>
+        <div class="measurement-tool-meta"><strong>Czas badania:</strong> ${q(tool.administrationTime || '—')}</div>
+        <div class="measurement-tool-meta"><strong>Grupa docelowa:</strong> ${q(tool.population || '—')}</div>
+        <div class="measurement-tool-meta"><strong>Status licencji:</strong> ${q(tool.license || '—')}</div>
+        <div class="measurement-tool-links"><strong>Powiązane artykuły:</strong> ${relatedLinks}</div>
+      </div>
+    </article>`;
+  }).join('');
+
+  return `<div class="plans-section measurement-tools-section">
+    <h2>Narzędzia pomiarowe</h2>
+    <div class="plans-grid measurement-tools-grid">${rows}</div>
   </div>`;
 }
 
