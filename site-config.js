@@ -13,6 +13,10 @@ window.SITE_CONFIG = {
 
   defaultPage: '__home__',
 
+  // Sekcje pomijane przy budowie katalogu dziedzin na stronie głównej.
+  catalogExcludedSections: ['Encyklopedie', 'Referencje', 'Wprowadzenie', 'Dla studentów'],
+
+
 
   // ─────────────────────────────────────────────────────────────
   //  NARZĘDZIA POMIAROWE WG DZIEDZIN
@@ -204,6 +208,7 @@ window.SITE_CONFIG = {
   nav: [
     {
       section: 'Wprowadzenie',
+      domainKey: 'intro',
       items: [
         { id: 'intro/definicja', label: 'Definicja i zakres',  file: 'wiki/intro/definicja.md' },
         { id: 'intro/historia',  label: 'Historia dyscypliny', file: 'wiki/intro/historia.md'  },
@@ -213,6 +218,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Dla studentów',
+      domainKey: 'students',
       items: [
         { id: 'students/wybor_specjalnosci', label: 'Wybór specjalności', file: 'wiki/students/wybor_specjalnosci.md' },
         { id: 'students/sciezki_kariery', label: 'Ścieżki kariery po psychologii', file: 'wiki/students/sciezki_kariery.md' },
@@ -227,6 +233,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Filozofia',
+      domainKey: 'philosophy',
       items: [
         { id: 'philosophy/wprowadzenie',                 label: 'Filozofia — wprowadzenie',                   file: 'wiki/philosophy/wprowadzenie.md'        },
         { id: 'philosophy/ontologia',                    label: 'Ontologia i metafizyka',                     file: 'wiki/philosophy/ontologia.md'           },
@@ -260,6 +267,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Biologiczne podstawy zachowania',
+      domainKey: 'biology',
       items: [
         { id: 'biology/biologiczne_podstawy', label: 'Biologiczne podstawy — wprow.', file: 'wiki/biology/biologiczne_podstawy.md' },
         { id: 'biology/genetyka_beh',         label: 'Genetyka behawioralna',          file: 'wiki/biology/genetyka_beh.md'          },
@@ -275,6 +283,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Psychologia Rozwojowa',
+      domainKey: 'rozwojowa',
       items: [
         { id: 'rozwojowa/teorie_rozwoju',     label: 'Główne teorie rozwoju',                   file: 'wiki/rozwojowa/teorie_rozwoju.md'     },
         { id: 'rozwojowa/metody_podluzne',    label: 'Metody badań podłużnych',                  file: 'wiki/rozwojowa/metody_podluzne.md'    },
@@ -292,6 +301,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Psychologia Społeczna',
+      domainKey: 'spoleczna',
       items: [
         { id: 'spoleczna/percepcja_spoleczna', label: 'Percepcja społeczna i atrybucje', file: 'wiki/spoleczna/percepcja_spoleczna.md' },
         { id: 'spoleczna/eksperyment_wiezienny', label: 'Stanfordzki Eksperyment Więzienny', file: 'wiki/spoleczna/eksperyment_wiezienny.md' },
@@ -311,6 +321,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Psychologia Kulturowa',
+      domainKey: 'kulturowa',
       items: [
         { id: 'kulturowa/wprowadzenie', label: 'Czym jest psychologia kulturowa?', file: 'wiki/kulturowa/wprowadzenie.md' },
         { id: 'kulturowa/metody', label: 'Metody: emic vs. etic', file: 'wiki/kulturowa/metody.md' },
@@ -328,6 +339,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Psychologia Uzależnień',
+      domainKey: 'uzaleznienia',
       items: [
         { id: 'uzaleznienia/kryteria_diagnostyczne', label: 'Kryteria diagnostyczne', file: 'wiki/uzaleznienia/kryteria_diagnostyczne.md' },
         { id: 'uzaleznienia/dialog_motywujacy', label: 'Dialog motywujący', file: 'wiki/uzaleznienia/dialog_motywujacy.md' },
@@ -345,6 +357,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Relacje i związki',
+      domainKey: 'relacje',
       items: [
         { id: 'relacje/przywiezanie_doroslych', label: 'Style przywiązania u dorosłych', file: 'wiki/relacje/przywiezanie_doroslych.md' },
         { id: 'relacje/trojkatna_teoria_milosci', label: 'Triangularna teoria miłości', file: 'wiki/relacje/trojkatna_teoria_milosci.md' },
@@ -363,6 +376,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Etyka zawodowa',
+      domainKey: 'etyka',
       items: [
         { id: 'etyka/kodeksy_etyczne', label: 'Kodeksy etyczne — przegląd', file: 'wiki/etyka/kodeksy_etyczne.md' },
         { id: 'etyka/zasady_apa_ptp', label: 'Zasady APA i PTP', file: 'wiki/etyka/zasady_apa_ptp.md' },
@@ -380,6 +394,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Diagnoza psychologiczna (proces)',
+      domainKey: 'diagnoza',
       items: [
         { id: 'diagnoza/etapy_diagnozy', label: 'Etapy i cele diagnozy', file: 'wiki/diagnoza/etapy_diagnozy.md' },
         { id: 'diagnoza/wywiad_psychologiczny', label: 'Wywiad psychologiczny', file: 'wiki/diagnoza/wywiad_psychologiczny.md' },
@@ -393,6 +408,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Emocje i motywacje',
+      domainKey: 'emotions',
       items: [
         { id: 'emotions/emocje_wprowadzenie', label: 'Emocje — wprowadzenie',   file: 'wiki/emotions/emocje_wprowadzenie.md'  },
         { id: 'emotions/teorie',              label: 'Teorie emocji',            file: 'wiki/emotions/teorie.md'              },
@@ -410,6 +426,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Podstawy pomocy psychologicznej',
+      domainKey: 'podstawy_pomocy',
       items: [
         { id: 'podstawy_pomocy/wprowadzenie',                   label: 'Pomoc psychologiczna — wprowadzenie',  file: 'wiki/podstawy_pomocy/wprowadzenie.md'                   },
         { id: 'podstawy_pomocy/relacja_pomocowa',               label: 'Relacja pomocowa',                     file: 'wiki/podstawy_pomocy/relacja_pomocowa.md'               },
@@ -427,6 +444,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Temperament',
+      domainKey: 'temperament',
       items: [
         { id: 'temperament/temperament_wprowadzenie', label: 'Temperament — wprowadzenie', file: 'wiki/temperament/temperament_wprowadzenie.md' },
         { id: 'temperament/modele',   label: 'Modele temperamentu',  file: 'wiki/temperament/modele.md'   },
@@ -444,6 +462,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Różnice indywidualne',
+      domainKey: 'individual_diffs',
       items: [
         { id: 'individual_diffs/roznice_wprowadzenie', label: 'Różnice ind. — wprowadzenie', file: 'wiki/individual_diffs/roznice_wprowadzenie.md' },
         { id: 'individual_diffs/inteligencja',         label: 'Inteligencja',                file: 'wiki/individual_diffs/inteligencja.md'          },
@@ -457,6 +476,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Psychometria',
+      domainKey: 'psychometrics',
       items: [
         { id: 'psychometrics/psychometria_wprowadzenie', label: 'Psychometria — wprowadzenie', file: 'wiki/psychometrics/psychometria_wprowadzenie.md' },
         { id: 'psychometrics/rzetelnosc',   label: 'Rzetelność pomiaru',    file: 'wiki/psychometrics/rzetelnosc.md'   },
@@ -475,6 +495,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Neurobiologia',
+      domainKey: 'neuro',
       items: [
         { id: 'neuro/anatomia',                          label: 'Anatomia mózgu',                          file: 'wiki/neuro/anatomia.md'              },
         { id: 'neuro/neuron',                            label: 'Neuron i synapsa',                        file: 'wiki/neuro/neuron.md'                },
@@ -497,6 +518,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Zaburzenia kliniczne',
+      domainKey: 'disorders',
       items: [
         { id: 'disorders/afazje',    label: 'Afazje',                file: 'wiki/disorders/afazje.md'    },
         { id: 'disorders/amnezje',   label: 'Amnezje',               file: 'wiki/disorders/amnezje.md'   },
@@ -511,6 +533,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Przypadki kliniczne',
+      domainKey: 'cases',
       items: [
         { id: 'cases/hm',          label: 'H.M. — amnezja',  file: 'wiki/cases/hm.md'         },
         { id: 'cases/gage',        label: 'Phineas Gage',     file: 'wiki/cases/gage.md'       },
@@ -520,6 +543,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Psychopatologia',
+      domainKey: 'psychopathology',
       items: [
         { id: 'psychopathology/psychopatologia_wprowadzenie', label: 'Psychopatologia — wprow.',       file: 'wiki/psychopathology/psychopatologia_wprowadzenie.md' },
         { id: 'psychopathology/objawy_ogolne',                label: 'Objawy ogólne',                  file: 'wiki/psychopathology/objawy_ogolne.md'                },
@@ -544,6 +568,7 @@ window.SITE_CONFIG = {
 
     {
       section: 'Diagnoza psychologiczna',
+      domainKey: 'diagnostics',
       items: [
         { id: 'diagnostics/testy_przeglad',    label: 'Testy — przegląd',           file: 'wiki/diagnostics/testy_przeglad.md'    },
         { id: 'diagnostics/mmse_moca',         label: 'Testy przesiewowe',          file: 'wiki/diagnostics/mmse_moca.md'         },
@@ -560,6 +585,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Funkcje poznawcze',
+      domainKey: 'cognitive',
       items: [
         { id: 'cognitive/pamiec',                 label: 'Pamięć',                          file: 'wiki/cognitive/pamiec.md'                 },
         { id: 'cognitive/pamiec_dlugotrwala',     label: 'Pamięć długotrwała',              file: 'wiki/cognitive/pamiec_dlugotrwala.md'     },
@@ -593,6 +619,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Psychologia zdrowia',
+      domainKey: 'health_psychology',
       items: [
         { id: 'health_psychology/zdrowie_wprowadzenie',    label: 'Psychologia zdrowia — wprow.',    file: 'wiki/health_psychology/zdrowie_wprowadzenie.md'    },
         { id: 'health_psychology/model_biopsychospoleczny',label: 'Model biopsychospołeczny',        file: 'wiki/health_psychology/model_biopsychospoleczny.md'},
@@ -624,6 +651,7 @@ window.SITE_CONFIG = {
     
     {
       section: 'Psychosomatyka',
+      domainKey: 'psychosomatics',
       items: [
         { id: 'psychosomatics/wprowadzenie',               label: 'Psychosomatyka — wprowadzenie',    file: 'wiki/psychosomatics/wprowadzenie.md'               },
         { id: 'psychosomatics/historia',                   label: 'Historia psychosomatyki',           file: 'wiki/psychosomatics/historia.md'                  },
@@ -644,6 +672,7 @@ window.SITE_CONFIG = {
     
     {
       section: 'Porozumiewanie się bez przemocy (NVC)',
+      domainKey: 'nvc',
       items: [
         { id: 'nvc/wprowadzenie',              label: 'NVC — wprowadzenie',                    file: 'wiki/nvc/wprowadzenie.md'              },
         { id: 'nvc/cztery_komponenty',         label: 'Cztery komponenty NVC',                 file: 'wiki/nvc/cztery_komponenty.md'         },
@@ -661,6 +690,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Arteterapia',
+      domainKey: 'artetherapy',
       items: [
         { id: 'artetherapy/arteterapia_wprowadzenie', label: 'Arteterapia — wprowadzenie', file: 'wiki/artetherapy/arteterapia_wprowadzenie.md' },
         { id: 'artetherapy/art_therapy',   label: 'Arteterapia plastyczna',    file: 'wiki/artetherapy/art_therapy.md'   },
@@ -674,6 +704,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Animaloterapia',
+      domainKey: 'animaltherapy',
       items: [
         { id: 'animaltherapy/animaloterapia_wprowadzenie', label: 'Animaloterapia — wprowadzenie', file: 'wiki/animaltherapy/animaloterapia_wprowadzenie.md' },
         { id: 'animaltherapy/dogoterapia',     label: 'Dogoterapia',            file: 'wiki/animaltherapy/dogoterapia.md'     },
@@ -686,6 +717,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Odporność psychiczna',
+      domainKey: 'resilience_mobbing',
       items: [
         { id: 'resilience_mobbing/odpornosc_wprowadzenie',   label: 'Odporność psychiczna — wprow.',        file: 'wiki/resilience_mobbing/odpornosc_wprowadzenie.md'   },
         { id: 'resilience_mobbing/modele_odpornosci',        label: 'Modele i teorie odporności',           file: 'wiki/resilience_mobbing/modele_odpornosci.md'        },
@@ -703,6 +735,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Psychologia szkolna i edukacyjna',
+      domainKey: 'school_psychology',
       items: [
         { id: 'school_psychology/wprowadzenie',                  label: 'Psych. szkolna — wprowadzenie',            file: 'wiki/school_psychology/wprowadzenie.md'                  },
         { id: 'school_psychology/teorie_uczenia_sie',            label: 'Teorie uczenia się',                       file: 'wiki/school_psychology/teorie_uczenia_sie.md'            },
@@ -721,6 +754,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Psychologia osób z niepełnosprawnością',
+      domainKey: 'disability_psychology',
       items: [
         { id: 'disability_psychology/wprowadzenie',                  label: 'Psychologia niepełnosprawności — wprow.', file: 'wiki/disability_psychology/wprowadzenie.md'                  },
         { id: 'disability_psychology/modele_niepelnosprawnosci',     label: 'Modele niepełnosprawności',              file: 'wiki/disability_psychology/modele_niepelnosprawnosci.md'     },
@@ -738,6 +772,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Psychologia osób w podeszłym wieku',
+      domainKey: 'geropsychology',
       items: [
         { id: 'geropsychology/wprowadzenie',               label: 'Psychologia starości — wprow.',       file: 'wiki/geropsychology/wprowadzenie.md'               },
         { id: 'geropsychology/starzenie_poznawcze',        label: 'Starzenie się poznawcze',             file: 'wiki/geropsychology/starzenie_poznawcze.md'        },
@@ -755,6 +790,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Neuroróżnorodność',
+      domainKey: 'neurodiversity',
       items: [
         { id: 'neurodiversity/wprowadzenie',               label: 'Neuroróżnorodność — wprowadzenie',    file: 'wiki/neurodiversity/wprowadzenie.md'               },
         { id: 'neurodiversity/adhd',                       label: 'ADHD jako wariant neuroróżnorodności', file: 'wiki/neurodiversity/adhd.md'                       },
@@ -773,6 +809,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Psychoterapia',
+      domainKey: 'psychotherapy',
       items: [
         { id: 'psychotherapy/psychoterapia_wprowadzenie', label: 'Psychoterapia — wprowadzenie', file: 'wiki/psychotherapy/psychoterapia_wprowadzenie.md' },
         { id: 'psychotherapy/cbt',        label: 'Terapia poznawczo-beh. (CBT)', file: 'wiki/psychotherapy/cbt.md'        },
@@ -797,6 +834,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Farmakologia',
+      domainKey: 'pharmacology',
       items: [
         { id: 'pharmacology/neurofarmakologia',           label: 'Neurofarmakologia',                file: 'wiki/pharmacology/neurofarmakologia.md'           },
         { id: 'pharmacology/neurofarmakologia_behawioralna', label: 'Neurofarmakologia behawioralna', file: 'wiki/pharmacology/neurofarmakologia_behawioralna.md' },
@@ -812,6 +850,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Psychologia pozytywna',
+      domainKey: 'positive_psychology',
       items: [
         { id: 'positive_psychology/wprowadzenie',          label: 'Psychologia pozytywna — wprow.',   file: 'wiki/positive_psychology/wprowadzenie.md'          },
         { id: 'positive_psychology/model_perma',           label: 'Model PERMA',                      file: 'wiki/positive_psychology/model_perma.md'           },
@@ -829,6 +868,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Suicydologia',
+      domainKey: 'suicidology',
       items: [
         { id: 'suicidology/suicydologia_wprowadzenie', label: 'Suicydologia — wprowadzenie', file: 'wiki/suicidology/suicydologia_wprowadzenie.md' },
         { id: 'suicidology/epidemiologia',             label: 'Epidemiologia',                file: 'wiki/suicidology/epidemiologia.md'             },
@@ -843,6 +883,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Seksuologia',
+      domainKey: 'sexology',
       items: [
         { id: 'sexology/seksuologia_wprowadzenie', label: 'Seksuologia — wprowadzenie', file: 'wiki/sexology/seksuologia_wprowadzenie.md' },
         { id: 'sexology/psychologia_seksu',         label: 'Psychologia seksu',           file: 'wiki/sexology/psychologia_seksu.md'         },
@@ -862,6 +903,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Psychologia sądowa i opiniowanie',
+      domainKey: 'forensic_psychology',
       items: [
         { id: 'forensic_psychology/wprowadzenie',            label: 'Biegły psycholog — wprowadzenie',       file: 'wiki/forensic_psychology/wprowadzenie.md'            },
         { id: 'forensic_psychology/rola_bieglego',           label: 'Rola i status biegłego',                file: 'wiki/forensic_psychology/rola_bieglego.md'           },
@@ -879,6 +921,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Ekrany, książki, a natura',
+      domainKey: 'media_nature',
       items: [
         { id: 'media_nature/wprowadzenie',             label: 'Ekrany, książki i natura — wprow.',   file: 'wiki/media_nature/wprowadzenie.md'              },
         { id: 'media_nature/ekrany_funkcje_poznawcze', label: 'Ekrany a funkcje poznawcze',          file: 'wiki/media_nature/ekrany_funkcje_poznawcze.md'  },
@@ -896,6 +939,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Psychologia gier wideo',
+      domainKey: 'game_psychology',
       items: [
         { id: 'game_psychology/wprowadzenie',         label: 'Psychologia gier wideo — wprow.', file: 'wiki/game_psychology/wprowadzenie.md'          },
         { id: 'game_psychology/uzaleznienie_od_gier', label: 'Uzależnienie od gier (IGD)',      file: 'wiki/game_psychology/uzaleznienie_od_gier.md'  },
@@ -913,6 +957,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'E-terapia',
+      domainKey: 'e_therapy',
       items: [
         { id: 'e_therapy/wprowadzenie',                  label: 'E-terapia — wprowadzenie',              file: 'wiki/e_therapy/wprowadzenie.md'                  },
         { id: 'e_therapy/historia_e_terapii',            label: 'Historia e-terapii',                    file: 'wiki/e_therapy/historia_e_terapii.md'            },
@@ -930,6 +975,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Psychologia Sztucznej Inteligencji',
+      domainKey: 'ai_psychology',
       items: [
         { id: 'ai_psychology/wprowadzenie',         label: 'Psychologia AI — wprowadzenie',             file: 'wiki/ai_psychology/wprowadzenie.md'           },
         { id: 'ai_psychology/historia_ai',          label: 'Historia AI i psychologia',                 file: 'wiki/ai_psychology/historia_ai.md'            },
@@ -947,6 +993,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Psychologia technologii i dobrostan cyfrowy',
+      domainKey: 'technology_psychology',
       items: [
         { id: 'technology_psychology/technostres', label: 'Technostres — artykuł naukowy', file: 'wiki/technology_psychology/technostres.md' },
         { id: 'wiki-index/psychologia_technologii', label: 'WIKI — Psychologia technologii', wiki: 'psychologia_technologii' },
@@ -954,6 +1001,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Robotyka afektywna i kognitywistyka',
+      domainKey: 'affective_robotics',
       items: [
         { id: 'affective_robotics/wprowadzenie',                   label: 'Robotyka afektywna — wprowadzenie',         file: 'wiki/affective_robotics/wprowadzenie.md'                    },
         { id: 'affective_robotics/historia_robotyki_afektywnej',   label: 'Historia robotyki afektywnej',              file: 'wiki/affective_robotics/historia_robotyki_afektywnej.md'    },
@@ -971,6 +1019,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Seminarium dyplomowe',
+      domainKey: 'ppd',
       items: [
         { id: 'ppd/wprowadzenie',             label: 'Seminarium dyplomowe — wprowadzenie',    file: 'wiki/ppd/wprowadzenie.md'             },
         { id: 'ppd/struktura_pracy',          label: 'Struktura pracy magisterskiej',          file: 'wiki/ppd/struktura_pracy.md'          },
@@ -988,6 +1037,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Eksperyment psychologiczny',
+      domainKey: 'eksperyment_psychologiczny',
       items: [
         { id: 'eksperyment_psychologiczny/wprowadzenie',              label: 'Wprowadzenie do metod eksperymentalnych',   file: 'wiki/eksperyment_psychologiczny/wprowadzenie.md'              },
         { id: 'eksperyment_psychologiczny/problemy_i_hipotezy',       label: 'Problem badawczy i hipotezy',                file: 'wiki/eksperyment_psychologiczny/problemy_i_hipotezy.md'       },
@@ -1006,6 +1056,7 @@ window.SITE_CONFIG = {
     
     {
       section: 'Encyklopedie',
+      domainKey: 'wiki-index',
       items: [
         { id: 'wiki-index/neuropsychologia',     label: 'WIKI — Neuropsychologia',                   wiki: 'neuropsychologia'     },
         { id: 'wiki-index/kliniczna',            label: 'WIKI — Psych. kliniczna',                   wiki: 'kliniczna'            },
@@ -1044,6 +1095,7 @@ window.SITE_CONFIG = {
     },
     {
       section: 'Referencje',
+      domainKey: 'reference',
       items: [
         { id: 'reference/zakres',             label: 'Zakres wiedzy',                      file: 'wiki/reference/zakres.md'             },
         { id: 'reference/literatura',         label: 'Literatura',                         file: 'wiki/reference/literatura.md'         },
