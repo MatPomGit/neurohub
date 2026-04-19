@@ -722,6 +722,7 @@ em{color:var(--goldl)}
   border-radius:999px;padding:.12rem .5rem;
 }
 .tool-missing{color:var(--rose);font-style:italic}
+.measurement-tools-updated{margin:.1rem 0 .9rem;font-size:.8rem;color:var(--t2)}
 .measurement-tools-footer{
   margin-top:1rem;
   padding:.7rem .85rem;

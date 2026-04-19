@@ -269,6 +269,18 @@ window.SITE_CONFIG = {
     ],
   },
 
+
+  // Data ostatniej aktualizacji katalogu narzędzi per domena (ISO YYYY-MM-DD).
+  // Pole updatedAt jest używane przez UI do komunikatu "Ostatnia aktualizacja".
+  measurementToolsDomainUpdates: {
+    diagnostics: { updatedAt: '2026-04-19' },
+    psychometrics: { updatedAt: '2026-04-19' },
+    disorders: { updatedAt: '2026-04-19' },
+    neuro: { updatedAt: '2026-04-19' },
+    spoleczna: { updatedAt: '2026-04-19' },
+  },
+
+
   // Domeny obecne w serwisie, dla ktorych wpisy narzedzi pomiarowych sa jeszcze nieuzupelnione.
   measurementToolsTodoDomains: [
     'affective_robotics', 'ai_psychology', 'animaltherapy', 'artetherapy', 'biology', 'cases',
