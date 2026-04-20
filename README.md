@@ -59,6 +59,26 @@ Artykuł uznaje się za gotowy do publikacji, gdy spełnia wszystkie kryteria:
 5. Omawia perspektywę nieoczywistą wraz z argumentacją.
 6. Został sprawdzony językowo (poprawność ortograficzna, interpunkcyjna i terminologiczna).
 
+## Metryki sukcesu (wyszukiwarka + kopiowanie linku)
+
+W aplikacji zbierane są lokalnie (w `localStorage`) podstawowe metryki użyteczności:
+
+1. **Czas znalezienia treści** (`firstClickTimesMs`)
+   - Definicja: czas od rozpoczęcia zapytania do pierwszego kliknięcia wyniku.
+   - Cel: spadek mediany tego czasu po wdrożeniu indeksu pełnotekstowego i TOC.
+
+2. **CTR wyników wyszukiwania**
+   - Definicja: `searchResultClicks / searchResultImpressions`.
+   - Cel: wzrost CTR dzięki lepszym dopasowaniom i snippetom z treści artykułów.
+
+3. **Użycie funkcji „Kopiuj link”** (`copyLinkUses`)
+   - Definicja: liczba kliknięć przycisku kopiowania linku artykułu.
+   - Cel: wzrost użycia przy nawigacji i współdzieleniu konkretnych treści.
+
+4. **Liczba rozpoczętych sesji wyszukiwania** (`searchStarts`)
+   - Definicja: liczba unikalnych zapytań rozpoczętych w sesji użytkownika.
+   - Cel: pomocniczy wskaźnik kontekstu do interpretacji CTR i czasu.
+
 ## Walidacja konfiguracji narzędzi pomiarowych
 
 - Szybka walidacja lokalna:

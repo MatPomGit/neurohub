@@ -692,6 +692,9 @@ function renderMd(text, id, item) {
     <div class="page-hero">
       <span class="chapter-lbl">${item.section||''}</span>
       <h1>${title}</h1>
+      <div class="article-hero-actions">
+        <button type="button" class="btn-copy-link" id="copyArticleLinkButton" data-page-id="${q(id)}">Kopiuj link</button>
+      </div>
       ${articleReviewMetaHtml}
     </div>
     ${emptyBanner}
@@ -708,6 +711,7 @@ function renderMd(text, id, item) {
   if (isEmpty) updateEmptyIndicators();
   addKeywordLinksToRenderedArticle(area.querySelector('.md'), id);
   setupArticleToc(area, id);
+  setupCopyLinkButton(area, id);
   animateContentIn();
 }
 
@@ -760,6 +764,32 @@ function scrollToArticleSection(sectionId) {
   if (!target) return;
   target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   setActiveTocItem(sectionId);
+}
+
+/* Konfiguruje przycisk kopiowania bezpośredniego linku do aktualnie otwartego artykułu. */
+function setupCopyLinkButton(area, pageId) {
+  const copyBtn = area.querySelector('#copyArticleLinkButton');
+  if (!copyBtn) return;
+  copyBtn.addEventListener('click', async () => {
+    const { pageId: hashPageId, sectionId } = parseRouteHash(window.location.hash);
+    const safeSectionId = hashPageId === pageId ? sectionId : '';
+    const articleUrl = new URL(window.location.href);
+    articleUrl.hash = buildRouteHash(pageId, safeSectionId);
+    try {
+      await navigator.clipboard.writeText(articleUrl.toString());
+      trackCopyLinkUsage();
+      const originalLabel = copyBtn.textContent;
+      copyBtn.textContent = 'Skopiowano';
+      copyBtn.classList.add('is-copied');
+      setTimeout(() => {
+        copyBtn.textContent = originalLabel;
+        copyBtn.classList.remove('is-copied');
+      }, 1200);
+    } catch (_) {
+      /* Gdy Clipboard API zawiedzie, robimy fallback przez prompt dla kompatybilności. */
+      window.prompt('Skopiuj link ręcznie:', articleUrl.toString());
+    }
+  });
 }
 
 /* Buduje TOC z nagłówków H2/H3 i aktywuje podświetlanie sekcji podczas przewijania. */
@@ -1318,8 +1348,13 @@ function setBreadcrumb(item) {
 
 /* ── Search ────────────────────────────────── */
 const SEARCH_UI_STATE_KEY = 'psyhub-search-ui-state';
+const SEARCH_METRICS_KEY = 'psyhub-search-metrics-v1';
 let searchIndex = [];
 let keywordLinkIndex = new Map();
+let searchFullTextIndex = new Map();
+let searchFullTextLoadPromise = null;
+let searchSessionState = null;
+let lastMeasuredSearchQuery = '';
 const searchUiState = { query: '', filters: { tests: false, wiki: false, beginner: false } };
 
 /* Standaryzuje tokeny tekstowe, żeby ranking działał stabilnie dla polskich znaków i wielkości liter. */
@@ -1331,6 +1366,49 @@ function normalizeSearchText(value) {
     .replace(/[^\p{L}\p{N}\s]/gu, ' ')
     .replace(/\s+/g, ' ')
     .trim();
+}
+
+/* Konwertuje markdown na "surowy" tekst, aby indeks pełnotekstowy nie zawierał znaczników. */
+function markdownToPlainText(markdown) {
+  return (markdown || '')
+    .replace(/^---[\s\S]*?---/m, ' ')
+    .replace(/```[\s\S]*?```/g, ' ')
+    .replace(/`[^`]+`/g, ' ')
+    .replace(/!\[[^\]]*\]\([^)]+\)/g, ' ')
+    .replace(/\[[^\]]+\]\(([^)]+)\)/g, ' ')
+    .replace(/^\s{0,3}#{1,6}\s+/gm, ' ')
+    .replace(/^\s{0,3}>\s?/gm, ' ')
+    .replace(/^\s*[-*+]\s+/gm, ' ')
+    .replace(/^\s*\d+\.\s+/gm, ' ')
+    .replace(/\[\^([^\]\s]+)\]/g, ' ')
+    .replace(/\|/g, ' ')
+    .replace(/[*_~>#-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/* Zwraca krótki fragment treści z pierwszym wystąpieniem zapytania (snippet do listy wyników). */
+function getFullTextSnippet(entry, queryTokens) {
+  if (!entry?.plainText) return '';
+  const normalizedText = entry.normalizedText || '';
+  if (!normalizedText) return '';
+  let firstToken = '';
+  let firstIdx = -1;
+  queryTokens.forEach(token => {
+    if (!token) return;
+    const idx = normalizedText.indexOf(token);
+    if (idx === -1) return;
+    if (firstIdx === -1 || idx < firstIdx) {
+      firstIdx = idx;
+      firstToken = token;
+    }
+  });
+  if (firstIdx === -1) return '';
+  const snippetRadius = 90;
+  const start = Math.max(0, firstIdx - snippetRadius);
+  const end = Math.min(entry.plainText.length, firstIdx + firstToken.length + snippetRadius);
+  const raw = entry.plainText.slice(start, end).trim();
+  return `${start > 0 ? '…' : ''}${q(raw)}${end < entry.plainText.length ? '…' : ''}`;
 }
 
 /* Buduje indeks wyszukiwania oparty o metadane sekcji i elementu nawigacji. */
@@ -1359,11 +1437,48 @@ function rebuildSearchIndex() {
       keywordLinkIndex.set(normalized, entry.id);
     });
   });
+  /* Po przebudowie podstawowego indeksu zerujemy indeks pełnotekstowy i ładujemy go ponownie. */
+  searchFullTextIndex = new Map();
+  searchFullTextLoadPromise = null;
+}
+
+/* Ładuje treść plików MD i buduje indeks pełnotekstowy używany przez wyszukiwarkę. */
+async function ensureFullTextSearchIndex() {
+  if (searchFullTextLoadPromise) return searchFullTextLoadPromise;
+  const markdownEntries = searchIndex.filter(entry => {
+    const item = pageMap.get(entry.id);
+    return Boolean(item?.file);
+  });
+  searchFullTextLoadPromise = (async () => {
+    await Promise.all(markdownEntries.map(async entry => {
+      const item = pageMap.get(entry.id);
+      if (!item?.file) return;
+      try {
+        let markdownText = mdCache.get(item.file);
+        if (!markdownText) {
+          const response = await fetch(item.file);
+          if (!response.ok) return;
+          markdownText = await response.text();
+          mdCache.set(item.file, markdownText);
+        }
+        const parsed = parseArticleFrontmatter(markdownText);
+        const plainText = markdownToPlainText(parsed.body || '');
+        searchFullTextIndex.set(entry.id, {
+          plainText,
+          normalizedText: normalizeSearchText(plainText),
+        });
+      } catch (_) {
+        /* Pomijamy błędne pliki, aby wyszukiwarka nadal działała na pozostałych treściach. */
+      }
+    }));
+  })();
+  return searchFullTextLoadPromise;
 }
 
 /* Ocenia wynik na podstawie dopasowań tytułu, sekcji i tagów słów kluczowych. */
 function scoreSearchItem(entry, queryTokens) {
   let score = 0;
+  const fullText = searchFullTextIndex.get(entry.id);
   queryTokens.forEach(token => {
     if (!token) return;
     if (entry.normalizedLabel === token) score += 16;
@@ -1373,6 +1488,7 @@ function scoreSearchItem(entry, queryTokens) {
     if (entry.normalizedSection.includes(token)) score += 4;
     if (entry.normalizedType.includes(token)) score += 3;
     if (entry.normalizedKeywords.some(keyword => keyword.includes(token))) score += 7;
+    if (fullText?.normalizedText.includes(token)) score += 2;
   });
   return score;
 }
@@ -1425,11 +1541,90 @@ function saveSearchUiState() {
   localStorage.setItem(SEARCH_UI_STATE_KEY, JSON.stringify(searchUiState));
 }
 
+/* Odczytuje licznik metryk wyszukiwarki i copy-link z localStorage. */
+function readSearchMetrics() {
+  try {
+    const raw = localStorage.getItem(SEARCH_METRICS_KEY);
+    if (!raw) {
+      return {
+        searchStarts: 0,
+        searchResultImpressions: 0,
+        searchResultClicks: 0,
+        firstClickTimesMs: [],
+        copyLinkUses: 0,
+      };
+    }
+    const parsed = JSON.parse(raw);
+    return {
+      searchStarts: Number.isFinite(parsed?.searchStarts) ? parsed.searchStarts : 0,
+      searchResultImpressions: Number.isFinite(parsed?.searchResultImpressions) ? parsed.searchResultImpressions : 0,
+      searchResultClicks: Number.isFinite(parsed?.searchResultClicks) ? parsed.searchResultClicks : 0,
+      firstClickTimesMs: Array.isArray(parsed?.firstClickTimesMs) ? parsed.firstClickTimesMs.filter(Number.isFinite).slice(-200) : [],
+      copyLinkUses: Number.isFinite(parsed?.copyLinkUses) ? parsed.copyLinkUses : 0,
+    };
+  } catch (_) {
+    return {
+      searchStarts: 0,
+      searchResultImpressions: 0,
+      searchResultClicks: 0,
+      firstClickTimesMs: [],
+      copyLinkUses: 0,
+    };
+  }
+}
+
+/* Zapisuje metryki sukcesu funkcji wyszukiwarki oraz kopiowania linku. */
+function writeSearchMetrics(metrics) {
+  localStorage.setItem(SEARCH_METRICS_KEY, JSON.stringify(metrics));
+}
+
+/* Rejestruje nowe "podejście" użytkownika do znalezienia treści. */
+function startSearchSessionIfNeeded(query) {
+  if (!query || query === lastMeasuredSearchQuery) return;
+  const metrics = readSearchMetrics();
+  metrics.searchStarts += 1;
+  writeSearchMetrics(metrics);
+  searchSessionState = {
+    query,
+    startedAt: Date.now(),
+    resolved: false,
+  };
+  lastMeasuredSearchQuery = query;
+}
+
+/* Rejestruje ekspozycję wyników, aby można było policzyć CTR listy wyników. */
+function trackSearchResultImpressions(resultCount) {
+  if (!resultCount) return;
+  const metrics = readSearchMetrics();
+  metrics.searchResultImpressions += resultCount;
+  writeSearchMetrics(metrics);
+}
+
+/* Rejestruje kliknięcie wyniku i czas do pierwszego sukcesu od rozpoczęcia wyszukiwania. */
+function trackSearchResultClick() {
+  const metrics = readSearchMetrics();
+  metrics.searchResultClicks += 1;
+  if (searchSessionState && !searchSessionState.resolved) {
+    metrics.firstClickTimesMs.push(Math.max(0, Date.now() - searchSessionState.startedAt));
+    metrics.firstClickTimesMs = metrics.firstClickTimesMs.slice(-200);
+    searchSessionState.resolved = true;
+  }
+  writeSearchMetrics(metrics);
+}
+
+/* Rejestruje użycie akcji "kopiuj link" jako osobny wskaźnik adopcji funkcji. */
+function trackCopyLinkUsage() {
+  const metrics = readSearchMetrics();
+  metrics.copyLinkUses += 1;
+  writeSearchMetrics(metrics);
+}
+
 /* Aktualizuje listę wyników i fallback "Nie znaleziono" wraz z podpowiedziami. */
-function applySearchUi() {
+async function applySearchUi() {
   const input = document.getElementById('searchInput');
   const nav = document.getElementById('sidebarNav');
   const results = document.getElementById('searchResults');
+  if (!nav || !results) return;
   const query = normalizeSearchText(searchUiState.query);
   const queryTokens = query.split(' ').filter(Boolean);
   const hasActiveFilters = Object.values(searchUiState.filters).some(Boolean);
@@ -1441,6 +1636,8 @@ function applySearchUi() {
   if (input && input.value !== searchUiState.query) input.value = searchUiState.query;
 
   if (!hasSearchContext) {
+    searchSessionState = null;
+    lastMeasuredSearchQuery = '';
     results.classList.remove('is-visible');
     results.innerHTML = '';
     nav.style.display = '';
@@ -1448,6 +1645,9 @@ function applySearchUi() {
     return;
   }
 
+  startSearchSessionIfNeeded(query);
+  await ensureFullTextSearchIndex();
+  if (query !== normalizeSearchText(searchUiState.query)) return;
   nav.style.display = 'none';
   const ranked = searchIndex
     .filter(matchesActiveFilters)
@@ -1469,12 +1669,21 @@ function applySearchUi() {
     return;
   }
 
-  results.innerHTML = ranked.slice(0, 25).map(({ entry }) => `
+  const topResults = ranked.slice(0, 25);
+  trackSearchResultImpressions(topResults.length);
+  results.innerHTML = topResults.map(({ entry }) => {
+    const snippetEntry = searchFullTextIndex.get(entry.id);
+    const snippet = getFullTextSnippet(snippetEntry, queryTokens);
+    return `
     <button type="button" class="nav-item nav-item-btn" data-id="${q(entry.id)}">
-      <span>${q(entry.label)}</span>
+      <span class="s-search-item-main">
+        <span>${q(entry.label)}</span>
+        ${snippet ? `<small class="s-search-snippet">${snippet}</small>` : ''}
+      </span>
       ${renderSearchMetaTags(entry)}
     </button>
-  `).join('');
+  `;
+  }).join('');
   results.classList.add('is-visible');
 }
 
@@ -1578,7 +1787,7 @@ function setupSearchInteractions() {
   input.addEventListener('input', (event) => {
     searchUiState.query = event.target.value || '';
     saveSearchUiState();
-    applySearchUi();
+    void applySearchUi();
   });
 
   document.getElementById('searchFilterShortcuts')?.addEventListener('click', (event) => {
@@ -1587,12 +1796,13 @@ function setupSearchInteractions() {
     const key = btn.dataset.filter;
     searchUiState.filters[key] = !searchUiState.filters[key];
     saveSearchUiState();
-    applySearchUi();
+    void applySearchUi();
   });
 
   results.addEventListener('click', (event) => {
     const target = event.target.closest('[data-id]');
     if (!target) return;
+    trackSearchResultClick();
     navigate(target.dataset.id);
   });
 }
@@ -1704,7 +1914,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
   renderSidebar();
   setupSidebarInteractions();
   setupSearchInteractions();
-  applySearchUi();
+  void applySearchUi();
+  void ensureFullTextSearchIndex();
   setupGlobalInteractions();
   animateSidebar();
   const { pageId } = parseRouteHash(window.location.hash);

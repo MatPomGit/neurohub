@@ -263,6 +263,13 @@ em{color:var(--goldl)}
   text-align:left;
   font:inherit;
 }
+.s-search-item-main{display:flex;flex-direction:column;gap:.12rem;min-width:0}
+.s-search-snippet{
+  color:var(--t3);
+  font-size:.65rem;
+  line-height:1.35;
+  white-space:normal;
+}
 .nav-item:hover{color:var(--t1);background:var(--hover-subtle)}
 .nav-item:is(.is-active,.active){color:var(--gold);border-left-color:var(--gold);background:var(--goldt)}
 .nav-item-test{
@@ -379,6 +386,22 @@ em{color:var(--goldl)}
 .article-toc-link{display:block;padding:.22rem .35rem;border-radius:6px;color:var(--t2);text-decoration:none;font-size:.82rem;line-height:1.45}
 .article-toc-link:hover{color:var(--t1);background:var(--bg3)}
 .article-toc-link.is-active{background:var(--goldt);color:var(--goldl);font-weight:600}
+.article-hero-actions{display:flex;justify-content:flex-end;margin:.45rem 0 .2rem}
+.btn-copy-link{
+  border:1px solid var(--border);
+  background:var(--bg2);
+  color:var(--t2);
+  border-radius:8px;
+  padding:.35rem .65rem;
+  font-size:.72rem;
+  cursor:pointer;
+}
+.btn-copy-link:hover{border-color:var(--gold);color:var(--t1)}
+.btn-copy-link.is-copied{
+  border-color:rgba(121,189,166,.5);
+  color:#79bda6;
+  background:rgba(121,189,166,.15);
+}
 .md h1{font-family:var(--serif);font-size:2.3rem;font-weight:700;line-height:1.2;letter-spacing:-.025em;margin-bottom:.8rem}
 .md h2{font-family:var(--serif);font-size:1.5rem;font-weight:600;margin:2.6rem 0 .9rem;padding-bottom:.45rem;border-bottom:1px solid var(--border)}
 .md h3{font-family:var(--serif);font-size:1.15rem;font-weight:600;margin:1.9rem 0 .65rem}
