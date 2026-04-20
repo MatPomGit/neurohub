@@ -687,11 +687,12 @@ function renderMd(text, id, item) {
   if (isEmpty) emptyArticles.add(id);
   const emptyBanner = isEmpty ? EMPTY_BANNER_HTML : '';
   const articleReviewMetaHtml = renderArticleReviewMetaBadges(metadata);
+  /* Nadajemy klasę animacji tylko tytułowi artykułu, aby styl był kontrolowany centralnie w CSS. */
 
   area.innerHTML = `<div class="rendered">
     <div class="page-hero">
       <span class="chapter-lbl">${item.section||''}</span>
-      <h1>${title}</h1>
+      <h1 class="article-title-animated">${title}</h1>
       <div class="article-hero-actions">
         <button type="button" class="btn-copy-link" id="copyArticleLinkButton" data-page-id="${q(id)}">Kopiuj link</button>
       </div>
