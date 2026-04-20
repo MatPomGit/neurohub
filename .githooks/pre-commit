@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Hook pre-commit: walidacja nowych artykułów wiki/**/*.md w indeksie.
+set -euo pipefail
+
+bash tools/check_new_wiki_articles.sh staged

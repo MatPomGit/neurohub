@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Hook pre-push: dodatkowa walidacja nowych artykułów względem upstream.
+set -euo pipefail
+
+bash tools/check_new_wiki_articles.sh push
