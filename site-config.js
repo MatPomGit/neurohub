@@ -1118,6 +1118,7 @@ window.SITE_CONFIG = {
         { id: 'positive_psychology/model_perma',           label: 'Model PERMA',                      file: 'wiki/positive_psychology/model_perma.md'           },
         { id: 'positive_psychology/szczescie_dobrostan',   label: 'Szczęście i dobrostan',            file: 'wiki/positive_psychology/szczescie_dobrostan.md'   },
         { id: 'positive_psychology/optymizm_nadzieja',     label: 'Optymizm i nadzieja',              file: 'wiki/positive_psychology/optymizm_nadzieja.md'     },
+        { id: 'positive_psychology/3p_optymizmu_seligmana', label: '3P optymizmu Seligmana',         file: 'wiki/positive_psychology/3p_optymizmu_seligmana.md' },
         { id: 'positive_psychology/przeplyw_flow',         label: 'Przepływ (flow)',                  file: 'wiki/positive_psychology/przeplyw_flow.md'         },
         { id: 'positive_psychology/sily_charakteru',       label: 'Siły charakteru (VIA)',            file: 'wiki/positive_psychology/sily_charakteru.md'       },
         { id: 'positive_psychology/wdziecznosc',           label: 'Wdzięczność',                      file: 'wiki/positive_psychology/wdziecznosc.md'           },
@@ -1361,6 +1362,7 @@ window.SITE_CONFIG = {
         { id: 'reacting_to_criticism/trudne_rozmowy_w_pracy', label: 'Trudne rozmowy w pracy', file: 'wiki/reacting_to_criticism/trudne_rozmowy_w_pracy.md' },
         { id: 'reacting_to_criticism/najczestsze_bledy_po_krytyce', label: 'Najczęstsze błędy po krytyce', file: 'wiki/reacting_to_criticism/najczestsze_bledy_po_krytyce.md' },
         { id: 'reacting_to_criticism/plan_30_dni_trening_odpornosci', label: 'Plan 30 dni treningu odporności', file: 'wiki/reacting_to_criticism/plan_30_dni_trening_odpornosci.md' },
+        { id: 'reacting_to_criticism/jak_nie_brac_do_siebie_opinii_innych', label: 'Jak nie brać do siebie opinii innych', file: 'wiki/reacting_to_criticism/jak_nie_brac_do_siebie_opinii_innych.md' },
       ]
     },
     {
@@ -1900,6 +1902,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/positive_psychology/model_perma.md',            label: 'Model PERMA',                            status: 'live' },
       { file: 'wiki/positive_psychology/szczescie_dobrostan.md',    label: 'Szczęście i dobrostan psychiczny',       status: 'live' },
       { file: 'wiki/positive_psychology/optymizm_nadzieja.md',      label: 'Optymizm i nadzieja',                    status: 'live' },
+      { file: 'wiki/positive_psychology/3p_optymizmu_seligmana.md', label: '3P optymizmu Seligmana',               status: 'live' },
       { file: 'wiki/positive_psychology/przeplyw_flow.md',          label: 'Przepływ (flow)',                        status: 'live' },
       { file: 'wiki/positive_psychology/sily_charakteru.md',        label: 'Siły charakteru (VIA)',                  status: 'live' },
       { file: 'wiki/positive_psychology/wdziecznosc.md',            label: 'Wdzięczność',                            status: 'live' },
@@ -3176,6 +3179,7 @@ window.SITE_CONFIG = {
           title: 'Zasoby i siły psychologiczne',
           articles: [
             { label: 'Optymizm i nadzieja',           id: 'positive_psychology/optymizm_nadzieja',      status: 'live' },
+            { label: '3P optymizmu Seligmana',         id: 'positive_psychology/3p_optymizmu_seligmana', status: 'live' },
             { label: 'Przepływ (flow)',                id: 'positive_psychology/przeplyw_flow',          status: 'live' },
             { label: 'Siły charakteru (VIA)',          id: 'positive_psychology/sily_charakteru',        status: 'live' },
             { label: 'Wdzięczność',                    id: 'positive_psychology/wdziecznosc',            status: 'live' },
