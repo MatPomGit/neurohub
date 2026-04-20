@@ -92,3 +92,24 @@ Runner przygotowuje środowisko DOM w `jsdom` i wykonuje smoke test ładowania m
 - Domyślna reguła: wpisujemy rok **pierwotnej publikacji wersji bazowej** narzędzia.
 - Wyjątek: jeżeli narzędzie jest w projekcie definiowane przez **oficjalną rewizję** (np. nazwa zawiera numer rewizji, jak `ADOS-2` lub `DIVA-5`), wpisujemy rok tej rewizji.
 - W sytuacjach spornych co do „pierwotnego” roku dopuszczamy krótki komentarz redakcyjny bezpośrednio przy wpisie narzędzia w `site-config.js`.
+
+
+## Zintegrowana kontrola treści (CI)
+
+Aby jednym poleceniem uruchomić pełny zestaw kontroli jakości treści i konfiguracji, użyj:
+
+- `node tools/check_content.js`
+
+Skrypt wykonuje:
+
+1. strict lint `measurement-tools`,
+2. sprawdzenie istnienia plików wskazanych w `site-config.js`,
+3. kontrolę minimalnej objętości dla wpisów o statusie `live`,
+4. detekcję potencjalnych duplikatów i martwych wpisów.
+
+Dodatkowo wypisywany jest raport zbiorczy (`errors / warnings / ok`) i zwracany kod wyjścia `!= 0`, gdy pojawią się błędy.
+
+Opcjonalnie możesz zmienić próg objętości:
+
+- `node tools/check_content.js --min-chars 800`
+
