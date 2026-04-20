@@ -30,12 +30,12 @@
   **Priorytet:** P2  
   **Definition of Done:** Domena ma wpisy w `nav` i odpowiadający klucz w `plans`.
 
-## To verify
-
-- [ ] **Jeden „source of truth” dla logiki UI (`app.js` vs skrypt inline w `index.html`).**  
+- [x] **Jeden „source of truth” dla logiki UI (`app.js` vs skrypt inline w `index.html`).**
   **Właściciel:** Frontend Lead  
   **Priorytet:** P0  
   **Definition of Done:** Ustalony i udokumentowany jeden aktywny plik źródłowy logiki aplikacji; duplikaty usunięte lub automatycznie generowane.
+
+## To verify
 
 - [ ] **Status „live” rzeczywiście oznacza „niepusty artykuł” dla całego repo wiki.**  
   **Właściciel:** Content QA  

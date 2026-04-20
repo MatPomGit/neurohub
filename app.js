@@ -1,3 +1,8 @@
+/*
+ * app.js — główne źródło logiki SPA w projekcie PsyHub.
+ * Plik odpowiada za routing, renderowanie widoków i obsługę interakcji UI.
+ */
+
 /* ══════════════════════════════════════════════════
    MINI MARKDOWN PARSER
 ══════════════════════════════════════════════════ */
@@ -1086,8 +1091,9 @@ function renderHome() {
 /* ── Breadcrumb ────────────────────────────── */
 function setBreadcrumb(item) {
   const bc = document.getElementById('breadcrumb');
+  if (!bc) return;
   if (!item) {
-    bc.innerHTML = `<a onclick="navigate(SITE_CONFIG.defaultPage)">PsyHub</a>`;
+    bc.innerHTML = `<a href="#" data-nav-id="${q(SITE_CONFIG.defaultPage)}">PsyHub</a>`;
     updateTopbarNextStep(SITE_CONFIG.defaultPage);
     return;
   }
@@ -1098,10 +1104,10 @@ function setBreadcrumb(item) {
     const sec = SITE_CONFIG.nav.find(n => n.section === s);
     const firstId = sec?.items?.[0]?.id;
     sHtml = firstId
-      ? `<span class="bsep">/</span><a onclick="navigate('${firstId}')">${s}</a>`
+      ? `<span class="bsep">/</span><a href="#" data-nav-id="${q(firstId)}">${s}</a>`
       : `<span class="bsep">/</span><span>${s}</span>`;
   }
-  bc.innerHTML = `<a onclick="navigate(SITE_CONFIG.defaultPage)">PsyHub</a>`
+  bc.innerHTML = `<a href="#" data-nav-id="${q(SITE_CONFIG.defaultPage)}">PsyHub</a>`
     + sHtml
     +(l?`<span class="bsep">/</span><span class="bcur">${l}</span>`:'');
   updateTopbarNextStep(item.id);
@@ -1343,10 +1349,17 @@ function setupGlobalInteractions() {
   const logo = document.getElementById('sidebarLogo');
   const overlay = document.getElementById('overlay');
   const menuBtn = document.getElementById('mobileMenuButton');
+  const breadcrumb = document.getElementById('breadcrumb');
 
   logo?.addEventListener('click', () => navigate(SITE_CONFIG.defaultPage));
   menuBtn?.addEventListener('click', openSidebar);
   overlay?.addEventListener('click', closeSidebar);
+  breadcrumb?.addEventListener('click', (event) => {
+    const target = event.target.closest('[data-nav-id]');
+    if (!target) return;
+    event.preventDefault();
+    navigate(target.dataset.navId);
+  });
 
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') closeSidebar();
