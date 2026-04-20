@@ -1262,6 +1262,13 @@ window.SITE_CONFIG = {
       domainKey: 'technology_psychology',
       items: [
         { id: 'technology_psychology/technostres', label: 'Technostres — artykuł naukowy', file: 'wiki/technology_psychology/technostres.md' },
+        { id: 'technology_psychology/zmeczenie_cyfrowe', label: 'Zmęczenie cyfrowe i przeciążenie informacyjne', file: 'wiki/technology_psychology/zmeczenie_cyfrowe.md' },
+        { id: 'technology_psychology/fomo_i_nomofobia', label: 'FOMO i nomofobia', file: 'wiki/technology_psychology/fomo_i_nomofobia.md' },
+        { id: 'technology_psychology/algorytmy_a_samoocena', label: 'Algorytmy personalizacji a samoocena', file: 'wiki/technology_psychology/algorytmy_a_samoocena.md' },
+        { id: 'technology_psychology/higiena_cyfrowa', label: 'Higiena cyfrowa i profilaktyka przeciążenia', file: 'wiki/technology_psychology/higiena_cyfrowa.md' },
+        { id: 'technology_psychology/technologia_w_pracy', label: 'Technologia w pracy: granice, kontrola i autonomia', file: 'wiki/technology_psychology/technologia_w_pracy.md' },
+        { id: 'technology_psychology/technologia_a_sen', label: 'Technologia a sen i regeneracja psychiczna', file: 'wiki/technology_psychology/technologia_a_sen.md' },
+        { id: 'technology_psychology/psychoedukacja_rodzinna', label: 'Psychoedukacja rodzinna w erze ekranów', file: 'wiki/technology_psychology/psychoedukacja_rodzinna.md' },
         { id: 'technology_psychology/zdrada_technologii', label: 'Zdrada technologii', file: 'wiki/technology_psychology/zdrada_technologii.md' },
         { id: 'wiki-index/psychologia_technologii', label: 'WIKI — Psychologia technologii', wiki: 'psychologia_technologii' },
       ]

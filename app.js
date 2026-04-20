@@ -582,6 +582,8 @@ function navigate(id, replaceHistory) {
   if (!id) return;
   const item = pageMap.get(id);
   if (!item) return;
+  /* Dla każdej zmiany podstrony wymuszamy start od góry, aby UX było przewidywalne. */
+  window.scrollTo(0, 0);
   cleanupArticleTocObserver();
   current = id;
   addRecentPage(id);
