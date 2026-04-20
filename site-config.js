@@ -1453,6 +1453,12 @@ window.SITE_CONFIG = {
     {
       section: 'Referencje',
       domainKey: 'reference',
+      // Pliki stricte developerskie (np. testy parsera/TOC i standardy redakcyjne)
+      // celowo pozostają poza menu publicznym:
+      // - wiki/reference/standard_przypisow.md
+      // - wiki/reference/listy_wielopoziomowe.md
+      // - wiki/reference/katalog_narzedzi_zasady.md
+      // - wiki/reference/toc_dlugi_artykul.md
       items: [
         { id: 'reference/zakres',             label: 'Zakres wiedzy',                      file: 'wiki/reference/zakres.md'             },
         { id: 'reference/literatura',         label: 'Literatura',                         file: 'wiki/reference/literatura.md'         },

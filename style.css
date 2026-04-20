@@ -368,6 +368,19 @@ em{color:var(--goldl)}
 .spinner{width:18px;height:18px;border:2px solid var(--border);border-top-color:var(--gold);border-radius:50%;animation:spin .6s linear infinite;flex-shrink:0}
 @keyframes spin{to{transform:rotate(360deg)}}
 @keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+/* Animacja wejścia tytułu: delikatne rozjaśnienie i usunięcie tinty, aby nie odciągać uwagi od treści. */
+@keyframes titleTintIn{
+  from{
+    color:color-mix(in srgb, var(--t1) 78%, var(--gold) 22%);
+    text-shadow:0 0 0 rgba(0,0,0,0);
+    filter:saturate(.9);
+  }
+  to{
+    color:var(--t1);
+    text-shadow:0 1px 0 rgba(0,0,0,.08);
+    filter:saturate(1);
+  }
+}
 .rendered{animation:fadeUp .28s ease both}
 
 /* overlay (mobile) */
@@ -595,6 +608,10 @@ em{color:var(--goldl)}
 .page-hero{padding-bottom:1.9rem;margin-bottom:2.3rem;border-bottom:1px solid var(--border)}
 .chapter-lbl{display:block;font-size:.65rem;text-transform:uppercase;letter-spacing:.18em;color:var(--gold);font-weight:700;margin-bottom:.55rem}
 .page-hero h1{font-family:var(--serif);font-size:2.5rem;font-weight:700;line-height:1.18;letter-spacing:-.025em;margin-bottom:.85rem}
+/* Klasa opt-in dla animowanego tytułu artykułu, dodawana wyłącznie podczas renderu Markdown. */
+.page-hero h1.article-title-animated{
+  animation:titleTintIn .55s ease-out both;
+}
 .page-hero .lead{font-size:1.05rem;color:var(--t2);line-height:1.75;font-weight:300;max-width:630px}
 
 /* page footer nav */
@@ -906,6 +923,8 @@ em{color:var(--goldl)}
     transition-duration:.01ms !important;
   }
   .rendered{animation:none}
+  /* Szanuj preferencję ograniczenia ruchu również dla animowanego tytułu. */
+  .page-hero h1.article-title-animated{animation:none}
   .plan-item:hover,
   .art-card:hover,
   .domain-card:hover{
