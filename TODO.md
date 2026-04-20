@@ -117,10 +117,10 @@
 - [ ] **Nowa zakładka z 12 artykułami „Somatic Experiencing jako metoda pracy ze stresem i traumą”**
 - [ ] **Nowa zakładka z 12 artykułami „Wstęp do psychologii klinicznej dziecka”**
 - [ ] **Nowa zakładka z 12 artykułami „Reagowanie na krytykę”**
-- [ ] **Nowa zakładka z 12 artykułami „Psychologia nadmiernego jedzenia”**
-- [ ] **Nowa zakładka z 12 artykułami „Instytucje pomocy dziecku i rodzinie”**
+- [x] **Nowa zakładka z 12 artykułami „Psychologia nadmiernego jedzenia”**
+- [x] **Nowa zakładka z 12 artykułami „Instytucje pomocy dziecku i rodzinie”**
 - [ ] **Nowa zakładka z 12 artykułami „Systemy rodzinne”**
 - [ ] **Nowa zakładka z 12 artykułami „Wystąpienia publiczne i autoprezentacja”**
 - [ ] **Nowa zakładka z 12 artykułami „Psycholog w IT”**
-- [ ] **Nowa zakładka z 12 artykułami „Resocjalizacja”**
+- [x] **Nowa zakładka z 12 artykułami „Resocjalizacja”**
 - [ ] **Artykuł dotyczący zachowania i dwóch półkul mózgu.**
