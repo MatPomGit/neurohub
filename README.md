@@ -68,23 +68,32 @@ Artykuł uznaje się za gotowy do publikacji, gdy spełnia wszystkie kryteria:
 
 W trybie strict ostrzeżenia (`warn`) są traktowane jak błędy (`error`).
 
-## Jak uruchamiać testy UI
+## Jak uruchamiać testy
 
-Moduł `modules/tests-ui.js` wymaga API przeglądarki (`window`, `document`, obsługa zdarzeń DOM). Próba uruchomienia go w „czystym” Node kończy się teraz czytelnym błędem z instrukcją dalszych kroków.
+W projekcie rozdzielamy testy na dwa niezależne typy:
 
-### Zalecane uruchomienie lokalne (jsdom)
+- **Node-only** — testy konfiguracji i walidacji, bez API przeglądarki.
+- **Browser-only (jsdom)** — testy modułów wymagających `window`/`document`.
 
-1. Zainstaluj tymczasowo zależność:
+### Lokalnie
+
+1. Uruchom testy Node-only:
+   - `node tools/run-node-tests.js`
+2. Uruchom testy browser-only:
    - `npm install --no-save jsdom`
-2. Uruchom dedykowany runner:
    - `node tools/run-ui-tests-jsdom.js`
 
-Runner przygotowuje środowisko DOM w `jsdom` i wykonuje smoke test ładowania modułu UI.
+`modules/tests-ui.js` jest modułem browser-only. Przy uruchomieniu w czystym Node moduł zwraca czytelny komunikat z frazą: `to test browser-only`.
 
-### Rekomendacja do CI
+### W CI
 
-- Krok 1 (Node): lint i walidacja konfiguracji, np. `node tools/lint-measurement-tools-config.js --strict`.
-- Krok 2 (DOM/jsdom): testy UI przez `node tools/run-ui-tests-jsdom.js` po zapewnieniu `jsdom`.
+Konfiguracja CI powinna mieć dwa osobne joby:
+
+1. `config-lint`:
+   - `node tools/run-node-tests.js`
+2. `browser-tests`:
+   - `npm install --no-save jsdom`
+   - `node tools/run-ui-tests-jsdom.js`
 
 ## Katalog narzędzi — zasada pola `primarySourceYear`
 
@@ -112,4 +121,3 @@ Dodatkowo wypisywany jest raport zbiorczy (`errors / warnings / ok`) i zwracany 
 Opcjonalnie możesz zmienić próg objętości:
 
 - `node tools/check_content.js --min-chars 800`
-

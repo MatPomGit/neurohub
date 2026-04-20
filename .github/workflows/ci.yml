@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+
+jobs:
+  config-lint:
+    name: config-lint
+    runs-on: ubuntu-latest
+
+    steps:
+      # Pobranie kodu źródłowego repozytorium do środowiska joba.
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Konfiguracja Node.js do uruchomienia narzędzi lint/test.
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Uruchamiamy wyłącznie testy i walidacje działające w czystym Node.
+      - name: Run Node-only config checks
+        run: node tools/run-node-tests.js
+
+  browser-tests:
+    name: browser-tests
+    runs-on: ubuntu-latest
+    needs: config-lint
+
+    steps:
+      # Pobranie kodu źródłowego repozytorium do środowiska joba.
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Konfiguracja Node.js pod runner jsdom.
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Instalujemy wyłącznie zależność potrzebną do testów browser-only.
+      - name: Install jsdom
+        run: npm install --no-save jsdom
+
+      # Uruchamiamy testy modułów wymagających window/document.
+      - name: Run browser-only tests in jsdom
+        run: node tools/run-ui-tests-jsdom.js

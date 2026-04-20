@@ -17,6 +17,7 @@ function ensureBrowserRuntime() {
 
   const message = [
     '[PsyHub][tests-ui] Wykryto brak środowiska DOM (window/document/zdarzenia).',
+    '[PsyHub][tests-ui] This is a browser-only test (to test browser-only).',
     'Ten moduł uruchamiaj w przeglądarce albo przez jsdom runner:',
     '  node tools/run-ui-tests-jsdom.js'
   ].join('\n');
