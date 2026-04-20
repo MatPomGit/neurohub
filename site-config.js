@@ -1304,6 +1304,42 @@ window.SITE_CONFIG = {
         { id: 'eksperyment_psychologiczny/raportowanie_wynikow',      label: 'Raportowanie wyników i ograniczeń',          file: 'wiki/eksperyment_psychologiczny/raportowanie_wynikow.md'      },
       ]
     },
+    {
+      section: 'Wstęp do psychologii klinicznej dziecka',
+      domainKey: 'child_clinical_intro',
+      items: [
+        { id: 'child_clinical_intro/czym_jest_psychologia_kliniczna_dziecka', label: 'Czym jest psychologia kliniczna dziecka?', file: 'wiki/child_clinical_intro/czym_jest_psychologia_kliniczna_dziecka.md' },
+        { id: 'child_clinical_intro/norma_rozwojowa_a_objaw', label: 'Norma rozwojowa a objaw kliniczny', file: 'wiki/child_clinical_intro/norma_rozwojowa_a_objaw.md' },
+        { id: 'child_clinical_intro/wywiad_kliniczny_z_dzieckiem_i_rodzina', label: 'Wywiad kliniczny z dzieckiem i rodziną', file: 'wiki/child_clinical_intro/wywiad_kliniczny_z_dzieckiem_i_rodzina.md' },
+        { id: 'child_clinical_intro/czynniki_ryzyka_i_ochronne', label: 'Czynniki ryzyka i ochronne', file: 'wiki/child_clinical_intro/czynniki_ryzyka_i_ochronne.md' },
+        { id: 'child_clinical_intro/regulacja_emocji_i_samokontrola', label: 'Regulacja emocji i samokontrola', file: 'wiki/child_clinical_intro/regulacja_emocji_i_samokontrola.md' },
+        { id: 'child_clinical_intro/przywiazanie_i_relacje_opiekuncze', label: 'Przywiązanie i relacje opiekuńcze', file: 'wiki/child_clinical_intro/przywiazanie_i_relacje_opiekuncze.md' },
+        { id: 'child_clinical_intro/diagnoza_roznicowa_neurorozwojowa', label: 'Diagnoza różnicowa: emocje vs neurorozwój', file: 'wiki/child_clinical_intro/diagnoza_roznicowa_neurorozwojowa.md' },
+        { id: 'child_clinical_intro/formulowanie_przypadku_4p', label: 'Formułowanie przypadku (4P)', file: 'wiki/child_clinical_intro/formulowanie_przypadku_4p.md' },
+        { id: 'child_clinical_intro/interwencje_rodzicielskie_pmt', label: 'Interwencje rodzicielskie (PMT)', file: 'wiki/child_clinical_intro/interwencje_rodzicielskie_pmt.md' },
+        { id: 'child_clinical_intro/cbt_dzieci_i_mlodziez', label: 'CBT dla dzieci i młodzieży', file: 'wiki/child_clinical_intro/cbt_dzieci_i_mlodziez.md' },
+        { id: 'child_clinical_intro/wspolpraca_rodzina_szkola_system', label: 'Współpraca rodzina–szkoła–system', file: 'wiki/child_clinical_intro/wspolpraca_rodzina_szkola_system.md' },
+        { id: 'child_clinical_intro/bledy_diagnostyczne_i_iatrogenia', label: 'Błędy diagnostyczne i jatrogenia', file: 'wiki/child_clinical_intro/bledy_diagnostyczne_i_iatrogenia.md' },
+      ]
+    },
+    {
+      section: 'Reagowanie na krytykę',
+      domainKey: 'reacting_to_criticism',
+      items: [
+        { id: 'reacting_to_criticism/czym_jest_krytyka_i_feedback', label: 'Krytyka a feedback — rozróżnienie', file: 'wiki/reacting_to_criticism/czym_jest_krytyka_i_feedback.md' },
+        { id: 'reacting_to_criticism/style_reagowania_na_krytyke', label: 'Style reagowania na krytykę', file: 'wiki/reacting_to_criticism/style_reagowania_na_krytyke.md' },
+        { id: 'reacting_to_criticism/neurobiologia_stresu_oceny', label: 'Neurobiologia stresu oceny', file: 'wiki/reacting_to_criticism/neurobiologia_stresu_oceny.md' },
+        { id: 'reacting_to_criticism/schematy_poznawcze_i_znieksztalcenia', label: 'Schematy poznawcze i zniekształcenia', file: 'wiki/reacting_to_criticism/schematy_poznawcze_i_znieksztalcenia.md' },
+        { id: 'reacting_to_criticism/mentalizacja_i_intencje_nadawcy', label: 'Mentalizacja i intencje nadawcy', file: 'wiki/reacting_to_criticism/mentalizacja_i_intencje_nadawcy.md' },
+        { id: 'reacting_to_criticism/granice_i_asertywnosc', label: 'Granice i asertywność', file: 'wiki/reacting_to_criticism/granice_i_asertywnosc.md' },
+        { id: 'reacting_to_criticism/model_sbi_nvc_w_praktyce', label: 'Model SBI i NVC w praktyce', file: 'wiki/reacting_to_criticism/model_sbi_nvc_w_praktyce.md' },
+        { id: 'reacting_to_criticism/samowspolczucie_i_act', label: 'Samowspółczucie i ACT', file: 'wiki/reacting_to_criticism/samowspolczucie_i_act.md' },
+        { id: 'reacting_to_criticism/mikrointerwencje_w_czasie_rzeczywistym', label: 'Mikrointerwencje w czasie rzeczywistym', file: 'wiki/reacting_to_criticism/mikrointerwencje_w_czasie_rzeczywistym.md' },
+        { id: 'reacting_to_criticism/trudne_rozmowy_w_pracy', label: 'Trudne rozmowy w pracy', file: 'wiki/reacting_to_criticism/trudne_rozmowy_w_pracy.md' },
+        { id: 'reacting_to_criticism/najczestsze_bledy_po_krytyce', label: 'Najczęstsze błędy po krytyce', file: 'wiki/reacting_to_criticism/najczestsze_bledy_po_krytyce.md' },
+        { id: 'reacting_to_criticism/plan_30_dni_trening_odpornosci', label: 'Plan 30 dni treningu odporności', file: 'wiki/reacting_to_criticism/plan_30_dni_trening_odpornosci.md' },
+      ]
+    },
     
     {
       section: 'Encyklopedie',
