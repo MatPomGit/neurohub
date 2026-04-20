@@ -567,6 +567,7 @@ window.SITE_CONFIG = {
         { id: 'spoleczna/agresja', label: 'Agresja', file: 'wiki/spoleczna/agresja.md' },
         { id: 'spoleczna/hejt_w_sieci', label: 'Hejt w sieci', file: 'wiki/spoleczna/hejt_w_sieci.md' },
         { id: 'spoleczna/zachowania_prospoleczne', label: 'Zachowania prospołeczne', file: 'wiki/spoleczna/zachowania_prospoleczne.md' },
+        { id: 'spoleczna/zdrowe_poczucie_wlasnej_wartosci', label: 'Zdrowe poczucie własnej wartości', file: 'wiki/spoleczna/zdrowe_poczucie_wlasnej_wartosci.md' },
       ]
     },
     {
@@ -688,6 +689,8 @@ window.SITE_CONFIG = {
         { id: 'podstawy_pomocy/modele_pomocy',                  label: 'Modele pomocy psychologicznej',        file: 'wiki/podstawy_pomocy/modele_pomocy.md'                  },
         { id: 'podstawy_pomocy/komunikacja_wspierajaca',        label: 'Komunikacja wspierająca',              file: 'wiki/podstawy_pomocy/komunikacja_wspierajaca.md'        },
         { id: 'podstawy_pomocy/wsparcie_spoleczne',             label: 'Wsparcie społeczne',                   file: 'wiki/podstawy_pomocy/wsparcie_spoleczne.md'             },
+        { id: 'podstawy_pomocy/empatia_kontra_sympatia_brene_brown', label: 'Empatia kontra sympatia (Brené Brown)', file: 'wiki/podstawy_pomocy/empatia_kontra_sympatia_brene_brown.md' },
+        { id: 'podstawy_pomocy/facylitacja',                    label: 'Facylitacja w pracy pomocowej',        file: 'wiki/podstawy_pomocy/facylitacja.md'                    },
         { id: 'podstawy_pomocy/samoopieka_pomagajacego',        label: 'Samoopieka pomagającego',              file: 'wiki/podstawy_pomocy/samoopieka_pomagajacego.md'        },
         { id: 'podstawy_pomocy/etyka_pomocy',                   label: 'Etyka pomocy psychologicznej',         file: 'wiki/podstawy_pomocy/etyka_pomocy.md'                   },
       ]
@@ -832,6 +835,8 @@ window.SITE_CONFIG = {
         { id: 'diagnostics/neuropsych_battery',label: 'Baterie neuropsychologiczne',file: 'wiki/diagnostics/neuropsych_battery.md'},
         { id: 'diagnostics/rdoc',              label: 'Model RDoC',                  file: 'wiki/diagnostics/rdoc.md'              },
         { id: 'diagnostics/scid_v',            label: 'SCID-5 / SCID-V',             file: 'wiki/diagnostics/scid_v.md'            },
+        { id: 'diagnostics/diagnoza_techniki_rozmowy_psychologicznej', label: 'Diagnoza: techniki rozmowy psychologicznej', file: 'artykul_diagnoza_techniki_rozmowy_psychologicznej.md' },
+        { id: 'diagnostics/apis_zr',           label: 'APIS-ZR — zastosowanie w diagnozie', file: 'artykul_apis_zr.md' },
       ]
     },
     {
@@ -1081,6 +1086,7 @@ window.SITE_CONFIG = {
         { id: 'psychotherapy/rebt',                    label: 'REBT — racjonalna terapia',            file: 'wiki/psychotherapy/rebt.md'                     },
         { id: 'psychotherapy/psychologiczne_mechanizmy_przebaczenia', label: 'Mechanizmy przebaczenia po przemocy emocjonalnej', file: 'wiki/psychotherapy/psychologiczne_mechanizmy_przebaczenia.md' },
         { id: 'psychotherapy/superwizja',              label: 'Superwizja w psychoterapii',           file: 'wiki/psychotherapy/superwizja.md'           },
+        { id: 'psychotherapy/kontenerowanie_emocji',   label: 'Kontenerowanie emocji w terapii',      file: 'artykul_kontenerowanie_emocji.md'           },
       ]
     },
     {
@@ -1130,6 +1136,10 @@ window.SITE_CONFIG = {
         { id: 'suicidology/nssi',                      label: 'Samookaleczenia (NSSI)',        file: 'wiki/suicidology/nssi.md'                      },
         { id: 'suicidology/postvention',               label: 'Postvention',                  file: 'wiki/suicidology/postvention.md'               },
         { id: 'suicidology/media',                     label: 'Efekt Wertera i Papageno',     file: 'wiki/suicidology/media.md'                     },
+        { id: 'suicidology/biologiczne_neurobiologiczne_podstawy', label: 'Biologiczne i neurobiologiczne podstawy', file: 'artykul_biologiczne_neurobiologiczne_podstawy_zachowan_suicydalnych.md' },
+        { id: 'suicidology/genetyczne_i_epigenetyczne_uwarunkowania', label: 'Genetyczne i epigenetyczne uwarunkowania', file: 'artykul_genetyczne_i_epigenetyczne_uwarunkowania_suicydalnosci.md' },
+        { id: 'suicidology/psychopatologia_a_ryzyko',  label: 'Psychopatologia a ryzyko samobójstwa', file: 'artykul_psychopatologia_a_ryzyko_samobojstwa.md' },
+        { id: 'suicidology/trauma_ace_i_stres_chroniczny', label: 'Trauma ACE i stres chroniczny', file: 'artykul_trauma_ace_i_stres_chroniczny_a_ryzyko_samobojstwa.md' },
       ]
     },
     {
@@ -1247,6 +1257,7 @@ window.SITE_CONFIG = {
       domainKey: 'technology_psychology',
       items: [
         { id: 'technology_psychology/technostres', label: 'Technostres — artykuł naukowy', file: 'wiki/technology_psychology/technostres.md' },
+        { id: 'technology_psychology/zdrada_technologii', label: 'Zdrada technologii', file: 'wiki/technology_psychology/zdrada_technologii.md' },
         { id: 'wiki-index/psychologia_technologii', label: 'WIKI — Psychologia technologii', wiki: 'psychologia_technologii' },
       ]
     },
@@ -1338,6 +1349,60 @@ window.SITE_CONFIG = {
         { id: 'reacting_to_criticism/trudne_rozmowy_w_pracy', label: 'Trudne rozmowy w pracy', file: 'wiki/reacting_to_criticism/trudne_rozmowy_w_pracy.md' },
         { id: 'reacting_to_criticism/najczestsze_bledy_po_krytyce', label: 'Najczęstsze błędy po krytyce', file: 'wiki/reacting_to_criticism/najczestsze_bledy_po_krytyce.md' },
         { id: 'reacting_to_criticism/plan_30_dni_trening_odpornosci', label: 'Plan 30 dni treningu odporności', file: 'wiki/reacting_to_criticism/plan_30_dni_trening_odpornosci.md' },
+      ]
+    },
+    {
+      section: 'Psychologia nadmiernego jedzenia',
+      domainKey: 'overeating_psychology',
+      items: [
+        { id: 'overeating_psychology/czym_jest_nadmierne_jedzenie', label: 'Czym jest nadmierne jedzenie?', file: 'wiki/overeating_psychology/czym_jest_nadmierne_jedzenie.md' },
+        { id: 'overeating_psychology/neurobiologia_nagrody_i_glodu', label: 'Neurobiologia nagrody i głodu', file: 'wiki/overeating_psychology/neurobiologia_nagrody_i_glodu.md' },
+        { id: 'overeating_psychology/regulacja_emocji_i_jedzenie', label: 'Regulacja emocji a jedzenie', file: 'wiki/overeating_psychology/regulacja_emocji_i_jedzenie.md' },
+        { id: 'overeating_psychology/stres_i_jedzenie_kompulsywne', label: 'Stres i jedzenie kompulsywne', file: 'wiki/overeating_psychology/stres_i_jedzenie_kompulsywne.md' },
+        { id: 'overeating_psychology/srodowisko_zywieniowe_i_nawyki', label: 'Środowisko żywieniowe i nawyki', file: 'wiki/overeating_psychology/srodowisko_zywieniowe_i_nawyki.md' },
+        { id: 'overeating_psychology/obraz_ciala_i_samokrytycyzm', label: 'Obraz ciała i samokrytycyzm', file: 'wiki/overeating_psychology/obraz_ciala_i_samokrytycyzm.md' },
+        { id: 'overeating_psychology/rodzinne_wzorce_jedzenia', label: 'Rodzinne wzorce jedzenia', file: 'wiki/overeating_psychology/rodzinne_wzorce_jedzenia.md' },
+        { id: 'overeating_psychology/diagnoza_roznicowa_bed_bulimia', label: 'Diagnoza różnicowa: BED i bulimia', file: 'wiki/overeating_psychology/diagnoza_roznicowa_bed_bulimia.md' },
+        { id: 'overeating_psychology/interwencje_poznawczo_behawioralne', label: 'Interwencje poznawczo-behawioralne', file: 'wiki/overeating_psychology/interwencje_poznawczo_behawioralne.md' },
+        { id: 'overeating_psychology/mindfulness_i_regulacja_apetytu', label: 'Mindfulness i regulacja apetytu', file: 'wiki/overeating_psychology/mindfulness_i_regulacja_apetytu.md' },
+        { id: 'overeating_psychology/farmakoterapia_i_wskazania', label: 'Farmakoterapia i wskazania', file: 'wiki/overeating_psychology/farmakoterapia_i_wskazania.md' },
+        { id: 'overeating_psychology/profilaktyka_nawrotow', label: 'Profilaktyka nawrotów', file: 'wiki/overeating_psychology/profilaktyka_nawrotow.md' },
+      ]
+    },
+    {
+      section: 'Instytucje pomocy dziecku i rodzinie',
+      domainKey: 'child_family_support_institutions',
+      items: [
+        { id: 'child_family_support_institutions/mapa_systemu_wsparcia', label: 'Mapa systemu wsparcia', file: 'wiki/child_family_support_institutions/mapa_systemu_wsparcia.md' },
+        { id: 'child_family_support_institutions/osrodek_pomocy_spolecznej_i_praca_socjalna', label: 'OPS i praca socjalna', file: 'wiki/child_family_support_institutions/osrodek_pomocy_spolecznej_i_praca_socjalna.md' },
+        { id: 'child_family_support_institutions/poradnia_psychologiczno_pedagogiczna', label: 'Poradnia psychologiczno-pedagogiczna', file: 'wiki/child_family_support_institutions/poradnia_psychologiczno_pedagogiczna.md' },
+        { id: 'child_family_support_institutions/piecza_zastepcza_i_asysta_rodziny', label: 'Piecza zastępcza i asysta rodziny', file: 'wiki/child_family_support_institutions/piecza_zastepcza_i_asysta_rodziny.md' },
+        { id: 'child_family_support_institutions/interwencja_kryzysowa_i_niebieska_karta', label: 'Interwencja kryzysowa i „Niebieska Karta”', file: 'wiki/child_family_support_institutions/interwencja_kryzysowa_i_niebieska_karta.md' },
+        { id: 'child_family_support_institutions/sad_rodzinny_i_kurator', label: 'Sąd rodzinny i kurator', file: 'wiki/child_family_support_institutions/sad_rodzinny_i_kurator.md' },
+        { id: 'child_family_support_institutions/ochrona_zdrowia_psychicznego_dzieci', label: 'Ochrona zdrowia psychicznego dzieci', file: 'wiki/child_family_support_institutions/ochrona_zdrowia_psychicznego_dzieci.md' },
+        { id: 'child_family_support_institutions/szkola_jako_instytucja_wsparcia', label: 'Szkoła jako instytucja wsparcia', file: 'wiki/child_family_support_institutions/szkola_jako_instytucja_wsparcia.md' },
+        { id: 'child_family_support_institutions/ngo_i_programy_srodowiskowe', label: 'NGO i programy środowiskowe', file: 'wiki/child_family_support_institutions/ngo_i_programy_srodowiskowe.md' },
+        { id: 'child_family_support_institutions/koordynacja_miedzyinstytucjonalna', label: 'Koordynacja międzyinstytucjonalna', file: 'wiki/child_family_support_institutions/koordynacja_miedzyinstytucjonalna.md' },
+        { id: 'child_family_support_institutions/prawa_dziecka_i_standardy_ochrony', label: 'Prawa dziecka i standardy ochrony', file: 'wiki/child_family_support_institutions/prawa_dziecka_i_standardy_ochrony.md' },
+        { id: 'child_family_support_institutions/bledy_systemowe_i_dobre_praktyki', label: 'Błędy systemowe i dobre praktyki', file: 'wiki/child_family_support_institutions/bledy_systemowe_i_dobre_praktyki.md' },
+      ]
+    },
+    {
+      section: 'Resocjalizacja',
+      domainKey: 'resocialization',
+      items: [
+        { id: 'resocialization/podstawy_resocjalizacji', label: 'Podstawy resocjalizacji', file: 'wiki/resocialization/podstawy_resocjalizacji.md' },
+        { id: 'resocialization/diagnoza_ryzyka_i_potrzeb', label: 'Diagnoza ryzyka i potrzeb', file: 'wiki/resocialization/diagnoza_ryzyka_i_potrzeb.md' },
+        { id: 'resocialization/model_rnr_w_praktyce', label: 'Model RNR w praktyce', file: 'wiki/resocialization/model_rnr_w_praktyce.md' },
+        { id: 'resocialization/desistance_i_zmiana_tozsamosci', label: 'Desistance i zmiana tożsamości', file: 'wiki/resocialization/desistance_i_zmiana_tozsamosci.md' },
+        { id: 'resocialization/resocjalizacja_nieletnich', label: 'Resocjalizacja nieletnich', file: 'wiki/resocialization/resocjalizacja_nieletnich.md' },
+        { id: 'resocialization/praca_z_uzaleznieniami_w_resocjalizacji', label: 'Praca z uzależnieniami', file: 'wiki/resocialization/praca_z_uzaleznieniami_w_resocjalizacji.md' },
+        { id: 'resocialization/edukacja_i_aktywizacja_zawodowa', label: 'Edukacja i aktywizacja zawodowa', file: 'wiki/resocialization/edukacja_i_aktywizacja_zawodowa.md' },
+        { id: 'resocialization/trening_umiejetnosci_spolecznych_i_samokontroli', label: 'Trening umiejętności społecznych i samokontroli', file: 'wiki/resocialization/trening_umiejetnosci_spolecznych_i_samokontroli.md' },
+        { id: 'resocialization/sprawiedliwosc_naprawcza_mediacje', label: 'Sprawiedliwość naprawcza i mediacje', file: 'wiki/resocialization/sprawiedliwosc_naprawcza_mediacje.md' },
+        { id: 'resocialization/readaptacja_postpenitencjarna', label: 'Readaptacja postpenitencjarna', file: 'wiki/resocialization/readaptacja_postpenitencjarna.md' },
+        { id: 'resocialization/etyka_i_prawa_czlowieka', label: 'Etyka i prawa człowieka', file: 'wiki/resocialization/etyka_i_prawa_czlowieka.md' },
+        { id: 'resocialization/ewaluacja_skutecznosci_programow', label: 'Ewaluacja skuteczności programów', file: 'wiki/resocialization/ewaluacja_skutecznosci_programow.md' },
       ]
     },
     
