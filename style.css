@@ -370,6 +370,15 @@ em{color:var(--goldl)}
 /* ═══════════════════════════════════════════
    MD BODY
 ═══════════════════════════════════════════ */
+.article-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:1.4rem;align-items:start}
+.article-toc{position:sticky;top:5.3rem;align-self:start;background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);padding:.8rem .85rem}
+.article-toc-title{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:0 0 .55rem}
+.article-toc-list{list-style:none;margin:0;padding:0;display:grid;gap:.2rem}
+.article-toc-item{margin:0}
+.article-toc-item.is-sub{padding-left:.7rem}
+.article-toc-link{display:block;padding:.22rem .35rem;border-radius:6px;color:var(--t2);text-decoration:none;font-size:.82rem;line-height:1.45}
+.article-toc-link:hover{color:var(--t1);background:var(--bg3)}
+.article-toc-link.is-active{background:var(--goldt);color:var(--goldl);font-weight:600}
 .md h1{font-family:var(--serif);font-size:2.3rem;font-weight:700;line-height:1.2;letter-spacing:-.025em;margin-bottom:.8rem}
 .md h2{font-family:var(--serif);font-size:1.5rem;font-weight:600;margin:2.6rem 0 .9rem;padding-bottom:.45rem;border-bottom:1px solid var(--border)}
 .md h3{font-family:var(--serif);font-size:1.15rem;font-weight:600;margin:1.9rem 0 .65rem}
@@ -395,6 +404,14 @@ em{color:var(--goldl)}
 .md .footnotes ol{margin-left:1.25rem}
 .md .footnotes li{font-size:.92rem;line-height:1.65;margin-bottom:.5rem}
 .md .fn-back{margin-left:.4rem;text-decoration:none}
+
+@media (min-width:1080px){
+  .article-layout{grid-template-columns:280px minmax(0,1fr)}
+}
+
+@media (max-width:1079px){
+  .article-toc{position:relative;top:auto}
+}
 
 /* test specjalności */
 .test-wrap{max-width:920px}

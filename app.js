@@ -60,12 +60,91 @@ function md2html(src) {
   src = src.replace(/((?:^>.*\n?)+)/gm, blk => {
     return `<blockquote><p>${inl(blk.replace(/^>\s?/gm,'').trim())}</p></blockquote>\n`;
   });
-  src = src.replace(/((?:^[-*+]\s.+\n?)+)/gm, blk => {
-    return '<ul>'+blk.trim().split('\n').map(l=>`<li>${inl(l.replace(/^[-*+]\s/,''))}</li>`).join('')+'</ul>\n';
-  });
-  src = src.replace(/((?:^\d+\.\s.+\n?)+)/gm, blk => {
-    return '<ol>'+blk.trim().split('\n').map(l=>`<li>${inl(l.replace(/^\d+\.\s/,''))}</li>`).join('')+'</ol>\n';
-  });
+  /* Renderuje listy wielopoziomowe (UL/OL) na podstawie wcięć i typu markerów. */
+  const renderNestedListBlock = (block) => {
+    const lines = block
+      .split('\n')
+      .map(line => line.replace(/\t/g, '  '))
+      .filter(line => line.trim().length > 0);
+    if (!lines.length) return block;
+
+    const stack = [];
+    let html = '';
+    const getTag = type => (type === 'ol' ? 'ol' : 'ul');
+    const closeCurrentItem = () => {
+      const top = stack[stack.length - 1];
+      if (top && top.itemOpen) {
+        html += '</li>';
+        top.itemOpen = false;
+      }
+    };
+    const closeCurrentList = () => {
+      const top = stack[stack.length - 1];
+      if (!top) return;
+      closeCurrentItem();
+      html += `</${getTag(top.type)}>`;
+      stack.pop();
+    };
+    const openList = (type, indent) => {
+      html += `<${getTag(type)}>`;
+      stack.push({ type, indent, itemOpen: false });
+    };
+
+    for (const line of lines) {
+      const match = line.match(/^(\s*)([-*+]|\d+\.)\s+(.+)$/);
+      if (!match) continue;
+      const indent = match[1].length;
+      const marker = match[2];
+      const content = match[3];
+      const type = /\d+\./.test(marker) ? 'ol' : 'ul';
+
+      while (stack.length && indent < stack[stack.length - 1].indent) closeCurrentList();
+      while (
+        stack.length &&
+        indent === stack[stack.length - 1].indent &&
+        stack[stack.length - 1].type !== type
+      ) {
+        closeCurrentList();
+      }
+
+      if (!stack.length) {
+        openList(type, indent);
+      } else if (indent > stack[stack.length - 1].indent) {
+        openList(type, indent);
+      }
+
+      closeCurrentItem();
+      html += `<li>${inl(content)}`;
+      stack[stack.length - 1].itemOpen = true;
+    }
+
+    while (stack.length) closeCurrentList();
+    return html + '\n';
+  };
+
+  /* Przetwarza kolejne bloki list i zachowuje pozostałe linie bez zmian. */
+  const renderNestedLists = (markdown) => {
+    const lines = markdown.split('\n');
+    const out = [];
+    const isListLine = line => /^(\s*)([-*+]|\d+\.)\s+.+$/.test(line);
+    let i = 0;
+    while (i < lines.length) {
+      if (!isListLine(lines[i])) {
+        out.push(lines[i]);
+        i += 1;
+        continue;
+      }
+      const block = [lines[i]];
+      i += 1;
+      while (i < lines.length && (isListLine(lines[i]) || lines[i].trim() === '')) {
+        block.push(lines[i]);
+        i += 1;
+      }
+      out.push(renderNestedListBlock(block.join('\n')).trimEnd());
+    }
+    return out.join('\n');
+  };
+  src = renderNestedLists(src);
   /* Normalizuje granice bloków HTML, żeby parser akapitów nie wyświetlał tagów jako tekstu. */
   src = src
     .replace(/([^\n])\n(<(?:h[1-4]|blockquote|ul|ol|pre|div|hr)\b[^>]*>)/g, '$1\n\n$2')
@@ -102,6 +181,9 @@ var testCurrentIndex = 0;
 var testAttemptState = { started: false, completed: false };
 var theoreticalTestState = null;
 var current = null;
+var articleTocObserver = null;
+var articleTocHeadings = [];
+var articleTocCurrentPageId = null;
 const MOBILE_BREAKPOINT = 900; /* matches CSS @media(max-width:900px) */
 const SPECIALIZATION_TEST_COUNTER_KEY = 'psyhub-specialization-test-counter';
 const RECENT_PAGES_KEY = 'psyhub-recent-pages';
@@ -500,10 +582,11 @@ function navigate(id, replaceHistory) {
   if (!id) return;
   const item = pageMap.get(id);
   if (!item) return;
+  cleanupArticleTocObserver();
   current = id;
   addRecentPage(id);
-  if (replaceHistory) history.replaceState({id},'','#'+id);
-  else                history.pushState({id},'','#'+id);
+  if (replaceHistory) history.replaceState({id},'',buildRouteHash(id, ''));
+  else                history.pushState({id},'',buildRouteHash(id, ''));
   setActive(id);
   updateTopbarNextStep(id);
   closeSidebar();
@@ -612,7 +695,10 @@ function renderMd(text, id, item) {
       ${articleReviewMetaHtml}
     </div>
     ${emptyBanner}
-    <div class="md">${md2html(body)}</div>
+    <div class="article-layout">
+      <aside class="article-toc" id="articleToc"></aside>
+      <div class="md">${md2html(body)}</div>
+    </div>
     ${plansHtml}
     ${measurementToolsHtml}
     <div class="page-nav">${prevB}${nextB}</div>
@@ -621,7 +707,124 @@ function renderMd(text, id, item) {
   document.getElementById('progFill').style.width='0%';
   if (isEmpty) updateEmptyIndicators();
   addKeywordLinksToRenderedArticle(area.querySelector('.md'), id);
+  setupArticleToc(area, id);
   animateContentIn();
+}
+
+/* Czyści obserwatora TOC, aby uniknąć wycieków i konfliktów między podstronami. */
+function cleanupArticleTocObserver() {
+  if (articleTocObserver) {
+    articleTocObserver.disconnect();
+    articleTocObserver = null;
+  }
+  articleTocHeadings = [];
+  articleTocCurrentPageId = null;
+}
+
+/* Normalizuje tekst nagłówka do postaci bezpiecznego identyfikatora HTML. */
+function slugifyHeading(text) {
+  return (text || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+/* Rozdziela hash na identyfikator strony i opcjonalny identyfikator sekcji. */
+function parseRouteHash(rawHash) {
+  const cleanHash = (rawHash || '').replace(/^#/, '');
+  const [pageId, sectionId] = cleanHash.split('::');
+  return { pageId: pageId || '', sectionId: sectionId || '' };
+}
+
+/* Składa hash routingu strony z opcjonalnym identyfikatorem sekcji artykułu. */
+function buildRouteHash(pageId, sectionId) {
+  return `#${pageId}${sectionId ? `::${sectionId}` : ''}`;
+}
+
+/* Ustawia klasę aktywnego elementu TOC na podstawie aktualnej sekcji artykułu. */
+function setActiveTocItem(sectionId) {
+  document.querySelectorAll('.article-toc-link').forEach(link => {
+    const isActive = link.dataset.sectionId === sectionId;
+    link.classList.toggle('is-active', isActive);
+    if (isActive) link.setAttribute('aria-current', 'true');
+    else link.removeAttribute('aria-current');
+  });
+}
+
+/* Przewija do wskazanego nagłówka artykułu i synchronizuje zaznaczenie TOC. */
+function scrollToArticleSection(sectionId) {
+  if (!sectionId) return;
+  const target = document.getElementById(sectionId);
+  if (!target) return;
+  target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  setActiveTocItem(sectionId);
+}
+
+/* Buduje TOC z nagłówków H2/H3 i aktywuje podświetlanie sekcji podczas przewijania. */
+function setupArticleToc(area, pageId) {
+  cleanupArticleTocObserver();
+  const tocHost = area.querySelector('#articleToc');
+  const mdRoot = area.querySelector('.md');
+  if (!tocHost || !mdRoot) return;
+
+  const headings = [...mdRoot.querySelectorAll('h2, h3')];
+  if (!headings.length) {
+    tocHost.remove();
+    return;
+  }
+
+  const slugCounters = new Map();
+  headings.forEach((heading, index) => {
+    const baseSlug = slugifyHeading(heading.textContent) || `sekcja-${index + 1}`;
+    const count = slugCounters.get(baseSlug) || 0;
+    const slug = count === 0 ? baseSlug : `${baseSlug}-${count + 1}`;
+    slugCounters.set(baseSlug, count + 1);
+    heading.id = slug;
+  });
+
+  const tocItems = headings.map(heading => {
+    const level = heading.tagName.toLowerCase();
+    const href = buildRouteHash(pageId, heading.id);
+    return `<li class="article-toc-item ${level === 'h3' ? 'is-sub' : ''}">
+      <a href="${href}" class="article-toc-link" data-section-id="${heading.id}">${q(heading.textContent)}</a>
+    </li>`;
+  }).join('');
+
+  tocHost.innerHTML = `
+    <h2 class="article-toc-title">Spis treści</h2>
+    <ul class="article-toc-list">${tocItems}</ul>
+  `;
+
+  tocHost.addEventListener('click', event => {
+    const link = event.target.closest('.article-toc-link');
+    if (!link) return;
+    event.preventDefault();
+    const sectionId = link.dataset.sectionId || '';
+    history.replaceState({ id: pageId }, '', buildRouteHash(pageId, sectionId));
+    scrollToArticleSection(sectionId);
+  });
+
+  articleTocHeadings = headings;
+  articleTocCurrentPageId = pageId;
+  articleTocObserver = new IntersectionObserver(entries => {
+    const visible = entries
+      .filter(entry => entry.isIntersecting)
+      .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+    if (!visible.length) return;
+    const activeHeading = visible[0].target;
+    setActiveTocItem(activeHeading.id);
+  }, { rootMargin: '-10% 0px -70% 0px', threshold: [0, 1] });
+
+  headings.forEach(heading => articleTocObserver.observe(heading));
+
+  const { sectionId } = parseRouteHash(window.location.hash);
+  if (sectionId) {
+    setTimeout(() => scrollToArticleSection(sectionId), 0);
+  } else {
+    setActiveTocItem(headings[0].id);
+  }
 }
 
 const testsUI = window.PsyHubTestsUI || null;
@@ -1504,8 +1707,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
   applySearchUi();
   setupGlobalInteractions();
   animateSidebar();
-  const hash = window.location.hash.slice(1);
-  navigate(hash && pageMap.has(hash) ? hash : SITE_CONFIG.defaultPage, true);
+  const { pageId } = parseRouteHash(window.location.hash);
+  navigate(pageId && pageMap.has(pageId) ? pageId : SITE_CONFIG.defaultPage, true);
 });
 
 /* ── Theme switcher ────────────────────────── */
@@ -1538,11 +1741,19 @@ window.addEventListener('DOMContentLoaded', ()=>{
 })();
 
 window.addEventListener('popstate', e => {
-  const id = e.state?.id || window.location.hash.slice(1) || SITE_CONFIG.defaultPage;
+  const { pageId } = parseRouteHash(window.location.hash);
+  const id = e.state?.id || pageId || SITE_CONFIG.defaultPage;
   navigate(pageMap.has(id) ? id : SITE_CONFIG.defaultPage, true);
 });
 
 window.addEventListener('hashchange', () => {
-  const id = window.location.hash.slice(1) || SITE_CONFIG.defaultPage;
-  if (id !== current && pageMap.has(id)) navigate(id, true);
+  const { pageId, sectionId } = parseRouteHash(window.location.hash);
+  const id = pageId || SITE_CONFIG.defaultPage;
+  if (id !== current && pageMap.has(id)) {
+    navigate(id, true);
+    return;
+  }
+  if (id === current && sectionId && articleTocCurrentPageId === current) {
+    scrollToArticleSection(sectionId);
+  }
 });
