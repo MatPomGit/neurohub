@@ -567,6 +567,7 @@ window.SITE_CONFIG = {
         { id: 'spoleczna/agresja', label: 'Agresja', file: 'wiki/spoleczna/agresja.md' },
         { id: 'spoleczna/hejt_w_sieci', label: 'Hejt w sieci', file: 'wiki/spoleczna/hejt_w_sieci.md' },
         { id: 'spoleczna/zachowania_prospoleczne', label: 'Zachowania prospołeczne', file: 'wiki/spoleczna/zachowania_prospoleczne.md' },
+        { id: 'spoleczna/zdrowe_poczucie_wlasnej_wartosci', label: 'Zdrowe poczucie własnej wartości', file: 'wiki/spoleczna/zdrowe_poczucie_wlasnej_wartosci.md' },
       ]
     },
     {
@@ -688,6 +689,8 @@ window.SITE_CONFIG = {
         { id: 'podstawy_pomocy/modele_pomocy',                  label: 'Modele pomocy psychologicznej',        file: 'wiki/podstawy_pomocy/modele_pomocy.md'                  },
         { id: 'podstawy_pomocy/komunikacja_wspierajaca',        label: 'Komunikacja wspierająca',              file: 'wiki/podstawy_pomocy/komunikacja_wspierajaca.md'        },
         { id: 'podstawy_pomocy/wsparcie_spoleczne',             label: 'Wsparcie społeczne',                   file: 'wiki/podstawy_pomocy/wsparcie_spoleczne.md'             },
+        { id: 'podstawy_pomocy/empatia_kontra_sympatia_brene_brown', label: 'Empatia kontra sympatia (Brené Brown)', file: 'wiki/podstawy_pomocy/empatia_kontra_sympatia_brene_brown.md' },
+        { id: 'podstawy_pomocy/facylitacja',                    label: 'Facylitacja w pracy pomocowej',        file: 'wiki/podstawy_pomocy/facylitacja.md'                    },
         { id: 'podstawy_pomocy/samoopieka_pomagajacego',        label: 'Samoopieka pomagającego',              file: 'wiki/podstawy_pomocy/samoopieka_pomagajacego.md'        },
         { id: 'podstawy_pomocy/etyka_pomocy',                   label: 'Etyka pomocy psychologicznej',         file: 'wiki/podstawy_pomocy/etyka_pomocy.md'                   },
       ]
@@ -832,6 +835,8 @@ window.SITE_CONFIG = {
         { id: 'diagnostics/neuropsych_battery',label: 'Baterie neuropsychologiczne',file: 'wiki/diagnostics/neuropsych_battery.md'},
         { id: 'diagnostics/rdoc',              label: 'Model RDoC',                  file: 'wiki/diagnostics/rdoc.md'              },
         { id: 'diagnostics/scid_v',            label: 'SCID-5 / SCID-V',             file: 'wiki/diagnostics/scid_v.md'            },
+        { id: 'diagnostics/diagnoza_techniki_rozmowy_psychologicznej', label: 'Diagnoza: techniki rozmowy psychologicznej', file: 'artykul_diagnoza_techniki_rozmowy_psychologicznej.md' },
+        { id: 'diagnostics/apis_zr',           label: 'APIS-ZR — zastosowanie w diagnozie', file: 'artykul_apis_zr.md' },
       ]
     },
     {
@@ -1081,6 +1086,7 @@ window.SITE_CONFIG = {
         { id: 'psychotherapy/rebt',                    label: 'REBT — racjonalna terapia',            file: 'wiki/psychotherapy/rebt.md'                     },
         { id: 'psychotherapy/psychologiczne_mechanizmy_przebaczenia', label: 'Mechanizmy przebaczenia po przemocy emocjonalnej', file: 'wiki/psychotherapy/psychologiczne_mechanizmy_przebaczenia.md' },
         { id: 'psychotherapy/superwizja',              label: 'Superwizja w psychoterapii',           file: 'wiki/psychotherapy/superwizja.md'           },
+        { id: 'psychotherapy/kontenerowanie_emocji',   label: 'Kontenerowanie emocji w terapii',      file: 'artykul_kontenerowanie_emocji.md'           },
       ]
     },
     {
@@ -1130,6 +1136,10 @@ window.SITE_CONFIG = {
         { id: 'suicidology/nssi',                      label: 'Samookaleczenia (NSSI)',        file: 'wiki/suicidology/nssi.md'                      },
         { id: 'suicidology/postvention',               label: 'Postvention',                  file: 'wiki/suicidology/postvention.md'               },
         { id: 'suicidology/media',                     label: 'Efekt Wertera i Papageno',     file: 'wiki/suicidology/media.md'                     },
+        { id: 'suicidology/biologiczne_neurobiologiczne_podstawy', label: 'Biologiczne i neurobiologiczne podstawy', file: 'artykul_biologiczne_neurobiologiczne_podstawy_zachowan_suicydalnych.md' },
+        { id: 'suicidology/genetyczne_i_epigenetyczne_uwarunkowania', label: 'Genetyczne i epigenetyczne uwarunkowania', file: 'artykul_genetyczne_i_epigenetyczne_uwarunkowania_suicydalnosci.md' },
+        { id: 'suicidology/psychopatologia_a_ryzyko',  label: 'Psychopatologia a ryzyko samobójstwa', file: 'artykul_psychopatologia_a_ryzyko_samobojstwa.md' },
+        { id: 'suicidology/trauma_ace_i_stres_chroniczny', label: 'Trauma ACE i stres chroniczny', file: 'artykul_trauma_ace_i_stres_chroniczny_a_ryzyko_samobojstwa.md' },
       ]
     },
     {
@@ -1247,6 +1257,7 @@ window.SITE_CONFIG = {
       domainKey: 'technology_psychology',
       items: [
         { id: 'technology_psychology/technostres', label: 'Technostres — artykuł naukowy', file: 'wiki/technology_psychology/technostres.md' },
+        { id: 'technology_psychology/zdrada_technologii', label: 'Zdrada technologii', file: 'wiki/technology_psychology/zdrada_technologii.md' },
         { id: 'wiki-index/psychologia_technologii', label: 'WIKI — Psychologia technologii', wiki: 'psychologia_technologii' },
       ]
     },
