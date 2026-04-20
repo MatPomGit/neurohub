@@ -1,7 +1,7 @@
 # PsyHub — TODO (realny plan pracy)
 
-> Ostatnia aktualizacja: 2026-04-10  
-> Źródło weryfikacji: `app.js`, `index.html`, `site-config.js`
+> Ostatnia aktualizacja: 2026-04-20  
+> Źródło weryfikacji: `app.js`, `index.html`, `site-config.js`, komendy CLI (Node.js)
 
 ## Done (zweryfikowane)
 
@@ -35,37 +35,28 @@
   **Priorytet:** P0  
   **Definition of Done:** Ustalony i udokumentowany jeden aktywny plik źródłowy logiki aplikacji; duplikaty usunięte lub automatycznie generowane.
 
-## To verify
-
-- [ ] **Status „live” rzeczywiście oznacza „niepusty artykuł” dla całego repo wiki.**  
+- [x] **Status „live” rzeczywiście oznacza „niepusty artykuł” dla całego repo wiki.**  
   **Właściciel:** Content QA  
   **Priorytet:** P1  
-  **Definition of Done:** Raport pokazuje 0 przypadków `status: 'live'` dla plików pustych lub brakujących.
+  **Definition of Done:** Raport pokazuje 0 przypadków `status: 'live'` dla plików pustych lub brakujących.  
+  **Weryfikacja:** 2026-04-20, `node tools/check_content.js --min-chars 1` → wynik: `errors: 0`, `warnings: 0`.
+
+## To verify
 
 - [ ] **Spójność mapowania: każdy wpis `nav` ma odpowiadający wpis planu w tej samej domenie (lub uzasadniony wyjątek).**  
   **Właściciel:** Content + Config  
   **Priorytet:** P2  
-  **Definition of Done:** Automatyczna walidacja wykazuje brak niespójności nav↔plans.
+  **Definition of Done:** Automatyczna walidacja wykazuje brak niespójności nav↔plans.  
+  **Weryfikacja:** 2026-04-20, `node -e "const fs=require('fs');const vm=require('vm');const code=fs.readFileSync('site-config.js','utf8');const s={window:{}};vm.createContext(s);vm.runInContext(code,s);const c=s.window.SITE_CONFIG;const issues=[];for(const sec of c.nav||[]){const plan=c.plans?.[sec.domainKey];if(!plan){issues.push('missing-plan:'+sec.domainKey);continue;}const ids=new Set((Array.isArray(plan)?plan:[]).map(e=>e&&e.id).filter(Boolean));for(const item of sec.items||[]){if(item?.id&&!ids.has(item.id))issues.push('missing-id:'+sec.domainKey+':'+item.id);}}console.log('issues='+issues.length);process.exit(issues.length===0?0:1);"` → wynik: `issues=568` (pozycja nadal otwarta).
 
+## Plan techniczny
 
-## Roadmap — katalog narzędzi
-
-- [ ] **Etap 1: dziedziny z gotową bazą testową** (`diagnostics`, `psychometrics`, `disorders`, `neuro`, `spoleczna`).  
-  **Właściciel:** Content + Config  
-  **Priorytet:** P1  
-  **Definition of Done:** Każda z wymienionych dziedzin ma komplet wpisów spełniających DoD i uzupełnione `updatedAt`.
-
-- [ ] **Etap 2: pozostałe dziedziny** (uzupełnianie listy `measurementToolsTodoDomains`).  
-  **Właściciel:** Content + Config  
-  **Priorytet:** P2  
-  **Definition of Done:** Każda domena z listy TODO ma co najmniej startowy zestaw narzędzi + datę `updatedAt`.
+### Roadmap — katalog narzędzi
 
 - [ ] **Etap 3: filtry i eksport** (UI/UX i operacje na danych katalogu).  
   **Właściciel:** Frontend + Tooling  
   **Priorytet:** P2  
   **Definition of Done:** Dostępne filtrowanie po typie/licencji/evidence level oraz eksport danych (np. CSV/JSON).
-
-## Planned
 
 - [ ] **Wyszukiwanie pełnotekstowe po treści artykułów (nie tylko po etykietach nawigacji).**  
   **Właściciel:** Frontend  
@@ -107,14 +98,29 @@
   **Priorytet:** P3  
   **Definition of Done:** CLI przyjmuje domenę i tytuł, tworzy plik `.md` z gotowym szkieletem sekcji i metadanych.
 
-- [ ] **Nowa zakładka z 12 artykułami 'Somatic Experiencing jako metoda pracy ze stresem i traumą'**
-- [ ] **Nowa zakładka z 12 artykułami 'Wstęp do psychologii klinicznej dziecka'**
-- [ ] **Nowa zakładka z 12 artykułami 'Reagowanie na krytykę'**
-- [ ] **Nowa zakładka z 12 artykułami 'Psychologia nadmiernego jedzenia'**
-- [ ] **Nowa zakładka z 12 artykułami 'Instytucje pomocy dziecku i rodzinie'**
-- [ ] **Nowa zakładka z 12 artykułami 'Systemy rodzinne'**
-- [ ] **Nowa zakładka z 12 artykułami 'Wystapienia publiczne i autoprezentacja'**
-- [ ] **Nowa zakładka z 12 artykułami 'Psycholog w IT'**
-- [ ] **Nowa zakładka z 12 artykułami 'Resocjalizacja'**
-- [ ] Artykuł dotyczący zachowania i dwóch półkul mózgu.
-- [ ] Addon // mały stworek chodzący po stronie
+- [ ] **Addon // mały stworek chodzący po stronie**
+
+## Plan contentowy
+
+### Roadmap — katalog narzędzi
+
+- [ ] **Etap 1: dziedziny z gotową bazą testową** (`diagnostics`, `psychometrics`, `disorders`, `neuro`, `spoleczna`).  
+  **Właściciel:** Content + Config  
+  **Priorytet:** P1  
+  **Definition of Done:** Każda z wymienionych dziedzin ma komplet wpisów spełniających DoD i uzupełnione `updatedAt`.
+
+- [ ] **Etap 2: pozostałe dziedziny** (uzupełnianie listy `measurementToolsTodoDomains`).  
+  **Właściciel:** Content + Config  
+  **Priorytet:** P2  
+  **Definition of Done:** Każda domena z listy TODO ma co najmniej startowy zestaw narzędzi + datę `updatedAt`.
+
+- [ ] **Nowa zakładka z 12 artykułami „Somatic Experiencing jako metoda pracy ze stresem i traumą”**
+- [ ] **Nowa zakładka z 12 artykułami „Wstęp do psychologii klinicznej dziecka”**
+- [ ] **Nowa zakładka z 12 artykułami „Reagowanie na krytykę”**
+- [ ] **Nowa zakładka z 12 artykułami „Psychologia nadmiernego jedzenia”**
+- [ ] **Nowa zakładka z 12 artykułami „Instytucje pomocy dziecku i rodzinie”**
+- [ ] **Nowa zakładka z 12 artykułami „Systemy rodzinne”**
+- [ ] **Nowa zakładka z 12 artykułami „Wystąpienia publiczne i autoprezentacja”**
+- [ ] **Nowa zakładka z 12 artykułami „Psycholog w IT”**
+- [ ] **Nowa zakładka z 12 artykułami „Resocjalizacja”**
+- [ ] **Artykuł dotyczący zachowania i dwóch półkul mózgu.**
