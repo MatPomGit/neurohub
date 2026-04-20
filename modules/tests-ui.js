@@ -1,6 +1,31 @@
 (function(){
 'use strict';
 
+/*
+ * Weryfikuje obecność API przeglądarki wymaganych przez ten moduł.
+ * Jeśli plik zostanie uruchomiony w czystym Node, rzucamy czytelny błąd
+ * z instrukcją użycia środowiska browser/jsdom.
+ */
+function ensureBrowserRuntime() {
+  const hasWindow = typeof window !== 'undefined';
+  const hasDocument = typeof document !== 'undefined' && document !== null;
+  const hasDomEvents = hasWindow && typeof window.addEventListener === 'function';
+
+  if (hasWindow && hasDocument && hasDomEvents) {
+    return true;
+  }
+
+  const message = [
+    '[PsyHub][tests-ui] Wykryto brak środowiska DOM (window/document/zdarzenia).',
+    'Ten moduł uruchamiaj w przeglądarce albo przez jsdom runner:',
+    '  node tools/run-ui-tests-jsdom.js'
+  ].join('\n');
+
+  throw new Error(message);
+}
+
+ensureBrowserRuntime();
+
 /* Zwraca panel skrótów klawiaturowych zależny od trybu testu. */
 function renderKeyboardHints(mode) {
   const common = '<span><kbd>←</kbd>/<kbd>→</kbd> nawigacja</span>';
