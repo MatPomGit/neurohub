@@ -6,8 +6,10 @@
 /* ══════════════════════════════════════════════════
    MINI MARKDOWN PARSER
 ══════════════════════════════════════════════════ */
-function md2html(src) {
+function md2html(src, currentFilePath = '') {
   const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  /* Escapuje wartości atrybutów HTML, aby bezpiecznie wstawiać href. */
+  const escAttr = s => String(s || '').replace(/&/g,'&amp;').replace(/"/g,'&quot;');
   const footnoteDefs = new Map();
   const footnoteOrder = [];
   const footnoteIndex = new Map();
@@ -34,7 +36,10 @@ function md2html(src) {
       .replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
       .replace(/\*(.+?)\*/g,'<em>$1</em>')
       .replace(/`(.+?)`/g,'<code>$1</code>')
-      .replace(/\[([^\]]+)\]\(([^)]+)\)/g,'<a href="$2">$1</a>');
+      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, label, href) => {
+        const resolvedHref = resolveArticleLinkHref(href, currentFilePath);
+        return `<a href="${escAttr(resolvedHref)}">${label}</a>`;
+      });
     if (opts.parseFootnotes !== false) {
       s = s.replace(/\[\^([^\]\s]+)\]/g, (_, id) => {
         const no = getFootnoteNumber(id);
@@ -170,10 +175,83 @@ function md2html(src) {
   return src;
 }
 
+/* Buduje mapę ścieżka-pliku -> id strony dla artykułów znajdujących się w nawigacji. */
+function buildArticleFileToIdMap() {
+  if (articleFileToIdMapCache) return articleFileToIdMapCache;
+  const map = new Map();
+  pageMap.forEach((entry, id) => {
+    if (!entry?.file) return;
+    map.set(normalizePathForArticleLookup(entry.file), id);
+  });
+  articleFileToIdMapCache = map;
+  return articleFileToIdMapCache;
+}
+
+/* Normalizuje ścieżki do wspólnego formatu porównawczego (slash, brak prefiksu "./"). */
+function normalizePathForArticleLookup(rawPath) {
+  return String(rawPath || '')
+    .replace(/\\/g, '/')
+    .replace(/^\.\//, '')
+    .replace(/\/{2,}/g, '/');
+}
+
+/* Upraszcza segmenty "." oraz ".." w ścieżce względnej bez dostępu do API Node. */
+function normalizeRelativePath(baseDir, rawTarget) {
+  const baseSegments = normalizePathForArticleLookup(baseDir).split('/').filter(Boolean);
+  const targetSegments = normalizePathForArticleLookup(rawTarget).split('/').filter(Boolean);
+  const output = [...baseSegments];
+  targetSegments.forEach(segment => {
+    if (segment === '.') return;
+    if (segment === '..') {
+      output.pop();
+      return;
+    }
+    output.push(segment);
+  });
+  return output.join('/');
+}
+
+/* Tłumaczy odnośniki markdown do formy hash-route, jeśli wskazują istniejące artykuły PsyHub. */
+function resolveArticleLinkHref(rawHref, currentFilePath) {
+  const href = String(rawHref || '').trim();
+  if (!href) return href;
+  if (/^(https?:|mailto:|tel:|data:|javascript:)/i.test(href)) return href;
+
+  const [pathPart, fragmentPart] = href.split('#');
+  const pageIdFromHash = pathPart ? '' : (fragmentPart || '').split('::')[0];
+  if (!pathPart && pageIdFromHash && pageMap.has(pageIdFromHash)) {
+    return `#${fragmentPart || ''}`;
+  }
+
+  const fileToId = buildArticleFileToIdMap();
+  const rawPathPart = String(pathPart || '');
+  const normalizedPathPart = normalizePathForArticleLookup(rawPathPart);
+
+  const directById = normalizedPathPart.replace(/^#/, '');
+  if (directById && pageMap.has(directById)) {
+    return `#${directById}${fragmentPart ? `::${fragmentPart}` : ''}`;
+  }
+
+  let resolvedFilePath = normalizedPathPart;
+  if (rawPathPart.startsWith('./') || rawPathPart.startsWith('../')) {
+    const baseDir = normalizePathForArticleLookup(currentFilePath).split('/').slice(0, -1).join('/');
+    resolvedFilePath = normalizeRelativePath(baseDir, rawPathPart);
+  }
+
+  const normalizedFile = normalizePathForArticleLookup(resolvedFilePath);
+  if (normalizedFile.endsWith('.md') && fileToId.has(normalizedFile)) {
+    const pageId = fileToId.get(normalizedFile);
+    return `#${pageId}${fragmentPart ? `::${fragmentPart}` : ''}`;
+  }
+
+  return href;
+}
+
 /* ══════════════════════════════════════════════════
    PAGE MAP & ROUTING
 ══════════════════════════════════════════════════ */
 var pageMap = new Map();
+var articleFileToIdMapCache = null;
 var mdCache = new Map();
 var emptyArticles = new Set();   /* IDs of articles whose files są puste lub niedostępne. */
 var testAnswers = [];
@@ -286,6 +364,7 @@ function updateTopbarNextStep(id) {
 }
 
 function buildPageMap() {
+  articleFileToIdMapCache = null;
   for (const sec of SITE_CONFIG.nav)
     for (const item of sec.items)
       pageMap.set(item.id, {
@@ -703,7 +782,7 @@ function renderMd(text, id, item) {
     ${emptyBanner}
     <div class="article-layout">
       <aside class="article-toc" id="articleToc"></aside>
-      <div class="md">${md2html(body)}</div>
+      <div class="md">${md2html(body, item.file || '')}</div>
     </div>
     ${plansHtml}
     ${measurementToolsHtml}
