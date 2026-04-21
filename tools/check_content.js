@@ -276,6 +276,102 @@ function runDuplicatesAndDeadEntriesCheck(siteConfig, report) {
   pushOk(report, 'duplicates-dead-entries', 'Zakończono analizę duplikatów i martwych wpisów.');
 }
 
+/* Buduje indeks relacji file <-> id na bazie wpisów posiadających oba pola. */
+function buildFileIdIndexes(collected) {
+  const idToFile = new Map();
+  const fileToId = new Map();
+
+  collected.forEach(({ value }) => {
+    const id = typeof value?.id === 'string' ? value.id.trim() : '';
+    const file = typeof value?.file === 'string' ? value.file.trim() : '';
+    if (!id || !file) return;
+    idToFile.set(id, file);
+    fileToId.set(file, id);
+  });
+
+  return { idToFile, fileToId };
+}
+
+/* Ekstrahuje odnośniki markdown z pominięciem obrazów i zwraca tylko adresy href. */
+function extractMarkdownLinks(markdownText) {
+  const links = [];
+  const regex = /(?<!!)\[[^\]]*\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
+  let match;
+  while ((match = regex.exec(markdownText)) !== null) {
+    links.push(match[1]);
+  }
+  return links;
+}
+
+/* Sprawdza spójność linków markdown względem istniejących plików i routingu SPA. */
+function runInternalMarkdownLinksCheck(siteConfig, report) {
+  const collected = collectObjects(siteConfig);
+  const { idToFile, fileToId } = buildFileIdIndexes(collected);
+  const candidateFiles = new Set();
+
+  collected.forEach(({ value }) => {
+    const resolved = resolveEntryFile(value, idToFile);
+    if (resolved && resolved.endsWith('.md')) candidateFiles.add(resolved);
+  });
+
+  const knownIds = new Set(
+    collected
+      .map(({ value }) => (typeof value?.id === 'string' ? value.id.trim() : ''))
+      .filter(Boolean)
+  );
+  const allowedSchemes = /^(https?:|mailto:|tel:|data:|javascript:)/i;
+  let checkedLinks = 0;
+
+  candidateFiles.forEach(markdownFile => {
+    const absFilePath = path.join(repoRoot, markdownFile);
+    if (!fs.existsSync(absFilePath)) return;
+    const content = fs.readFileSync(absFilePath, 'utf8');
+    const links = extractMarkdownLinks(content);
+    const currentDir = path.dirname(markdownFile);
+
+    links.forEach(rawHref => {
+      const href = String(rawHref || '').trim();
+      if (!href || allowedSchemes.test(href)) return;
+      checkedLinks += 1;
+
+      if (href.startsWith('#')) {
+        const hash = href.slice(1);
+        const [pageId] = hash.split('::');
+        if (pageId && !knownIds.has(pageId) && !pageId.startsWith('fn-') && !pageId.startsWith('fnref-')) {
+          pushError(report, 'internal-markdown-links', `Nieznany identyfikator strony w linku hash: "${href}"`, { markdownFile });
+        }
+        return;
+      }
+
+      const [pathPart] = href.split('#');
+      if (knownIds.has(pathPart)) return;
+
+      let resolvedPath = pathPart;
+      if (pathPart.startsWith('./') || pathPart.startsWith('../')) {
+        resolvedPath = path.normalize(path.join(currentDir, pathPart)).replace(/\\/g, '/');
+      }
+
+      if (!resolvedPath.endsWith('.md')) return;
+      const absLinkedFile = path.join(repoRoot, resolvedPath);
+      if (!fs.existsSync(absLinkedFile)) {
+        pushError(report, 'internal-markdown-links', `Link wskazuje nieistniejący plik: "${resolvedPath}"`, { markdownFile });
+        return;
+      }
+
+      if (resolvedPath.startsWith('wiki/') && !fileToId.has(resolvedPath)) {
+        pushWarning(
+          report,
+          'internal-markdown-links',
+          `Link wskazuje plik wiki bez mapowania w nawigacji: "${resolvedPath}"`,
+          { markdownFile }
+        );
+      }
+    });
+  });
+
+  pushOk(report, 'internal-markdown-links', `Sprawdzono linki markdown: ${checkedLinks}.`);
+}
+
 /* Wypisuje raport szczegółowy oraz podsumowanie errors/warnings/ok. */
 function printReport(report) {
   report.errors.forEach(issue => {
@@ -329,6 +425,7 @@ function main() {
     runFileExistenceCheck(siteConfig, report);
     runMinimumVolumeCheck(siteConfig, report, minChars);
     runDuplicatesAndDeadEntriesCheck(siteConfig, report);
+    runInternalMarkdownLinksCheck(siteConfig, report);
 
     printReport(report);
     process.exit(report.errors.length > 0 ? 1 : 0);
