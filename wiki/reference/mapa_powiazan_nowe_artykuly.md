@@ -12,23 +12,23 @@ Poniższa mapa porządkuje relacje między nowo dodanymi artykułami a aktualnym
 
 ## Definicje
 
-- **Cross-link** — celowe połączenie tematyczne między artykułami (identyfikatorami stron).
+- **Odnośnik krzyżowy** — celowe połączenie tematyczne między artykułami (identyfikatorami stron).
 - **Węzeł główny** — nowy artykuł stanowiący punkt wejścia do grupy tematów.
 - **Węzeł wspierający** — istniejący artykuł, który pogłębia wybrany aspekt tematu.
 
 ## Analiza
 
-| Nowy artykuł (węzeł główny) | Najbliższe działy | Cross-linki do istniejących artykułów | Uzasadnienie powiązania |
+| Nowy artykuł (węzeł główny) | Najbliższe działy | Odnośniki do istniejących artykułów | Uzasadnienie powiązania |
 |---|---|---|---|
-| `psychotherapy/somatic_experiencing` | Psychoterapia, Psychopatologia, Psychologia zdrowia | `psychotherapy/emdr`, `psychotherapy/systemowa`, `psychopathology/trauma_ptsd`, `health_psychology/stres` | Wspólny rdzeń: trauma, regulacja pobudzenia, interwencje kliniczne. |
-| `psychotherapy/systemy_rodzinne` | Psychoterapia, Relacje, Uzależnienia | `psychotherapy/systemowa`, `relacje/relacje_rodzinne`, `uzaleznienia/rodzina_w_uzaleznieniach` | Wspólny rdzeń: dynamika rodziny, role, granice, sprzężenia zwrotne. |
-| `students/wystapienia_publiczne_autoprezentacja` | Dla studentów, Psychologia społeczna | `students/sciezki_kariery`, `spoleczna/perswazja`, `spoleczna/ja_i_samoocena` | Wspólny rdzeń: wpływ społeczny, lęk przed oceną, kompetencje zawodowe. |
-| `students/psycholog_w_it` | Dla studentów, Psychologia technologii i dobrostan cyfrowy | `students/sciezki_kariery`, `technology_psychology/technologia_w_pracy`, `technology_psychology/algorytmy_a_samoocena` | Wspólny rdzeń: ścieżki kariery, metodologia badań, etyka technologii. |
-| `neuro/zachowanie_i_dwie_polkule_mozgu` | Neurobiologia, Funkcje poznawcze, Przypadki kliniczne | `neuro/lateralizacja`, `cases/split_brain`, `cognitive/system1_system2`, `neuro/neuronauka_poznawcza` | Wspólny rdzeń: lateralizacja, integracja międzypółkulowa, neuromity. |
+| [`psychotherapy/somatic_experiencing`](../psychotherapy/somatic_experiencing.md) | Psychoterapia, Psychopatologia, Psychologia zdrowia | [`psychotherapy/emdr`](../psychotherapy/emdr.md), [`psychotherapy/systemowa`](../psychotherapy/systemowa.md), [`psychopathology/trauma_ptsd`](../psychopathology/trauma_ptsd.md), [`health_psychology/stres`](../health_psychology/stres.md) | Wspólny rdzeń: trauma, regulacja pobudzenia, interwencje kliniczne. |
+| [`psychotherapy/systemy_rodzinne`](../psychotherapy/systemy_rodzinne.md) | Psychoterapia, Relacje, Uzależnienia | [`psychotherapy/systemowa`](../psychotherapy/systemowa.md), [`relacje/relacje_rodzinne`](../relacje/relacje_rodzinne.md), [`uzaleznienia/rodzina_w_uzaleznieniach`](../uzaleznienia/rodzina_w_uzaleznieniach.md) | Wspólny rdzeń: dynamika rodziny, role, granice, sprzężenia zwrotne. |
+| [`students/wystapienia_publiczne_autoprezentacja`](../students/wystapienia_publiczne_autoprezentacja.md) | Dla studentów, Psychologia społeczna | [`students/sciezki_kariery`](../students/sciezki_kariery.md), [`spoleczna/perswazja`](../spoleczna/perswazja.md), [`spoleczna/ja_i_samoocena`](../spoleczna/ja_i_samoocena.md) | Wspólny rdzeń: wpływ społeczny, lęk przed oceną, kompetencje zawodowe. |
+| [`students/psycholog_w_it`](../students/psycholog_w_it.md) | Dla studentów, Psychologia technologii i dobrostan cyfrowy | [`students/sciezki_kariery`](../students/sciezki_kariery.md), [`technology_psychology/technologia_w_pracy`](../technology_psychology/technologia_w_pracy.md), [`technology_psychology/algorytmy_a_samoocena`](../technology_psychology/algorytmy_a_samoocena.md) | Wspólny rdzeń: ścieżki kariery, metodologia badań, etyka technologii. |
+| [`neuro/zachowanie_i_dwie_polkule_mozgu`](../neuro/zachowanie_i_dwie_polkule_mozgu.md) | Neurobiologia, Funkcje poznawcze, Przypadki kliniczne | [`neuro/lateralizacja`](../neuro/lateralizacja.md), [`cases/split_brain`](../cases/split_brain.md), [`cognitive/system1_system2`](../cognitive/system1_system2.md), [`neuro/neuronauka_poznawcza`](../neuro/neuronauka_poznawcza.md) | Wspólny rdzeń: lateralizacja, integracja międzypółkulowa, neuromity. |
 
 ## Dobra praktyka
 
-Redaktor publikując nowy materiał od razu dodaje 3–5 cross-linków do działów pokrewnych i sprawdza, czy linkowane teksty nie powielają definicji.
+Redaktor publikując nowy materiał od razu dodaje 3–5 odnośników krzyżowych do działów pokrewnych i sprawdza, czy linkowane teksty nie powielają definicji.
 
 **Konsekwencje:** krótsza ścieżka nawigacji użytkownika, wyższa spójność pojęciowa, mniej osieroconych artykułów.
 
@@ -40,11 +40,14 @@ Nowe teksty są publikowane bez mapy powiązań, a podobne treści są rozwijane
 
 ## Perspektywa nieoczywista
 
-Cross-linki nie są tylko elementem UX. W projekcie edukacyjnym pełnią funkcję „struktury epistemicznej”: pokazują, że wiedza psychologiczna jest siecią zależności między poziomem biologicznym, społecznym, klinicznym i zawodowym.
+Odnośniki krzyżowe nie są tylko elementem UX. W projekcie edukacyjnym pełnią funkcję „struktury epistemicznej”: pokazują, że wiedza psychologiczna jest siecią zależności między poziomem biologicznym, społecznym, klinicznym i zawodowym.
 
 ## Podsumowanie
 
 Nowe artykuły zostały osadzone w istniejącym ekosystemie PsyHub poprzez mapę relacji tematycznych. Taki układ ułatwia czytelnikom przechodzenie od definicji do zastosowań oraz wspiera dalszą rozbudowę portalu bez utraty spójności.
+
+
+Dla przeglądu treści wymagających dalszego podlinkowania zobacz raport: [`raport_artykuly_bez_odnosnikow`](./raport_artykuly_bez_odnosnikow.md).
 
 ## Bibliografia
 
