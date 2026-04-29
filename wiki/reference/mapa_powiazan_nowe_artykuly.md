@@ -46,6 +46,9 @@ Odnośniki krzyżowe nie są tylko elementem UX. W projekcie edukacyjnym pełni�
 
 Nowe artykuły zostały osadzone w istniejącym ekosystemie PsyHub poprzez mapę relacji tematycznych. Taki układ ułatwia czytelnikom przechodzenie od definicji do zastosowań oraz wspiera dalszą rozbudowę portalu bez utraty spójności.
 
+
+Dla przeglądu treści wymagających dalszego podlinkowania zobacz raport: [`raport_artykuly_bez_odnosnikow`](./raport_artykuly_bez_odnosnikow.md).
+
 ## Bibliografia
 
 1. American Psychological Association. (2020). *Publication Manual of the American Psychological Association* (7th ed.).
