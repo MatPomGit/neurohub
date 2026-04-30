@@ -253,6 +253,33 @@ function resolveArticleLinkHref(rawHref, currentFilePath) {
 var pageMap = new Map();
 var articleFileToIdMapCache = null;
 var mdCache = new Map();
+
+/* Pobiera treść artykułu, stosując kilka wariantów ścieżki dla zgodności z różnymi środowiskami hostingu. */
+async function fetchArticleMarkdown(filePath) {
+  const normalized = String(filePath || '').trim();
+  const candidates = [
+    normalized,
+    normalized.startsWith('./') ? normalized : `./${normalized}`,
+    encodeURI(normalized),
+    normalized.startsWith('./') ? encodeURI(normalized) : `./${encodeURI(normalized)}`,
+  ].filter(Boolean);
+
+  let lastError = null;
+  for (const candidate of [...new Set(candidates)]) {
+    try {
+      const response = await fetch(candidate, { cache: 'no-cache' });
+      if (response.ok) {
+        return { text: await response.text(), resolvedPath: candidate };
+      }
+      lastError = new Error(`HTTP ${response.status} for ${candidate}`);
+    } catch (error) {
+      lastError = error;
+    }
+  }
+
+  throw lastError || new Error(`Nie udało się pobrać pliku: ${normalized}`);
+}
+
 var emptyArticles = new Set();   /* IDs of articles whose files są puste lub niedostępne. */
 var testAnswers = [];
 var testCurrentIndex = 0;
@@ -697,9 +724,9 @@ async function loadMd(id, item) {
 
   let markdownText = null;
   try {
-    const r = await fetch(item.file);
-    if (!r.ok) throw new Error('HTTP '+r.status);
-    markdownText = await r.text();
+    /* Pobieramy markdown przez helper z fallbackami ścieżek, aby zwiększyć niezawodność na hostingu statycznym. */
+    const fetched = await fetchArticleMarkdown(item.file);
+    markdownText = fetched.text;
     mdCache.set(item.file, markdownText);
     const parsed = parseArticleFrontmatter(markdownText);
     if (isBodyEmpty(parsed.body)) { emptyArticles.add(id); updateEmptyIndicators(); }
@@ -1546,9 +1573,9 @@ async function ensureFullTextSearchIndex() {
       try {
         let markdownText = mdCache.get(item.file);
         if (!markdownText) {
-          const response = await fetch(item.file);
-          if (!response.ok) return;
-          markdownText = await response.text();
+          /* Używamy tej samej logiki fallbacków, aby indeks pełnotekstowy nie gubił pojedynczych artykułów. */
+          const fetched = await fetchArticleMarkdown(item.file);
+          markdownText = fetched.text;
           mdCache.set(item.file, markdownText);
         }
         const parsed = parseArticleFrontmatter(markdownText);
