@@ -111,10 +111,10 @@ function renderSpecializationTest(id, item) {
         <div class="test-meta">Udzielone odpowiedzi: <strong>${answered}/${total}</strong></div>
         <div class="test-meta">Wypełnione podejścia łącznie: <strong>${counter.totalCompleted}</strong> · Dzisiaj: <strong>${todayCount}</strong></div>
         <div class="test-actions ttest-sticky">
-          <button class="test-btn" onclick="resetSpecializationTest()">Wyczyść odpowiedzi</button>
-          <button class="test-btn" onclick="goToPrevQuestion()" ${testCurrentIndex===0?'disabled':''}>Poprzednie pytanie</button>
-          <button class="test-btn primary" onclick="goToNextQuestion()" ${testCurrentIndex===total-1?'disabled':''}>Następne pytanie</button>
-          <button class="test-btn" onclick="jumpToFirstUnanswered()" ${answered===total?'disabled':''}>Pierwsze nieuzupełnione</button>
+          <button class="test-btn" onclick="resetSpecializationTest()" title="Wyczyść wszystkie odpowiedzi i zacznij od nowa">Wyczyść odpowiedzi</button>
+          <button class="test-btn" onclick="goToPrevQuestion()" ${testCurrentIndex===0?'disabled':''} aria-label="Przejdź do poprzedniego pytania testu specjalności">← Poprzednie pytanie</button>
+          <button class="test-btn primary" onclick="goToNextQuestion()" ${testCurrentIndex===total-1?'disabled':''} aria-label="Przejdź do kolejnego pytania testu specjalności">Następne pytanie →</button>
+          <button class="test-btn" onclick="jumpToFirstUnanswered()" ${answered===total?'disabled':''} title="Skocz do pierwszego pytania bez odpowiedzi">Pierwsze nieuzupełnione</button>
         </div>
         ${currentQ}
         ${resultsBlock}
@@ -478,10 +478,10 @@ function renderTheoreticalTest(id, item) {
             <div class="ttest-answers">${optHtml}</div>
           </div>
           <div class="ttest-nav ttest-sticky">
-            <button class="ttest-nav-btn" onclick="ttPrev()" ${st.currentIndex === 0 ? 'disabled' : ''}>← Poprzednie</button>
-            <button class="ttest-nav-btn primary" onclick="ttNext()" ${(st.currentIndex === total - 1 || st.answers[st.currentIndex] === null) ? 'disabled' : ''}>Następne →</button>
-            <button class="ttest-nav-btn" onclick="ttFirstUnanswered()" ${canFinish ? 'disabled' : ''}>Pierwsze bez odpowiedzi</button>
-            <button class="ttest-nav-btn" onclick="ttFinish()" ${!canFinish ? 'disabled' : ''} style="margin-left:auto">Zakończ test ✓</button>
+            <button class="ttest-nav-btn" onclick="ttPrev()" ${st.currentIndex === 0 ? 'disabled' : ''} aria-label="Przejdź do poprzedniego pytania">← Poprzednie pytanie</button>
+            <button class="ttest-nav-btn primary" onclick="ttNext()" ${(st.currentIndex === total - 1 || st.answers[st.currentIndex] === null) ? 'disabled' : ''} aria-label="Przejdź do kolejnego pytania">Kolejne pytanie →</button>
+            <button class="ttest-nav-btn" onclick="ttFirstUnanswered()" ${canFinish ? 'disabled' : ''} title="Przenieś do pierwszego pytania bez odpowiedzi">Pierwsze bez odpowiedzi</button>
+            <button class="ttest-nav-btn" onclick="ttFinish()" ${!canFinish ? 'disabled' : ''} style="margin-left:auto" title="Zakończ i sprawdź wynik testu">Zakończ test i zobacz wynik ✓</button>
           </div>
         </section>
       </div>
