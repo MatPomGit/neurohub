@@ -685,24 +685,25 @@ function setupSidebarInteractions() {
 
 /* ── Navigate ──────────────────────────────── */
 function navigate(id, replaceHistory) {
-  if (!id) return;
-  const item = pageMap.get(id);
+  const normalizedId = normalizePageId(id);
+  if (!normalizedId) return;
+  const item = pageMap.get(normalizedId);
   if (!item) return;
   /* Dla każdej zmiany podstrony wymuszamy start od góry, aby UX było przewidywalne. */
   window.scrollTo(0, 0);
   cleanupArticleTocObserver();
-  current = id;
-  addRecentPage(id);
-  if (replaceHistory) history.replaceState({id},'',buildRouteHash(id, ''));
-  else                history.pushState({id},'',buildRouteHash(id, ''));
-  setActive(id);
-  updateTopbarNextStep(id);
+  current = normalizedId;
+  addRecentPage(normalizedId);
+  if (replaceHistory) history.replaceState({id: normalizedId},'',buildRouteHash(normalizedId, ''));
+  else                history.pushState({id: normalizedId},'',buildRouteHash(normalizedId, ''));
+  setActive(normalizedId);
+  updateTopbarNextStep(normalizedId);
   closeSidebar();
-  if (item.file)       loadMd(id, item);
-  else if (item.custom === 'specialization_test') renderSpecializationTest(id, item);
-  else if (item.custom === 'daily_psychology')    renderDailyPsychology(id, item);
-  else if (item.custom === 'theoretical_test')    renderTheoreticalTest(id, item);
-  else if (item.wiki)  renderWiki(id, item.wiki);
+  if (item.file)       loadMd(normalizedId, item);
+  else if (item.custom === 'specialization_test') renderSpecializationTest(normalizedId, item);
+  else if (item.custom === 'daily_psychology')    renderDailyPsychology(normalizedId, item);
+  else if (item.custom === 'theoretical_test')    renderTheoreticalTest(normalizedId, item);
+  else if (item.wiki)  renderWiki(normalizedId, item.wiki);
   else                 renderHome();
 }
 
@@ -856,12 +857,23 @@ function parseRouteHash(rawHash) {
     decodedHash = cleanHash;
   }
   const [pageId, sectionId] = decodedHash.split('::');
-  return { pageId: pageId || '', sectionId: sectionId || '' };
+  return { pageId: normalizePageId(pageId), sectionId: sectionId || '' };
 }
 
 /* Składa hash routingu strony z opcjonalnym identyfikatorem sekcji artykułu. */
 function buildRouteHash(pageId, sectionId) {
   return `#${pageId}${sectionId ? `::${sectionId}` : ''}`;
+}
+
+/* Normalizuje identyfikator strony z URL (obsługuje m.in. #/id/, #id.md i nadmiarowe spacje). */
+function normalizePageId(rawPageId) {
+  if (typeof rawPageId !== 'string') return '';
+  const trimmed = rawPageId.trim();
+  if (!trimmed) return '';
+  return trimmed
+    .replace(/^\/+/, '')
+    .replace(/\/+$/, '')
+    .replace(/\.md$/i, '');
 }
 
 /* Ustawia klasę aktywnego elementu TOC na podstawie aktualnej sekcji artykułu. */
