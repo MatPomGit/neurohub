@@ -41,6 +41,12 @@ REQUIRED_SECTIONS = [
     "Bibliografia",
 ]
 
+# Wymagane podsekcje dla części analitycznej (rozdzielenie faktów i interpretacji).
+REQUIRED_ANALYSIS_SUBSECTIONS = [
+    "Fakty empiryczne",
+    "Interpretacje autora",
+]
+
 
 def detect_encoding(filepath: Path):
     """Zwraca kodowanie pliku na podstawie analizy bajtów (jeśli chardet dostępny)."""
@@ -125,11 +131,112 @@ def validate_required_sections(filepath: Path, strict: bool = False):
     return True
 
 
+def validate_editorial_requirements(filepath: Path, strict: bool = False):
+    """Waliduje wymagania redakcyjne wykraczające poza samą obecność sekcji.
+
+    Sprawdzane są:
+    1) rozdzielenie części analitycznej na „Fakty empiryczne” i „Interpretacje autora”,
+    2) obecność omówienia konsekwencji dla dobrej i złej praktyki.
+    """
+    content = filepath.read_text(encoding="utf-8")
+    lowered = content.casefold()
+    headings = extract_headings(content)
+    normalized_headings = {normalize_heading(item) for item in headings}
+
+    missing_analysis_subsections = [
+        subsection
+        for subsection in REQUIRED_ANALYSIS_SUBSECTIONS
+        if normalize_heading(subsection) not in normalized_headings
+    ]
+
+    # Akceptujemy kilka wariantów zapisu konsekwencji, aby nie ograniczać stylu autora.
+    has_consequences_good = any(
+        phrase in lowered
+        for phrase in (
+            "konsekwencje dobrej praktyki",
+            "konsekwencje: dobra praktyka",
+            "konsekwencje podejścia dobrej praktyki",
+        )
+    )
+    has_consequences_bad = any(
+        phrase in lowered
+        for phrase in (
+            "konsekwencje złej praktyki",
+            "konsekwencje: zła praktyka",
+            "konsekwencje podejścia złej praktyki",
+        )
+    )
+
+    errors = []
+    if missing_analysis_subsections:
+        errors.append(
+            "Brak wymaganych podsekcji analizy: "
+            + ", ".join(missing_analysis_subsections)
+        )
+    if not has_consequences_good:
+        errors.append(
+            "Brak jawnego omówienia konsekwencji dobrej praktyki "
+            "(np. nagłówek/akapit „Konsekwencje dobrej praktyki”)."
+        )
+    if not has_consequences_bad:
+        errors.append(
+            "Brak jawnego omówienia konsekwencji złej praktyki "
+            "(np. nagłówek/akapit „Konsekwencje złej praktyki”)."
+        )
+
+    if errors:
+        level_icon = "❌" if strict else "⚠️"
+        mode_label = "błąd" if strict else "ostrzeżenie"
+        print(f"{level_icon} Walidacja wymagań redakcyjnych ({mode_label}): {filepath}")
+        for issue in errors:
+            print(f"  - {issue}")
+        return not strict
+
+    print(f"✅ Walidacja wymagań redakcyjnych zakończona sukcesem: {filepath}")
+    return True
+
+
 def build_article_template(title: str):
     """Buduje treść szablonu nowego artykułu z wymaganymi sekcjami."""
-    lines = [f"# {title}", ""]
-    for section in REQUIRED_SECTIONS:
-        lines.extend([f"## {section}", "", "", ""])
+    lines = [
+        f"# {title}",
+        "",
+        "## Wprowadzenie",
+        "",
+        "",
+        "## Definicje",
+        "",
+        "",
+        "## Analiza",
+        "",
+        "### Fakty empiryczne",
+        "",
+        "",
+        "### Interpretacje autora",
+        "",
+        "",
+        "## Dobra praktyka",
+        "",
+        "",
+        "### Konsekwencje dobrej praktyki",
+        "",
+        "",
+        "## Zła praktyka",
+        "",
+        "",
+        "### Konsekwencje złej praktyki",
+        "",
+        "",
+        "## Perspektywa nieoczywista",
+        "",
+        "",
+        "## Podsumowanie",
+        "",
+        "",
+        "## Bibliografia",
+        "",
+        "",
+    ]
     return "\n".join(lines).rstrip() + "\n"
 
 
@@ -237,6 +344,8 @@ def main(argv=None):
                 all_valid = False
                 continue
             if not validate_required_sections(filepath, strict=args.strict):
+                all_valid = False
+            if not validate_editorial_requirements(filepath, strict=args.strict):
                 all_valid = False
         return 0 if all_valid else 1
 
