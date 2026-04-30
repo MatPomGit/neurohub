@@ -96,8 +96,12 @@ def normalize_heading(heading: str):
     return " ".join(lowered.split())
 
 
-def validate_required_sections(filepath: Path):
-    """Sprawdza, czy plik zawiera wszystkie wymagane sekcje redakcyjne."""
+def validate_required_sections(filepath: Path, strict: bool = False):
+    """Sprawdza, czy plik zawiera wszystkie wymagane sekcje redakcyjne.
+
+    W trybie domyślnym (strict=False) brak sekcji jest raportowany jako ostrzeżenie,
+    ale walidacja zwraca sukces, aby nie blokować publikacji i wczytywania artykułu.
+    """
     content = filepath.read_text(encoding="utf-8")
     headings = extract_headings(content)
     normalized_headings = {normalize_heading(item) for item in headings}
@@ -109,11 +113,13 @@ def validate_required_sections(filepath: Path):
     ]
 
     if missing:
-        print(f"❌ Walidacja nie powiodła się dla: {filepath}")
+        level_icon = "❌" if strict else "⚠️"
+        mode_label = "błąd" if strict else "ostrzeżenie"
+        print(f"{level_icon} Walidacja sekcji ({mode_label}): {filepath}")
         print("Brakujące sekcje:")
         for section in missing:
             print(f"  - {section}")
-        return False
+        return not strict
 
     print(f"✅ Walidacja sekcji zakończona sukcesem: {filepath}")
     return True
@@ -191,6 +197,11 @@ def parse_args(argv):
         help="Sprawdza obecność wymaganych sekcji w artykule.",
     )
     validate_parser.add_argument("paths", nargs="+", help="Lista plików .md do walidacji")
+    validate_parser.add_argument(
+        "--strict",
+        action="store_true",
+        help="Traktuje brak wymaganych sekcji jako błąd (domyślnie: tylko ostrzeżenie).",
+    )
 
     return parser.parse_args(argv)
 
@@ -225,7 +236,7 @@ def main(argv=None):
                 print(f"❌ Pominięto (nie .md): {filepath}", file=sys.stderr)
                 all_valid = False
                 continue
-            if not validate_required_sections(filepath):
+            if not validate_required_sections(filepath, strict=args.strict):
                 all_valid = False
         return 0 if all_valid else 1
 
