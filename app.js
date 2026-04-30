@@ -820,7 +820,15 @@ function slugifyHeading(text) {
 /* Rozdziela hash na identyfikator strony i opcjonalny identyfikator sekcji. */
 function parseRouteHash(rawHash) {
   const cleanHash = (rawHash || '').replace(/^#/, '');
-  const [pageId, sectionId] = cleanHash.split('::');
+  /* Dekodujemy hash defensywnie (np. %2F), aby działały także linki kopiowane z różnych źródeł. */
+  let decodedHash = cleanHash;
+  try {
+    decodedHash = decodeURIComponent(cleanHash);
+  } catch (_) {
+    /* Gdy hash ma niepoprawne kodowanie, zachowujemy wartość surową zamiast przerywać routing. */
+    decodedHash = cleanHash;
+  }
+  const [pageId, sectionId] = decodedHash.split('::');
   return { pageId: pageId || '', sectionId: sectionId || '' };
 }
 
