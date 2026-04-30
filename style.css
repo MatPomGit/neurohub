@@ -238,10 +238,22 @@ em{color:var(--goldl)}
   border:none;
   color:inherit;
   display:flex;align-items:center;justify-content:space-between;
+  /* Wyrównuje cały nagłówek sekcji do lewej, aby uniknąć efektu centrowania. */
+  text-align:left;
   padding:.45rem 1rem .25rem;cursor:pointer;user-select:none;
 }
 .nav-group-hdr:hover .ng-label{color:var(--t2)}
-.ng-label{font-size:.6rem;text-transform:uppercase;letter-spacing:.14em;color:var(--t3);font-weight:700;transition:color var(--ease)}
+/* Nagłówki sekcji są większe i bardziej kontrastowe niż tytuły artykułów. */
+.ng-label{
+  flex:1;
+  font-size:.9rem;
+  text-transform:uppercase;
+  letter-spacing:.09em;
+  color:var(--goldl);
+  font-weight:800;
+  text-align:left;
+  transition:color var(--ease);
+}
 .ng-arrow{width:13px;height:13px;color:var(--t3);transition:transform var(--ease);flex-shrink:0}
 .nav-group.open .ng-arrow{transform:rotate(90deg)}
 .nav-group.open .ng-label{color:var(--t2)}
@@ -252,7 +264,9 @@ em{color:var(--goldl)}
 .nav-item{
   display:flex;align-items:center;
   padding:.26rem 1rem .26rem 1.35rem;
-  color:var(--t2);font-size:.79rem;line-height:1.35;
+  color:var(--t2);font-size:.78rem;line-height:1.35;
+  /* Wymusza czytelne wyrównanie tytułów artykułów do lewej. */
+  text-align:left;
   cursor:pointer;border-left:2px solid transparent;
   transition:all var(--ease);
 }
