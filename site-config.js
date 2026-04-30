@@ -442,6 +442,7 @@ window.SITE_CONFIG = {
     'emotions', 'etyka', 'forensic_psychology', 'game_psychology', 'geropsychology',
     'health_psychology', 'individual_diffs', 'intro', 'kulturowa', 'media_nature',
     'neurodiversity', 'nvc', 'pharmacology', 'philosophy', 'podstawy_pomocy',
+    'psychologia_religii',
     'positive_psychology', 'ppd', 'psychopathology', 'psychosomatics', 'psychotherapy',
     'reference', 'relacje', 'resilience_mobbing', 'rozwojowa', 'school_psychology',
     'sexology', 'students', 'suicidology', 'technology_psychology', 'temperament',
@@ -586,6 +587,24 @@ window.SITE_CONFIG = {
         { id: 'kulturowa/kultura_osobowosc', label: 'Kultura, a osobowość',                 file: 'wiki/kulturowa/kultura_osobowosc.md' },
         { id: 'kulturowa/wschodnia_zachodnia',label: 'Psychologia Wschodu i Zachodu',      file: 'wiki/kulturowa/wschodnia_zachodnia.md'},
         { id: 'kulturowa/kultura_relacje',   label: 'Kultura, a relacje interpersonalne',   file: 'wiki/kulturowa/kultura_relacje.md'   },
+      ]
+    },
+    {
+      section: 'Psychologia religii',
+      domainKey: 'psychologia_religii',
+      items: [
+        { id: 'psychologia_religii/wprowadzenie',            label: 'Psychologia religii — wprowadzenie',       file: 'wiki/psychologia_religii/wprowadzenie.md'            },
+        { id: 'psychologia_religii/religijnosc_i_duchowosc', label: 'Religijność a duchowość',                   file: 'wiki/psychologia_religii/religijnosc_i_duchowosc.md' },
+        { id: 'psychologia_religii/rozwoj_religijnosci',     label: 'Rozwój religijności w cyklu życia',        file: 'wiki/psychologia_religii/rozwoj_religijnosci.md'     },
+        { id: 'psychologia_religii/konwersja_religijna',     label: 'Konwersja religijna',                       file: 'wiki/psychologia_religii/konwersja_religijna.md'     },
+        { id: 'psychologia_religii/coping_religijny',        label: 'Religijne strategie radzenia sobie',       file: 'wiki/psychologia_religii/coping_religijny.md'        },
+        { id: 'psychologia_religii/doswiadczenia_mistyczne', label: 'Doświadczenia mistyczne',                   file: 'wiki/psychologia_religii/doswiadczenia_mistyczne.md' },
+        { id: 'psychologia_religii/obrazy_boga',             label: 'Obrazy Boga i style przywiązania',         file: 'wiki/psychologia_religii/obrazy_boga.md'             },
+        { id: 'psychologia_religii/wspolnota_i_tozsamosc',   label: 'Wspólnota religijna a tożsamość',          file: 'wiki/psychologia_religii/wspolnota_i_tozsamosc.md'   },
+        { id: 'psychologia_religii/rytualy_i_zdrowie',       label: 'Rytuały religijne a dobrostan psychiczny', file: 'wiki/psychologia_religii/rytualy_i_zdrowie.md'       },
+        { id: 'psychologia_religii/skrupulatyzm',            label: 'Skrupulatyzm i objawy OCD',                file: 'wiki/psychologia_religii/skrupulatyzm.md'            },
+        { id: 'psychologia_religii/religia_w_psychoterapii', label: 'Religia i duchowość w psychoterapii',      file: 'wiki/psychologia_religii/religia_w_psychoterapii.md' },
+        { id: 'psychologia_religii/metodologia_badan',       label: 'Metodologia badań psychologii religii',    file: 'wiki/psychologia_religii/metodologia_badan.md'       },
       ]
     },
     {
