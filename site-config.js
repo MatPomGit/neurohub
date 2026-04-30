@@ -1,12 +1,12 @@
 /**
- * site-config.js — PsyHub v3.2 "bulbulgator"
+ * site-config.js - PsyHub v3.2 "bulbulgator"
  * Jedyne źródło prawdy: nawigacja, mapowanie plików MD, definicje WIKI.
  *
  * Konwencja statusów artykułu:
- *   live    — plik MD istnieje, artykuł dostępny
- *   planned — artykuł zaplanowany, plik jeszcze nie istnieje
- *   xlink   — artykuł współdzielony z innym działem (jeden plik MD)
- *   wiki    — odnośnik do strony indeksu WIKI
+ *   live    - plik MD istnieje, artykuł dostępny
+ *   planned - artykuł zaplanowany, plik jeszcze nie istnieje
+ *   xlink   - artykuł współdzielony z innym działem (jeden plik MD)
+ *   wiki    - odnośnik do strony indeksu WIKI
  */
 
 window.SITE_CONFIG = {
@@ -228,7 +228,7 @@ window.SITE_CONFIG = {
         validity: 'Dobra trafnosc teoretyczna dla rozroznienia stanu i cechy lęku.',
         normsInfo: 'Dostepne normy centylowe/stenowe; wymagane dopasowanie do wieku i plci.',
         limitations: 'Wrazliwy na sytuacje badania i aktualny poziom stresu uczestnika.',
-        ethicalNotes: 'Wynik podwyzszony nie jest diagnoza, a wskazaniem do dalszej oceny.',
+        ethicalNotes: 'Wynik podwyzszony nie jest diagnoza,, a wskazaniem do dalszej oceny.',
         contraindications: 'Ostroznosc interpretacyjna w ostrych stanach somatycznych nasilajacych objawy lęku.',
       },
       {
@@ -358,7 +358,7 @@ window.SITE_CONFIG = {
         population: 'Dorosli i seniorzy w ocenie neurokognitywnej',
         ageRange: '18+',
         administrationTime: '5-10 min',
-        scoring: 'Czas wykonania czesci A i B oraz roznica B-A',
+        scoring: 'Czas wykonania czesci, a i B oraz roznica B-A',
         evidenceLevel: 'umiarkowany',
         license: 'instytucjonalna',
         requiresPermissions: true,
@@ -425,7 +425,6 @@ window.SITE_CONFIG = {
     ],
   },
 
-
   // Data ostatniej aktualizacji katalogu narzędzi per domena (ISO YYYY-MM-DD).
   // Pole updatedAt jest używane przez UI do komunikatu "Ostatnia aktualizacja".
   measurementToolsDomainUpdates: {
@@ -435,7 +434,6 @@ window.SITE_CONFIG = {
     neuro: { updatedAt: '2026-04-19' },
     spoleczna: { updatedAt: '2026-04-19' },
   },
-
 
   // Domeny obecne w serwisie, dla ktorych wpisy narzedzi pomiarowych sa jeszcze nieuzupelnione.
   measurementToolsTodoDomains: [
@@ -487,7 +485,7 @@ window.SITE_CONFIG = {
       section: 'Filozofia',
       domainKey: 'philosophy',
       items: [
-        { id: 'philosophy/wprowadzenie',                 label: 'Filozofia — wprowadzenie',                   file: 'wiki/philosophy/wprowadzenie.md'        },
+        { id: 'philosophy/wprowadzenie',                 label: 'Filozofia',                   file: 'wiki/philosophy/wprowadzenie.md'        },
         { id: 'philosophy/ontologia',                    label: 'Ontologia i metafizyka',                     file: 'wiki/philosophy/ontologia.md'           },
         { id: 'philosophy/epistemologia',                label: 'Epistemologia i teoria poznania',            file: 'wiki/philosophy/epistemologia.md'       },
         { id: 'philosophy/egocentryczny_dylemat',         label: 'Egocentryczny dylemat poznania',             file: 'wiki/philosophy/egocentryczny_dylemat.md' },
@@ -521,7 +519,7 @@ window.SITE_CONFIG = {
       section: 'Biologiczne podstawy zachowania',
       domainKey: 'biology',
       items: [
-        { id: 'biology/biologiczne_podstawy', label: 'Biologiczne podstawy — wprow.', file: 'wiki/biology/biologiczne_podstawy.md' },
+        { id: 'biology/biologiczne_podstawy', label: 'Biologiczne podstawy - wprow.', file: 'wiki/biology/biologiczne_podstawy.md' },
         { id: 'biology/genetyka_beh',         label: 'Genetyka behawioralna',          file: 'wiki/biology/genetyka_beh.md'          },
         { id: 'biology/transmisja_genetyczna_zaburzen', label: 'Transmisja genetyczna zaburzeń', file: 'wiki/biology/transmisja_genetyczna_zaburzen_psychicznych.md' },
         { id: 'biology/epigenetyka',          label: 'Epigenetyka',                    file: 'wiki/biology/epigenetyka.md'           },
@@ -543,7 +541,7 @@ window.SITE_CONFIG = {
         { id: 'rozwojowa/wiek_szkolny',       label: 'Wiek szkolny',                             file: 'wiki/rozwojowa/wiek_szkolny.md'       },
         { id: 'rozwojowa/adolescencja',       label: 'Adolescencja',                             file: 'wiki/rozwojowa/adolescencja.md'       },
         { id: 'rozwojowa/doroslosc',          label: 'Dorosłość i starzenie się',                file: 'wiki/rozwojowa/doroslosc.md'          },
-        { id: 'rozwojowa/plastycznosc_mozgu', label: 'Plastyczność mózgu a okresy krytyczne',    file: 'wiki/rozwojowa/plastycznosc_mozgu.md' },
+        { id: 'rozwojowa/plastycznosc_mozgu', label: 'Plastyczność mózgu, a okresy krytyczne',    file: 'wiki/rozwojowa/plastycznosc_mozgu.md' },
         { id: 'rozwojowa/przywiazanie',       label: 'Teoria przywiązania',                      file: 'wiki/rozwojowa/przywiazanie.md'       },
         { id: 'rozwojowa/rozwoj_jezyka',      label: 'Rozwój języka i komunikacji',              file: 'wiki/rozwojowa/rozwoj_jezyka.md'      },
         { id: 'rozwojowa/rodzicielstwo',      label: 'Style rodzicielskie',                      file: 'wiki/rozwojowa/rodzicielstwo.md'      },
@@ -557,9 +555,9 @@ window.SITE_CONFIG = {
       items: [
         { id: 'spoleczna/percepcja_spoleczna', label: 'Percepcja społeczna i atrybucje', file: 'wiki/spoleczna/percepcja_spoleczna.md' },
         { id: 'spoleczna/eksperyment_wiezienny', label: 'Stanfordzki Eksperyment Więzienny', file: 'wiki/spoleczna/eksperyment_wiezienny.md' },
-        { id: 'spoleczna/manipulacja', label: 'Manipulacja — mechanizmy i metody wpływu', file: 'wiki/spoleczna/manipulacja.md' },
+        { id: 'spoleczna/manipulacja', label: 'Manipulacja - mechanizmy i metody wpływu', file: 'wiki/spoleczna/manipulacja.md' },
         { id: 'spoleczna/stereotypy', label: 'Stereotypy i uprzedzenia', file: 'wiki/spoleczna/stereotypy.md' },
-        { id: 'spoleczna/manosfera_feminizm', label: 'Manosfera i feminizm — ujęcie psychologiczne', file: 'wiki/spoleczna/manosfera_feminizm.md' },
+        { id: 'spoleczna/manosfera_feminizm', label: 'Manosfera i feminizm - ujęcie psychologiczne', file: 'wiki/spoleczna/manosfera_feminizm.md' },
         { id: 'spoleczna/ja_i_samoocena', label: 'Ja i samoocena', file: 'wiki/spoleczna/ja_i_samoocena.md' },
         { id: 'spoleczna/postawy', label: 'Postawy i zmiana postaw', file: 'wiki/spoleczna/postawy.md' },
         { id: 'spoleczna/konformizm', label: 'Konformizm i posłuszeństwo', file: 'wiki/spoleczna/konformizm.md' },
@@ -579,15 +577,15 @@ window.SITE_CONFIG = {
         { id: 'kulturowa/wprowadzenie', label: 'Czym jest psychologia kulturowa?', file: 'wiki/kulturowa/wprowadzenie.md' },
         { id: 'kulturowa/metody', label: 'Metody: emic vs. etic', file: 'wiki/kulturowa/metody.md' },
         { id: 'kulturowa/indywidualizm_kolektywizm', label: 'Wymiar indywidualizm–kolektywizm', file: 'wiki/kulturowa/indywidualizm_kolektywizm.md' },
-        { id: 'kulturowa/kultura_percepcja', label: 'Kultura a percepcja i uwaga', file: 'wiki/kulturowa/kultura_percepcja.md' },
+        { id: 'kulturowa/kultura_percepcja', label: 'Kultura, a percepcja i uwaga', file: 'wiki/kulturowa/kultura_percepcja.md' },
         { id: 'kulturowa/kulturowe_modele_ja', label: 'Kulturowe modele Ja', file: 'wiki/kulturowa/kulturowe_modele_ja.md' },
-        { id: 'kulturowa/kultura_zdrowie', label: 'Kultura a zdrowie psychiczne', file: 'wiki/kulturowa/kultura_zdrowie.md' },
-        { id: 'kulturowa/kultura_emocje',    label: 'Kultura a emocje',                   file: 'wiki/kulturowa/kultura_emocje.md'    },
+        { id: 'kulturowa/kultura_zdrowie', label: 'Kultura, a zdrowie psychiczne', file: 'wiki/kulturowa/kultura_zdrowie.md' },
+        { id: 'kulturowa/kultura_emocje',    label: 'Kultura, a emocje',                   file: 'wiki/kulturowa/kultura_emocje.md'    },
         { id: 'kulturowa/akulturacja',       label: 'Akulturacja i adaptacja kulturowa',   file: 'wiki/kulturowa/akulturacja.md'       },
-        { id: 'kulturowa/kultura_jezyk',     label: 'Kultura a język (Sapir-Whorf)',        file: 'wiki/kulturowa/kultura_jezyk.md'     },
-        { id: 'kulturowa/kultura_osobowosc', label: 'Kultura a osobowość',                 file: 'wiki/kulturowa/kultura_osobowosc.md' },
+        { id: 'kulturowa/kultura_jezyk',     label: 'Kultura, a język (Sapir-Whorf)',        file: 'wiki/kulturowa/kultura_jezyk.md'     },
+        { id: 'kulturowa/kultura_osobowosc', label: 'Kultura, a osobowość',                 file: 'wiki/kulturowa/kultura_osobowosc.md' },
         { id: 'kulturowa/wschodnia_zachodnia',label: 'Psychologia Wschodu i Zachodu',      file: 'wiki/kulturowa/wschodnia_zachodnia.md'},
-        { id: 'kulturowa/kultura_relacje',   label: 'Kultura a relacje interpersonalne',   file: 'wiki/kulturowa/kultura_relacje.md'   },
+        { id: 'kulturowa/kultura_relacje',   label: 'Kultura, a relacje interpersonalne',   file: 'wiki/kulturowa/kultura_relacje.md'   },
       ]
     },
     {
@@ -605,7 +603,7 @@ window.SITE_CONFIG = {
         { id: 'uzaleznienia/rodzina_w_uzaleznieniach',  label: 'Rodzina w systemie uzależnienia',        file: 'wiki/uzaleznienia/rodzina_w_uzaleznieniach.md'  },
         { id: 'uzaleznienia/internet_uzaleznienie',     label: 'Uzależnienie od internetu i technologii',file: 'wiki/uzaleznienia/internet_uzaleznienie.md'     },
         { id: 'uzaleznienia/terapia_grupowa',           label: 'Terapia grupowa w uzależnieniach',       file: 'wiki/uzaleznienia/terapia_grupowa.md'           },
-        { id: 'uzaleznienia/recovery',                  label: 'Recovery — droga do zdrowia',            file: 'wiki/uzaleznienia/recovery.md'                  },
+        { id: 'uzaleznienia/recovery',                  label: 'Recovery - droga do zdrowia',            file: 'wiki/uzaleznienia/recovery.md'                  },
       ]
     },
     {
@@ -616,7 +614,7 @@ window.SITE_CONFIG = {
         { id: 'relacje/trojkatna_teoria_milosci', label: 'Triangularna teoria miłości', file: 'wiki/relacje/trojkatna_teoria_milosci.md' },
         { id: 'relacje/dobor_partnera', label: 'Dobór partnera', file: 'wiki/relacje/dobor_partnera.md' },
         { id: 'relacje/komunikacja_para', label: 'Komunikacja w parze', file: 'wiki/relacje/komunikacja_para.md' },
-        { id: 'relacje/glebia_relacji_a_traumy', label: 'Głębia relacji a dzielenie się traumą', file: 'wiki/relacje/glebia_relacji_a_traumy.md' },
+        { id: 'relacje/glebia_relacji_a_traumy', label: 'Głębia relacji, a dzielenie się traumą', file: 'wiki/relacje/glebia_relacji_a_traumy.md' },
         { id: 'relacje/konflikty', label: 'Konflikty i ich rozwiązywanie', file: 'wiki/relacje/konflikty.md' },
         { id: 'relacje/zdrada', label: 'Zdrada i odbudowa zaufania', file: 'wiki/relacje/zdrada.md' },
         { id: 'relacje/terapia_par', label: 'Terapia par', file: 'wiki/relacje/terapia_par.md' },
@@ -624,14 +622,14 @@ window.SITE_CONFIG = {
         { id: 'relacje/samotnosc',        label: 'Samotność i izolacja społeczna',  file: 'wiki/relacje/samotnosc.md'        },
         { id: 'relacje/przyjaznie',       label: 'Przyjaźń',                        file: 'wiki/relacje/przyjaznie.md'       },
         { id: 'relacje/rozstanie',        label: 'Rozpad związku i żałoba',         file: 'wiki/relacje/rozstanie.md'        },
-        { id: 'relacje/relacje_rodzinne', label: 'Relacje rodzinne — dynamika',     file: 'wiki/relacje/relacje_rodzinne.md' },
+        { id: 'relacje/relacje_rodzinne', label: 'Relacje rodzinne - dynamika',     file: 'wiki/relacje/relacje_rodzinne.md' },
       ]
     },
     {
       section: 'Etyka zawodowa',
       domainKey: 'etyka',
       items: [
-        { id: 'etyka/kodeksy_etyczne', label: 'Kodeksy etyczne — przegląd', file: 'wiki/etyka/kodeksy_etyczne.md' },
+        { id: 'etyka/kodeksy_etyczne', label: 'Kodeksy etyczne - przegląd', file: 'wiki/etyka/kodeksy_etyczne.md' },
         { id: 'etyka/zasady_apa_ptp', label: 'Zasady APA i PTP', file: 'wiki/etyka/zasady_apa_ptp.md' },
         { id: 'etyka/dobro_nieszkodzenie', label: 'Dobro i nieszkodzenie', file: 'wiki/etyka/dobro_nieszkodzenie.md' },
         { id: 'etyka/tajemnica_zawodowa_granice', label: 'Tajemnica zawodowa i jej granice', file: 'wiki/etyka/tajemnica_zawodowa_granice.md' },
@@ -656,14 +654,14 @@ window.SITE_CONFIG = {
         { id: 'diagnoza/techniki_projekcyjne', label: 'Techniki projekcyjne', file: 'wiki/diagnoza/techniki_projekcyjne.md' },
         { id: 'diagnoza/opinia_psychologiczna', label: 'Opinia psychologiczna', file: 'wiki/diagnoza/opinia_psychologiczna.md' },
         { id: 'diagnoza/tajemnica_zawodowa', label: 'Tajemnica zawodowa', file: 'wiki/diagnoza/tajemnica_zawodowa.md' },
-        { id: 'diagnoza/diagnoza_stygmatyzacja', label: 'Diagnoza a stygmatyzacja', file: 'wiki/diagnoza/diagnoza_stygmatyzacja.md' },
+        { id: 'diagnoza/diagnoza_stygmatyzacja', label: 'Diagnoza, a stygmatyzacja', file: 'wiki/diagnoza/diagnoza_stygmatyzacja.md' },
       ]
     },
     {
       section: 'Emocje i motywacje',
       domainKey: 'emotions',
       items: [
-        { id: 'emotions/emocje_wprowadzenie', label: 'Emocje — wprowadzenie',   file: 'wiki/emotions/emocje_wprowadzenie.md'  },
+        { id: 'emotions/emocje_wprowadzenie', label: 'Emocje',   file: 'wiki/emotions/emocje_wprowadzenie.md'  },
         { id: 'emotions/teorie',              label: 'Teorie emocji',            file: 'wiki/emotions/teorie.md'              },
         { id: 'emotions/regulacja',           label: 'Regulacja emocjonalna',    file: 'wiki/emotions/regulacja.md'           },
         { id: 'emotions/motywacja',           label: 'Motywacja',                file: 'wiki/emotions/motywacja.md'           },
@@ -681,7 +679,7 @@ window.SITE_CONFIG = {
       section: 'Podstawy pomocy psychologicznej',
       domainKey: 'podstawy_pomocy',
       items: [
-        { id: 'podstawy_pomocy/wprowadzenie',                   label: 'Pomoc psychologiczna — wprowadzenie',  file: 'wiki/podstawy_pomocy/wprowadzenie.md'                   },
+        { id: 'podstawy_pomocy/wprowadzenie',                   label: 'Pomoc psychologiczna',  file: 'wiki/podstawy_pomocy/wprowadzenie.md'                   },
         { id: 'podstawy_pomocy/relacja_pomocowa',               label: 'Relacja pomocowa',                     file: 'wiki/podstawy_pomocy/relacja_pomocowa.md'               },
         { id: 'podstawy_pomocy/aktywne_sluchanie',              label: 'Aktywne słuchanie',                    file: 'wiki/podstawy_pomocy/aktywne_sluchanie.md'              },
         { id: 'podstawy_pomocy/empatia_w_pomocy',               label: 'Empatia w pomocy psychologicznej',     file: 'wiki/podstawy_pomocy/empatia_w_pomocy.md'               },
@@ -701,25 +699,25 @@ window.SITE_CONFIG = {
       section: 'Temperament',
       domainKey: 'temperament',
       items: [
-        { id: 'temperament/temperament_wprowadzenie', label: 'Temperament — wprowadzenie', file: 'wiki/temperament/temperament_wprowadzenie.md' },
+        { id: 'temperament/temperament_wprowadzenie', label: 'Temperament', file: 'wiki/temperament/temperament_wprowadzenie.md' },
         { id: 'temperament/modele',   label: 'Modele temperamentu',  file: 'wiki/temperament/modele.md'   },
         { id: 'temperament/pomiar',   label: 'Pomiar temperamentu',  file: 'wiki/temperament/pomiar.md'   },
         { id: 'temperament/kliniczne',label: 'Wymiar kliniczny',     file: 'wiki/temperament/kliniczne.md'},
-        { id: 'temperament/razvoj',                  label: 'Temperament a rozwój',                file: 'wiki/temperament/razvoj.md'                   },
-        { id: 'temperament/strelau',                 label: 'RTT — teoria Strelaua',               file: 'wiki/temperament/strelau.md'                  },
+        { id: 'temperament/razvoj',                  label: 'Temperament, a rozwój',                file: 'wiki/temperament/razvoj.md'                   },
+        { id: 'temperament/strelau',                 label: 'RTT - teoria Strelaua',               file: 'wiki/temperament/strelau.md'                  },
         { id: 'temperament/eysenck',                 label: 'Model Eysencka (PEN)',                file: 'wiki/temperament/eysenck.md'                  },
         { id: 'temperament/gray',                    label: 'Teoria BIS/BAS Graya',                file: 'wiki/temperament/gray.md'                     },
         { id: 'temperament/kagan',                   label: 'Zahamowanie behawioralne (Kagan)',    file: 'wiki/temperament/kagan.md'                    },
-        { id: 'temperament/temperament_a_psychopat', label: 'Temperament a psychopatologia',       file: 'wiki/temperament/temperament_a_psychopat.md'  },
+        { id: 'temperament/temperament_a_psychopat', label: 'Temperament, a psychopatologia',       file: 'wiki/temperament/temperament_a_psychopat.md'  },
         { id: 'temperament/biologia_temperamentu',   label: 'Biologiczne podłoże temperamentu',    file: 'wiki/temperament/biologia_temperamentu.md'    },
-        { id: 'temperament/temperament_a_kariera',   label: 'Temperament a kariera i praca',       file: 'wiki/temperament/temperament_a_kariera.md'    },
+        { id: 'temperament/temperament_a_kariera',   label: 'Temperament, a kariera i praca',       file: 'wiki/temperament/temperament_a_kariera.md'    },
       ]
     },
     {
       section: 'Różnice indywidualne',
       domainKey: 'individual_diffs',
       items: [
-        { id: 'individual_diffs/roznice_wprowadzenie', label: 'Różnice ind. — wprowadzenie', file: 'wiki/individual_diffs/roznice_wprowadzenie.md' },
+        { id: 'individual_diffs/roznice_wprowadzenie', label: 'Różnice ind.', file: 'wiki/individual_diffs/roznice_wprowadzenie.md' },
         { id: 'individual_diffs/inteligencja',         label: 'Inteligencja',                file: 'wiki/individual_diffs/inteligencja.md'          },
         { id: 'individual_diffs/osobowosc',            label: 'Osobowość',                   file: 'wiki/individual_diffs/osobowosc.md'             },
         { id: 'individual_diffs/kreatywnosc',          label: 'Kreatywność',                 file: 'wiki/individual_diffs/kreatywnosc.md'           },
@@ -734,7 +732,7 @@ window.SITE_CONFIG = {
       section: 'Psychometria',
       domainKey: 'psychometrics',
       items: [
-        { id: 'psychometrics/psychometria_wprowadzenie', label: 'Psychometria — wprowadzenie', file: 'wiki/psychometrics/psychometria_wprowadzenie.md' },
+        { id: 'psychometrics/psychometria_wprowadzenie', label: 'Psychometria', file: 'wiki/psychometrics/psychometria_wprowadzenie.md' },
         { id: 'psychometrics/rzetelnosc',   label: 'Rzetelność pomiaru',    file: 'wiki/psychometrics/rzetelnosc.md'   },
         { id: 'psychometrics/trafnosc',     label: 'Trafność pomiaru',      file: 'wiki/psychometrics/trafnosc.md'     },
         { id: 'psychometrics/normalizacja', label: 'Normalizacja i normy',  file: 'wiki/psychometrics/normalizacja.md' },
@@ -769,8 +767,8 @@ window.SITE_CONFIG = {
         { id: 'neuro/neuronauka_poznawcza',              label: 'Neuronauka poznawcza',                   file: 'wiki/neuro/neuronauka_poznawcza.md'              },
         { id: 'neuro/podstawy_neurologii',               label: 'Podstawy neurologii',                    file: 'wiki/neuro/podstawy_neurologii.md'               },
         { id: 'neuro/pien_mozgu',                        label: 'Pień mózgu i móżdżek',                   file: 'wiki/neuro/pien_mozgu.md'                        },
-        { id: 'neuro/eye_tracking',                      label: 'Eye tracking — śledzenie wzroku',        file: 'wiki/neuro/eye_tracking.md'                      },
-        { id: 'neuro/Muse',                              label: 'Muse S — neurofeedback i EEG',           file: 'wiki/neuro/Muse.md'                              },
+        { id: 'neuro/eye_tracking',                      label: 'Eye tracking - śledzenie wzroku',        file: 'wiki/neuro/eye_tracking.md'                      },
+        { id: 'neuro/Muse',                              label: 'Muse S - neurofeedback i EEG',           file: 'wiki/neuro/Muse.md'                              },
       ]
     },
     {
@@ -792,9 +790,9 @@ window.SITE_CONFIG = {
       section: 'Przypadki kliniczne',
       domainKey: 'cases',
       items: [
-        { id: 'cases/hm',            label: 'H.M. — amnezja',             file: 'wiki/cases/hm.md'            },
+        { id: 'cases/hm',            label: 'H.M. - amnezja',             file: 'wiki/cases/hm.md'            },
         { id: 'cases/gage',          label: 'Phineas Gage',                file: 'wiki/cases/gage.md'          },
-        { id: 'cases/tan',           label: '„Tan" — afazja',              file: 'wiki/cases/tan.md'           },
+        { id: 'cases/tan',           label: '„Tan" - afazja',              file: 'wiki/cases/tan.md'           },
         { id: 'cases/split_brain',   label: 'Rozdzielony mózg',            file: 'wiki/cases/split_brain.md'   },
         { id: 'cases/clive_wearing', label: 'Clive Wearing',               file: 'wiki/cases/clive_wearing.md' },
         { id: 'cases/elliot',        label: 'Elliot',                      file: 'wiki/cases/elliot.md'        },
@@ -811,7 +809,7 @@ window.SITE_CONFIG = {
       section: 'Psychopatologia',
       domainKey: 'psychopathology',
       items: [
-        { id: 'psychopathology/psychopatologia_wprowadzenie', label: 'Psychopatologia — wprow.',       file: 'wiki/psychopathology/psychopatologia_wprowadzenie.md' },
+        { id: 'psychopathology/psychopatologia_wprowadzenie', label: 'Psychopatologia - wprow.',       file: 'wiki/psychopathology/psychopatologia_wprowadzenie.md' },
         { id: 'psychopathology/objawy_ogolne',                label: 'Objawy ogólne',                  file: 'wiki/psychopathology/objawy_ogolne.md'                },
         { id: 'psychopathology/zaburzenia_lekowe',            label: 'Zaburzenia lękowe',              file: 'wiki/psychopathology/zaburzenia_lekowe.md'            },
         { id: 'psychopathology/zaburzenia_nastroju',          label: 'Zaburzenia nastroju',            file: 'wiki/psychopathology/zaburzenia_nastroju.md'          },
@@ -821,7 +819,7 @@ window.SITE_CONFIG = {
         { id: 'psychopathology/zaburzenia_odzywiania',        label: 'Zaburzenia odżywiania',          file: 'wiki/psychopathology/zaburzenia_odzywiania.md'        },
         { id: 'psychopathology/neurorozwojowe',               label: 'Zaburzenia neurorozwojowe',      file: 'wiki/psychopathology/neurorozwojowe.md'               },
         { id: 'psychopathology/ocd',                          label: 'OCD i pokrewne',                  file: 'wiki/psychopathology/ocd.md'                          },
-        { id: 'psychopathology/uzaleznienia_psych',           label: 'Uzależnienia — aspekt psych.',   file: 'wiki/psychopathology/uzaleznienia_psych.md'           },
+        { id: 'psychopathology/uzaleznienia_psych',           label: 'Uzależnienia - aspekt psych.',   file: 'wiki/psychopathology/uzaleznienia_psych.md'           },
         { id: 'psychopathology/depresja_poporodowa',          label: 'Depresja poporodowa',             file: 'wiki/psychopathology/depresja_poporodowa.md'          },
         { id: 'psychopathology/przymus_powtarzania',          label: 'Przymus powtarzania',             file: 'wiki/psychopathology/przymus_powtarzania.md'          },
         { id: 'psychopathology/wiktymizacja',                 label: 'Wiktymizacja',                    file: 'wiki/psychopathology/wiktymizacja.md'                  },
@@ -836,19 +834,19 @@ window.SITE_CONFIG = {
       section: 'Diagnoza psychologiczna',
       domainKey: 'diagnostics',
       items: [
-        { id: 'diagnostics/testy_przeglad',    label: 'Testy — przegląd',           file: 'wiki/diagnostics/testy_przeglad.md'    },
+        { id: 'diagnostics/testy_przeglad',    label: 'Testy - przegląd',           file: 'wiki/diagnostics/testy_przeglad.md'    },
         { id: 'diagnostics/mmse_moca',         label: 'Testy przesiewowe',          file: 'wiki/diagnostics/mmse_moca.md'         },
-        { id: 'diagnostics/testy_wykonawcze',  label: 'Testy wyk. — przegląd',      file: 'wiki/diagnostics/testy_wykonawcze.md'  },
+        { id: 'diagnostics/testy_wykonawcze',  label: 'Testy wyk. - przegląd',      file: 'wiki/diagnostics/testy_wykonawcze.md'  },
         { id: 'diagnostics/testy_pamieci',     label: 'Testy pamięci',              file: 'wiki/diagnostics/testy_pamieci.md'     },
         { id: 'diagnostics/testy_uwagi',       label: 'Testy uwagi',                file: 'wiki/diagnostics/testy_uwagi.md'       },
         { id: 'diagnostics/testy_jezyka',      label: 'Testy językowe',             file: 'wiki/diagnostics/testy_jezyka.md'      },
         { id: 'diagnostics/wais',              label: 'Skale Wechslera (WAIS/WISC)',file: 'wiki/diagnostics/wais.md'              },
-        { id: 'diagnostics/wisc_v',            label: 'WISC-V — opis testu',        file: 'wiki/diagnostics/wisc_v.md'            },
+        { id: 'diagnostics/wisc_v',            label: 'WISC-V - opis testu',        file: 'wiki/diagnostics/wisc_v.md'            },
         { id: 'diagnostics/neuropsych_battery',label: 'Baterie neuropsychologiczne',file: 'wiki/diagnostics/neuropsych_battery.md'},
         { id: 'diagnostics/rdoc',              label: 'Model RDoC',                  file: 'wiki/diagnostics/rdoc.md'              },
         { id: 'diagnostics/scid_v',            label: 'SCID-5 / SCID-V',             file: 'wiki/diagnostics/scid_v.md'            },
         { id: 'diagnostics/diagnoza_techniki_rozmowy_psychologicznej', label: 'Diagnoza: techniki rozmowy psychologicznej', file: 'artykul_diagnoza_techniki_rozmowy_psychologicznej.md' },
-        { id: 'diagnostics/apis_zr',           label: 'APIS-ZR — zastosowanie w diagnozie', file: 'artykul_apis_zr.md' },
+        { id: 'diagnostics/apis_zr',           label: 'APIS-ZR - zastosowanie w diagnozie', file: 'artykul_apis_zr.md' },
       ]
     },
     {
@@ -889,26 +887,26 @@ window.SITE_CONFIG = {
       section: 'Psychologia zdrowia',
       domainKey: 'health_psychology',
       items: [
-        { id: 'health_psychology/zdrowie_wprowadzenie',    label: 'Psychologia zdrowia — wprow.',    file: 'wiki/health_psychology/zdrowie_wprowadzenie.md'    },
+        { id: 'health_psychology/zdrowie_wprowadzenie',    label: 'Psychologia zdrowia - wprow.',    file: 'wiki/health_psychology/zdrowie_wprowadzenie.md'    },
         { id: 'health_psychology/model_biopsychospoleczny',label: 'Model biopsychospołeczny',        file: 'wiki/health_psychology/model_biopsychospoleczny.md'},
         { id: 'health_psychology/stres',                   label: 'Stres i zdrowie',                 file: 'wiki/health_psychology/stres.md'                   },
         { id: 'health_psychology/radzenie_sobie',          label: 'Radzenie sobie ze stresem',       file: 'wiki/health_psychology/radzenie_sobie.md'          },
         { id: 'health_psychology/zachowania_zdrowotne',    label: 'Zachowania zdrowotne',            file: 'wiki/health_psychology/zachowania_zdrowotne.md'    },
-        { id: 'health_psychology/styl_zycia',              label: 'Styl życia a zdrowie',            file: 'wiki/health_psychology/styl_zycia.md'              },
+        { id: 'health_psychology/styl_zycia',              label: 'Styl życia, a zdrowie',            file: 'wiki/health_psychology/styl_zycia.md'              },
         { id: 'health_psychology/sen_zdrowie',             label: 'Sen i zdrowie psychiczne',        file: 'wiki/health_psychology/sen_zdrowie.md'             },
-        { id: 'health_psychology/aktywnosc_fizyczna',      label: 'Aktywność fizyczna a zdrowie psychiczne',    file: 'wiki/health_psychology/aktywnosc_fizyczna.md'      },
-        { id: 'health_psychology/dieta_zdrowie',           label: 'Dieta a zdrowie psychiczne',      file: 'wiki/health_psychology/dieta_zdrowie.md'           },
+        { id: 'health_psychology/aktywnosc_fizyczna',      label: 'Aktywność fizyczna, a zdrowie psychiczne',    file: 'wiki/health_psychology/aktywnosc_fizyczna.md'      },
+        { id: 'health_psychology/dieta_zdrowie',           label: 'Dieta, a zdrowie psychiczne',      file: 'wiki/health_psychology/dieta_zdrowie.md'           },
         { id: 'health_psychology/bol',                     label: 'Psychologia bólu',                file: 'wiki/health_psychology/bol.md'                     },
-        { id: 'health_psychology/bol_chroniczny',          label: 'Ból przewlekły — zarządzanie',    file: 'wiki/health_psychology/bol_chroniczny.md'          },
+        { id: 'health_psychology/bol_chroniczny',          label: 'Ból przewlekły - zarządzanie',    file: 'wiki/health_psychology/bol_chroniczny.md'          },
         { id: 'health_psychology/choroby_przewlekle',      label: 'Psychologia chorób przewlekłych', file: 'wiki/health_psychology/choroby_przewlekle.md'      },
         { id: 'health_psychology/psychoonkologia',         label: 'Psychoonkologia',                 file: 'wiki/health_psychology/psychoonkologia.md'         },
         { id: 'health_psychology/choroby_ukladu_krazenia', label: 'Choroby układu krążenia',         file: 'wiki/health_psychology/choroby_ukladu_krazenia.md' },
         { id: 'health_psychology/cukrzyca',                label: 'Psychologia cukrzycy',            file: 'wiki/health_psychology/cukrzyca.md'                },
-        { id: 'health_psychology/jakosc_zycia',            label: 'Jakość życia a choroba',          file: 'wiki/health_psychology/jakosc_zycia.md'            },
+        { id: 'health_psychology/jakosc_zycia',            label: 'Jakość życia, a choroba',          file: 'wiki/health_psychology/jakosc_zycia.md'            },
         { id: 'health_psychology/promocja_zdrowia',        label: 'Promocja zdrowia i profilaktyka', file: 'wiki/health_psychology/promocja_zdrowia.md'        },
         { id: 'health_psychology/psychoneuroimmunologia',  label: 'Psychoneuroimmunologia',          file: 'wiki/health_psychology/psychoneuroimmunologia.md'  },
         { id: 'health_psychology/placebo',                 label: 'Efekt placebo i nocebo',          file: 'wiki/health_psychology/placebo.md'                 },
-        { id: 'health_psychology/wsparcie_spoleczne',      label: 'Wsparcie społeczne a zdrowie',    file: 'wiki/health_psychology/wsparcie_spoleczne.md'      },
+        { id: 'health_psychology/wsparcie_spoleczne',      label: 'Wsparcie społeczne, a zdrowie',    file: 'wiki/health_psychology/wsparcie_spoleczne.md'      },
         { id: 'health_psychology/adherencja',              label: 'Adherencja terapeutyczna',        file: 'wiki/health_psychology/adherencja.md'              },
         { id: 'health_psychology/komunikacja_medyczna',    label: 'Komunikacja lekarz–pacjent',      file: 'wiki/health_psychology/komunikacja_medyczna.md'    },
         { id: 'health_psychology/interwencje_zdrowotne',   label: 'Interwencje psychologiczne w medycynie',      file: 'wiki/health_psychology/interwencje_zdrowotne.md'   },
@@ -921,7 +919,7 @@ window.SITE_CONFIG = {
       section: 'Psychosomatyka',
       domainKey: 'psychosomatics',
       items: [
-        { id: 'psychosomatics/wprowadzenie',               label: 'Psychosomatyka — wprowadzenie',    file: 'wiki/psychosomatics/wprowadzenie.md'               },
+        { id: 'psychosomatics/wprowadzenie',               label: 'Psychosomatyka',    file: 'wiki/psychosomatics/wprowadzenie.md'               },
         { id: 'psychosomatics/historia',                   label: 'Historia psychosomatyki',           file: 'wiki/psychosomatics/historia.md'                  },
         { id: 'psychosomatics/modele_psychosomatyczne',    label: 'Modele psychosomatyczne',           file: 'wiki/psychosomatics/modele_psychosomatyczne.md'   },
         { id: 'psychosomatics/os_hpa',                     label: 'Oś HPA i mechanizmy stresu',        file: 'wiki/psychosomatics/os_hpa.md'                    },
@@ -942,12 +940,12 @@ window.SITE_CONFIG = {
       section: 'Porozumiewanie się bez przemocy (NVC)',
       domainKey: 'nvc',
       items: [
-        { id: 'nvc/wprowadzenie',              label: 'NVC — wprowadzenie',                    file: 'wiki/nvc/wprowadzenie.md'              },
+        { id: 'nvc/wprowadzenie',              label: 'NVC',                    file: 'wiki/nvc/wprowadzenie.md'              },
         { id: 'nvc/cztery_komponenty',         label: 'Cztery komponenty NVC',                 file: 'wiki/nvc/cztery_komponenty.md'         },
         { id: 'nvc/obserwacja',                label: 'Obserwacja bez oceniania',              file: 'wiki/nvc/obserwacja.md'                },
         { id: 'nvc/uczucia',                   label: 'Uczucia w NVC',                         file: 'wiki/nvc/uczucia.md'                   },
         { id: 'nvc/potrzeby',                  label: 'Katalog potrzeb',                       file: 'wiki/nvc/potrzeby.md'                  },
-        { id: 'nvc/prosba_i_zadanie',          label: 'Prośba a żądanie',                      file: 'wiki/nvc/prosba_i_zadanie.md'          },
+        { id: 'nvc/prosba_i_zadanie',          label: 'Prośba, a żądanie',                      file: 'wiki/nvc/prosba_i_zadanie.md'          },
         { id: 'nvc/empatia_nvc',               label: 'Empatia w NVC',                         file: 'wiki/nvc/empatia_nvc.md'               },
         { id: 'nvc/jezyk_szakala_i_zyrafy',    label: 'Język szakala i żyrafy',                file: 'wiki/nvc/jezyk_szakala_i_zyrafy.md'    },
         { id: 'nvc/autoempatia',               label: 'Autoempatia i samowspółczucie',         file: 'wiki/nvc/autoempatia.md'               },
@@ -960,7 +958,7 @@ window.SITE_CONFIG = {
       section: 'Arteterapia',
       domainKey: 'artetherapy',
       items: [
-        { id: 'artetherapy/arteterapia_wprowadzenie', label: 'Arteterapia — wprowadzenie', file: 'wiki/artetherapy/arteterapia_wprowadzenie.md' },
+        { id: 'artetherapy/arteterapia_wprowadzenie', label: 'Arteterapia', file: 'wiki/artetherapy/arteterapia_wprowadzenie.md' },
         { id: 'artetherapy/art_therapy',   label: 'Arteterapia plastyczna',    file: 'wiki/artetherapy/art_therapy.md'   },
         { id: 'artetherapy/muzykoterapia', label: 'Muzykoterapia',             file: 'wiki/artetherapy/muzykoterapia.md' },
         { id: 'artetherapy/dmt',           label: 'Choreoterapia (DMT)',       file: 'wiki/artetherapy/dmt.md'           },
@@ -974,11 +972,11 @@ window.SITE_CONFIG = {
       section: 'Animaloterapia',
       domainKey: 'animaltherapy',
       items: [
-        { id: 'animaltherapy/animaloterapia_wprowadzenie', label: 'Animaloterapia — wprowadzenie', file: 'wiki/animaltherapy/animaloterapia_wprowadzenie.md' },
+        { id: 'animaltherapy/animaloterapia_wprowadzenie', label: 'Animaloterapia', file: 'wiki/animaltherapy/animaloterapia_wprowadzenie.md' },
         { id: 'animaltherapy/dogoterapia',     label: 'Dogoterapia',            file: 'wiki/animaltherapy/dogoterapia.md'     },
         { id: 'animaltherapy/hipoterapia',     label: 'Hipoterapia',            file: 'wiki/animaltherapy/hipoterapia.md'     },
         { id: 'animaltherapy/felinoterapia',   label: 'Felinoterapia',          file: 'wiki/animaltherapy/felinoterapia.md'   },
-        { id: 'animaltherapy/aat_zastosowania',label: 'AAT — zastosowania',     file: 'wiki/animaltherapy/aat_zastosowania.md'},
+        { id: 'animaltherapy/aat_zastosowania',label: 'AAT - zastosowania',     file: 'wiki/animaltherapy/aat_zastosowania.md'},
         { id: 'animaltherapy/etyka_aat',       label: 'Etyka i dobrostan',      file: 'wiki/animaltherapy/etyka_aat.md'       },
         { id: 'animaltherapy/mechanizmy_aat',  label: 'Mechanizmy AAT',         file: 'wiki/animaltherapy/mechanizmy_aat.md'  },
       ]
@@ -987,14 +985,14 @@ window.SITE_CONFIG = {
       section: 'Odporność psychiczna',
       domainKey: 'resilience_mobbing',
       items: [
-        { id: 'resilience_mobbing/odpornosc_wprowadzenie',   label: 'Odporność psychiczna — wprow.',        file: 'wiki/resilience_mobbing/odpornosc_wprowadzenie.md'   },
+        { id: 'resilience_mobbing/odpornosc_wprowadzenie',   label: 'Odporność psychiczna - wprow.',        file: 'wiki/resilience_mobbing/odpornosc_wprowadzenie.md'   },
         { id: 'resilience_mobbing/modele_odpornosci',        label: 'Modele i teorie odporności',           file: 'wiki/resilience_mobbing/modele_odpornosci.md'        },
         { id: 'resilience_mobbing/budowanie_odpornosci',     label: 'Budowanie odporności psychicznej',     file: 'wiki/resilience_mobbing/budowanie_odpornosci.md'     },
-        { id: 'resilience_mobbing/przemoc_psychiczna',       label: 'Przemoc psychiczna — definicja',       file: 'wiki/resilience_mobbing/przemoc_psychiczna.md'       },
-        { id: 'resilience_mobbing/mobbing_definicja',        label: 'Mobbing — definicja, rodzaje, fazy',   file: 'wiki/resilience_mobbing/mobbing_definicja.md'        },
+        { id: 'resilience_mobbing/przemoc_psychiczna',       label: 'Przemoc psychiczna - definicja',       file: 'wiki/resilience_mobbing/przemoc_psychiczna.md'       },
+        { id: 'resilience_mobbing/mobbing_definicja',        label: 'Mobbing - definicja, rodzaje, fazy',   file: 'wiki/resilience_mobbing/mobbing_definicja.md'        },
         { id: 'resilience_mobbing/mobbing_skutki',           label: 'Skutki psychologiczne mobbingu',       file: 'wiki/resilience_mobbing/mobbing_skutki.md'           },
         { id: 'resilience_mobbing/mobbing_interwencja',      label: 'Interwencja i zapobieganie mobbingowi',file: 'wiki/resilience_mobbing/mobbing_interwencja.md'      },
-        { id: 'resilience_mobbing/wypalenie_zawodowe',       label: 'Wypalenie zawodowe — definicja',       file: 'wiki/resilience_mobbing/wypalenie_zawodowe.md'       },
+        { id: 'resilience_mobbing/wypalenie_zawodowe',       label: 'Wypalenie zawodowe - definicja',       file: 'wiki/resilience_mobbing/wypalenie_zawodowe.md'       },
         { id: 'resilience_mobbing/fazy_wypalenia',           label: 'Fazy i wymiary wypalenia',             file: 'wiki/resilience_mobbing/fazy_wypalenia.md'           },
         { id: 'resilience_mobbing/wypalenie_zawody',         label: 'Wypalenie w wybranych zawodach',       file: 'wiki/resilience_mobbing/wypalenie_zawody.md'         },
         { id: 'resilience_mobbing/profilaktyka_wypalenia',   label: 'Profilaktyka wypalenia zawodowego',    file: 'wiki/resilience_mobbing/profilaktyka_wypalenia.md'   },
@@ -1005,7 +1003,7 @@ window.SITE_CONFIG = {
       section: 'Psychologia szkolna i edukacyjna',
       domainKey: 'school_psychology',
       items: [
-        { id: 'school_psychology/wprowadzenie',                  label: 'Psych. szkolna — wprowadzenie',            file: 'wiki/school_psychology/wprowadzenie.md'                  },
+        { id: 'school_psychology/wprowadzenie',                  label: 'Psych. szkolna',            file: 'wiki/school_psychology/wprowadzenie.md'                  },
         { id: 'school_psychology/teorie_uczenia_sie',            label: 'Teorie uczenia się',                       file: 'wiki/school_psychology/teorie_uczenia_sie.md'            },
         { id: 'school_psychology/strefa_najblizszego_rozwoju',   label: 'Strefa najbliższego rozwoju (ZPD)',        file: 'wiki/school_psychology/strefa_najblizszego_rozwoju.md'   },
         { id: 'school_psychology/motywacja_szkolna',             label: 'Motywacja szkolna',                        file: 'wiki/school_psychology/motywacja_szkolna.md'             },
@@ -1024,7 +1022,7 @@ window.SITE_CONFIG = {
       section: 'Psychologia osób z niepełnosprawnością',
       domainKey: 'disability_psychology',
       items: [
-        { id: 'disability_psychology/wprowadzenie',                  label: 'Psychologia niepełnosprawności — wprow.', file: 'wiki/disability_psychology/wprowadzenie.md'                  },
+        { id: 'disability_psychology/wprowadzenie',                  label: 'Psychologia niepełnosprawności - wprow.', file: 'wiki/disability_psychology/wprowadzenie.md'                  },
         { id: 'disability_psychology/modele_niepelnosprawnosci',     label: 'Modele niepełnosprawności',              file: 'wiki/disability_psychology/modele_niepelnosprawnosci.md'     },
         { id: 'disability_psychology/niepelnosprawnosc_intelektualna', label: 'Niepełnosprawność intelektualna',      file: 'wiki/disability_psychology/niepelnosprawnosc_intelektualna.md' },
         { id: 'disability_psychology/niepelnosprawnosc_ruchowa',     label: 'Niepełnosprawność ruchowa',              file: 'wiki/disability_psychology/niepelnosprawnosc_ruchowa.md'     },
@@ -1042,7 +1040,7 @@ window.SITE_CONFIG = {
       section: 'Psychologia osób w podeszłym wieku',
       domainKey: 'geropsychology',
       items: [
-        { id: 'geropsychology/wprowadzenie',               label: 'Psychologia starości — wprow.',       file: 'wiki/geropsychology/wprowadzenie.md'               },
+        { id: 'geropsychology/wprowadzenie',               label: 'Psychologia starości - wprow.',       file: 'wiki/geropsychology/wprowadzenie.md'               },
         { id: 'geropsychology/starzenie_poznawcze',        label: 'Starzenie się poznawcze',             file: 'wiki/geropsychology/starzenie_poznawcze.md'        },
         { id: 'geropsychology/demencja',                   label: 'Demencja i ch. neurodegeneracyjne',   file: 'wiki/geropsychology/demencja.md'                   },
         { id: 'geropsychology/depresja_starszych',         label: 'Depresja u osób starszych',           file: 'wiki/geropsychology/depresja_starszych.md'         },
@@ -1060,7 +1058,7 @@ window.SITE_CONFIG = {
       section: 'Neuroróżnorodność',
       domainKey: 'neurodiversity',
       items: [
-        { id: 'neurodiversity/wprowadzenie',               label: 'Neuroróżnorodność — wprowadzenie',    file: 'wiki/neurodiversity/wprowadzenie.md'               },
+        { id: 'neurodiversity/wprowadzenie',               label: 'Neuroróżnorodność',    file: 'wiki/neurodiversity/wprowadzenie.md'               },
         { id: 'neurodiversity/adhd',                       label: 'ADHD jako wariant neuroróżnorodności', file: 'wiki/neurodiversity/adhd.md'                       },
         { id: 'neurodiversity/spektrum_autyzmu',           label: 'Spektrum autyzmu (ASD)',               file: 'wiki/neurodiversity/spektrum_autyzmu.md'           },
         { id: 'neurodiversity/dysleksja',                  label: 'Dysleksja',                            file: 'wiki/neurodiversity/dysleksja.md'                  },
@@ -1079,7 +1077,7 @@ window.SITE_CONFIG = {
       section: 'Psychoterapia',
       domainKey: 'psychotherapy',
       items: [
-        { id: 'psychotherapy/psychoterapia_wprowadzenie', label: 'Psychoterapia — wprowadzenie', file: 'wiki/psychotherapy/psychoterapia_wprowadzenie.md' },
+        { id: 'psychotherapy/psychoterapia_wprowadzenie', label: 'Psychoterapia', file: 'wiki/psychotherapy/psychoterapia_wprowadzenie.md' },
         { id: 'psychotherapy/cbt',        label: 'Terapia poznawczo-beh. (CBT)', file: 'wiki/psychotherapy/cbt.md'        },
         { id: 'psychotherapy/dbt',        label: 'Terapia dialektyczna (DBT)',    file: 'wiki/psychotherapy/dbt.md'        },
         { id: 'psychotherapy/psychodyn',  label: 'Terapia psychodynamiczna',     file: 'wiki/psychotherapy/psychodyn.md'  },
@@ -1097,7 +1095,7 @@ window.SITE_CONFIG = {
         { id: 'psychotherapy/psychoanaliza_fromma',    label: 'Psychoanaliza humanistyczna (Fromm)', file: 'wiki/psychotherapy/psychoanaliza_fromma.md' },
         { id: 'psychotherapy/psychologia_zimbardo',    label: 'Psychologia społeczna (Zimbardo)',    file: 'wiki/psychotherapy/psychologia_zimbardo.md' },
         { id: 'psychotherapy/aktywacja_behawioralna', label: 'Aktywacja behawioralna',               file: 'wiki/psychotherapy/aktywacja_behawioralna.md' },
-        { id: 'psychotherapy/rebt',                    label: 'REBT — racjonalna terapia',            file: 'wiki/psychotherapy/rebt.md'                     },
+        { id: 'psychotherapy/rebt',                    label: 'REBT - racjonalna terapia',            file: 'wiki/psychotherapy/rebt.md'                     },
         { id: 'psychotherapy/psychologiczne_mechanizmy_przebaczenia', label: 'Mechanizmy przebaczenia po przemocy emocjonalnej', file: 'wiki/psychotherapy/psychologiczne_mechanizmy_przebaczenia.md' },
         { id: 'psychotherapy/superwizja',              label: 'Superwizja w psychoterapii',           file: 'wiki/psychotherapy/superwizja.md'           },
         { id: 'psychotherapy/kontenerowanie_emocji',   label: 'Kontenerowanie emocji w terapii',      file: 'artykul_kontenerowanie_emocji.md'           },
@@ -1123,7 +1121,7 @@ window.SITE_CONFIG = {
       section: 'Psychologia pozytywna',
       domainKey: 'positive_psychology',
       items: [
-        { id: 'positive_psychology/wprowadzenie',          label: 'Psychologia pozytywna — wprow.',   file: 'wiki/positive_psychology/wprowadzenie.md'          },
+        { id: 'positive_psychology/wprowadzenie',          label: 'Psychologia pozytywna - wprow.',   file: 'wiki/positive_psychology/wprowadzenie.md'          },
         { id: 'positive_psychology/model_perma',           label: 'Model PERMA',                      file: 'wiki/positive_psychology/model_perma.md'           },
         { id: 'positive_psychology/szczescie_dobrostan',   label: 'Szczęście i dobrostan',            file: 'wiki/positive_psychology/szczescie_dobrostan.md'   },
         { id: 'positive_psychology/optymizm_nadzieja',     label: 'Optymizm i nadzieja',              file: 'wiki/positive_psychology/optymizm_nadzieja.md'     },
@@ -1142,7 +1140,7 @@ window.SITE_CONFIG = {
       section: 'Suicydologia',
       domainKey: 'suicidology',
       items: [
-        { id: 'suicidology/suicydologia_wprowadzenie', label: 'Suicydologia — wprowadzenie', file: 'wiki/suicidology/suicydologia_wprowadzenie.md' },
+        { id: 'suicidology/suicydologia_wprowadzenie', label: 'Suicydologia', file: 'wiki/suicidology/suicydologia_wprowadzenie.md' },
         { id: 'suicidology/epidemiologia',             label: 'Epidemiologia',                file: 'wiki/suicidology/epidemiologia.md'             },
         { id: 'suicidology/teorie',                    label: 'Teorie i modele',              file: 'wiki/suicidology/teorie.md'                    },
         { id: 'suicidology/ocena_ryzyka',              label: 'Ocena ryzyka',                 file: 'wiki/suicidology/ocena_ryzyka.md'              },
@@ -1153,7 +1151,7 @@ window.SITE_CONFIG = {
         { id: 'suicidology/media',                     label: 'Efekt Wertera i Papageno',     file: 'wiki/suicidology/media.md'                     },
         { id: 'suicidology/biologiczne_neurobiologiczne_podstawy', label: 'Biologiczne i neurobiologiczne podstawy', file: 'artykul_biologiczne_neurobiologiczne_podstawy_zachowan_suicydalnych.md' },
         { id: 'suicidology/genetyczne_i_epigenetyczne_uwarunkowania', label: 'Genetyczne i epigenetyczne uwarunkowania', file: 'artykul_genetyczne_i_epigenetyczne_uwarunkowania_suicydalnosci.md' },
-        { id: 'suicidology/psychopatologia_a_ryzyko',  label: 'Psychopatologia a ryzyko samobójstwa', file: 'artykul_psychopatologia_a_ryzyko_samobojstwa.md' },
+        { id: 'suicidology/psychopatologia_a_ryzyko',  label: 'Psychopatologia, a ryzyko samobójstwa', file: 'artykul_psychopatologia_a_ryzyko_samobojstwa.md' },
         { id: 'suicidology/trauma_ace_i_stres_chroniczny', label: 'Trauma ACE i stres chroniczny', file: 'artykul_trauma_ace_i_stres_chroniczny_a_ryzyko_samobojstwa.md' },
       ]
     },
@@ -1161,18 +1159,18 @@ window.SITE_CONFIG = {
       section: 'Seksuologia',
       domainKey: 'sexology',
       items: [
-        { id: 'sexology/seksuologia_wprowadzenie', label: 'Seksuologia — wprowadzenie', file: 'wiki/sexology/seksuologia_wprowadzenie.md' },
+        { id: 'sexology/seksuologia_wprowadzenie', label: 'Seksuologia', file: 'wiki/sexology/seksuologia_wprowadzenie.md' },
         { id: 'sexology/psychologia_seksu',         label: 'Psychologia seksu',           file: 'wiki/sexology/psychologia_seksu.md'         },
-        { id: 'sexology/emocjonalne_zaangazowanie_w_seksie', label: 'Emocjonalne zaangażowanie a seks', file: 'wiki/sexology/emocjonalne_zaangazowanie_w_seksie.md' },
-        { id: 'sexology/wstyd_ciala_a_pozycje',      label: 'Wstyd ciała a pozycje seksualne', file: 'wiki/sexology/wstyd_ciala_a_pozycje.md'      },
+        { id: 'sexology/emocjonalne_zaangazowanie_w_seksie', label: 'Emocjonalne zaangażowanie, a seks', file: 'wiki/sexology/emocjonalne_zaangazowanie_w_seksie.md' },
+        { id: 'sexology/wstyd_ciala_a_pozycje',      label: 'Wstyd ciała, a pozycje seksualne', file: 'wiki/sexology/wstyd_ciala_a_pozycje.md'      },
         { id: 'sexology/orientacja',               label: 'Orientacja seksualna',        file: 'wiki/sexology/orientacja.md'               },
         { id: 'sexology/tozsamosc_plciowa',        label: 'Tożsamość płciowa',           file: 'wiki/sexology/tozsamosc_plciowa.md'        },
         { id: 'sexology/dysfunkcje',               label: 'Dysfunkcje seksualne',        file: 'wiki/sexology/dysfunkcje.md'               },
         { id: 'sexology/hiperseksualnosc_mechanizm', label: 'Hiperseksualność jako mechanizm', file: 'wiki/sexology/hiperseksualnosc_mechanizm.md' },
         { id: 'sexology/terapia_seksualna',        label: 'Terapia seksualna',           file: 'wiki/sexology/terapia_seksualna.md'        },
         { id: 'sexology/trauma_seksualna',         label: 'Trauma seksualna',            file: 'wiki/sexology/trauma_seksualna.md'         },
-        { id: 'sexology/przemoc_w_dziecinstwie_a_seksualnosc', label: 'Przemoc w dzieciństwie a seksualność dorosłych', file: 'wiki/sexology/przemoc_w_dziecinstwie_a_seksualnosc.md' },
-        { id: 'sexology/dda_a_seksualnosc',         label: 'DDA a seksualność dorosłych', file: 'wiki/sexology/dda_a_seksualnosc.md'         },
+        { id: 'sexology/przemoc_w_dziecinstwie_a_seksualnosc', label: 'Przemoc w dzieciństwie, a seksualność dorosłych', file: 'wiki/sexology/przemoc_w_dziecinstwie_a_seksualnosc.md' },
+        { id: 'sexology/dda_a_seksualnosc',         label: 'DDA, a seksualność dorosłych', file: 'wiki/sexology/dda_a_seksualnosc.md'         },
         { id: 'sexology/rozw_seksualny',           label: 'Rozwój seksualny',            file: 'wiki/sexology/rozw_seksualny.md'           },
         { id: 'sexology/modele_odpowiedzi',        label: 'Modele odpowiedzi seksualnej',file: 'wiki/sexology/modele_odpowiedzi.md'        },
       ]
@@ -1181,7 +1179,7 @@ window.SITE_CONFIG = {
       section: 'Psychologia sądowa i opiniowanie',
       domainKey: 'forensic_psychology',
       items: [
-        { id: 'forensic_psychology/wprowadzenie',            label: 'Biegły psycholog — wprowadzenie',       file: 'wiki/forensic_psychology/wprowadzenie.md'            },
+        { id: 'forensic_psychology/wprowadzenie',            label: 'Biegły psycholog',       file: 'wiki/forensic_psychology/wprowadzenie.md'            },
         { id: 'forensic_psychology/rola_bieglego',           label: 'Rola i status biegłego',                file: 'wiki/forensic_psychology/rola_bieglego.md'           },
         { id: 'forensic_psychology/podstawy_prawne',         label: 'Podstawy prawne opiniowania',           file: 'wiki/forensic_psychology/podstawy_prawne.md'         },
         { id: 'forensic_psychology/metodologia_opinii',      label: 'Metodologia sporządzania opinii',       file: 'wiki/forensic_psychology/metodologia_opinii.md'      },
@@ -1192,23 +1190,23 @@ window.SITE_CONFIG = {
         { id: 'forensic_psychology/narzedzia_diagnostyczne', label: 'Narzędzia diagnostyczne (sądowe)',      file: 'wiki/forensic_psychology/narzedzia_diagnostyczne.md' },
         { id: 'forensic_psychology/etyka_opiniowania',       label: 'Etyka opiniowania sądowego',            file: 'wiki/forensic_psychology/etyka_opiniowania.md'       },
         { id: 'forensic_psychology/opiniowanie_nieletnich',  label: 'Opiniowanie nieletnich i dzieci',       file: 'wiki/forensic_psychology/opiniowanie_nieletnich.md'  },
-        { id: 'forensic_psychology/biegly_a_sad',            label: 'Biegły a sąd — komunikacja',            file: 'wiki/forensic_psychology/biegly_a_sad.md'            },
+        { id: 'forensic_psychology/biegly_a_sad',            label: 'Biegły, a sąd - komunikacja',            file: 'wiki/forensic_psychology/biegly_a_sad.md'            },
       ]
     },
     {
-      section: 'Ekrany, książki, a natura',
+      section: 'Ekrany, książki,, a natura',
       domainKey: 'media_nature',
       items: [
-        { id: 'media_nature/wprowadzenie',             label: 'Ekrany, książki i natura — wprow.',   file: 'wiki/media_nature/wprowadzenie.md'              },
-        { id: 'media_nature/ekrany_funkcje_poznawcze', label: 'Ekrany a funkcje poznawcze',          file: 'wiki/media_nature/ekrany_funkcje_poznawcze.md'  },
-        { id: 'media_nature/smartfony_psychologia',    label: 'Smartfony a psychologia',             file: 'wiki/media_nature/smartfony_psychologia.md'     },
-        { id: 'media_nature/tablety_dzieci',           label: 'Tablety a rozwój poznawczy dzieci',   file: 'wiki/media_nature/tablety_dzieci.md'            },
-        { id: 'media_nature/telewizja_psychologia',    label: 'Telewizja a funkcje psychiczne',      file: 'wiki/media_nature/telewizja_psychologia.md'     },
-        { id: 'media_nature/czas_ekranowy',            label: 'Czas ekranowy a zdrowie psychiczne',  file: 'wiki/media_nature/czas_ekranowy.md'             },
-        { id: 'media_nature/czytanie_ksiazek',         label: 'Czytanie książek a funkcje psych.',   file: 'wiki/media_nature/czytanie_ksiazek.md'          },
+        { id: 'media_nature/wprowadzenie',             label: 'Ekrany, książki i natura - wprow.',   file: 'wiki/media_nature/wprowadzenie.md'              },
+        { id: 'media_nature/ekrany_funkcje_poznawcze', label: 'Ekrany, a funkcje poznawcze',          file: 'wiki/media_nature/ekrany_funkcje_poznawcze.md'  },
+        { id: 'media_nature/smartfony_psychologia',    label: 'Smartfony, a psychologia',             file: 'wiki/media_nature/smartfony_psychologia.md'     },
+        { id: 'media_nature/tablety_dzieci',           label: 'Tablety, a rozwój poznawczy dzieci',   file: 'wiki/media_nature/tablety_dzieci.md'            },
+        { id: 'media_nature/telewizja_psychologia',    label: 'Telewizja, a funkcje psychiczne',      file: 'wiki/media_nature/telewizja_psychologia.md'     },
+        { id: 'media_nature/czas_ekranowy',            label: 'Czas ekranowy, a zdrowie psychiczne',  file: 'wiki/media_nature/czas_ekranowy.md'             },
+        { id: 'media_nature/czytanie_ksiazek',         label: 'Czytanie książek, a funkcje psych.',   file: 'wiki/media_nature/czytanie_ksiazek.md'          },
         { id: 'media_nature/gleboke_czytanie',         label: 'Głębokie czytanie',                   file: 'wiki/media_nature/gleboke_czytanie.md'          },
-        { id: 'media_nature/czytanie_fikcja_empatia',  label: 'Czytanie fikcji a empatia',           file: 'wiki/media_nature/czytanie_fikcja_empatia.md'   },
-        { id: 'media_nature/natura_psychologia',       label: 'Natura a psychologia',                file: 'wiki/media_nature/natura_psychologia.md'        },
+        { id: 'media_nature/czytanie_fikcja_empatia',  label: 'Czytanie fikcji, a empatia',           file: 'wiki/media_nature/czytanie_fikcja_empatia.md'   },
+        { id: 'media_nature/natura_psychologia',       label: 'Natura, a psychologia',                file: 'wiki/media_nature/natura_psychologia.md'        },
         { id: 'media_nature/las_shinrin_yoku',         label: 'Kąpiel leśna (shinrin-yoku)',         file: 'wiki/media_nature/las_shinrin_yoku.md'          },
         { id: 'media_nature/gory_psychologia',         label: 'Góry i wędrówki górskie',             file: 'wiki/media_nature/gory_psychologia.md'          },
       ]
@@ -1217,15 +1215,15 @@ window.SITE_CONFIG = {
       section: 'Psychologia gier wideo',
       domainKey: 'game_psychology',
       items: [
-        { id: 'game_psychology/wprowadzenie',         label: 'Psychologia gier wideo — wprow.', file: 'wiki/game_psychology/wprowadzenie.md'          },
+        { id: 'game_psychology/wprowadzenie',         label: 'Psychologia gier wideo - wprow.', file: 'wiki/game_psychology/wprowadzenie.md'          },
         { id: 'game_psychology/uzaleznienie_od_gier', label: 'Uzależnienie od gier (IGD)',      file: 'wiki/game_psychology/uzaleznienie_od_gier.md'  },
-        { id: 'game_psychology/agresja_a_gry',        label: 'Agresja a gry wideo',             file: 'wiki/game_psychology/agresja_a_gry.md'         },
+        { id: 'game_psychology/agresja_a_gry',        label: 'Agresja, a gry wideo',             file: 'wiki/game_psychology/agresja_a_gry.md'         },
         { id: 'game_psychology/efekty_poznawcze',     label: 'Efekty poznawcze grania',         file: 'wiki/game_psychology/efekty_poznawcze.md'      },
         { id: 'game_psychology/motywacja_gracza',     label: 'Motywacja gracza',                file: 'wiki/game_psychology/motywacja_gracza.md'      },
         { id: 'game_psychology/flow_i_immersja',      label: 'Przepływ (flow) i immersja',      file: 'wiki/game_psychology/flow_i_immersja.md'       },
         { id: 'game_psychology/gry_spolecznosciowe',  label: 'Gry wieloosobowe i aspekty społ.',file: 'wiki/game_psychology/gry_spolecznosciowe.md'   },
         { id: 'game_psychology/esport',               label: 'Esport i psychologia zawodnika',  file: 'wiki/game_psychology/esport.md'                },
-        { id: 'game_psychology/gry_a_dzieci',         label: 'Gry wideo a dzieci i nastolatki', file: 'wiki/game_psychology/gry_a_dzieci.md'          },
+        { id: 'game_psychology/gry_a_dzieci',         label: 'Gry wideo, a dzieci i nastolatki', file: 'wiki/game_psychology/gry_a_dzieci.md'          },
         { id: 'game_psychology/gender_w_grach',       label: 'Płeć i tożsamość w grach',        file: 'wiki/game_psychology/gender_w_grach.md'        },
         { id: 'game_psychology/gry_terapeutyczne',    label: 'Gry w terapii i rehabilitacji',   file: 'wiki/game_psychology/gry_terapeutyczne.md'     },
         { id: 'game_psychology/klasyfikacja_gier',    label: 'Klasyfikacja gier (PEGI, ESRB)',  file: 'wiki/game_psychology/klasyfikacja_gier.md'     },
@@ -1235,7 +1233,7 @@ window.SITE_CONFIG = {
       section: 'E-terapia',
       domainKey: 'e_therapy',
       items: [
-        { id: 'e_therapy/wprowadzenie',                  label: 'E-terapia — wprowadzenie',              file: 'wiki/e_therapy/wprowadzenie.md'                  },
+        { id: 'e_therapy/wprowadzenie',                  label: 'E-terapia',              file: 'wiki/e_therapy/wprowadzenie.md'                  },
         { id: 'e_therapy/historia_e_terapii',            label: 'Historia e-terapii',                    file: 'wiki/e_therapy/historia_e_terapii.md'            },
         { id: 'e_therapy/terapia_online',                label: 'Terapia online (wideo, telefon, czat)',  file: 'wiki/e_therapy/terapia_online.md'                },
         { id: 'e_therapy/platformy_e_terapii',           label: 'Platformy i narzędzia e-terapii',       file: 'wiki/e_therapy/platformy_e_terapii.md'           },
@@ -1253,14 +1251,14 @@ window.SITE_CONFIG = {
       section: 'Psychologia Sztucznej Inteligencji',
       domainKey: 'ai_psychology',
       items: [
-        { id: 'ai_psychology/wprowadzenie',         label: 'Psychologia AI — wprowadzenie',             file: 'wiki/ai_psychology/wprowadzenie.md'           },
+        { id: 'ai_psychology/wprowadzenie',         label: 'Psychologia AI',             file: 'wiki/ai_psychology/wprowadzenie.md'           },
         { id: 'ai_psychology/historia_ai',          label: 'Historia AI i psychologia',                 file: 'wiki/ai_psychology/historia_ai.md'            },
         { id: 'ai_psychology/czlowiek_a_ai',        label: 'Interakcja człowiek-AI',                    file: 'wiki/ai_psychology/czlowiek_a_ai.md'          },
         { id: 'ai_psychology/zaufanie_do_ai',       label: 'Zaufanie do sztucznej inteligencji',        file: 'wiki/ai_psychology/zaufanie_do_ai.md'         },
         { id: 'ai_psychology/uprzedzenia_ai',       label: 'Uprzedzenia i błędy poznawcze w AI',        file: 'wiki/ai_psychology/uprzedzenia_ai.md'         },
         { id: 'ai_psychology/etyka_ai',             label: 'Etyka AI z perspektywy psychologicznej',    file: 'wiki/ai_psychology/etyka_ai.md'               },
-        { id: 'ai_psychology/ai_emocje',            label: 'AI a emocje i rozumienie emocji',           file: 'wiki/ai_psychology/ai_emocje.md'              },
-        { id: 'ai_psychology/decyzje_ai',           label: 'AI a podejmowanie decyzji',                 file: 'wiki/ai_psychology/decyzje_ai.md'             },
+        { id: 'ai_psychology/ai_emocje',            label: 'AI, a emocje i rozumienie emocji',           file: 'wiki/ai_psychology/ai_emocje.md'              },
+        { id: 'ai_psychology/decyzje_ai',           label: 'AI, a podejmowanie decyzji',                 file: 'wiki/ai_psychology/decyzje_ai.md'             },
         { id: 'ai_psychology/ai_w_terapii',         label: 'AI w psychoterapii i diagnostyce',          file: 'wiki/ai_psychology/ai_w_terapii.md'           },
         { id: 'ai_psychology/ai_poznawcze',         label: 'Poznawcze aspekty działania AI',            file: 'wiki/ai_psychology/ai_poznawcze.md'           },
         { id: 'ai_psychology/antropomorfizacja_ai', label: 'Antropomorfizacja AI',                      file: 'wiki/ai_psychology/antropomorfizacja_ai.md'   },
@@ -1271,23 +1269,23 @@ window.SITE_CONFIG = {
       section: 'Psychologia technologii i dobrostan cyfrowy',
       domainKey: 'technology_psychology',
       items: [
-        { id: 'technology_psychology/technostres', label: 'Technostres — artykuł naukowy', file: 'wiki/technology_psychology/technostres.md' },
+        { id: 'technology_psychology/technostres', label: 'Technostres - artykuł naukowy', file: 'wiki/technology_psychology/technostres.md' },
         { id: 'technology_psychology/zmeczenie_cyfrowe', label: 'Zmęczenie cyfrowe i przeciążenie informacyjne', file: 'wiki/technology_psychology/zmeczenie_cyfrowe.md' },
         { id: 'technology_psychology/fomo_i_nomofobia', label: 'FOMO i nomofobia', file: 'wiki/technology_psychology/fomo_i_nomofobia.md' },
-        { id: 'technology_psychology/algorytmy_a_samoocena', label: 'Algorytmy personalizacji a samoocena', file: 'wiki/technology_psychology/algorytmy_a_samoocena.md' },
+        { id: 'technology_psychology/algorytmy_a_samoocena', label: 'Algorytmy personalizacji, a samoocena', file: 'wiki/technology_psychology/algorytmy_a_samoocena.md' },
         { id: 'technology_psychology/higiena_cyfrowa', label: 'Higiena cyfrowa i profilaktyka przeciążenia', file: 'wiki/technology_psychology/higiena_cyfrowa.md' },
         { id: 'technology_psychology/technologia_w_pracy', label: 'Technologia w pracy: granice, kontrola i autonomia', file: 'wiki/technology_psychology/technologia_w_pracy.md' },
-        { id: 'technology_psychology/technologia_a_sen', label: 'Technologia a sen i regeneracja psychiczna', file: 'wiki/technology_psychology/technologia_a_sen.md' },
+        { id: 'technology_psychology/technologia_a_sen', label: 'Technologia, a sen i regeneracja psychiczna', file: 'wiki/technology_psychology/technologia_a_sen.md' },
         { id: 'technology_psychology/psychoedukacja_rodzinna', label: 'Psychoedukacja rodzinna w erze ekranów', file: 'wiki/technology_psychology/psychoedukacja_rodzinna.md' },
         { id: 'technology_psychology/zdrada_technologii', label: 'Zdrada technologii', file: 'wiki/technology_psychology/zdrada_technologii.md' },
-        { id: 'wiki-index/psychologia_technologii', label: 'WIKI — Psychologia technologii', wiki: 'psychologia_technologii' },
+        { id: 'wiki-index/psychologia_technologii', label: 'WIKI - Psychologia technologii', wiki: 'psychologia_technologii' },
       ]
     },
     {
       section: 'Robotyka afektywna i kognitywistyka',
       domainKey: 'affective_robotics',
       items: [
-        { id: 'affective_robotics/wprowadzenie',                   label: 'Robotyka afektywna — wprowadzenie',         file: 'wiki/affective_robotics/wprowadzenie.md'                    },
+        { id: 'affective_robotics/wprowadzenie',                   label: 'Robotyka afektywna',         file: 'wiki/affective_robotics/wprowadzenie.md'                    },
         { id: 'affective_robotics/historia_robotyki_afektywnej',   label: 'Historia robotyki afektywnej',              file: 'wiki/affective_robotics/historia_robotyki_afektywnej.md'    },
         { id: 'affective_robotics/emocje_robotow',                 label: 'Emocje w robotach',                         file: 'wiki/affective_robotics/emocje_robotow.md'                  },
         { id: 'affective_robotics/dolina_niesamowitosci',          label: 'Dolina niesamowitości',                     file: 'wiki/affective_robotics/dolina_niesamowitosci.md'           },
@@ -1305,7 +1303,7 @@ window.SITE_CONFIG = {
       section: 'Seminarium dyplomowe',
       domainKey: 'ppd',
       items: [
-        { id: 'ppd/wprowadzenie',             label: 'Seminarium dyplomowe — wprowadzenie',    file: 'wiki/ppd/wprowadzenie.md'             },
+        { id: 'ppd/wprowadzenie',             label: 'Seminarium dyplomowe',    file: 'wiki/ppd/wprowadzenie.md'             },
         { id: 'ppd/struktura_pracy',          label: 'Struktura pracy magisterskiej',          file: 'wiki/ppd/struktura_pracy.md'          },
         { id: 'ppd/przeglad_literatury',      label: 'Przegląd literatury naukowej',           file: 'wiki/ppd/przeglad_literatury.md'      },
         { id: 'ppd/metodologia_badan',        label: 'Metodologia badań psychologicznych',     file: 'wiki/ppd/metodologia_badan.md'        },
@@ -1313,7 +1311,7 @@ window.SITE_CONFIG = {
         { id: 'ppd/narzedzia_badawcze',       label: 'Narzędzia badawcze i kwestionariusze',  file: 'wiki/ppd/narzedzia_badawcze.md'       },
         { id: 'ppd/analizy_statystyczne',     label: 'Analizy statystyczne',                  file: 'wiki/ppd/analizy_statystyczne.md'     },
         { id: 'ppd/etyka_badan',              label: 'Etyka badań naukowych',                 file: 'wiki/ppd/etyka_badan.md'              },
-        { id: 'ppd/bledy_badawcze',           label: 'Błędy badawcze — czego unikać',         file: 'wiki/ppd/bledy_badawcze.md'           },
+        { id: 'ppd/bledy_badawcze',           label: 'Błędy badawcze - czego unikać',         file: 'wiki/ppd/bledy_badawcze.md'           },
         { id: 'ppd/opis_wynikow',             label: 'Pisanie i interpretacja wyników',       file: 'wiki/ppd/opis_wynikow.md'             },
         { id: 'ppd/obrona_pracy',             label: 'Obrona pracy magisterskiej',            file: 'wiki/ppd/obrona_pracy.md'             },
         { id: 'ppd/dobre_praktyki',           label: 'Dobre praktyki w pisaniu pracy',        file: 'wiki/ppd/dobre_praktyki.md'           },
@@ -1342,7 +1340,7 @@ window.SITE_CONFIG = {
       domainKey: 'child_clinical_intro',
       items: [
         { id: 'child_clinical_intro/czym_jest_psychologia_kliniczna_dziecka', label: 'Czym jest psychologia kliniczna dziecka?', file: 'wiki/child_clinical_intro/czym_jest_psychologia_kliniczna_dziecka.md' },
-        { id: 'child_clinical_intro/norma_rozwojowa_a_objaw', label: 'Norma rozwojowa a objaw kliniczny', file: 'wiki/child_clinical_intro/norma_rozwojowa_a_objaw.md' },
+        { id: 'child_clinical_intro/norma_rozwojowa_a_objaw', label: 'Norma rozwojowa, a objaw kliniczny', file: 'wiki/child_clinical_intro/norma_rozwojowa_a_objaw.md' },
         { id: 'child_clinical_intro/wywiad_kliniczny_z_dzieckiem_i_rodzina', label: 'Wywiad kliniczny z dzieckiem i rodziną', file: 'wiki/child_clinical_intro/wywiad_kliniczny_z_dzieckiem_i_rodzina.md' },
         { id: 'child_clinical_intro/czynniki_ryzyka_i_ochronne', label: 'Czynniki ryzyka i ochronne', file: 'wiki/child_clinical_intro/czynniki_ryzyka_i_ochronne.md' },
         { id: 'child_clinical_intro/regulacja_emocji_i_samokontrola', label: 'Regulacja emocji i samokontrola', file: 'wiki/child_clinical_intro/regulacja_emocji_i_samokontrola.md' },
@@ -1359,7 +1357,7 @@ window.SITE_CONFIG = {
       section: 'Reagowanie na krytykę',
       domainKey: 'reacting_to_criticism',
       items: [
-        { id: 'reacting_to_criticism/czym_jest_krytyka_i_feedback', label: 'Krytyka a feedback — rozróżnienie', file: 'wiki/reacting_to_criticism/czym_jest_krytyka_i_feedback.md' },
+        { id: 'reacting_to_criticism/czym_jest_krytyka_i_feedback', label: 'Krytyka, a feedback - rozróżnienie', file: 'wiki/reacting_to_criticism/czym_jest_krytyka_i_feedback.md' },
         { id: 'reacting_to_criticism/style_reagowania_na_krytyke', label: 'Style reagowania na krytykę', file: 'wiki/reacting_to_criticism/style_reagowania_na_krytyke.md' },
         { id: 'reacting_to_criticism/neurobiologia_stresu_oceny', label: 'Neurobiologia stresu oceny', file: 'wiki/reacting_to_criticism/neurobiologia_stresu_oceny.md' },
         { id: 'reacting_to_criticism/schematy_poznawcze_i_znieksztalcenia', label: 'Schematy poznawcze i zniekształcenia', file: 'wiki/reacting_to_criticism/schematy_poznawcze_i_znieksztalcenia.md' },
@@ -1380,7 +1378,7 @@ window.SITE_CONFIG = {
       items: [
         { id: 'overeating_psychology/czym_jest_nadmierne_jedzenie', label: 'Czym jest nadmierne jedzenie?', file: 'wiki/overeating_psychology/czym_jest_nadmierne_jedzenie.md' },
         { id: 'overeating_psychology/neurobiologia_nagrody_i_glodu', label: 'Neurobiologia nagrody i głodu', file: 'wiki/overeating_psychology/neurobiologia_nagrody_i_glodu.md' },
-        { id: 'overeating_psychology/regulacja_emocji_i_jedzenie', label: 'Regulacja emocji a jedzenie', file: 'wiki/overeating_psychology/regulacja_emocji_i_jedzenie.md' },
+        { id: 'overeating_psychology/regulacja_emocji_i_jedzenie', label: 'Regulacja emocji, a jedzenie', file: 'wiki/overeating_psychology/regulacja_emocji_i_jedzenie.md' },
         { id: 'overeating_psychology/stres_i_jedzenie_kompulsywne', label: 'Stres i jedzenie kompulsywne', file: 'wiki/overeating_psychology/stres_i_jedzenie_kompulsywne.md' },
         { id: 'overeating_psychology/srodowisko_zywieniowe_i_nawyki', label: 'Środowisko żywieniowe i nawyki', file: 'wiki/overeating_psychology/srodowisko_zywieniowe_i_nawyki.md' },
         { id: 'overeating_psychology/obraz_ciala_i_samokrytycyzm', label: 'Obraz ciała i samokrytycyzm', file: 'wiki/overeating_psychology/obraz_ciala_i_samokrytycyzm.md' },
@@ -1433,39 +1431,39 @@ window.SITE_CONFIG = {
       section: 'Encyklopedie',
       domainKey: 'wiki-index',
       items: [
-        { id: 'wiki-index/neuropsychologia',     label: 'WIKI — Neuropsychologia',                   wiki: 'neuropsychologia'     },
-        { id: 'wiki-index/kliniczna',            label: 'WIKI — Psych. kliniczna',                   wiki: 'kliniczna'            },
-        { id: 'wiki-index/poznawcza',            label: 'WIKI — Psych. poznawcza',                   wiki: 'poznawcza'            },
-        { id: 'wiki-index/spoleczna',            label: 'WIKI — Psych. społeczna',                   wiki: 'spoleczna'            },
-        { id: 'wiki-index/kulturowa',            label: 'WIKI — Psych. kulturowa',                   wiki: 'kulturowa'            },
-        { id: 'wiki-index/rozwojowa',            label: 'WIKI — Psych. rozwojowa',                   wiki: 'rozwojowa'            },
-        { id: 'wiki-index/uzaleznienia',         label: 'WIKI — Uzależnienia',                       wiki: 'uzaleznienia'         },
-        { id: 'wiki-index/relacje',              label: 'WIKI — Relacje i związki',                  wiki: 'relacje'              },
-        { id: 'wiki-index/diagnoza',             label: 'WIKI — Diagnoza psychologiczna',            wiki: 'diagnoza'             },
-        { id: 'wiki-index/biologia',             label: 'WIKI — Biologia zachowania',                wiki: 'biologia'             },
-        { id: 'wiki-index/roznice_ind',          label: 'WIKI — Różnice indywidualne',               wiki: 'roznice_ind'          },
-        { id: 'wiki-index/terapie_artystyczne',  label: 'WIKI — Terapie artystyczne',                wiki: 'terapie_artystyczne'  },
-        { id: 'wiki-index/etyka',                label: 'WIKI — Etyka zawodowa',                     wiki: 'etyka'                },
-        { id: 'wiki-index/slownik',              label: 'WIKI — Słownik terminów',                   wiki: 'slownik'              },
-        { id: 'wiki-index/zdrowie',              label: 'WIKI — Psych. zdrowia',                     wiki: 'zdrowie'              },
-        { id: 'wiki-index/psychosomatics',       label: 'WIKI — Psychosomatyka',                     wiki: 'psychosomatics'       },
-        { id: 'wiki-index/niepelnosprawnosc',    label: 'WIKI — Psych. niepełnosprawności',          wiki: 'niepelnosprawnosc'    },
-        { id: 'wiki-index/geropsychology',       label: 'WIKI — Psych. osób starszych',              wiki: 'geropsychology'       },
-        { id: 'wiki-index/gry_wideo',            label: 'WIKI — Psych. gier wideo',                  wiki: 'gry_wideo'            },
-        { id: 'wiki-index/odpornosc_mobbing',    label: 'WIKI — Odporność, mobbing, wypalenie',      wiki: 'odpornosc_mobbing'    },
-        { id: 'wiki-index/media_natura',         label: 'WIKI — Ekrany, książki i natura',           wiki: 'media_natura'         },
-        { id: 'wiki-index/psych_pozytywna',      label: 'WIKI — Psychologia pozytywna',              wiki: 'psych_pozytywna'      },
-        { id: 'wiki-index/psych_ai',             label: 'WIKI — Psychologia AI',                     wiki: 'psych_ai'             },
-        { id: 'wiki-index/psychologia_technologii', label: 'WIKI — Psychologia technologii',         wiki: 'psychologia_technologii' },
-        { id: 'wiki-index/robotyka_afektywna',   label: 'WIKI — Robotyka afektywna',                 wiki: 'robotyka_afektywna'   },
-        { id: 'wiki-index/psych_szkolna',        label: 'WIKI — Psych. szkolna i edukacyjna',        wiki: 'psych_szkolna'        },
-        { id: 'wiki-index/neurozroznorodnosc',   label: 'WIKI — Neuroróżnorodność',                  wiki: 'neurozroznorodnosc'   },
-        { id: 'wiki-index/psych_sadowa',         label: 'WIKI — Psychologia sądowa',                 wiki: 'psych_sadowa'         },
-        { id: 'wiki-index/e_terapia',            label: 'WIKI — E-terapia',                          wiki: 'e_terapia'            },
-        { id: 'wiki-index/filozofia',            label: 'WIKI — Filozofia',                          wiki: 'filozofia'            },
-        { id: 'wiki-index/nvc',                  label: 'WIKI — Porozumiewanie się bez przemocy',    wiki: 'nvc'                  },
-        { id: 'wiki-index/seminarium_dyplomowe', label: 'WIKI — Seminarium dyplomowe',               wiki: 'seminarium_dyplomowe' },
-        { id: 'wiki-index/podstawy_pomocy',      label: 'WIKI — Podstawy pomocy psychologicznej',    wiki: 'podstawy_pomocy'      },
+        { id: 'wiki-index/neuropsychologia',     label: 'WIKI - Neuropsychologia',                   wiki: 'neuropsychologia'     },
+        { id: 'wiki-index/kliniczna',            label: 'WIKI - Psych. kliniczna',                   wiki: 'kliniczna'            },
+        { id: 'wiki-index/poznawcza',            label: 'WIKI - Psych. poznawcza',                   wiki: 'poznawcza'            },
+        { id: 'wiki-index/spoleczna',            label: 'WIKI - Psych. społeczna',                   wiki: 'spoleczna'            },
+        { id: 'wiki-index/kulturowa',            label: 'WIKI - Psych. kulturowa',                   wiki: 'kulturowa'            },
+        { id: 'wiki-index/rozwojowa',            label: 'WIKI - Psych. rozwojowa',                   wiki: 'rozwojowa'            },
+        { id: 'wiki-index/uzaleznienia',         label: 'WIKI - Uzależnienia',                       wiki: 'uzaleznienia'         },
+        { id: 'wiki-index/relacje',              label: 'WIKI - Relacje i związki',                  wiki: 'relacje'              },
+        { id: 'wiki-index/diagnoza',             label: 'WIKI - Diagnoza psychologiczna',            wiki: 'diagnoza'             },
+        { id: 'wiki-index/biologia',             label: 'WIKI - Biologia zachowania',                wiki: 'biologia'             },
+        { id: 'wiki-index/roznice_ind',          label: 'WIKI - Różnice indywidualne',               wiki: 'roznice_ind'          },
+        { id: 'wiki-index/terapie_artystyczne',  label: 'WIKI - Terapie artystyczne',                wiki: 'terapie_artystyczne'  },
+        { id: 'wiki-index/etyka',                label: 'WIKI - Etyka zawodowa',                     wiki: 'etyka'                },
+        { id: 'wiki-index/slownik',              label: 'WIKI - Słownik terminów',                   wiki: 'slownik'              },
+        { id: 'wiki-index/zdrowie',              label: 'WIKI - Psych. zdrowia',                     wiki: 'zdrowie'              },
+        { id: 'wiki-index/psychosomatics',       label: 'WIKI - Psychosomatyka',                     wiki: 'psychosomatics'       },
+        { id: 'wiki-index/niepelnosprawnosc',    label: 'WIKI - Psych. niepełnosprawności',          wiki: 'niepelnosprawnosc'    },
+        { id: 'wiki-index/geropsychology',       label: 'WIKI - Psych. osób starszych',              wiki: 'geropsychology'       },
+        { id: 'wiki-index/gry_wideo',            label: 'WIKI - Psych. gier wideo',                  wiki: 'gry_wideo'            },
+        { id: 'wiki-index/odpornosc_mobbing',    label: 'WIKI - Odporność, mobbing, wypalenie',      wiki: 'odpornosc_mobbing'    },
+        { id: 'wiki-index/media_natura',         label: 'WIKI - Ekrany, książki i natura',           wiki: 'media_natura'         },
+        { id: 'wiki-index/psych_pozytywna',      label: 'WIKI - Psychologia pozytywna',              wiki: 'psych_pozytywna'      },
+        { id: 'wiki-index/psych_ai',             label: 'WIKI - Psychologia AI',                     wiki: 'psych_ai'             },
+        { id: 'wiki-index/psychologia_technologii', label: 'WIKI - Psychologia technologii',         wiki: 'psychologia_technologii' },
+        { id: 'wiki-index/robotyka_afektywna',   label: 'WIKI - Robotyka afektywna',                 wiki: 'robotyka_afektywna'   },
+        { id: 'wiki-index/psych_szkolna',        label: 'WIKI - Psych. szkolna i edukacyjna',        wiki: 'psych_szkolna'        },
+        { id: 'wiki-index/neurozroznorodnosc',   label: 'WIKI - Neuroróżnorodność',                  wiki: 'neurozroznorodnosc'   },
+        { id: 'wiki-index/psych_sadowa',         label: 'WIKI - Psychologia sądowa',                 wiki: 'psych_sadowa'         },
+        { id: 'wiki-index/e_terapia',            label: 'WIKI - E-terapia',                          wiki: 'e_terapia'            },
+        { id: 'wiki-index/filozofia',            label: 'WIKI - Filozofia',                          wiki: 'filozofia'            },
+        { id: 'wiki-index/nvc',                  label: 'WIKI - Porozumiewanie się bez przemocy',    wiki: 'nvc'                  },
+        { id: 'wiki-index/seminarium_dyplomowe', label: 'WIKI - Seminarium dyplomowe',               wiki: 'seminarium_dyplomowe' },
+        { id: 'wiki-index/podstawy_pomocy',      label: 'WIKI - Podstawy pomocy psychologicznej',    wiki: 'podstawy_pomocy'      },
       ]
     },
     {
@@ -1509,8 +1507,8 @@ window.SITE_CONFIG = {
       { file: 'wiki/neuro/uklad_limbiczny.md', label: 'Układ limbiczny',       status: 'live' },
       { file: 'wiki/neuro/przesilenie_wiosenne.md', label: 'Neurobiologia przesilenia wiosennego', status: 'live' },
       { file: 'wiki/neuro/cykl_miesiaczkowy.md', label: 'Neuropsychologia cyklu miesiączkowego', status: 'live' },
-      { file: 'wiki/neuro/eye_tracking.md',        label: 'Eye tracking — śledzenie wzroku',         status: 'live' },
-      { file: 'wiki/neuro/Muse.md',                label: 'Muse S — neurofeedback i EEG',            status: 'live' },
+      { file: 'wiki/neuro/eye_tracking.md',        label: 'Eye tracking - śledzenie wzroku',         status: 'live' },
+      { file: 'wiki/neuro/Muse.md',                label: 'Muse S - neurofeedback i EEG',            status: 'live' },
       { file: 'wiki/neuro/rehabilitacja_neuropsychologiczna.md', label: 'Rehabilitacja neuropsychologiczna', status: 'live' },
       { file: 'wiki/neuro/neuronauka_poznawcza.md', label: 'Neuronauka poznawcza', status: 'live' },
       { file: 'wiki/neuro/podstawy_neurologii.md', label: 'Podstawy neurologii',                 status: 'live' },
@@ -1518,7 +1516,7 @@ window.SITE_CONFIG = {
     ],
     cognitive: [
       { file: 'wiki/cognitive/pamiec.md',              label: 'Pamięć',               status: 'live' },
-      { file: 'wiki/cognitive/pamiec_dlugotrwala.md', label: 'Pamięć długotrwała',   status: 'live' },
+      { file: 'wiki/cognitive/pamiec_dlugotrwala.md',  label: 'Pamięć długotrwała',   status: 'live' },
       { file: 'wiki/cognitive/uwaga.md',               label: 'Uwaga',                status: 'live' },
       { file: 'wiki/cognitive/jezyk.md',               label: 'Język',                status: 'live' },
       { file: 'wiki/cognitive/funkcje_wykonawcze.md',  label: 'Funkcje wykonawcze',   status: 'live' },
@@ -1544,15 +1542,15 @@ window.SITE_CONFIG = {
       { file: 'wiki/cognitive/architektury_kognitywne.md', label: 'Architektury kognitywne',      status: 'live' },
       { file: 'wiki/cognitive/hda.md',                     label: 'Human Decision Accuracy (HDA)',status: 'live' },
       { file: 'wiki/cognitive/system1_system2.md',        label: 'System 1 i System 2 (Kahneman)', status: 'live' },
-      { file: 'wiki/cognitive/przetwarzanie_predyktywne.md', label: 'Predictive processing',        status: 'live' },
+      { file: 'wiki/cognitive/przetwarzanie_predyktywne.md',  label: 'Predictive processing',        status: 'live' },
       { file: 'wiki/cognitive/ucielesnienie.md',              label: 'Ucieleśnione poznanie',        status: 'live' },
     ],
     spoleczna: [
-      { file: 'wiki/spoleczna/percepcja_spoleczna.md', label: 'Percepcja społeczna i atrybucje', status: 'live' },
+      { file: 'wiki/spoleczna/percepcja_spoleczna.md',   label: 'Percepcja społeczna i atrybucje', status: 'live' },
       { file: 'wiki/spoleczna/eksperyment_wiezienny.md', label: 'Stanfordzki Eksperyment Więzienny', status: 'live' },
-      { file: 'wiki/spoleczna/manipulacja.md', label: 'Manipulacja — mechanizmy i metody wpływu', status: 'live' },
+      { file: 'wiki/spoleczna/manipulacja.md', label: 'Manipulacja - mechanizmy i metody wpływu', status: 'live' },
       { file: 'wiki/spoleczna/stereotypy.md', label: 'Stereotypy i uprzedzenia', status: 'live' },
-      { file: 'wiki/spoleczna/manosfera_feminizm.md', label: 'Manosfera i feminizm — ujęcie psychologiczne', status: 'live' },
+      { file: 'wiki/spoleczna/manosfera_feminizm.md', label: 'Manosfera i feminizm - ujęcie psychologiczne', status: 'live' },
       { file: 'wiki/spoleczna/ja_i_samoocena.md', label: 'Ja i samoocena', status: 'live' },
       { file: 'wiki/spoleczna/postawy.md', label: 'Postawy i zmiana postaw', status: 'live' },
       { file: 'wiki/spoleczna/konformizm.md', label: 'Konformizm i posłuszeństwo', status: 'live' },
@@ -1575,20 +1573,20 @@ window.SITE_CONFIG = {
       { file: 'wiki/disorders/asd.md',       label: 'Spektrum autyzmu (ASD)', status: 'live' },
     ],
     diagnostics: [
-      { file: 'wiki/diagnostics/testy_przeglad.md',   label: 'Testy — przegląd',      status: 'live' },
+      { file: 'wiki/diagnostics/testy_przeglad.md',   label: 'Testy - przegląd',      status: 'live' },
       { file: 'wiki/diagnostics/mmse_moca.md',        label: 'MMSE i MoCA',           status: 'live' },
       { file: 'wiki/diagnostics/testy_wykonawcze.md', label: 'Testy funkcji wyk.',    status: 'live' },
       { file: 'wiki/diagnostics/testy_pamieci.md',    label: 'Testy pamięci',         status: 'live' },
       { file: 'wiki/diagnostics/testy_uwagi.md',      label: 'Testy uwagi',           status: 'live' },
       { file: 'wiki/diagnostics/testy_jezyka.md',     label: 'Testy językowe',        status: 'live' },
       { file: 'wiki/diagnostics/wais.md',             label: 'Skale Wechslera (WAIS/WISC)', status: 'live' },
-      { file: 'wiki/diagnostics/wisc_v.md',           label: 'WISC-V — opis testu',         status: 'live' },
+      { file: 'wiki/diagnostics/wisc_v.md',           label: 'WISC-V - opis testu',         status: 'live' },
       { file: 'wiki/diagnostics/neuropsych_battery.md',label: 'Baterie neuropsychologiczne', status: 'live' },
       { file: 'wiki/diagnostics/rdoc.md',              label: 'Model RDoC',                  status: 'live' },
       { file: 'wiki/diagnostics/scid_v.md',            label: 'SCID-5 / SCID-V',             status: 'live' },
     ],
     psychometrics: [
-      { file: 'wiki/psychometrics/psychometria_wprowadzenie.md', label: 'Psychometria — wprowadzenie', status: 'live' },
+      { file: 'wiki/psychometrics/psychometria_wprowadzenie.md', label: 'Psychometria', status: 'live' },
       { file: 'wiki/psychometrics/rzetelnosc.md',   label: 'Rzetelność pomiaru',      status: 'live' },
       { file: 'wiki/psychometrics/trafnosc.md',     label: 'Trafność pomiaru',        status: 'live' },
       { file: 'wiki/psychometrics/normalizacja.md', label: 'Normalizacja i normy',    status: 'live' },
@@ -1614,7 +1612,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/pharmacology/nootropiki.md',          label: 'Nootropiki i kognitywne',     status: 'live' },
     ],
     individual_diffs: [
-      { file: 'wiki/individual_diffs/roznice_wprowadzenie.md', label: 'Różnice ind. — wprowadzenie', status: 'live' },
+      { file: 'wiki/individual_diffs/roznice_wprowadzenie.md', label: 'Różnice ind.', status: 'live' },
       { file: 'wiki/individual_diffs/inteligencja.md',  label: 'Inteligencja',              status: 'live' },
       { file: 'wiki/individual_diffs/osobowosc.md',     label: 'Osobowość (Wielka Piątka)', status: 'live' },
       { file: 'wiki/individual_diffs/kreatywnosc.md',   label: 'Kreatywność',              status: 'live' },
@@ -1625,7 +1623,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/individual_diffs/ciemna_triada.md',   label: 'Ciemna Triada',           status: 'live' },
     ],
     podstawy_pomocy: [
-      { file: 'wiki/podstawy_pomocy/wprowadzenie.md',                  label: 'Pomoc psychologiczna — wprowadzenie', status: 'live' },
+      { file: 'wiki/podstawy_pomocy/wprowadzenie.md',                  label: 'Pomoc psychologiczna', status: 'live' },
       { file: 'wiki/podstawy_pomocy/relacja_pomocowa.md',              label: 'Relacja pomocowa',                    status: 'live' },
       { file: 'wiki/podstawy_pomocy/aktywne_sluchanie.md',             label: 'Aktywne słuchanie',                   status: 'live' },
       { file: 'wiki/podstawy_pomocy/empatia_w_pomocy.md',              label: 'Empatia w pomocy psychologicznej',    status: 'live' },
@@ -1639,21 +1637,21 @@ window.SITE_CONFIG = {
       { file: 'wiki/podstawy_pomocy/etyka_pomocy.md',                  label: 'Etyka pomocy psychologicznej',        status: 'live' },
     ],
     temperament: [
-      { file: 'wiki/temperament/temperament_wprowadzenie.md', label: 'Temperament — wprowadzenie', status: 'live' },
+      { file: 'wiki/temperament/temperament_wprowadzenie.md', label: 'Temperament', status: 'live' },
       { file: 'wiki/temperament/modele.md',    label: 'Modele temperamentu',     status: 'live' },
       { file: 'wiki/temperament/pomiar.md',    label: 'Pomiar temperamentu',     status: 'live' },
       { file: 'wiki/temperament/kliniczne.md', label: 'Temperament w klinice',   status: 'live' },
-      { file: 'wiki/temperament/razvoj.md',                   label: 'Temperament a rozwój',               status: 'live' },
-      { file: 'wiki/temperament/strelau.md',                  label: 'RTT — teoria Strelaua',              status: 'live' },
+      { file: 'wiki/temperament/razvoj.md',                   label: 'Temperament, a rozwój',               status: 'live' },
+      { file: 'wiki/temperament/strelau.md',                  label: 'RTT - teoria Strelaua',              status: 'live' },
       { file: 'wiki/temperament/eysenck.md',                  label: 'Model Eysencka (PEN)',               status: 'live' },
       { file: 'wiki/temperament/gray.md',                     label: 'Teoria BIS/BAS Graya',               status: 'live' },
       { file: 'wiki/temperament/kagan.md',                    label: 'Zahamowanie behawioralne (Kagan)',    status: 'live' },
-      { file: 'wiki/temperament/temperament_a_psychopat.md',  label: 'Temperament a psychopatologia',       status: 'live' },
+      { file: 'wiki/temperament/temperament_a_psychopat.md',  label: 'Temperament, a psychopatologia',       status: 'live' },
       { file: 'wiki/temperament/biologia_temperamentu.md',    label: 'Biologiczne podłoże temperamentu',    status: 'live' },
-      { file: 'wiki/temperament/temperament_a_kariera.md',    label: 'Temperament a kariera i praca',       status: 'live' },
+      { file: 'wiki/temperament/temperament_a_kariera.md',    label: 'Temperament, a kariera i praca',       status: 'live' },
     ],
     emotions: [
-      { file: 'wiki/emotions/emocje_wprowadzenie.md', label: 'Emocje — wprowadzenie',    status: 'live' },
+      { file: 'wiki/emotions/emocje_wprowadzenie.md', label: 'Emocje',    status: 'live' },
       { file: 'wiki/emotions/teorie.md',       label: 'Teorie emocji',           status: 'live' },
       { file: 'wiki/emotions/regulacja.md',    label: 'Regulacja emocjonalna',   status: 'live' },
       { file: 'wiki/emotions/motywacja.md',    label: 'Motywacja',               status: 'live' },
@@ -1667,7 +1665,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/emotions/emocje_spoleczne.md',         label: 'Emocje społeczne i moralne',       status: 'live' },
     ],
     biology: [
-      { file: 'wiki/biology/biologiczne_podstawy.md', label: 'Biologiczne podstawy — wprow.', status: 'live' },
+      { file: 'wiki/biology/biologiczne_podstawy.md', label: 'Biologiczne podstawy - wprow.', status: 'live' },
       { file: 'wiki/biology/genetyka_beh.md',    label: 'Genetyka behawioralna',      status: 'live' },
       { file: 'wiki/biology/transmisja_genetyczna_zaburzen_psychicznych.md', label: 'Transmisja genetyczna zaburzeń', status: 'live' },
       { file: 'wiki/biology/epigenetyka.md',    label: 'Epigenetyka',                status: 'live' },
@@ -1679,7 +1677,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/biology/mikrobiom.md',        label: 'Oś jelita–mózg',            status: 'live' },
     ],
     psychotherapy: [
-      { file: 'wiki/psychotherapy/psychoterapia_wprowadzenie.md', label: 'Psychoterapia — wprowadzenie', status: 'live' },
+      { file: 'wiki/psychotherapy/psychoterapia_wprowadzenie.md', label: 'Psychoterapia', status: 'live' },
       { file: 'wiki/psychotherapy/cbt.md',         label: 'Terapia poznawczo-beh. (CBT)', status: 'live' },
       { file: 'wiki/psychotherapy/dbt.md',         label: 'Terapia dialektyczna (DBT)',    status: 'live' },
       { file: 'wiki/psychotherapy/psychodyn.md',   label: 'Terapia psychodynamiczna',     status: 'live' },
@@ -1693,17 +1691,17 @@ window.SITE_CONFIG = {
       { file: 'wiki/psychotherapy/act.md',         label: 'Terapia akceptacji (ACT)',      status: 'live' },
       { file: 'wiki/psychotherapy/heksafleks_act.md', label: 'Heksafleks ACT',             status: 'live' },
       { file: 'wiki/psychotherapy/trening_umiejetnosci_spolecznych.md', label: 'Trening Umiejętności Społecznych (SST)', status: 'live' },
-      { file: 'wiki/psychotherapy/gestalt.md',     label: 'Płodna pustka (fertile void) — Gestalt', status: 'live' },
+      { file: 'wiki/psychotherapy/gestalt.md',     label: 'Płodna pustka (fertile void) - Gestalt', status: 'live' },
       { file: 'wiki/psychotherapy/logoterapia_frankl.md',   label: 'Logoterapia (Frankl)',                  status: 'live' },
       { file: 'wiki/psychotherapy/psychoanaliza_fromma.md', label: 'Psychoanaliza humanistyczna (Fromm)',   status: 'live' },
       { file: 'wiki/psychotherapy/psychologia_zimbardo.md', label: 'Psychologia społeczna (Zimbardo)',      status: 'live' },
       { file: 'wiki/psychotherapy/aktywacja_behawioralna.md', label: 'Aktywacja behawioralna',             status: 'live' },
-      { file: 'wiki/psychotherapy/rebt.md',                 label: 'REBT — racjonalna terapia',              status: 'live' },
+      { file: 'wiki/psychotherapy/rebt.md',                 label: 'REBT - racjonalna terapia',              status: 'live' },
       { file: 'wiki/psychotherapy/psychologiczne_mechanizmy_przebaczenia.md', label: 'Mechanizmy przebaczenia po przemocy emocjonalnej', status: 'live' },
       { file: 'wiki/psychotherapy/superwizja.md',           label: 'Superwizja w psychoterapii',            status: 'live' },
     ],
     psychopathology: [
-      { file: 'wiki/psychopathology/psychopatologia_wprowadzenie.md', label: 'Psychopatologia — wprowadzenie', status: 'live' },
+      { file: 'wiki/psychopathology/psychopatologia_wprowadzenie.md', label: 'Psychopatologia', status: 'live' },
       { file: 'wiki/psychopathology/objawy_ogolne.md',             label: 'Objawy ogólne (MSE)',         status: 'live' },
       { file: 'wiki/psychopathology/zaburzenia_lekowe.md',         label: 'Zaburzenia lękowe',           status: 'live' },
       { file: 'wiki/psychopathology/zaburzenia_nastroju.md',       label: 'Zaburzenia nastroju',         status: 'live' },
@@ -1713,7 +1711,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/psychopathology/zaburzenia_odzywiania.md',     label: 'Zaburzenia odżywiania',       status: 'live' },
       { file: 'wiki/psychopathology/neurorozwojowe.md',            label: 'Zaburzenia neurorozwojowe',   status: 'live' },
       { file: 'wiki/psychopathology/ocd.md',                       label: 'OCD i pokrewne',              status: 'live' },
-      { file: 'wiki/psychopathology/uzaleznienia_psych.md',        label: 'Uzależnienia — aspekt psych.',status: 'live' },
+      { file: 'wiki/psychopathology/uzaleznienia_psych.md',        label: 'Uzależnienia - aspekt psych.',status: 'live' },
       { file: 'wiki/psychopathology/depresja_poporodowa.md',       label: 'Depresja poporodowa',         status: 'live' },
       { file: 'wiki/psychopathology/przymus_powtarzania.md',       label: 'Przymus powtarzania',         status: 'live' },
       { file: 'wiki/psychopathology/wiktymizacja.md',               label: 'Wiktymizacja',                status: 'live' },
@@ -1724,7 +1722,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/psychopathology/formulowanie_przypadku.md',     label: 'Formułowanie przypadku',        status: 'live' },
     ],
     suicidology: [
-      { file: 'wiki/suicidology/suicydologia_wprowadzenie.md', label: 'Suicydologia — wprowadzenie', status: 'live' },
+      { file: 'wiki/suicidology/suicydologia_wprowadzenie.md', label: 'Suicydologia', status: 'live' },
       { file: 'wiki/suicidology/epidemiologia.md',  label: 'Epidemiologia',              status: 'live' },
       { file: 'wiki/suicidology/teorie.md',         label: 'Teorie (Joiner, IMV)',       status: 'live' },
       { file: 'wiki/suicidology/ocena_ryzyka.md',   label: 'Ocena ryzyka (C-SSRS)',      status: 'live' },
@@ -1735,23 +1733,23 @@ window.SITE_CONFIG = {
       { file: 'wiki/suicidology/media.md',          label: 'Efekt Wertera i Papageno',   status: 'live' },
     ],
     sexology: [
-      { file: 'wiki/sexology/seksuologia_wprowadzenie.md', label: 'Seksuologia — wprowadzenie', status: 'live' },
+      { file: 'wiki/sexology/seksuologia_wprowadzenie.md', label: 'Seksuologia', status: 'live' },
       { file: 'wiki/sexology/psychologia_seksu.md',      label: 'Psychologia seksu',         status: 'live' },
-      { file: 'wiki/sexology/emocjonalne_zaangazowanie_w_seksie.md', label: 'Emocjonalne zaangażowanie a seks', status: 'live' },
-      { file: 'wiki/sexology/wstyd_ciala_a_pozycje.md',   label: 'Wstyd ciała a pozycje seksualne', status: 'live' },
+      { file: 'wiki/sexology/emocjonalne_zaangazowanie_w_seksie.md', label: 'Emocjonalne zaangażowanie, a seks', status: 'live' },
+      { file: 'wiki/sexology/wstyd_ciala_a_pozycje.md',   label: 'Wstyd ciała,, a pozycje seksualne', status: 'live' },
       { file: 'wiki/sexology/orientacja.md',         label: 'Orientacja seksualna',      status: 'live' },
       { file: 'wiki/sexology/tozsamosc_plciowa.md',  label: 'Tożsamość płciowa',         status: 'live' },
       { file: 'wiki/sexology/dysfunkcje.md',         label: 'Dysfunkcje seksualne',      status: 'live' },
       { file: 'wiki/sexology/hiperseksualnosc_mechanizm.md', label: 'Hiperseksualność jako mechanizm', status: 'live' },
       { file: 'wiki/sexology/terapia_seksualna.md',  label: 'Terapia seksualna',         status: 'live' },
       { file: 'wiki/sexology/trauma_seksualna.md',   label: 'Trauma seksualna',          status: 'live' },
-      { file: 'wiki/sexology/przemoc_w_dziecinstwie_a_seksualnosc.md', label: 'Przemoc w dzieciństwie a seksualność dorosłych', status: 'live' },
-      { file: 'wiki/sexology/dda_a_seksualnosc.md',    label: 'DDA a seksualność dorosłych', status: 'live' },
+      { file: 'wiki/sexology/przemoc_w_dziecinstwie_a_seksualnosc.md', label: 'Przemoc w dzieciństwie, a seksualność dorosłych', status: 'live' },
+      { file: 'wiki/sexology/dda_a_seksualnosc.md',    label: 'DDA,, a seksualność dorosłych', status: 'live' },
       { file: 'wiki/sexology/rozw_seksualny.md',     label: 'Rozwój seksualny',          status: 'live' },
       { file: 'wiki/sexology/modele_odpowiedzi.md',  label: 'Modele odpowiedzi seksualnej', status: 'live' },
     ],
     artetherapy: [
-      { file: 'wiki/artetherapy/arteterapia_wprowadzenie.md', label: 'Arteterapia — wprowadzenie', status: 'live' },
+      { file: 'wiki/artetherapy/arteterapia_wprowadzenie.md', label: 'Arteterapia', status: 'live' },
       { file: 'wiki/artetherapy/art_therapy.md',   label: 'Arteterapia plastyczna', status: 'live' },
       { file: 'wiki/artetherapy/muzykoterapia.md', label: 'Muzykoterapia',          status: 'live' },
       { file: 'wiki/artetherapy/dmt.md',           label: 'Choreoterapia (DMT)',    status: 'live' },
@@ -1761,35 +1759,35 @@ window.SITE_CONFIG = {
       { file: 'wiki/artetherapy/zastosowania.md',  label: 'Zastosowania kliniczne', status: 'live' },
     ],
     animaltherapy: [
-      { file: 'wiki/animaltherapy/animaloterapia_wprowadzenie.md', label: 'Animaloterapia — wprowadzenie', status: 'live' },
+      { file: 'wiki/animaltherapy/animaloterapia_wprowadzenie.md', label: 'Animaloterapia', status: 'live' },
       { file: 'wiki/animaltherapy/dogoterapia.md',     label: 'Dogoterapia',          status: 'live' },
       { file: 'wiki/animaltherapy/hipoterapia.md',     label: 'Hipoterapia',          status: 'live' },
       { file: 'wiki/animaltherapy/felinoterapia.md',   label: 'Felinoterapia',        status: 'live' },
-      { file: 'wiki/animaltherapy/aat_zastosowania.md',label: 'AAT — zastosowania',  status: 'live' },
+      { file: 'wiki/animaltherapy/aat_zastosowania.md',label: 'AAT - zastosowania',  status: 'live' },
       { file: 'wiki/animaltherapy/etyka_aat.md',       label: 'Etyka i dobrostan',   status: 'live' },
       { file: 'wiki/animaltherapy/mechanizmy_aat.md',  label: 'Mechanizmy AAT',      status: 'live' },
     ],
     health_psychology: [
-      { file: 'wiki/health_psychology/zdrowie_wprowadzenie.md',    label: 'Psychologia zdrowia — wprowadzenie', status: 'live' },
+      { file: 'wiki/health_psychology/zdrowie_wprowadzenie.md',    label: 'Psychologia zdrowia', status: 'live' },
       { file: 'wiki/health_psychology/model_biopsychospoleczny.md',label: 'Model biopsychospołeczny',           status: 'live' },
       { file: 'wiki/health_psychology/stres.md',                   label: 'Stres i zdrowie',                    status: 'live' },
       { file: 'wiki/health_psychology/radzenie_sobie.md',          label: 'Radzenie sobie ze stresem',          status: 'live' },
       { file: 'wiki/health_psychology/zachowania_zdrowotne.md',    label: 'Zachowania zdrowotne',               status: 'live' },
-      { file: 'wiki/health_psychology/styl_zycia.md',              label: 'Styl życia a zdrowie',               status: 'live' },
+      { file: 'wiki/health_psychology/styl_zycia.md',              label: 'Styl życia, a zdrowie',               status: 'live' },
       { file: 'wiki/health_psychology/sen_zdrowie.md',             label: 'Sen i zdrowie psychiczne',           status: 'live' },
-      { file: 'wiki/health_psychology/aktywnosc_fizyczna.md',      label: 'Aktywność fizyczna a zdrowie psychiczne',       status: 'live' },
-      { file: 'wiki/health_psychology/dieta_zdrowie.md',           label: 'Dieta a zdrowie psychiczne',         status: 'live' },
+      { file: 'wiki/health_psychology/aktywnosc_fizyczna.md',      label: 'Aktywność fizyczna, a zdrowie psychiczne',       status: 'live' },
+      { file: 'wiki/health_psychology/dieta_zdrowie.md',           label: 'Dieta, a zdrowie psychiczne',         status: 'live' },
       { file: 'wiki/health_psychology/bol.md',                     label: 'Psychologia bólu',                   status: 'live' },
-      { file: 'wiki/health_psychology/bol_chroniczny.md',          label: 'Ból przewlekły — zarządzanie',       status: 'live' },
+      { file: 'wiki/health_psychology/bol_chroniczny.md',          label: 'Ból przewlekły - zarządzanie',       status: 'live' },
       { file: 'wiki/health_psychology/choroby_przewlekle.md',      label: 'Psychologia chorób przewlekłych',    status: 'live' },
       { file: 'wiki/health_psychology/psychoonkologia.md',         label: 'Psychoonkologia',                    status: 'live' },
       { file: 'wiki/health_psychology/choroby_ukladu_krazenia.md', label: 'Choroby układu krążenia',            status: 'live' },
       { file: 'wiki/health_psychology/cukrzyca.md',                label: 'Psychologia cukrzycy',               status: 'live' },
-      { file: 'wiki/health_psychology/jakosc_zycia.md',            label: 'Jakość życia a choroba',             status: 'live' },
+      { file: 'wiki/health_psychology/jakosc_zycia.md',            label: 'Jakość życia, a choroba',             status: 'live' },
       { file: 'wiki/health_psychology/promocja_zdrowia.md',        label: 'Promocja zdrowia i profilaktyka',    status: 'live' },
       { file: 'wiki/health_psychology/psychoneuroimmunologia.md',  label: 'Psychoneuroimmunologia',             status: 'live' },
       { file: 'wiki/health_psychology/placebo.md',                 label: 'Efekt placebo i nocebo',             status: 'live' },
-      { file: 'wiki/health_psychology/wsparcie_spoleczne.md',      label: 'Wsparcie społeczne a zdrowie',       status: 'live' },
+      { file: 'wiki/health_psychology/wsparcie_spoleczne.md',      label: 'Wsparcie społeczne, a zdrowie',       status: 'live' },
       { file: 'wiki/health_psychology/adherencja.md',              label: 'Adherencja terapeutyczna',           status: 'live' },
       { file: 'wiki/health_psychology/komunikacja_medyczna.md',    label: 'Komunikacja lekarz–pacjent',         status: 'live' },
       { file: 'wiki/health_psychology/interwencje_zdrowotne.md',   label: 'Interwencje psychologiczne w medycynie',         status: 'live' },
@@ -1797,7 +1795,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/health_psychology/wypalenie_zawodowe.md',      label: 'Wypalenie zawodowe',                 status: 'live' },
     ],
     psychosomatics: [
-      { file: 'wiki/psychosomatics/wprowadzenie.md',               label: 'Psychosomatyka — wprowadzenie',      status: 'live' },
+      { file: 'wiki/psychosomatics/wprowadzenie.md',               label: 'Psychosomatyka',      status: 'live' },
       { file: 'wiki/psychosomatics/historia.md',                   label: 'Historia psychosomatyki',            status: 'live' },
       { file: 'wiki/psychosomatics/modele_psychosomatyczne.md',    label: 'Modele psychosomatyczne',            status: 'live' },
       { file: 'wiki/psychosomatics/os_hpa.md',                     label: 'Oś HPA i mechanizmy stresu',         status: 'live' },
@@ -1813,7 +1811,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/psychosomatics/terapia_psychosomatyczna.md',   label: 'Terapia psychosomatyczna',           status: 'live' },
     ],
     disability_psychology: [
-      { file: 'wiki/disability_psychology/wprowadzenie.md',                  label: 'Psychologia niepełnosprawności — wprow.',       status: 'live' },
+      { file: 'wiki/disability_psychology/wprowadzenie.md',                  label: 'Psychologia niepełnosprawności - wprow.',       status: 'live' },
       { file: 'wiki/disability_psychology/modele_niepelnosprawnosci.md',     label: 'Modele niepełnosprawności',                     status: 'live' },
       { file: 'wiki/disability_psychology/niepelnosprawnosc_intelektualna.md', label: 'Niepełnosprawność intelektualna',             status: 'live' },
       { file: 'wiki/disability_psychology/niepelnosprawnosc_ruchowa.md',     label: 'Niepełnosprawność ruchowa',                     status: 'live' },
@@ -1833,9 +1831,9 @@ window.SITE_CONFIG = {
       { file: 'wiki/intro/etyka_badan_psychologicznych.md',  label: 'Etyka badań psychologicznych', status: 'live' },
     ],
     cases: [
-      { file: 'wiki/cases/hm.md',            label: 'H.M. — amnezja',  status: 'live' },
+      { file: 'wiki/cases/hm.md',            label: 'H.M. - amnezja',  status: 'live' },
       { file: 'wiki/cases/gage.md',          label: 'Phineas Gage', status: 'live' },
-      { file: 'wiki/cases/tan.md',           label: '„Tan" — afazja', status: 'live' },
+      { file: 'wiki/cases/tan.md',           label: '„Tan" - afazja', status: 'live' },
       { file: 'wiki/cases/split_brain.md',   label: 'Rozdzielony mózg', status: 'live' },
       { file: 'wiki/cases/clive_wearing.md', label: 'Clive Wearing', status: 'live' },
       { file: 'wiki/cases/elliot.md',        label: 'Elliot', status: 'live' },
@@ -1858,7 +1856,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/reference/przeglad_redakcyjny_pakietu_2026_04.md', label: 'Przegląd redakcyjny pakietu (IV 2026)', status: 'live' },
     ],
     geropsychology: [
-      { file: 'wiki/geropsychology/wprowadzenie.md',               label: 'Psychologia starości — wprowadzenie',  status: 'live' },
+      { file: 'wiki/geropsychology/wprowadzenie.md',               label: 'Psychologia starości',  status: 'live' },
       { file: 'wiki/geropsychology/starzenie_poznawcze.md',        label: 'Starzenie się poznawcze',              status: 'live' },
       { file: 'wiki/geropsychology/demencja.md',                   label: 'Demencja i choroby neurodegeneracyjne',status: 'live' },
       { file: 'wiki/geropsychology/depresja_starszych.md',         label: 'Depresja u osób starszych',            status: 'live' },
@@ -1872,28 +1870,28 @@ window.SITE_CONFIG = {
       { file: 'wiki/geropsychology/opieka_nad_opiekunami.md',      label: 'Wypalenie i wsparcie opiekunów',       status: 'live' },
     ],
     game_psychology: [
-      { file: 'wiki/game_psychology/wprowadzenie.md',         label: 'Psychologia gier wideo — wprowadzenie', status: 'live' },
+      { file: 'wiki/game_psychology/wprowadzenie.md',         label: 'Psychologia gier wideo', status: 'live' },
       { file: 'wiki/game_psychology/uzaleznienie_od_gier.md', label: 'Uzależnienie od gier (IGD)',            status: 'live' },
-      { file: 'wiki/game_psychology/agresja_a_gry.md',        label: 'Agresja a gry wideo',                  status: 'live' },
-      { file: 'wiki/game_psychology/efekty_poznawcze.md',     label: 'Efekty poznawcze grania',              status: 'live' },
-      { file: 'wiki/game_psychology/motywacja_gracza.md',     label: 'Motywacja gracza',                     status: 'live' },
-      { file: 'wiki/game_psychology/flow_i_immersja.md',      label: 'Przepływ (flow) i immersja',           status: 'live' },
-      { file: 'wiki/game_psychology/gry_spolecznosciowe.md',  label: 'Gry wieloosobowe i aspekty społeczne', status: 'live' },
-      { file: 'wiki/game_psychology/esport.md',               label: 'Esport i psychologia zawodnika',       status: 'live' },
-      { file: 'wiki/game_psychology/gry_a_dzieci.md',         label: 'Gry wideo a dzieci i nastolatki',      status: 'live' },
-      { file: 'wiki/game_psychology/gender_w_grach.md',       label: 'Płeć i tożsamość w grach',             status: 'live' },
-      { file: 'wiki/game_psychology/gry_terapeutyczne.md',    label: 'Gry w terapii i rehabilitacji',        status: 'live' },
+      { file: 'wiki/game_psychology/agresja_a_gry.md',        label: 'Agresja, a gry wideo',                  status: 'live' },
+      { file: 'wiki/game_psychology/efekty_poznawcze.md',     label: 'Efekty poznawcze grania',               status: 'live' },
+      { file: 'wiki/game_psychology/motywacja_gracza.md',     label: 'Motywacja gracza',                      status: 'live' },
+      { file: 'wiki/game_psychology/flow_i_immersja.md',      label: 'Przepływ (flow) i immersja',            status: 'live' },
+      { file: 'wiki/game_psychology/gry_spolecznosciowe.md',  label: 'Gry wieloosobowe i aspekty społeczne',  status: 'live' },
+      { file: 'wiki/game_psychology/esport.md',               label: 'Esport i psychologia zawodnika',        status: 'live' },
+      { file: 'wiki/game_psychology/gry_a_dzieci.md',         label: 'Gry wideo, a dzieci i nastolatki',      status: 'live' },
+      { file: 'wiki/game_psychology/gender_w_grach.md',       label: 'Płeć i tożsamość w grach',              status: 'live' },
+      { file: 'wiki/game_psychology/gry_terapeutyczne.md',    label: 'Gry w terapii i rehabilitacji',         status: 'live' },
       { file: 'wiki/game_psychology/klasyfikacja_gier.md',    label: 'Klasyfikacja gier (PEGI, ESRB)',        status: 'live' },
     ],
     resilience_mobbing: [
-      { file: 'wiki/resilience_mobbing/odpornosc_wprowadzenie.md',  label: 'Odporność psychiczna — wprowadzenie',      status: 'live' },
+      { file: 'wiki/resilience_mobbing/odpornosc_wprowadzenie.md',  label: 'Odporność psychiczna',      status: 'live' },
       { file: 'wiki/resilience_mobbing/modele_odpornosci.md',       label: 'Modele i teorie odporności',               status: 'live' },
       { file: 'wiki/resilience_mobbing/budowanie_odpornosci.md',    label: 'Budowanie odporności psychicznej',         status: 'live' },
-      { file: 'wiki/resilience_mobbing/przemoc_psychiczna.md',      label: 'Przemoc psychiczna — definicja i formy',   status: 'live' },
-      { file: 'wiki/resilience_mobbing/mobbing_definicja.md',       label: 'Mobbing — definicja, rodzaje i fazy',      status: 'live' },
+      { file: 'wiki/resilience_mobbing/przemoc_psychiczna.md',      label: 'Przemoc psychiczna - definicja i formy',   status: 'live' },
+      { file: 'wiki/resilience_mobbing/mobbing_definicja.md',       label: 'Mobbing - definicja, rodzaje i fazy',      status: 'live' },
       { file: 'wiki/resilience_mobbing/mobbing_skutki.md',          label: 'Skutki psychologiczne mobbingu',           status: 'live' },
       { file: 'wiki/resilience_mobbing/mobbing_interwencja.md',     label: 'Interwencja i zapobieganie mobbingowi',    status: 'live' },
-      { file: 'wiki/resilience_mobbing/wypalenie_zawodowe.md',      label: 'Wypalenie zawodowe — definicja i modele',  status: 'live' },
+      { file: 'wiki/resilience_mobbing/wypalenie_zawodowe.md',      label: 'Wypalenie zawodowe - definicja i modele',  status: 'live' },
       { file: 'wiki/resilience_mobbing/fazy_wypalenia.md',          label: 'Fazy i wymiary wypalenia zawodowego',      status: 'live' },
       { file: 'wiki/resilience_mobbing/wypalenie_zawody.md',        label: 'Wypalenie w wybranych zawodach',           status: 'live' },
       { file: 'wiki/resilience_mobbing/profilaktyka_wypalenia.md',  label: 'Profilaktyka wypalenia zawodowego',        status: 'live' },
@@ -1901,26 +1899,26 @@ window.SITE_CONFIG = {
     ],
 
     media_nature: [
-      { file: 'wiki/media_nature/wprowadzenie.md',             label: 'Ekrany, książki i natura — wprowadzenie',    status: 'live' },
-      { file: 'wiki/media_nature/ekrany_funkcje_poznawcze.md', label: 'Ekrany a funkcje poznawcze',                 status: 'live' },
-      { file: 'wiki/media_nature/smartfony_psychologia.md',    label: 'Smartfony a psychologia',                    status: 'live' },
-      { file: 'wiki/media_nature/tablety_dzieci.md',           label: 'Tablety a rozwój poznawczy dzieci',          status: 'live' },
-      { file: 'wiki/media_nature/telewizja_psychologia.md',    label: 'Telewizja a funkcje psychiczne',             status: 'live' },
-      { file: 'wiki/media_nature/czas_ekranowy.md',            label: 'Czas ekranowy a zdrowie psychiczne',         status: 'live' },
-      { file: 'wiki/media_nature/czytanie_ksiazek.md',         label: 'Czytanie książek a funkcje psychiczne',      status: 'live' },
-      { file: 'wiki/media_nature/gleboke_czytanie.md',         label: 'Głębokie czytanie',                          status: 'live' },
-      { file: 'wiki/media_nature/czytanie_fikcja_empatia.md',  label: 'Czytanie fikcji a empatia i ToM',            status: 'live' },
-      { file: 'wiki/media_nature/natura_psychologia.md',       label: 'Natura a psychologia',                       status: 'live' },
-      { file: 'wiki/media_nature/las_shinrin_yoku.md',         label: 'Kąpiel leśna — shinrin-yoku',                status: 'live' },
-      { file: 'wiki/media_nature/gory_psychologia.md',         label: 'Góry i wędrówki górskie a psychologia',      status: 'live' },
+      { file: 'wiki/media_nature/wprowadzenie.md',             label: 'Ekrany, książki i natura',                    status: 'live' },
+      { file: 'wiki/media_nature/ekrany_funkcje_poznawcze.md', label: 'Ekrany, a funkcje poznawcze',                 status: 'live' },
+      { file: 'wiki/media_nature/smartfony_psychologia.md',    label: 'Smartfony, a psychologia',                    status: 'live' },
+      { file: 'wiki/media_nature/tablety_dzieci.md',           label: 'Tablety, a rozwój poznawczy dzieci',          status: 'live' },
+      { file: 'wiki/media_nature/telewizja_psychologia.md',    label: 'Telewizja, a funkcje psychiczne',             status: 'live' },
+      { file: 'wiki/media_nature/czas_ekranowy.md',            label: 'Czas ekranowy, a zdrowie psychiczne',         status: 'live' },
+      { file: 'wiki/media_nature/czytanie_ksiazek.md',         label: 'Czytanie książek, a funkcje psychiczne',      status: 'live' },
+      { file: 'wiki/media_nature/gleboke_czytanie.md',         label: 'Głębokie czytanie',                           status: 'live' },
+      { file: 'wiki/media_nature/czytanie_fikcja_empatia.md',  label: 'Czytanie fikcji, a empatia i ToM',            status: 'live' },
+      { file: 'wiki/media_nature/natura_psychologia.md',       label: 'Natura, a psychologia',                       status: 'live' },
+      { file: 'wiki/media_nature/las_shinrin_yoku.md',         label: 'Kąpiel leśna - shinrin-yoku',                 status: 'live' },
+      { file: 'wiki/media_nature/gory_psychologia.md',         label: 'Góry i wędrówki górskie, a psychologia',      status: 'live' },
     ],
 
     positive_psychology: [
-      { file: 'wiki/positive_psychology/wprowadzenie.md',           label: 'Psychologia pozytywna — wprowadzenie',    status: 'live' },
+      { file: 'wiki/positive_psychology/wprowadzenie.md',           label: 'Psychologia pozytywna',    status: 'live' },
       { file: 'wiki/positive_psychology/model_perma.md',            label: 'Model PERMA',                            status: 'live' },
       { file: 'wiki/positive_psychology/szczescie_dobrostan.md',    label: 'Szczęście i dobrostan psychiczny',       status: 'live' },
       { file: 'wiki/positive_psychology/optymizm_nadzieja.md',      label: 'Optymizm i nadzieja',                    status: 'live' },
-      { file: 'wiki/positive_psychology/3p_optymizmu_seligmana.md', label: '3P optymizmu Seligmana',               status: 'live' },
+      { file: 'wiki/positive_psychology/3p_optymizmu_seligmana.md', label: '3P optymizmu Seligmana',                 status: 'live' },
       { file: 'wiki/positive_psychology/przeplyw_flow.md',          label: 'Przepływ (flow)',                        status: 'live' },
       { file: 'wiki/positive_psychology/sily_charakteru.md',        label: 'Siły charakteru (VIA)',                  status: 'live' },
       { file: 'wiki/positive_psychology/wdziecznosc.md',            label: 'Wdzięczność',                            status: 'live' },
@@ -1931,31 +1929,31 @@ window.SITE_CONFIG = {
       { file: 'wiki/positive_psychology/interwencje_pozytywne.md',  label: 'Interwencje psychologii pozytywnej',     status: 'live' },
     ],
     ai_psychology: [
-      { file: 'wiki/ai_psychology/wprowadzenie.md',          label: 'Psychologia AI — wprowadzenie',             status: 'live' },
+      { file: 'wiki/ai_psychology/wprowadzenie.md',          label: 'Psychologia AI',             status: 'live' },
       { file: 'wiki/ai_psychology/historia_ai.md',           label: 'Historia AI i psychologia',                 status: 'live' },
       { file: 'wiki/ai_psychology/czlowiek_a_ai.md',         label: 'Interakcja człowiek-AI',                    status: 'live' },
       { file: 'wiki/ai_psychology/zaufanie_do_ai.md',        label: 'Zaufanie do sztucznej inteligencji',        status: 'live' },
       { file: 'wiki/ai_psychology/uprzedzenia_ai.md',        label: 'Uprzedzenia i błędy poznawcze w AI',        status: 'live' },
       { file: 'wiki/ai_psychology/etyka_ai.md',              label: 'Etyka AI z perspektywy psychologicznej',    status: 'live' },
-      { file: 'wiki/ai_psychology/ai_emocje.md',             label: 'AI a emocje i rozumienie emocji',           status: 'live' },
-      { file: 'wiki/ai_psychology/decyzje_ai.md',            label: 'AI a podejmowanie decyzji',                 status: 'live' },
+      { file: 'wiki/ai_psychology/ai_emocje.md',             label: 'AI, a emocje i rozumienie emocji',          status: 'live' },
+      { file: 'wiki/ai_psychology/decyzje_ai.md',            label: 'AI, a podejmowanie decyzji',                status: 'live' },
       { file: 'wiki/ai_psychology/ai_w_terapii.md',          label: 'AI w psychoterapii i diagnostyce',          status: 'live' },
       { file: 'wiki/ai_psychology/ai_poznawcze.md',          label: 'Poznawcze aspekty działania AI',            status: 'live' },
       { file: 'wiki/ai_psychology/antropomorfizacja_ai.md',  label: 'Antropomorfizacja AI',                      status: 'live' },
       { file: 'wiki/ai_psychology/przyszlosc_ai.md',         label: 'Przyszłość relacji człowiek-AI',            status: 'live' },
     ],
     technology_psychology: [
-      { file: 'wiki/technology_psychology/technostres.md',            label: 'Technostres — artykuł naukowy',                    status: 'live' },
-      { file: 'wiki/technology_psychology/zmeczenie_cyfrowe.md',      label: 'Zmęczenie cyfrowe i przeciążenie informacyjne',    status: 'live' },
+      { file: 'wiki/technology_psychology/technostres.md',            label: 'Technostres - artykuł naukowy',                      status: 'live' },
+      { file: 'wiki/technology_psychology/zmeczenie_cyfrowe.md',      label: 'Zmęczenie cyfrowe i przeciążenie informacyjne',      status: 'live' },
       { file: 'wiki/technology_psychology/fomo_i_nomofobia.md',       label: 'FOMO i nomofobia',                                   status: 'live' },
-      { file: 'wiki/technology_psychology/algorytmy_a_samoocena.md',  label: 'Algorytmy personalizacji a samoocena',              status: 'live' },
-      { file: 'wiki/technology_psychology/higiena_cyfrowa.md',        label: 'Higiena cyfrowa i profilaktyka przeciążenia',       status: 'live' },
-      { file: 'wiki/technology_psychology/technologia_w_pracy.md',    label: 'Technologia w pracy: granice, kontrola i autonomia',status: 'live' },
-      { file: 'wiki/technology_psychology/technologia_a_sen.md',      label: 'Technologia a sen i regeneracja psychiczna',        status: 'live' },
-      { file: 'wiki/technology_psychology/psychoedukacja_rodzinna.md',label: 'Psychoedukacja rodzinna w erze ekranów',            status: 'live' },
+      { file: 'wiki/technology_psychology/algorytmy_a_samoocena.md',  label: 'Algorytmy personalizacji, a samoocena',              status: 'live' },
+      { file: 'wiki/technology_psychology/higiena_cyfrowa.md',        label: 'Higiena cyfrowa i profilaktyka przeciążenia',        status: 'live' },
+      { file: 'wiki/technology_psychology/technologia_w_pracy.md',    label: 'Technologia w pracy: granice, kontrola i autonomia', status: 'live' },
+      { file: 'wiki/technology_psychology/technologia_a_sen.md',      label: 'Technologia, a sen i regeneracja psychiczna',        status: 'live' },
+      { file: 'wiki/technology_psychology/psychoedukacja_rodzinna.md',label: 'Psychoedukacja rodzinna w erze ekranów',             status: 'live' },
     ],
     affective_robotics: [
-      { file: 'wiki/affective_robotics/wprowadzenie.md',                    label: 'Robotyka afektywna — wprowadzenie',         status: 'live' },
+      { file: 'wiki/affective_robotics/wprowadzenie.md',                    label: 'Robotyka afektywna',         status: 'live' },
       { file: 'wiki/affective_robotics/historia_robotyki_afektywnej.md',    label: 'Historia robotyki afektywnej',              status: 'live' },
       { file: 'wiki/affective_robotics/emocje_robotow.md',                  label: 'Emocje w robotach',                         status: 'live' },
       { file: 'wiki/affective_robotics/dolina_niesamowitosci.md',           label: 'Dolina niesamowitości',                     status: 'live' },
@@ -1964,42 +1962,42 @@ window.SITE_CONFIG = {
       { file: 'wiki/affective_robotics/percepcja_robotow.md',               label: 'Percepcja i ocena robotów przez ludzi',     status: 'live' },
       { file: 'wiki/affective_robotics/roboty_w_opiece.md',                 label: 'Roboty w opiece i terapii',                 status: 'live' },
       { file: 'wiki/affective_robotics/swiadomosc_maszyn.md',               label: 'Świadomość i podmiotowość maszyn',          status: 'live' },
-      { file: 'wiki/affective_robotics/wspolpraca_czlowiek_robot.md',       label: 'Współpraca człowiek–robot (HRC)',            status: 'live' },
-      { file: 'wiki/affective_robotics/interfejsy_mozg_maszyna.md',         label: 'Interfejsy mózg–maszyna (BCI)',              status: 'live' },
+      { file: 'wiki/affective_robotics/wspolpraca_czlowiek_robot.md',       label: 'Współpraca człowiek–robot (HRC)',           status: 'live' },
+      { file: 'wiki/affective_robotics/interfejsy_mozg_maszyna.md',         label: 'Interfejsy mózg–maszyna (BCI)',             status: 'live' },
       { file: 'wiki/affective_robotics/przyszlosc_robotyki_afektywnej.md',  label: 'Przyszłość robotyki afektywnej',            status: 'live' },
     ],
     school_psychology: [
-      { file: 'wiki/school_psychology/wprowadzenie.md',                 label: 'Psychologia szkolna — wprowadzenie',        status: 'live' },
+      { file: 'wiki/school_psychology/wprowadzenie.md',                 label: 'Psychologia szkolna',                       status: 'live' },
       { file: 'wiki/school_psychology/teorie_uczenia_sie.md',           label: 'Teorie uczenia się',                        status: 'live' },
       { file: 'wiki/school_psychology/strefa_najblizszego_rozwoju.md',  label: 'Strefa najbliższego rozwoju (ZPD)',         status: 'live' },
       { file: 'wiki/school_psychology/motywacja_szkolna.md',            label: 'Motywacja szkolna',                         status: 'live' },
       { file: 'wiki/school_psychology/inteligencja_wieloraka.md',       label: 'Inteligencje wielorakie (Gardner)',         status: 'live' },
-      { file: 'wiki/school_psychology/trudnosci_w_uczeniu_sie.md',      label: 'Trudności w uczeniu się',                  status: 'live' },
-      { file: 'wiki/school_psychology/adhd_w_szkole.md',                label: 'ADHD w środowisku szkolnym',               status: 'live' },
-      { file: 'wiki/school_psychology/relacje_nauczyciel_uczen.md',     label: 'Relacje nauczyciel–uczeń',                 status: 'live' },
+      { file: 'wiki/school_psychology/trudnosci_w_uczeniu_sie.md',      label: 'Trudności w uczeniu się',                   status: 'live' },
+      { file: 'wiki/school_psychology/adhd_w_szkole.md',                label: 'ADHD w środowisku szkolnym',                status: 'live' },
+      { file: 'wiki/school_psychology/relacje_nauczyciel_uczen.md',     label: 'Relacje nauczyciel–uczeń',                  status: 'live' },
       { file: 'wiki/school_psychology/klimat_szkolny.md',               label: 'Klimat szkolny',                            status: 'live' },
-      { file: 'wiki/school_psychology/bullying.md',                    label: 'Bullying w szkole',                         status: 'live' },
+      { file: 'wiki/school_psychology/bullying.md',                     label: 'Bullying w szkole',                         status: 'live' },
       { file: 'wiki/school_psychology/ocenianie_i_feedback.md',         label: 'Ocenianie i informacja zwrotna',            status: 'live' },
-      { file: 'wiki/school_psychology/stres_szkolny.md',                label: 'Stres szkolny i lęk egzaminacyjny',        status: 'live' },
+      { file: 'wiki/school_psychology/stres_szkolny.md',                label: 'Stres szkolny i lęk egzaminacyjny',         status: 'live' },
       { file: 'wiki/school_psychology/interwencje_szkolne.md',          label: 'Interwencje psychologiczne w szkole',       status: 'live' },
     ],
     neurodiversity: [
-      { file: 'wiki/neurodiversity/wprowadzenie.md',               label: 'Neuroróżnorodność — wprowadzenie',    status: 'live' },
+      { file: 'wiki/neurodiversity/wprowadzenie.md',               label: 'Neuroróżnorodność',    status: 'live' },
       { file: 'wiki/neurodiversity/adhd.md',                       label: 'ADHD jako wariant neuroróżnorodności', status: 'live' },
       { file: 'wiki/neurodiversity/spektrum_autyzmu.md',           label: 'Spektrum autyzmu (ASD)',               status: 'live' },
       { file: 'wiki/neurodiversity/dysleksja.md',                  label: 'Dysleksja',                            status: 'live' },
       { file: 'wiki/neurodiversity/dyskalkulia.md',                label: 'Dyskalkulia',                          status: 'live' },
       { file: 'wiki/neurodiversity/dyspraksja.md',                 label: 'Dyspraksja i DCD',                     status: 'live' },
-      { file: 'wiki/neurodiversity/profil_sensoryczny.md',         label: 'Profil sensoryczny',                  status: 'live' },
+      { file: 'wiki/neurodiversity/profil_sensoryczny.md',         label: 'Profil sensoryczny',                   status: 'live' },
       { file: 'wiki/neurodiversity/tourette.md',                   label: "Zespół Tourette'a i tiki",             status: 'live' },
       { file: 'wiki/neurodiversity/hiperleksja.md',                label: 'Hiperleksja i wyjątkowe zdolności',    status: 'live' },
       { file: 'wiki/neurodiversity/model_mocnych_stron.md',        label: 'Model mocnych stron',                  status: 'live' },
       { file: 'wiki/neurodiversity/wsparcie_interwencje.md',       label: 'Wsparcie i interwencje',               status: 'live' },
-      { file: 'wiki/neurodiversity/neurozroznorodnosc_w_pracy.md', label: 'Neuroróżnorodność w miejscu pracy',   status: 'live' },
+      { file: 'wiki/neurodiversity/neurozroznorodnosc_w_pracy.md', label: 'Neuroróżnorodność w miejscu pracy',    status: 'live' },
       { file: 'wiki/neurodiversity/identyfikacja_i_diagnoza.md',   label: 'Identyfikacja i diagnoza',             status: 'live' },
     ],
     forensic_psychology: [
-      { file: 'wiki/forensic_psychology/wprowadzenie.md',            label: 'Biegły psycholog — wprowadzenie',       status: 'live' },
+      { file: 'wiki/forensic_psychology/wprowadzenie.md',            label: 'Biegły psycholog',       status: 'live' },
       { file: 'wiki/forensic_psychology/rola_bieglego.md',           label: 'Rola i status biegłego',                status: 'live' },
       { file: 'wiki/forensic_psychology/podstawy_prawne.md',         label: 'Podstawy prawne opiniowania',           status: 'live' },
       { file: 'wiki/forensic_psychology/metodologia_opinii.md',      label: 'Metodologia sporządzania opinii',       status: 'live' },
@@ -2010,12 +2008,12 @@ window.SITE_CONFIG = {
       { file: 'wiki/forensic_psychology/narzedzia_diagnostyczne.md', label: 'Narzędzia diagnostyczne (sądowe)',      status: 'live' },
       { file: 'wiki/forensic_psychology/etyka_opiniowania.md',       label: 'Etyka opiniowania sądowego',            status: 'live' },
       { file: 'wiki/forensic_psychology/opiniowanie_nieletnich.md',  label: 'Opiniowanie nieletnich i dzieci',       status: 'live' },
-      { file: 'wiki/forensic_psychology/biegly_a_sad.md',            label: 'Biegły a sąd — komunikacja',            status: 'live' },
+      { file: 'wiki/forensic_psychology/biegly_a_sad.md',            label: 'Biegły, a sąd - komunikacja',           status: 'live' },
     ],
     e_therapy: [
-      { file: 'wiki/e_therapy/wprowadzenie.md',                   label: 'E-terapia — wprowadzenie',               status: 'live' },
+      { file: 'wiki/e_therapy/wprowadzenie.md',                   label: 'E-terapia',                              status: 'live' },
       { file: 'wiki/e_therapy/historia_e_terapii.md',             label: 'Historia e-terapii',                     status: 'live' },
-      { file: 'wiki/e_therapy/terapia_online.md',                 label: 'Terapia online (wideo, telefon, czat)',   status: 'live' },
+      { file: 'wiki/e_therapy/terapia_online.md',                 label: 'Terapia online (wideo, telefon, czat)',  status: 'live' },
       { file: 'wiki/e_therapy/platformy_e_terapii.md',            label: 'Platformy i narzędzia e-terapii',        status: 'live' },
       { file: 'wiki/e_therapy/skutecznosc_e_terapii.md',          label: 'Skuteczność e-terapii',                  status: 'live' },
       { file: 'wiki/e_therapy/etyka_e_terapii.md',                label: 'Etyka e-terapii',                        status: 'live' },
@@ -2027,10 +2025,10 @@ window.SITE_CONFIG = {
       { file: 'wiki/e_therapy/przyszlosc_e_terapii.md',           label: 'Przyszłość e-terapii',                   status: 'live' },
     ],
     philosophy: [
-      { file: 'wiki/philosophy/wprowadzenie.md',        label: 'Filozofia — wprowadzenie',       status: 'live' },
+      { file: 'wiki/philosophy/wprowadzenie.md',        label: 'Filozofia',       status: 'live' },
       { file: 'wiki/philosophy/ontologia.md',           label: 'Ontologia i metafizyka',          status: 'live' },
       { file: 'wiki/philosophy/epistemologia.md',       label: 'Epistemologia i teoria poznania', status: 'live' },
-      { file: 'wiki/philosophy/egocentryczny_dylemat.md',label: 'Egocentryczny dylemat poznania',  status: 'live' },
+      { file: 'wiki/philosophy/egocentryczny_dylemat.md',label: 'Egocentryczny dylemat poznania', status: 'live' },
       { file: 'wiki/philosophy/etyka.md',               label: 'Etyka i filozofia moralna',       status: 'live' },
       { file: 'wiki/philosophy/filozofia_umyslu.md',    label: 'Filozofia umysłu',                status: 'live' },
       { file: 'wiki/philosophy/filozofia_nauki.md',     label: 'Filozofia nauki',                 status: 'live' },
@@ -2039,7 +2037,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/philosophy/hermeneutyka.md',        label: 'Hermeneutyka i interpretacja',    status: 'live' },
       { file: 'wiki/philosophy/logika.md',              label: 'Logika i argumentacja',           status: 'live' },
       { file: 'wiki/philosophy/filozofia_jezyka.md',    label: 'Filozofia języka',                status: 'live' },
-      { file: 'wiki/philosophy/filozofia_czlowieka.md',        label: 'Filozofia człowieka',                        status: 'live' },
+      { file: 'wiki/philosophy/filozofia_czlowieka.md',       label: 'Filozofia człowieka',                        status: 'live' },
       { file: 'wiki/philosophy/cien_antropiczny.md',          label: 'Cień antropiczny',                           status: 'live' },
       { file: 'wiki/philosophy/mozg_boltzmanna.md',           label: 'Mózg Boltzmanna',                            status: 'live' },
       { file: 'wiki/philosophy/horror_panpsychizmu.md',       label: 'Horror panpsychizmu',                        status: 'live' },
@@ -2056,12 +2054,12 @@ window.SITE_CONFIG = {
       { file: 'wiki/philosophy/realizm_modalny.md',           label: 'Realizm modalny',                            status: 'live' },
     ],
     nvc: [
-      { file: 'wiki/nvc/wprowadzenie.md',           label: 'NVC — wprowadzenie',                    status: 'live' },
+      { file: 'wiki/nvc/wprowadzenie.md',            label: 'NVC',                                   status: 'live' },
       { file: 'wiki/nvc/cztery_komponenty.md',       label: 'Cztery komponenty NVC',                 status: 'live' },
       { file: 'wiki/nvc/obserwacja.md',              label: 'Obserwacja bez oceniania',              status: 'live' },
       { file: 'wiki/nvc/uczucia.md',                 label: 'Uczucia w NVC',                         status: 'live' },
       { file: 'wiki/nvc/potrzeby.md',                label: 'Katalog potrzeb',                       status: 'live' },
-      { file: 'wiki/nvc/prosba_i_zadanie.md',        label: 'Prośba a żądanie',                      status: 'live' },
+      { file: 'wiki/nvc/prosba_i_zadanie.md',        label: 'Prośba, a żądanie',                     status: 'live' },
       { file: 'wiki/nvc/empatia_nvc.md',             label: 'Empatia w NVC',                         status: 'live' },
       { file: 'wiki/nvc/jezyk_szakala_i_zyrafy.md',  label: 'Język szakala i żyrafy',                status: 'live' },
       { file: 'wiki/nvc/autoempatia.md',             label: 'Autoempatia i samowspółczucie',         status: 'live' },
@@ -2070,32 +2068,32 @@ window.SITE_CONFIG = {
       { file: 'wiki/nvc/praktyka_nvc.md',            label: 'Praktyka NVC w codziennym życiu',       status: 'live' },
     ],
     ppd: [
-      { file: 'wiki/ppd/wprowadzenie.md',           label: 'Seminarium dyplomowe — wprowadzenie',   status: 'live' },
+      { file: 'wiki/ppd/wprowadzenie.md',           label: 'Seminarium dyplomowe',                  status: 'live' },
       { file: 'wiki/ppd/struktura_pracy.md',        label: 'Struktura pracy magisterskiej',         status: 'live' },
       { file: 'wiki/ppd/przeglad_literatury.md',    label: 'Przegląd literatury naukowej',          status: 'live' },
       { file: 'wiki/ppd/metodologia_badan.md',      label: 'Metodologia badań psychologicznych',    status: 'live' },
       { file: 'wiki/ppd/pomiary_psychologiczne.md', label: 'Zasady prowadzenia pomiarów',           status: 'live' },
-      { file: 'wiki/ppd/narzedzia_badawcze.md',     label: 'Narzędzia badawcze i kwestionariusze', status: 'live' },
+      { file: 'wiki/ppd/narzedzia_badawcze.md',     label: 'Narzędzia badawcze i kwestionariusze',  status: 'live' },
       { file: 'wiki/ppd/analizy_statystyczne.md',   label: 'Analizy statystyczne',                 status: 'live' },
       { file: 'wiki/ppd/etyka_badan.md',            label: 'Etyka badań naukowych',                status: 'live' },
-      { file: 'wiki/ppd/bledy_badawcze.md',         label: 'Błędy badawcze — czego unikać',        status: 'live' },
+      { file: 'wiki/ppd/bledy_badawcze.md',         label: 'Błędy badawcze - czego unikać',        status: 'live' },
       { file: 'wiki/ppd/opis_wynikow.md',           label: 'Pisanie i interpretacja wyników',      status: 'live' },
       { file: 'wiki/ppd/obrona_pracy.md',           label: 'Obrona pracy magisterskiej',           status: 'live' },
       { file: 'wiki/ppd/dobre_praktyki.md',         label: 'Dobre praktyki w pisaniu pracy',       status: 'live' },
     ],
     kulturowa: [
-      { file: 'wiki/kulturowa/wprowadzenie.md',                  label: 'Czym jest psychologia kulturowa?',    status: 'live' },
-      { file: 'wiki/kulturowa/metody.md',                        label: 'Metody: emic vs. etic',               status: 'live' },
-      { file: 'wiki/kulturowa/indywidualizm_kolektywizm.md',     label: 'Wymiar indywidualizm–kolektywizm',    status: 'live' },
-      { file: 'wiki/kulturowa/kultura_percepcja.md',             label: 'Kultura a percepcja i uwaga',         status: 'live' },
-      { file: 'wiki/kulturowa/kulturowe_modele_ja.md',           label: 'Kulturowe modele Ja',                 status: 'live' },
-      { file: 'wiki/kulturowa/kultura_zdrowie.md',               label: 'Kultura a zdrowie psychiczne',        status: 'live' },
-      { file: 'wiki/kulturowa/kultura_emocje.md',       label: 'Kultura a emocje',                  status: 'live' },
-      { file: 'wiki/kulturowa/akulturacja.md',          label: 'Akulturacja i adaptacja kulturowa', status: 'live' },
-      { file: 'wiki/kulturowa/kultura_jezyk.md',        label: 'Kultura a język (Sapir-Whorf)',      status: 'live' },
-      { file: 'wiki/kulturowa/kultura_osobowosc.md',    label: 'Kultura a osobowość',               status: 'live' },
-      { file: 'wiki/kulturowa/wschodnia_zachodnia.md',  label: 'Psychologia Wschodu i Zachodu',     status: 'live' },
-      { file: 'wiki/kulturowa/kultura_relacje.md',      label: 'Kultura a relacje interpersonalne', status: 'live' },
+      { file: 'wiki/kulturowa/wprowadzenie.md',                  label: 'Czym jest psychologia kulturowa?',     status: 'live' },
+      { file: 'wiki/kulturowa/metody.md',                        label: 'Metody: emic vs. etic',                status: 'live' },
+      { file: 'wiki/kulturowa/indywidualizm_kolektywizm.md',     label: 'Wymiar indywidualizm–kolektywizm',     status: 'live' },
+      { file: 'wiki/kulturowa/kultura_percepcja.md',             label: 'Kultura, a percepcja i uwaga',         status: 'live' },
+      { file: 'wiki/kulturowa/kulturowe_modele_ja.md',           label: 'Kulturowe modele Ja',                  status: 'live' },
+      { file: 'wiki/kulturowa/kultura_zdrowie.md',               label: 'Kultura, a zdrowie psychiczne',        status: 'live' },
+      { file: 'wiki/kulturowa/kultura_emocje.md',       label: 'Kultura, a emocje',                   status: 'live' },
+      { file: 'wiki/kulturowa/akulturacja.md',          label: 'Akulturacja i adaptacja kulturowa',   status: 'live' },
+      { file: 'wiki/kulturowa/kultura_jezyk.md',        label: 'Kultura, a język (Sapir-Whorf)',      status: 'live' },
+      { file: 'wiki/kulturowa/kultura_osobowosc.md',    label: 'Kultura, a osobowość',                status: 'live' },
+      { file: 'wiki/kulturowa/wschodnia_zachodnia.md',  label: 'Psychologia Wschodu i Zachodu',       status: 'live' },
+      { file: 'wiki/kulturowa/kultura_relacje.md',      label: 'Kultura, a relacje interpersonalne',  status: 'live' },
     ],
     uzaleznienia: [
       { file: 'wiki/uzaleznienia/kryteria_diagnostyczne.md',     label: 'Kryteria diagnostyczne',             status: 'live' },
@@ -2109,7 +2107,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/uzaleznienia/rodzina_w_uzaleznieniach.md',  label: 'Rodzina w systemie uzależnienia',        status: 'live' },
       { file: 'wiki/uzaleznienia/internet_uzaleznienie.md',     label: 'Uzależnienie od internetu i technologii',status: 'live' },
       { file: 'wiki/uzaleznienia/terapia_grupowa.md',           label: 'Terapia grupowa w uzależnieniach',       status: 'live' },
-      { file: 'wiki/uzaleznienia/recovery.md',                  label: 'Recovery — droga do zdrowia',            status: 'live' },
+      { file: 'wiki/uzaleznienia/recovery.md',                  label: 'Recovery - droga do zdrowia',            status: 'live' },
     ],
     relacje: [
       { file: 'wiki/relacje/przywiezanie_doroslych.md',          label: 'Style przywiązania u dorosłych',     status: 'live' },
@@ -2123,10 +2121,10 @@ window.SITE_CONFIG = {
       { file: 'wiki/relacje/samotnosc.md',                       label: 'Samotność i izolacja społeczna',     status: 'live' },
       { file: 'wiki/relacje/przyjaznie.md',                      label: 'Przyjaźń',                           status: 'live' },
       { file: 'wiki/relacje/rozstanie.md',                       label: 'Rozpad związku i żałoba relacyjna',  status: 'live' },
-      { file: 'wiki/relacje/relacje_rodzinne.md',                label: 'Relacje rodzinne — dynamika',        status: 'live' },
+      { file: 'wiki/relacje/relacje_rodzinne.md',                label: 'Relacje rodzinne - dynamika',        status: 'live' },
     ],
     etyka: [
-      { file: 'wiki/etyka/kodeksy_etyczne.md',                   label: 'Kodeksy etyczne — przegląd',         status: 'live' },
+      { file: 'wiki/etyka/kodeksy_etyczne.md',                   label: 'Kodeksy etyczne - przegląd',         status: 'live' },
       { file: 'wiki/etyka/zasady_apa_ptp.md',                    label: 'Zasady APA i PTP',                   status: 'live' },
       { file: 'wiki/etyka/dobro_nieszkodzenie.md',               label: 'Dobro i nieszkodzenie',              status: 'live' },
       { file: 'wiki/etyka/tajemnica_zawodowa_granice.md',        label: 'Tajemnica zawodowa i jej granice',   status: 'live' },
@@ -2147,7 +2145,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/diagnoza/techniki_projekcyjne.md',           label: 'Techniki projekcyjne',               status: 'live' },
       { file: 'wiki/diagnoza/opinia_psychologiczna.md',          label: 'Opinia psychologiczna',              status: 'live' },
       { file: 'wiki/diagnoza/tajemnica_zawodowa.md',             label: 'Tajemnica zawodowa',                 status: 'live' },
-      { file: 'wiki/diagnoza/diagnoza_stygmatyzacja.md',         label: 'Diagnoza a stygmatyzacja',           status: 'live' },
+      { file: 'wiki/diagnoza/diagnoza_stygmatyzacja.md',         label: 'Diagnoza, a stygmatyzacja',          status: 'live' },
     ],
     rozwojowa: [
       { file: 'wiki/rozwojowa/teorie_rozwoju.md',                label: 'Główne teorie rozwoju',                   status: 'live' },
@@ -2156,7 +2154,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/rozwojowa/wiek_szkolny.md',                  label: 'Wiek szkolny',                            status: 'live' },
       { file: 'wiki/rozwojowa/adolescencja.md',                  label: 'Adolescencja',                            status: 'live' },
       { file: 'wiki/rozwojowa/doroslosc.md',                     label: 'Dorosłość i starzenie się',               status: 'live' },
-      { file: 'wiki/rozwojowa/plastycznosc_mozgu.md',            label: 'Plastyczność mózgu a okresy krytyczne',   status: 'live' },
+      { file: 'wiki/rozwojowa/plastycznosc_mozgu.md',            label: 'Plastyczność mózgu, a okresy krytyczne',  status: 'live' },
       { file: 'wiki/rozwojowa/przywiazanie.md',                  label: 'Teoria przywiązania',                     status: 'live' },
       { file: 'wiki/rozwojowa/rozwoj_jezyka.md',                 label: 'Rozwój języka i komunikacji',             status: 'live' },
       { file: 'wiki/rozwojowa/rodzicielstwo.md',                 label: 'Style rodzicielskie',                     status: 'live' },
@@ -2164,7 +2162,7 @@ window.SITE_CONFIG = {
       { file: 'wiki/rozwojowa/tozsamosc.md',                     label: 'Kształtowanie tożsamości',                status: 'live' },
     ],
     eksperyment_psychologiczny: [
-      { file: 'wiki/eksperyment_psychologiczny/wprowadzenie.md',               label: 'Wprowadzenie do metod eksperymentalnych', status: 'live' },
+      { file: 'wiki/eksperyment_psychologiczny/wprowadzenie.md',               label: 'Wprowadzenie do metod eksperymentalnych',  status: 'live' },
       { file: 'wiki/eksperyment_psychologiczny/problemy_i_hipotezy.md',        label: 'Problem badawczy i hipotezy',              status: 'live' },
       { file: 'wiki/eksperyment_psychologiczny/operacjonalizacja.md',          label: 'Operacjonalizacja zmiennych',              status: 'live' },
       { file: 'wiki/eksperyment_psychologiczny/proby_i_rekrutacja.md',         label: 'Dobór próby i rekrutacja',                 status: 'live' },
@@ -2180,11 +2178,11 @@ window.SITE_CONFIG = {
   },
 
   // ─────────────────────────────────────────────────────────────
-  //  WIKI — definicje encyklopedii tematycznych
+  //  WIKI - definicje encyklopedii tematycznych
   // ─────────────────────────────────────────────────────────────
   wikis: {
     neuropsychologia: {
-      title: 'WIKI — Neuropsychologia kliniczna',
+      title: 'WIKI - Neuropsychologia kliniczna',
       intro: 'Systematyczny przegląd zagadnień neuropsychologii klinicznej. Od struktur mózgu przez syndromologię po rehabilitację.',
       sections: [
         {
@@ -2202,7 +2200,7 @@ window.SITE_CONFIG = {
             { label: 'Kora przedczołowa', id: 'neuro/kora_prefrontalna', status: 'live' },
             { label: 'Neurobiologia przesilenia wiosennego', id: 'neuro/przesilenie_wiosenne', status: 'live' },
             { label: 'Neuropsychologia cyklu miesiączkowego', id: 'neuro/cykl_miesiaczkowy', status: 'live', desc: 'Wpływ estradiolu i progesteronu na poznanie, nastrój i mózg.' },
-            { label: 'Neuronauka poznawcza', id: 'neuro/neuronauka_poznawcza', status: 'live', desc: 'Biologiczne mechanizmy procesów poznawczych — percepcja, pamięć, uwaga, świadomość.' },
+            { label: 'Neuronauka poznawcza', id: 'neuro/neuronauka_poznawcza', status: 'live', desc: 'Biologiczne mechanizmy procesów poznawczych - percepcja, pamięć, uwaga, świadomość.' },
             { label: 'Podstawy neurologii', id: 'neuro/podstawy_neurologii', status: 'live', desc: 'Organizacja OUN/PNS, neurony, glej, drogi nerwowe, badanie neurologiczne.' },
             { label: 'Pień mózgu i móżdżek', id: 'neuro/pien_mozgu', status: 'live', desc: 'Struktury podkorowe i ich funkcje kliniczne.' },
           ]
@@ -2210,8 +2208,8 @@ window.SITE_CONFIG = {
         {
           title: 'Syndromologia',
           articles: [
-            { label: 'Afazje — klasyfikacja i diagnoza', id: 'disorders/afazje', status: 'live' },
-            { label: 'Amnezje — typy i podłoże', id: 'disorders/amnezje', status: 'live' },
+            { label: 'Afazje - klasyfikacja i diagnoza', id: 'disorders/afazje', status: 'live' },
+            { label: 'Amnezje - typy i podłoże', id: 'disorders/amnezje', status: 'live' },
             { label: 'Agnozja wzrokowa i prozopagnozja', id: 'disorders/agnozja', status: 'live' },
             { label: 'Neglect przestrzenny', id: 'disorders/neglect', status: 'live' },
             { label: 'Apraksja', id: 'disorders/apraksja', status: 'live' },
@@ -2230,7 +2228,7 @@ window.SITE_CONFIG = {
             { label: 'Testy uwagi', id: 'diagnostics/testy_uwagi', status: 'live' },
             { label: 'Testy językowe', id: 'diagnostics/testy_jezyka', status: 'live' },
             { label: 'Skale Wechslera (WAIS/WISC)', id: 'diagnostics/wais', status: 'live' },
-            { label: 'WISC-V — opis testu', id: 'diagnostics/wisc_v', status: 'live' },
+            { label: 'WISC-V - opis testu', id: 'diagnostics/wisc_v', status: 'live' },
             { label: 'Baterie neuropsychologiczne', id: 'diagnostics/neuropsych_battery', status: 'live', desc: 'LNNB, HRNB, D-KEFS.' },
             { label: 'SCID-5 / SCID-V', id: 'diagnostics/scid_v', status: 'live' },
           ]
@@ -2238,9 +2236,9 @@ window.SITE_CONFIG = {
         {
           title: 'Przypadki kliniczne',
           articles: [
-            { label: 'H.M. — amnezja', id: 'cases/hm', status: 'live' },
+            { label: 'H.M. - amnezja', id: 'cases/hm', status: 'live' },
             { label: 'Phineas Gage', id: 'cases/gage', status: 'live' },
-            { label: '„Tan" — afazja Broki', id: 'cases/tan', status: 'live' },
+            { label: '„Tan" - afazja Broki', id: 'cases/tan', status: 'live' },
             { label: 'Rozdzielony mózg', id: 'cases/split_brain', status: 'live' },
             { label: 'Clive Wearing', id: 'cases/clive_wearing', status: 'live' },
             { label: 'Elliot', id: 'cases/elliot', status: 'live' },
@@ -2272,8 +2270,8 @@ window.SITE_CONFIG = {
     },
 
     kliniczna: {
-      title: 'WIKI — Psychologia kliniczna',
-      intro: 'Diagnoza, terapia i praca kliniczna — od rozumienia zaburzeń po praktykę w systemie ochrony zdrowia.',
+      title: 'WIKI - Psychologia kliniczna',
+      intro: 'Diagnoza, terapia i praca kliniczna - od rozumienia zaburzeń po praktykę w systemie ochrony zdrowia.',
       sections: [
         {
           title: 'Podstawy diagnostyki',
@@ -2295,7 +2293,7 @@ window.SITE_CONFIG = {
             { label: 'OCD i zaburzenia pokrewne', id: 'psychopathology/ocd', status: 'live' },
             { label: 'Zaburzenia odżywiania', id: 'psychopathology/zaburzenia_odzywiania', status: 'live' },
             { label: 'Zaburzenia neurorozwojowe', id: 'psychopathology/neurorozwojowe', status: 'live' },
-            { label: 'Uzależnienia — aspekt psychologiczny', id: 'psychopathology/uzaleznienia_psych', status: 'live' },
+            { label: 'Uzależnienia - aspekt psychologiczny', id: 'psychopathology/uzaleznienia_psych', status: 'live' },
             { label: 'Depresja poporodowa', id: 'psychopathology/depresja_poporodowa', status: 'live' },
             { label: 'Przymus powtarzania', id: 'psychopathology/przymus_powtarzania', status: 'live' },
             { label: 'Wiktymizacja', id: 'psychopathology/wiktymizacja', status: 'live' },
@@ -2307,9 +2305,9 @@ window.SITE_CONFIG = {
         {
           title: 'Interwencje i psychoterapia',
           articles: [
-            { label: 'Psychoterapia — wprowadzenie', id: 'psychotherapy/psychoterapia_wprowadzenie', status: 'live' },
-            { label: 'CBT — podstawy', id: 'psychotherapy/cbt', status: 'live' },
-            { label: 'DBT — terapia dialektyczna', id: 'psychotherapy/dbt', status: 'live' },
+            { label: 'Psychoterapia', id: 'psychotherapy/psychoterapia_wprowadzenie', status: 'live' },
+            { label: 'CBT - podstawy', id: 'psychotherapy/cbt', status: 'live' },
+            { label: 'DBT - terapia dialektyczna', id: 'psychotherapy/dbt', status: 'live' },
             { label: 'Terapia psychodynamiczna', id: 'psychotherapy/psychodyn', status: 'live' },
             { label: 'Podejście humanistyczne', id: 'psychotherapy/humanist', status: 'live' },
             { label: 'Terapia systemowa', id: 'psychotherapy/systemowa', status: 'live' },
@@ -2321,12 +2319,12 @@ window.SITE_CONFIG = {
             { label: 'Skuteczność psychoterapii', id: 'psychotherapy/skutecznosc', status: 'live' },
             { label: 'Sojusz terapeutyczny', id: 'psychotherapy/sojusz', status: 'live' },
             { label: 'Trening Umiejętności Społecznych (SST)', id: 'psychotherapy/trening_umiejetnosci_spolecznych', status: 'live' },
-            { label: 'Płodna pustka (fertile void) — Gestalt', id: 'psychotherapy/gestalt', status: 'live' },
+            { label: 'Płodna pustka (fertile void) - Gestalt', id: 'psychotherapy/gestalt', status: 'live' },
             { label: 'Logoterapia (Frankl)', id: 'psychotherapy/logoterapia_frankl', status: 'live' },
             { label: 'Psychoanaliza humanistyczna (Fromm)', id: 'psychotherapy/psychoanaliza_fromma', status: 'live' },
             { label: 'Psychologia społeczna (Zimbardo)', id: 'psychotherapy/psychologia_zimbardo', status: 'live' },
             { label: 'Aktywacja behawioralna', id: 'psychotherapy/aktywacja_behawioralna', status: 'live' },
-            { label: 'REBT — racjonalna terapia', id: 'psychotherapy/rebt', status: 'live' },
+            { label: 'REBT - racjonalna terapia', id: 'psychotherapy/rebt', status: 'live' },
             { label: 'Mechanizmy przebaczenia po przemocy emocjonalnej', id: 'psychotherapy/psychologiczne_mechanizmy_przebaczenia', status: 'live' },
             { label: 'Superwizja w psychoterapii', id: 'psychotherapy/superwizja', status: 'live' },
             { label: 'Interwencja kryzysowa', id: 'suicidology/interwencja', status: 'live' },
@@ -2335,7 +2333,7 @@ window.SITE_CONFIG = {
         {
           title: 'Suicydologia',
           articles: [
-            { label: 'Suicydologia — wprowadzenie', id: 'suicidology/suicydologia_wprowadzenie', status: 'live' },
+            { label: 'Suicydologia', id: 'suicidology/suicydologia_wprowadzenie', status: 'live' },
             { label: 'Epidemiologia', id: 'suicidology/epidemiologia', status: 'live' },
             { label: 'Teorie (Joiner, IMV)', id: 'suicidology/teorie', status: 'live' },
             { label: 'Ocena ryzyka (C-SSRS)', id: 'suicidology/ocena_ryzyka', status: 'live' },
@@ -2348,7 +2346,7 @@ window.SITE_CONFIG = {
         {
           title: 'Psychometria',
           articles: [
-            { label: 'Psychometria — wprowadzenie', id: 'psychometrics/psychometria_wprowadzenie', status: 'xlink' },
+            { label: 'Psychometria', id: 'psychometrics/psychometria_wprowadzenie', status: 'xlink' },
             { label: 'Narzędzia kliniczne (PHQ-9, GAD-7, PCL-5)', id: 'psychometrics/narzedzia_kliniczne', status: 'live' },
           ]
         },
@@ -2356,8 +2354,8 @@ window.SITE_CONFIG = {
     },
 
     poznawcza: {
-      title: 'WIKI — Psychologia poznawcza',
-      intro: 'Procesy przetwarzania informacji — od percepcji przez pamięć i uwagę po myślenie i podejmowanie decyzji.',
+      title: 'WIKI - Psychologia poznawcza',
+      intro: 'Procesy przetwarzania informacji - od percepcji przez pamięć i uwagę po myślenie i podejmowanie decyzji.',
       sections: [
         {
           title: 'Procesy podstawowe',
@@ -2403,15 +2401,15 @@ window.SITE_CONFIG = {
     },
 
     spoleczna: {
-      title: 'WIKI — Psychologia społeczna',
-      intro: 'Jak myśli, emocje i zachowania jednostki kształtują się pod wpływem obecności innych — od percepcji społecznej po dynamikę grupową.',
+      title: 'WIKI - Psychologia społeczna',
+      intro: 'Jak myśli, emocje i zachowania jednostki kształtują się pod wpływem obecności innych - od percepcji społecznej po dynamikę grupową.',
       sections: [
         {
           title: 'Poznanie społeczne',
           articles: [
             { label: 'Percepcja społeczna i atrybucje', id: 'spoleczna/percepcja_spoleczna', status: 'live' },
             { label: 'Stereotypy i uprzedzenia', id: 'spoleczna/stereotypy', status: 'live' },
-            { label: 'Manosfera i feminizm — ujęcie psychologiczne', id: 'spoleczna/manosfera_feminizm', status: 'live' },
+            { label: 'Manosfera i feminizm - ujęcie psychologiczne', id: 'spoleczna/manosfera_feminizm', status: 'live' },
             { label: 'Ja i samoocena', id: 'spoleczna/ja_i_samoocena', status: 'live' },
             { label: 'Postawy i zmiana postaw', id: 'spoleczna/postawy', status: 'live' },
           ]
@@ -2420,7 +2418,7 @@ window.SITE_CONFIG = {
           title: 'Wpływ społeczny',
           articles: [
             { label: 'Stanfordzki Eksperyment Więzienny', id: 'spoleczna/eksperyment_wiezienny', status: 'live' },
-            { label: 'Manipulacja — mechanizmy i metody wpływu', id: 'spoleczna/manipulacja', status: 'live' },
+            { label: 'Manipulacja - mechanizmy i metody wpływu', id: 'spoleczna/manipulacja', status: 'live' },
             { label: 'Konformizm i posłuszeństwo', id: 'spoleczna/konformizm', status: 'live' },
             { label: 'Perswazja i propaganda', id: 'spoleczna/perswazja', status: 'live' },
             { label: 'Dynamika grupowa', id: 'spoleczna/dynamika_grupowa', status: 'live' },
@@ -2439,8 +2437,8 @@ window.SITE_CONFIG = {
     },
 
     kulturowa: {
-      title: 'WIKI — Psychologia kulturowa',
-      intro: 'Jak kultura współtworzy poznanie, emocje, Ja i relacje — badania porównawcze i perspektywa emic/etic.',
+      title: 'WIKI - Psychologia kulturowa',
+      intro: 'Jak kultura współtworzy poznanie, emocje, Ja i relacje - badania porównawcze i perspektywa emic/etic.',
       sections: [
         {
           title: 'Podstawy',
@@ -2451,29 +2449,29 @@ window.SITE_CONFIG = {
           ]
         },
         {
-          title: 'Kultura a procesy psychiczne',
+          title: 'Kultura, a procesy psychiczne',
           articles: [
-            { label: 'Kultura a percepcja i uwaga', id: 'kulturowa/kultura_percepcja', status: 'live' },
-            { label: 'Kultura a emocje', id: 'emotions/emocje_wprowadzenie', status: 'xlink' },
+            { label: 'Kultura, a percepcja i uwaga', id: 'kulturowa/kultura_percepcja', status: 'live' },
+            { label: 'Kultura, a emocje', id: 'emotions/emocje_wprowadzenie', status: 'xlink' },
             { label: 'Kulturowe modele Ja', id: 'kulturowa/kulturowe_modele_ja', status: 'live' },
-            { label: 'Kultura a zdrowie psychiczne', id: 'kulturowa/kultura_zdrowie', status: 'live' },
+            { label: 'Kultura, a zdrowie psychiczne', id: 'kulturowa/kultura_zdrowie', status: 'live' },
           ]
         },
         {
           title: 'Kultura i tożsamość',
           articles: [
-            { label: 'Kultura a emocje',                  id: 'kulturowa/kultura_emocje',     status: 'live' },
+            { label: 'Kultura, a emocje',                  id: 'kulturowa/kultura_emocje',     status: 'live' },
             { label: 'Akulturacja i adaptacja kulturowa', id: 'kulturowa/akulturacja',         status: 'live' },
-            { label: 'Kultura a język (Sapir-Whorf)',     id: 'kulturowa/kultura_jezyk',       status: 'live' },
-            { label: 'Kultura a osobowość',               id: 'kulturowa/kultura_osobowosc',   status: 'live' },
+            { label: 'Kultura, a język (Sapir-Whorf)',     id: 'kulturowa/kultura_jezyk',       status: 'live' },
+            { label: 'Kultura, a osobowość',               id: 'kulturowa/kultura_osobowosc',   status: 'live' },
             { label: 'Psychologia Wschodu i Zachodu',     id: 'kulturowa/wschodnia_zachodnia', status: 'live' },
-            { label: 'Kultura a relacje interpersonalne', id: 'kulturowa/kultura_relacje',     status: 'live' },
+            { label: 'Kultura, a relacje interpersonalne', id: 'kulturowa/kultura_relacje',     status: 'live' },
           ]
         },
         {
           title: 'Emocje i motywacja',
           articles: [
-            { label: 'Emocje — wprowadzenie', id: 'emotions/emocje_wprowadzenie', status: 'live' },
+            { label: 'Emocje', id: 'emotions/emocje_wprowadzenie', status: 'live' },
             { label: 'Teorie emocji', id: 'emotions/teorie', status: 'live' },
             { label: 'Regulacja emocjonalna', id: 'emotions/regulacja', status: 'live' },
             { label: 'Motywacja', id: 'emotions/motywacja', status: 'live' },
@@ -2491,8 +2489,8 @@ window.SITE_CONFIG = {
     },
 
     rozwojowa: {
-      title: 'WIKI — Psychologia rozwojowa',
-      intro: 'Zmiany w funkcjonowaniu psychicznym od okresu prenatalnego po późną dorosłość — normatywne i atypowe ścieżki.',
+      title: 'WIKI - Psychologia rozwojowa',
+      intro: 'Zmiany w funkcjonowaniu psychicznym od okresu prenatalnego po późną dorosłość - normatywne i atypowe ścieżki.',
       sections: [
         {
           title: 'Fundamenty',
@@ -2513,8 +2511,8 @@ window.SITE_CONFIG = {
         {
           title: 'Neurobiologia rozwoju',
           articles: [
-            { label: 'Neurobiologia — podstawy', id: 'neuro/anatomia', status: 'xlink' },
-            { label: 'Plastyczność mózgu a okresy krytyczne', id: 'rozwojowa/plastycznosc_mozgu', status: 'live' },
+            { label: 'Neurobiologia - podstawy', id: 'neuro/anatomia', status: 'xlink' },
+            { label: 'Plastyczność mózgu, a okresy krytyczne', id: 'rozwojowa/plastycznosc_mozgu', status: 'live' },
           ]
         },
         {
@@ -2536,14 +2534,14 @@ window.SITE_CONFIG = {
     },
 
     uzaleznienia: {
-      title: 'WIKI — Psychologia uzależnień',
-      intro: 'Mechanizmy uzależnień, diagnoza, terapia i profilaktyka — od neurobiologii nałogu po pracę z rodziną.',
+      title: 'WIKI - Psychologia uzależnień',
+      intro: 'Mechanizmy uzależnień, diagnoza, terapia i profilaktyka - od neurobiologii nałogu po pracę z rodziną.',
       sections: [
         {
           title: 'Mechanizmy i diagnoza',
           articles: [
             { label: 'Neurobiologia uzależnień', id: 'pharmacology/neurofarmakologia', status: 'xlink' },
-            { label: 'Uzależnienia — aspekt psychologiczny', id: 'psychopathology/uzaleznienia_psych', status: 'live' },
+            { label: 'Uzależnienia - aspekt psychologiczny', id: 'psychopathology/uzaleznienia_psych', status: 'live' },
             { label: 'Kryteria diagnostyczne', id: 'uzaleznienia/kryteria_diagnostyczne', status: 'live' },
           ]
         },
@@ -2584,15 +2582,15 @@ window.SITE_CONFIG = {
             { label: 'Uzależnienie od internetu i technologii',id: 'uzaleznienia/internet_uzaleznienie',      status: 'live' },
             { label: 'Rodzina w systemie uzależnienia',        id: 'uzaleznienia/rodzina_w_uzaleznieniach',   status: 'live' },
             { label: 'Terapia grupowa w uzależnieniach',       id: 'uzaleznienia/terapia_grupowa',            status: 'live' },
-            { label: 'Recovery — droga do zdrowia',           id: 'uzaleznienia/recovery',                   status: 'live' },
+            { label: 'Recovery - droga do zdrowia',           id: 'uzaleznienia/recovery',                   status: 'live' },
           ]
         },
       ]
     },
 
     relacje: {
-      title: 'WIKI — Relacje i związki',
-      intro: 'Psychologia bliskich relacji — przywiązanie, miłość, komunikacja, konflikty i terapia par.',
+      title: 'WIKI - Relacje i związki',
+      intro: 'Psychologia bliskich relacji - przywiązanie, miłość, komunikacja, konflikty i terapia par.',
       sections: [
         {
           title: 'Podstawy',
@@ -2621,18 +2619,18 @@ window.SITE_CONFIG = {
         {
           title: 'Seksuologia',
           articles: [
-            { label: 'Seksuologia — wprowadzenie', id: 'sexology/seksuologia_wprowadzenie', status: 'live' },
+            { label: 'Seksuologia', id: 'sexology/seksuologia_wprowadzenie', status: 'live' },
             { label: 'Psychologia seksu', id: 'sexology/psychologia_seksu', status: 'live' },
-            { label: 'Emocjonalne zaangażowanie a seks', id: 'sexology/emocjonalne_zaangazowanie_w_seksie', status: 'live' },
-            { label: 'Wstyd ciała a pozycje seksualne', id: 'sexology/wstyd_ciala_a_pozycje', status: 'live' },
+            { label: 'Emocjonalne zaangażowanie, a seks', id: 'sexology/emocjonalne_zaangazowanie_w_seksie', status: 'live' },
+            { label: 'Wstyd ciała, a pozycje seksualne', id: 'sexology/wstyd_ciala_a_pozycje', status: 'live' },
             { label: 'Orientacja seksualna', id: 'sexology/orientacja', status: 'live' },
             { label: 'Tożsamość płciowa', id: 'sexology/tozsamosc_plciowa', status: 'live' },
             { label: 'Dysfunkcje seksualne', id: 'sexology/dysfunkcje', status: 'live' },
             { label: 'Hiperseksualność jako mechanizm', id: 'sexology/hiperseksualnosc_mechanizm', status: 'live' },
             { label: 'Terapia seksualna', id: 'sexology/terapia_seksualna', status: 'live' },
             { label: 'Trauma seksualna', id: 'sexology/trauma_seksualna', status: 'live' },
-            { label: 'Przemoc w dzieciństwie a seksualność dorosłych', id: 'sexology/przemoc_w_dziecinstwie_a_seksualnosc', status: 'live' },
-            { label: 'DDA a seksualność dorosłych', id: 'sexology/dda_a_seksualnosc', status: 'live' },
+            { label: 'Przemoc w dzieciństwie, a seksualność dorosłych', id: 'sexology/przemoc_w_dziecinstwie_a_seksualnosc', status: 'live' },
+            { label: 'DDA, a seksualność dorosłych', id: 'sexology/dda_a_seksualnosc', status: 'live' },
             { label: 'Rozwój seksualny', id: 'sexology/rozw_seksualny', status: 'live' },
             { label: 'Modele odpowiedzi seksualnej', id: 'sexology/modele_odpowiedzi', status: 'live' },
           ]
@@ -2643,14 +2641,14 @@ window.SITE_CONFIG = {
             { label: 'Samotność i izolacja społeczna',    id: 'relacje/samotnosc',        status: 'live' },
             { label: 'Przyjaźń',                          id: 'relacje/przyjaznie',        status: 'live' },
             { label: 'Rozpad związku i żałoba relacyjna', id: 'relacje/rozstanie',         status: 'live' },
-            { label: 'Relacje rodzinne — dynamika',       id: 'relacje/relacje_rodzinne',  status: 'live' },
+            { label: 'Relacje rodzinne - dynamika',       id: 'relacje/relacje_rodzinne',  status: 'live' },
           ]
         },
       ]
     },
 
     diagnoza: {
-      title: 'WIKI — Diagnoza psychologiczna',
+      title: 'WIKI - Diagnoza psychologiczna',
       intro: 'Metody diagnozy jakościowej i ilościowej, wymagania prawne i etyczne, sporządzanie opinii.',
       sections: [
         {
@@ -2671,7 +2669,7 @@ window.SITE_CONFIG = {
         {
           title: 'Narzędzia diagnostyczne',
           articles: [
-            { label: 'Psychometria — podstawy', id: 'psychometrics/psychometria_wprowadzenie', status: 'xlink' },
+            { label: 'Psychometria - podstawy', id: 'psychometrics/psychometria_wprowadzenie', status: 'xlink' },
             { label: 'Testy neuropsychologiczne', id: 'diagnostics/testy_przeglad', status: 'xlink' },
             { label: 'Techniki projekcyjne', id: 'diagnoza/techniki_projekcyjne', status: 'live' },
           ]
@@ -2679,7 +2677,7 @@ window.SITE_CONFIG = {
         {
           title: 'Psychometria',
           articles: [
-            { label: 'Psychometria — wprowadzenie', id: 'psychometrics/psychometria_wprowadzenie', status: 'live' },
+            { label: 'Psychometria', id: 'psychometrics/psychometria_wprowadzenie', status: 'live' },
             { label: 'Rzetelność pomiaru', id: 'psychometrics/rzetelnosc', status: 'live' },
             { label: 'Trafność pomiaru', id: 'psychometrics/trafnosc', status: 'live' },
             { label: 'Normalizacja i normy', id: 'psychometrics/normalizacja', status: 'live' },
@@ -2695,7 +2693,7 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Opinia psychologiczna', id: 'diagnoza/opinia_psychologiczna', status: 'live' },
             { label: 'Tajemnica zawodowa', id: 'diagnoza/tajemnica_zawodowa', status: 'live' },
-            { label: 'Diagnoza a stygmatyzacja', id: 'diagnoza/diagnoza_stygmatyzacja', status: 'live' },
+            { label: 'Diagnoza, a stygmatyzacja', id: 'diagnoza/diagnoza_stygmatyzacja', status: 'live' },
           ]
         },
         {
@@ -2711,8 +2709,8 @@ window.SITE_CONFIG = {
     },
 
     biologia: {
-      title: 'WIKI — Biologiczne podstawy zachowania',
-      intro: 'Biologiczne podłoże zachowań i procesów psychicznych — od genetyki przez hormony po chronobiologię i mikrobiom.',
+      title: 'WIKI - Biologiczne podstawy zachowania',
+      intro: 'Biologiczne podłoże zachowań i procesów psychicznych - od genetyki przez hormony po chronobiologię i mikrobiom.',
       sections: [
         {
           title: 'Podstawy',
@@ -2727,10 +2725,10 @@ window.SITE_CONFIG = {
         {
           title: 'Regulacja biologiczna',
           articles: [
-            { label: 'Hormony a zachowanie', id: 'biology/hormony', status: 'live' },
+            { label: 'Hormony, a zachowanie', id: 'biology/hormony', status: 'live' },
             { label: 'Chronobiologia', id: 'biology/chronobiologia', status: 'live' },
             { label: 'Chronopsychologia', id: 'biology/chronopsychologia', status: 'live' },
-            { label: 'Mikrobiom a mózg', id: 'biology/mikrobiom', status: 'live' },
+            { label: 'Mikrobiom, a mózg', id: 'biology/mikrobiom', status: 'live' },
             { label: 'Ewolucja zachowania', id: 'biology/ewolucja', status: 'live' },
           ]
         },
@@ -2738,15 +2736,15 @@ window.SITE_CONFIG = {
     },
 
     roznice_ind: {
-      title: 'WIKI — Różnice indywidualne i temperament',
-      intro: 'Czynniki wyjaśniające różnorodność psychologiczną — inteligencja, osobowość, temperament i ich biologiczne podłoże.',
+      title: 'WIKI - Różnice indywidualne i temperament',
+      intro: 'Czynniki wyjaśniające różnorodność psychologiczną - inteligencja, osobowość, temperament i ich biologiczne podłoże.',
       sections: [
         {
           title: 'Różnice indywidualne',
           articles: [
-            { label: 'Wprowadzenie — różnice indywidualne', id: 'individual_diffs/roznice_wprowadzenie', status: 'live' },
+            { label: 'Wprowadzenie - różnice indywidualne', id: 'individual_diffs/roznice_wprowadzenie', status: 'live' },
             { label: 'Inteligencja', id: 'individual_diffs/inteligencja', status: 'live' },
-            { label: 'Osobowość — modele', id: 'individual_diffs/osobowosc', status: 'live' },
+            { label: 'Osobowość - modele', id: 'individual_diffs/osobowosc', status: 'live' },
             { label: 'Kreatywność', id: 'individual_diffs/kreatywnosc', status: 'live' },
             { label: 'Genetyka osobowości', id: 'individual_diffs/genetyka', status: 'live' },
             { label: 'Style poznawcze', id: 'individual_diffs/style_poznawcze', status: 'live' },
@@ -2758,31 +2756,31 @@ window.SITE_CONFIG = {
         {
           title: 'Temperament',
           articles: [
-            { label: 'Temperament — wprowadzenie', id: 'temperament/temperament_wprowadzenie', status: 'live' },
+            { label: 'Temperament', id: 'temperament/temperament_wprowadzenie', status: 'live' },
             { label: 'Modele temperamentu', id: 'temperament/modele', status: 'live' },
             { label: 'Pomiar temperamentu', id: 'temperament/pomiar', status: 'live' },
-            { label: 'Temperament a klinika', id: 'temperament/kliniczne', status: 'live' },
+            { label: 'Temperament, a klinika', id: 'temperament/kliniczne', status: 'live' },
             { label: 'Rozwój temperamentu',                id: 'temperament/razvoj',                   status: 'live' },
-            { label: 'RTT — teoria Strelaua',              id: 'temperament/strelau',                  status: 'live' },
+            { label: 'RTT - teoria Strelaua',              id: 'temperament/strelau',                  status: 'live' },
             { label: 'Model Eysencka (PEN)',               id: 'temperament/eysenck',                  status: 'live' },
             { label: 'Teoria BIS/BAS Graya',               id: 'temperament/gray',                     status: 'live' },
             { label: 'Zahamowanie behawioralne (Kagan)',   id: 'temperament/kagan',                    status: 'live' },
-            { label: 'Temperament a psychopatologia',      id: 'temperament/temperament_a_psychopat',  status: 'live' },
+            { label: 'Temperament, a psychopatologia',      id: 'temperament/temperament_a_psychopat',  status: 'live' },
             { label: 'Biologiczne podłoże temperamentu',   id: 'temperament/biologia_temperamentu',    status: 'live' },
-            { label: 'Temperament a kariera i praca',      id: 'temperament/temperament_a_kariera',    status: 'live' },
+            { label: 'Temperament, a kariera i praca',      id: 'temperament/temperament_a_kariera',    status: 'live' },
           ]
         },
       ]
     },
 
     terapie_artystyczne: {
-      title: 'WIKI — Terapie artystyczne i animaloterapia',
-      intro: 'Kreatywne i zwierzęce metody terapeutyczne — arteterapia, muzykoterapia, dogoterapia i inne interwencje wspomagające.',
+      title: 'WIKI - Terapie artystyczne i animaloterapia',
+      intro: 'Kreatywne i zwierzęce metody terapeutyczne - arteterapia, muzykoterapia, dogoterapia i inne interwencje wspomagające.',
       sections: [
         {
           title: 'Arteterapia',
           articles: [
-            { label: 'Arteterapia — wprowadzenie', id: 'artetherapy/arteterapia_wprowadzenie', status: 'live' },
+            { label: 'Arteterapia', id: 'artetherapy/arteterapia_wprowadzenie', status: 'live' },
             { label: 'Art therapy (plastyczna)', id: 'artetherapy/art_therapy', status: 'live' },
             { label: 'Muzykoterapia', id: 'artetherapy/muzykoterapia', status: 'live' },
             { label: 'Drameterapia', id: 'artetherapy/drameterapia', status: 'live' },
@@ -2795,7 +2793,7 @@ window.SITE_CONFIG = {
         {
           title: 'Animaloterapia',
           articles: [
-            { label: 'Animaloterapia — wprowadzenie', id: 'animaltherapy/animaloterapia_wprowadzenie', status: 'live' },
+            { label: 'Animaloterapia', id: 'animaltherapy/animaloterapia_wprowadzenie', status: 'live' },
             { label: 'Dogoterapia', id: 'animaltherapy/dogoterapia', status: 'live' },
             { label: 'Hipoterapia', id: 'animaltherapy/hipoterapia', status: 'live' },
             { label: 'Felinoterapia', id: 'animaltherapy/felinoterapia', status: 'live' },
@@ -2808,13 +2806,13 @@ window.SITE_CONFIG = {
     },
 
     etyka: {
-      title: 'WIKI — Etyka zawodowa',
-      intro: 'Zasady etyczne wykonywania zawodu psychologa i psychoterapeuty — od tajemnicy zawodowej po granice relacji.',
+      title: 'WIKI - Etyka zawodowa',
+      intro: 'Zasady etyczne wykonywania zawodu psychologa i psychoterapeuty - od tajemnicy zawodowej po granice relacji.',
       sections: [
         {
           title: 'Fundament etyki',
           articles: [
-            { label: 'Kodeksy etyczne — przegląd', id: 'etyka/kodeksy_etyczne', status: 'live' },
+            { label: 'Kodeksy etyczne - przegląd', id: 'etyka/kodeksy_etyczne', status: 'live' },
             { label: 'Etyka zawodowa psychologa i psychoterapeuty w Polsce', id: 'reference/etyka_psychologa', status: 'live' },
             { label: 'Zasady APA i PTP', id: 'etyka/zasady_apa_ptp', status: 'live' },
             { label: 'Dobro i nieszkodzenie', id: 'etyka/dobro_nieszkodzenie', status: 'live' },
@@ -2843,58 +2841,14 @@ window.SITE_CONFIG = {
       ]
     },
 
-    slownik: {
-      title: 'WIKI — Słownik terminów',
-      intro: 'Alfabetyczny słownik kluczowych pojęć neuropsychologii i psychologii klinicznej.',
-      sections: [
-        {
-          isGlossary: true,
-          entries: [
-            { term: 'Afazja',          def: 'Nabyte zaburzenie językowe po uszkodzeniu mózgu — może dotyczyć mówienia, rozumienia, czytania i pisania.', link: 'disorders/afazje' },
-            { term: 'Agnozja',         def: 'Niemożność rozpoznawania obiektów przy zachowanych zmysłach i inteligencji.', link: 'disorders/agnozja' },
-            { term: 'Amnezja',         def: 'Zaburzenie pamięci — anterogradna (nowe wspomnienia) lub retrogradna (dawne wspomnienia).', link: 'disorders/amnezje' },
-            { term: 'Apraksja',        def: 'Zaburzenie wykonywania celowych ruchów przy zachowanej sprawności motorycznej i rozumieniu polecenia.', link: 'disorders/apraksja' },
-            { term: 'ARAS',            def: 'Wstępujący układ siatkowaty aktywujący — reguluje poziom czujności i aktywacji kory.' },
-            { term: 'Ciało modzelowate', def: 'Największa komisura mózgu łącząca obie półkule — ~200 milionów aksonów mielinowanych.' },
-            { term: 'DAI',             def: 'Rozlane uszkodzenie aksonalne — rozerwanie długich włókien wskutek sił przyspieszenia-opóźnienia w TBI.', link: 'disorders/tbi' },
-            { term: 'DMN',             def: 'Default Mode Network — sieć trybu domyślnego aktywna w spoczynku i autorefleksji; zaburzona w depresji i Alzheimerze.' },
-            { term: 'Dopamina',        def: 'Neuroprzekaźnik modulacyjny — motywacja, nagroda, kontrola ruchu. Niedobór → Parkinson; nadmiar → objawy psychotyczne.', link: 'pharmacology/neurofarmakologia' },
-            { term: 'DTI',             def: 'Dyfuzyjna tomografia tensora — technika MRI pozwalająca wizualizować szlaki istoty białej (traktografia).' },
-            { term: 'ERP',             def: 'Potencjały wywołane — uśrednione odpowiedzi EEG na powtarzane bodźce; N400, P300, MMN.' },
-            { term: 'FFA',             def: 'Fusiform Face Area — obszar zakrętu wrzecionowatego wyspecjalizowany w rozpoznawaniu twarzy. Uszkodzenie → prozopagnozja.' },
-            { term: 'fMRI',            def: 'Funkcjonalny rezonans magnetyczny — mierzy aktywność mózgu przez zmiany przepływu krwi (sygnał BOLD).' },
-            { term: 'GABA',            def: 'Główny neuroprzekaźnik inhibicyjny OUN. Cel benzodiazepin i barbituranów.', link: 'pharmacology/neurofarmakologia' },
-            { term: 'Glutaminian',     def: 'Główny neuroprzekaźnik ekscytacyjny. Kluczowy w LTP i ekscytotoksyczności udarowej.', link: 'pharmacology/neurofarmakologia' },
-            { term: 'Hipokamp',        def: 'Struktura kształtu konika morskiego — konsolidacja pamięci deklaratywnej i nawigacja przestrzenna.', link: 'neuro/anatomia' },
-            { term: 'IRT',             def: 'Item Response Theory — rodzina modeli psychometrycznych opisujących prawdopodobieństwo odpowiedzi w zależności od trudności i zdolności.', link: 'psychometrics/irt' },
-            { term: 'Lateralizacja',   def: 'Asymetryczna lokalizacja funkcji — język zazwyczaj w lewej półkuli, uwaga przestrzenna w prawej.', link: 'neuro/lateralizacja' },
-            { term: 'LTD',             def: 'Long-Term Depression — długotrwałe osłabienie synapsy przy niskiej aktywności. Mechanizm zapominania.' },
-            { term: 'LTP',             def: 'Long-Term Potentiation — trwałe wzmocnienie synapsy po wysokiej aktywności. Podstawa uczenia się w hipokampie.', link: 'neuro/neuron' },
-            { term: 'MoCA',            def: 'Montreal Cognitive Assessment — test przesiewowy zaburzeń poznawczych, bardziej czuły niż MMSE na łagodne deficyty.', link: 'diagnostics/mmse_moca' },
-            { term: 'Neglect',         def: 'Zaburzenie uwagi przestrzennej — nieświadome pomijanie jednej strony przestrzeni po uszkodzeniu prawej półkuli.', link: 'disorders/neglect' },
-            { term: 'Neuroplastyczność', def: 'Zdolność mózgu do zmiany struktury i funkcji — od poziomu synaptycznego (LTP/LTD) po reorganizację kortykalna.', link: 'neuro/plastycznosc' },
-            { term: 'NSSI',            def: 'Non-Suicidal Self-Injury — samookaleczenie bez intencji śmierci, często pełniące funkcję regulacji emocji.', link: 'suicidology/nssi' },
-            { term: 'Pola Brodmanna',  def: '52 obszary kory mózgowej wyznaczone przez Brodmanna (1909) na podstawie cytoarchitektoniki.', link: 'neuro/anatomia' },
-            { term: 'Prozopagnozja',   def: 'Specyficzny deficyt rozpoznawania twarzy — związany z uszkodzeniem FFA w zakręcie wrzecionowatym.', link: 'disorders/agnozja' },
-            { term: 'Psychometria',    def: 'Dział metodologii zajmujący się teorią i techniką pomiaru psychologicznego — rzetelność, trafność, normalizacja.', link: 'psychometrics/psychometria_wprowadzenie' },
-            { term: 'Pęczek łukowaty', def: 'Szlak istoty białej łączący obszar Wernickego z Broki. Uszkodzenie → afazja przewodzenia.', link: 'disorders/afazje' },
-            { term: 'Rzetelność',      def: 'Stopień, w jakim wyniki testu są stabilne i wolne od błędu pomiarowego (alfa Cronbacha, test-retest).', link: 'psychometrics/rzetelnosc' },
-            { term: 'TBI',             def: 'Traumatic Brain Injury — uraz mózgu od łagodnego wstrząśnienia po ciężki uraz z długoterminowymi konsekwencjami.', link: 'disorders/tbi' },
-            { term: 'Trafność',        def: 'Stopień, w jakim test mierzy to, co ma mierzyć — treściowa, kryterialna, zbieżna, czynnikowa.', link: 'psychometrics/trafnosc' },
-            { term: 'Wzgórze',         def: '"Brama świadomości" — przekaźnik zmysłów do kory, regulacja czujności. Uszkodzenie → amnezja wzgórzowa.', link: 'neuro/anatomia' },
-          ]
-        }
-      ]
-    },
-
     zdrowie: {
-      title: 'WIKI — Psychologia zdrowia',
-      intro: 'Psychologiczne aspekty zdrowia i choroby — stres, zachowania zdrowotne, ból, choroby przewlekłe, promocja zdrowia, psychoneuroimmunologia i rehabilitacja.',
+      title: 'WIKI - Psychologia zdrowia',
+      intro: 'Psychologiczne aspekty zdrowia i choroby - stres, zachowania zdrowotne, ból, choroby przewlekłe, promocja zdrowia, psychoneuroimmunologia i rehabilitacja.',
       sections: [
         {
           title: 'Podstawy',
           articles: [
-            { label: 'Psychologia zdrowia — wprowadzenie', id: 'health_psychology/zdrowie_wprowadzenie',    status: 'live' },
+            { label: 'Psychologia zdrowia', id: 'health_psychology/zdrowie_wprowadzenie',    status: 'live' },
             { label: 'Model biopsychospołeczny',            id: 'health_psychology/model_biopsychospoleczny', status: 'live' },
           ]
         },
@@ -2903,17 +2857,17 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Stres i zdrowie',              id: 'health_psychology/stres',               status: 'live' },
             { label: 'Radzenie sobie ze stresem',    id: 'health_psychology/radzenie_sobie',      status: 'live' },
-            { label: 'Wsparcie społeczne a zdrowie', id: 'health_psychology/wsparcie_spoleczne',  status: 'live' },
+            { label: 'Wsparcie społeczne, a zdrowie', id: 'health_psychology/wsparcie_spoleczne',  status: 'live' },
           ]
         },
         {
           title: 'Zachowania i styl życia',
           articles: [
             { label: 'Zachowania zdrowotne',           id: 'health_psychology/zachowania_zdrowotne', status: 'live' },
-            { label: 'Styl życia a zdrowie',           id: 'health_psychology/styl_zycia',           status: 'live' },
+            { label: 'Styl życia, a zdrowie',           id: 'health_psychology/styl_zycia',           status: 'live' },
             { label: 'Sen i zdrowie psychiczne',       id: 'health_psychology/sen_zdrowie',          status: 'live' },
-            { label: 'Aktywność fizyczna, a zdrowie psychiczne',   id: 'health_psychology/aktywnosc_fizyczna',   status: 'live' },
-            { label: 'Dieta a zdrowie psychiczne',     id: 'health_psychology/dieta_zdrowie',        status: 'live' },
+            { label: 'Aktywność fizyczna,, a zdrowie psychiczne',   id: 'health_psychology/aktywnosc_fizyczna',   status: 'live' },
+            { label: 'Dieta, a zdrowie psychiczne',     id: 'health_psychology/dieta_zdrowie',        status: 'live' },
             { label: 'Promocja zdrowia i profilaktyka', id: 'health_psychology/promocja_zdrowia',    status: 'live' },
           ]
         },
@@ -2926,7 +2880,7 @@ window.SITE_CONFIG = {
             { label: 'Psychoonkologia',                  id: 'health_psychology/psychoonkologia',        status: 'live' },
             { label: 'Choroby układu krążenia',          id: 'health_psychology/choroby_ukladu_krazenia', status: 'live' },
             { label: 'Psychologia cukrzycy',             id: 'health_psychology/cukrzyca',               status: 'live' },
-            { label: 'Jakość życia a choroba',           id: 'health_psychology/jakosc_zycia',           status: 'live' },
+            { label: 'Jakość życia, a choroba',           id: 'health_psychology/jakosc_zycia',           status: 'live' },
           ]
         },
         {
@@ -2950,13 +2904,13 @@ window.SITE_CONFIG = {
     },
 
     psychosomatics: {
-      title: 'WIKI — Psychosomatyka',
-      intro: 'Psychosomatyka bada wzajemne relacje między procesami psychicznymi a ciałem — od osi HPA i aleksytymii po psychodermatologię, psychokardiologię i terapię psychosomatyczną.',
+      title: 'WIKI - Psychosomatyka',
+      intro: 'Psychosomatyka bada wzajemne relacje między procesami psychicznymi, a ciałem - od osi HPA i aleksytymii po psychodermatologię, psychokardiologię i terapię psychosomatyczną.',
       sections: [
         {
           title: 'Podstawy i historia',
           articles: [
-            { label: 'Psychosomatyka — wprowadzenie',   id: 'psychosomatics/wprowadzenie',            status: 'live' },
+            { label: 'Psychosomatyka',   id: 'psychosomatics/wprowadzenie',            status: 'live' },
             { label: 'Historia psychosomatyki',         id: 'psychosomatics/historia',                status: 'live' },
             { label: 'Modele psychosomatyczne',         id: 'psychosomatics/modele_psychosomatyczne', status: 'live' },
           ]
@@ -2996,13 +2950,13 @@ window.SITE_CONFIG = {
     },
 
     niepelnosprawnosc: {
-      title: 'WIKI — Psychologia osób z niepełnosprawnością',
-      intro: 'Psychologiczne aspekty życia z niepełnosprawnością — od modeli i klasyfikacji przez specyfikę poszczególnych rodzajów niepełnosprawności po rehabilitację, jakość życia i inkluzję społeczną.',
+      title: 'WIKI - Psychologia osób z niepełnosprawnością',
+      intro: 'Psychologiczne aspekty życia z niepełnosprawnością - od modeli i klasyfikacji przez specyfikę poszczególnych rodzajów niepełnosprawności po rehabilitację, jakość życia i inkluzję społeczną.',
       sections: [
         {
           title: 'Podstawy',
           articles: [
-            { label: 'Psychologia niepełnosprawności — wprowadzenie', id: 'disability_psychology/wprowadzenie', status: 'live' },
+            { label: 'Psychologia niepełnosprawności', id: 'disability_psychology/wprowadzenie', status: 'live' },
             { label: 'Modele niepełnosprawności',                     id: 'disability_psychology/modele_niepelnosprawnosci', status: 'live' },
           ]
         },
@@ -3035,13 +2989,13 @@ window.SITE_CONFIG = {
     },
 
     geropsychology: {
-      title: 'WIKI — Psychologia osób w podeszłym wieku',
-      intro: 'Psychologia osób w podeszłym wieku bada procesy starzenia się, zdrowie psychiczne, funkcjonowanie poznawcze i społeczne seniorów — od demencji i depresji po adaptację do starości i wsparcie opiekunów.',
+      title: 'WIKI - Psychologia osób w podeszłym wieku',
+      intro: 'Psychologia osób w podeszłym wieku bada procesy starzenia się, zdrowie psychiczne, funkcjonowanie poznawcze i społeczne seniorów - od demencji i depresji po adaptację do starości i wsparcie opiekunów.',
       sections: [
         {
           title: 'Podstawy i wprowadzenie',
           articles: [
-            { label: 'Psychologia starości — wprowadzenie',   id: 'geropsychology/wprowadzenie',           status: 'live' },
+            { label: 'Psychologia starości',   id: 'geropsychology/wprowadzenie',           status: 'live' },
             { label: 'Starzenie się poznawcze',               id: 'geropsychology/starzenie_poznawcze',    status: 'live' },
           ]
         },
@@ -3079,20 +3033,20 @@ window.SITE_CONFIG = {
     },
 
     gry_wideo: {
-      title: 'WIKI — Psychologia gier wideo',
-      intro: 'Psychologia gier wideo bada wpływ gier komputerowych i elektronicznych na procesy poznawcze, emocjonalne i społeczne — od uzależnień i agresji przez motywację i flow po zastosowania terapeutyczne.',
+      title: 'WIKI - Psychologia gier wideo',
+      intro: 'Psychologia gier wideo bada wpływ gier komputerowych i elektronicznych na procesy poznawcze, emocjonalne i społeczne - od uzależnień i agresji przez motywację i flow po zastosowania terapeutyczne.',
       sections: [
         {
           title: 'Podstawy i wprowadzenie',
           articles: [
-            { label: 'Psychologia gier wideo — wprowadzenie', id: 'game_psychology/wprowadzenie',         status: 'live' },
+            { label: 'Psychologia gier wideo', id: 'game_psychology/wprowadzenie',         status: 'live' },
             { label: 'Klasyfikacja gier (PEGI, ESRB)',         id: 'game_psychology/klasyfikacja_gier',    status: 'live' },
           ]
         },
         {
           title: 'Efekty psychologiczne grania',
           articles: [
-            { label: 'Agresja a gry wideo',            id: 'game_psychology/agresja_a_gry',       status: 'live' },
+            { label: 'Agresja, a gry wideo',            id: 'game_psychology/agresja_a_gry',       status: 'live' },
             { label: 'Efekty poznawcze grania',         id: 'game_psychology/efekty_poznawcze',    status: 'live' },
             { label: 'Przepływ (flow) i immersja',      id: 'game_psychology/flow_i_immersja',     status: 'live' },
           ]
@@ -3110,7 +3064,7 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Gry wieloosobowe i aspekty społeczne', id: 'game_psychology/gry_spolecznosciowe',  status: 'live' },
             { label: 'Esport i psychologia zawodnika',        id: 'game_psychology/esport',               status: 'live' },
-            { label: 'Gry wideo a dzieci i nastolatki',       id: 'game_psychology/gry_a_dzieci',         status: 'live' },
+            { label: 'Gry wideo, a dzieci i nastolatki',       id: 'game_psychology/gry_a_dzieci',         status: 'live' },
           ]
         },
         {
@@ -3123,13 +3077,13 @@ window.SITE_CONFIG = {
     },
 
     odpornosc_mobbing: {
-      title: 'WIKI — Odporność psychiczna, mobbing i wypalenie zawodowe',
-      intro: 'Encyklopedia obejmuje trzy powiązane obszary: odporność psychiczną (resilience) jako zasób chroniący, psychologiczne aspekty przemocy psychicznej i mobbingu w miejscu pracy oraz wypalenie zawodowe — mechanizmy, skutki i profilaktykę.',
+      title: 'WIKI - Odporność psychiczna, mobbing i wypalenie zawodowe',
+      intro: 'Encyklopedia obejmuje trzy powiązane obszary: odporność psychiczną (resilience) jako zasób chroniący, psychologiczne aspekty przemocy psychicznej i mobbingu w miejscu pracy oraz wypalenie zawodowe - mechanizmy, skutki i profilaktykę.',
       sections: [
         {
           title: 'Odporność psychiczna',
           articles: [
-            { label: 'Odporność psychiczna — wprowadzenie',  id: 'resilience_mobbing/odpornosc_wprowadzenie', status: 'live' },
+            { label: 'Odporność psychiczna',  id: 'resilience_mobbing/odpornosc_wprowadzenie', status: 'live' },
             { label: 'Modele i teorie odporności',            id: 'resilience_mobbing/modele_odpornosci',      status: 'live' },
             { label: 'Budowanie odporności psychicznej',      id: 'resilience_mobbing/budowanie_odpornosci',   status: 'live' },
           ]
@@ -3137,8 +3091,8 @@ window.SITE_CONFIG = {
         {
           title: 'Przemoc psychiczna i mobbing',
           articles: [
-            { label: 'Przemoc psychiczna — definicja i formy',   id: 'resilience_mobbing/przemoc_psychiczna',    status: 'live' },
-            { label: 'Mobbing — definicja, rodzaje i fazy',      id: 'resilience_mobbing/mobbing_definicja',     status: 'live' },
+            { label: 'Przemoc psychiczna - definicja i formy',   id: 'resilience_mobbing/przemoc_psychiczna',    status: 'live' },
+            { label: 'Mobbing - definicja, rodzaje i fazy',      id: 'resilience_mobbing/mobbing_definicja',     status: 'live' },
             { label: 'Skutki psychologiczne mobbingu',           id: 'resilience_mobbing/mobbing_skutki',        status: 'live' },
             { label: 'Interwencja i zapobieganie mobbingowi',    id: 'resilience_mobbing/mobbing_interwencja',   status: 'live' },
             { label: 'Wsparcie psychologiczne ofiar',            id: 'resilience_mobbing/wsparcie_psychologiczne', status: 'live' },
@@ -3147,7 +3101,7 @@ window.SITE_CONFIG = {
         {
           title: 'Wypalenie zawodowe',
           articles: [
-            { label: 'Wypalenie zawodowe — definicja i modele',  id: 'resilience_mobbing/wypalenie_zawodowe',    status: 'live' },
+            { label: 'Wypalenie zawodowe - definicja i modele',  id: 'resilience_mobbing/wypalenie_zawodowe',    status: 'live' },
             { label: 'Fazy i wymiary wypalenia zawodowego',      id: 'resilience_mobbing/fazy_wypalenia',        status: 'live' },
             { label: 'Wypalenie w wybranych zawodach',           id: 'resilience_mobbing/wypalenie_zawody',      status: 'live' },
             { label: 'Profilaktyka wypalenia zawodowego',        id: 'resilience_mobbing/profilaktyka_wypalenia', status: 'live' },
@@ -3157,47 +3111,47 @@ window.SITE_CONFIG = {
     },
 
     media_natura: {
-      title: 'WIKI — Ekrany, książki i natura',
-      intro: 'Encyklopedia obejmuje trzy powiązane obszary: wpływ ekranów (telefony, tablety, telewizja) na funkcje poznawcze i zdrowie psychiczne, psychologiczne efekty czytania książek oraz dobroczynne działanie kontaktu z naturą — od kąpieli leśnych po wędrówki górskie.',
+      title: 'WIKI - Ekrany, książki i natura',
+      intro: 'Encyklopedia obejmuje trzy powiązane obszary: wpływ ekranów (telefony, tablety, telewizja) na funkcje poznawcze i zdrowie psychiczne, psychologiczne efekty czytania książek oraz dobroczynne działanie kontaktu z naturą - od kąpieli leśnych po wędrówki górskie.',
       sections: [
         {
           title: 'Ekrany i technologia',
           articles: [
-            { label: 'Ekrany, książki i natura — wprowadzenie',  id: 'media_nature/wprowadzenie',             status: 'live' },
-            { label: 'Ekrany a funkcje poznawcze',               id: 'media_nature/ekrany_funkcje_poznawcze', status: 'live' },
-            { label: 'Smartfony a psychologia',                  id: 'media_nature/smartfony_psychologia',    status: 'live' },
-            { label: 'Tablety a rozwój poznawczy dzieci',        id: 'media_nature/tablety_dzieci',           status: 'live' },
-            { label: 'Telewizja a funkcje psychiczne',           id: 'media_nature/telewizja_psychologia',    status: 'live' },
-            { label: 'Czas ekranowy a zdrowie psychiczne',       id: 'media_nature/czas_ekranowy',            status: 'live' },
+            { label: 'Ekrany, książki i natura',  id: 'media_nature/wprowadzenie',             status: 'live' },
+            { label: 'Ekrany, a funkcje poznawcze',               id: 'media_nature/ekrany_funkcje_poznawcze', status: 'live' },
+            { label: 'Smartfony, a psychologia',                  id: 'media_nature/smartfony_psychologia',    status: 'live' },
+            { label: 'Tablety, a rozwój poznawczy dzieci',        id: 'media_nature/tablety_dzieci',           status: 'live' },
+            { label: 'Telewizja, a funkcje psychiczne',           id: 'media_nature/telewizja_psychologia',    status: 'live' },
+            { label: 'Czas ekranowy, a zdrowie psychiczne',       id: 'media_nature/czas_ekranowy',            status: 'live' },
           ]
         },
         {
           title: 'Czytanie książek',
           articles: [
-            { label: 'Czytanie książek a funkcje psychiczne',    id: 'media_nature/czytanie_ksiazek',         status: 'live' },
+            { label: 'Czytanie książek, a funkcje psychiczne',    id: 'media_nature/czytanie_ksiazek',         status: 'live' },
             { label: 'Głębokie czytanie',                        id: 'media_nature/gleboke_czytanie',         status: 'live' },
-            { label: 'Czytanie fikcji a empatia i ToM',          id: 'media_nature/czytanie_fikcja_empatia',  status: 'live' },
+            { label: 'Czytanie fikcji, a empatia i ToM',          id: 'media_nature/czytanie_fikcja_empatia',  status: 'live' },
           ]
         },
         {
           title: 'Natura i środowisko',
           articles: [
-            { label: 'Natura a psychologia',                     id: 'media_nature/natura_psychologia',       status: 'live' },
-            { label: 'Kąpiel leśna — shinrin-yoku',              id: 'media_nature/las_shinrin_yoku',         status: 'live' },
-            { label: 'Góry i wędrówki górskie a psychologia',    id: 'media_nature/gory_psychologia',         status: 'live' },
+            { label: 'Natura, a psychologia',                     id: 'media_nature/natura_psychologia',       status: 'live' },
+            { label: 'Kąpiel leśna - shinrin-yoku',              id: 'media_nature/las_shinrin_yoku',         status: 'live' },
+            { label: 'Góry i wędrówki górskie, a psychologia',    id: 'media_nature/gory_psychologia',         status: 'live' },
           ]
         },
       ]
     },
 
     psych_pozytywna: {
-      title: 'WIKI — Psychologia pozytywna',
-      intro: 'Psychologia pozytywna bada naukowe podstawy dobrostanu, szczęścia i rozkwitu człowieka. Encyklopedia obejmuje kluczowe koncepcje — od modelu PERMA i teorii flow, przez siły charakteru i wdzięczność, po interwencje oparte na dowodach.',
+      title: 'WIKI - Psychologia pozytywna',
+      intro: 'Psychologia pozytywna bada naukowe podstawy dobrostanu, szczęścia i rozkwitu człowieka. Encyklopedia obejmuje kluczowe koncepcje - od modelu PERMA i teorii flow, przez siły charakteru i wdzięczność, po interwencje oparte na dowodach.',
       sections: [
         {
           title: 'Podstawy i teorie',
           articles: [
-            { label: 'Psychologia pozytywna — wprowadzenie', id: 'positive_psychology/wprowadzenie',        status: 'live' },
+            { label: 'Psychologia pozytywna', id: 'positive_psychology/wprowadzenie',        status: 'live' },
             { label: 'Model PERMA',                          id: 'positive_psychology/model_perma',         status: 'live' },
             { label: 'Szczęście i dobrostan psychiczny',     id: 'positive_psychology/szczescie_dobrostan', status: 'live' },
           ]
@@ -3231,13 +3185,13 @@ window.SITE_CONFIG = {
     },
 
     psych_ai: {
-      title: 'WIKI — Psychologia sztucznej inteligencji',
-      intro: 'Psychologia sztucznej inteligencji bada psychologiczne aspekty systemów AI — od procesów poznawczych i antropomorfizacji po etykę, zaufanie i przyszłość relacji człowiek-maszyna. Encyklopedia obejmuje zarówno wpływ AI na człowieka, jak i psychologiczne mechanizmy projektowania i użytkowania systemów inteligentnych.',
+      title: 'WIKI - Psychologia sztucznej inteligencji',
+      intro: 'Psychologia sztucznej inteligencji bada psychologiczne aspekty systemów AI - od procesów poznawczych i antropomorfizacji po etykę, zaufanie i przyszłość relacji człowiek-maszyna. Encyklopedia obejmuje zarówno wpływ AI na człowieka, jak i psychologiczne mechanizmy projektowania i użytkowania systemów inteligentnych.',
       sections: [
         {
           title: 'Podstawy i historia',
           articles: [
-            { label: 'Psychologia AI — wprowadzenie',   id: 'ai_psychology/wprowadzenie',  status: 'live' },
+            { label: 'Psychologia AI',   id: 'ai_psychology/wprowadzenie',  status: 'live' },
             { label: 'Historia AI i psychologia',       id: 'ai_psychology/historia_ai',   status: 'live' },
           ]
         },
@@ -3245,7 +3199,7 @@ window.SITE_CONFIG = {
           title: 'Procesy poznawcze i decyzje',
           articles: [
             { label: 'Poznawcze aspekty działania AI',  id: 'ai_psychology/ai_poznawcze',  status: 'live' },
-            { label: 'AI a podejmowanie decyzji',       id: 'ai_psychology/decyzje_ai',    status: 'live' },
+            { label: 'AI, a podejmowanie decyzji',       id: 'ai_psychology/decyzje_ai',    status: 'live' },
           ]
         },
         {
@@ -3254,7 +3208,7 @@ window.SITE_CONFIG = {
             { label: 'Interakcja człowiek-AI',                  id: 'ai_psychology/czlowiek_a_ai',        status: 'live' },
             { label: 'Zaufanie do sztucznej inteligencji',      id: 'ai_psychology/zaufanie_do_ai',       status: 'live' },
             { label: 'Antropomorfizacja AI',                    id: 'ai_psychology/antropomorfizacja_ai', status: 'live' },
-            { label: 'AI a emocje i rozumienie emocji',         id: 'ai_psychology/ai_emocje',            status: 'live' },
+            { label: 'AI, a emocje i rozumienie emocji',         id: 'ai_psychology/ai_emocje',            status: 'live' },
           ]
         },
         {
@@ -3270,13 +3224,13 @@ window.SITE_CONFIG = {
     },
 
     psychologia_technologii: {
-      title: 'WIKI — Psychologia technologii i dobrostanu cyfrowego',
+      title: 'WIKI - Psychologia technologii i dobrostanu cyfrowego',
       intro: 'Encyklopedia porządkuje wiedzę o wpływie technologii cyfrowych na funkcjonowanie psychiczne człowieka: stres, uwagę, sen, regulację emocji, relacje, poczucie sprawczości oraz dobrostan. Łączy perspektywę badawczą z praktyką psychoedukacyjną i profilaktyką zdrowia psychicznego.',
       sections: [
         {
           title: 'Artykuły dostępne',
           articles: [
-            { label: 'Technostres — artykuł naukowy', id: 'technology_psychology/technostres', status: 'live' },
+            { label: 'Technostres - artykuł naukowy', id: 'technology_psychology/technostres', status: 'live' },
           ]
         },
         {
@@ -3284,10 +3238,10 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Zmęczenie cyfrowe i przeciążenie informacyjne',    id: 'technology_psychology/zmeczenie_cyfrowe',     status: 'live' },
             { label: 'FOMO i nomofobia',                                  id: 'technology_psychology/fomo_i_nomofobia',      status: 'live' },
-            { label: 'Algorytmy personalizacji a samoocena',              id: 'technology_psychology/algorytmy_a_samoocena', status: 'live' },
+            { label: 'Algorytmy personalizacji, a samoocena',              id: 'technology_psychology/algorytmy_a_samoocena', status: 'live' },
             { label: 'Higiena cyfrowa i profilaktyka przeciążenia',       id: 'technology_psychology/higiena_cyfrowa',       status: 'live' },
             { label: 'Technologia w pracy: granice, kontrola i autonomia',id: 'technology_psychology/technologia_w_pracy',   status: 'live' },
-            { label: 'Technologia a sen i regeneracja psychiczna',        id: 'technology_psychology/technologia_a_sen',     status: 'live' },
+            { label: 'Technologia, a sen i regeneracja psychiczna',        id: 'technology_psychology/technologia_a_sen',     status: 'live' },
             { label: 'Psychoedukacja rodzinna w erze ekranów',            id: 'technology_psychology/psychoedukacja_rodzinna', status: 'live' },
             { label: 'Psycholog w IT',                                       id: 'students/psycholog_w_it', status: 'xlink' },
           ]
@@ -3296,13 +3250,13 @@ window.SITE_CONFIG = {
     },
 
     robotyka_afektywna: {
-      title: 'WIKI — Robotyka afektywna i kognitywistyka',
+      title: 'WIKI - Robotyka afektywna i kognitywistyka',
       intro: 'Robotyka afektywna i kognitywistyka badają emocjonalne i poznawcze aspekty maszyn oraz interakcji człowiek–robot. Encyklopedia obejmuje zagadnienia od historii robotyki afektywnej, przez doliny niesamowitości i roboty społeczne, po interfejsy mózg–maszyna i filozofię świadomości maszyn.',
       sections: [
         {
           title: 'Podstawy i historia',
           articles: [
-            { label: 'Robotyka afektywna — wprowadzenie',  id: 'affective_robotics/wprowadzenie',                 status: 'live' },
+            { label: 'Robotyka afektywna',  id: 'affective_robotics/wprowadzenie',                 status: 'live' },
             { label: 'Historia robotyki afektywnej',       id: 'affective_robotics/historia_robotyki_afektywnej', status: 'live' },
             { label: 'Kognitywistyka obliczeniowa',        id: 'affective_robotics/kognitywistyka_obliczeniowa',  status: 'live' },
           ]
@@ -3335,13 +3289,13 @@ window.SITE_CONFIG = {
     },
 
     psych_szkolna: {
-      title: 'WIKI — Psychologia szkolna i edukacyjna',
+      title: 'WIKI - Psychologia szkolna i edukacyjna',
       intro: 'Psychologia szkolna i edukacyjna bada procesy uczenia się, nauczania i rozwoju w kontekście instytucji edukacyjnych. Encyklopedia obejmuje teorie uczenia się, motywację akademicką, trudności szkolne, relacje nauczyciel–uczeń, klimat szkolny oraz interwencje psychologiczne w placówkach oświatowych.',
       sections: [
         {
           title: 'Podstawy i teorie',
           articles: [
-            { label: 'Psychologia szkolna — wprowadzenie',  id: 'school_psychology/wprowadzenie',                status: 'live' },
+            { label: 'Psychologia szkolna',  id: 'school_psychology/wprowadzenie',                status: 'live' },
             { label: 'Teorie uczenia się',                  id: 'school_psychology/teorie_uczenia_sie',          status: 'live' },
             { label: 'Strefa najbliższego rozwoju (ZPD)',   id: 'school_psychology/strefa_najblizszego_rozwoju', status: 'live' },
           ]
@@ -3373,14 +3327,15 @@ window.SITE_CONFIG = {
         },
       ]
     },
+
     neurozroznorodnosc: {
-      title: 'WIKI — Neuroróżnorodność',
-      intro: 'Neuroróżnorodność to koncepcja uznająca naturalne różnice neurologiczne — takie jak autyzm, ADHD, dysleksja, dyskalkulia czy dyspraksja — za warianty ludzkiego mózgu, a nie zaburzenia wymagające "naprawy". Encyklopedia obejmuje zagadnienia od podstaw teoretycznych neuroróżnorodności, przez poszczególne profile neurologiczne, po modele mocnych stron, wsparcie, interwencje i inkluzję zawodową.',
+      title: 'WIKI - Neuroróżnorodność',
+      intro: 'Neuroróżnorodność to koncepcja uznająca naturalne różnice neurologiczne - takie jak autyzm, ADHD, dysleksja, dyskalkulia czy dyspraksja - za warianty ludzkiego mózgu,, a nie zaburzenia wymagające "naprawy". Encyklopedia obejmuje zagadnienia od podstaw teoretycznych neuroróżnorodności, przez poszczególne profile neurologiczne, po modele mocnych stron, wsparcie, interwencje i inkluzję zawodową.',
       sections: [
         {
           title: 'Podstawy i profile',
           articles: [
-            { label: 'Neuroróżnorodność — wprowadzenie',     id: 'neurodiversity/wprowadzenie',     status: 'live' },
+            { label: 'Neuroróżnorodność',     id: 'neurodiversity/wprowadzenie',     status: 'live' },
             { label: 'ADHD jako wariant neuroróżnorodności', id: 'neurodiversity/adhd',             status: 'live' },
             { label: 'Spektrum autyzmu (ASD)',                id: 'neurodiversity/spektrum_autyzmu', status: 'live' },
           ]
@@ -3414,13 +3369,13 @@ window.SITE_CONFIG = {
     },
 
     psych_sadowa: {
-      title: 'WIKI — Psychologia sądowa i opiniowanie',
-      intro: 'Psychologia sądowa zajmuje się stosowaniem wiedzy i metod psychologicznych w postępowaniach prawnych — karnych, cywilnych i rodzinnych. Encyklopedia obejmuje rolę biegłego psychologa, podstawy prawne opiniowania, metodologię sporządzania opinii, ocenę wiarygodności zeznań, specjalistyczne narzędzia diagnostyczne oraz etykę zawodową w pracy sądowej.',
+      title: 'WIKI - Psychologia sądowa i opiniowanie',
+      intro: 'Psychologia sądowa zajmuje się stosowaniem wiedzy i metod psychologicznych w postępowaniach prawnych - karnych, cywilnych i rodzinnych. Encyklopedia obejmuje rolę biegłego psychologa, podstawy prawne opiniowania, metodologię sporządzania opinii, ocenę wiarygodności zeznań, specjalistyczne narzędzia diagnostyczne oraz etykę zawodową w pracy sądowej.',
       sections: [
         {
           title: 'Podstawy i rola biegłego',
           articles: [
-            { label: 'Biegły psycholog — wprowadzenie',  id: 'forensic_psychology/wprowadzenie',   status: 'live' },
+            { label: 'Biegły psycholog',  id: 'forensic_psychology/wprowadzenie',   status: 'live' },
             { label: 'Rola i status biegłego',           id: 'forensic_psychology/rola_bieglego',  status: 'live' },
             { label: 'Podstawy prawne opiniowania',      id: 'forensic_psychology/podstawy_prawne', status: 'live' },
             { label: 'Metodologia sporządzania opinii',  id: 'forensic_psychology/metodologia_opinii', status: 'live' },
@@ -3441,20 +3396,20 @@ window.SITE_CONFIG = {
           articles: [
             { label: 'Narzędzia diagnostyczne (sądowe)', id: 'forensic_psychology/narzedzia_diagnostyczne', status: 'live' },
             { label: 'Etyka opiniowania sądowego',       id: 'forensic_psychology/etyka_opiniowania',       status: 'live' },
-            { label: 'Biegły a sąd — komunikacja',       id: 'forensic_psychology/biegly_a_sad',            status: 'live' },
+            { label: 'Biegły, a sąd - komunikacja',       id: 'forensic_psychology/biegly_a_sad',            status: 'live' },
           ]
         },
       ]
     },
 
     e_terapia: {
-      title: 'WIKI — E-terapia',
-      intro: 'E-terapia (terapia online, telemedycyna psychologiczna) obejmuje świadczenie pomocy psychologicznej i terapeutycznej za pośrednictwem technologii cyfrowych — wideo, czatu, aplikacji mobilnych oraz rzeczywistości wirtualnej. Encyklopedia opisuje historię, formy, skuteczność, etykę oraz przyszłość zdalnej opieki psychologicznej.',
+      title: 'WIKI - E-terapia',
+      intro: 'E-terapia (terapia online, telemedycyna psychologiczna) obejmuje świadczenie pomocy psychologicznej i terapeutycznej za pośrednictwem technologii cyfrowych - wideo, czatu, aplikacji mobilnych oraz rzeczywistości wirtualnej. Encyklopedia opisuje historię, formy, skuteczność, etykę oraz przyszłość zdalnej opieki psychologicznej.',
       sections: [
         {
           title: 'Podstawy i historia',
           articles: [
-            { label: 'E-terapia — wprowadzenie',  id: 'e_therapy/wprowadzenie',      status: 'live' },
+            { label: 'E-terapia',  id: 'e_therapy/wprowadzenie',      status: 'live' },
             { label: 'Historia e-terapii',        id: 'e_therapy/historia_e_terapii', status: 'live' },
           ]
         },
@@ -3485,14 +3440,15 @@ window.SITE_CONFIG = {
         },
       ]
     },
+
     filozofia: {
-      title: 'WIKI — Filozofia',
-      intro: 'Filozofia jest matką wszystkich nauk — bada fundamentalne pytania o rzeczywistość, poznanie, wartości i naturę człowieka. Encyklopedia obejmuje główne działy filozofii (ontologię, epistemologię, etykę, filozofię umysłu) oraz kierunki szczególnie bliskie psychologii: egzystencjalizm, fenomenologię, hermeneutykę i filozofię języka.',
+      title: 'WIKI - Filozofia',
+      intro: 'Filozofia jest matką wszystkich nauk - bada fundamentalne pytania o rzeczywistość, poznanie, wartości i naturę człowieka. Encyklopedia obejmuje główne działy filozofii (ontologię, epistemologię, etykę, filozofię umysłu) oraz kierunki szczególnie bliskie psychologii: egzystencjalizm, fenomenologię, hermeneutykę i filozofię języka.',
       sections: [
         {
           title: 'Podstawy filozofii',
           articles: [
-            { label: 'Filozofia — wprowadzenie',       id: 'philosophy/wprowadzenie',  status: 'live' },
+            { label: 'Filozofia',       id: 'philosophy/wprowadzenie',  status: 'live' },
             { label: 'Ontologia i metafizyka',          id: 'philosophy/ontologia',     status: 'live' },
             { label: 'Epistemologia i teoria poznania', id: 'philosophy/epistemologia', status: 'live' },
             { label: 'Egocentryczny dylemat poznania',   id: 'philosophy/egocentryczny_dylemat', status: 'live' },
@@ -3538,16 +3494,17 @@ window.SITE_CONFIG = {
         },
       ]
     },
+
     nvc: {
-      title: 'WIKI — Porozumiewanie się bez przemocy (NVC)',
+      title: 'WIKI - Porozumiewanie się bez przemocy (NVC)',
       intro: 'Nonviolent Communication (NVC) to metoda komunikacji opracowana przez Marshalla Rosenberga, oparta na empatii, obserwacji bez oceniania oraz identyfikacji uczuć i potrzeb. NVC uczy wyrażania siebie z autentycznością i słuchania innych z prawdziwą obecnością.',
       sections: [
         {
           title: 'Podstawy NVC',
           articles: [
-            { label: 'NVC — wprowadzenie',         id: 'nvc/wprowadzenie',        status: 'live', desc: 'Geneza, filozofia i zastosowania Porozumiewania się bez przemocy.' },
-            { label: 'Cztery komponenty NVC',       id: 'nvc/cztery_komponenty',   status: 'live', desc: 'Obserwacja, uczucie, potrzeba, prośba — struktura procesu NVC.' },
-            { label: 'Język szakala i żyrafy',      id: 'nvc/jezyk_szakala_i_zyrafy', status: 'live', desc: 'Dwa style komunikacji — oceniający i empatyczny.' },
+            { label: 'NVC',         id: 'nvc/wprowadzenie',        status: 'live', desc: 'Geneza, filozofia i zastosowania Porozumiewania się bez przemocy.' },
+            { label: 'Cztery komponenty NVC',       id: 'nvc/cztery_komponenty',   status: 'live', desc: 'Obserwacja, uczucie, potrzeba, prośba - struktura procesu NVC.' },
+            { label: 'Język szakala i żyrafy',      id: 'nvc/jezyk_szakala_i_zyrafy', status: 'live', desc: 'Dwa style komunikacji - oceniający i empatyczny.' },
           ]
         },
         {
@@ -3556,7 +3513,7 @@ window.SITE_CONFIG = {
             { label: 'Obserwacja bez oceniania',    id: 'nvc/obserwacja',          status: 'live', desc: 'Jak opisywać zdarzenia bez ocen, etykietek i generalizacji.' },
             { label: 'Uczucia w NVC',               id: 'nvc/uczucia',             status: 'live', desc: 'Katalog uczuć, pseudouczucia i odpowiedzialność za emocje.' },
             { label: 'Katalog potrzeb',             id: 'nvc/potrzeby',            status: 'live', desc: 'Universalne ludzkie potrzeby i ich rola w NVC.' },
-            { label: 'Prośba a żądanie',            id: 'nvc/prosba_i_zadanie',    status: 'live', desc: 'Jak formułować prośby i czym różnią się od żądań.' },
+            { label: 'Prośba, a żądanie',            id: 'nvc/prosba_i_zadanie',    status: 'live', desc: 'Jak formułować prośby i czym różnią się od żądań.' },
           ]
         },
         {
@@ -3576,14 +3533,15 @@ window.SITE_CONFIG = {
         },
       ]
     },
+
     seminarium_dyplomowe: {
-      title: 'WIKI — Seminarium dyplomowe',
+      title: 'WIKI - Seminarium dyplomowe',
       intro: 'Seminarium dyplomowe przygotowuje studentów psychologii do samodzielnego prowadzenia badań i pisania pracy magisterskiej. Encyklopedia obejmuje zasady pisania pracy naukowej, metodologię badań, prowadzenie pomiarów psychologicznych, analizy statystyczne, etykę naukową, typowe błędy badawcze oraz dobre praktyki akademickie.',
       sections: [
         {
           title: 'Podstawy pracy naukowej',
           articles: [
-            { label: 'Seminarium dyplomowe — wprowadzenie',  id: 'ppd/wprowadzenie',         status: 'live', desc: 'Cel i struktura seminarium dyplomowego, typy prac magisterskich.' },
+            { label: 'Seminarium dyplomowe',  id: 'ppd/wprowadzenie',         status: 'live', desc: 'Cel i struktura seminarium dyplomowego, typy prac magisterskich.' },
             { label: 'Struktura pracy magisterskiej',        id: 'ppd/struktura_pracy',      status: 'live', desc: 'Standardowe rozdziały, formatowanie i objętość pracy.' },
             { label: 'Przegląd literatury naukowej',         id: 'ppd/przeglad_literatury',  status: 'live', desc: 'Bazy danych, strategie wyszukiwania, ocena źródeł, cytowanie.' },
           ]
@@ -3601,7 +3559,7 @@ window.SITE_CONFIG = {
           title: 'Etyka i jakość badań',
           articles: [
             { label: 'Etyka badań naukowych',               id: 'ppd/etyka_badan',      status: 'live', desc: 'Świadoma zgoda, poufność, komisje etyczne, integralność naukowa.' },
-            { label: 'Błędy badawcze — czego unikać',       id: 'ppd/bledy_badawcze',   status: 'live', desc: 'Błędy projektowania, pomiaru, analizy i interpretacji wyników.' },
+            { label: 'Błędy badawcze - czego unikać',       id: 'ppd/bledy_badawcze',   status: 'live', desc: 'Błędy projektowania, pomiaru, analizy i interpretacji wyników.' },
           ]
         },
         {
@@ -3614,14 +3572,15 @@ window.SITE_CONFIG = {
         },
       ]
     },
+
     podstawy_pomocy: {
-      title: 'WIKI — Podstawy pomocy psychologicznej',
+      title: 'WIKI - Podstawy pomocy psychologicznej',
       intro: 'Podstawy pomocy psychologicznej to dziedzina obejmująca fundamentalne umiejętności i wiedzę niezbędną każdemu, kto profesjonalnie lub wolontariacko udziela wsparcia psychologicznego. Od relacji pomocowej i aktywnego słuchania, przez interwencję kryzysową, po samoopiękę pomagającego i etykę zawodową.',
       sections: [
         {
           title: 'Istota pomocy psychologicznej',
           articles: [
-            { label: 'Pomoc psychologiczna — wprowadzenie', id: 'podstawy_pomocy/wprowadzenie',                  status: 'live', desc: 'Rodzaje pomocy psychologicznej, zasady podstawowe i różnice między nimi.' },
+            { label: 'Pomoc psychologiczna', id: 'podstawy_pomocy/wprowadzenie',                  status: 'live', desc: 'Rodzaje pomocy psychologicznej, zasady podstawowe i różnice między nimi.' },
             { label: 'Relacja pomocowa',                    id: 'podstawy_pomocy/relacja_pomocowa',              status: 'live', desc: 'Sojusz terapeutyczny, czynniki budujące relację i zagrożenia dla niej.' },
             { label: 'Modele pomocy psychologicznej',       id: 'podstawy_pomocy/modele_pomocy',                 status: 'live', desc: 'Medyczny, psychodynamiczny, CBT, humanistyczny, systemowy i ekologiczny.' },
           ]
@@ -3630,7 +3589,7 @@ window.SITE_CONFIG = {
           title: 'Umiejętności pomocowe',
           articles: [
             { label: 'Aktywne słuchanie',                   id: 'podstawy_pomocy/aktywne_sluchanie',             status: 'live', desc: 'Parafrazowanie, odzwierciedlanie emocji, klaryfikacja i bariery słuchania.' },
-            { label: 'Empatia w pomocy psychologicznej',    id: 'podstawy_pomocy/empatia_w_pomocy',              status: 'live', desc: 'Empatia poznawcza, emocjonalna i współczująca; granica między empatią a fuzją.' },
+            { label: 'Empatia w pomocy psychologicznej',    id: 'podstawy_pomocy/empatia_w_pomocy',              status: 'live', desc: 'Empatia poznawcza, emocjonalna i współczująca; granica między empatią, a fuzją.' },
             { label: 'Komunikacja wspierająca',             id: 'podstawy_pomocy/komunikacja_wspierajaca',       status: 'live', desc: 'Walidacja, normalizacja, pytania otwarte i nieskuteczne wzorce komunikacji.' },
           ]
         },
@@ -3638,7 +3597,7 @@ window.SITE_CONFIG = {
           title: 'Interwencja i wsparcie',
           articles: [
             { label: 'Kryzys psychologiczny i interwencja', id: 'podstawy_pomocy/kryzys_psychologiczny',         status: 'live', desc: 'Fazy kryzysu, rodzaje, zasady ABC interwencji i model FASTER.' },
-            { label: 'Pierwsza pomoc psychologiczna',       id: 'podstawy_pomocy/pierwsza_pomoc_psychologiczna', status: 'live', desc: 'Osiem komponentów PFA, co robić i czego unikać, PPP a debriefing.' },
+            { label: 'Pierwsza pomoc psychologiczna',       id: 'podstawy_pomocy/pierwsza_pomoc_psychologiczna', status: 'live', desc: 'Osiem komponentów PFA, co robić i czego unikać, PPP, a debriefing.' },
             { label: 'Wsparcie społeczne',                  id: 'podstawy_pomocy/wsparcie_spoleczne',            status: 'live', desc: 'Rodzaje wsparcia, modele efektu głównego i buforowego, grupy wsparcia.' },
           ]
         },
@@ -3650,6 +3609,50 @@ window.SITE_CONFIG = {
             { label: 'Etyka pomocy psychologicznej',        id: 'podstawy_pomocy/etyka_pomocy',                  status: 'live', desc: 'Cztery zasady bioetyki, tajemnica zawodowa, świadoma zgoda, dylematy etyczne.' },
           ]
         },
+      ]
+    },
+
+    slownik: {
+      title: 'WIKI - Słownik terminów',
+      intro: 'Alfabetyczny słownik kluczowych pojęć neuropsychologii i psychologii klinicznej.',
+      sections: [
+        {
+          isGlossary: true,
+          entries: [
+            { term: 'Afazja',          def: 'Nabyte zaburzenie językowe po uszkodzeniu mózgu - może dotyczyć mówienia, rozumienia, czytania i pisania.', link: 'disorders/afazje' },
+            { term: 'Agnozja',         def: 'Niemożność rozpoznawania obiektów przy zachowanych zmysłach i inteligencji.', link: 'disorders/agnozja' },
+            { term: 'Amnezja',         def: 'Zaburzenie pamięci - anterogradna (nowe wspomnienia) lub retrogradna (dawne wspomnienia).', link: 'disorders/amnezje' },
+            { term: 'Apraksja',        def: 'Zaburzenie wykonywania celowych ruchów przy zachowanej sprawności motorycznej i rozumieniu polecenia.', link: 'disorders/apraksja' },
+            { term: 'ARAS',            def: 'Wstępujący układ siatkowaty aktywujący - reguluje poziom czujności i aktywacji kory.' },
+            { term: 'Ciało modzelowate', def: 'Największa komisura mózgu łącząca obie półkule - ~200 milionów aksonów mielinowanych.' },
+            { term: 'DAI',             def: 'Rozlane uszkodzenie aksonalne - rozerwanie długich włókien wskutek sił przyspieszenia-opóźnienia w TBI.', link: 'disorders/tbi' },
+            { term: 'DMN',             def: 'Default Mode Network - sieć trybu domyślnego aktywna w spoczynku i autorefleksji; zaburzona w depresji i Alzheimerze.' },
+            { term: 'Dopamina',        def: 'Neuroprzekaźnik modulacyjny - motywacja, nagroda, kontrola ruchu. Niedobór → Parkinson; nadmiar → objawy psychotyczne.', link: 'pharmacology/neurofarmakologia' },
+            { term: 'DTI',             def: 'Dyfuzyjna tomografia tensora - technika MRI pozwalająca wizualizować szlaki istoty białej (traktografia).' },
+            { term: 'ERP',             def: 'Potencjały wywołane - uśrednione odpowiedzi EEG na powtarzane bodźce; N400, P300, MMN.' },
+            { term: 'FFA',             def: 'Fusiform Face Area - obszar zakrętu wrzecionowatego wyspecjalizowany w rozpoznawaniu twarzy. Uszkodzenie → prozopagnozja.' },
+            { term: 'fMRI',            def: 'Funkcjonalny rezonans magnetyczny - mierzy aktywność mózgu przez zmiany przepływu krwi (sygnał BOLD).' },
+            { term: 'GABA',            def: 'Główny neuroprzekaźnik inhibicyjny OUN. Cel benzodiazepin i barbituranów.', link: 'pharmacology/neurofarmakologia' },
+            { term: 'Glutaminian',     def: 'Główny neuroprzekaźnik ekscytacyjny. Kluczowy w LTP i ekscytotoksyczności udarowej.', link: 'pharmacology/neurofarmakologia' },
+            { term: 'Hipokamp',        def: 'Struktura kształtu konika morskiego - konsolidacja pamięci deklaratywnej i nawigacja przestrzenna.', link: 'neuro/anatomia' },
+            { term: 'IRT',             def: 'Item Response Theory - rodzina modeli psychometrycznych opisujących prawdopodobieństwo odpowiedzi w zależności od trudności i zdolności.', link: 'psychometrics/irt' },
+            { term: 'Lateralizacja',   def: 'Asymetryczna lokalizacja funkcji - język zazwyczaj w lewej półkuli, uwaga przestrzenna w prawej.', link: 'neuro/lateralizacja' },
+            { term: 'LTD',             def: 'Long-Term Depression - długotrwałe osłabienie synapsy przy niskiej aktywności. Mechanizm zapominania.' },
+            { term: 'LTP',             def: 'Long-Term Potentiation - trwałe wzmocnienie synapsy po wysokiej aktywności. Podstawa uczenia się w hipokampie.', link: 'neuro/neuron' },
+            { term: 'MoCA',            def: 'Montreal Cognitive Assessment - test przesiewowy zaburzeń poznawczych, bardziej czuły niż MMSE na łagodne deficyty.', link: 'diagnostics/mmse_moca' },
+            { term: 'Neglect',         def: 'Zaburzenie uwagi przestrzennej - nieświadome pomijanie jednej strony przestrzeni po uszkodzeniu prawej półkuli.', link: 'disorders/neglect' },
+            { term: 'Neuroplastyczność', def: 'Zdolność mózgu do zmiany struktury i funkcji - od poziomu synaptycznego (LTP/LTD) po reorganizację kortykalna.', link: 'neuro/plastycznosc' },
+            { term: 'NSSI',            def: 'Non-Suicidal Self-Injury - samookaleczenie bez intencji śmierci, często pełniące funkcję regulacji emocji.', link: 'suicidology/nssi' },
+            { term: 'Pola Brodmanna',  def: '52 obszary kory mózgowej wyznaczone przez Brodmanna (1909) na podstawie cytoarchitektoniki.', link: 'neuro/anatomia' },
+            { term: 'Prozopagnozja',   def: 'Specyficzny deficyt rozpoznawania twarzy - związany z uszkodzeniem FFA w zakręcie wrzecionowatym.', link: 'disorders/agnozja' },
+            { term: 'Psychometria',    def: 'Dział metodologii zajmujący się teorią i techniką pomiaru psychologicznego - rzetelność, trafność, normalizacja.', link: 'psychometrics/psychometria_wprowadzenie' },
+            { term: 'Pęczek łukowaty', def: 'Szlak istoty białej łączący obszar Wernickego z Broki. Uszkodzenie → afazja przewodzenia.', link: 'disorders/afazje' },
+            { term: 'Rzetelność',      def: 'Stopień, w jakim wyniki testu są stabilne i wolne od błędu pomiarowego (alfa Cronbacha, test-retest).', link: 'psychometrics/rzetelnosc' },
+            { term: 'TBI',             def: 'Traumatic Brain Injury - uraz mózgu od łagodnego wstrząśnienia po ciężki uraz z długoterminowymi konsekwencjami.', link: 'disorders/tbi' },
+            { term: 'Trafność',        def: 'Stopień, w jakim test mierzy to, co ma mierzyć - treściowa, kryterialna, zbieżna, czynnikowa.', link: 'psychometrics/trafnosc' },
+            { term: 'Wzgórze',         def: '"Brama świadomości" - przekaźnik zmysłów do kory, regulacja czujności. Uszkodzenie → amnezja wzgórzowa.', link: 'neuro/anatomia' },
+          ]
+        }
       ]
     },
   },
