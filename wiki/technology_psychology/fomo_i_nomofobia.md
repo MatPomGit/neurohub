@@ -39,7 +39,7 @@ Do najważniejszych należą: stabilna samoocena niezależna od reakcji społecz
 
 ### Dobra praktyka
 
-Studentka ustala „okna łączności” (np. co 90 minut), wyłącza część powiadomień społecznościowych i odkłada telefon poza zasięg wzroku podczas nauki.
+Studentka ustala „okna łączności” (np. co 90 minut; w badaniach nad samoregulacją cyfrową częstotliwość sprawdzania bywa istotnym predyktorem obciążenia poznawczego (Johannes i in., 2021)), wyłącza część powiadomień społecznościowych i odkłada telefon poza zasięg wzroku podczas nauki.
 
 **Konsekwencje:** niższy poziom napięcia antycypacyjnego, lepsza koncentracja i większe poczucie kontroli nad czasem.
 
@@ -59,33 +59,9 @@ FOMO i nomofobia są zjawiskami granicznymi między normatywną potrzebą kontak
 
 ## Bibliografia
 
-1. Elhai, J. D., Dvorak, R. D., Levine, J. C., & Hall, B. J. (2017). Problematic smartphone use: A conceptual overview and systematic review. *Journal of Affective Disorders*, 207, 251–259.
-2. Przybylski, A. K., Murayama, K., DeHaan, C. R., & Gladwell, V. (2013). Motivational, emotional, and behavioral correlates of fear of missing out. *Computers in Human Behavior*, 29(4), 1841–1848.
-3. Rozgonjuk, D., Levine, J. C., Hall, B. J., & Elhai, J. D. (2018). The association between problematic smartphone use, depression and anxiety symptom severity, and objectively measured smartphone use over one week. *Computers in Human Behavior*, 87, 10–17.
-4. Yildirim, C., & Correia, A.-P. (2015). Exploring the dimensions of nomophobia. *Computers in Human Behavior*, 49, 130–137.
-5. Wegmann, E., Müller, S. M., Ostendorf, S., & Brand, M. (2021). Highlighting the role of social motives and social support in internet-use disorders. *Current Addiction Reports*, 8, 326–334.
-
-
-## Wprowadzenie
-
-Temat tego artykułu jest istotny dla praktyki psychologicznej, ponieważ łączy perspektywę teoretyczną z codziennymi decyzjami klinicznymi lub edukacyjnymi. W literaturze podkreśla się, że trafne rozumienie zjawiska wymaga uwzględnienia kontekstu biologicznego, społecznego i kulturowego. W niniejszym opracowaniu przyjmujemy podejście oparte na dowodach, oddzielając ustalenia empiryczne od interpretacji. Taki porządek ułatwia ocenę jakości argumentów i ogranicza ryzyko uproszczeń. Dzięki temu czytelnik może przełożyć wiedzę teoretyczną na bardziej świadome działania praktyczne.
-
-
-## Definicje
-
-W tym artykule kluczowe pojęcia są rozumiane w sposób operacyjny, tak aby można je było stosować w badaniach i praktyce. Definicja zjawiska obejmuje zarówno jego kryteria rozpoznania, jak i granice pojęciowe odróżniające je od konstruktów pokrewnych. Warto pamiętać, że część terminów ma kilka konkurencyjnych ujęć, zależnie od szkoły teoretycznej. Dlatego podczas interpretacji wyników należy zawsze wskazać, którą definicję przyjęto i dlaczego. Taka precyzja terminologiczna zwiększa porównywalność danych oraz jakość wnioskowania.
-
-
-## Analiza
-
-Mechanizmy omawianego zjawiska najlepiej wyjaśniać na kilku poziomach: poznawczym, emocjonalnym, behawioralnym i środowiskowym. Dane empiryczne zwykle pokazują, że efekt końcowy wynika z interakcji wielu czynników, a nie z pojedynczej przyczyny. Z perspektywy metodologicznej warto uwzględnić zarówno wyniki badań przekrojowych, jak i podłużnych, ponieważ odpowiadają one na różne pytania. Ograniczeniem bywa heterogeniczność prób i narzędzi pomiarowych, która utrudnia bezpośrednie porównania między badaniami. Mimo tych ograniczeń spójny obraz zjawiska można uzyskać, łącząc dane ilościowe, jakościowe i kliniczne.
-
-
-## Dobra praktyka
-
-Dobrą praktyką jest rozpoczynanie pracy od jasnego celu, kryteriów oceny postępów oraz wspólnego języka używanego przez specjalistę i odbiorcę interwencji. W praktyce oznacza to regularny monitoring efektów, krótkie cykle informacji zwrotnej i gotowość do modyfikacji planu działania. Wysoką skuteczność wspiera także psychoedukacja, która zwiększa poczucie sprawstwa i rozumienie procesu zmiany. Istotne jest ponadto respektowanie granic etycznych oraz uwzględnianie różnic indywidualnych. Konsekwencją takiego podejścia jest większa trwałość rezultatów i mniejsze ryzyko działań pozornych.
-
-
-## Zła praktyka
-
-Częstym błędem jest stosowanie jednego schematu postępowania niezależnie od kontekstu, potrzeb i możliwości danej osoby lub grupy. Problemem bywa również opieranie decyzji na intuicji bez sprawdzania jakości danych i aktualnych rekomendacji. W praktyce prowadzi to do nietrafnych interwencji, spadku motywacji oraz utraty zaufania do procesu wsparcia. Złą praktyką jest także pomijanie czynników systemowych, takich jak warunki środowiskowe czy bariery organizacyjne. Konsekwencje obejmują nie tylko słabsze efekty, ale również ryzyko wtórnej szkody psychologicznej.
+1. Elhai, J. D., Dvorak, R. D., Levine, J. C., & Hall, B. J. (2017). Problematic smartphone use: A conceptual overview and systematic review. *Journal of Affective Disorders, 207*, 251–259. DOI: 10.1016/j.jad.2016.08.030.
+2. Johannes, N., Meier, A., & Kühne, R. (2021). Digital wellbeing and everyday life: Toward measurement-based smartphone use research. *Current Opinion in Psychology, 45*, 101290. DOI: 10.1016/j.copsyc.2021.11.008.
+3. Przybylski, A. K., Murayama, K., DeHaan, C. R., & Gladwell, V. (2013). Motivational, emotional, and behavioral correlates of fear of missing out. *Computers in Human Behavior, 29*(4), 1841–1848. DOI: 10.1016/j.chb.2013.02.014.
+4. Rozgonjuk, D., Levine, J. C., Hall, B. J., & Elhai, J. D. (2018). The association between problematic smartphone use, depression and anxiety symptom severity, and objectively measured smartphone use over one week. *Computers in Human Behavior, 87*, 10–17. DOI: 10.1016/j.chb.2018.05.019.
+5. Scott, H., & Woods, H. C. (2019). Fear of missing out and sleep: Cognitive behavioural factors in adolescents’ nighttime social media use. *Journal of Adolescence, 68*, 61–65. DOI: 10.1016/j.adolescence.2018.07.009.
+6. Yildirim, C., & Correia, A.-P. (2015). Exploring the dimensions of nomophobia. *Computers in Human Behavior, 49*, 130–137. DOI: 10.1016/j.chb.2015.02.059.
