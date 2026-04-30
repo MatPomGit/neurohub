@@ -230,6 +230,24 @@ em{color:var(--goldl)}
 /* nav scroll */
 .s-nav{flex:1;overflow-y:auto;padding:.3rem 0 1.4rem;scrollbar-width:thin;scrollbar-color:var(--border) transparent}
 
+/* topik sidebaru */
+.sidebar-topic{margin:.3rem .6rem .6rem;border:1px solid var(--border);border-radius:10px;background:rgba(255,255,255,.015);overflow:hidden}
+.sidebar-topic-header{padding:.48rem .72rem;border-bottom:1px solid rgba(255,255,255,.05)}
+.sidebar-topic-label{font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:var(--t2)}
+.sidebar-topic .nav-group-hdr{padding:.4rem .7rem .26rem}
+.sidebar-topic .nav-item{padding:.24rem .7rem .24rem 1.05rem}
+
+/* Rozróżnia topiki kolorystycznie, aby łatwiej skanować listę kategorii. */
+.sidebar-topic.topic-fundamenty{border-left:4px solid #c9a227}
+.sidebar-topic.topic-procesy{border-left:4px solid #7c9fd2}
+.sidebar-topic.topic-rozwoj{border-left:4px solid #62b08f}
+.sidebar-topic.topic-klinika{border-left:4px solid #c26d7c}
+.sidebar-topic.topic-neuro{border-left:4px solid #9f86d7}
+.sidebar-topic.topic-specjalizacje{border-left:4px solid #d08a52}
+.sidebar-topic.topic-technologia{border-left:4px solid #4fa6b5}
+.sidebar-topic.topic-zasoby{border-left:4px solid #8a939f}
+.sidebar-topic.topic-pozostale{border-left:4px solid #6f7885}
+
 /* group */
 .nav-group{margin-bottom:.05rem}
 .nav-group-hdr{

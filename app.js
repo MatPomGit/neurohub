@@ -572,6 +572,89 @@ function updateEmptyIndicators() {
   });
 }
 
+
+/* Mapa topików porządkująca sekcje w bardziej czytelną, hierarchiczną nawigację boczną. */
+const SIDEBAR_TOPIC_GROUPS = [
+  {
+    id: 'fundamenty',
+    label: 'Fundamenty psychologii',
+    colorClass: 'topic-fundamenty',
+    sections: ['Wprowadzenie', 'Filozofia', 'Dla studentów', 'Seminarium dyplomowe', 'Eksperyment psychologiczny']
+  },
+  {
+    id: 'procesy',
+    label: 'Procesy psychiczne i różnice indywidualne',
+    colorClass: 'topic-procesy',
+    sections: ['Funkcje poznawcze', 'Emocje i motywacje', 'Temperament', 'Różnice indywidualne', 'Psychologia pozytywna']
+  },
+  {
+    id: 'rozwoj-spoleczenstwo',
+    label: 'Rozwój, relacje i społeczeństwo',
+    colorClass: 'topic-rozwoj',
+    sections: ['Psychologia Rozwojowa', 'Psychologia Społeczna', 'Psychologia Kulturowa', 'Relacje i związki', 'Psychologia szkolna i edukacyjna', 'Psychologia osób z niepełnosprawnością', 'Psychologia osób w podeszłym wieku']
+  },
+  {
+    id: 'klinika',
+    label: 'Klinika, zdrowie i pomoc',
+    colorClass: 'topic-klinika',
+    sections: ['Psychopatologia', 'Zaburzenia kliniczne', 'Przypadki kliniczne', 'Diagnoza psychologiczna (proces)', 'Diagnoza psychologiczna', 'Psychometria', 'Psychoterapia', 'Psychologia zdrowia', 'Psychosomatyka', 'Podstawy pomocy psychologicznej', 'Suicydologia', 'Wstęp do psychologii klinicznej dziecka']
+  },
+  {
+    id: 'neuro',
+    label: 'Neuro i biologiczne podstawy',
+    colorClass: 'topic-neuro',
+    sections: ['Biologiczne podstawy zachowania', 'Neurobiologia', 'Farmakologia', 'Neuroróżnorodność']
+  },
+  {
+    id: 'specjalizacje',
+    label: 'Specjalizacje i konteksty stosowane',
+    colorClass: 'topic-specjalizacje',
+    sections: ['Psychologia Uzależnień', 'Etyka zawodowa', 'Psychologia sądowa i opiniowanie', 'Seksuologia', 'Resocjalizacja', 'Instytucje pomocy dziecku i rodzinie', 'Reagowanie na krytykę', 'Psychologia nadmiernego jedzenia']
+  },
+  {
+    id: 'technologia',
+    label: 'Technologia, media i nowe obszary',
+    colorClass: 'topic-technologia',
+    sections: ['Psychologia gier wideo', 'Psychologia Sztucznej Inteligencji', 'Psychologia technologii i dobrostan cyfrowy', 'Robotyka afektywna i kognitywistyka', 'E-terapia', 'Ekrany, książki,, a natura', 'Porozumiewanie się bez przemocy (NVC)', 'Arteterapia', 'Animaloterapia']
+  },
+  {
+    id: 'zasoby',
+    label: 'Zasoby i słowniki',
+    colorClass: 'topic-zasoby',
+    sections: ['Encyklopedie', 'Referencje']
+  }
+];
+
+/* Grupuje sekcje konfiguracji nawigacji do topików; sekcje nieprzypisane trafiają do grupy „Pozostałe”. */
+function buildSidebarTopicGroups() {
+  const sectionMap = new Map(SITE_CONFIG.nav.map(section => [section.section, section]));
+  const consumed = new Set();
+  const groups = [];
+
+  SIDEBAR_TOPIC_GROUPS.forEach(topic => {
+    const topicSections = topic.sections
+      .map(sectionName => sectionMap.get(sectionName))
+      .filter(Boolean);
+
+    topicSections.forEach(section => consumed.add(section.section));
+    if (topicSections.length > 0) {
+      groups.push({ ...topic, sections: topicSections });
+    }
+  });
+
+  const leftoverSections = SITE_CONFIG.nav.filter(section => !consumed.has(section.section));
+  if (leftoverSections.length > 0) {
+    groups.push({
+      id: 'pozostale',
+      label: 'Pozostałe',
+      colorClass: 'topic-pozostale',
+      sections: leftoverSections
+    });
+  }
+
+  return groups;
+}
+
 /* ── Sidebar rendering ─────────────────────── */
 function renderSidebar() {
   const nav = document.getElementById('sidebarNav');
@@ -579,25 +662,33 @@ function renderSidebar() {
   const activeItem = pageMap.get(active);
   const activeSec  = activeItem ? activeItem.section : null;
   let html = '';
-  /* Buduje semantyczną strukturę nawigacji z poprawnymi atrybutami ARIA dla każdej grupy. */
-  SITE_CONFIG.nav.forEach((sec, secIndex) => {
-    const open = sec.section === activeSec;
-    const panelId = `nav-group-panel-${secIndex}`;
-    const triggerId = `nav-group-trigger-${secIndex}`;
-    html += `<div class="nav-group${open?' open':''}" data-sec="${q(sec.section)}">`;
-    html += `<button type="button" id="${triggerId}" class="nav-group-hdr" data-action="toggle-group" aria-expanded="${open ? 'true' : 'false'}" aria-controls="${panelId}">`;
-    html += `<span class="ng-label">${sec.section}</span>`;
-    html += `<svg class="ng-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>`;
-    html += `</button><div class="nav-items" id="${panelId}" role="group" aria-labelledby="${triggerId}">`;
-    for (const item of sec.items) {
-      if (item.href) {
-        html += `<a class="nav-item nav-item-external" href="${q(item.href)}" target="_blank" rel="noopener noreferrer">${item.label} ↗</a>`;
-      } else {
-        const cls = ['nav-item', item.wiki?'is-wiki':'', item.kind === 'test' ? 'nav-item-test' : '', item.id===active?'is-active':''].filter(Boolean).join(' ');
-        html += `<button type="button" class="${cls} nav-item-btn" data-action="navigate" data-id="${item.id}">${item.label}</button>`;
+  /* Buduje dwupoziomową strukturę: topik (kolor) → sekcja (zwijana lista artykułów). */
+  const topicGroups = buildSidebarTopicGroups();
+  topicGroups.forEach((topic, topicIndex) => {
+    html += `<section class="sidebar-topic ${topic.colorClass}" data-topic="${q(topic.id)}">`;
+    html += `<header class="sidebar-topic-header"><span class="sidebar-topic-label">${q(topic.label)}</span></header>`;
+
+    topic.sections.forEach((sec, secIndex) => {
+      const open = sec.section === activeSec;
+      const panelId = `nav-group-panel-${topicIndex}-${secIndex}`;
+      const triggerId = `nav-group-trigger-${topicIndex}-${secIndex}`;
+      html += `<div class="nav-group${open?' open':''}" data-sec="${q(sec.section)}">`;
+      html += `<button type="button" id="${triggerId}" class="nav-group-hdr" data-action="toggle-group" aria-expanded="${open ? 'true' : 'false'}" aria-controls="${panelId}">`;
+      html += `<span class="ng-label">${sec.section}</span>`;
+      html += `<svg class="ng-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>`;
+      html += `</button><div class="nav-items" id="${panelId}" role="group" aria-labelledby="${triggerId}">`;
+      for (const item of sec.items) {
+        if (item.href) {
+          html += `<a class="nav-item nav-item-external" href="${q(item.href)}" target="_blank" rel="noopener noreferrer">${item.label} ↗</a>`;
+        } else {
+          const cls = ['nav-item', item.wiki?'is-wiki':'', item.kind === 'test' ? 'nav-item-test' : '', item.id===active?'is-active':''].filter(Boolean).join(' ');
+          html += `<button type="button" class="${cls} nav-item-btn" data-action="navigate" data-id="${item.id}">${item.label}</button>`;
+        }
       }
-    }
-    html += `</div></div>`;
+      html += `</div></div>`;
+    });
+
+    html += `</section>`;
   });
   nav.innerHTML = html;
 }
