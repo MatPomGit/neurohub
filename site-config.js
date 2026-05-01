@@ -864,8 +864,8 @@ window.SITE_CONFIG = {
         { id: 'diagnostics/neuropsych_battery',label: 'Baterie neuropsychologiczne',file: 'wiki/diagnostics/neuropsych_battery.md'},
         { id: 'diagnostics/rdoc',              label: 'Model RDoC',                  file: 'wiki/diagnostics/rdoc.md'              },
         { id: 'diagnostics/scid_v',            label: 'SCID-5 / SCID-V',             file: 'wiki/diagnostics/scid_v.md'            },
-        { id: 'diagnostics/diagnoza_techniki_rozmowy_psychologicznej', label: 'Diagnoza: techniki rozmowy psychologicznej', file: 'artykul_diagnoza_techniki_rozmowy_psychologicznej.md' },
-        { id: 'diagnostics/apis_zr',           label: 'APIS-ZR - zastosowanie w diagnozie', file: 'artykul_apis_zr.md' },
+        { id: 'diagnostics/diagnoza_techniki_rozmowy_psychologicznej', label: 'Diagnoza: techniki rozmowy psychologicznej', file: 'wiki/diagnoza_techniki_rozmowy_psychologicznej.md' },
+        { id: 'diagnostics/apis_zr',           label: 'APIS-ZR - zastosowanie w diagnozie', file: 'wiki/diagnostics/apis_zr.md' },
       ]
     },
     {
@@ -1117,7 +1117,7 @@ window.SITE_CONFIG = {
         { id: 'psychotherapy/rebt',                    label: 'REBT - racjonalna terapia',            file: 'wiki/psychotherapy/rebt.md'                     },
         { id: 'psychotherapy/psychologiczne_mechanizmy_przebaczenia', label: 'Mechanizmy przebaczenia po przemocy emocjonalnej', file: 'wiki/psychotherapy/psychologiczne_mechanizmy_przebaczenia.md' },
         { id: 'psychotherapy/superwizja',              label: 'Superwizja w psychoterapii',           file: 'wiki/psychotherapy/superwizja.md'           },
-        { id: 'psychotherapy/kontenerowanie_emocji',   label: 'Kontenerowanie emocji w terapii',      file: 'artykul_kontenerowanie_emocji.md'           },
+        { id: 'psychotherapy/kontenerowanie_emocji',   label: 'Kontenerowanie emocji w terapii',      file: 'wiki/kontenerowanie_emocji.md'           },
       ]
     },
     {
@@ -1168,10 +1168,10 @@ window.SITE_CONFIG = {
         { id: 'suicidology/nssi',                      label: 'Samookaleczenia (NSSI)',        file: 'wiki/suicidology/nssi.md'                      },
         { id: 'suicidology/postvention',               label: 'Postvention',                  file: 'wiki/suicidology/postvention.md'               },
         { id: 'suicidology/media',                     label: 'Efekt Wertera i Papageno',     file: 'wiki/suicidology/media.md'                     },
-        { id: 'suicidology/biologiczne_neurobiologiczne_podstawy', label: 'Biologiczne i neurobiologiczne podstawy', file: 'artykul_biologiczne_neurobiologiczne_podstawy_zachowan_suicydalnych.md' },
-        { id: 'suicidology/genetyczne_i_epigenetyczne_uwarunkowania', label: 'Genetyczne i epigenetyczne uwarunkowania', file: 'artykul_genetyczne_i_epigenetyczne_uwarunkowania_suicydalnosci.md' },
-        { id: 'suicidology/psychopatologia_a_ryzyko',  label: 'Psychopatologia, a ryzyko samobójstwa', file: 'artykul_psychopatologia_a_ryzyko_samobojstwa.md' },
-        { id: 'suicidology/trauma_ace_i_stres_chroniczny', label: 'Trauma ACE i stres chroniczny', file: 'artykul_trauma_ace_i_stres_chroniczny_a_ryzyko_samobojstwa.md' },
+        { id: 'suicidology/biologiczne_neurobiologiczne_podstawy', label: 'Biologiczne i neurobiologiczne podstawy', file: 'wiki/suicidology/biologiczne_neurobiologiczne_podstawy_zachowan_suicydalnych.md' },
+        { id: 'suicidology/genetyczne_i_epigenetyczne_uwarunkowania', label: 'Genetyczne i epigenetyczne uwarunkowania', file: 'wiki/suicidology/genetyczne_i_epigenetyczne_uwarunkowania_suicydalnosci.md' },
+        { id: 'suicidology/psychopatologia_a_ryzyko',  label: 'Psychopatologia, a ryzyko samobójstwa', file: 'wiki/suicidology/psychopatologia_a_ryzyko_samobojstwa.md' },
+        { id: 'suicidology/trauma_ace_i_stres_chroniczny', label: 'Trauma ACE i stres chroniczny', file: 'wiki/trauma_ace_i_stres_chroniczny_a_ryzyko_samobojstwa.md' },
       ]
     },
     {
@@ -1297,7 +1297,6 @@ window.SITE_CONFIG = {
         { id: 'technology_psychology/technologia_a_sen', label: 'Technologia, a sen i regeneracja psychiczna', file: 'wiki/technology_psychology/technologia_a_sen.md' },
         { id: 'technology_psychology/psychoedukacja_rodzinna', label: 'Psychoedukacja rodzinna w erze ekranów', file: 'wiki/technology_psychology/psychoedukacja_rodzinna.md' },
         { id: 'technology_psychology/zdrada_technologii', label: 'Zdrada technologii', file: 'wiki/technology_psychology/zdrada_technologii.md' },
-        { id: 'wiki-index/psychologia_technologii', label: 'WIKI - Psychologia technologii', wiki: 'psychologia_technologii' },
       ]
     },
     {
@@ -1513,6 +1512,16 @@ window.SITE_CONFIG = {
   //  Klucz = id działu z nav (pierwsza część przed "/")
   // ─────────────────────────────────────────────────────────────
   plans: {
+    // Domeny poniżej są aktualnie sekcjami nawigacji bez szczegółowych planów.
+    // Zachowujemy puste tablice, aby walidator konfiguracji był spójny z nav.
+    students: [],
+    psychologia_religii: [],
+    child_clinical_intro: [],
+    reacting_to_criticism: [],
+    overeating_psychology: [],
+    child_family_support_institutions: [],
+    resocialization: [],
+    'wiki-index': [],
     neuro: [
       { file: 'wiki/neuro/anatomia.md',    label: 'Anatomia mózgu',             status: 'live' },
       { file: 'wiki/neuro/neuron.md',      label: 'Neuron i synapsa',           status: 'live' },
