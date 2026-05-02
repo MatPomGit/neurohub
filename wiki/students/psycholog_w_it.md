@@ -37,6 +37,21 @@ W zespołach produktowych częste są: efekt potwierdzenia, zakotwiczenie i sele
 
 W praktyce IT psycholog styka się z projektowaniem mechanizmów retencji, personalizacji i notyfikacji. Kluczowe pytanie brzmi: czy wzrost zaangażowania wynika z lepszej wartości produktu, czy z eksploatowania podatności poznawczych użytkownika. To rozróżnienie ma konsekwencje prawne, reputacyjne i kliniczne (np. nasilenie kompulsywnego używania aplikacji).
 
+## Statystyki i dane, które warto znać
+
+1. **Koszt błędów użyteczności rośnie wraz z etapem wdrożenia.** W praktyce inżynierskiej stosuje się heurystykę „1:10:100”: naprawa błędu po wdrożeniu bywa wielokrotnie droższa niż na etapie projektowym.
+2. **5 użytkowników testowych zwykle wykrywa dużą część problemów UX.** Model Nielsena i Landauera pokazał, że małe, iteracyjne testy potrafią ujawnić większość najważniejszych defektów użyteczności.
+3. **Wypalenie zawodowe jest opisane w ICD-11 jako zjawisko zawodowe.** Z perspektywy organizacyjnej oznacza to, że długotrwałe przeciążenie poznawcze i emocjonalne należy traktować jako mierzalne ryzyko procesowe.
+4. **Wysokowydajne zespoły technologiczne korzystają z krótkich pętli feedbacku.** Badania DORA i prace nad modelem Accelerate wskazują, że częstsze, mniejsze wdrożenia wiążą się z lepszą niezawodnością i mniejszym kosztem błędów.
+
+> **Wniosek praktyczny:** psycholog w IT powinien monitorować nie tylko satysfakcję zespołu, ale też metryki procesu (czas cyklu, liczba poprawek, obciążenie poznawcze, jakość komunikacji).
+
+## Ciekawostki naukowe i zawodowe
+
+- **Ciekawostka 1 — „psychologia przycisku”:** drobna zmiana treści CTA (np. bardziej precyzyjna etykieta) może ograniczać lęk przed błędem i zmniejszać porzucenia formularza.
+- **Ciekawostka 2 — efekt peak-end:** użytkownicy zapamiętują najbardziej intensywny moment interakcji i jej zakończenie silniej niż „średnią” całego doświadczenia.
+- **Ciekawostka 3 — kolejność wypowiedzi na spotkaniu ma znaczenie:** praktyka „najpierw dane, potem opinie” redukuje efekt autorytetu i konformizm zespołowy.
+
 ## Praktyczne przykłady
 
 ### Dobra praktyka
@@ -63,6 +78,7 @@ Dominująca narracja mówi, że psycholog w IT „zmiękcza” komunikację i db
 - Psycholog w IT tworzy największą wartość tam, gdzie łączy metodologię naukową z decyzjami produktowymi.
 - Odpowiedzialność etyczna dotyczy nie tylko relacji w zespole, ale też architektury interfejsu i mechanizmów wpływu.
 - Trwała pozycja zawodowa psychologa w IT zależy od umiejętności: operacjonalizacji, walidacji i jasnej translacji wyników na działanie.
+- Dane procesowe (czas cyklu, rework, wskaźniki błędów, obciążenie poznawcze) są praktycznymi wskaźnikami jakości pracy zespołu.
 
 ## Powiązane artykuły (cross-linki)
 
@@ -80,3 +96,6 @@ Dominująca narracja mówi, że psycholog w IT „zmiękcza” komunikację i db
 4. Shneiderman, B. (2022). *Human-Centered AI*. Oxford University Press.
 5. OECD. (2019). *OECD Recommendation of the Council on Artificial Intelligence*.
 6. NIST. (2023). *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*.
+7. World Health Organization. (2019). *Burn-out an occupational phenomenon: International Classification of Diseases (ICD-11)*.
+8. Forsgren, N., Humble, J., & Kim, G. (2018). *Accelerate: The Science of Lean Software and DevOps*. IT Revolution.
+9. Nielsen, J., & Landauer, T. K. (1993). A mathematical model of the finding of usability problems. *Proceedings of INTERCHI*.
