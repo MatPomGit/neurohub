@@ -904,10 +904,13 @@ em{color:var(--goldl)}
   }
   .art-lbl{font-size:.94rem;line-height:1.45}
   .art-desc{font-size:.83rem;line-height:1.6}
-  .art-badge{
-    font-size:.66rem;
-    padding:.22rem .55rem;
-    margin-top:.12rem;
+  /* Na mobile etykiety zachowują te same parametry co na web (desktop),
+     aby wygląd statusów był spójny między urządzeniami. */
+  .art-badge,
+  .plan-badge{
+    font-size:.62rem;
+    padding:.18rem .5rem;
+    margin-top:.18rem;
   }
 }
 @media(min-width:901px){
@@ -935,9 +938,11 @@ em{color:var(--goldl)}
     flex-wrap:wrap;
     align-items:flex-start;
   }
+  /* Wąskie ekrany: usuwamy dodatkowe odsunięcie etykiet,
+     żeby pozycjonowanie było zgodne z wersją web. */
   .art-badge,
   .plan-badge{
-    margin-left:1.35rem;
+    margin-left:0;
   }
   .art-body{flex:1 1 100%}
   .art-lbl{font-size:.96rem}
