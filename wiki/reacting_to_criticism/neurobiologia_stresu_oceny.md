@@ -1,6 +1,8 @@
 # Neurobiologia stresu oceny społecznej: dlaczego krytyka potrafi „boleć fizycznie”
 
 ## Wprowadzenie
+Ciekawostka kliniczna: część osób najpierw zauważa sygnały ciała (np. napięcie szczęki), a dopiero po chwili identyfikuje emocję — to odwrócona kolejność, która bywa bardzo użyteczna diagnostycznie.
+
 Warto podkreślić, że reakcja na krytykę nie jest wyłącznie „cechą charakteru”, ale także wyuczonym nawykiem. Dobra wiadomość jest taka, że nawyki można trenować etapami, zaczynając od krótkich interwencji w codziennych rozmowach.
 
 Wielu pacjentów i studentów mówi: „Po tej rozmowie aż mnie ścisnęło w żołądku”. To nie metafora literacka, lecz opis realnego sprzężenia mózg–ciało. Krytyka uruchamia układy wykrywania zagrożenia, a organizm reaguje tak, jakby stawką było bezpieczeństwo społeczne.
@@ -17,6 +19,10 @@ Definicje pełnią tu rolę „mapy pojęciowej”: pomagają oddzielić język 
 
 ## Analiza
 ### Fakty empiryczne
+**Konkretna statystyka:** w przeglądzie Dickerson i Kemeny (2004) stresory łączące ocenę społeczną z poczuciem braku kontroli wywoływały najsilniejsze odpowiedzi osi HPA; w wielu protokołach laboratoryjnych obserwowano wyraźne piki kortyzolu w ciągu kilkunastu–kilkudziesięciu minut po ekspozycji.
+
+**Przykład praktyczny:** publiczna krytyka na forum zespołu zwykle generuje większą reaktywność somatyczną niż ten sam komunikat przekazany indywidualnie i z precyzyjnym kontekstem.
+
 W badaniach procesowych regularnie obserwuje się, że jakość reakcji na ocenę zależy od interakcji trzech czynników: historii relacyjnej, aktualnego poziomu stresu i jasności komunikatu. To właśnie ta triada najczęściej decyduje, czy rozmowa będzie budująca, czy eskalacyjna.
 
 W sytuacji krytyki mózg wykonuje błyskawiczną kalkulację: „Czy grozi mi utrata statusu, relacji albo wpływu?”. Jeśli odpowiedź brzmi „tak”, uruchamiane są trzy warstwy reakcji:

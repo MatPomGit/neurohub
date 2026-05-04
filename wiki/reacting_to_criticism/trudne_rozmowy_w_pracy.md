@@ -16,6 +16,10 @@ Definicje pełnią tu rolę „mapy pojęciowej”: pomagają oddzielić język 
 
 ## Analiza
 ### Fakty empiryczne
+**Konkretna statystyka:** w badaniach nad bezpieczeństwem psychologicznym (m.in. Edmondson) zespoły o wyższym poziomie bezpieczeństwa częściej raportują błędy — nie dlatego, że popełniają ich więcej, lecz dlatego, że szybciej je ujawniają i korygują.
+
+**Przykład organizacyjny:** dwa podobne incydenty produkcyjne mogą mieć zupełnie inny koszt naprawy; tam, gdzie błąd zgłoszono w ciągu godzin, naprawa zwykle wymaga mniejszego zakresu rollbacku niż przy opóźnieniu o kilka dni.
+
 W badaniach procesowych regularnie obserwuje się, że jakość reakcji na ocenę zależy od interakcji trzech czynników: historii relacyjnej, aktualnego poziomu stresu i jasności komunikatu. To właśnie ta triada najczęściej decyduje, czy rozmowa będzie budująca, czy eskalacyjna.
 
 W rozmowach o błędach działają dwie siły:
@@ -30,6 +34,8 @@ Z perspektywy praktycznej oznacza to konieczność pracy na dwóch poziomach nar
 W praktyce klinicznej i edukacyjnej same dane nie podejmują decyzji — robi to człowiek, który nadaje im znaczenie. Dlatego kluczowe jest łączenie dowodów naukowych z kontekstem sytuacyjnym, etapem rozwoju i zasobami relacyjnymi uczestników rozmowy.
 
 ## Dobra praktyka
+W praktyce warto dodać prostą miarę procesu: „czas od wykrycia błędu do pierwszej rozmowy naprawczej” (np. cel < 24 h dla incydentów wysokiego priorytetu). Taki wskaźnik porządkuje odpowiedzialność i ogranicza odkładanie trudnych rozmów.
+
 Wdrożenie dobrej praktyki jest skuteczniejsze, gdy umawiamy się na konkretne wskaźniki zmiany, np. krótszy czas wygaszania napięcia po trudnej rozmowie. Taka operacjonalizacja ułatwia monitorowanie postępu i korygowanie planu.
 
 ### Protokół rozmowy 4R

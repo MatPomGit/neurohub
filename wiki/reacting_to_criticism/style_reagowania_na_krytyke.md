@@ -17,6 +17,10 @@ Definicje pełnią tu rolę „mapy pojęciowej”: pomagają oddzielić język 
 
 ## Analiza
 ### Fakty empiryczne
+**Konkretna statystyka:** klasyczna metaanaliza interwencji feedbackowych (Kluger i DeNisi, 1996; *n* = 607 efektów) pokazała średni efekt około *d* = 0,41, ale w ponad 1/3 przypadków feedback pogarszał wykonanie zadania. To ważne ostrzeżenie: sam fakt „udzielenia informacji zwrotnej” nie gwarantuje poprawy.
+
+**Przykład praktyczny:** w zespole projektowym ten sam komunikat „to wymaga poprawy” może uruchomić styl uległy u juniora i kontratakujący u seniora, jeśli ich historia relacyjna z liderem jest odmienna.
+
 W badaniach procesowych regularnie obserwuje się, że jakość reakcji na ocenę zależy od interakcji trzech czynników: historii relacyjnej, aktualnego poziomu stresu i jasności komunikatu. To właśnie ta triada najczęściej decyduje, czy rozmowa będzie budująca, czy eskalacyjna.
 
 ### 1) Styl uległy
@@ -71,6 +75,8 @@ Z czasem może to prowadzić do wzrostu dystansu relacyjnego, unikania informacj
 Brak regulacji i brak struktury rozmowy zwykle nasilają napięcie, utrudniają uczenie się na błędach i podnoszą ryzyko utrwalenia nieadaptacyjnych wzorców reagowania.
 
 ## Perspektywa nieoczywista
+**Ciekawostka badawcza:** efekt negatywności sugeruje, że pojedynczy krytyczny komunikat bywa pamiętany dłużej niż kilka neutralnych komentarzy, dlatego proporcje i timing informacji zwrotnej mają znaczenie strategiczne.
+
 Taki punkt widzenia przesuwa akcent z pytania „kto zawinił?” na pytanie „jak skonstruować warunki, by reakcja była bardziej adaptacyjna?”. To podejście zwykle lepiej wspiera uczenie się i odpowiedzialność długoterminową.
 
 Dominujące podejście traktuje odporność na krytykę jako cechę jednostki („musisz być silniejszy/a psychicznie”). Podejście alternatywne — lepiej wspierane przez badania nad klimatem organizacyjnym — podkreśla, że jakość reakcji na krytykę jest **współtworzona przez środowisko**.
