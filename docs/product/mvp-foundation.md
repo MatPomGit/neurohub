@@ -181,3 +181,143 @@ Zakres MVP na 4 tygodnie koncentruje się na walidacji najbardziej krytycznych p
 3. Croll, A., & Yoskovitz, B. (2013). *Lean Analytics*. O’Reilly Media.
 4. Bloom, B. S. (red.) (1956). *Taxonomy of Educational Objectives: The Classification of Educational Goals*. Longman.
 5. Biggs, J., & Tang, C. (2011). *Teaching for Quality Learning at University* (4th ed.). Open University Press.
+
+
+## 9. Model treści dydaktycznej (ścieżka → moduł → lekcja → mini-zadanie → checkpoint)
+
+### 9.1 Definicje poziomów
+- **Ścieżka (Path):** pełny program nauki dla konkretnego celu (np. „Android Developer Start”).
+- **Moduł (Module):** większy blok kompetencyjny w obrębie ścieżki (np. „Stan UI i nawigacja”).
+- **Lekcja (Lesson):** najmniejsza jednostka treści do przyswojenia i przećwiczenia.
+- **Mini-zadanie (Mini-task):** krótkie zadanie praktyczne po lekcji, wymagane do odblokowania kolejnych elementów.
+- **Checkpoint umiejętności (Skill checkpoint):** formalna walidacja kompetencji po grupie lekcji.
+
+### 9.2 Struktura danych (kontrakt produktowy)
+```json
+{
+  "path": {
+    "id": "android-kotlin-compose",
+    "title": "Android: Kotlin + Jetpack Compose",
+    "modules": [
+      {
+        "id": "and-mod-1",
+        "title": "Fundamenty Kotlin i Android Studio",
+        "prerequisites": [],
+        "estimatedHours": 10,
+        "difficulty": "beginner",
+        "unlockCondition": "always",
+        "lessons": [
+          {
+            "id": "and-l-1",
+            "title": "Zmienne, funkcje, null safety",
+            "estimatedMinutes": 60,
+            "miniTask": {
+              "id": "and-t-1",
+              "title": "Kalkulator BMI",
+              "completionRule": "all_tests_passed"
+            }
+          }
+        ],
+        "checkpoint": {
+          "id": "and-cp-1",
+          "title": "Budowa prostej aplikacji jednookienkowej",
+          "passRule": "rubric_score>=70"
+        }
+      }
+    ]
+  }
+}
+```
+
+### 9.3 Zasady progresji
+1. Lekcja przechodzi do statusu „ukończona” po zaliczeniu mini-zadania.
+2. Checkpoint odblokowuje się po ukończeniu wszystkich lekcji modułu.
+3. Moduł uznaje się za zaliczony po pozytywnym checkpointcie.
+4. Kolejny moduł odblokowuje się wyłącznie po spełnieniu `unlockCondition`.
+
+## 10. Trzy roadmapy startowe
+
+### 10.1 Android — Kotlin / Jetpack Compose
+| Moduł | Zakres | Wymagania wstępne | Szacowany czas | Trudność | Warunek odblokowania |
+|---|---|---|---:|---|---|
+| A1. Fundamenty Kotlin i Android Studio | składnia Kotlin, Gradle, debugowanie | brak | 10 h | beginner | startowy |
+| A2. Compose UI i zarządzanie stanem | composables, state hoisting, Material 3 | A1 | 14 h | beginner+ | ukończony checkpoint A1 |
+| A3. Nawigacja i architektura | Navigation Compose, ViewModel, UDF | A2 | 12 h | intermediate | ukończony checkpoint A2 |
+| A4. Dane i komunikacja z API | Retrofit/Ktor, Room, mapowanie modeli | A3 | 16 h | intermediate | ukończony checkpoint A3 |
+| A5. Jakość i publikacja MVP | testy UI, testy jednostkowe, release build | A4 | 10 h | intermediate+ | ukończony checkpoint A4 |
+
+### 10.2 iOS — Swift / SwiftUI
+| Moduł | Zakres | Wymagania wstępne | Szacowany czas | Trudność | Warunek odblokowania |
+|---|---|---|---:|---|---|
+| I1. Fundamenty Swift i Xcode | typy, kontrola przepływu, tooling | brak | 10 h | beginner | startowy |
+| I2. SwiftUI Essentials | layout, state, binding, komponenty | I1 | 14 h | beginner+ | ukończony checkpoint I1 |
+| I3. Architektura i nawigacja | MVVM, NavigationStack, dependency flow | I2 | 12 h | intermediate | ukończony checkpoint I2 |
+| I4. Persistence i API | URLSession, Codable, Core Data/SwiftData | I3 | 16 h | intermediate | ukończony checkpoint I3 |
+| I5. Stabilizacja i TestFlight | testy, profilowanie, dystrybucja | I4 | 10 h | intermediate+ | ukończony checkpoint I4 |
+
+### 10.3 Cross-platform — Flutter / React Native
+| Moduł | Zakres | Wymagania wstępne | Szacowany czas | Trudność | Warunek odblokowania |
+|---|---|---|---:|---|---|
+| X1. Fundamenty środowiska cross-platform | setup SDK, emulatory, workflow | brak | 12 h | beginner | startowy |
+| X2. UI i komponenty | widgety/komponenty, stylowanie, layout | X1 | 16 h | beginner+ | ukończony checkpoint X1 |
+| X3. Stan aplikacji | Provider/BLoC lub Redux/Zustand | X2 | 14 h | intermediate | ukończony checkpoint X2 |
+| X4. Integracje natywne i API | pluginy, storage, REST/GraphQL | X3 | 18 h | intermediate+ | ukończony checkpoint X3 |
+| X5. Build, QA i publikacja | testy, CI/CD, release Android+iOS | X4 | 12 h | intermediate+ | ukończony checkpoint X4 |
+
+## 11. Mechanizm postępu
+
+### 11.1 Definicje metryk
+- **Procent modułu:** udział ukończonych lekcji w module.
+- **Procent ścieżki:** udział ukończonych modułów (zaliczone checkpointy) w całej ścieżce.
+
+### 11.2 Formuły
+- `moduleProgress = completedLessonsInModule / totalLessonsInModule * 100`
+- `pathProgress = completedModulesInPath / totalModulesInPath * 100`
+
+### 11.3 Reguła aktualizacji
+Po oznaczeniu lekcji jako „ukończona” system:
+1. aktualizuje `completedLessonsInModule`,
+2. przelicza `moduleProgress`,
+3. sprawdza, czy moduł spełnia warunki aktywacji checkpointu,
+4. po zaliczeniu checkpointu aktualizuje `completedModulesInPath`,
+5. przelicza `pathProgress` i wyznacza „następny krok”.
+
+## 12. Widok „Co już umiesz”
+
+### 12.1 Cel widoku
+Widok ma wzmacniać motywację i orientację poznawczą studenta przez prezentację kompetencji, a nie wyłącznie listy ukończonych treści.
+
+### 12.2 Źródło danych
+- wyłącznie zaliczone checkpointy,
+- mapowanie checkpoint → lista umiejętności (hard/soft),
+- poziom opanowania: podstawowy / operacyjny / samodzielny.
+
+### 12.3 Prezentacja
+1. Lista „Umiesz już” (karty kompetencji z krótkim opisem zastosowania).
+2. Sekcja „Dowód umiejętności” (link do mini-zadań lub artefaktów).
+3. Sekcja „Następny krok” (jedna rekomendacja uruchamiana bez dodatkowego wyszukiwania).
+
+## 13. Kryteria akceptacji UX
+
+### 13.1 Kryterium główne
+Student po wejściu do ścieżki **w mniej niż 5 sekund** identyfikuje kolejny krok i może go uruchomić jednym kliknięciem.
+
+### 13.2 Kryteria szczegółowe (Given/When/Then)
+1. **Given** student ma niedokończony moduł, **When** otwiera dashboard ścieżki, **Then** widzi przycisk „Kontynuuj lekcję X” nad listą modułów.
+2. **Given** student ukończył lekcję, **When** wraca do widoku ścieżki, **Then** procent modułu i ścieżki aktualizuje się bez ręcznego odświeżenia.
+3. **Given** student zaliczył checkpoint, **When** otwiera „Co już umiesz”, **Then** nowa kompetencja jest widoczna wraz z dowodem zaliczenia.
+4. **Given** kolejny moduł jest zablokowany, **When** student próbuje go otworzyć, **Then** system pokazuje brakujący warunek odblokowania i skrót do miejsca jego realizacji.
+5. **Given** student kończy ścieżkę, **When** otwiera dashboard, **Then** widzi status „Ścieżka ukończona” i rekomendację następnej ścieżki.
+
+### 13.3 Miary UX do monitorowania
+- CTR przycisku „Kontynuuj następny krok” ≥ 85%.
+- Mediana czasu znalezienia następnej aktywności ≤ 10 sekund.
+- Odsetek sesji z „błądzeniem nawigacyjnym” (≥3 nieproduktywne przejścia) ≤ 15%.
+
+
+## 14. Bibliografia uzupełniająca (projektowanie ścieżek)
+1. Mayer, R. E. (2020). *Multimedia Learning* (3rd ed.). Cambridge University Press.
+2. Clark, R. C., Nguyen, F., & Sweller, J. (2011). *Efficiency in Learning: Evidence-Based Guidelines to Manage Cognitive Load*. Pfeiffer.
+3. Anderson, L. W., & Krathwohl, D. R. (red.) (2001). *A Taxonomy for Learning, Teaching, and Assessing*. Longman.
+4. Ambrose, S. A. i in. (2010). *How Learning Works: Seven Research-Based Principles for Smart Teaching*. Jossey-Bass.
+5. Nielsen, J. (1994). *Usability Engineering*. Morgan Kaufmann.
